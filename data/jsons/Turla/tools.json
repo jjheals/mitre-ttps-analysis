@@ -1,0 +1,376 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--08fccacb-803c-4d00-baa7-ed6af83660ae",
+        "type": "relationship",
+        "created": "2019-07-08T15:24:25.014Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Waterbug Jun 2019",
+                "url": "https://www.symantec.com/blogs/threat-intelligence/waterbug-espionage-governments",
+                "description": "Symantec DeepSight Adversary Intelligence Team. (2019, June 20). Waterbug: Espionage Group Rolls Out Brand-New Toolset in Attacks Against Governments. Retrieved July 8, 2019."
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Symantec Waterbug Jun 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+        "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1ab3f63b-bd80-4e4c-8f62-79f26b9724ab",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.046Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/the-epic-turla-operation/65545/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.",
+                "source_name": "Kaspersky Turla"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Kaspersky Turla)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+        "target_ref": "tool--b35068ec-107a-4266-bda8-eb7036267aea",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3643f451-322d-4f38-91a4-00a55a42c7f5",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.046Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/the-epic-turla-operation/65545/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.",
+                "source_name": "Kaspersky Turla"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Kaspersky Turla)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+        "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--36f14542-1dd2-4b2e-b69f-d7f38ea9800e",
+        "type": "relationship",
+        "created": "2019-07-08T15:24:25.028Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Waterbug Jun 2019",
+                "url": "https://www.symantec.com/blogs/threat-intelligence/waterbug-espionage-governments",
+                "description": "Symantec DeepSight Adversary Intelligence Team. (2019, June 20). Waterbug: Espionage Group Rolls Out Brand-New Toolset in Attacks Against Governments. Retrieved July 8, 2019."
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Symantec Waterbug Jun 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+        "target_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--40848159-b266-42df-9cf8-785b2f78bcfc",
+        "type": "relationship",
+        "created": "2019-03-12T16:20:54.316Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Turla August 2018",
+                "url": "https://www.welivesecurity.com/wp-content/uploads/2018/08/Eset-Turla-Outlook-Backdoor.pdf",
+                "description": "ESET. (2018, August). Turla Outlook Backdoor: Analysis of an unusual Turla backdoor. Retrieved March 11, 2019."
+            },
+            {
+                "source_name": "ESET Crutch December 2020",
+                "url": "https://www.welivesecurity.com/2020/12/02/turla-crutch-keeping-back-door-open/",
+                "description": "Faou, M. (2020, December 2). Turla Crutch: Keeping the \u201cback door\u201d open. Retrieved December 4, 2020."
+            }
+        ],
+        "modified": "2020-12-07T21:18:04.668Z",
+        "description": "(Citation: ESET Turla August 2018)(Citation: ESET Crutch December 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+        "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--5543599a-779f-4955-8f3e-99cc92b1e2fc",
+        "created": "2021-02-25T16:48:06.231Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Unit 42 IronNetInjector February 2021 ",
+                "url": "https://unit42.paloaltonetworks.com/ironnetinjector/",
+                "description": "Reichel, D. (2021, February 19). IronNetInjector: Turla\u2019s New Malware Loading Tool. Retrieved February 24, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: Unit 42 IronNetInjector February 2021 )",
+        "modified": "2022-05-20T17:02:59.592Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+        "target_ref": "tool--b1595ddd-a783-482a-90e1-8afc8d48467e",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5c0645e4-f0c7-4bb4-bedb-29a96a472fe0",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.046Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/the-epic-turla-operation/65545/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.",
+                "source_name": "Kaspersky Turla"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Kaspersky Turla)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+        "target_ref": "tool--30489451-5886-4c46-90c9-0dff9adc5252",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8cdfc8e4-b657-4ae9-b9ee-9b6107fae796",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.046Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/the-epic-turla-operation/65545/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.",
+                "source_name": "Kaspersky Turla"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Kaspersky Turla)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+        "target_ref": "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b9c05069-a05f-4b74-9b4d-275c64f2e124",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/",
+                "description": "ESET Research. (2018, May 22). Turla Mosquito: A shift towards more generic tools. Retrieved July 3, 2018.",
+                "source_name": "ESET Turla Mosquito May 2018"
+            },
+            {
+                "source_name": "Symantec Waterbug Jun 2019",
+                "url": "https://www.symantec.com/blogs/threat-intelligence/waterbug-espionage-governments",
+                "description": "Symantec DeepSight Adversary Intelligence Team. (2019, June 20). Waterbug: Espionage Group Rolls Out Brand-New Toolset in Attacks Against Governments. Retrieved July 8, 2019."
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: ESET Turla Mosquito May 2018)(Citation: Symantec Waterbug Jun 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bd2a23f7-88cd-47d2-b30e-9356d0204a8e",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.046Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/the-epic-turla-operation/65545/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.",
+                "source_name": "Kaspersky Turla"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Kaspersky Turla)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+        "target_ref": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cd79beea-20ee-4b4f-aad1-5cc34d27398c",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.046Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/the-epic-turla-operation/65545/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.",
+                "source_name": "Kaspersky Turla"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Kaspersky Turla)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+        "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d0ed3128-67f0-43dd-b1d9-01843eb71b77",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.046Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/the-epic-turla-operation/65545/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.",
+                "source_name": "Kaspersky Turla"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Kaspersky Turla)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+        "target_ref": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e515dc29-7a69-4d0f-8a2a-d27722f3bd6b",
+        "type": "relationship",
+        "created": "2021-03-17T16:23:55.641Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Waterbug Jun 2019",
+                "url": "https://www.symantec.com/blogs/threat-intelligence/waterbug-espionage-governments",
+                "description": "Symantec DeepSight Adversary Intelligence Team. (2019, June 20). Waterbug: Espionage Group Rolls Out Brand-New Toolset in Attacks Against Governments. Retrieved July 8, 2019."
+            }
+        ],
+        "modified": "2021-03-23T18:34:56.922Z",
+        "description": "(Citation: Symantec Waterbug Jun 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+        "target_ref": "tool--b63970b7-ddfb-4aee-97b1-80d335e033a8",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]
