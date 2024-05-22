@@ -1,0 +1,248 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--164f3527-8811-4f4a-a561-060d010d78dd",
+        "type": "relationship",
+        "created": "2020-05-14T21:40:31.207Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Sharpshooter December 2018",
+                "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-sharpshooter.pdf",
+                "description": "Sherstobitoff, R., Malhotra, A., et. al.. (2018, December 18). Operation Sharpshooter Campaign Targets Global Defense, Critical Infrastructure. Retrieved May 14, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Sharpshooter](https://attack.mitre.org/groups/G0104) downloaded additional payloads after a target was infected with a first-stage downloader.(Citation: McAfee Sharpshooter December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5e78ae92-3ffd-4b16-bf62-e798529d73f1",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1a5f6f44-56a3-4219-af5c-1753e17d72d6",
+        "type": "relationship",
+        "created": "2020-05-15T16:56:55.451Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "modified": "2022-10-25T14:00:00.188Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5e78ae92-3ffd-4b16-bf62-e798529d73f1",
+        "target_ref": "malware--56e6b6c2-e573-4969-8bab-783205cebbbf",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "external_references": null,
+        "revoked": null,
+        "description": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--24d5ba1b-dbce-4c25-8180-1ee40b8c827f",
+        "type": "relationship",
+        "created": "2020-05-14T21:40:31.265Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Sharpshooter December 2018",
+                "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-sharpshooter.pdf",
+                "description": "Sherstobitoff, R., Malhotra, A., et. al.. (2018, December 18). Operation Sharpshooter Campaign Targets Global Defense, Critical Infrastructure. Retrieved May 14, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Sharpshooter](https://attack.mitre.org/groups/G0104) has sent malicious DOC and PDF files to targets so that they can be opened by a user.(Citation: McAfee Sharpshooter December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5e78ae92-3ffd-4b16-bf62-e798529d73f1",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6571753b-b52d-4a30-b674-426f358253b0",
+        "type": "relationship",
+        "created": "2020-05-14T21:40:31.204Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Sharpshooter December 2018",
+                "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-sharpshooter.pdf",
+                "description": "Sherstobitoff, R., Malhotra, A., et. al.. (2018, December 18). Operation Sharpshooter Campaign Targets Global Defense, Critical Infrastructure. Retrieved May 14, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Sharpshooter](https://attack.mitre.org/groups/G0104)'s first-stage downloader was a VBA macro.(Citation: McAfee Sharpshooter December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5e78ae92-3ffd-4b16-bf62-e798529d73f1",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9123ca09-3152-404c-92ed-52982cc043d5",
+        "type": "relationship",
+        "created": "2020-05-14T21:40:31.201Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Sharpshooter December 2018",
+                "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-sharpshooter.pdf",
+                "description": "Sherstobitoff, R., Malhotra, A., et. al.. (2018, December 18). Operation Sharpshooter Campaign Targets Global Defense, Critical Infrastructure. Retrieved May 14, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Sharpshooter](https://attack.mitre.org/groups/G0104)'s first-stage downloader resolved various Windows libraries and APIs, including LoadLibraryA(), GetProcAddress(), and CreateProcessA().(Citation: McAfee Sharpshooter December 2018)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5e78ae92-3ffd-4b16-bf62-e798529d73f1",
+        "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--abb78042-19f1-4ddf-82bb-afc67daeeca1",
+        "type": "relationship",
+        "created": "2020-05-15T17:03:12.918Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Sharpshooter December 2018",
+                "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-sharpshooter.pdf",
+                "description": "Sherstobitoff, R., Malhotra, A., et. al.. (2018, December 18). Operation Sharpshooter Campaign Targets Global Defense, Critical Infrastructure. Retrieved May 14, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Sharpshooter](https://attack.mitre.org/groups/G0104) has sent malicious Word OLE documents to victims.(Citation: McAfee Sharpshooter December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5e78ae92-3ffd-4b16-bf62-e798529d73f1",
+        "target_ref": "attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--aee0bd8a-1900-448b-bd88-5493f9ed8d28",
+        "type": "relationship",
+        "created": "2020-05-14T21:40:31.248Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Sharpshooter December 2018",
+                "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-sharpshooter.pdf",
+                "description": "Sherstobitoff, R., Malhotra, A., et. al.. (2018, December 18). Operation Sharpshooter Campaign Targets Global Defense, Critical Infrastructure. Retrieved May 14, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Sharpshooter](https://attack.mitre.org/groups/G0104) has leveraged embedded shellcode to inject a downloader into the memory of Word.(Citation: McAfee Sharpshooter December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5e78ae92-3ffd-4b16-bf62-e798529d73f1",
+        "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b65dc335-2dc2-41ca-8b68-a673a75761a2",
+        "type": "relationship",
+        "created": "2020-05-14T21:40:31.268Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Sharpshooter December 2018",
+                "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-sharpshooter.pdf",
+                "description": "Sherstobitoff, R., Malhotra, A., et. al.. (2018, December 18). Operation Sharpshooter Campaign Targets Global Defense, Critical Infrastructure. Retrieved May 14, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Sharpshooter](https://attack.mitre.org/groups/G0104) has sent malicious attachments via emails to targets.(Citation: McAfee Sharpshooter December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5e78ae92-3ffd-4b16-bf62-e798529d73f1",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e93e6c30-16aa-4f12-856b-19e96bdfdf28",
+        "type": "relationship",
+        "created": "2020-05-14T21:40:31.188Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Sharpshooter December 2018",
+                "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-sharpshooter.pdf",
+                "description": "Sherstobitoff, R., Malhotra, A., et. al.. (2018, December 18). Operation Sharpshooter Campaign Targets Global Defense, Critical Infrastructure. Retrieved May 14, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Sharpshooter](https://attack.mitre.org/groups/G0104)'s first-stage downloader installed [Rising Sun](https://attack.mitre.org/software/S0448) to the startup folder <code>%Startup%\\mssync.exe</code>.(Citation: McAfee Sharpshooter December 2018)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5e78ae92-3ffd-4b16-bf62-e798529d73f1",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

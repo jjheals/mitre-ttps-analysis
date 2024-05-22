@@ -1,0 +1,259 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--05e05236-1635-48d7-8ee3-33319c01c815",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.079Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/winnti-more-than-just-a-game/37029/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017.",
+                "source_name": "Kaspersky Winnti April 2013"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Winnti Group](https://attack.mitre.org/groups/G0044) used a rootkit to modify typical server functionality.(Citation: Kaspersky Winnti April 2013)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
+        "target_ref": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--33344564-0586-47fa-965f-ec9b4a462491",
+        "type": "relationship",
+        "created": "2020-08-24T15:01:02.103Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET PipeMon May 2020",
+                "url": "https://www.welivesecurity.com/2020/05/21/no-game-over-winnti-group/",
+                "description": "Tartare, M. et al. (2020, May 21). No \u201cGame over\u201d for the Winnti Group. Retrieved August 24, 2020."
+            }
+        ],
+        "modified": "2020-08-24T15:01:02.103Z",
+        "description": "(Citation: ESET PipeMon May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
+        "target_ref": "malware--8393dac0-0583-456a-9372-fd81691bca20",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a70d06e8-63dd-4cb3-83a5-f7bd8f2a8132",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.079Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/winnti-more-than-just-a-game/37029/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017.",
+                "source_name": "Kaspersky Winnti April 2013"
+            },
+            {
+                "url": "https://securelist.com/games-are-over/70991/",
+                "description": "Tarakanov, D. (2015, June 22). Games are over: Winnti is now targeting pharmaceutical companies. Retrieved January 14, 2016.",
+                "source_name": "Kaspersky Winnti June 2015"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Kaspersky Winnti April 2013)(Citation: Kaspersky Winnti June 2015)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
+        "target_ref": "malware--d3afa961-a80c-4043-9509-282cdf69ab21",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c21009bb-5a7b-438d-9aed-1ec85cbd0d75",
+        "type": "relationship",
+        "created": "2022-01-05T15:41:45.972Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/winnti-more-than-just-a-game/37029/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017.",
+                "source_name": "Kaspersky Winnti April 2013"
+            }
+        ],
+        "modified": "2022-01-05T15:41:45.972Z",
+        "description": "[Winnti Group](https://attack.mitre.org/groups/G0044) has downloaded an auxiliary program named ff.exe to infected machines.(Citation: Kaspersky Winnti April 2013)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--db0b0cf9-cb49-43ed-aa61-d4215d1775b8",
+        "type": "relationship",
+        "created": "2022-01-05T15:41:45.937Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/winnti-more-than-just-a-game/37029/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017.",
+                "source_name": "Kaspersky Winnti April 2013"
+            }
+        ],
+        "modified": "2022-01-05T15:41:45.937Z",
+        "description": "[Winnti Group](https://attack.mitre.org/groups/G0044) has used a program named ff.exe to search for specific documents on compromised hosts.(Citation: Kaspersky Winnti April 2013)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e6dadc21-2dcd-41fc-a706-a08942551487",
+        "type": "relationship",
+        "created": "2022-01-05T15:22:14.254Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/winnti-more-than-just-a-game/37029/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017.",
+                "source_name": "Kaspersky Winnti April 2013"
+            }
+        ],
+        "modified": "2022-01-05T15:22:14.254Z",
+        "description": "[Winnti Group](https://attack.mitre.org/groups/G0044) has registered domains for C2 that mimicked sites of their intended targets.(Citation: Kaspersky Winnti April 2013)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
+        "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e8cb4430-db05-4029-b011-926a2ba17a4c",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.079Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/winnti-more-than-just-a-game/37029/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017.",
+                "source_name": "Kaspersky Winnti April 2013"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Winnti Group](https://attack.mitre.org/groups/G0044) looked for a specific process running on infected servers.(Citation: Kaspersky Winnti April 2013)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
+        "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f28627be-fddd-455c-b001-abddaaa29fa7",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.079Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/winnti-more-than-just-a-game/37029/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017.",
+                "source_name": "Kaspersky Winnti April 2013"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Winnti Group](https://attack.mitre.org/groups/G0044) used stolen certificates to sign its malware.(Citation: Kaspersky Winnti April 2013)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
+        "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f9911b03-f413-483b-b228-f5a82657c2d1",
+        "type": "relationship",
+        "created": "2022-01-05T15:37:40.852Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://securelist.com/winnti-more-than-just-a-game/37029/",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017.",
+                "source_name": "Kaspersky Winnti April 2013"
+            }
+        ],
+        "modified": "2022-01-05T15:37:40.852Z",
+        "description": "(Citation: Kaspersky Winnti April 2013)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
+        "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

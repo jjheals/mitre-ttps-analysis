@@ -1,0 +1,582 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--09237e32-a423-4ce3-bb15-4e47848ee7f7",
+        "type": "relationship",
+        "created": "2021-04-12T16:09:30.772Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "BlackBerry Bahamut",
+                "url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-spark-bahamut.pdf",
+                "description": "The BlackBerry Research & Intelligence Team. (2020, October). BAHAMUT: Hack-for-Hire Masters of Phishing, Fake News, and Fake Apps. Retrieved February 8, 2021."
+            }
+        ],
+        "modified": "2021-05-24T13:16:56.593Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used malware to enumerate active processes.(Citation: BlackBerry Bahamut)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0c3668cf-32c1-420f-a1c0-0c8598360ad8",
+        "type": "relationship",
+        "created": "2020-06-25T18:50:24.164Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "objective-see windtail1 dec 2018",
+                "url": "https://objective-see.com/blog/blog_0x3B.html",
+                "description": "Wardle, Patrick. (2018, December 20). Middle East Cyber-Espionage analyzing WindShift's implant: OSX.WindTail (part 1). Retrieved October 3, 2019."
+            }
+        ],
+        "modified": "2020-06-25T18:50:24.164Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used compromised websites to register custom URL schemes on a remote system.(Citation: objective-see windtail1 dec 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--116f105a-ee8c-4544-9164-a0a28a572228",
+        "type": "relationship",
+        "created": "2021-04-09T16:08:58.533Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "BlackBerry Bahamut",
+                "url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-spark-bahamut.pdf",
+                "description": "The BlackBerry Research & Intelligence Team. (2020, October). BAHAMUT: Hack-for-Hire Masters of Phishing, Fake News, and Fake Apps. Retrieved February 8, 2021."
+            }
+        ],
+        "modified": "2021-05-24T13:16:56.594Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used Visual Basic 6 (VB6) payloads.(Citation: BlackBerry Bahamut)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1a2f3d08-8a75-4ad5-8aba-445d37ebbff8",
+        "type": "relationship",
+        "created": "2021-04-12T16:05:57.864Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "BlackBerry Bahamut",
+                "url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-spark-bahamut.pdf",
+                "description": "The BlackBerry Research & Intelligence Team. (2020, October). BAHAMUT: Hack-for-Hire Masters of Phishing, Fake News, and Fake Apps. Retrieved February 8, 2021."
+            }
+        ],
+        "modified": "2021-05-24T13:16:56.580Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used malware to identify installed AV and commonly used forensic and malware analysis tools.(Citation: BlackBerry Bahamut)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1ab045b8-35b4-4920-8223-d1a6b8c6ae1e",
+        "type": "relationship",
+        "created": "2020-06-25T17:48:41.207Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "SANS Windshift August 2018",
+                "url": "https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1554718868.pdf",
+                "description": "Karim, T. (2018, August). TRAILS OF WINDSHIFT. Retrieved June 25, 2020."
+            }
+        ],
+        "modified": "2020-06-26T13:38:42.247Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has sent spearphishing emails with attachment to harvest credentials and deliver malware.(Citation: SANS Windshift August 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2332793b-afd0-407b-a1dc-97c5c7580bcb",
+        "type": "relationship",
+        "created": "2020-06-25T17:48:41.195Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "SANS Windshift August 2018",
+                "url": "https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1554718868.pdf",
+                "description": "Karim, T. (2018, August). TRAILS OF WINDSHIFT. Retrieved June 25, 2020."
+            }
+        ],
+        "modified": "2020-06-25T17:48:41.195Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used links embedded in e-mails to lure victims into executing malicious code.(Citation: SANS Windshift August 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--241c2c47-3659-4899-bf5b-64f0ed94c916",
+        "type": "relationship",
+        "created": "2020-06-26T13:46:14.290Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "SANS Windshift August 2018",
+                "url": "https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1554718868.pdf",
+                "description": "Karim, T. (2018, August). TRAILS OF WINDSHIFT. Retrieved June 25, 2020."
+            }
+        ],
+        "modified": "2020-06-26T13:46:14.290Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used fake personas on social media to engage and target victims.(Citation: SANS Windshift August 2018)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--f6ad61ee-65f3-4bd0-a3f5-2f0accb36317",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4fb841dd-93d8-404a-8738-5fe19a53c730",
+        "type": "relationship",
+        "created": "2020-06-25T17:22:29.070Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "SANS Windshift August 2018",
+                "url": "https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1554718868.pdf",
+                "description": "Karim, T. (2018, August). TRAILS OF WINDSHIFT. Retrieved June 25, 2020."
+            },
+            {
+                "source_name": "objective-see windtail1 dec 2018",
+                "url": "https://objective-see.com/blog/blog_0x3B.html",
+                "description": "Wardle, Patrick. (2018, December 20). Middle East Cyber-Espionage analyzing WindShift's implant: OSX.WindTail (part 1). Retrieved October 3, 2019."
+            },
+            {
+                "source_name": "objective-see windtail2 jan 2019",
+                "url": "https://objective-see.com/blog/blog_0x3D.html",
+                "description": "Wardle, Patrick. (2019, January 15). Middle East Cyber-Espionage analyzing WindShift's implant: OSX.WindTail (part 2). Retrieved October 3, 2019."
+            }
+        ],
+        "modified": "2020-06-25T17:22:29.070Z",
+        "description": "(Citation: SANS Windshift August 2018)(Citation: objective-see windtail1 dec 2018)(Citation: objective-see windtail2 jan 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "malware--0d1f9f5b-11ea-42c3-b5f4-63cce0122541",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6aeeb7e4-fc09-40a6-b071-c04df0f92928",
+        "type": "relationship",
+        "created": "2021-04-19T19:24:55.384Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "BlackBerry Bahamut",
+                "url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-spark-bahamut.pdf",
+                "description": "The BlackBerry Research & Intelligence Team. (2020, October). BAHAMUT: Hack-for-Hire Masters of Phishing, Fake News, and Fake Apps. Retrieved February 8, 2021."
+            }
+        ],
+        "modified": "2021-05-24T13:16:56.659Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has created LNK files in the Startup folder to establish persistence.(Citation: BlackBerry Bahamut)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--715262b6-9d31-4589-ba53-fb5d7be3f1f5",
+        "type": "relationship",
+        "created": "2021-04-12T16:09:30.721Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "BlackBerry Bahamut",
+                "url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-spark-bahamut.pdf",
+                "description": "The BlackBerry Research & Intelligence Team. (2020, October). BAHAMUT: Hack-for-Hire Masters of Phishing, Fake News, and Fake Apps. Retrieved February 8, 2021."
+            }
+        ],
+        "modified": "2021-05-24T13:16:56.598Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used malware to identify installed software.(Citation: BlackBerry Bahamut)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--88157c8d-48d7-4114-8783-d22999a8f990",
+        "type": "relationship",
+        "created": "2020-06-25T17:48:41.203Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "SANS Windshift August 2018",
+                "url": "https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1554718868.pdf",
+                "description": "Karim, T. (2018, August). TRAILS OF WINDSHIFT. Retrieved June 25, 2020."
+            }
+        ],
+        "modified": "2020-06-25T17:48:41.203Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has sent spearphishing emails with links to harvest credentials and deliver malware.(Citation: SANS Windshift August 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--893c9a7a-7f2c-4b96-877e-06870d5f989f",
+        "type": "relationship",
+        "created": "2020-06-25T17:48:41.211Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "objective-see windtail1 dec 2018",
+                "url": "https://objective-see.com/blog/blog_0x3B.html",
+                "description": "Wardle, Patrick. (2018, December 20). Middle East Cyber-Espionage analyzing WindShift's implant: OSX.WindTail (part 1). Retrieved October 3, 2019."
+            },
+            {
+                "source_name": "SANS Windshift August 2018",
+                "url": "https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1554718868.pdf",
+                "description": "Karim, T. (2018, August). TRAILS OF WINDSHIFT. Retrieved June 25, 2020."
+            }
+        ],
+        "modified": "2020-06-25T17:48:41.211Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used revoked certificates to sign malware.(Citation: objective-see windtail1 dec 2018)(Citation: SANS Windshift August 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--b4b7458f-81f2-4d38-84be-1c5ba0167a52",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--996defcb-8a62-4271-9d01-93d66525b159",
+        "type": "relationship",
+        "created": "2021-04-09T16:03:47.435Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "BlackBerry Bahamut",
+                "url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-spark-bahamut.pdf",
+                "description": "The BlackBerry Research & Intelligence Team. (2020, October). BAHAMUT: Hack-for-Hire Masters of Phishing, Fake News, and Fake Apps. Retrieved February 8, 2021."
+            }
+        ],
+        "modified": "2021-05-24T13:16:56.577Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used string encoding with floating point calculations.(Citation: BlackBerry Bahamut)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--aca30dc6-34c2-45f3-87a4-9d9abda01036",
+        "type": "relationship",
+        "created": "2021-04-09T16:08:58.515Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "BlackBerry Bahamut",
+                "url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-spark-bahamut.pdf",
+                "description": "The BlackBerry Research & Intelligence Team. (2020, October). BAHAMUT: Hack-for-Hire Masters of Phishing, Fake News, and Fake Apps. Retrieved February 8, 2021."
+            }
+        ],
+        "modified": "2021-05-24T13:16:56.581Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used tools that communicate with C2 over HTTP.(Citation: BlackBerry Bahamut)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ad880548-e776-4e7b-995d-ce6fdc91e865",
+        "type": "relationship",
+        "created": "2020-06-25T17:48:41.197Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "objective-see windtail1 dec 2018",
+                "url": "https://objective-see.com/blog/blog_0x3B.html",
+                "description": "Wardle, Patrick. (2018, December 20). Middle East Cyber-Espionage analyzing WindShift's implant: OSX.WindTail (part 1). Retrieved October 3, 2019."
+            },
+            {
+                "source_name": "BlackBerry Bahamut",
+                "url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-spark-bahamut.pdf",
+                "description": "The BlackBerry Research & Intelligence Team. (2020, October). BAHAMUT: Hack-for-Hire Masters of Phishing, Fake News, and Fake Apps. Retrieved February 8, 2021."
+            }
+        ],
+        "modified": "2021-05-24T13:16:56.340Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used icons mimicking MS Office files to mask malicious executables.(Citation: objective-see windtail1 dec 2018) [Windshift](https://attack.mitre.org/groups/G0112) has also attempted to hide executables by changing the file extension to \".scr\" to mimic Windows screensavers.(Citation: BlackBerry Bahamut)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c43ec2e6-3769-4a1c-b99a-2d8988c7a207",
+        "type": "relationship",
+        "created": "2021-04-12T16:05:58.027Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "BlackBerry Bahamut",
+                "url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-spark-bahamut.pdf",
+                "description": "The BlackBerry Research & Intelligence Team. (2020, October). BAHAMUT: Hack-for-Hire Masters of Phishing, Fake News, and Fake Apps. Retrieved February 8, 2021."
+            }
+        ],
+        "modified": "2021-05-24T13:16:56.658Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used tools to deploy additional payloads to compromised hosts.(Citation: BlackBerry Bahamut)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c53a4d1a-7d41-451e-a4f8-4f69ad27ab7d",
+        "type": "relationship",
+        "created": "2021-04-12T16:15:42.609Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "BlackBerry Bahamut",
+                "url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-spark-bahamut.pdf",
+                "description": "The BlackBerry Research & Intelligence Team. (2020, October). BAHAMUT: Hack-for-Hire Masters of Phishing, Fake News, and Fake Apps. Retrieved February 8, 2021."
+            }
+        ],
+        "modified": "2021-05-24T13:16:56.588Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used WMI to collect information about target machines.(Citation: BlackBerry Bahamut)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--caf951a5-6952-4966-941d-71d9cd598b28",
+        "type": "relationship",
+        "created": "2021-04-12T16:12:36.763Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "BlackBerry Bahamut",
+                "url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-spark-bahamut.pdf",
+                "description": "The BlackBerry Research & Intelligence Team. (2020, October). BAHAMUT: Hack-for-Hire Masters of Phishing, Fake News, and Fake Apps. Retrieved February 8, 2021."
+            }
+        ],
+        "modified": "2021-05-24T13:16:56.578Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used malware to identify the username on a compromised host.(Citation: BlackBerry Bahamut)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ea41718b-4215-43d4-8d1f-def88af935e3",
+        "type": "relationship",
+        "created": "2021-04-12T16:12:36.773Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "BlackBerry Bahamut",
+                "url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-spark-bahamut.pdf",
+                "description": "The BlackBerry Research & Intelligence Team. (2020, October). BAHAMUT: Hack-for-Hire Masters of Phishing, Fake News, and Fake Apps. Retrieved February 8, 2021."
+            }
+        ],
+        "modified": "2021-05-24T13:16:56.575Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used malware to identify the computer name of a compromised host.(Citation: BlackBerry Bahamut)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f7800d2b-7eb5-4efe-ac8d-503c187d18ef",
+        "type": "relationship",
+        "created": "2020-06-25T17:48:41.169Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "SANS Windshift August 2018",
+                "url": "https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1554718868.pdf",
+                "description": "Karim, T. (2018, August). TRAILS OF WINDSHIFT. Retrieved June 25, 2020."
+            }
+        ],
+        "modified": "2020-06-25T17:48:41.169Z",
+        "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used e-mail attachments to lure victims into executing malicious code.(Citation: SANS Windshift August 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

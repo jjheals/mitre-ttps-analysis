@@ -1,0 +1,3314 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--032fb34d-3434-4667-9d5e-6bb9fd6b7d00",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            },
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: FireEye APT32 May 2017)(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0743264d-1356-4f9e-96cc-8698f5e0e862",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.553Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used pass the hash for lateral movement.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0d7c99f4-b1af-4278-b8bf-3bb04cce166d",
+        "type": "relationship",
+        "created": "2020-06-19T20:04:12.191Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-19T20:04:12.191Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has disguised a Cobalt Strike beacon as a Flash Installer.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--18771b0e-2d4b-4f76-ae1e-9cdac1c77cd0",
+        "type": "relationship",
+        "created": "2020-06-26T14:21:13.800Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            },
+            {
+                "source_name": "Volexity Ocean Lotus November 2020",
+                "url": "https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites/",
+                "description": "Adair, S. and Lancaster, T. (2020, November 6). OceanLotus: Extending Cyber Espionage Operations Through Fake Websites. Retrieved November 20, 2020."
+            }
+        ],
+        "modified": "2020-11-24T21:27:55.074Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used JavaScript for drive-by downloads and C2 communications.(Citation: Cybereason Cobalt Kitty 2017)(Citation: Volexity Ocean Lotus November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--18e8e653-d924-4fed-a33f-7893cf8a683b",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.589Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) used WMI to deploy their tools on remote machines and to gather information about the Outlook process.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1c01c64c-8842-44be-bd66-8355eb5d543c",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.782Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1d3654f8-3a5e-4ef8-826f-4242ecf78c0a",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            }
+        ],
+        "modified": "2020-03-17T15:50:42.900Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) compromised McAfee ePO to move laterally by distributing malware as a software deployment task.(Citation: FireEye APT32 May 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1ecf4ac9-faad-4d2d-9a01-2618a7a54806",
+        "type": "relationship",
+        "created": "2020-06-19T20:04:12.131Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-19T20:04:12.131Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has deployed tools after moving laterally using administrative accounts.(Citation: Cybereason Cobalt Kitty 2017)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1eeb08cb-8b06-45a7-bf74-fb8bdaa4b02f",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.592Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-24T03:16:06.453Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) used NTFS alternate data streams to hide their payloads.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--f2857333-11d4-45bf-b064-2c28d8525be5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--304f5c1b-7cfa-4c2a-b7a2-e4957da603b1",
+        "type": "relationship",
+        "created": "2020-03-19T22:10:50.454Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Cybereason Oceanlotus May 2017",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018."
+            },
+            {
+                "source_name": "Cybereason Cobalt Kitty 2017",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf"
+            }
+        ],
+        "modified": "2020-06-19T21:36:32.167Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) used Outlook Credential Dumper to harvest credentials stored in Windows registry.(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--341e222a-a6e3-4f6f-b69c-831d792b1580",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3502b4bb-0e14-46b3-a92c-ba1c9d574259",
+        "type": "relationship",
+        "created": "2021-09-24T19:13:57.242Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Amnesty Intl. Ocean Lotus February 2021",
+                "url": "https://www.amnestyusa.org/wp-content/uploads/2021/02/Click-and-Bait_Vietnamese-Human-Rights-Defenders-Targeted-with-Spyware-Attacks.pdf",
+                "description": "Amnesty International. (2021, February 24). Vietnamese activists targeted by notorious hacking group. Retrieved March 1, 2021."
+            },
+            {
+                "source_name": "Unit 42 KerrDown February 2019",
+                "url": "https://unit42.paloaltonetworks.com/tracking-oceanlotus-new-downloader-kerrdown/",
+                "description": "Ray, V. and Hayashi, K. (2019, February 1). Tracking OceanLotus\u2019 new Downloader, KerrDown. Retrieved October 1, 2021."
+            }
+        ],
+        "modified": "2021-10-01T17:41:39.252Z",
+        "description": "(Citation: Amnesty Intl. Ocean Lotus February 2021)(Citation: Unit 42 KerrDown February 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "malware--8c1d01ff-fdc0-4586-99bd-c248e0761af5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--36af6d80-fef4-40b9-9b32-a2947eadd9e7",
+        "type": "relationship",
+        "created": "2020-06-19T20:04:12.179Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-19T20:04:12.179Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) malware has injected a Cobalt Strike beacon into Rundll32.exe.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--36f3f6df-5007-4075-84a3-9708132f1468",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Twitter ItsReallyNick Status Update APT32 PubPrn",
+                "description": "Carr, N. (2017, December 22). ItsReallyNick Status Update. Retrieved April 9, 2018.",
+                "url": "https://twitter.com/ItsReallyNick/status/944321013084573697"
+            }
+        ],
+        "modified": "2020-02-06T18:30:21.671Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used PubPrn.vbs within execution scripts to execute malware, possibly bypassing defenses.(Citation: Twitter ItsReallyNick Status Update APT32 PubPrn)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--09cd431f-eaf4-4d2a-acaf-2a7acfe7ed58",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3a8d8063-3f4d-420d-8c72-2b99077aa487",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus",
+                "description": "Folt\u00fdn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.",
+                "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/"
+            },
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            },
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            },
+            {
+                "source_name": "FireEye APT32 April 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/04/apt32-targeting-chinese-government-in-covid-19-related-espionage.html",
+                "description": "Henderson, S., et al. (2020, April 22). Vietnamese Threat Actors APT32 Targeting Wuhan Government and Chinese Ministry of Emergency Management in Latest Example of COVID-19 Related Espionage. Retrieved April 28, 2020."
+            },
+            {
+                "source_name": "Amnesty Intl. Ocean Lotus February 2021",
+                "url": "https://www.amnestyusa.org/wp-content/uploads/2021/02/Click-and-Bait_Vietnamese-Human-Rights-Defenders-Targeted-with-Spyware-Attacks.pdf",
+                "description": "Amnesty International. (2021, February 24). Vietnamese activists targeted by notorious hacking group. Retrieved March 1, 2021."
+            }
+        ],
+        "modified": "2021-09-24T20:24:27.639Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has sent spearphishing emails with a malicious executable disguised as a document or spreadsheet.(Citation: ESET OceanLotus)(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)(Citation: ESET OceanLotus Mar 2019)(Citation: FireEye APT32 April 2020)(Citation: Amnesty Intl. Ocean Lotus February 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3c3f5cdb-f2cd-4bab-8196-26f160b38a5e",
+        "type": "relationship",
+        "created": "2020-06-19T20:04:12.134Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-29T16:54:26.406Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) used the <code>net view</code> command to show all shares available, including the administrative shares such as <code>C$</code> and <code>ADMIN$</code>.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--40032198-f003-4171-92a0-faf038f62a0b",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye APT32 April 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/04/apt32-targeting-chinese-government-in-covid-19-related-espionage.html",
+                "description": "Henderson, S., et al. (2020, April 22). Vietnamese Threat Actors APT32 Targeting Wuhan Government and Chinese Ministry of Emergency Management in Latest Example of COVID-19 Related Espionage. Retrieved April 28, 2020."
+            },
+            {
+                "source_name": "ESET OceanLotus",
+                "description": "Folt\u00fdn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.",
+                "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-19T20:04:12.207Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) collected the victim's username and executed the <code>whoami</code> command on the victim's machine. [APT32](https://attack.mitre.org/groups/G0050) executed shellcode to collect the username on the victim's machine. (Citation: FireEye APT32 April 2020)(Citation: ESET OceanLotus)(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4050ee68-3f26-49e6-beec-e2a62133a1c3",
+        "type": "relationship",
+        "created": "2020-03-30T20:26:08.736Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus Mar 2019",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019."
+            }
+        ],
+        "modified": "2020-03-30T20:26:08.736Z",
+        "description": "An [APT32](https://attack.mitre.org/groups/G0050) backdoor can use HTTP over a non-standard TCP port (e.g 14146) which is specified in the backdoor configuration.(Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--43809fa9-dbe2-4429-875e-f0828563d6aa",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus",
+                "description": "Folt\u00fdn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.",
+                "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/"
+            },
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            },
+            {
+                "source_name": "ESET OceanLotus macOS April 2019",
+                "url": "https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/",
+                "description": "Dumont, R.. (2019, April 9). OceanLotus: macOS malware update. Retrieved April 15, 2019."
+            },
+            {
+                "source_name": "FireEye APT32 April 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/04/apt32-targeting-chinese-government-in-covid-19-related-espionage.html",
+                "description": "Henderson, S., et al. (2020, April 22). Vietnamese Threat Actors APT32 Targeting Wuhan Government and Chinese Ministry of Emergency Management in Latest Example of COVID-19 Related Espionage. Retrieved April 28, 2020."
+            }
+        ],
+        "modified": "2020-06-19T20:04:12.572Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has collected the OS version and computer name from victims. One of the group's backdoors can also query the Windows Registry to gather system information, and another macOS backdoor performs a fingerprint of the machine on its first connection to the C&C server. [APT32](https://attack.mitre.org/groups/G0050) executed shellcode to identify the name of the infected host.(Citation: ESET OceanLotus)(Citation: ESET OceanLotus Mar 2019)(Citation: ESET OceanLotus macOS April 2019)(Citation: FireEye APT32 April 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--45407caa-cfee-426d-a928-04db128b7ce8",
+        "type": "relationship",
+        "created": "2020-11-24T21:19:49.257Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Ocean Lotus November 2020",
+                "url": "https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites/",
+                "description": "Adair, S. and Lancaster, T. (2020, November 6). OceanLotus: Extending Cyber Espionage Operations Through Fake Websites. Retrieved November 20, 2020."
+            }
+        ],
+        "modified": "2020-11-24T21:19:49.257Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has set up and operated websites to gather information and deliver malware.(Citation: Volexity Ocean Lotus November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--46144407-0f14-4358-8d4e-23b3ef13cb4e",
+        "type": "relationship",
+        "created": "2019-04-01T21:09:50.335Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050)'s backdoor can query the Windows Registry to gather system information. (Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4683801a-abe8-4db2-88b9-ebbd2073bfeb",
+        "created": "2023-03-21T21:09:26.160Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "GitHub Invoke-Obfuscation",
+                "description": "Bohannon, D.. (2017, March 13). Invoke-Obfuscation - PowerShell Obfuscator. Retrieved June 18, 2017.",
+                "url": "https://github.com/danielbohannon/Invoke-Obfuscation"
+            },
+            {
+                "source_name": "FireEye APT32 May 2017",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html"
+            },
+            {
+                "source_name": "Cybereason Cobalt Kitty 2017",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-21T21:10:06.454Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used the `Invoke-Obfuscation` framework to obfuscate their PowerShell.(Citation: FireEye APT32 May 2017)(Citation: GitHub Invoke-Obfuscation)(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--46e6fd22-1f0b-452c-bcf3-c24fe5911fd4",
+        "type": "relationship",
+        "created": "2019-04-24T16:33:49.452Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-17T18:48:45.312Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used cmd.exe for execution.(Citation: Cybereason Cobalt Kitty 2017) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--46fa464b-20e0-4c77-9b75-580f9f236c43",
+        "type": "relationship",
+        "created": "2020-03-17T00:11:31.829Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus Mar 2019",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019."
+            }
+        ],
+        "modified": "2020-03-17T03:02:39.724Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050)'s backdoor can exfiltrate data by encoding it in the subdomain field of DNS packets.(Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4ef9490e-e347-4f4e-aa6f-c082e02349fc",
+        "type": "relationship",
+        "created": "2020-11-06T18:40:38.466Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye APT32 May 2017",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html"
+            },
+            {
+                "source_name": "Volexity OceanLotus Nov 2017",
+                "description": "Lassalle, D., et al. (2017, November 6). OceanLotus Blossoms: Mass Digital Surveillance and Attacks Targeting ASEAN, Asian Nations, the Media, Human Rights Groups, and Civil Society. Retrieved November 6, 2017.",
+                "url": "https://www.volexity.com/blog/2017/11/06/oceanlotus-blossoms-mass-digital-surveillance-and-exploitation-of-asean-nations-the-media-human-rights-and-civil-society/"
+            },
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            },
+            {
+                "source_name": "Volexity Ocean Lotus November 2020",
+                "url": "https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites/",
+                "description": "Adair, S. and Lancaster, T. (2020, November 6). OceanLotus: Extending Cyber Espionage Operations Through Fake Websites. Retrieved November 20, 2020."
+            },
+            {
+                "source_name": "Amnesty Intl. Ocean Lotus February 2021",
+                "url": "https://www.amnestyusa.org/wp-content/uploads/2021/02/Click-and-Bait_Vietnamese-Human-Rights-Defenders-Targeted-with-Spyware-Attacks.pdf",
+                "description": "Amnesty International. (2021, February 24). Vietnamese activists targeted by notorious hacking group. Retrieved March 1, 2021."
+            },
+            {
+                "source_name": "Unit 42 KerrDown February 2019",
+                "url": "https://unit42.paloaltonetworks.com/tracking-oceanlotus-new-downloader-kerrdown/",
+                "description": "Ray, V. and Hayashi, K. (2019, February 1). Tracking OceanLotus\u2019 new Downloader, KerrDown. Retrieved October 1, 2021."
+            }
+        ],
+        "modified": "2021-10-01T17:41:39.276Z",
+        "description": "(Citation: FireEye APT32 May 2017)(Citation: Volexity OceanLotus Nov 2017)(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)(Citation: Volexity Ocean Lotus November 2020)(Citation: Amnesty Intl. Ocean Lotus February 2021)(Citation: Unit 42 KerrDown February 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4f13e788-b0da-457d-89b1-64196c9627b8",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            },
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            }
+        ],
+        "modified": "2020-06-19T20:04:12.612Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) ran legitimately-signed executables from Symantec and McAfee which load a malicious DLL. The group also side-loads its backdoor by dropping a library and a legitimate, signed executable (AcroTranscoder).(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)(Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--55f58d30-b633-4094-97bb-6ab872c0f480",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: FireEye APT32 May 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "malware--9ca488bd-9587-48ef-b923-1743523e63b2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--56f587e1-d7c3-4489-945e-58c4ee3e4ba7",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.813Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Horejsi, J. (2018, April 04). New MacOS Backdoor Linked to OceanLotus Found. Retrieved November 13, 2018.",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-macos-backdoor-linked-to-oceanlotus-found/",
+                "source_name": "TrendMicro MacOS April 2018"
+            },
+            {
+                "source_name": "Amnesty Intl. Ocean Lotus February 2021",
+                "url": "https://www.amnestyusa.org/wp-content/uploads/2021/02/Click-and-Bait_Vietnamese-Human-Rights-Defenders-Targeted-with-Spyware-Attacks.pdf",
+                "description": "Amnesty International. (2021, February 24). Vietnamese activists targeted by notorious hacking group. Retrieved March 1, 2021."
+            }
+        ],
+        "modified": "2021-09-24T20:24:27.311Z",
+        "description": "(Citation: TrendMicro MacOS April 2018)(Citation: Amnesty Intl. Ocean Lotus February 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "malware--b00f90b6-c75c-4bfd-b813-ca9e6c9ebf29",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5758382a-2ada-4d05-ad25-8ee802a9e041",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.708Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus",
+                "description": "Folt\u00fdn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.",
+                "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/"
+            },
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "source_name": "FireEye APT32 April 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/04/apt32-targeting-chinese-government-in-covid-19-related-espionage.html",
+                "description": "Henderson, S., et al. (2020, April 22). Vietnamese Threat Actors APT32 Targeting Wuhan Government and Chinese Ministry of Emergency Management in Latest Example of COVID-19 Related Espionage. Retrieved April 28, 2020."
+            },
+            {
+                "source_name": "Volexity Ocean Lotus November 2020",
+                "url": "https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites/",
+                "description": "Adair, S. and Lancaster, T. (2020, November 6). OceanLotus: Extending Cyber Espionage Operations Through Fake Websites. Retrieved November 20, 2020."
+            },
+            {
+                "source_name": "Amnesty Intl. Ocean Lotus February 2021",
+                "url": "https://www.amnestyusa.org/wp-content/uploads/2021/02/Click-and-Bait_Vietnamese-Human-Rights-Defenders-Targeted-with-Spyware-Attacks.pdf",
+                "description": "Amnesty International. (2021, February 24). Vietnamese activists targeted by notorious hacking group. Retrieved March 1, 2021."
+            }
+        ],
+        "modified": "2021-09-24T20:24:27.075Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has sent spearphishing emails containing malicious links.(Citation: ESET OceanLotus)(Citation: Cybereason Oceanlotus May 2017)(Citation: FireEye APT32 April 2020)(Citation: Volexity Ocean Lotus November 2020)(Citation: Amnesty Intl. Ocean Lotus February 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5bc091f3-0059-4eab-ab68-5e4474108fdf",
+        "type": "relationship",
+        "created": "2020-11-24T21:27:52.657Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Ocean Lotus November 2020",
+                "url": "https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites/",
+                "description": "Adair, S. and Lancaster, T. (2020, November 6). OceanLotus: Extending Cyber Espionage Operations Through Fake Websites. Retrieved November 20, 2020."
+            }
+        ],
+        "modified": "2020-11-24T21:27:52.657Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used malicious links to direct users to web pages designed to harvest credentials.(Citation: Volexity Ocean Lotus November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5ccd4b15-ef11-4b89-b0e1-4dd714fa2fb5",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: FireEye APT32 May 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "malware--7dbb67c7-270a-40ad-836e-c45f8948aa5a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5d45479d-7cc2-49cc-8f10-5ead0a1db033",
+        "type": "relationship",
+        "created": "2020-03-18T19:33:54.619Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-29T17:03:09.817Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) enumerated administrative users using the commands <code>net localgroup administrators</code>.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5f00edf9-fcfc-4514-8d06-bc69f91f9260",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            },
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used PowerShell-based tools, PowerShell one-liners, and shellcode loaders for execution.(Citation: FireEye APT32 May 2017)(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--63835d80-f52b-472c-a605-b0360eea3539",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.714Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-19T22:10:50.772Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) used Mimikatz and customized versions of Windows Credential Dumper to harvest credentials.(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--63994c7c-6544-4e29-9c94-ac2237166774",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.546Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) performed network scanning on the network to search for open ports, services, OS finger-printing, and other vulnerabilities.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6c4a3ef5-8aee-4fe8-b2c6-386f90c057a4",
+        "type": "relationship",
+        "created": "2021-04-20T02:54:12.394Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Ocean Lotus November 2020",
+                "url": "https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites/",
+                "description": "Adair, S. and Lancaster, T. (2020, November 6). OceanLotus: Extending Cyber Espionage Operations Through Fake Websites. Retrieved November 20, 2020."
+            }
+        ],
+        "modified": "2021-04-20T02:54:12.394Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has stood up websites containing numerous articles and content scraped from the Internet to make them appear legitimate, but some of these pages include malicious JavaScript to profile the potential victim or infect them via a fake software update.(Citation: Volexity Ocean Lotus November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6dc0069c-5e6a-474f-946d-cc1cd13bc486",
+        "type": "relationship",
+        "created": "2019-04-01T21:09:50.295Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050)'s backdoor has exfiltrated data using the already opened channel with its C&C server.(Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6f0b6cfd-ebe2-46f3-9be1-0075237dbcb9",
+        "type": "relationship",
+        "created": "2020-03-17T23:17:09.409Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            }
+        ],
+        "modified": "2020-06-26T17:02:14.327Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used hidden or non-printing characters to help masquerade service names, such as appending a Unicode no-break space character to a legitimate service name. [APT32](https://attack.mitre.org/groups/G0050) has also impersonated the legitimate Flash installer file name \"install_flashplayer.exe\".(Citation: FireEye APT32 May 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6f75cf7f-1c21-4c22-983b-fac20ea85101",
+        "type": "relationship",
+        "created": "2020-03-19T22:10:50.463Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Cybereason Oceanlotus May 2017",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018."
+            },
+            {
+                "source_name": "Cybereason Cobalt Kitty 2017",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf"
+            }
+        ],
+        "modified": "2020-03-19T22:10:50.463Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) used GetPassword_x64 to harvest credentials.(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--70bc1a16-3c57-4198-b2f9-c7f27bec271c",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            }
+        ],
+        "modified": "2020-03-16T18:30:14.861Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used legitimate local admin account credentials.(Citation: FireEye APT32 May 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7133e850-c3f2-48c2-b610-22e3501354df",
+        "type": "relationship",
+        "created": "2021-03-02T14:05:06.837Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Amnesty Intl. Ocean Lotus February 2021",
+                "url": "https://www.amnestyusa.org/wp-content/uploads/2021/02/Click-and-Bait_Vietnamese-Human-Rights-Defenders-Targeted-with-Spyware-Attacks.pdf",
+                "description": "Amnesty International. (2021, February 24). Vietnamese activists targeted by notorious hacking group. Retrieved March 1, 2021."
+            }
+        ],
+        "modified": "2021-09-24T20:24:27.670Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has conducted targeted surveillance against activists and bloggers.(Citation: Amnesty Intl. Ocean Lotus February 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--5282dd9a-d26d-4e16-88b7-7c0f4553daf4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--71a8ae5e-3a78-49b5-9857-e202d636cedf",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            },
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            },
+            {
+                "source_name": "ESET OceanLotus macOS April 2019",
+                "url": "https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/",
+                "description": "Dumont, R.. (2019, April 9). OceanLotus: macOS malware update. Retrieved April 15, 2019."
+            }
+        ],
+        "modified": "2020-06-19T20:04:12.444Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used scheduled task raw XML with a backdated timestamp of June 2, 2016. The group has also set the creation time of the files dropped by the second stage of the exploit to match the creation time of kernel32.dll. Additionally, [APT32](https://attack.mitre.org/groups/G0050) has used a random value to modify the timestamp of the file storing the clientID.(Citation: FireEye APT32 May 2017)(Citation: ESET OceanLotus Mar 2019)(Citation: ESET OceanLotus macOS April 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--72f9bf47-61ac-42c8-acbf-65be7c25af0f",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus",
+                "description": "Folt\u00fdn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.",
+                "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/"
+            },
+            {
+                "source_name": "Volexity Ocean Lotus November 2020",
+                "url": "https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites/",
+                "description": "Adair, S. and Lancaster, T. (2020, November 6). OceanLotus: Extending Cyber Espionage Operations Through Fake Websites. Retrieved November 20, 2020."
+            }
+        ],
+        "modified": "2020-11-24T21:19:49.896Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has infected victims by tricking them into visiting compromised watering hole websites.(Citation: ESET OceanLotus)(Citation: Volexity Ocean Lotus November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--749fb1ed-d73c-4317-8c0f-6c059cff094f",
+        "type": "relationship",
+        "created": "2020-06-19T20:04:12.136Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-19T20:04:12.136Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) malware has used rundll32.exe to execute an initial infection process.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--768a6678-4823-4af5-bfd9-1a92c562b9f2",
+        "type": "relationship",
+        "created": "2020-06-26T14:21:13.786Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-26T14:21:13.786Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used COM scriptlets to download Cobalt Strike beacons.(Citation: Cybereason Cobalt Kitty 2017)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--76d2d007-1adb-4e04-8e79-dbd799ff57ef",
+        "created": "2019-04-01T21:09:50.380Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus Mar 2019",
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-26T17:40:13.744Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050)'s backdoor has modified the Windows Registry to store the backdoor's configuration. (Citation: ESET OceanLotus Mar 2019)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--76ec3407-84df-4bc9-8679-09564ca9329e",
+        "type": "relationship",
+        "created": "2020-03-17T00:11:31.843Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "source_name": "Cybereason Cobalt Kitty 2017",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf"
+            }
+        ],
+        "modified": "2020-03-17T00:11:31.843Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used email for C2 via an Office macro.(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--54b4c251-1f0e-4eba-ba6b-dbc7a6f6f06b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7723037f-0b2e-447b-811a-d18a109570bb",
+        "type": "relationship",
+        "created": "2019-04-01T21:09:50.338Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            }
+        ],
+        "modified": "2020-03-30T01:51:57.341Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050)'s backdoor has used LZMA compression and RC4 encryption before exfiltration.(Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--788a6ca2-60ac-4f36-b708-c3a57f087b2b",
+        "type": "relationship",
+        "created": "2020-06-19T20:04:12.189Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            },
+            {
+                "source_name": "Volexity Ocean Lotus November 2020",
+                "url": "https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites/",
+                "description": "Adair, S. and Lancaster, T. (2020, November 6). OceanLotus: Extending Cyber Espionage Operations Through Fake Websites. Retrieved November 20, 2020."
+            },
+            {
+                "source_name": "Amnesty Intl. Ocean Lotus February 2021",
+                "url": "https://www.amnestyusa.org/wp-content/uploads/2021/02/Click-and-Bait_Vietnamese-Human-Rights-Defenders-Targeted-with-Spyware-Attacks.pdf",
+                "description": "Amnesty International. (2021, February 24). Vietnamese activists targeted by notorious hacking group. Retrieved March 1, 2021."
+            }
+        ],
+        "modified": "2021-10-01T17:41:39.248Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has lured targets to download a Cobalt Strike beacon by including a malicious link within spearphishing emails.(Citation: Cybereason Cobalt Kitty 2017)(Citation: Volexity Ocean Lotus November 2020)(Citation: Amnesty Intl. Ocean Lotus February 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--79057890-3cd0-4124-8b35-b86db6b4f9d7",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity OceanLotus Nov 2017",
+                "description": "Lassalle, D., et al. (2017, November 6). OceanLotus Blossoms: Mass Digital Surveillance and Attacks Targeting ASEAN, Asian Nations, the Media, Human Rights Groups, and Civil Society. Retrieved November 6, 2017.",
+                "url": "https://www.volexity.com/blog/2017/11/06/oceanlotus-blossoms-mass-digital-surveillance-and-exploitation-of-asean-nations-the-media-human-rights-and-civil-society/"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-19T20:04:12.428Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used JavaScript that communicates over HTTP or HTTPS to attacker controlled domains to download additional frameworks. The group has also used downloaded encrypted payloads over HTTP.(Citation: Volexity OceanLotus Nov 2017)(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7e7d5aa9-6860-44fe-88b9-22a6b36162e2",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            },
+            {
+                "source_name": "Volexity Ocean Lotus November 2020",
+                "url": "https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites/",
+                "description": "Adair, S. and Lancaster, T. (2020, November 6). OceanLotus: Extending Cyber Espionage Operations Through Fake Websites. Retrieved November 20, 2020."
+            }
+        ],
+        "modified": "2020-11-24T21:27:53.722Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has renamed a NetCat binary to kb-10233.exe to masquerade as a Windows update. [APT32](https://attack.mitre.org/groups/G0050) has also renamed a Cobalt Strike beacon payload to install_flashplayers.exe. (Citation: Cybereason Cobalt Kitty 2017)(Citation: Volexity Ocean Lotus November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8029cccc-e198-4326-ac27-67b5968007ee",
+        "type": "relationship",
+        "created": "2019-04-15T20:57:46.666Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus macOS April 2019",
+                "url": "https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/",
+                "description": "Dumont, R.. (2019, April 9). OceanLotus: macOS malware update. Retrieved April 15, 2019."
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050)'s macOS backdoor can receive a \u201cdelete\u201d command.(Citation: ESET OceanLotus macOS April 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--885cd1fe-9e7b-4e94-a6cc-01bb8ad655fd",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            }
+        ],
+        "modified": "2020-02-18T03:34:05.471Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has cleared select event log entries.(Citation: FireEye APT32 May 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--8cc515c2-01b6-4cd7-a928-1131ffe5f11c",
+        "created": "2023-03-26T17:48:27.879Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus Mar 2019",
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-26T17:48:27.879Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050)'s backdoor has stored its configuration in a registry key.(Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--02c5abff-30bf-4703-ab92-1f6072fae939",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--93f1726f-f172-4705-a13a-d5adaeb4e91b",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity OceanLotus Nov 2017",
+                "description": "Lassalle, D., et al. (2017, November 6). OceanLotus Blossoms: Mass Digital Surveillance and Attacks Targeting ASEAN, Asian Nations, the Media, Human Rights Groups, and Civil Society. Retrieved November 6, 2017.",
+                "url": "https://www.volexity.com/blog/2017/11/06/oceanlotus-blossoms-mass-digital-surveillance-and-exploitation-of-asean-nations-the-media-human-rights-and-civil-society/"
+            }
+        ],
+        "modified": "2020-06-19T20:04:12.448Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has added JavaScript to victim websites to download additional frameworks that profile and compromise website visitors.(Citation: Volexity OceanLotus Nov 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--98908617-068d-4b6e-bcba-ad213c137b1e",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            },
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            },
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            }
+        ],
+        "modified": "2020-03-28T21:22:43.255Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used scheduled tasks to persist on victim systems.(Citation: FireEye APT32 May 2017)(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)(Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9932d0d8-ad06-4a4f-8acf-1502c2b5f009",
+        "type": "relationship",
+        "created": "2020-03-17T23:17:09.427Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Twitter ItsReallyNick APT32 pubprn Masquerade",
+                "url": "https://twitter.com/ItsReallyNick/status/945681177108762624",
+                "description": "Carr, N.. (2017, December 26). Nick Carr Status Update APT32 pubprn. Retrieved April 22, 2019."
+            }
+        ],
+        "modified": "2020-03-18T19:33:55.186Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has moved and renamed pubprn.vbs to a .txt file to avoid detection.(Citation: Twitter ItsReallyNick APT32 pubprn Masquerade)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--bd5b58a4-a52d-4a29-bc0d-3f1d3968eb6b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9c97e0aa-61fd-4f42-881f-763a1b03c16b",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.791Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "tool--5a63f900-5e7e-4928-a746-dd4558e1df71",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9cacb002-a04a-4779-997e-0cc9efaabda2",
+        "type": "relationship",
+        "created": "2020-03-25T13:55:54.240Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/",
+                "description": "Folt\u00fdn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.",
+                "source_name": "ESET OceanLotus"
+            },
+            {
+                "source_name": "Cybereason Cobalt Kitty 2017",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf"
+            },
+            {
+                "source_name": "ESET OceanLotus Mar 2019",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019."
+            }
+        ],
+        "modified": "2020-03-25T13:55:54.240Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) modified Windows Services to ensure PowerShell scripts were loaded on the system. [APT32](https://attack.mitre.org/groups/G0050) also creates a Windows service to establish persistence.(Citation: ESET OceanLotus)(Citation: Cybereason Cobalt Kitty 2017)(Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9ed7e90a-8034-48eb-8444-9ec29941a7b8",
+        "type": "relationship",
+        "created": "2021-04-20T03:36:35.464Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Ocean Lotus November 2020",
+                "url": "https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites/",
+                "description": "Adair, S. and Lancaster, T. (2020, November 6). OceanLotus: Extending Cyber Espionage Operations Through Fake Websites. Retrieved November 20, 2020."
+            }
+        ],
+        "modified": "2021-04-20T03:36:35.464Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has hosted malicious payloads in Dropbox, Amazon S3, and Google Drive for use during targeting.(Citation: Volexity Ocean Lotus November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a17eaa6b-8ef7-459e-a2e7-2d25e767370e",
+        "created": "2023-06-14T17:09:26.482Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "netlab360 rotajakiro vs oceanlotus",
+                "description": "Alex Turing. (2021, May 6). RotaJakiro, the Linux version of the OceanLotus. Retrieved June 14, 2023.",
+                "url": "https://blog.netlab.360.com/rotajakiro_linux_version_of_oceanlotus/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-06-14T17:09:26.482Z",
+        "description": "(Citation: netlab360 rotajakiro vs oceanlotus)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "malware--08e844a8-371f-4fe3-9d1f-e056e64a7fde",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a4409632-996c-4f20-bdb0-a8e92c98307f",
+        "type": "relationship",
+        "created": "2019-04-15T20:57:46.671Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus macOS April 2019",
+                "url": "https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/",
+                "description": "Dumont, R.. (2019, April 9). OceanLotus: macOS malware update. Retrieved April 15, 2019."
+            }
+        ],
+        "modified": "2020-03-17T15:10:11.093Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050)'s macOS backdoor changes the permission of the file it wants to execute to 755.(Citation: ESET OceanLotus macOS April 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--09b130a2-a77e-4af0-a361-f46f9aad1345",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a491cb90-9480-450b-9a57-55b95b249d31",
+        "type": "relationship",
+        "created": "2019-04-01T21:09:50.383Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050)'s backdoor has used Windows services as a way to execute its malicious payload. (Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a6080757-7935-439b-b70f-72ba841cda03",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.596Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-29T16:54:25.889Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has enumerated DC servers using the command <code>net group \"Domain Controllers\" /domain</code>. The group has also used the <code>ping</code> command.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a7f5320a-dd76-4fa0-998f-44860ff1b307",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.706Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used mshta.exe for code execution.(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a933bad9-0f92-4a25-9b46-19120737caee",
+        "type": "relationship",
+        "created": "2019-04-01T21:09:50.332Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050)'s backdoor possesses the capability to list files and directories on a machine. (Citation: ESET OceanLotus Mar 2019)\t\n",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b019ea9e-afc4-4015-b690-677a09178feb",
+        "type": "relationship",
+        "created": "2020-03-17T18:19:22.984Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "source_name": "Cybereason Cobalt Kitty 2017",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf"
+            }
+        ],
+        "modified": "2020-03-17T18:19:22.984Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used macros, COM scriptlets, and VBS scripts.(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bb8fd9d4-4362-40c6-ab09-f05f843c2cef",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: FireEye APT32 May 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "malware--f6ae7a52-f3b6-4525-9daf-640c083f006e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bfa11036-022f-49b3-a6bd-7cf2083a264e",
+        "type": "relationship",
+        "created": "2021-10-12T19:48:13.315Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye APT32 May 2017",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html"
+            },
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            }
+        ],
+        "modified": "2021-10-12T19:48:13.315Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has obtained and used tools such as [Mimikatz](https://attack.mitre.org/software/S0002) and [Cobalt Strike](https://attack.mitre.org/software/S0154), and a variety of other open-source tools from GitHub.(Citation: FireEye APT32 May 2017)(Citation: Cybereason Oceanlotus May 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bfdffc50-dba0-41d1-a332-0a02a0a8de07",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.487Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) used [Net](https://attack.mitre.org/software/S0039) to use Windows' hidden network shares to copy their tools to remote machines for execution.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c08684c8-8467-4b7f-a9ac-3330cf423261",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.538Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) successfully gained remote access by using pass the ticket.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--7b211ac6-c815-4189-93a9-ab415deca926",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c16c1ef2-2356-4987-bd9e-2cdaa007281a",
+        "type": "relationship",
+        "created": "2020-11-24T21:27:52.600Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Ocean Lotus November 2020",
+                "url": "https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites/",
+                "description": "Adair, S. and Lancaster, T. (2020, November 6). OceanLotus: Extending Cyber Espionage Operations Through Fake Websites. Retrieved November 20, 2020."
+            }
+        ],
+        "modified": "2020-11-24T21:27:52.600Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has set up Dropbox, Amazon S3, and Google Drive to host malicious downloads.(Citation: Volexity Ocean Lotus November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c7017855-dc52-4e9d-977f-3af701e094c8",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity OceanLotus Nov 2017",
+                "description": "Lassalle, D., et al. (2017, November 6). OceanLotus Blossoms: Mass Digital Surveillance and Attacks Targeting ASEAN, Asian Nations, the Media, Human Rights Groups, and Civil Society. Retrieved November 6, 2017.",
+                "url": "https://www.volexity.com/blog/2017/11/06/oceanlotus-blossoms-mass-digital-surveillance-and-exploitation-of-asean-nations-the-media-human-rights-and-civil-society/"
+            }
+        ],
+        "modified": "2020-03-18T19:33:54.732Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used Web shells to maintain access to victim websites.(Citation: Volexity OceanLotus Nov 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c7bb75c5-c678-4ea7-b9ed-0c12c5de3077",
+        "type": "relationship",
+        "created": "2019-04-15T20:57:46.638Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus macOS April 2019",
+                "url": "https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/",
+                "description": "Dumont, R.. (2019, April 9). OceanLotus: macOS malware update. Retrieved April 15, 2019."
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050)'s macOS backdoor hides the clientID file via a chflags function.(Citation: ESET OceanLotus macOS April 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c9660ab0-33d4-434d-833f-cc1969b04f7a",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.805Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "tool--30489451-5886-4c46-90c9-0dff9adc5252",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cbc1d2d8-aac7-498a-a034-f0a672977c11",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.601Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) used the <code>ipconfig /all</code> command to gather the IP address from the system.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d57fba3a-0ed8-49a1-9446-13a4b73c3bc5",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/",
+                "description": "Folt\u00fdn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.",
+                "source_name": "ESET OceanLotus"
+            },
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            }
+        ],
+        "modified": "2020-02-05T15:00:14.270Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) includes garbage code to mislead anti-malware software and researchers.(Citation: ESET OceanLotus)(Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--5bfccc3f-2326-4112-86cc-c1ece9d8a2b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d9c29485-ced4-4ebc-880c-31d35dd54b26",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: FireEye APT32 May 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "malware--98e8a977-3416-43aa-87fa-33e287e9c14c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--db852d3d-7f78-43b9-bd14-3f2d11c22863",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.599Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) used the <code>netstat -anpo tcp</code> command to display TCP connections on the victim's machine.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--db8530c2-ce41-4943-8a17-91502187fd06",
+        "type": "relationship",
+        "created": "2019-10-10T21:57:37.023Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            },
+            {
+                "source_name": "Cybereason Cobalt Kitty 2017",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf"
+            }
+        ],
+        "modified": "2021-02-09T13:55:29.574Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used the WindowStyle parameter to conceal [PowerShell](https://attack.mitre.org/techniques/T1059/001) windows. (Citation: FireEye APT32 May 2017) (Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--db91e39d-daa4-4f9c-a7a6-be67eba712d2",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "GitHub Invoke-Obfuscation",
+                "description": "Bohannon, D.. (2017, March 13). Invoke-Obfuscation - PowerShell Obfuscator. Retrieved June 18, 2017.",
+                "url": "https://github.com/danielbohannon/Invoke-Obfuscation"
+            },
+            {
+                "source_name": "FireEye APT32 May 2017",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html"
+            },
+            {
+                "source_name": "Cybereason Oceanlotus May 2017",
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt"
+            },
+            {
+                "source_name": "Cybereason Cobalt Kitty 2017",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf"
+            },
+            {
+                "source_name": "ESET OceanLotus Mar 2019",
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/"
+            },
+            {
+                "source_name": "ESET OceanLotus macOS April 2019",
+                "description": "Dumont, R.. (2019, April 9). OceanLotus: macOS malware update. Retrieved April 15, 2019.",
+                "url": "https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/"
+            },
+            {
+                "source_name": "ESET OceanLotus",
+                "description": "Folt\u00fdn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.",
+                "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-11T03:01:25.129Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has performed code obfuscation, including encoding payloads using Base64 and using a framework called \"Dont-Kill-My-Cat (DKMC). [APT32](https://attack.mitre.org/groups/G0050) also encrypts the library used for network exfiltration with AES-256 in CBC mode in their macOS backdoor.(Citation: FireEye APT32 May 2017)(Citation: GitHub Invoke-Obfuscation)(Citation: ESET OceanLotus)(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)(Citation: ESET OceanLotus Mar 2019)(Citation: ESET OceanLotus macOS April 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--dc8bedf8-c6fe-4b99-bde0-db676ba35a91",
+        "type": "relationship",
+        "created": "2020-06-19T21:36:31.630Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-19T21:36:31.630Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has abused the PasswordChangeNotify to monitor for and capture account password changes.(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--dcb3ae1c-c1a5-4a28-b206-40f8387804ac",
+        "type": "relationship",
+        "created": "2021-03-01T16:51:08.237Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Amnesty Intl. Ocean Lotus February 2021",
+                "url": "https://www.amnestyusa.org/wp-content/uploads/2021/02/Click-and-Bait_Vietnamese-Human-Rights-Defenders-Targeted-with-Spyware-Attacks.pdf",
+                "description": "Amnesty International. (2021, February 24). Vietnamese activists targeted by notorious hacking group. Retrieved March 1, 2021."
+            }
+        ],
+        "modified": "2021-09-24T20:24:27.308Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has collected e-mail addresses for activists and bloggers in order to target them with spyware.(Citation: Amnesty Intl. Ocean Lotus February 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--dfcc52d8-4664-48c4-9e35-2be2cd649d93",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            },
+            {
+                "source_name": "FireEye APT32 May 2017",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-19T20:04:12.233Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) created a [Scheduled Task/Job](https://attack.mitre.org/techniques/T1053) that used regsvr32.exe to execute a COM scriptlet that dynamically downloaded a backdoor and injected it into memory. The group has also used regsvr32 to run their backdoor.(Citation: ESET OceanLotus Mar 2019)(Citation: FireEye APT32 May 2017)(Citation: Cybereason Cobalt Kitty 2017) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e0033e57-8839-42b9-8515-46e9c7dca966",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used CVE-2016-7255 to escalate privileges.(Citation: FireEye APT32 May 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e122b9fa-d722-4ee8-a5d7-0e585277676d",
+        "type": "relationship",
+        "created": "2020-11-24T21:19:49.189Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Ocean Lotus November 2020",
+                "url": "https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites/",
+                "description": "Adair, S. and Lancaster, T. (2020, November 6). OceanLotus: Extending Cyber Espionage Operations Through Fake Websites. Retrieved November 20, 2020."
+            }
+        ],
+        "modified": "2020-11-24T21:19:49.189Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has set up Facebook pages in tandem with fake websites.(Citation: Volexity Ocean Lotus November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--b1ccd744-3f78-4a0e-9bb2-2002057f7928",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e1f7179b-37ac-4f47-8368-0f55814a6447",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.720Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-29T21:45:35.957Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) have replaced Microsoft Outlook's VbaProject.OTM file to install a backdoor macro for persistence.(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--2c4d4e92-0ccf-4a97-b54c-86d662988a53",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e2048373-fe76-4f99-8608-60eaa05d1b2b",
+        "type": "relationship",
+        "created": "2019-04-01T21:09:50.292Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used RTF document that includes an exploit to execute malicious code. (CVE-2017-11882)(Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e25ea0c4-513b-489d-943d-2828034f764f",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.944Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "malware--f25aab1a-0cef-4910-a85d-bb38b32ea41a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e725bb68-9fe3-4c43-8ef5-57d57b40b066",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.800Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ea7c1a9f-7d8e-4a06-8331-9901a33ee7d8",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus",
+                "description": "Folt\u00fdn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.",
+                "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/"
+            },
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            },
+            {
+                "source_name": "FireEye APT32 April 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/04/apt32-targeting-chinese-government-in-covid-19-related-espionage.html",
+                "description": "Henderson, S., et al. (2020, April 22). Vietnamese Threat Actors APT32 Targeting Wuhan Government and Chinese Ministry of Emergency Management in Latest Example of COVID-19 Related Espionage. Retrieved April 28, 2020."
+            },
+            {
+                "source_name": "Amnesty Intl. Ocean Lotus February 2021",
+                "url": "https://www.amnestyusa.org/wp-content/uploads/2021/02/Click-and-Bait_Vietnamese-Human-Rights-Defenders-Targeted-with-Spyware-Attacks.pdf",
+                "description": "Amnesty International. (2021, February 24). Vietnamese activists targeted by notorious hacking group. Retrieved March 1, 2021."
+            }
+        ],
+        "modified": "2021-09-24T20:24:27.706Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has attempted to lure users to execute a malicious dropper delivered via a spearphishing attachment.(Citation: ESET OceanLotus)(Citation: Cybereason Oceanlotus May 2017)(Citation: ESET OceanLotus Mar 2019)(Citation: FireEye APT32 April 2020)(Citation: Amnesty Intl. Ocean Lotus February 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f4a0f496-b47c-4bdf-affb-b57fb17203db",
+        "type": "relationship",
+        "created": "2019-01-31T01:07:58.711Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "source_name": "Cybereason Oceanlotus May 2017"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            },
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) established persistence using Registry Run keys, both to execute PowerShell and VBS scripts as well as to execute their backdoor directly.(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)(Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f7ea9daf-5233-48b3-918f-9cea402b708f",
+        "type": "relationship",
+        "created": "2020-06-19T21:38:45.615Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "modified": "2020-06-19T21:38:45.615Z",
+        "description": "(Citation: Cybereason Cobalt Kitty 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "malware--eac3d77f-2b7b-4599-ba74-948dc16633ad",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fdf8d947-f896-4797-9c6f-00b211a602a6",
+        "type": "relationship",
+        "created": "2020-11-24T21:30:08.802Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Ocean Lotus November 2020",
+                "url": "https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites/",
+                "description": "Adair, S. and Lancaster, T. (2020, November 6). OceanLotus: Extending Cyber Espionage Operations Through Fake Websites. Retrieved November 20, 2020."
+            }
+        ],
+        "modified": "2020-11-24T21:39:14.739Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used Dropbox, Amazon S3, and Google Drive to host malicious downloads.(Citation: Volexity Ocean Lotus November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4477e350-645d-40de-8de7-7a6e1680c2e0",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017"
+            },
+            {
+                "source_name": "GitHub Malleable C2",
+                "description": "Mudge, R. (2014, July 14). Github Malleable-C2-Profiles safebrowsing.profile. Retrieved June 18, 2017.",
+                "url": "https://github.com/rsmudge/Malleable-C2-Profiles/blob/master/normal/safebrowsing.profile"
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            },
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            },
+            {
+                "source_name": "ESET OceanLotus macOS April 2019",
+                "url": "https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/",
+                "description": "Dumont, R.. (2019, April 9). OceanLotus: macOS malware update. Retrieved April 15, 2019."
+            }
+        ],
+        "modified": "2023-04-25T14:00:00.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) uses [Cobalt Strike](https://attack.mitre.org/software/S0154)'s malleable C2 functionality to blend in with network traffic.(Citation: FireEye APT32 May 2017)(Citation: GitHub Malleable C2)(Citation: Cybereason Cobalt Kitty 2017) The group's backdoor can also exfiltrate data by encoding it in the subdomain field of DNS packets.(Citation: ESET OceanLotus Mar 2019) Additionally, one of the group's macOS backdoors implements a specific format for the C2 packet involving random values.(Citation: ESET OceanLotus macOS April 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--f72eb8a8-cd4c-461d-a814-3f862befbf00",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f1492f41-c3fb-4231-9a18-a90334aa3234",
+        "type": "relationship",
+        "created": "2019-04-01T21:09:50.268Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+                "source_name": "ESET OceanLotus Mar 2019"
+            }
+        ],
+        "modified": "2023-04-25T14:00:00.188Z",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) backdoor can use HTTP over an uncommon TCP port (e.g 14146) which is specified in the backdoor configuration.(Citation: ESET OceanLotus Mar 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "target_ref": "attack-pattern--c848fcf7-6b62-4bde-8216-b6c157d48da0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "id": "relationship--ab9b78cc-2b83-4074-beeb-0af4aad906d3",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "FireEye APT32 May 2017",
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html"
+            },
+            {
+                "source_name": "Volexity OceanLotus Nov 2017",
+                "description": "Lassalle, D., et al. (2017, November 6). OceanLotus Blossoms: Mass Digital Surveillance and Attacks Targeting ASEAN, Asian Nations, the Media, Human Rights Groups, and Civil Society. Retrieved November 6, 2017.",
+                "url": "https://www.volexity.com/blog/2017/11/06/oceanlotus-blossoms-mass-digital-surveillance-and-exploitation-of-asean-nations-the-media-human-rights-and-civil-society/"
+            },
+            {
+                "source_name": "Cybereason Oceanlotus May 2017",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018."
+            },
+            {
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "source_name": "Cybereason Cobalt Kitty 2017"
+            }
+        ],
+        "description": "(Citation: FireEye APT32 May 2017)(Citation: Volexity OceanLotus Nov 2017)(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
+        "type": "relationship",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "created": "2017-12-14T16:46:06.044Z",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "relationship_type": "uses",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) creates a Windows service to establish persistence.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2018-10-17T00:14:20.652Z",
+        "id": "relationship--2ac8ddca-49e7-4aa1-92ad-6746cd9cf8c7",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus",
+                "description": "Folt\u00fdn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.",
+                "url": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/"
+            },
+            {
+                "source_name": "Cybereason Cobalt Kitty 2017",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf"
+            },
+            {
+                "source_name": "ESET OceanLotus Mar 2019",
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used macros, PowerShell scripts, COM scriptlets, and VBS scripts.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2019-01-31T01:07:58.722Z",
+        "id": "relationship--31d179f8-3ad0-42da-9e82-25100057ca2b",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Cybereason Oceanlotus May 2017",
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt"
+            },
+            {
+                "source_name": "Cybereason Cobalt Kitty 2017",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--62dfd1ca-52d5-483c-a84b-d6e80bf94b7b",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) modified Windows Services to ensure PowerShell scripts were loaded on the system.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2019-01-31T01:07:58.556Z",
+        "id": "relationship--985d9421-aa06-4362-a7b6-5ca8504dcfa6",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Cybereason Cobalt Kitty 2017",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) backdoors have encrypted data before exfiltration, including by using RC4 encryption.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2019-04-01T21:09:50.304Z",
+        "id": "relationship--c33aa1c2-a077-4750-9716-9ca9205eb9a2",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus Mar 2019",
+                "description": "Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.",
+                "url": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/"
+            },
+            {
+                "description": "Dumont, R.. (2019, April 9). OceanLotus: macOS malware update. Retrieved April 15, 2019.",
+                "source_name": "ESET OceanLotus macOS April 2019",
+                "url": "https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) has used port 80 for C2 communications.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2019-01-31T01:07:58.727Z",
+        "id": "relationship--c70a03fe-b06f-41b5-bd0c-a7c4d0b1c31e",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Cybereason Oceanlotus May 2017",
+                "description": "Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.",
+                "url": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt"
+            },
+            {
+                "source_name": "Cybereason Cobalt Kitty 2017",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) enumerated administrative users and DC servers using the commands <code>net localgroup administrators</code> and <code>net group \"Domain Controllers\" /domain</code>.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2019-01-31T01:07:58.606Z",
+        "id": "relationship--eabc867b-7383-4752-b3ec-ad51ec8104bb",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Cybereason Cobalt Kitty 2017",
+                "description": "Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.",
+                "url": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "description": "[APT32](https://attack.mitre.org/groups/G0050) uses UPX to pack their macOS backdoor.",
+        "type": "relationship",
+        "created": "2019-04-15T20:57:46.690Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0fc8acc1-9751-4578-8f0e-29a8f0ef5cc8",
+        "external_references": [
+            {
+                "source_name": "ESET OceanLotus macOS April 2019",
+                "description": "Dumont, R.. (2019, April 9). OceanLotus: macOS malware update. Retrieved April 15, 2019.",
+                "url": "https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/"
+            }
+        ],
+        "modified": "2019-10-23T14:19:37.289Z",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "relationship_type": "uses",
+        "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "description": "APT32 has cleared select event log entries.",
+        "external_references": [
+            {
+                "description": "Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.",
+                "source_name": "FireEye APT32 May 2017",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html"
+            }
+        ],
+        "id": "relationship--ce212487-1291-4fe6-9f0b-f697516a7824",
+        "modified": "2018-10-23T00:14:20.652Z",
+        "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+        "relationship_type": "uses",
+        "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
+        "type": "relationship",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

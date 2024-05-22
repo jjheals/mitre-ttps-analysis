@@ -1,0 +1,1375 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--00de3cf9-73c4-4b04-a074-a5d73e9b61de",
+        "type": "relationship",
+        "created": "2020-12-29T19:13:11.251Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T19:13:11.251Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has downloaded additional tools including [PsExec](https://attack.mitre.org/software/S0029) directly to endpoints.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--00fb61de-33f5-4e85-aca3-8e4016aa0bf8",
+        "type": "relationship",
+        "created": "2020-12-29T20:23:05.296Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2021-04-12T19:34:40.099Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used a Perl reverse shell to communicate with C2.(Citation: ClearSky Pay2Kitten December 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--118c566e-2042-4566-99c2-308351d50a40",
+        "type": "relationship",
+        "created": "2020-12-29T19:07:21.930Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T19:07:21.930Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has obtained files from the victim's cloud storage instances.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--3298ce88-1628-43b1-87d9-0b5336b193d7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1374e38c-db37-46f8-8560-63901a3e7e56",
+        "type": "relationship",
+        "created": "2020-12-29T16:41:19.852Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T16:41:19.852Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used Angry IP Scanner to detect remote systems.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1b4baaaa-f08e-4f67-8d32-a7facb21eb7b",
+        "type": "relationship",
+        "created": "2020-12-29T20:23:05.311Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T20:23:05.311Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has brute forced RDP credentials.(Citation: ClearSky Pay2Kitten December 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1cfc2e72-a9ce-4dc2-95ad-fb99c90a2880",
+        "type": "relationship",
+        "created": "2020-12-22T20:20:36.541Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearkSky Fox Kitten February 2020",
+                "url": "https://www.clearskysec.com/fox-kitten/",
+                "description": "ClearSky. (2020, February 16). Fox Kitten \u2013 Widespread Iranian Espionage-Offensive Campaign. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "CrowdStrike PIONEER KITTEN August 2020",
+                "url": "https://www.crowdstrike.com/blog/who-is-pioneer-kitten/",
+                "description": "Orleans, A. (2020, August 31). Who Is PIONEER KITTEN?. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2021-01-04T14:59:30.624Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has exploited known vulnerabilities in remote services including RDP.(Citation: ClearkSky Fox Kitten February 2020)(Citation: CrowdStrike PIONEER KITTEN August 2020)(Citation: ClearSky Pay2Kitten December 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--26ce5847-3f53-4736-92c6-7a82e17cd884",
+        "type": "relationship",
+        "created": "2020-12-29T20:32:44.536Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T20:32:44.536Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has created a local user account with administrator privileges.(Citation: ClearSky Pay2Kitten December 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--635cbe30-392d-4e27-978e-66774357c762",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--28d9ac63-ce5f-4d42-be72-6b4d99b6fda7",
+        "type": "relationship",
+        "created": "2020-12-29T19:13:11.254Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T19:13:11.254Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used 7-Zip to archive data.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--2904937b-f1ed-4fa8-87e9-a7d69cbccc27",
+        "created": "2023-03-22T03:54:35.304Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-22T03:54:35.304Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has base64 encoded scripts to avoid detection.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--32bc85f6-f022-4868-8934-bd00cc36f6d4",
+        "type": "relationship",
+        "created": "2020-12-29T18:53:14.974Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T18:53:14.974Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has searched local system resources to access sensitive documents.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--340a62c8-9f22-4cb6-9310-bd4136e14258",
+        "type": "relationship",
+        "created": "2021-01-04T14:59:30.594Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "Check Point Pay2Key November 2020",
+                "url": "https://research.checkpoint.com/2020/ransomware-alert-pay2key/",
+                "description": "Check Point. (2020, November 6). Ransomware Alert: Pay2Key. Retrieved January 4, 2021."
+            }
+        ],
+        "modified": "2021-04-20T19:53:50.094Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has created KeyBase accounts to communicate with ransomware victims.(Citation: ClearSky Pay2Kitten December 2020)(Citation: Check Point Pay2Key November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--cdfc5f0a-9bb9-4352-b896-553cfa2d8fd8",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3d3ea12b-fec0-4daa-bb51-190884d88ee0",
+        "type": "relationship",
+        "created": "2020-12-29T18:44:53.358Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T18:44:53.358Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has installed TightVNC server and client on compromised servers and endpoints for lateral movement.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--01327cde-66c4-4123-bf34-5f258d59457b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4dbf47c1-c065-4e4c-8894-376d636555a2",
+        "type": "relationship",
+        "created": "2020-12-29T16:20:28.511Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T16:20:28.511Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has accessed files to gain valid credentials.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--52ecf0cd-4e5f-4331-b4d8-42618f155c5c",
+        "type": "relationship",
+        "created": "2020-12-29T17:07:59.932Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T17:07:59.932Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used Google Chrome bookmarks to identify internal resources and assets.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--5e4a2073-9643-44cb-a0b5-e7f4048446c7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--54b2d2db-b1d8-49aa-82f3-08d8a53a4899",
+        "type": "relationship",
+        "created": "2020-12-23T18:56:54.608Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-23T18:56:54.608Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used cmd.exe likely as a password changing mechanism.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5fa15bc3-e7ec-4617-bf30-b5258af8b2ec",
+        "created": "2020-12-29T15:21:23.881Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-11T02:31:43.569Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has base64 encoded payloads to avoid detection.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--628054bd-e758-4528-a1fb-40983ecec149",
+        "type": "relationship",
+        "created": "2020-12-29T18:53:14.964Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T18:53:14.964Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has accessed victim security and IT environments and Microsoft Teams to mine valuable information.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--65e9d954-30d8-4354-ad5c-3a6d69867a7e",
+        "type": "relationship",
+        "created": "2020-12-29T18:26:03.883Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T18:26:03.883Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used valid accounts to access SMB shares.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--68efc544-05be-454e-86e9-18d55c7d0f2b",
+        "type": "relationship",
+        "created": "2020-12-22T21:05:13.875Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-22T21:05:13.875Z",
+        "description": "(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6d4f3696-caa9-4100-bef5-e42d0f18470e",
+        "type": "relationship",
+        "created": "2020-12-22T20:20:36.543Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearkSky Fox Kitten February 2020",
+                "url": "https://www.clearskysec.com/fox-kitten/",
+                "description": "ClearSky. (2020, February 16). Fox Kitten \u2013 Widespread Iranian Espionage-Offensive Campaign. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "Dragos PARISITE ",
+                "url": "https://www.dragos.com/threat/parisite/",
+                "description": "Dragos. (n.d.). PARISITE. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "CrowdStrike PIONEER KITTEN August 2020",
+                "url": "https://www.crowdstrike.com/blog/who-is-pioneer-kitten/",
+                "description": "Orleans, A. (2020, August 31). Who Is PIONEER KITTEN?. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T20:23:05.329Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has exploited known vulnerabilities in Fortinet, PulseSecure, and Palo Alto VPN appliances.(Citation: ClearkSky Fox Kitten February 2020)(Citation: Dragos PARISITE )(Citation: CrowdStrike PIONEER KITTEN August 2020)(Citation: CISA AA20-259A Iran-Based Actor September 2020)(Citation: ClearSky Pay2Kitten December 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--70fe7f39-41de-4d7d-b691-4ac17c1a4c58",
+        "type": "relationship",
+        "created": "2020-12-29T16:20:28.476Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2021-01-22T16:16:01.084Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used scripts to access credential information from the KeePass database.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--315f51f0-6b03-4c1e-bfb2-84740afb8e21",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--71b92fe6-dd99-4192-b327-8ef27b790123",
+        "type": "relationship",
+        "created": "2020-12-29T16:20:28.524Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T16:20:28.524Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used Volume Shadow Copy to access credential information from NTDS.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8a4b2f39-183a-40e9-a8af-f3727061c17d",
+        "type": "relationship",
+        "created": "2020-12-29T16:46:48.473Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T16:46:48.473Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has accessed ntuser.dat and UserClass.dat on compromised hosts.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8b425ec5-7be4-4225-a7c5-8f219fed7b6c",
+        "type": "relationship",
+        "created": "2020-12-29T16:48:25.566Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T16:48:25.566Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used the Softerra LDAP browser to browse documentation on service accounts.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--91b41079-6c44-439e-a76c-2a128a792e17",
+        "type": "relationship",
+        "created": "2020-12-29T18:40:31.082Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T18:40:31.082Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used the PuTTY and Plink tools for lateral movement.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--96772bc0-7a9e-4688-95a2-67fff1646be4",
+        "type": "relationship",
+        "created": "2020-12-22T21:03:01.890Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T20:23:05.371Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has installed web shells on compromised hosts to maintain access.(Citation: CISA AA20-259A Iran-Based Actor September 2020)(Citation: ClearSky Pay2Kitten December 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--99c87be1-d8f1-4b41-836f-8811628c4b80",
+        "type": "relationship",
+        "created": "2020-12-23T19:10:21.400Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T20:30:01.677Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used Scheduled Tasks for persistence and to load and execute a reverse proxy binary.(Citation: CISA AA20-259A Iran-Based Actor September 2020)(Citation: ClearSky Pay2Kitten December 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a27943d2-6839-4be3-81ea-19ea6704d218",
+        "type": "relationship",
+        "created": "2020-12-29T15:34:45.969Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T15:34:45.969Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has named the task for a reverse proxy lpupdate to appear legitimate.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a391b999-a7f9-439d-bed5-0a0a13bb6f7d",
+        "type": "relationship",
+        "created": "2021-04-20T20:05:51.766Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearkSky Fox Kitten February 2020",
+                "url": "https://www.clearskysec.com/fox-kitten/",
+                "description": "ClearSky. (2020, February 16). Fox Kitten \u2013 Widespread Iranian Espionage-Offensive Campaign. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "Check Point Pay2Key November 2020",
+                "url": "https://research.checkpoint.com/2020/ransomware-alert-pay2key/",
+                "description": "Check Point. (2020, November 6). Ransomware Alert: Pay2Key. Retrieved January 4, 2021."
+            }
+        ],
+        "modified": "2021-04-20T20:05:51.766Z",
+        "description": "(Citation: ClearkSky Fox Kitten February 2020)(Citation: Check Point Pay2Key November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "malware--77ca1aa3-280c-4b67-abaa-e8fb891a8f83",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a3b4a3e9-2552-43dc-957a-5c7f64fac9f1",
+        "type": "relationship",
+        "created": "2020-12-29T15:57:12.451Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T15:57:12.451Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used prodump to dump credentials from LSASS.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a637133c-2b07-4e57-8822-5c3bc4b584d7",
+        "type": "relationship",
+        "created": "2020-12-29T20:44:35.961Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "Check Point Pay2Key November 2020",
+                "url": "https://research.checkpoint.com/2020/ransomware-alert-pay2key/",
+                "description": "Check Point. (2020, November 6). Ransomware Alert: Pay2Key. Retrieved January 4, 2021."
+            }
+        ],
+        "modified": "2021-01-05T15:23:22.295Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used the open source reverse proxy tools including FRPC and Go Proxy to establish connections from C2 to local servers.(Citation: CISA AA20-259A Iran-Based Actor September 2020)(Citation: ClearSky Pay2Kitten December 2020)(Citation: Check Point Pay2Key November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b8b16140-82bc-42a0-82f7-bfc402f4b4a4",
+        "type": "relationship",
+        "created": "2020-12-29T16:46:48.463Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T16:46:48.463Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has accessed Registry hives ntuser.dat and UserClass.dat.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bdaf3340-0580-4e89-9cdc-e0af5a91ed85",
+        "type": "relationship",
+        "created": "2020-12-22T20:43:14.335Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CrowdStrike PIONEER KITTEN August 2020",
+                "url": "https://www.crowdstrike.com/blog/who-is-pioneer-kitten/",
+                "description": "Orleans, A. (2020, August 31). Who Is PIONEER KITTEN?. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2023-10-31T14:00:00.188Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used protocol tunneling for communication and RDP activity on compromised hosts through the use of open source tools such as [ngrok](https://attack.mitre.org/software/S0508) and custom tool SSHMinion.(Citation: CrowdStrike PIONEER KITTEN August 2020)(Citation: CISA AA20-259A Iran-Based Actor September 2020)(Citation: ClearSky Pay2Kitten December 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d18f30d7-deca-457c-b993-c87843ae3bab",
+        "created": "2023-09-14T18:58:53.520Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "CrowdStrike PIONEER KITTEN August 2020",
+                "description": "Orleans, A. (2020, August 31). Who Is PIONEER KITTEN?. Retrieved December 21, 2020.",
+                "url": "https://www.crowdstrike.com/blog/who-is-pioneer-kitten/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-14T18:58:53.520Z",
+        "description": "(Citation: CrowdStrike PIONEER KITTEN August 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "tool--2f7f03bb-f367-4a5a-ad9b-310a12a48906",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d32354c1-0668-4997-825e-7f5652826ab9",
+        "type": "relationship",
+        "created": "2020-12-29T17:07:59.930Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T20:23:05.599Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used RDP to log in and move laterally in the target environment.(Citation: CISA AA20-259A Iran-Based Actor September 2020)(Citation: ClearSky Pay2Kitten December 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d452da85-b408-458f-ad25-937605de4611",
+        "type": "relationship",
+        "created": "2021-01-05T14:58:55.260Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2021-01-05T14:58:55.260Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used Amazon Web Services to host C2.(Citation: ClearSky Pay2Kitten December 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d51c9d02-a701-4334-9dbc-bba6c128ba2b",
+        "type": "relationship",
+        "created": "2020-12-29T18:53:14.966Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T18:53:14.966Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has searched network shares to access sensitive documents.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d9a97894-9a90-43cd-b9b9-9d13545aeb5a",
+        "type": "relationship",
+        "created": "2020-12-29T18:24:21.297Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "Check Point Pay2Key November 2020",
+                "url": "https://research.checkpoint.com/2020/ransomware-alert-pay2key/",
+                "description": "Check Point. (2020, November 6). Ransomware Alert: Pay2Key. Retrieved January 4, 2021."
+            }
+        ],
+        "modified": "2021-01-05T15:23:22.291Z",
+        "description": "(Citation: CISA AA20-259A Iran-Based Actor September 2020)(Citation: Check Point Pay2Key November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--db08c6bc-0a2a-41f3-bcb2-5410f9e0afa6",
+        "type": "relationship",
+        "created": "2020-12-22T20:56:28.406Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2021-04-20T22:02:32.999Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used valid credentials with various services during lateral movement.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--dd0c5079-1bd3-45fa-b8e7-aabf0a5513b7",
+        "type": "relationship",
+        "created": "2020-12-22T20:52:34.788Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            },
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T20:23:05.369Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used tools including NMAP to conduct broad scanning to identify open ports.(Citation: CISA AA20-259A Iran-Based Actor September 2020)(Citation: ClearSky Pay2Kitten December 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--df898edd-0829-4222-b50b-e7cbf75a0fb4",
+        "type": "relationship",
+        "created": "2020-12-23T19:17:53.351Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-23T19:17:53.351Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used sticky keys to launch a command prompt.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--70e52b04-2a0c-4cea-9d18-7149f1df9dc5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e463f5ae-4b7a-40dd-94e1-1a04a22e5e23",
+        "type": "relationship",
+        "created": "2021-01-05T14:52:09.765Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearSky Pay2Kitten December 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/12/Pay2Kitten.pdf",
+                "description": "ClearSky. (2020, December 17). Pay2Key Ransomware \u2013 A New Campaign by Fox Kitten. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2021-01-05T14:52:09.765Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used a Twitter account to communicate with ransomware victims.(Citation: ClearSky Pay2Kitten December 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--b1ccd744-3f78-4a0e-9bb2-2002057f7928",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e51ab951-2e6f-4c7e-bd10-fe0dc0bb4671",
+        "type": "relationship",
+        "created": "2020-12-23T20:50:54.873Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-23T20:50:54.873Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has named binaries and configuration files svhost and dllhost respectively to appear legitimate.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ecc9a971-349b-428d-a376-74f11b5b7086",
+        "type": "relationship",
+        "created": "2020-12-29T15:10:17.055Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T15:10:17.055Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used PowerShell scripts to access credential data.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f0026b7c-9a9a-468d-a152-1b214efe066a",
+        "type": "relationship",
+        "created": "2020-12-29T16:41:19.834Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-259a",
+                "description": "CISA. (2020, September 15). Iran-Based Threat Actor Exploits VPN Vulnerabilities. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2020-12-29T16:41:19.834Z",
+        "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used WizTree to obtain network files and directory listings.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a1096af2-bc65-422d-9a1a-be9baf098227",
+        "type": "relationship",
+        "created": "2020-12-22T20:39:04.816Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CrowdStrike PIONEER KITTEN August 2020",
+                "url": "https://www.crowdstrike.com/blog/who-is-pioneer-kitten/",
+                "description": "Orleans, A. (2020, August 31). Who Is PIONEER KITTEN?. Retrieved December 21, 2020."
+            }
+        ],
+        "modified": "2023-10-31T14:00:00.188Z",
+        "description": "(Citation: CrowdStrike PIONEER KITTEN August 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
+        "target_ref": "malware--911fe4c3-444d-4e92-83b8-cc761ac5fd3b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

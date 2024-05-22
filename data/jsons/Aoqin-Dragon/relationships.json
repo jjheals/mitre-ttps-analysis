@@ -1,0 +1,310 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--1c306018-7f22-4080-81c5-939bd0bd81be",
+        "created": "2022-07-14T14:37:59.685Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "SentinelOne Aoqin Dragon June 2022",
+                "url": "https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/",
+                "description": "Chen, Joey. (2022, June 9). Aoqin Dragon | Newly-Discovered Chinese-linked APT Has Been Quietly Spying On Organizations For 10 Years. Retrieved July 14, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Aoqin Dragon](https://attack.mitre.org/groups/G1007) has lured victims into opening weaponized documents, fake external drives, and fake antivirus to execute malicious payloads.(Citation: SentinelOne Aoqin Dragon June 2022)",
+        "modified": "2022-07-14T19:37:23.675Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--287c3024-f58d-4fab-87a7-54d4b52f5a5c",
+        "created": "2022-07-14T20:13:55.682Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "SentinelOne Aoqin Dragon June 2022",
+                "url": "https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/",
+                "description": "Chen, Joey. (2022, June 9). Aoqin Dragon | Newly-Discovered Chinese-linked APT Has Been Quietly Spying On Organizations For 10 Years. Retrieved July 14, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Aoqin Dragon](https://attack.mitre.org/groups/G1007) has spread malware in target networks by copying modules to folders masquerading as removable devices.(Citation: SentinelOne Aoqin Dragon June 2022)",
+        "modified": "2022-07-14T20:16:24.548Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
+        "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--2f337593-16b2-40a2-928c-c7659d0326ea",
+        "created": "2022-10-11T16:03:53.721Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SentinelOne Aoqin Dragon June 2022",
+                "description": "Chen, Joey. (2022, June 9). Aoqin Dragon | Newly-Discovered Chinese-linked APT Has Been Quietly Spying On Organizations For 10 Years. Retrieved July 14, 2022.",
+                "url": "https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-11T16:03:53.721Z",
+        "description": "[Aoqin Dragon](https://attack.mitre.org/groups/G1007) has used a dropper that employs a worm infection strategy using a removable device to breach a secure network environment.(Citation: SentinelOne Aoqin Dragon June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
+        "target_ref": "attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--3f42c6bd-332d-40b0-9e5f-ead557d021c9",
+        "created": "2022-10-11T15:44:11.541Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SentinelOne Aoqin Dragon June 2022",
+                "description": "Chen, Joey. (2022, June 9). Aoqin Dragon | Newly-Discovered Chinese-linked APT Has Been Quietly Spying On Organizations For 10 Years. Retrieved July 14, 2022.",
+                "url": "https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-11T15:44:11.541Z",
+        "description": "[Aoqin Dragon](https://attack.mitre.org/groups/G1007) has used the Themida packer to obfuscate malicious payloads.(Citation: SentinelOne Aoqin Dragon June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
+        "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--4753b372-6ac2-4a0e-8e0c-1a14c884fa8e",
+        "created": "2022-07-25T18:12:38.748Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "SentinelOne Aoqin Dragon June 2022",
+                "url": "https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/",
+                "description": "Chen, Joey. (2022, June 9). Aoqin Dragon | Newly-Discovered Chinese-linked APT Has Been Quietly Spying On Organizations For 10 Years. Retrieved July 14, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: SentinelOne Aoqin Dragon June 2022)",
+        "modified": "2022-07-25T18:12:38.748Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
+        "target_ref": "malware--6fb36c6f-bb3d-4ed6-9471-cb9933e5c154",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--65656d55-1f2f-43f9-b29f-084b9024841c",
+        "created": "2022-10-11T15:57:21.014Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SentinelOne Aoqin Dragon June 2022",
+                "description": "Chen, Joey. (2022, June 9). Aoqin Dragon | Newly-Discovered Chinese-linked APT Has Been Quietly Spying On Organizations For 10 Years. Retrieved July 14, 2022.",
+                "url": "https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-11T15:57:21.014Z",
+        "description": "[Aoqin Dragon](https://attack.mitre.org/groups/G1007) has used custom malware, including [Mongall](https://attack.mitre.org/software/S1026) and [Heyoka Backdoor](https://attack.mitre.org/software/S1027), in their operations.(Citation: SentinelOne Aoqin Dragon June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
+        "target_ref": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--767ce5fe-06f5-4efc-aa41-129fad867c65",
+        "created": "2022-07-14T19:35:43.771Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "SentinelOne Aoqin Dragon June 2022",
+                "url": "https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/",
+                "description": "Chen, Joey. (2022, June 9). Aoqin Dragon | Newly-Discovered Chinese-linked APT Has Been Quietly Spying On Organizations For 10 Years. Retrieved July 14, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Aoqin Dragon](https://attack.mitre.org/groups/G1007) has run scripts to identify file formats including Microsoft Word.(Citation: SentinelOne Aoqin Dragon June 2022)",
+        "modified": "2022-07-14T19:35:43.771Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--945ebd48-f638-469c-a106-113ab8bbf408",
+        "created": "2022-07-14T14:46:06.730Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "SentinelOne Aoqin Dragon June 2022",
+                "url": "https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/",
+                "description": "Chen, Joey. (2022, June 9). Aoqin Dragon | Newly-Discovered Chinese-linked APT Has Been Quietly Spying On Organizations For 10 Years. Retrieved July 14, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Aoqin Dragon](https://attack.mitre.org/groups/G1007) has used fake icons including antivirus and external drives to disguise malicious payloads.(Citation: SentinelOne Aoqin Dragon June 2022)",
+        "modified": "2022-07-14T14:51:53.940Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a6ff725c-1c60-44dd-8f78-22f1b009bbb5",
+        "created": "2022-10-11T15:48:31.541Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SentinelOne Aoqin Dragon June 2022",
+                "description": "Chen, Joey. (2022, June 9). Aoqin Dragon | Newly-Discovered Chinese-linked APT Has Been Quietly Spying On Organizations For 10 Years. Retrieved July 14, 2022.",
+                "url": "https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-11T15:48:31.541Z",
+        "description": "[Aoqin Dragon](https://attack.mitre.org/groups/G1007) obtained the Heyoka open source exfiltration tool and subsequently modified it for their operations.(Citation: SentinelOne Aoqin Dragon June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--b0601ad4-5d8d-4c86-8d0a-86fc2edadbc3",
+        "created": "2022-07-14T14:48:36.865Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "SentinelOne Aoqin Dragon June 2022",
+                "url": "https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/",
+                "description": "Chen, Joey. (2022, June 9). Aoqin Dragon | Newly-Discovered Chinese-linked APT Has Been Quietly Spying On Organizations For 10 Years. Retrieved July 14, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Aoqin Dragon](https://attack.mitre.org/groups/G1007) has exploited CVE-2012-0158 and CVE-2010-3333 for execution against targeted systems.(Citation: SentinelOne Aoqin Dragon June 2022)",
+        "modified": "2022-07-14T14:48:36.865Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--db7aadec-757b-49b3-8691-1f23b5c7c5fc",
+        "created": "2022-10-11T16:46:26.534Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SentinelOne Aoqin Dragon June 2022",
+                "description": "Chen, Joey. (2022, June 9). Aoqin Dragon | Newly-Discovered Chinese-linked APT Has Been Quietly Spying On Organizations For 10 Years. Retrieved July 14, 2022.",
+                "url": "https://www.sentinelone.com/labs/aoqin-dragon-newly-discovered-chinese-linked-apt-has-been-quietly-spying-on-organizations-for-10-years/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-11T16:46:26.534Z",
+        "description": "(Citation: SentinelOne Aoqin Dragon June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
+        "target_ref": "malware--dff90475-9f72-41a6-84ed-1fbefd3874c0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    }
+]

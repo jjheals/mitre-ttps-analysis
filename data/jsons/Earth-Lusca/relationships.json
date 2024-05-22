@@ -1,0 +1,1486 @@
+[
+    {
+        "type": "relationship",
+        "id": "relationship--0167e4ad-b828-4813-88bf-f5b03b4d3268",
+        "created": "2022-09-02T19:10:34.330Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T19:10:34.330Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has established GitHub accounts to host their malware.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--09c54ed8-4b03-4e39-b364-bf2e751dbe06",
+        "created": "2022-07-18T20:43:07.432Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-18T20:43:07.432Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--09f5abff-ad09-4d5b-a6c4-612d4171c089",
+        "created": "2022-07-21T17:03:44.450Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used steganography to hide shellcode in a BMP image file.(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-21T17:03:44.450Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--c2e147a9-d1a8-4074-811a-d8789202d916",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--0e837480-f359-4bdc-875a-d953027d17b0",
+        "created": "2022-09-02T19:07:10.797Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T19:07:10.797Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has staged malware and malicious files on compromised web servers, GitHub, and Google Drive.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--1307fdab-a09c-4d48-a917-a76ba0113098",
+        "created": "2022-09-02T19:38:55.971Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T19:38:55.971Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has dropped an SSH-authorized key in the `/root/.ssh` folder in order to access a compromised server with SSH.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--6b57dc31-b814-4a03-8706-28bc20d739c4",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--14c209b9-cef8-4acf-8deb-57c03beaa64f",
+        "created": "2022-07-18T20:42:49.250Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-17T19:02:20.132Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used a <code>DCSync</code> command with [Mimikatz](https://attack.mitre.org/software/S0002) to retrieve credentials from an exploited controller.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--f303a39a-6255-4b89-aecc-18c4d8ca7163",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--245ced0a-5a53-44bd-a4db-07451f752b14",
+        "created": "2022-10-17T19:30:53.083Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-17T19:30:53.083Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) used VBA scripts.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--29a1fc8a-58c3-4465-b170-d9ec7c2d4d22",
+        "created": "2022-07-01T20:19:19.105Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-17T18:19:53.830Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has performed watering hole attacks.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--2bb7ed69-8f59-47f3-8d86-f1c1202c7629",
+        "created": "2022-07-18T20:16:08.155Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T20:49:49.743Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) used the command <code>powershell \u201cGet-EventLog -LogName security -Newest 500 | where {$_.EventID -eq 4624} | format-list -\nproperty * | findstr \u201cAddress\u201d\u201d</code> to find the network information of successfully logged-in accounts to discovery addresses of other machines. [Earth Lusca](https://attack.mitre.org/groups/G1006) has also used multiple scanning tools to discover other machines within the same compromised network.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--2dc666e3-b715-425c-b8b4-f3c0f7d6d8e9",
+        "created": "2022-09-02T19:08:33.399Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T19:08:33.399Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has compromised Google Drive repositories.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--ae797531-3219-49a4-bccf-324ad7a4c7b2",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--427f7417-6d8a-4b0b-8bcf-a6acdd28586e",
+        "created": "2022-07-18T18:36:48.429Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-18T18:36:48.429Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4504384f-f832-4ec2-87b0-b8dfc2208083",
+        "created": "2022-07-18T17:35:21.897Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T19:15:04.102Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has manipulated legitimate websites to inject malicious JavaScript code as part of their watering hole operations.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--495db551-b69c-482e-b242-831011c054f7",
+        "created": "2022-09-09T16:09:42.679Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-09T16:09:42.679Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used [Mimikatz](https://attack.mitre.org/software/S0002) to exploit a domain controller via the ZeroLogon exploit (CVE-2020-1472).(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4feaa82b-a356-4412-be2b-daa6ea6df82c",
+        "created": "2022-07-18T20:27:18.521Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-09T15:45:34.626Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) used the command `move [file path] c:\\windows\\system32\\spool\\prtprocs\\x64\\spool.dll` to move and register a malicious DLL name as a Windows print processor, which eventually was loaded by the Print Spooler service.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--52a5b303-b759-424e-86b8-5c855976e5ea",
+        "created": "2022-07-01T20:22:01.194Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used [certutil](https://attack.mitre.org/software/S0160) to decode a string into a cabinet file.(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-01T20:22:01.194Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5ce84367-05cc-446e-a744-08a46f103552",
+        "created": "2022-09-02T18:56:48.604Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T18:56:48.604Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has registered domains, intended to look like legitimate target domains, that have been used in watering hole attacks.(Citation: TrendMicro EarthLusca 2022) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--5fc9189b-7c9b-43f7-8d60-96a1f497e395",
+        "created": "2022-07-18T18:31:01.246Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) collected information on user accounts via the <code>whoami</code> command.(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-18T20:36:41.013Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--62a11eb5-d59b-49d3-b4b5-d88e3cb4e538",
+        "created": "2022-09-09T16:21:25.094Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-09T16:21:25.094Z",
+        "description": "(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--6a779cbf-ef5c-4018-a91f-10889b2068b0",
+        "created": "2022-09-09T15:57:19.550Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-09T15:57:19.550Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has added the Registry key `HKLM\\SYSTEM\\ControlSet001\\Control\\Print\\Environments\\Windows x64\\Print Processors\\UDPrint\u201d /v Driver /d \u201cspool.dll /f` to load malware as a Print Processor.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--2de47683-f398-448f-b947-9abcc3e32fad",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--6e2b1acc-87b5-4947-a933-b376d48b126a",
+        "created": "2022-09-08T13:50:20.238Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-08T13:50:20.238Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used PowerShell to execute commands.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--6e6f9a76-23b6-4474-abc1-3d477284c220",
+        "created": "2022-07-18T20:54:20.227Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) used Python scripts for port scanning or building reverse shells.(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-18T20:54:20.227Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--6ef89fa5-cd74-499b-bbc0-3b0d83baeba1",
+        "created": "2022-09-02T20:35:38.404Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T20:35:38.404Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used [Tasklist](https://attack.mitre.org/software/S0057) to obtain information from a compromised host.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--6f1c0538-c9f4-49ad-b934-0714b50c1c45",
+        "created": "2022-07-18T18:55:15.056Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) used the command <code>schtasks /Create /SC ONLOgon /TN WindowsUpdateCheck /TR \u201c[file path]\u201d /ru system</code> for persistence.(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-18T18:55:15.056Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7807639f-cc9f-4b0a-9f01-8161cbb1fd53",
+        "created": "2022-07-18T18:57:50.707Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-09T15:50:46.507Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has placed a malicious payload in `%WINDIR%\\SYSTEM32\\oci.dll` so it would be sideloaded by the MSDTC service.(Citation: TrendMicro EarthLusca 2022) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--83aedf08-e8eb-4c18-80c1-727ddb0f1d07",
+        "created": "2022-07-18T18:56:23.156Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-09T15:43:56.646Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) modified the registry using the command <code>reg add \u201cHKEY_CURRENT_USER\\Environment\u201d /v UserInitMprLogonScript /t REG_SZ /d \u201c[file path]\u201d</code> for persistence.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--85216e27-5d58-4d89-8b04-3ef50ed14f95",
+        "created": "2022-07-18T20:55:58.960Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) used a VBA script to execute WMI.(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-18T20:55:58.960Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--8b18d3d9-154d-435a-a174-d84ef5961ec8",
+        "created": "2022-07-01T20:27:40.142Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-01T20:27:40.142Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--9889f167-2a60-4e32-8d2a-410f485551b7",
+        "created": "2022-07-01T20:13:03.301Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-01T20:13:21.268Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9d82c2c5-7d98-40dd-9171-1d605f259064",
+        "created": "2022-07-18T20:44:39.499Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-09T16:00:50.842Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used ProcDump to obtain the hashes of credentials by dumping the memory of the LSASS process.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a3627d9d-1c78-4b10-8b1c-3183a939862b",
+        "created": "2022-07-01T20:23:07.340Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T19:12:05.596Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used `mshta.exe` to load an HTA script within a malicious .LNK file.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a38efb2d-3014-4196-b936-326a9a65ee83",
+        "created": "2022-09-02T19:44:05.199Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T19:44:05.199Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used [Nltest](https://attack.mitre.org/software/S0359) to obtain information about domain controllers.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--767dbf9e-df3f-45cb-8998-4903ab5f80c0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a44ba3c3-406a-49cf-9d7b-9ee7f09f9ae4",
+        "created": "2022-09-09T16:17:21.601Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-09T16:17:21.601Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used the megacmd tool to upload stolen files from a victim network to MEGA.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--a57c1d9d-0d2f-4206-a53f-d31ab7c53c17",
+        "created": "2022-07-18T20:35:25.531Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used the Fodhelper UAC bypass technique to gain elevated privileges.(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-18T20:35:25.531Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a8fef3c0-796a-4995-81fe-c47336c3ddbd",
+        "created": "2022-09-02T19:19:17.187Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T19:19:17.187Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has acquired and used a variety of open source tools.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--aae6444e-c9e5-4965-9499-8aa6d546b58e",
+        "created": "2022-09-02T20:46:33.488Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T20:46:33.488Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used [Tasklist](https://attack.mitre.org/software/S0057) to obtain information from a compromised host.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--b71bc667-b3e8-4482-ba74-118049872be4",
+        "created": "2022-10-17T19:29:54.183Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-17T19:29:54.183Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) required users to click on a malicious file for the loader to activate.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--b8012238-cfd9-4c5b-8759-8d86f0d6f933",
+        "created": "2022-07-18T17:59:30.120Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T19:25:53.173Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has compromised victims by directly exploiting vulnerabilities of public-facing servers, including those associated with Microsoft Exchange and Oracle GlassFish.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--bee75401-9e24-4c5d-9203-0b3cdca01cbf",
+        "created": "2022-10-17T19:36:31.557Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-17T19:37:09.006Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) adopted Cloudflare as a proxy for compromised servers.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--c15dcb96-82f8-4f6e-bfc2-8d636d71567a",
+        "created": "2022-07-01T20:15:07.685Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-01T20:15:07.685Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "malware--8787e86d-8475-4f13-acea-d33eb83b6105",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--c336d7c6-0876-445c-8197-924eae28bc16",
+        "created": "2022-09-09T16:20:10.948Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-09T16:20:10.948Z",
+        "description": "(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "tool--981acc4c-2ede-4b56-be6e-fa1a75f37acf",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--c74dfd33-e17a-4fc7-b2bd-154499fc3ac2",
+        "created": "2022-07-01T20:26:14.509Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) used Base64 to encode strings.(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-01T20:26:14.509Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--cd85a2d6-ebee-4ebd-9571-5cafcac15b05",
+        "created": "2022-07-18T18:54:16.891Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) created a service using the command <code>sc create \u201cSysUpdate\u201d binpath= \u201ccmd /c start \u201c[file path]\u201d\u201d&&sc config \u201cSysUpdate\u201d start= auto&&net\nstart SysUpdate</code> for persistence.(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-18T18:54:16.891Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--cff64310-fe63-44ad-9791-d1b4b50f0229",
+        "created": "2022-07-01T20:26:53.275Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T18:58:18.750Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has sent spearphishing emails to potential targets that contained a malicious link.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d0a3d891-2555-45eb-8aaf-99b86372607b",
+        "created": "2022-07-18T20:53:43.160Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-09T16:14:40.921Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used WinRAR to compress stolen files into an archive prior to exfiltration.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--dd033098-eb56-4c17-90d7-c7673f04bcd6",
+        "created": "2022-09-02T18:36:01.751Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T18:53:25.368Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has acquired multiple servers for some of their operations, using each server for a different role.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--60c4b628-4807-4b0b-bbf5-fdac8643c337",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--def0dc1a-1c41-44f0-a076-36fb1b98390c",
+        "created": "2022-07-18T20:06:22.310Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-17T19:04:08.871Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) employed a PowerShell script called RDPConnectionParser to read and filter the Windows event log \u201cMicrosoft-Windows-TerminalServices-RDPClient/Operational\u201d\n(Event ID 1024) to obtain network information from RDP connections. [Earth Lusca](https://attack.mitre.org/groups/G1006) has also used [netstat](https://attack.mitre.org/software/S0104) from a compromised system to obtain network connection information.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--e0e8cd30-04d6-457c-b4c1-34145f182dad",
+        "created": "2022-07-01T20:25:23.375Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has scanned for vulnerabilities in the public-facing servers of their targets.(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-01T20:25:23.375Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--e1130af1-b49f-4106-8846-7f3e65a65535",
+        "created": "2022-07-18T18:35:39.795Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-18T18:35:39.795Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "tool--b63970b7-ddfb-4aee-97b1-80d335e033a8",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--e13ab711-012c-4405-87ae-f096d770e367",
+        "created": "2022-07-18T18:32:37.796Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) used the command <code>ipconfig</code> to obtain information about network configurations.(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-18T18:32:37.796Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e607a77e-5c5c-4f3e-a62d-82124a434911",
+        "created": "2022-09-02T19:18:00.200Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T19:18:00.200Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has acquired and used a variety of malware, including [Cobalt Strike](https://attack.mitre.org/software/S0154).(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--7807d3a4-a885-4639-a786-c1ed41484970",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--f23cf8d3-0b34-4f09-bef1-98d27c33909a",
+        "created": "2022-07-01T20:13:54.252Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: TrendMicro EarthLusca 2022)",
+        "modified": "2022-07-01T20:13:54.252Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--ff6f4b5b-1b5f-4f8f-9307-345a3c278151",
+        "created": "2022-09-02T18:54:07.062Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T18:54:07.062Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used compromised web servers as part of their operational infrastructure.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--e196b5c5-8118-4a1c-ab8a-936586ce3db5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--fff3195c-ef40-4e11-b0f3-f1a849b2b316",
+        "created": "2022-07-21T17:01:09.524Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro EarthLusca 2022",
+                "description": "Chen, J., et al. (2022). Delving Deep: An Analysis of Earth Lusca\u2019s Operations. Retrieved July 1, 2022.",
+                "url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-09-02T19:02:05.756Z",
+        "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006)  has sent spearphishing emails that required the user to click on a malicious link and subsequently open a decoy document with a malicious loader.(Citation: TrendMicro EarthLusca 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+        "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    }
+]

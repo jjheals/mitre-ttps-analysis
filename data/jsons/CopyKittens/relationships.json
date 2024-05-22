@@ -1,0 +1,371 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--292b2a10-ebee-4fbb-b359-2eee16aa46ba",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://s3-eu-west-1.amazonaws.com/minervaresearchpublic/CopyKittens/CopyKittens.pdf",
+                "description": "Minerva Labs LTD and ClearSky Cyber Security. (2015, November 23). CopyKittens Attack Group. Retrieved September 11, 2017.",
+                "source_name": "CopyKittens Nov 2015"
+            }
+        ],
+        "modified": "2020-03-30T02:00:38.251Z",
+        "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) encrypts data with a substitute cipher prior to exfiltration.(Citation: CopyKittens Nov 2015)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "target_ref": "attack-pattern--143c0cbb-a297-4142-9624-87ffc778980b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2e82ef21-9fb2-421e-bd96-73599089b448",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf",
+                "description": "ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017.",
+                "source_name": "ClearSky Wilted Tulip July 2017"
+            }
+        ],
+        "modified": "2020-03-30T02:00:38.186Z",
+        "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) uses ZPP, a .NET console program, to compress files with ZIP.(Citation: ClearSky Wilted Tulip July 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2f68f61d-07e1-4181-a26c-93433f9f0db7",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf",
+                "description": "ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017.",
+                "source_name": "ClearSky Wilted Tulip July 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) has used PowerShell Empire.(Citation: ClearSky Wilted Tulip July 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--3393682e-22a6-4e27-b890-747f1392741b",
+        "created": "2022-07-07T14:24:27.161Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft POLONIUM June 2022",
+                "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022.",
+                "url": "https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-17T18:49:46.432Z",
+        "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) has used the AirVPN service for operational activity.(Citation: Microsoft POLONIUM June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--82c12a79-e80d-4eba-91ab-d14fd98cb539",
+        "type": "relationship",
+        "created": "2020-11-06T18:40:38.450Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf",
+                "description": "ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017.",
+                "source_name": "ClearSky Wilted Tulip July 2017"
+            }
+        ],
+        "modified": "2020-11-06T18:40:38.450Z",
+        "description": "(Citation: ClearSky Wilted Tulip July 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--896cd1de-ffa7-4f69-a981-2859cc756601",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf",
+                "description": "ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017.",
+                "source_name": "ClearSky Wilted Tulip July 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) uses rundll32 to load various tools on victims, including a lateral movement tool named Vminst, Cobalt Strike, and shellcode.(Citation: ClearSky Wilted Tulip July 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--948a5d37-65d1-403f-99bb-0f08186aeebc",
+        "type": "relationship",
+        "created": "2019-10-10T22:17:29.523Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf",
+                "description": "ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017.",
+                "source_name": "ClearSky Wilted Tulip July 2017"
+            }
+        ],
+        "modified": "2021-02-09T13:50:21.135Z",
+        "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) has used <code>-w hidden</code> and <code>-windowstyle hidden</code> to conceal [PowerShell](https://attack.mitre.org/techniques/T1059/001) windows. (Citation: ClearSky Wilted Tulip July 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a622b97a-e473-45a5-9e93-85c883f02074",
+        "type": "relationship",
+        "created": "2019-03-12T16:13:15.691Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf",
+                "description": "ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017.",
+                "source_name": "ClearSky Wilted Tulip July 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: ClearSky Wilted Tulip July 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--d35934e8-c16e-4820-a0ad-88e0eff27554",
+        "created": "2021-05-26T12:32:59.061Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "ClearSky and Trend Micro Operation Wilted Tulip July 2017",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf",
+                "description": "ClearSky and Trend Micro. (2017, July). Operation Wilted Tulip - Exposing a cyber espionage apparatus. Retrieved May 17, 2021."
+            },
+            {
+                "source_name": "Microsoft POLONIUM June 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/",
+                "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) has used Metasploit, [Empire](https://attack.mitre.org/software/S0363), and AirVPN for post-exploitation activities.(Citation: ClearSky and Trend Micro Operation Wilted Tulip July 2017)(Citation: Microsoft POLONIUM June 2022)",
+        "modified": "2022-08-08T21:27:55.466Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--dc4e54ed-ca71-4dd1-a61e-714222c0c76d",
+        "type": "relationship",
+        "created": "2018-01-16T18:59:16.545Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf",
+                "description": "ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017.",
+                "source_name": "ClearSky Wilted Tulip July 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: ClearSky Wilted Tulip July 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "target_ref": "malware--0b32ec39-ba61-4864-9ebe-b4b0b73caf9a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f6915cfa-4c11-4830-bcd8-aa648596b895",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf",
+                "description": "ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017.",
+                "source_name": "ClearSky Wilted Tulip July 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) digitally signed an executable with a stolen certificate from legitimate company AI Squared.(Citation: ClearSky Wilted Tulip July 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fe46e6be-a008-490a-b0b1-243b8445824e",
+        "type": "relationship",
+        "created": "2021-03-04T21:59:44.537Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearSky Wilted Tulip July 2017",
+                "description": "ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017.",
+                "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf"
+            }
+        ],
+        "modified": "2021-03-04T21:59:44.537Z",
+        "description": "(Citation: ClearSky Wilted Tulip July 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "target_ref": "malware--1cc934e4-b01d-4543-a011-b988dfc1a458",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "id": "relationship--6dbb3a1e-5fb4-4494-950c-570616302ece",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "url": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf",
+                "description": "ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017.",
+                "source_name": "ClearSky Wilted Tulip July 2017"
+            }
+        ],
+        "description": "(Citation: ClearSky Wilted Tulip July 2017)",
+        "type": "relationship",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "created": "2018-01-16T18:59:16.545Z",
+        "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+        "relationship_type": "uses",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

@@ -1,0 +1,889 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0884b8fd-64b4-4736-b52d-0182d312b9bf",
+        "type": "relationship",
+        "created": "2021-03-30T20:00:52.489Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "PTSecurity Higaisa 2020",
+                "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+                "description": "PT ESC Threat Intelligence. (2020, June 4). COVID-19 and New Year greetings: an investigation into the tools and methods used by the Higaisa group. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-30T20:00:52.489Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) has used VBScript code on the victim's machine.(Citation: PTSecurity Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1489621a-59eb-42a9-b529-adc37c65520c",
+        "type": "relationship",
+        "created": "2021-03-08T18:27:58.799Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-08T18:27:58.799Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) has called various native OS APIs.(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--382ab873-523f-4455-b3c5-74d81b4fc57b",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.525Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.525Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) exfiltrated data over its C2 channel.(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4032bd86-db32-4270-98a4-670be6992802",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.771Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.771Z",
+        "description": "(Citation: Malwarebytes Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--40b904c6-d77d-4ba8-98a5-c03d5c2a3186",
+        "type": "relationship",
+        "created": "2021-03-08T18:27:58.793Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "PTSecurity Higaisa 2020",
+                "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+                "description": "PT ESC Threat Intelligence. (2020, June 4). COVID-19 and New Year greetings: an investigation into the tools and methods used by the Higaisa group. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-08T18:27:58.793Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126)\u2019s JavaScript file used a legitimate Microsoft Office 2007 package to side-load the <code>OINFO12.OCX</code> dynamic link library.(Citation: PTSecurity Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4113afe0-e84a-44ba-9180-3033de06d72e",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.753Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.753Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used a function to gather the current time.(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--49a11d2f-7945-4603-b409-d66420b94533",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.560Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-04-22T02:12:44.196Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) discovered system proxy settings and used them if available.(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4ff8a2ad-2e69-4933-a5f4-201c891eef87",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.767Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.767Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used malicious e-mail attachments to lure victims into executing LNK files.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--54784a8e-d827-4761-87ce-68ed55cc25f9",
+        "created": "2021-03-05T18:54:56.634Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021.",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/"
+            },
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021.",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-11T02:19:33.795Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used Base64 encoded compressed payloads.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5fa551a6-dc9f-4ca5-a5ec-a393515cb618",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.762Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.762Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) dropped and added <code>officeupdate.exe</code> to scheduled tasks.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--63dec489-68ad-46c2-9972-55394ad7601a",
+        "type": "relationship",
+        "created": "2021-03-08T18:27:58.657Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "PTSecurity Higaisa 2020",
+                "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+                "description": "PT ESC Threat Intelligence. (2020, June 4). COVID-19 and New Year greetings: an investigation into the tools and methods used by the Higaisa group. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-30T20:16:51.191Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) collected the system volume serial number, GUID, and computer name.(Citation: PTSecurity Higaisa 2020)(Citation: Malwarebytes Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--645949a0-21a3-4c31-846d-33c2055d8bfd",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.756Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-04-05T16:35:25.523Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) has sent spearphishing emails containing malicious attachments.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6eac5e98-29dd-4dae-8375-b459b87f28c8",
+        "type": "relationship",
+        "created": "2021-03-30T20:16:51.220Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "PTSecurity Higaisa 2020",
+                "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+                "description": "PT ESC Threat Intelligence. (2020, June 4). COVID-19 and New Year greetings: an investigation into the tools and methods used by the Higaisa group. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-30T20:16:51.220Z",
+        "description": "(Citation: Malwarebytes Higaisa 2020)(Citation: PTSecurity Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--71db51a2-9968-408c-91b3-8f42a61d0b09",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.555Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.555Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used HTTP and HTTPS to send data back to its C2 server.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--74fe4149-c5df-43a3-809a-5ece230b1cd7",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.548Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-30T20:00:52.565Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used a FakeTLS session for C2 communications.(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--c325b232-d5bc-4dde-a3ec-71f3db9e8adc",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7b053a36-de7d-476b-bc06-6d712432d615",
+        "type": "relationship",
+        "created": "2021-03-08T18:27:58.647Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "PTSecurity Higaisa 2020",
+                "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+                "description": "PT ESC Threat Intelligence. (2020, June 4). COVID-19 and New Year greetings: an investigation into the tools and methods used by the Higaisa group. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-30T20:26:53.811Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) has exploited CVE-2018-0798 for execution.(Citation: PTSecurity Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--853f320a-e611-4a23-9784-e0054f74b9e3",
+        "type": "relationship",
+        "created": "2021-03-08T18:27:58.695Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "PTSecurity Higaisa 2020",
+                "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+                "description": "PT ESC Threat Intelligence. (2020, June 4). COVID-19 and New Year greetings: an investigation into the tools and methods used by the Higaisa group. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-08T18:27:58.695Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) sent the victim computer identifier in a User-Agent string back to the C2 server every 10 minutes.(Citation: PTSecurity Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--4eeaf8a9-c86b-4954-a663-9555fb406466",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8ef60c8b-f178-4b78-b5c4-76747e075d84",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.733Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "PTSecurity Higaisa 2020",
+                "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+                "description": "PT ESC Threat Intelligence. (2020, June 4). COVID-19 and New Year greetings: an investigation into the tools and methods used by the Higaisa group. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.733Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used JavaScript to execute additional files.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)(Citation: PTSecurity Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--971d0828-7244-4278-adc5-dc480d57ba5b",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.463Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.463Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) performed padding with null bytes before calculating its hash.(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--5bfccc3f-2326-4112-86cc-c1ece9d8a2b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9dc630a6-a6fd-4173-8236-9bbb1041f7ea",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.641Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "PTSecurity Higaisa 2020",
+                "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+                "description": "PT ESC Threat Intelligence. (2020, June 4). COVID-19 and New Year greetings: an investigation into the tools and methods used by the Higaisa group. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.641Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used an XSL file to run VBScript code.(Citation: PTSecurity Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--ebbe170d-aa74-4946-8511-9921243415a3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a195cd11-43dc-4ad8-a48d-a1c705bb8b90",
+        "type": "relationship",
+        "created": "2021-03-08T18:27:58.782Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "PTSecurity Higaisa 2020",
+                "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+                "description": "PT ESC Threat Intelligence. (2020, June 4). COVID-19 and New Year greetings: an investigation into the tools and methods used by the Higaisa group. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-08T18:27:58.782Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used a payload that creates a hidden window.(Citation: PTSecurity Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--af052dd3-641e-4954-a08f-74d56ad29b53",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.544Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.544Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used AES-128 to encrypt C2 traffic.(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c0792868-a5da-4486-9b3b-cefbc2667e54",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.747Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.747Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) added a spoofed binary to the start-up folder for persistence.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c6c5a455-14da-4d6f-8149-c0dc3bbd6f56",
+        "type": "relationship",
+        "created": "2021-03-08T18:27:58.744Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-08T18:27:58.744Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126)\u2019s shellcode attempted to find the process ID of the current process.(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cf60408f-5101-4cdf-935f-c5436071d6d0",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.653Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-04-05T19:18:23.880Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) named a shellcode loader binary <code>svchast.exe</code> to spoof the legitimate <code>svchost.exe</code>.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d374ab1b-4ff8-4ee8-92d2-466581cf58c8",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.534Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.534Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used <code>ipconfig</code> to gather network configuration information.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--da2585bf-f31d-42c9-b488-e6cbab7bcd42",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.759Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.759Z",
+        "description": "(Citation: Malwarebytes Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--db2e5a57-1854-4925-9b78-422c9b79c130",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.741Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "PTSecurity Higaisa 2020",
+                "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+                "description": "PT ESC Threat Intelligence. (2020, June 4). COVID-19 and New Year greetings: an investigation into the tools and methods used by the Higaisa group. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.741Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used <code>cmd.exe</code> for execution.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)(Citation: PTSecurity Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fa22812f-01a4-420a-be11-7cb5822026e5",
+        "type": "relationship",
+        "created": "2021-03-05T18:54:56.644Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Malwarebytes Higaisa 2020",
+                "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, June 4). New LNK attack tied to Higaisa APT discovered. Retrieved March 2, 2021."
+            },
+            {
+                "source_name": "Zscaler Higaisa 2020",
+                "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt",
+                "description": "Singh, S. Singh, A. (2020, June 11). The Return on the Higaisa APT. Retrieved March 2, 2021."
+            }
+        ],
+        "modified": "2021-03-05T18:54:56.644Z",
+        "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used certutil to decode Base64 binaries at runtime and a 16-byte XOR key to decrypt data.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+        "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

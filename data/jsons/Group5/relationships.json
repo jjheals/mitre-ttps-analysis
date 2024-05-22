@@ -1,0 +1,226 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--516fa29b-1a88-451c-a3ff-96af653b94ab",
+        "type": "relationship",
+        "created": "2019-06-04T19:50:48.447Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Citizen Lab Group5",
+                "description": "Scott-Railton, J., et al. (2016, August 2). Group5: Syria and the Iranian Connection. Retrieved September 26, 2016.",
+                "url": "https://citizenlab.ca/2016/08/group5-syria/"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Citizen Lab Group5)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
+        "target_ref": "malware--d906e6f7-434c-44c0-b51a-ed50af8f7945",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8447c89e-a743-430e-8ef5-41abfcde1a01",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.078Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Citizen Lab Group5",
+                "description": "Scott-Railton, J., et al. (2016, August 2). Group5: Syria and the Iranian Connection. Retrieved September 26, 2016.",
+                "url": "https://citizenlab.ca/2016/08/group5-syria/"
+            }
+        ],
+        "modified": "2020-03-16T20:08:27.319Z",
+        "description": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of capturing keystrokes.(Citation: Citizen Lab Group5)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
+        "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8e69c855-db70-4b5e-866b-f9ce0b786156",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.078Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Citizen Lab Group5",
+                "description": "Scott-Railton, J., et al. (2016, August 2). Group5: Syria and the Iranian Connection. Retrieved September 26, 2016.",
+                "url": "https://citizenlab.ca/2016/08/group5-syria/"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of watching the victim's screen.(Citation: Citizen Lab Group5)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
+        "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a9bc7666-f637-4093-a5bb-4edb61710e45",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.078Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Citizen Lab Group5",
+                "description": "Scott-Railton, J., et al. (2016, August 2). Group5: Syria and the Iranian Connection. Retrieved September 26, 2016.",
+                "url": "https://citizenlab.ca/2016/08/group5-syria/"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of remotely deleting files from victims.(Citation: Citizen Lab Group5)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--c3a1969b-1edb-4a78-80ab-b122cc2822e4",
+        "created": "2017-05-31T21:33:27.078Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Citizen Lab Group5",
+                "description": "Scott-Railton, J., et al. (2016, August 2). Group5: Syria and the Iranian Connection. Retrieved September 26, 2016.",
+                "url": "https://citizenlab.ca/2016/08/group5-syria/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-11T02:24:18.614Z",
+        "description": "[Group5](https://attack.mitre.org/groups/G0043) disguised its malicious binaries with several layers of obfuscation, including encrypting the files.(Citation: Citizen Lab Group5)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
+        "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e8ddf5f6-ec20-4eb6-bd22-b02f54a99693",
+        "type": "relationship",
+        "created": "2019-06-07T17:50:47.944Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Citizen Lab Group5",
+                "description": "Scott-Railton, J., et al. (2016, August 2). Group5: Syria and the Iranian Connection. Retrieved September 26, 2016.",
+                "url": "https://citizenlab.ca/2016/08/group5-syria/"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Citizen Lab Group5)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
+        "target_ref": "malware--b4d80f8b-d2b9-4448-8844-4bef777ed676",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--05604d66-735a-4369-bc31-c7915bb3f2e0",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.079Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Citizen Lab Group5",
+                "description": "Scott-Railton, J., et al. (2016, August 2). Group5: Syria and the Iranian Connection. Retrieved September 26, 2016.",
+                "url": "https://citizenlab.ca/2016/08/group5-syria/"
+            }
+        ],
+        "modified": "2023-04-25T14:00:00.188Z",
+        "description": "[Group5](https://attack.mitre.org/groups/G0043) C2 servers communicated with malware over TCP 8081, 8282, and 8083.(Citation: Citizen Lab Group5)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
+        "target_ref": "attack-pattern--c848fcf7-6b62-4bde-8216-b6c157d48da0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88",
+        "description": "[Group5](https://attack.mitre.org/groups/G0043) packed an executable by base64 encoding the PE file and breaking it up into numerous lines.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2017-05-31T21:33:27.078Z",
+        "id": "relationship--b9083516-7dd3-4ef2-808a-1df48894122b",
+        "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "description": "Scott-Railton, J., et al. (2016, August 2). Group5: Syria and the Iranian Connection. Retrieved September 26, 2016.",
+                "source_name": "Citizen Lab Group5",
+                "url": "https://citizenlab.ca/2016/08/group5-syria/"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

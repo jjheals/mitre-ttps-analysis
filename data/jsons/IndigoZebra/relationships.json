@@ -1,0 +1,297 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4db1e255-d845-459c-8553-39f1a278758f",
+        "type": "relationship",
+        "created": "2021-10-08T14:20:51.425Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Checkpoint IndigoZebra July 2021",
+                "url": "https://research.checkpoint.com/2021/indigozebra-apt-continues-to-attack-central-asia-with-evolving-tools/",
+                "description": "CheckPoint Research. (2021, July 1). IndigoZebra APT continues to attack Central Asia with evolving tools. Retrieved September 24, 2021."
+            }
+        ],
+        "modified": "2021-10-08T14:20:51.425Z",
+        "description": "[IndigoZebra](https://attack.mitre.org/groups/G0136) has established domains, some of which were designed to look like official government domains, for their operations.(Citation: Checkpoint IndigoZebra July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
+        "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--51681b8d-71f1-425f-990a-4daa30e6dfa9",
+        "type": "relationship",
+        "created": "2021-09-29T00:10:03.012Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Checkpoint IndigoZebra July 2021",
+                "url": "https://research.checkpoint.com/2021/indigozebra-apt-continues-to-attack-central-asia-with-evolving-tools/",
+                "description": "CheckPoint Research. (2021, July 1). IndigoZebra APT continues to attack Central Asia with evolving tools. Retrieved September 24, 2021."
+            }
+        ],
+        "modified": "2021-09-29T00:10:03.012Z",
+        "description": "(Citation: Checkpoint IndigoZebra July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
+        "target_ref": "malware--21583311-6321-4891-8a37-3eb4e57b0fb1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--62d5e701-4fdc-4a1f-8c0a-3861e26d28ce",
+        "type": "relationship",
+        "created": "2021-09-28T15:46:10.810Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Checkpoint IndigoZebra July 2021",
+                "url": "https://research.checkpoint.com/2021/indigozebra-apt-continues-to-attack-central-asia-with-evolving-tools/",
+                "description": "CheckPoint Research. (2021, July 1). IndigoZebra APT continues to attack Central Asia with evolving tools. Retrieved September 24, 2021."
+            }
+        ],
+        "modified": "2021-09-28T15:46:10.810Z",
+        "description": "(Citation: Checkpoint IndigoZebra July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
+        "target_ref": "malware--919a056e-5104-43b9-ad55-2ac929108b71",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8e1cc8cd-8344-4ba4-9d61-05e63b54bc6b",
+        "type": "relationship",
+        "created": "2021-09-24T21:47:23.060Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Securelist APT Trends Q2 2017",
+                "description": "Kaspersky Lab's Global Research & Analysis Team. (2017, August 8). APT Trends report Q2 2017. Retrieved February 15, 2018.",
+                "url": "https://securelist.com/apt-trends-report-q2-2017/79332/"
+            }
+        ],
+        "modified": "2021-09-24T21:47:23.060Z",
+        "description": "(Citation: Securelist APT Trends Q2 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
+        "target_ref": "malware--b42378e0-f147-496f-992a-26a49705395b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9bab41c7-1581-4c51-9119-6a5e29445979",
+        "type": "relationship",
+        "created": "2021-09-29T01:25:30.303Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Checkpoint IndigoZebra July 2021",
+                "url": "https://research.checkpoint.com/2021/indigozebra-apt-continues-to-attack-central-asia-with-evolving-tools/",
+                "description": "CheckPoint Research. (2021, July 1). IndigoZebra APT continues to attack Central Asia with evolving tools. Retrieved September 24, 2021."
+            },
+            {
+                "source_name": "Securelist APT Trends Q2 2017",
+                "description": "Kaspersky Lab's Global Research & Analysis Team. (2017, August 8). APT Trends report Q2 2017. Retrieved February 15, 2018.",
+                "url": "https://securelist.com/apt-trends-report-q2-2017/79332/"
+            }
+        ],
+        "modified": "2021-10-08T14:20:51.477Z",
+        "description": "[IndigoZebra](https://attack.mitre.org/groups/G0136) has acquired open source tools such as [NBTscan](https://attack.mitre.org/software/S0590) and Meterpreter for their operations.(Citation: Checkpoint IndigoZebra July 2021)(Citation: Securelist APT Trends Q2 2017) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a000579c-9149-4696-942f-e115d98eb96f",
+        "type": "relationship",
+        "created": "2021-09-24T21:41:35.008Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "HackerNews IndigoZebra July 2021",
+                "url": "https://thehackernews.com/2021/07/indigozebra-apt-hacking-campaign.html",
+                "description": "Lakshmanan, R.. (2021, July 1). IndigoZebra APT Hacking Campaign Targets the Afghan Government. Retrieved September 24, 2021."
+            },
+            {
+                "source_name": "Checkpoint IndigoZebra July 2021",
+                "url": "https://research.checkpoint.com/2021/indigozebra-apt-continues-to-attack-central-asia-with-evolving-tools/",
+                "description": "CheckPoint Research. (2021, July 1). IndigoZebra APT continues to attack Central Asia with evolving tools. Retrieved September 24, 2021."
+            }
+        ],
+        "modified": "2021-10-16T02:06:06.612Z",
+        "description": "[IndigoZebra](https://attack.mitre.org/groups/G0136) created Dropbox accounts for their operations.(Citation: HackerNews IndigoZebra July 2021)(Citation: Checkpoint IndigoZebra July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
+        "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c291a0b4-31b5-4075-9672-b10b0e7bd4cc",
+        "type": "relationship",
+        "created": "2021-10-08T14:20:51.432Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Checkpoint IndigoZebra July 2021",
+                "url": "https://research.checkpoint.com/2021/indigozebra-apt-continues-to-attack-central-asia-with-evolving-tools/",
+                "description": "CheckPoint Research. (2021, July 1). IndigoZebra APT continues to attack Central Asia with evolving tools. Retrieved September 24, 2021."
+            }
+        ],
+        "modified": "2021-10-08T14:20:51.432Z",
+        "description": "[IndigoZebra](https://attack.mitre.org/groups/G0136) has compromised legitimate email accounts to use in their spearphishing operations.(Citation: Checkpoint IndigoZebra July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
+        "target_ref": "attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--dd9e0f42-5d9d-4690-9d34-4e08a29d4868",
+        "type": "relationship",
+        "created": "2021-09-24T21:41:35.014Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "HackerNews IndigoZebra July 2021",
+                "url": "https://thehackernews.com/2021/07/indigozebra-apt-hacking-campaign.html",
+                "description": "Lakshmanan, R.. (2021, July 1). IndigoZebra APT Hacking Campaign Targets the Afghan Government. Retrieved September 24, 2021."
+            },
+            {
+                "source_name": "Checkpoint IndigoZebra July 2021",
+                "url": "https://research.checkpoint.com/2021/indigozebra-apt-continues-to-attack-central-asia-with-evolving-tools/",
+                "description": "CheckPoint Research. (2021, July 1). IndigoZebra APT continues to attack Central Asia with evolving tools. Retrieved September 24, 2021."
+            }
+        ],
+        "modified": "2021-09-24T22:08:18.655Z",
+        "description": "[IndigoZebra](https://attack.mitre.org/groups/G0136) sent spearphishing emails containing malicious password-protected RAR attachments.(Citation: HackerNews IndigoZebra July 2021)(Citation: Checkpoint IndigoZebra July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ecedc32f-3e97-4c2c-9b7e-d847baec8a44",
+        "type": "relationship",
+        "created": "2021-09-24T21:41:35.028Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "HackerNews IndigoZebra July 2021",
+                "url": "https://thehackernews.com/2021/07/indigozebra-apt-hacking-campaign.html",
+                "description": "Lakshmanan, R.. (2021, July 1). IndigoZebra APT Hacking Campaign Targets the Afghan Government. Retrieved September 24, 2021."
+            }
+        ],
+        "modified": "2021-09-24T21:41:35.028Z",
+        "description": "[IndigoZebra](https://attack.mitre.org/groups/G0136) sent spearphishing emails containing malicious attachments that urged recipients to review modifications in the file which would trigger the attack.(Citation: HackerNews IndigoZebra July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--febc7399-bbee-4a97-b5a1-d2d9cf5ba9fc",
+        "type": "relationship",
+        "created": "2021-10-08T14:20:51.422Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Checkpoint IndigoZebra July 2021",
+                "url": "https://research.checkpoint.com/2021/indigozebra-apt-continues-to-attack-central-asia-with-evolving-tools/",
+                "description": "CheckPoint Research. (2021, July 1). IndigoZebra APT continues to attack Central Asia with evolving tools. Retrieved September 24, 2021."
+            }
+        ],
+        "modified": "2021-10-08T14:20:51.422Z",
+        "description": "[IndigoZebra](https://attack.mitre.org/groups/G0136) has downloaded additional files and tools from its C2 server.(Citation: Checkpoint IndigoZebra July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

@@ -1,0 +1,1690 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--021885d8-90a5-4d70-91de-869783cd57d3",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            },
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T15:05:00.616Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used compromised credentials and a .NET tool to dump data from Microsoft Exchange mailboxes.(Citation: NCC Group APT15 Alive and Strong)(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0d51acf9-f8df-42e1-aef3-4c86cf5ab17a",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-03-29T19:54:46.178Z",
+        "description": "(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0ee0af6e-c913-406e-9439-f40f5102cae7",
+        "type": "relationship",
+        "created": "2020-05-07T18:49:44.782Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Okrum July 2019",
+                "url": "https://www.welivesecurity.com/wp-content/uploads/2019/07/ESET_Okrum_and_Ketrican.pdf",
+                "description": "Hromcova, Z. (2019, July). OKRUM AND KETRICAN: AN OVERVIEW OF RECENT KE3CHANG GROUP ACTIVITY. Retrieved May 6, 2020."
+            }
+        ],
+        "modified": "2020-05-07T18:49:44.782Z",
+        "description": "(Citation: ESET Okrum July 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "malware--4b6ec280-7bbb-48ff-ae59-b189520ebe83",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--1525d82a-05a7-4027-9d2d-02f8039d68b5",
+        "created": "2022-03-22T15:32:50.210Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used tools to download files to compromised machines.(Citation: Microsoft NICKEL December 2021)",
+        "modified": "2022-04-15T17:25:01.727Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--15cccbec-2d40-4f28-a46e-c985bbb20c87",
+        "type": "relationship",
+        "created": "2020-03-18T20:08:42.361Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            }
+        ],
+        "modified": "2021-11-01T21:12:15.032Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) performs account discovery using commands such as <code>net localgroup administrators</code> and <code>net group \"REDACTED\" /domain</code> on specific permissions groups.(Citation: Mandiant Operation Ke3chang November 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--199c92d9-dd54-4cb1-beef-3b6a97d12e82",
+        "type": "relationship",
+        "created": "2022-03-22T14:44:05.843Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T14:44:05.843Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used implants capable of collecting the signed-in username.(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--1a15d017-485e-403b-bad8-da8da074ffed",
+        "created": "2022-04-11T18:52:50.235Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used implants to collect the system language ID of a compromised machine.(Citation: Microsoft NICKEL December 2021)",
+        "modified": "2022-04-11T18:52:50.235Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--c1b68a96-3c48-49ea-a6c0-9b27359f9c19",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--20f863a1-f7de-4d66-a564-c4adee24fdbe",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.034Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            }
+        ],
+        "modified": "2021-11-01T21:12:14.711Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) performs account discovery using commands such as <code>net localgroup administrators</code> and <code>net group \"REDACTED\" /domain</code> on specific permissions groups.(Citation: Mandiant Operation Ke3chang November 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--301de16e-3829-4fb0-b217-dcdfca7398c9",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.034Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-11-01T21:12:14.686Z",
+        "description": "(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--325ccde0-2d5a-4306-9c4e-e1a554ee0d87",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.034Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-11-01T21:12:14.857Z",
+        "description": "(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--352e6e5a-f1e0-46f8-826a-978981f6d893",
+        "type": "relationship",
+        "created": "2022-03-22T14:31:39.342Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T14:31:39.342Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has deobfuscated Base64-encoded shellcode strings prior to loading them.(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--42049cfe-e374-4726-9832-3ad01d8466a5",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-03-29T19:54:46.124Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used [Mimikatz](https://attack.mitre.org/software/S0002) to generate Kerberos golden tickets.(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--768dce68-8d0d-477a-b01d-0eea98b963a1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--42d2f816-9db2-47bf-9481-3065d038725d",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.034Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-11-01T21:12:14.859Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) actors have been known to copy files to the network shares of other computers to move laterally.(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--47f580c1-77ea-48a6-a280-71bbcb4707d0",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-03-29T19:54:46.314Z",
+        "description": "(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "tool--33b9e38f-103c-412d-bdcf-904a91fff1e4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--49f2c182-bd69-4874-9102-b5fd1acac59c",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.033Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            }
+        ],
+        "modified": "2021-11-01T21:12:14.977Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) transferred compressed and encrypted RAR files containing exfiltration through the established backdoor command and control channel during operations.(Citation: Mandiant Operation Ke3chang November 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4cf4df8f-9eb3-4136-a082-ea1b5d7b398f",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            },
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T15:36:00.373Z",
+        "description": "(Citation: NCC Group APT15 Alive and Strong)(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--53fb076c-5f59-45da-bbc2-94b5f3a3eb91",
+        "type": "relationship",
+        "created": "2022-03-22T15:05:00.439Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T15:05:00.439Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has performed frequent and scheduled data collection from victim networks.(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--59223275-a57b-45ca-94b6-5c504165d8f9",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-03-29T19:54:46.071Z",
+        "description": "(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5c8fba10-9d8a-4257-a458-8f58efc8d912",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.033Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T15:05:00.667Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) uses command-line interaction to search files and directories.(Citation: Mandiant Operation Ke3chang November 2014)(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--60069193-4573-420f-9b2e-e9a42b95af12",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            },
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-21T17:38:37.967Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has gained access through VPNs including with compromised accounts and stolen VPN certificates.(Citation: NCC Group APT15 Alive and Strong)(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--625ebfc0-7aaa-4eaf-8c49-be8b55c059d4",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-03-29T19:54:46.094Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used network scanning and enumeration tools, including [Ping](https://attack.mitre.org/software/S0097).(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--644d2862-2836-41dd-ba3f-05e23278a5e6",
+        "type": "relationship",
+        "created": "2020-03-19T23:03:33.742Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-11-01T21:12:15.065Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has dumped credentials, including by using gsecdump.(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--695a988e-daa3-47d7-bf8d-3539ab992f80",
+        "created": "2018-10-17T00:14:20.652Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "APT15 Intezer June 2018",
+                "url": "https://web.archive.org/web/20180615122133/https://www.intezer.com/miragefox-apt15-resurfaces-with-new-tools-based-on-old-ones/",
+                "description": "Rosenberg, J. (2018, June 14). MirageFox: APT15 Resurfaces With New Tools Based On Old Ones. Retrieved September 21, 2018."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: APT15 Intezer June 2018)",
+        "modified": "2022-07-22T18:52:32.769Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "malware--e3cedcfe-6515-4348-af65-7f2c4157bf0d",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6fb6c639-cefa-4c7f-af89-26cb5fcd4030",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.033Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            },
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T14:53:03.884Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has performed local network configuration discovery using <code>ipconfig</code>.(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--77f919ce-1a18-4ee5-9979-1c9b818ca973",
+        "type": "relationship",
+        "created": "2021-10-12T20:02:51.819Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-10-12T20:02:51.819Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has obtained and used tools such as [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--77f9936d-1ba7-42a8-879d-1a6e90156366",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.034Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-11-01T21:12:14.958Z",
+        "description": "(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--78ad31db-6b8e-4433-88b8-49c22994a2ab",
+        "type": "relationship",
+        "created": "2022-03-22T15:32:50.203Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T15:32:50.203Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has performed  frequent and scheduled data exfiltration from compromised networks.(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--774a3188-6ba9-4dc4-879d-d54ee48a5ce9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7b529102-f95c-4ca1-a5c4-5a3497ab3674",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.033Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            }
+        ],
+        "modified": "2021-11-01T21:12:14.621Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) performs service discovery using <code>net start</code> commands.(Citation: Mandiant Operation Ke3chang November 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7b8c29ce-dda2-4608-a28f-40aca495048f",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-03-29T19:54:46.144Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) backdoor RoyalDNS established persistence through adding a service called <code>Nwsapagent</code>.(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--7e834bba-4d5d-47b6-b689-b905eba66c0d",
+        "created": "2022-03-21T17:46:37.337Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has compromised networks by exploiting Internet-facing applications, including vulnerable Microsoft Exchange and SharePoint servers.(Citation: Microsoft NICKEL December 2021)",
+        "modified": "2022-04-19T17:07:05.018Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--822688d0-d948-414f-b26a-2110d222a233",
+        "created": "2022-03-22T14:38:15.243Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has dropped their malware into legitimate installed software paths including: `C:\\ProgramFiles\\Realtek\\Audio\\HDA\\AERTSr.exe`, `C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\FoxitRdr64.exe`, `C:\\Program Files (x86)\\Adobe\\Flash Player\\AddIns\\airappinstaller\\airappinstall.exe`, and `C:\\Program Files (x86)\\Adobe\\Acrobat Reader DC\\Reader\\AcroRd64.exe`.(Citation: Microsoft NICKEL December 2021)",
+        "modified": "2022-04-11T18:54:27.770Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8bfa94cf-4eeb-442c-8f18-25b07cd3cbf5",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-03-29T19:54:46.570Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used a tool known as RemoteExec (similar to [PsExec](https://attack.mitre.org/software/S0029)) to remotely execute batch scripts and binaries.(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8c763d80-4c50-4ebd-b2c6-3cad22c55bfa",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.034Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T16:06:14.500Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) gathered information and files from local directories for exfiltration.(Citation: Mandiant Operation Ke3chang November 2014)(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--96a7d789-70a9-42d8-a78e-b7ffd6c9dc69",
+        "type": "relationship",
+        "created": "2020-03-17T01:40:15.162Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-03-29T19:54:46.281Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) malware RoyalDNS has used DNS for C2.(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9725630d-a737-43dd-a68f-a09987735846",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-03-29T19:54:46.488Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) used a SharePoint enumeration and data dumping tool known as spwebmember.(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--0c4b4fda-9062-47da-98b9-ceae2dcf052a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9a823773-6bcc-4923-8f27-4729e771df2b",
+        "type": "relationship",
+        "created": "2022-03-22T14:31:39.355Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T14:31:39.355Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used Base64-encoded shellcode strings.(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9f1f9c0a-92c2-4517-bb04-db232421284a",
+        "type": "relationship",
+        "created": "2022-03-22T18:47:48.437Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T18:47:48.437Z",
+        "description": "(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "malware--4d7bf2ac-f953-4907-b114-be44dc174d67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a5a63d5c-acf7-4720-866d-fcf6e576a58f",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.032Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-11-01T21:12:14.856Z",
+        "description": "Malware used by [Ke3chang](https://attack.mitre.org/groups/G0004) can run commands on the command-line interface.(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a5aebe97-98cc-46a5-b3f9-1a0497bc72ba",
+        "type": "relationship",
+        "created": "2019-04-22T15:08:48.216Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            }
+        ],
+        "modified": "2021-11-01T21:12:14.997Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used the right-to-left override character in spearphishing attachment names to trick targets into executing .scr and .exe files.(Citation: Mandiant Operation Ke3chang November 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--77eae145-55db-4519-8ae5-77b0c7215d69",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ab7eb363-c775-4065-a80d-1b324f22d0b8",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.033Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            }
+        ],
+        "modified": "2021-11-01T21:12:15.034Z",
+        "description": "The [Ke3chang](https://attack.mitre.org/groups/G0004) group has been known to compress data before exfiltration.(Citation: Mandiant Operation Ke3chang November 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b368c7c2-a593-45cb-b557-aac668a02656",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.033Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            }
+        ],
+        "modified": "2021-11-01T21:12:14.700Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) performs discovery of permission groups <code>net group /domain</code>.(Citation: Mandiant Operation Ke3chang November 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bde913a9-9895-4414-b79a-3156159033aa",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.033Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T15:08:59.845Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) is known to use 7Zip and RAR with passwords to encrypt data prior to exfiltration.(Citation: Mandiant Operation Ke3chang November 2014)(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c031bd06-453b-4f80-9a04-98e74a420323",
+        "type": "relationship",
+        "created": "2022-03-22T14:44:05.864Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T14:44:05.864Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used NTDSDump and other password dumping tools to gather credentials.(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c7e6d4a6-8d99-4134-848a-f4f712eb4316",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.033Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-11-01T21:12:14.989Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) performs process discovery using <code>tasklist</code> commands.(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--c8db7b65-563d-47ba-9e06-cabdbade47e9",
+        "created": "2017-05-31T21:33:27.033Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            },
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018."
+            },
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has dumped credentials, including by using [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)(Citation: Microsoft NICKEL December 2021)",
+        "modified": "2022-04-11T18:44:33.302Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cb727277-5491-422f-ab40-1bd1be973d1e",
+        "type": "relationship",
+        "created": "2022-03-21T16:07:22.479Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-21T16:07:22.479Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has developed custom malware that allowed them to maintain persistence on victim networks.(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cc79d8c5-f7c9-4c8b-810d-e57d70a07d4f",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            },
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T15:36:00.218Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) malware including RoyalCli and BS2005 have communicated over HTTP with the C2 server through Internet Explorer (IE) by using the COM interface IWebBrowser2.(Citation: NCC Group APT15 Alive and Strong)(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cdd38074-895f-40e8-85fb-acc1aa4ecb69",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-03-29T19:54:46.285Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used batch scripts in its malware to install persistence mechanisms.(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d150b0e5-9e4b-48c4-a952-5234b3d72c6a",
+        "type": "relationship",
+        "created": "2022-03-21T17:50:29.116Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-21T17:50:29.116Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used credential dumpers or stealers to obtain legitimate credentials, which they used to gain access to victim accounts.(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--dcb733f7-0b36-4b25-82d4-c332810562a7",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-03-29T19:54:46.197Z",
+        "description": "Several [Ke3chang](https://attack.mitre.org/groups/G0004) backdoors achieved persistence by adding a Run key.(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--eaa06586-e33e-4e4c-91ca-76935c22e012",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.033Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-11-01T21:12:15.036Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) performs local network connection discovery using <code>netstat</code>.(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f39446a9-07d1-456a-b48b-241aab979e55",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            },
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T15:09:02.208Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used keyloggers.(Citation: NCC Group APT15 Alive and Strong)(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f3d30d20-ee51-4976-8611-5667df771567",
+        "type": "relationship",
+        "created": "2020-03-19T23:03:33.778Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-11-01T21:12:15.488Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has dumped credentials, including by using gsecdump.(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--1ecfdab8-7d59-4c98-95d4-dc41970f57fc",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f7ed42df-01c4-4441-95ce-68228e157abf",
+        "type": "relationship",
+        "created": "2022-03-22T16:06:14.344Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T16:06:14.344Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used compromised credentials to sign into victims\u2019 Microsoft 365 accounts.(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f865403f-5b4a-4e5a-bb50-8d416ad36db4",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.033Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            },
+            {
+                "source_name": "Microsoft NICKEL December 2021",
+                "url": "https://www.microsoft.com/security/blog/2021/12/06/nickel-targeting-government-organizations-across-latin-america-and-europe",
+                "description": "MSTIC. (2021, December 6). NICKEL targeting government organizations across Latin America and Europe. Retrieved March 18, 2022."
+            }
+        ],
+        "modified": "2022-03-22T14:53:03.794Z",
+        "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) performs operating system information discovery using <code>systeminfo</code> and has used implants to identify the system language and computer name.(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)(Citation: Microsoft NICKEL December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f879eea1-2a05-484d-adbb-c3504813fc5d",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.034Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant Operation Ke3chang November 2014",
+                "description": "Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., & Geers, K. (2014). OPERATION \u201cKE3CHANG\u201d: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.",
+                "url": "https://www.mandiant.com/resources/operation-ke3chang-targeted-attacks-against-ministries-of-foreign-affairs"
+            },
+            {
+                "source_name": "NCC Group APT15 Alive and Strong",
+                "description": "Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.",
+                "url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+            }
+        ],
+        "modified": "2021-11-01T21:12:14.974Z",
+        "description": "(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+        "target_ref": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

@@ -1,0 +1,513 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--11f6ad22-0293-47bd-95d1-34bf4ee1de9e",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-19T19:54:13.826Z",
+        "description": "[FIN5](https://attack.mitre.org/groups/G0053) maintains access to victim environments by using [FLIPSIDE](https://attack.mitre.org/software/S0173) to create a proxy for a backup RDP tunnel.(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1ace08c6-0f1a-487d-92b2-6c61c2299270",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN5](https://attack.mitre.org/groups/G0053) uses [SDelete](https://attack.mitre.org/software/S0195) to clean up the environment and attempt to prevent detection.(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2af3c673-c0c6-4246-aacc-984eb370e7b9",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-16T23:51:43.031Z",
+        "description": "[FIN5](https://attack.mitre.org/groups/G0053) scripts save memory dump data into a specific directory on hosts in the victim environment.(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--39590383-ba69-4d8f-9520-e893cd4ebcdf",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-19T17:57:01.425Z",
+        "description": "[FIN5](https://attack.mitre.org/groups/G0053) scans processes on all victim systems in the environment and uses automated scripts to pull back the results.(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3ef6a3fb-0d59-4ba5-b2d0-dc32d547b74f",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN5](https://attack.mitre.org/groups/G0053) has used the open source tool Essential NetTools to map the network and build a list of targets.(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--432f40d2-5309-4cc1-9544-2943233c3c2c",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.darkreading.com/analytics/prolific-cybercrime-gang-favors-legit-login-credentials/d/d-id/1322645?",
+                "description": "Higgins, K. (2015, October 13). Prolific Cybercrime Gang Favors Legit Login Credentials. Retrieved October 4, 2017.",
+                "source_name": "DarkReading FireEye FIN5 Oct 2015"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: DarkReading FireEye FIN5 Oct 2015)(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "tool--242f3da3-4425-4d11-8f5c-b842886da966",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--55ffbd77-ec97-4dca-9399-b9e4b62fbbf8",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN5](https://attack.mitre.org/groups/G0053) scans processes on all victim systems in the environment and uses automated scripts to pull back the results.(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6b429676-7b77-4453-a6ce-2d6a6cb0dfe7",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.darkreading.com/analytics/prolific-cybercrime-gang-favors-legit-login-credentials/d/d-id/1322645?",
+                "description": "Higgins, K. (2015, October 13). Prolific Cybercrime Gang Favors Legit Login Credentials. Retrieved October 4, 2017.",
+                "source_name": "DarkReading FireEye FIN5 Oct 2015"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2021-09-20T15:58:58.854Z",
+        "description": "[FIN5](https://attack.mitre.org/groups/G0053) has has used the tool GET2 Penetrator to look for remote login and hard-coded credentials.(Citation: DarkReading FireEye FIN5 Oct 2015)(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7c240038-5599-418a-83e4-6d9962eee0bd",
+        "type": "relationship",
+        "created": "2021-10-12T22:04:56.899Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8"
+            }
+        ],
+        "modified": "2021-10-16T19:48:38.080Z",
+        "description": "[FIN5](https://attack.mitre.org/groups/G0053) has obtained and used a customized version of [PsExec](https://attack.mitre.org/software/S0029), as well as use other tools such as [pwdump](https://attack.mitre.org/software/S0006), [SDelete](https://attack.mitre.org/software/S0195), and [Windows Credential Editor](https://attack.mitre.org/software/S0005).(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7e46e7c8-e48a-4860-bbcd-224a2d12284a",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN5](https://attack.mitre.org/groups/G0053) uses a customized version of PsExec.(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9abd0448-a3b7-4262-8753-fe81dc91c434",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye Respond Webinar July 2017",
+                "description": "Scavella, T. and Rifki, A. (2017, July 20). Are you Ready to Respond? (Webinar). Retrieved October 4, 2017.",
+                "url": "https://www2.fireeye.com/WBNR-Are-you-ready-to-respond.html"
+            },
+            {
+                "url": "https://www.darkreading.com/analytics/prolific-cybercrime-gang-favors-legit-login-credentials/d/d-id/1322645?",
+                "description": "Higgins, K. (2015, October 13). Prolific Cybercrime Gang Favors Legit Login Credentials. Retrieved October 4, 2017.",
+                "source_name": "DarkReading FireEye FIN5 Oct 2015"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN5](https://attack.mitre.org/groups/G0053) has used legitimate VPN, Citrix, or VNC credentials to maintain access to a victim environment.(Citation: FireEye Respond Webinar July 2017)(Citation: DarkReading FireEye FIN5 Oct 2015)(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9b43f780-6a8b-477f-826f-c45e867749c9",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-02-18T03:37:13.292Z",
+        "description": "[FIN5](https://attack.mitre.org/groups/G0053) has cleared event logs from victims.(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a2c9bae6-15aa-4ce0-8f4d-01b8fc32a36d",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "malware--0e18b800-906c-4e44-a143-b11c72b3448b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ab83d817-57b8-4970-afc6-fbd70c6e3760",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "tool--9de2308e-7bed-43a3-8e58-f194b3586700",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c4e81078-28b4-4a68-a946-458f4d122e39",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "tool--d8d19e33-94fd-4aa3-b94a-08ee801a2153",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--dff84383-c4c5-4974-a33d-9e43526abf49",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.darkreading.com/analytics/prolific-cybercrime-gang-favors-legit-login-credentials/d/d-id/1322645?",
+                "description": "Higgins, K. (2015, October 13). Prolific Cybercrime Gang Favors Legit Login Credentials. Retrieved October 4, 2017.",
+                "source_name": "DarkReading FireEye FIN5 Oct 2015"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: DarkReading FireEye FIN5 Oct 2015)(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "malware--9752aef4-a1f3-4328-929f-b64eb0536090",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e25b4146-2f52-4c5b-a1f8-3e868e767f84",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye Respond Webinar July 2017",
+                "description": "Scavella, T. and Rifki, A. (2017, July 20). Are you Ready to Respond? (Webinar). Retrieved October 4, 2017.",
+                "url": "https://www2.fireeye.com/WBNR-Are-you-ready-to-respond.html"
+            },
+            {
+                "url": "https://www.darkreading.com/analytics/prolific-cybercrime-gang-favors-legit-login-credentials/d/d-id/1322645?",
+                "description": "Higgins, K. (2015, October 13). Prolific Cybercrime Gang Favors Legit Login Credentials. Retrieved October 4, 2017.",
+                "source_name": "DarkReading FireEye FIN5 Oct 2015"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+                "description": "Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.",
+                "source_name": "Mandiant FIN5 GrrCON Oct 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN5](https://attack.mitre.org/groups/G0053) has used legitimate VPN, RDP, Citrix, or VNC credentials to maintain access to a victim environment.(Citation: FireEye Respond Webinar July 2017)(Citation: DarkReading FireEye FIN5 Oct 2015)(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+        "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

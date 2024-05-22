@@ -1,0 +1,566 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0af12d0f-ef9e-40e7-8b70-d811f412125d",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:01.003Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Valak July 2020",
+                "url": "https://unit42.paloaltonetworks.com/valak-evolution/",
+                "description": "Duncan, B. (2020, July 24). Evolution of Valak, from Its Beginnings to Mass Distribution. Retrieved August 31, 2020."
+            }
+        ],
+        "modified": "2021-03-19T21:04:01.003Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has used regsvr32.exe to load malicious DLLs.(Citation: Unit 42 Valak July 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0ce8fbfc-10cf-4fd4-8314-5a3f184a986d",
+        "type": "relationship",
+        "created": "2021-09-30T12:58:59.406Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ATT QakBot April 2021",
+                "url": "https://cybersecurity.att.com/blogs/labs-research/the-rise-of-qakbot",
+                "description": "Morrow, D. (2021, April 15). The rise of QakBot. Retrieved September 27, 2021."
+            }
+        ],
+        "modified": "2021-10-12T18:16:40.807Z",
+        "description": "(Citation: ATT QakBot April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--297ca26b-2074-46ea-b81d-a0a5c6fe5ac0",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:01.267Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 TA551 Jan 2021",
+                "url": "https://unit42.paloaltonetworks.com/ta551-shathak-icedid/",
+                "description": "Duncan, B. (2021, January 7). TA551: Email Attack Campaign Switches from Valak to IcedID. Retrieved March 17, 2021."
+            }
+        ],
+        "modified": "2021-03-25T15:34:04.434Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has used spoofed company emails that were acquired from email clients on previously infected hosts to target other individuals.(Citation: Unit 42 TA551 Jan 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--354551e4-c6aa-495a-aba5-b7437c485d34",
+        "type": "relationship",
+        "created": "2021-03-24T14:10:06.717Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 TA551 Jan 2021",
+                "url": "https://unit42.paloaltonetworks.com/ta551-shathak-icedid/",
+                "description": "Duncan, B. (2021, January 7). TA551: Email Attack Campaign Switches from Valak to IcedID. Retrieved March 17, 2021."
+            }
+        ],
+        "modified": "2021-03-25T15:34:04.468Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has prompted users to enable macros within spearphishing attachments to install malware.(Citation: Unit 42 TA551 Jan 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--356cef7e-2994-4e52-8985-e046e8cc5513",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:01.259Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Cybereason Valak May 2020",
+                "url": "https://www.cybereason.com/blog/valak-more-than-meets-the-eye",
+                "description": "Salem, E. et al. (2020, May 28). VALAK: MORE THAN MEETS THE EYE . Retrieved June 19, 2020."
+            },
+            {
+                "source_name": "Unit 42 Valak July 2020",
+                "url": "https://unit42.paloaltonetworks.com/valak-evolution/",
+                "description": "Duncan, B. (2020, July 24). Evolution of Valak, from Its Beginnings to Mass Distribution. Retrieved August 31, 2020."
+            },
+            {
+                "source_name": "Unit 42 TA551 Jan 2021",
+                "url": "https://unit42.paloaltonetworks.com/ta551-shathak-icedid/",
+                "description": "Duncan, B. (2021, January 7). TA551: Email Attack Campaign Switches from Valak to IcedID. Retrieved March 17, 2021."
+            },
+            {
+                "source_name": "Secureworks GOLD CABIN",
+                "url": "https://www.secureworks.com/research/threat-profiles/gold-cabin",
+                "description": "Secureworks. (n.d.). GOLD CABIN Threat Profile. Retrieved March 17, 2021."
+            }
+        ],
+        "modified": "2021-03-19T21:04:01.259Z",
+        "description": "(Citation: Cybereason Valak May 2020)(Citation: Unit 42 Valak July 2020)(Citation: Unit 42 TA551 Jan 2021)(Citation: Secureworks GOLD CABIN)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--39a3fca6-cdf6-4053-b4fe-eb5d46fc729f",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:01.279Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Cybereason Valak May 2020",
+                "url": "https://www.cybereason.com/blog/valak-more-than-meets-the-eye",
+                "description": "Salem, E. et al. (2020, May 28). VALAK: MORE THAN MEETS THE EYE . Retrieved June 19, 2020."
+            },
+            {
+                "source_name": "Unit 42 Valak July 2020",
+                "url": "https://unit42.paloaltonetworks.com/valak-evolution/",
+                "description": "Duncan, B. (2020, July 24). Evolution of Valak, from Its Beginnings to Mass Distribution. Retrieved August 31, 2020."
+            },
+            {
+                "source_name": "Unit 42 TA551 Jan 2021",
+                "url": "https://unit42.paloaltonetworks.com/ta551-shathak-icedid/",
+                "description": "Duncan, B. (2021, January 7). TA551: Email Attack Campaign Switches from Valak to IcedID. Retrieved March 17, 2021."
+            },
+            {
+                "source_name": "Secureworks GOLD CABIN",
+                "url": "https://www.secureworks.com/research/threat-profiles/gold-cabin",
+                "description": "Secureworks. (n.d.). GOLD CABIN Threat Profile. Retrieved March 17, 2021."
+            }
+        ],
+        "modified": "2021-03-19T21:04:01.279Z",
+        "description": "(Citation: Cybereason Valak May 2020)(Citation: Unit 42 Valak July 2020)(Citation: Unit 42 TA551 Jan 2021)(Citation: Secureworks GOLD CABIN)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "malware--ade37ada-14af-4b44-b36c-210eec255d53",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--58565141-69f5-45c4-a7a9-f3eec03f403b",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:01.008Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 TA551 Jan 2021",
+                "url": "https://unit42.paloaltonetworks.com/ta551-shathak-icedid/",
+                "description": "Duncan, B. (2021, January 7). TA551: Email Attack Campaign Switches from Valak to IcedID. Retrieved March 17, 2021."
+            }
+        ],
+        "modified": "2021-03-19T21:04:01.008Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has used rundll32.exe to load malicious DLLs.(Citation: Unit 42 TA551 Jan 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--59ef906c-f395-427a-9cd5-30887a983516",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:01.248Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 TA551 Jan 2021",
+                "url": "https://unit42.paloaltonetworks.com/ta551-shathak-icedid/",
+                "description": "Duncan, B. (2021, January 7). TA551: Email Attack Campaign Switches from Valak to IcedID. Retrieved March 17, 2021."
+            }
+        ],
+        "modified": "2021-03-25T15:34:04.391Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has hidden encoded data for malware DLLs in a PNG.(Citation: Unit 42 TA551 Jan 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--c2e147a9-d1a8-4074-811a-d8789202d916",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5d881746-44f9-4865-86de-97253fc197fb",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:01.281Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Valak July 2020",
+                "url": "https://unit42.paloaltonetworks.com/valak-evolution/",
+                "description": "Duncan, B. (2020, July 24). Evolution of Valak, from Its Beginnings to Mass Distribution. Retrieved August 31, 2020."
+            },
+            {
+                "source_name": "Unit 42 TA551 Jan 2021",
+                "url": "https://unit42.paloaltonetworks.com/ta551-shathak-icedid/",
+                "description": "Duncan, B. (2021, January 7). TA551: Email Attack Campaign Switches from Valak to IcedID. Retrieved March 17, 2021."
+            },
+            {
+                "source_name": "Secureworks GOLD CABIN",
+                "url": "https://www.secureworks.com/research/threat-profiles/gold-cabin",
+                "description": "Secureworks. (n.d.). GOLD CABIN Threat Profile. Retrieved March 17, 2021."
+            }
+        ],
+        "modified": "2021-03-25T15:34:04.436Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has sent spearphishing attachments with password protected ZIP files.(Citation: Unit 42 Valak July 2020)(Citation: Unit 42 TA551 Jan 2021)(Citation: Secureworks GOLD CABIN)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6a4eafba-a7fb-46d1-8c50-033e1e3d7409",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:00.997Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Valak July 2020",
+                "url": "https://unit42.paloaltonetworks.com/valak-evolution/",
+                "description": "Duncan, B. (2020, July 24). Evolution of Valak, from Its Beginnings to Mass Distribution. Retrieved August 31, 2020."
+            }
+        ],
+        "modified": "2021-03-24T14:10:06.828Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has used encoded ASCII text for initial C2 communications.(Citation: Unit 42 Valak July 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--93656c66-acfc-43b4-af66-bf328256b7b8",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:01.269Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 TA551 Jan 2021",
+                "url": "https://unit42.paloaltonetworks.com/ta551-shathak-icedid/",
+                "description": "Duncan, B. (2021, January 7). TA551: Email Attack Campaign Switches from Valak to IcedID. Retrieved March 17, 2021."
+            },
+            {
+                "source_name": "Secureworks GOLD CABIN",
+                "url": "https://www.secureworks.com/research/threat-profiles/gold-cabin",
+                "description": "Secureworks. (n.d.). GOLD CABIN Threat Profile. Retrieved March 17, 2021."
+            }
+        ],
+        "modified": "2021-03-19T21:04:01.269Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has used a DGA to generate URLs from executed macros.(Citation: Unit 42 TA551 Jan 2021)(Citation: Secureworks GOLD CABIN)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--118f61a5-eb3e-4fb6-931f-2096647f4ecd",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9b222cfd-8b08-4843-8b08-32e2476aba36",
+        "created": "2021-03-19T21:04:00.988Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Unit 42 Valak July 2020",
+                "description": "Duncan, B. (2020, July 24). Evolution of Valak, from Its Beginnings to Mass Distribution. Retrieved August 31, 2020.",
+                "url": "https://unit42.paloaltonetworks.com/valak-evolution/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-22T05:40:37.960Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has used obfuscated variable names in a JavaScript configuration file.(Citation: Unit 42 Valak July 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c1349223-f356-4e0d-8148-bda128354347",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:01.014Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Valak July 2020",
+                "url": "https://unit42.paloaltonetworks.com/valak-evolution/",
+                "description": "Duncan, B. (2020, July 24). Evolution of Valak, from Its Beginnings to Mass Distribution. Retrieved August 31, 2020."
+            }
+        ],
+        "modified": "2021-03-19T21:04:01.014Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has used HTTP for C2 communications.(Citation: Unit 42 Valak July 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c4953a3b-d674-4582-b644-1339ec097aad",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:01.261Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 TA551 Jan 2021",
+                "url": "https://unit42.paloaltonetworks.com/ta551-shathak-icedid/",
+                "description": "Duncan, B. (2021, January 7). TA551: Email Attack Campaign Switches from Valak to IcedID. Retrieved March 17, 2021."
+            }
+        ],
+        "modified": "2021-03-19T21:04:01.261Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has retrieved DLLs and installer binaries for malware execution from C2.(Citation: Unit 42 TA551 Jan 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--df33a65c-1529-4f8d-a27b-0d00f540e6e6",
+        "type": "relationship",
+        "created": "2021-03-24T14:10:06.732Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 TA551 Jan 2021",
+                "url": "https://unit42.paloaltonetworks.com/ta551-shathak-icedid/",
+                "description": "Duncan, B. (2021, January 7). TA551: Email Attack Campaign Switches from Valak to IcedID. Retrieved March 17, 2021."
+            }
+        ],
+        "modified": "2021-03-25T15:34:04.469Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has used mshta.exe to execute malicious payloads.(Citation: Unit 42 TA551 Jan 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e52a9525-9209-4cf5-8f8e-43057ef6c2b3",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:01.270Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 TA551 Jan 2021",
+                "url": "https://unit42.paloaltonetworks.com/ta551-shathak-icedid/",
+                "description": "Duncan, B. (2021, January 7). TA551: Email Attack Campaign Switches from Valak to IcedID. Retrieved March 17, 2021."
+            }
+        ],
+        "modified": "2021-03-25T15:34:04.440Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has used <code>cmd.exe</code> to execute commands.(Citation: Unit 42 TA551 Jan 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--eca046f5-9175-4010-8297-07281f588934",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:01.283Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Cybereason Valak May 2020",
+                "url": "https://www.cybereason.com/blog/valak-more-than-meets-the-eye",
+                "description": "Salem, E. et al. (2020, May 28). VALAK: MORE THAN MEETS THE EYE . Retrieved June 19, 2020."
+            },
+            {
+                "source_name": "Unit 42 Valak July 2020",
+                "url": "https://unit42.paloaltonetworks.com/valak-evolution/",
+                "description": "Duncan, B. (2020, July 24). Evolution of Valak, from Its Beginnings to Mass Distribution. Retrieved August 31, 2020."
+            },
+            {
+                "source_name": "Unit 42 TA551 Jan 2021",
+                "url": "https://unit42.paloaltonetworks.com/ta551-shathak-icedid/",
+                "description": "Duncan, B. (2021, January 7). TA551: Email Attack Campaign Switches from Valak to IcedID. Retrieved March 17, 2021."
+            },
+            {
+                "source_name": "Secureworks GOLD CABIN",
+                "url": "https://www.secureworks.com/research/threat-profiles/gold-cabin",
+                "description": "Secureworks. (n.d.). GOLD CABIN Threat Profile. Retrieved March 17, 2021."
+            }
+        ],
+        "modified": "2021-03-19T21:04:01.283Z",
+        "description": "(Citation: Cybereason Valak May 2020)(Citation: Unit 42 Valak July 2020)(Citation: Unit 42 TA551 Jan 2021)(Citation: Secureworks GOLD CABIN)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "malware--1492d0f8-7e14-4af3-9239-bc3fe10d3407",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f2e075b3-1125-4259-bf0b-1ff90c738354",
+        "type": "relationship",
+        "created": "2021-03-19T21:04:00.991Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 TA551 Jan 2021",
+                "url": "https://unit42.paloaltonetworks.com/ta551-shathak-icedid/",
+                "description": "Duncan, B. (2021, January 7). TA551: Email Attack Campaign Switches from Valak to IcedID. Retrieved March 17, 2021."
+            }
+        ],
+        "modified": "2021-03-19T21:04:00.991Z",
+        "description": "[TA551](https://attack.mitre.org/groups/G0127) has masked malware DLLs as dat and jpg files.(Citation: Unit 42 TA551 Jan 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+        "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

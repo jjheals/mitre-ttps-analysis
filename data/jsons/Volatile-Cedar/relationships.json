@@ -1,0 +1,223 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1637c874-852e-4ab9-b6e0-2c855da74ef0",
+        "type": "relationship",
+        "created": "2021-02-08T20:30:30.984Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CheckPoint Volatile Cedar March 2015",
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/03/20082004/volatile-cedar-technical-report.pdf",
+                "description": "Threat Intelligence and Research. (2015, March 30). VOLATILE CEDAR. Retrieved February 8, 2021."
+            },
+            {
+                "source_name": "ClearSky Lebanese Cedar Jan 2021",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2021/01/Lebanese-Cedar-APT.pdf",
+                "description": "ClearSky Cyber Security. (2021, January). \u201cLebanese Cedar\u201d APT Global Lebanese Espionage Campaign Leveraging Web Servers. Retrieved February 10, 2021."
+            }
+        ],
+        "modified": "2021-02-10T18:04:49.116Z",
+        "description": "[Volatile Cedar](https://attack.mitre.org/groups/G0123) has performed vulnerability scans of the target server.(Citation: CheckPoint Volatile Cedar March 2015)(Citation: ClearSky Lebanese Cedar Jan 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3",
+        "target_ref": "attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2045cbbe-6046-44ae-a255-6c038da68cd5",
+        "type": "relationship",
+        "created": "2022-03-04T18:58:46.297Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearSky Lebanese Cedar Jan 2021",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2021/01/Lebanese-Cedar-APT.pdf",
+                "description": "ClearSky Cyber Security. (2021, January). \u201cLebanese Cedar\u201d APT Global Lebanese Espionage Campaign Leveraging Web Servers. Retrieved February 10, 2021."
+            }
+        ],
+        "modified": "2022-03-04T18:58:46.297Z",
+        "description": "[Volatile Cedar](https://attack.mitre.org/groups/G0123) has used DirBuster and GoBuster to brute force web directories and DNS subdomains.(Citation: ClearSky Lebanese Cedar Jan 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3",
+        "target_ref": "attack-pattern--bed04f7d-e48a-4e76-bd0f-4c57fe31fc46",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5b642677-f57c-4eb7-9e9e-33e12de48cd1",
+        "type": "relationship",
+        "created": "2021-02-10T19:36:49.355Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearSky Lebanese Cedar Jan 2021",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2021/01/Lebanese-Cedar-APT.pdf",
+                "description": "ClearSky Cyber Security. (2021, January). \u201cLebanese Cedar\u201d APT Global Lebanese Espionage Campaign Leveraging Web Servers. Retrieved February 10, 2021."
+            },
+            {
+                "source_name": "CheckPoint Volatile Cedar March 2015",
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/03/20082004/volatile-cedar-technical-report.pdf",
+                "description": "Threat Intelligence and Research. (2015, March 30). VOLATILE CEDAR. Retrieved February 8, 2021."
+            }
+        ],
+        "modified": "2021-02-10T21:01:17.394Z",
+        "description": "(Citation: ClearSky Lebanese Cedar Jan 2021)(Citation: CheckPoint Volatile Cedar March 2015)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3",
+        "target_ref": "malware--751b77e6-af1f-483b-93fe-eddf17f92a64",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--60b2c702-e2f4-47fd-a009-3ba561bceeb8",
+        "type": "relationship",
+        "created": "2021-02-08T21:24:53.101Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CheckPoint Volatile Cedar March 2015",
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/03/20082004/volatile-cedar-technical-report.pdf",
+                "description": "Threat Intelligence and Research. (2015, March 30). VOLATILE CEDAR. Retrieved February 8, 2021."
+            },
+            {
+                "source_name": "ClearSky Lebanese Cedar Jan 2021",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2021/01/Lebanese-Cedar-APT.pdf",
+                "description": "ClearSky Cyber Security. (2021, January). \u201cLebanese Cedar\u201d APT Global Lebanese Espionage Campaign Leveraging Web Servers. Retrieved February 10, 2021."
+            }
+        ],
+        "modified": "2021-02-10T18:04:49.130Z",
+        "description": "[Volatile Cedar](https://attack.mitre.org/groups/G0123) can inject web shell code into a server.(Citation: CheckPoint Volatile Cedar March 2015)(Citation: ClearSky Lebanese Cedar Jan 2021) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3",
+        "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--72ff8ebb-a0fe-4ea0-9e4a-0f9aa2d48bc5",
+        "type": "relationship",
+        "created": "2021-02-08T21:46:51.456Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CheckPoint Volatile Cedar March 2015",
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/03/20082004/volatile-cedar-technical-report.pdf",
+                "description": "Threat Intelligence and Research. (2015, March 30). VOLATILE CEDAR. Retrieved February 8, 2021."
+            },
+            {
+                "source_name": "ClearSky Lebanese Cedar Jan 2021",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2021/01/Lebanese-Cedar-APT.pdf",
+                "description": "ClearSky Cyber Security. (2021, January). \u201cLebanese Cedar\u201d APT Global Lebanese Espionage Campaign Leveraging Web Servers. Retrieved February 10, 2021."
+            }
+        ],
+        "modified": "2021-02-10T17:55:01.910Z",
+        "description": "(Citation: CheckPoint Volatile Cedar March 2015)(Citation: ClearSky Lebanese Cedar Jan 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3",
+        "target_ref": "malware--6a21e3a4-5ffe-4581-af9a-6a54c7536f44",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--aaac742e-ad51-470d-826c-8196cf3c1d3e",
+        "type": "relationship",
+        "created": "2021-02-10T18:04:49.076Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearSky Lebanese Cedar Jan 2021",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2021/01/Lebanese-Cedar-APT.pdf",
+                "description": "ClearSky Cyber Security. (2021, January). \u201cLebanese Cedar\u201d APT Global Lebanese Espionage Campaign Leveraging Web Servers. Retrieved February 10, 2021."
+            }
+        ],
+        "modified": "2021-02-10T18:04:49.076Z",
+        "description": "[Volatile Cedar](https://attack.mitre.org/groups/G0123) can deploy additional tools.(Citation: ClearSky Lebanese Cedar Jan 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c4bc8f71-e4f4-42b8-a39f-b4512987a423",
+        "type": "relationship",
+        "created": "2021-02-08T21:24:53.117Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CheckPoint Volatile Cedar March 2015",
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/03/20082004/volatile-cedar-technical-report.pdf",
+                "description": "Threat Intelligence and Research. (2015, March 30). VOLATILE CEDAR. Retrieved February 8, 2021."
+            },
+            {
+                "source_name": "ClearSky Lebanese Cedar Jan 2021",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2021/01/Lebanese-Cedar-APT.pdf",
+                "description": "ClearSky Cyber Security. (2021, January). \u201cLebanese Cedar\u201d APT Global Lebanese Espionage Campaign Leveraging Web Servers. Retrieved February 10, 2021."
+            }
+        ],
+        "modified": "2021-02-10T18:04:49.164Z",
+        "description": "[Volatile Cedar](https://attack.mitre.org/groups/G0123) has targeted publicly facing web servers, with both automatic and manual vulnerability discovery.(Citation: CheckPoint Volatile Cedar March 2015) (Citation: ClearSky Lebanese Cedar Jan 2021) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

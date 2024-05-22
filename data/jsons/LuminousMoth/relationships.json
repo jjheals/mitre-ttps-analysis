@@ -1,0 +1,897 @@
+[
+    {
+        "type": "relationship",
+        "id": "relationship--002f1039-f4c5-4c60-b8ac-ced374bec2ac",
+        "created": "2023-02-23T18:13:00.492Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T15:59:30.201Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used an unnamed post-exploitation tool to steal cookies from the Chrome browser.(Citation: Kaspersky LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--10ffac09-e42d-4f56-ab20-db94c67d76ff",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--03aece39-d7a2-47a4-be1a-b1d6f1d72654",
+        "created": "2023-02-23T18:19:34.153Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:01:14.160Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has exfiltrated data to Google Drive.(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--03c424ec-df52-4b08-8b32-fa8b2a738a97",
+        "created": "2023-02-23T18:07:26.070Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-02-23T18:07:26.070Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has sent spearphishing emails containing a malicious Dropbox download link.(Citation: Kaspersky LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--05581e74-e78f-40e1-aa13-c990a99cbac3",
+        "created": "2023-02-23T18:04:38.335Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            },
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:05:14.342Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has obtained and used malware such as [Cobalt Strike](https://attack.mitre.org/software/S0154).(Citation: Kaspersky LuminousMoth July 2021)(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--7807d3a4-a885-4639-a786-c1ed41484970",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--07a569f4-ecb0-45b2-a880-3542508e9835",
+        "created": "2023-04-10T16:49:01.183Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:49:01.183Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has split archived files into multiple parts to bypass a 5MB limit.(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--c3888c54-775d-4b2f-b759-75a2ececcbfd",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--17bb48d5-7b1b-43be-b18e-07bc0462cad5",
+        "created": "2023-02-23T18:15:32.787Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-02-23T18:15:32.787Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used malware to store malicious binaries in hidden directories on victim's USB drives.(Citation: Kaspersky LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--18ba352d-274c-4cb5-8916-d95035a2423c",
+        "created": "2023-04-10T17:14:00.713Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T17:14:00.713Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has hosted malicious payloads on Dropbox.(Citation: Kaspersky LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--242a60b4-114e-4dc5-9577-72dfd375a93c",
+        "created": "2023-02-23T18:14:11.248Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            },
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-02-23T18:14:11.248Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used malicious DLLs to spread malware to connected removable USB drives on infected machines.(Citation: Kaspersky LuminousMoth July 2021)(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--28d81681-8dcf-45ee-a5e6-378327ce93ce",
+        "created": "2023-04-10T16:55:49.177Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:55:49.177Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used malware that exfiltrates stolen data to its C2 server.(Citation: Kaspersky LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--28f7e7c9-76ef-48c7-b027-f32256ad2907",
+        "created": "2023-02-23T18:24:28.770Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:14:41.807Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has redirected compromised machines to an actor-controlled webpage through HTML injection.(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--33119ed3-3f9c-43b1-a371-53a1cfdce144",
+        "created": "2023-04-10T17:11:05.607Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T17:11:05.607Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has created a link to a Dropbox file that has been used in their spear-phishing operations.(Citation: Kaspersky LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--84ae8255-b4f4-4237-b5c5-e717405a9701",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--3e26385f-0aa0-44a3-8830-978610a1680d",
+        "created": "2023-04-10T17:03:38.990Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            },
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T17:03:38.990Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used unique malware for information theft and exfiltration.(Citation: Kaspersky LuminousMoth July 2021)(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4688dc57-9101-4f37-a2e3-9b89da7634ed",
+        "created": "2023-02-23T18:16:29.518Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:18:22.011Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used HTTP for C2.(Citation: Kaspersky LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5a393124-ffca-447e-b230-468f2c57e023",
+        "created": "2023-02-23T18:17:27.225Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            },
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:19:00.594Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has downloaded additional malware and tools onto a compromised host.(Citation: Kaspersky LuminousMoth July 2021)(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5cd6e7fd-b6c6-4796-91d5-6cf4ab724adf",
+        "created": "2023-02-23T18:20:23.111Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:21:41.716Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used ARP spoofing to redirect a compromised machine to an actor-controlled website.(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--cabe189c-a0e3-4965-a473-dcff00f17213",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5ff56332-1e9e-4853-baae-5918e41882ac",
+        "created": "2023-04-10T16:07:16.789Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:07:16.789Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has obtained an ARP spoofing tool from GitHub.(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--65f63217-5473-4093-afcc-070c5e757a29",
+        "created": "2023-04-10T16:44:30.622Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            },
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:44:30.622Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has collected files and data from compromised machines.(Citation: Kaspersky LuminousMoth July 2021)(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--71485f5d-f685-403d-a0da-72acbae0f79e",
+        "created": "2023-02-23T18:00:17.156Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            },
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-02-23T18:00:17.156Z",
+        "description": "(Citation: Kaspersky LuminousMoth July 2021)(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--74480cd6-1f2e-4c2d-a1ad-82cc50d63d14",
+        "created": "2023-02-23T18:08:10.953Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-02-23T18:08:10.953Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has lured victims into clicking malicious Dropbox download links delivered through spearphishing.(Citation: Kaspersky LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7f8b1475-9e41-41d7-84f5-6c4041c4071a",
+        "created": "2023-02-23T18:09:30.019Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            },
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:25:30.262Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used legitimate executables such as `winword.exe` and `igfxem.exe` to side-load their malware.(Citation: Kaspersky LuminousMoth July 2021)(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--856db86a-62a6-4545-898f-7eb44924cfde",
+        "created": "2023-02-23T18:10:30.456Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            },
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:27:37.496Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used malicious DLLs that setup persistence in the Registry Key `HKCU\\Software\\Microsoft\\Windows\\Current Version\\Run`.(Citation: Kaspersky LuminousMoth July 2021)(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--95e83e36-ba44-4e8f-8afe-ff6622fd6f84",
+        "created": "2023-04-10T16:43:01.816Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            },
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:43:01.816Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used malware that scans for files in the Documents, Desktop, and Download folders and in other drives.(Citation: Kaspersky LuminousMoth July 2021)(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--986f3f81-7872-4c99-a704-4e53f2936e26",
+        "created": "2023-04-10T16:46:28.432Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:46:28.432Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used a malicious DLL to collect the username from compromised hosts.(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9e8e158e-31a9-406e-8b58-68ef645b0cc8",
+        "created": "2023-02-23T18:26:33.504Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-02-23T18:26:33.504Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has manually archived stolen files from victim machines before exfiltration.(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a980cbf6-262e-41c8-aec3-890ed77966ce",
+        "created": "2023-02-23T18:11:53.481Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:33:46.660Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has disguised their exfiltration malware as `ZoomVideoApp.exe`.(Citation: Kaspersky LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--b29088a3-47cf-4799-a8e5-428472908d06",
+        "created": "2023-04-10T17:01:22.574Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            },
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T17:01:22.574Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used malware that adds Registry keys for persistence.(Citation: Kaspersky LuminousMoth July 2021)(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--b47be693-c3f4-4f21-ba08-4e2fe170bc51",
+        "created": "2023-04-10T16:51:54.688Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T16:51:54.688Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has created scheduled tasks to establish persistence for their tools.(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--ea4a70c8-5952-4a61-86a2-bdc801a64dc8",
+        "created": "2023-02-23T18:06:24.203Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T17:34:36.872Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used a valid digital certificate for some of their malware.(Citation: Kaspersky LuminousMoth July 2021) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--19401639-28d0-4c3c-adcc-bc2ba22f6421",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--eb4ce173-6f0e-4c12-9ff8-09c4fb1ae2d3",
+        "created": "2023-04-10T17:37:31.149Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T17:37:31.149Z",
+        "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has signed their malware with a valid digital signature.(Citation: Kaspersky LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--f2ab4a93-9b9f-4c14-a879-200c512d406f",
+        "created": "2023-02-23T18:00:41.670Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Bitdefender LuminousMoth July 2021",
+                "description": "Botezatu, B and etl. (2021, July 21). LuminousMoth - PlugX, File Exfiltration and Persistence Revisited. Retrieved October 20, 2022.",
+                "url": "https://www.bitdefender.com/blog/labs/luminousmoth-plugx-file-exfiltration-and-persistence-revisited"
+            },
+            {
+                "source_name": "Kaspersky LuminousMoth July 2021",
+                "description": "Lechtik, M, and etl. (2021, July 14). LuminousMoth APT: Sweeping attacks for the chosen few. Retrieved October 20, 2022.",
+                "url": "https://securelist.com/apt-luminousmoth/103332/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-02-23T18:00:41.670Z",
+        "description": "(Citation: Kaspersky LuminousMoth July 2021)(Citation: Bitdefender LuminousMoth July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    }
+]

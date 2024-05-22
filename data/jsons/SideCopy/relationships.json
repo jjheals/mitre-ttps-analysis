@@ -1,0 +1,494 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--139cce0b-726b-406a-ad38-1fdfc779cf57",
+        "created": "2022-08-16T15:35:04.434Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has identified the country location of a compromised host.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "modified": "2022-08-24T15:33:57.720Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--c877e33f-1df6-40d6-b1e7-ce70f16f4979",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--15c71de6-bc1d-451f-8c61-a982516bb18b",
+        "created": "2022-08-07T14:34:40.854Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) uses a loader DLL file to collect AV product names from an infected host.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "modified": "2022-08-15T20:28:15.276Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--171a96b6-1680-408b-b90d-356b393a3dea",
+        "created": "2022-08-16T15:37:26.617Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022.",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-13T22:22:53.723Z",
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has compromised domains for some of their infrastructure, including for C2 and staging malware.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--f9cc4d06-775f-4ee1-b401-4e2cc0da30ba",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--1d2111ce-5034-472a-89a7-1818d11280fb",
+        "created": "2022-08-07T14:09:13.284Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has delivered trojanized executables via spearphishing emails that contacts actor-controlled servers to download malicious payloads.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "modified": "2022-08-15T20:28:15.277Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--4e3b39db-d29f-450b-b3ec-074c91af282a",
+        "created": "2022-08-16T15:32:07.086Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has identified the IP address of a compromised host.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "modified": "2022-08-24T15:34:21.667Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--5c5d1d00-1a0a-4315-9da4-2beb5f00793b",
+        "created": "2022-08-24T15:46:00.025Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has used compromised domains to host its malicious payloads.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "modified": "2022-08-24T15:46:00.025Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--612cdeba-0ca3-426f-93d3-2dd3ccca7a54",
+        "created": "2022-08-07T14:40:28.139Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": " [SideCopy](https://attack.mitre.org/groups/G1008) has executed malware by calling the API function `CreateProcessW`.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "modified": "2022-08-15T20:28:15.285Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--8528d601-e1a2-4c59-965e-fb0b65dece43",
+        "created": "2022-08-07T15:50:14.146Z",
+        "x_mitre_version": "0.1",
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "",
+        "modified": "2022-08-07T15:50:14.146Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "malware--3e4e2c79-2b27-4245-a5c1-5586a3cbd8f5",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "external_references": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--86bfc0ee-73e0-4f1b-a4f9-f8e44eae2dc3",
+        "created": "2022-08-07T14:14:14.950Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022.",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-13T22:25:35.114Z",
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has sent Microsoft Office Publisher documents to victims that have embedded malicious macros that execute an hta file via calling `mshta.exe`.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--93d35fd7-3a55-4de1-a568-0fa50f81d594",
+        "created": "2022-08-24T15:44:06.579Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has collected browser information from a compromised host.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "modified": "2022-08-24T15:44:06.579Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--943577e6-928e-43dd-a175-60e6046c4499",
+        "created": "2022-08-07T14:06:13.921Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022.",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-14T20:53:13.761Z",
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has sent spearphishing emails with malicious hta file attachments.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--b277ffdd-55fc-42fc-96c0-3bf395f04831",
+        "created": "2022-08-07T14:36:15.853Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has used a malicious loader DLL file to execute the `credwiz.exe` process and side-load the malicious payload `Duser.dll`.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "modified": "2022-08-15T20:28:15.290Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--b784a456-decb-4d3a-a789-9dd67afb6e66",
+        "created": "2022-08-07T14:07:38.171Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has attempted to lure victims into clicking on malicious embedded archive files sent via spearphishing campaigns.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "modified": "2022-08-24T15:54:24.468Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--c1c32fe3-7aba-4d58-94df-89ce60a76810",
+        "created": "2022-08-16T15:36:02.821Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has identified the OS version of a compromised host.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "modified": "2022-08-24T15:34:57.129Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--cfdd9ee1-119f-4071-8498-02bb568fc778",
+        "created": "2022-08-16T15:38:21.271Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has crafted generic lures for spam campaigns to collect emails and credentials for targeting efforts.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "modified": "2022-08-16T15:38:21.271Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--8982a661-d84c-48c0-b4ec-1db29c6cf3bc",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--dc80f7b4-ea52-47ed-a6a3-7fd3fc96d319",
+        "created": "2022-08-07T15:29:26.446Z",
+        "x_mitre_version": "0.1",
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "",
+        "modified": "2022-08-07T15:29:26.446Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "malware--36801ffb-5c85-4c50-9121-6122e389366d",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "external_references": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--e9b4a99d-6ddb-40bb-918a-363ddbdac448",
+        "created": "2022-08-07T14:38:08.623Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has used a legitimate DLL file name, `Duser.dll` to disguise a malicious remote access tool.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "modified": "2022-08-15T20:28:15.294Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--ebfa4596-86bb-4a7f-a6f5-11a5642b31fd",
+        "created": "2022-08-07T14:41:53.761Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes SideCopy Dec 2021",
+                "url": "https://www.malwarebytes.com/blog/news/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure",
+                "description": "Threat Intelligence Team. (2021, December 2). SideCopy APT: Connecting lures victims, payloads to infrastructure. Retrieved June 13, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has utilized `mshta.exe` to execute a malicious hta file.(Citation: MalwareBytes SideCopy Dec 2021)",
+        "modified": "2022-08-15T20:28:15.294Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+        "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    }
+]

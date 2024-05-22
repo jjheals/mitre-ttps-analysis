@@ -1,0 +1,3263 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--023ff141-8ed7-4132-85a0-494fe075236b",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "modified": "2021-04-14T14:10:54.613Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware is capable of keylogging.(Citation: Unit 42 Magic Hound Feb 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--043ea873-396a-4ba8-a3e3-1f9af11c986e",
+        "created": "2023-01-05T18:53:03.497Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Google Iran Threats October 2021",
+                "description": "Bash, A. (2021, October 14). Countering threats from Iran. Retrieved January 4, 2023.",
+                "url": "https://blog.google/threat-analysis-group/countering-threats-iran/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-05T18:53:03.497Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used the Telegram API `sendMessage` to relay data on compromised devices.(Citation: Google Iran Threats October 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--40597f16-0963-4249-bf4c-ac93b7fb9807",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--078fb58f-0b5b-4021-8467-800893c35d08",
+        "created": "2021-03-10T20:32:54.398Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            },
+            {
+                "source_name": "IBM ITG18 2020",
+                "description": "Wikoff, A. Emerson, R. (2020, July 16). New Research Exposes Iranian Threat Group Operations. Retrieved March 8, 2021.",
+                "url": "https://securityintelligence.com/posts/new-research-exposes-iranian-threat-group-operations/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-03T20:07:11.072Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) gathered credentials from two victims that they then attempted to validate across 75 different websites. [Magic Hound](https://attack.mitre.org/groups/G0059) has also collected credentials from over 900 Fortinet VPN servers in the US, Europe, and Israel.(Citation: IBM ITG18 2020)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--bc76d0a4-db11-4551-9ac4-01a469cfb161",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--0a507d28-ef6b-417b-a968-e82608e8b6a8",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-12T20:29:53.513Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware has used Registry Run keys to establish persistence.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: DFIR Phosphorus November 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--110690db-fd9b-425a-9269-ec082f0af3f9",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            },
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            },
+            {
+                "source_name": "FireEye APT35 2018",
+                "description": "Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.",
+                "url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-12T20:29:10.746Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used PowerShell for execution and privilege escalation.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: FireEye APT35 2018)(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--11087b2c-2d00-4a57-a974-045010c7bab5",
+        "created": "2023-09-08T15:49:52.794Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Check Point APT35 CharmPower January 2022",
+                "description": "Check Point. (2022, January 11). APT35 exploits Log4j vulnerability to distribute new modular PowerShell toolkit. Retrieved January 24, 2022.",
+                "url": "https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-27T20:35:22.981Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has collected names and passwords of all Wi-Fi networks to which a device has previously connected.(Citation: Check Point APT35 CharmPower January 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--494ab9f0-36e0-4b06-b10d-57285b040a06",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--1134f983-3ad3-4c79-baaa-f604ac9dc642",
+        "created": "2021-05-26T20:14:45.885Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Check Point Rocket Kitten",
+                "description": "Check Point Software Technologies. (2015). ROCKET KITTEN: A CAMPAIGN WITH 9 LIVES. Retrieved March 16, 2018.",
+                "url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf"
+            },
+            {
+                "source_name": "Check Point APT35 CharmPower January 2022",
+                "description": "Check Point. (2022, January 11). APT35 exploits Log4j vulnerability to distribute new modular PowerShell toolkit. Retrieved January 24, 2022.",
+                "url": "https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/"
+            },
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "FireEye APT35 2018",
+                "description": "Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.",
+                "url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-12T19:50:32.746Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has obtained and used tools like [Havij](https://attack.mitre.org/software/S0224), [sqlmap](https://attack.mitre.org/software/S0225), Metasploit, [Mimikatz](https://attack.mitre.org/software/S0002), and Plink.(Citation: Check Point Rocket Kitten)(Citation: FireEye APT35 2018)(Citation: Check Point APT35 CharmPower January 2022)(Citation: DFIR Phosphorus November 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--134cc6c4-30f8-4b85-8ea1-da19c3e92af9",
+        "created": "2021-05-03T19:39:06.488Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Google Iran Threats October 2021",
+                "description": "Bash, A. (2021, October 14). Countering threats from Iran. Retrieved January 4, 2023.",
+                "url": "https://blog.google/threat-analysis-group/countering-threats-iran/"
+            },
+            {
+                "source_name": "Certfa Charming Kitten January 2021",
+                "description": "Certfa Labs. (2021, January 8). Charming Kitten\u2019s Christmas Gift. Retrieved May 3, 2021.",
+                "url": "https://blog.certfa.com/posts/charming-kitten-christmas-gift/"
+            },
+            {
+                "source_name": "ClearSky Kittens Back 3 August 2020",
+                "description": "ClearSky Research Team. (2020, August 1). The Kittens Are Back in Town 3 - Charming Kitten Campaign Evolved and Deploying Spear-Phishing link by WhatsApp. Retrieved April 21, 2021.",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/08/The-Kittens-are-Back-in-Town-3.pdf"
+            },
+            {
+                "source_name": "Proofpoint TA453 July2021",
+                "description": "Miller, J. et al. (2021, July 13). Operation SpoofedScholars: A Conversation with TA453. Retrieved August 18, 2021.",
+                "url": "https://www.proofpoint.com/us/blog/threat-insight/operation-spoofedscholars-conversation-ta453"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-04T20:07:24.726Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used compromised domains to host links targeted to specific phishing victims.(Citation: ClearSky Kittens Back 3 August 2020)(Citation: Proofpoint TA453 July2021)(Citation: Certfa Charming Kitten January 2021)(Citation: Google Iran Threats October 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--f9cc4d06-775f-4ee1-b401-4e2cc0da30ba",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--17bc0957-1509-4faf-bb51-a6a9e1959978",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            },
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-05T20:25:28.951Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used the command-line interface for code execution.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--19bef554-d625-49f9-a521-c6a8ed773083",
+        "created": "2023-01-09T19:38:19.080Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-09T19:38:19.080Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used Plink to tunnel RDP over SSH.(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--1a163c8a-7a12-4cd4-813f-38f5a05ba98d",
+        "created": "2021-03-10T20:32:54.423Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Proofpoint TA453 March 2021",
+                "url": "https://www.proofpoint.com/us/blog/threat-insight/badblood-ta453-targets-us-and-israeli-medical-research-personnel-credential",
+                "description": "Miller, J. et al. (2021, March 30). BadBlood: TA453 Targets US and Israeli Medical Research Personnel in Credential Phishing Campaigns. Retrieved May 4, 2021."
+            },
+            {
+                "source_name": "IBM ITG18 2020",
+                "url": "https://securityintelligence.com/posts/new-research-exposes-iranian-threat-group-operations/",
+                "description": "Wikoff, A. Emerson, R. (2020, July 16). New Research Exposes Iranian Threat Group Operations. Retrieved March 8, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has established email accounts using fake personas for spearphishing operations.(Citation: IBM ITG18 2020)(Citation: Proofpoint TA453 March 2021)",
+        "modified": "2022-04-15T11:50:11.523Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--1b255a88-0189-4afa-a69f-fa99127e693e",
+        "created": "2022-05-25T19:42:27.787Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-05T20:27:44.518Z",
+        "description": "(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--205c5e6d-90c1-4369-98ee-9968f87d687c",
+        "created": "2023-01-10T18:57:17.751Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-10T18:57:17.751Z",
+        "description": "(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--20a3c703-46d5-4038-9b3f-9afe15d84023",
+        "created": "2023-03-03T21:02:56.774Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Google Iran Threats October 2021",
+                "description": "Bash, A. (2021, October 14). Countering threats from Iran. Retrieved January 4, 2023.",
+                "url": "https://blog.google/threat-analysis-group/countering-threats-iran/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-03T21:02:56.774Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has collected location information from visitors to their phishing sites.(Citation: Google Iran Threats October 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--ed730f20-0e44-48b9-85f8-0e2adeb76867",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--27c6ffb3-836c-4a43-9862-b77c8e4a8256",
+        "created": "2023-01-05T20:27:17.309Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-05T20:27:17.309Z",
+        "description": "(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--2b5af448-59a1-4888-a05f-aee6105872a5",
+        "created": "2020-03-17T01:49:09.432Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-03T21:50:43.287Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware has used IRC for C2.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--2dd15583-34cd-4b49-a6ba-4bd647b7ff27",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            },
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-03T21:51:53.886Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used HTTP for C2.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--30da3c92-05b8-40fd-b8b6-29cb20a597a1",
+        "created": "2023-01-10T18:36:35.140Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-13T18:38:25.309Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used BitLocker and DiskCryptor to encrypt targeted workstations. (Citation: DFIR Phosphorus November 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--31f93f78-799b-4f65-892c-da3aba4bb32d",
+        "created": "2023-03-03T21:56:38.046Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-03T21:56:38.046Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has conducted a network call out to a specific website as part of their initial discovery activity.(Citation: DFIR Phosphorus November 2021) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--132d5b37-aac5-4378-a8dc-3127b18a73dc",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--32126e79-18ce-4393-a555-50aa34760da9",
+        "created": "2021-03-10T20:32:54.444Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "IBM ITG18 2020",
+                "url": "https://securityintelligence.com/posts/new-research-exposes-iranian-threat-group-operations/",
+                "description": "Wikoff, A. Emerson, R. (2020, July 16). New Research Exposes Iranian Threat Group Operations. Retrieved March 8, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has compromised personal email accounts through the use of legitimate credentials and gathered additional victim information.(Citation: IBM ITG18 2020)",
+        "modified": "2022-04-15T11:51:17.514Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--33390e6e-f262-48fb-a74a-084c310b3aa2",
+        "created": "2022-05-25T18:56:20.248Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-09T19:49:22.026Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used scheduled tasks to establish persistence and execution.(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--3499e2c5-e22a-4e99-ae90-3c7b48aa5ccb",
+        "created": "2023-01-05T19:59:55.184Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Google Iran Threats October 2021",
+                "description": "Bash, A. (2021, October 14). Countering threats from Iran. Retrieved January 4, 2023.",
+                "url": "https://blog.google/threat-analysis-group/countering-threats-iran/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-05T19:59:55.184Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has captured the user-agent strings from visitors to their phishing sites.(Citation: Google Iran Threats October 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--baf60e1a-afe5-4d31-830f-1b1ba2351884",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--43c20c81-984f-418a-9202-252a3afbec46",
+        "created": "2022-06-03T13:31:01.299Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-09T19:45:01.263Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used Remote Desktop Services to copy tools on targeted systems.(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--45ce4803-9ed5-4960-ac34-7fe3b22919d5",
+        "created": "2022-05-26T15:21:53.071Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used Powershell to discover email accounts.(Citation: DFIR Report APT35 ProxyShell March 2022)",
+        "modified": "2022-05-26T15:21:53.071Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--47f521b8-37e4-489d-b6eb-25f35de80aae",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            },
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-12T20:27:51.655Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has downloaded additional code and files from servers onto victims.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--49ebf3d0-48f7-4b04-a4e9-dd54a663dae1",
+        "created": "2023-08-23T18:47:11.706Z",
+        "revoked": false,
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-08-23T18:47:11.706Z",
+        "description": "",
+        "relationship_type": "revoked-by",
+        "source_ref": "intrusion-set--92d5b3fd-3b39-438e-af68-770e447beada",
+        "target_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "external_references": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--501cd276-7cb4-40a6-b8be-d6cc6d743edc",
+        "created": "2022-01-25T16:15:24.957Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Check Point APT35 CharmPower January 2022",
+                "url": "https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/",
+                "description": "Check Point. (2022, January 11). APT35 exploits Log4j vulnerability to distribute new modular PowerShell toolkit. Retrieved January 24, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: Check Point APT35 CharmPower January 2022)",
+        "modified": "2022-04-08T17:47:47.146Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "malware--7acb15b6-fe2c-4319-b136-6ab36ff0b2d4",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--54af36a6-0a08-4853-9002-a1ae51b22ca5",
+        "created": "2022-01-24T16:52:40.660Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Check Point APT35 CharmPower January 2022",
+                "description": "Check Point. (2022, January 11). APT35 exploits Log4j vulnerability to distribute new modular PowerShell toolkit. Retrieved January 24, 2022.",
+                "url": "https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/"
+            },
+            {
+                "source_name": "Cybereason PowerLess February 2022",
+                "description": "Cybereason Nocturnus. (2022, February 1). PowerLess Trojan: Iranian APT Phosphorus Adds New PowerShell Backdoor for Espionage. Retrieved June 1, 2022.",
+                "url": "https://www.cybereason.com/blog/research/powerless-trojan-iranian-apt-phosphorus-adds-new-powershell-backdoor-for-espionage"
+            },
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            },
+            {
+                "source_name": "Microsoft Log4j Vulnerability Exploitation December 2021",
+                "description": "Microsoft Threat Intelligence. (2021, December 11). Guidance for preventing, detecting, and hunting for exploitation of the Log4j 2 vulnerability. Retrieved December 7, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-12-07T20:44:43.014Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has exploited the Log4j utility (CVE-2021-44228), on-premises MS Exchange servers via \"ProxyShell\" (CVE-2021-34473, CVE-2021-34523, CVE-2021-31207), and Fortios SSL VPNs (CVE-2018-13379).(Citation: Check Point APT35 CharmPower January 2022)(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: Cybereason PowerLess February 2022)(Citation: DFIR Phosphorus November 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)(Citation: Microsoft Log4j Vulnerability Exploitation December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--56d37b60-03e0-4aac-b106-0350c2a4ec46",
+        "type": "relationship",
+        "created": "2021-05-03T19:55:04.095Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearSky Kittens Back 3 August 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/08/The-Kittens-are-Back-in-Town-3.pdf",
+                "description": "ClearSky Research Team. (2020, August 1). The Kittens Are Back in Town 3 - Charming Kitten Campaign Evolved and Deploying Spear-Phishing link by WhatsApp. Retrieved April 21, 2021."
+            }
+        ],
+        "modified": "2021-06-02T16:31:56.168Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has attempted to lure victims into opening malicious email attachments.(Citation: ClearSky Kittens Back 3 August 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--57597bcb-9cbc-49d4-adfb-fb4c0fe6090e",
+        "created": "2022-05-27T14:11:22.348Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-13T16:52:36.240Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used rundll32.exe to execute MiniDump from comsvcs.dll when dumping LSASS memory.(Citation: DFIR Report APT35 ProxyShell March 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5829ee6d-68e4-44a8-828e-ba188b14c163",
+        "created": "2023-03-22T04:57:14.220Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-22T04:57:14.220Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used base64-encoded commands.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5d55b1c4-cdf4-4314-881e-ba0c853b1b60",
+        "created": "2023-01-10T18:25:13.509Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-10T18:42:11.683Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used KPortScan 3.0 to perform SMB, RDP, and LDAP scanning.(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--62fe41c2-3ee6-45eb-a38e-a6c27d151933",
+        "created": "2023-01-05T19:26:11.193Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Google Iran Threats October 2021",
+                "description": "Bash, A. (2021, October 14). Countering threats from Iran. Retrieved January 4, 2023.",
+                "url": "https://blog.google/threat-analysis-group/countering-threats-iran/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-03T20:57:54.028Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has captured the IP addresses of visitors to their phishing sites.(Citation: Google Iran Threats October 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--0dda99f0-4701-48ca-9774-8504922e92d3",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--65f7704a-358a-464d-b09b-fee5dd96adf3",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware can take a screenshot and upload the file to its C2 server.(Citation: Unit 42 Magic Hound Feb 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--665e5a7f-e575-44c7-839d-4c69f14238d2",
+        "created": "2023-01-11T18:37:36.996Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-11T18:37:36.996Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used an encrypted http proxy in C2 communications.(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--b8902400-e6c5-4ba2-95aa-2d35b442b118",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--675f24e0-c445-4eb3-a191-16fb181f6e30",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "modified": "2020-03-17T19:42:39.873Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware has used VBS scripts for execution.(Citation: Unit 42 Magic Hound Feb 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--67f2ca97-5949-4503-a55c-1f0d3f3502ca",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye APT35 2018",
+                "description": "Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.",
+                "url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: FireEye APT35 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--6dca82b3-7a95-4fcd-862e-6337eea49306",
+        "created": "2022-01-24T16:52:40.703Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Check Point APT35 CharmPower January 2022",
+                "description": "Check Point. (2022, January 11). APT35 exploits Log4j vulnerability to distribute new modular PowerShell toolkit. Retrieved January 24, 2022.",
+                "url": "https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-03T20:01:51.343Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has conducted widespread scanning to identify public-facing systems vulnerable to CVE-2021-44228 in Log4j and ProxyShell vulnerabilities; CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, and CVE-2021-27065 in on-premises MS Exchange Servers; and CVE-2018-13379 in Fortinet FortiOS SSL VPNs.(Citation: Check Point APT35 CharmPower January 2022)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--703694f1-755e-4e3f-aff2-f623ec842693",
+        "created": "2023-01-05T20:28:43.422Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-05T20:28:43.422Z",
+        "description": "(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--76ecca4d-15ba-4285-baa9-1cf03799dbeb",
+        "created": "2021-09-01T20:53:29.877Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Google Iran Threats October 2021",
+                "description": "Bash, A. (2021, October 14). Countering threats from Iran. Retrieved January 4, 2023.",
+                "url": "https://blog.google/threat-analysis-group/countering-threats-iran/"
+            },
+            {
+                "source_name": "Proofpoint TA453 July2021",
+                "description": "Miller, J. et al. (2021, July 13). Operation SpoofedScholars: A Conversation with TA453. Retrieved August 18, 2021.",
+                "url": "https://www.proofpoint.com/us/blog/threat-insight/operation-spoofedscholars-conversation-ta453"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-04T20:12:58.605Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has identified high-value email accounts in academia, journalism, NGO's, foreign policy, and national security for targeting.(Citation: Proofpoint TA453 July2021)(Citation: Google Iran Threats October 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--77a98e76-5a38-40a8-af9a-180c31bf7563",
+        "created": "2021-05-03T19:55:04.097Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Certfa Charming Kitten January 2021",
+                "url": "https://blog.certfa.com/posts/charming-kitten-christmas-gift/",
+                "description": "Certfa Labs. (2021, January 8). Charming Kitten\u2019s Christmas Gift. Retrieved May 3, 2021."
+            },
+            {
+                "source_name": "ClearSky Kittens Back 3 August 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/08/The-Kittens-are-Back-in-Town-3.pdf",
+                "description": "ClearSky Research Team. (2020, August 1). The Kittens Are Back in Town 3 - Charming Kitten Campaign Evolved and Deploying Spear-Phishing link by WhatsApp. Retrieved April 21, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has attempted to lure victims into opening malicious links embedded in emails.(Citation: ClearSky Kittens Back 3 August 2020)(Citation: Certfa Charming Kitten January 2021)",
+        "modified": "2022-04-08T18:13:32.134Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--79f89b33-046c-4bfa-a12d-c50fa0d84ea6",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "modified": "2020-03-20T21:19:17.635Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware can use a SOAP Web service to communicate with its C2 server.(Citation: Unit 42 Magic Hound Feb 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7ac10827-9bf6-4d60-aa16-9f2d2930b373",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            },
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-11T19:33:16.780Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware has obtained the victim username and sent it to the C2 server.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7e636340-8b64-4913-be75-a8e62f68fc91",
+        "type": "relationship",
+        "created": "2020-03-18T13:34:21.144Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye APT35 2018",
+                "description": "Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.",
+                "url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
+            }
+        ],
+        "modified": "2020-03-18T13:34:21.145Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) granted compromised email accounts read access to the email boxes of additional targeted accounts. The group then was able to authenticate to the intended victim's OWA (Outlook Web Access) portal and read hundreds of email communications for information on Middle East organizations.(Citation: FireEye APT35 2018) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--e74de37c-a829-446c-937d-56a44f0e9306",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7f17927d-b371-42c4-bd68-0c5c57e3edab",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            },
+            {
+                "source_name": "FireEye APT35 2018",
+                "description": "Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.",
+                "url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-11T19:50:28.704Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has deleted and overwrote files to cover tracks.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: FireEye APT35 2018)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7f32b01c-ecf6-457e-8bca-6c74c02b439e",
+        "created": "2022-05-25T19:42:58.107Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-05T20:26:47.678Z",
+        "description": "(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--8087d99b-cc05-4e2a-abce-687eb726a9e7",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-11T00:49:26.906Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware has used base64-encoded files and has also encrypted embedded strings with AES.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--808f140e-8b7b-4efa-8708-2f2308b2fc41",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Certfa Charming Kitten January 2021",
+                "description": "Certfa Labs. (2021, January 8). Charming Kitten\u2019s Christmas Gift. Retrieved May 3, 2021.",
+                "url": "https://blog.certfa.com/posts/charming-kitten-christmas-gift/"
+            },
+            {
+                "source_name": "ClearSky Kittens Back 3 August 2020",
+                "description": "ClearSky Research Team. (2020, August 1). The Kittens Are Back in Town 3 - Charming Kitten Campaign Evolved and Deploying Spear-Phishing link by WhatsApp. Retrieved April 21, 2021.",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/08/The-Kittens-are-Back-in-Town-3.pdf"
+            },
+            {
+                "source_name": "Secureworks Cobalt Gypsy Feb 2017",
+                "description": "Counter Threat Unit Research Team. (2017, February 15). Iranian PupyRAT Bites Middle Eastern Organizations. Retrieved December 27, 2017.",
+                "url": "https://www.secureworks.com/blog/iranian-pupyrat-bites-middle-eastern-organizations"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-22T21:52:27.203Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has sent malicious URL links through email to victims. In some cases the URLs were shortened or linked to Word documents with malicious macros that executed PowerShells scripts to download [Pupy](https://attack.mitre.org/software/S0192).(Citation: Secureworks Cobalt Gypsy Feb 2017)(Citation: ClearSky Kittens Back 3 August 2020)(Citation: Certfa Charming Kitten January 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--815e257d-f4bf-4124-8063-634d6710d66f",
+        "created": "2023-01-09T19:32:47.671Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-13T15:08:52.055Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) enabled and used the default system managed account, DefaultAccount, via `\"powershell.exe\" /c net user DefaultAccount /active:yes` to connect to a targeted Exchange server over RDP.(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--6151cbea-819b-455a-9fa6-99a1cc58797d",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--87b8b451-bf9b-4e93-b591-05ef502970f5",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware can list a victim's logical drives and the type, as well the total/free space of the fixed devices. Other malware can list a directory's contents.(Citation: Unit 42 Magic Hound Feb 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--88c50625-6d02-42fb-aa82-4315a532b754",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            },
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-05T20:31:42.031Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware gathers the victim's local IP address, MAC address, and external IP address.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--8ab4fa22-a24c-4596-996e-4abf190521da",
+        "created": "2022-05-25T19:40:27.483Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-03T20:08:16.474Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used `dllhost.exe` to mask Fast Reverse Proxy (FRP) and `MicrosoftOutLookUpdater.exe` for Plink.(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--8c4a2bd5-109b-4e49-ae67-a9bf02a029e7",
+        "created": "2023-03-06T21:18:18.668Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-06T21:18:18.668Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has added a user named DefaultAccount to the Administrators and Remote Desktop Users groups.(Citation: DFIR Report APT35 ProxyShell March 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--8e03a9bc-a701-4797-8f0e-0eb17f32ddac",
+        "created": "2021-05-03T18:58:02.859Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Google Iran Threats October 2021",
+                "description": "Bash, A. (2021, October 14). Countering threats from Iran. Retrieved January 4, 2023.",
+                "url": "https://blog.google/threat-analysis-group/countering-threats-iran/"
+            },
+            {
+                "source_name": "Certfa Charming Kitten January 2021",
+                "description": "Certfa Labs. (2021, January 8). Charming Kitten\u2019s Christmas Gift. Retrieved May 3, 2021.",
+                "url": "https://blog.certfa.com/posts/charming-kitten-christmas-gift/"
+            },
+            {
+                "source_name": "ClearSky Kittens Back 3 August 2020",
+                "description": "ClearSky Research Team. (2020, August 1). The Kittens Are Back in Town 3 - Charming Kitten Campaign Evolved and Deploying Spear-Phishing link by WhatsApp. Retrieved April 21, 2021.",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/08/The-Kittens-are-Back-in-Town-3.pdf"
+            },
+            {
+                "source_name": "Proofpoint TA453 July2021",
+                "description": "Miller, J. et al. (2021, July 13). Operation SpoofedScholars: A Conversation with TA453. Retrieved August 18, 2021.",
+                "url": "https://www.proofpoint.com/us/blog/threat-insight/operation-spoofedscholars-conversation-ta453"
+            },
+            {
+                "source_name": "Proofpoint TA453 March 2021",
+                "description": "Miller, J. et al. (2021, March 30). BadBlood: TA453 Targets US and Israeli Medical Research Personnel in Credential Phishing Campaigns. Retrieved May 4, 2021.",
+                "url": "https://www.proofpoint.com/us/blog/threat-insight/badblood-ta453-targets-us-and-israeli-medical-research-personnel-credential"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-13T15:04:47.754Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used SMS and email messages with links designed to steal credentials or track victims.(Citation: Certfa Charming Kitten January 2021)(Citation: ClearSky Kittens Back 3 August 2020)(Citation: Proofpoint TA453 March 2021)(Citation: Proofpoint TA453 July2021)(Citation: Google Iran Threats October 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--8f6be9bc-b570-442e-9feb-7802a87c161e",
+        "created": "2023-01-11T19:49:30.328Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-11T19:49:30.328Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has executed scripts to disable the event log service.(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--4eb28bed-d11a-4641-9863-c2ac017d910a",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--9519bd66-c84a-4063-bf64-d17262ce6684",
+        "created": "2022-05-25T18:53:56.537Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has disabled antivirus services on targeted systems in order to upload malicious payloads.(Citation: DFIR Report APT35 ProxyShell March 2022)",
+        "modified": "2022-05-25T18:53:56.537Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--95df0f16-1c35-4603-baae-4559113f9a0b",
+        "created": "2022-05-27T14:20:16.906Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used quser.exe to identify existing RDP connections.(Citation: DFIR Report APT35 ProxyShell March 2022)",
+        "modified": "2022-05-27T14:20:16.906Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--966e98f6-1460-4305-8993-57ee3f3f5654",
+        "type": "relationship",
+        "created": "2021-05-03T17:17:12.063Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Certfa Charming Kitten January 2021",
+                "url": "https://blog.certfa.com/posts/charming-kitten-christmas-gift/",
+                "description": "Certfa Labs. (2021, January 8). Charming Kitten\u2019s Christmas Gift. Retrieved May 3, 2021."
+            }
+        ],
+        "modified": "2021-06-02T16:31:56.207Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has compromised email credentials in order to steal sensitive data.(Citation: Certfa Charming Kitten January 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--98d076a5-9640-4337-a5a0-27c0c8a3374b",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            },
+            {
+                "source_name": "FireEye APT35 2018",
+                "description": "Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.",
+                "url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-12T21:03:33.760Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has stolen domain credentials by dumping LSASS process memory using Task Manager, comsvcs.dll, and from a Microsoft Active Directory Domain Controller using [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: FireEye APT35 2018)(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9e0ca319-ad80-48f8-812e-fe7f9e0e77c4",
+        "created": "2023-03-03T22:01:18.675Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-03T22:01:18.675Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has copied tools within a compromised network using RDP.(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--9f5f1262-17a7-443e-a531-c9048a91ac8d",
+        "created": "2022-05-26T14:40:38.986Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: DFIR Report APT35 ProxyShell March 2022)",
+        "modified": "2022-05-26T14:40:38.986Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "tool--5a63f900-5e7e-4928-a746-dd4558e1df71",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a26397b4-7959-40d7-953c-c2afec8a1f80",
+        "created": "2022-05-27T13:35:12.588Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            },
+            {
+                "source_name": "Microsoft Iranian Threat Actor Trends November 2021",
+                "description": "MSTIC. (2021, November 16). Evolving trends in Iranian threat actor activity \u2013 MSTIC presentation at CyberWarCon 2021. Retrieved January 12, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-12T21:08:08.734Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has created local accounts named `help` and `DefaultAccount` on compromised machines.(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--635cbe30-392d-4e27-978e-66774357c762",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a4c59c09-2abd-4c49-8156-0ccc9214b66e",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware can list running processes.(Citation: Unit 42 Magic Hound Feb 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a83683c2-87ee-486e-bb21-0d511c5461ef",
+        "created": "2022-05-26T14:43:14.988Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-11T20:27:55.538Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has added the following rule to a victim's Windows firewall to allow RDP traffic - `\"netsh\" advfirewall firewall add rule name=\"Terminal Server\" dir=in action=allow protocol=TCP localport=3389`.(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--5372c5fe-f424-4def-bcd5-d3a8e770f07b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--ad278368-be64-497f-abc3-024ee8447ef8",
+        "created": "2022-05-26T14:19:08.287Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-10T19:20:48.282Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has exported emails from compromised Exchange servers including through use of the cmdlet `New-MailboxExportRequest.`(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--b35cd29e-1439-4f7a-a81e-44d4db29cd8b",
+        "created": "2020-03-30T20:57:01.211Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-03T21:53:25.584Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware has communicated with its C2 server over TCP ports 4443 and 10151 using HTTP.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--b5cd5028-8d4c-4564-921e-be3a34a5212d",
+        "created": "2022-05-26T14:25:07.772Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has removed mailbox export requests from compromised Exchange servers.(Citation: DFIR Report APT35 ProxyShell March 2022)",
+        "modified": "2022-05-26T14:25:07.772Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--b60dcc78-83b0-4fe2-b874-6f22f99b6087",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            },
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-05T20:30:48.432Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware has used a PowerShell command to check the victim system architecture to determine if it is an x64 machine. Other malware has obtained the OS version, UUID, and computer/host name to send to the C2 server.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b6336d7c-e869-4491-9e8a-5ea5847a58ae",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye APT35 2018",
+                "description": "Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.",
+                "url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
+            }
+        ],
+        "modified": "2020-03-17T16:30:07.362Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has collected .PST archives.(Citation: FireEye APT35 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--b8bb65e7-3846-4b41-8594-16409a94aa8d",
+        "created": "2022-05-25T18:51:32.312Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-05T20:22:07.510Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used multiple web shells to gain execution.(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--c1205923-690a-4bfb-9116-0a60eb931b26",
+        "created": "2023-01-09T20:02:49.885Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-10T18:16:56.238Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used Fast Reverse Proxy (FRP) for RDP traffic.(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--c235df18-28b1-48f9-bcfb-38f671005b5e",
+        "created": "2023-01-10T20:55:51.209Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-10T20:55:51.209Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has named a malicious script CacheTask.bat to mimic a legitimate task.(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--c4b6c967-54d8-4ba5-9016-5d0ef0b6cc0b",
+        "created": "2021-05-03T19:10:10.755Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Certfa Charming Kitten January 2021",
+                "url": "https://blog.certfa.com/posts/charming-kitten-christmas-gift/",
+                "description": "Certfa Labs. (2021, January 8). Charming Kitten\u2019s Christmas Gift. Retrieved May 3, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has registered fraudulent domains such as \"mail-newyorker.com\" and \"news12.com.recover-session-service.site\" to target specific victims with phishing attacks.(Citation: Certfa Charming Kitten January 2021)",
+        "modified": "2022-04-08T18:07:32.611Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--ca948787-ea4b-4022-be96-8baf0ccff834",
+        "created": "2023-01-05T20:35:20.182Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-05T20:35:20.182Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used [Ping](https://attack.mitre.org/software/S0097) for discovery on targeted networks.(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--cacbb779-a901-470f-9bb2-cc2d98088713",
+        "created": "2022-05-26T14:38:16.113Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has modified Registry settings for security tools.(Citation: DFIR Report APT35 ProxyShell March 2022)",
+        "modified": "2022-05-26T14:38:16.113Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--cace8bcc-ab98-49b7-83c1-7b0b99022f02",
+        "created": "2022-06-03T12:55:00.108Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Cybereason PowerLess February 2022",
+                "url": "https://www.cybereason.com/blog/research/powerless-trojan-iranian-apt-phosphorus-adds-new-powershell-backdoor-for-espionage",
+                "description": "Cybereason Nocturnus. (2022, February 1). PowerLess Trojan: Iranian APT Phosphorus Adds New PowerShell Backdoor for Espionage. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: Cybereason PowerLess February 2022)",
+        "modified": "2022-06-03T12:55:00.108Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "malware--35ee9bf3-264b-4411-8a8f-b58cec8f35e4",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cde73e1c-da81-4673-a161-49693b45cd48",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            },
+            {
+                "source_name": "FireEye APT35 2018",
+                "description": "Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.",
+                "url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
+            },
+            {
+                "url": "https://www.secureworks.com/blog/iranian-pupyrat-bites-middle-eastern-organizations",
+                "description": "Counter Threat Unit Research Team. (2017, February 15). Iranian PupyRAT Bites Middle Eastern Organizations. Retrieved December 27, 2017.",
+                "source_name": "Secureworks Cobalt Gypsy Feb 2017"
+            }
+        ],
+        "modified": "2021-04-23T14:51:04.305Z",
+        "description": "(Citation: Unit 42 Magic Hound Feb 2017)(Citation: FireEye APT35 2018)(Citation: Secureworks Cobalt Gypsy Feb 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cf9f6e3b-b029-4edd-b53d-7f5981bd2302",
+        "type": "relationship",
+        "created": "2020-05-27T21:22:18.518Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearSky Charming Kitten Dec 2017",
+                "description": "ClearSky Cyber Security. (2017, December). Charming Kitten. Retrieved December 27, 2017.",
+                "url": "http://www.clearskysec.com/wp-content/uploads/2017/12/Charming_Kitten_2017.pdf"
+            }
+        ],
+        "modified": "2020-05-27T21:22:18.518Z",
+        "description": "(Citation: ClearSky Charming Kitten Dec 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "malware--e48df773-7c95-4a4c-ba70-ea3d15900148",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--cfbff9fe-2d62-4d80-b7b8-b35e84189803",
+        "created": "2023-01-11T19:12:58.278Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-11T19:12:58.278Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used a web shell to execute `nltest /trusted_domains` to identify trust relationships.(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--767dbf9e-df3f-45cb-8998-4903ab5f80c0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d0946a00-610b-44d3-aec6-be292cfac52a",
+        "type": "relationship",
+        "created": "2021-09-01T20:53:29.864Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Proofpoint TA453 July2021",
+                "url": "https://www.proofpoint.com/us/blog/threat-insight/operation-spoofedscholars-conversation-ta453",
+                "description": "Miller, J. et al. (2021, July 13). Operation SpoofedScholars: A Conversation with TA453. Retrieved August 18, 2021."
+            }
+        ],
+        "modified": "2021-09-01T20:53:29.864Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has acquired mobile phone numbers of potential targets, possibly for mobile malware or additional phishing operations.(Citation: Proofpoint TA453 July2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--5282dd9a-d26d-4e16-88b7-7c0f4553daf4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d3db2181-a79e-49df-b169-f6b7c52fd7a5",
+        "created": "2023-01-09T20:16:51.095Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-09T20:16:51.095Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used domain administrator accounts after dumping LSASS process memory.(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d432f9c7-1211-4485-bac3-b35edc38d501",
+        "type": "relationship",
+        "created": "2020-07-04T23:30:04.892Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "SecureWorks Mia Ash July 2017",
+                "description": "Counter Threat Unit Research Team. (2017, July 27). The Curious Case of Mia Ash: Fake Persona Lures Middle Eastern Targets. Retrieved February 26, 2018.",
+                "url": "https://www.secureworks.com/research/the-curious-case-of-mia-ash"
+            },
+            {
+                "source_name": "Microsoft Phosphorus Mar 2019",
+                "url": "https://blogs.microsoft.com/on-the-issues/2019/03/27/new-steps-to-protect-customers-from-hacking/",
+                "description": "Burt, T. (2019, March 27). New steps to protect customers from hacking. Retrieved May 27, 2020."
+            },
+            {
+                "source_name": "ClearSky Kittens Back 3 August 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/08/The-Kittens-are-Back-in-Town-3.pdf",
+                "description": "ClearSky Research Team. (2020, August 1). The Kittens Are Back in Town 3 - Charming Kitten Campaign Evolved and Deploying Spear-Phishing link by WhatsApp. Retrieved April 21, 2021."
+            }
+        ],
+        "modified": "2021-09-30T19:22:48.483Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) used various social media channels (such as LinkedIn) as well as messaging services (such as WhatsApp) to spearphish victims.(Citation: SecureWorks Mia Ash July 2017)(Citation: Microsoft Phosphorus Mar 2019)(Citation: ClearSky Kittens Back 3 August 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--f6ad61ee-65f3-4bd0-a3f5-2f0accb36317",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d8609889-3d3e-4f6c-8f52-03ec41876b4d",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            },
+            {
+                "source_name": "FireEye APT35 2018",
+                "description": "Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.",
+                "url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-11T19:46:27.875Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used gzip to archive dumped LSASS process memory and RAR to stage and compress local folders.(Citation: FireEye APT35 2018)(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e1910051-019d-4594-ab9d-b588eb370ff2",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye APT35 2018",
+                "description": "Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.",
+                "url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: FireEye APT35 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e562688d-a5e3-4a17-95dd-8ef7488e015e",
+        "type": "relationship",
+        "created": "2021-05-03T19:39:06.514Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ClearSky Kittens Back 3 August 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/08/The-Kittens-are-Back-in-Town-3.pdf",
+                "description": "ClearSky Research Team. (2020, August 1). The Kittens Are Back in Town 3 - Charming Kitten Campaign Evolved and Deploying Spear-Phishing link by WhatsApp. Retrieved April 21, 2021."
+            }
+        ],
+        "modified": "2021-06-02T16:31:56.156Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has created fake LinkedIn and other social media accounts to contact targets and convince them--through messages and voice communications--to open malicious links.(Citation: ClearSky Kittens Back 3 August 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--b1ccd744-3f78-4a0e-9bb2-2002057f7928",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e60f4fce-425c-45f5-a6f3-ee6c3f808fb9",
+        "type": "relationship",
+        "created": "2019-08-15T14:06:26.961Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware has a function to determine whether the C2 server wishes to execute the newly dropped file in a hidden window.(Citation: Unit 42 Magic Hound Feb 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--e65b247d-3d19-43d9-b26c-f1a068040d68",
+        "created": "2022-05-25T19:50:36.689Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has disabled LSA protection on compromised hosts using `\"reg\" add HKLM\\SYSTEM\\CurrentControlSet\\Control\\LSA /v RunAsPPL /t REG_DWORD /d 0 /f`.(Citation: DFIR Report APT35 ProxyShell March 2022)",
+        "modified": "2022-06-03T16:47:06.059Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--3d333250-30e4-4a82-9edc-756c68afc529",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e9ca5d3c-cd22-41d6-a81a-97ae51cf32ff",
+        "created": "2022-05-25T19:56:36.080Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Phosphorus November 2021",
+                "description": "DFIR Report. (2021, November 15). Exchange Exploit Leads to Domain Wide Ransomware. Retrieved January 5, 2023.",
+                "url": "https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/"
+            },
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022.",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-10T20:49:48.719Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used a web shell to exfiltrate a ZIP file containing a dump of LSASS memory on a compromised machine.(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--ee38932c-ab04-4ac5-9ca3-d14cc98f5476",
+        "created": "2022-05-26T15:17:44.884Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "DFIR Report APT35 ProxyShell March 2022",
+                "url": "https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell",
+                "description": "DFIR Report. (2022, March 21). APT35 Automates Initial Access Using ProxyShell. Retrieved May 25, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used a tool to run `cmd /c wmic computersystem get domain` for discovery.(Citation: DFIR Report APT35 ProxyShell March 2022)",
+        "modified": "2022-06-02T19:50:45.611Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f1caf188-3c6b-4b5c-82a5-38a37149f1b1",
+        "type": "relationship",
+        "created": "2022-01-25T15:10:25.628Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Check Point APT35 CharmPower January 2022",
+                "url": "https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/",
+                "description": "Check Point. (2022, January 11). APT35 exploits Log4j vulnerability to distribute new modular PowerShell toolkit. Retrieved January 24, 2022."
+            }
+        ],
+        "modified": "2022-01-25T15:10:25.628Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has acquired Amazon S3 buckets to use in C2.(Citation: Check Point APT35 CharmPower January 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--ff16b0d1-e77c-4985-85cb-842da787daf3",
+        "created": "2022-04-08T18:29:35.467Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "ClearSky Kittens Back 3 August 2020",
+                "url": "https://www.clearskysec.com/wp-content/uploads/2020/08/The-Kittens-are-Back-in-Town-3.pdf",
+                "description": "ClearSky Research Team. (2020, August 1). The Kittens Are Back in Town 3 - Charming Kitten Campaign Evolved and Deploying Spear-Phishing link by WhatsApp. Retrieved April 21, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has conducted watering-hole attacks through media and magazine websites.(Citation: ClearSky Kittens Back 3 August 2020)",
+        "modified": "2022-04-15T11:57:08.281Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--35b912d8-bf46-4dec-b2eb-c48c0056af6e",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "modified": "2023-04-25T14:00:00.188Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware has communicated with its C2 server over ports 4443 and 3543.(Citation: Unit 42 Magic Hound Feb 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--c848fcf7-6b62-4bde-8216-b6c157d48da0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bb784f1f-fb42-4587-9fe2-9dd5c8dffa5c",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Magic Hound Feb 2017",
+                "description": "Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware has communicated with C2 servers over port 6667 (for IRC) and port 8080.(Citation: Unit 42 Magic Hound Feb 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Check Point Rocket Kitten",
+                "url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf",
+                "description": "Check Point Software Technologies. (2015). ROCKET KITTEN: A CAMPAIGN WITH 9 LIVES. Retrieved March 16, 2018."
+            }
+        ],
+        "description": "(Citation: Check Point Rocket Kitten)",
+        "id": "relationship--44a71143-9a40-4307-8b8c-8b1ac0cf230d",
+        "type": "relationship",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "created": "2020-07-04T22:55:43.581Z",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "relationship_type": "uses",
+        "target_ref": "tool--fbd727ea-c0dc-42a9-8448-9e12962d1ab5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Check Point Rocket Kitten",
+                "url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf",
+                "description": "Check Point Software Technologies. (2015). ROCKET KITTEN: A CAMPAIGN WITH 9 LIVES. Retrieved March 16, 2018."
+            }
+        ],
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used personalized spearphishing attachments.(Citation: Check Point Rocket Kitten)",
+        "id": "relationship--656f97ff-d577-4c1b-af7a-02497fcadddb",
+        "type": "relationship",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "created": "2020-07-04T22:55:43.416Z",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "relationship_type": "uses",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Check Point Rocket Kitten",
+                "url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf",
+                "description": "Check Point Software Technologies. (2015). ROCKET KITTEN: A CAMPAIGN WITH 9 LIVES. Retrieved March 16, 2018."
+            }
+        ],
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) used FireMalv, custom-developed malware, which collected passwords from the Firefox browser storage.(Citation: Check Point Rocket Kitten)",
+        "id": "relationship--6b901fc7-8aae-414b-96f2-2b626356cf38",
+        "type": "relationship",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "created": "2020-07-04T22:55:43.422Z",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "relationship_type": "uses",
+        "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Check Point Rocket Kitten",
+                "url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf",
+                "description": "Check Point Software Technologies. (2015). ROCKET KITTEN: A CAMPAIGN WITH 9 LIVES. Retrieved March 16, 2018."
+            }
+        ],
+        "description": "(Citation: Check Point Rocket Kitten)",
+        "id": "relationship--de3436a3-b33f-4b47-a3c7-8204a67b4123",
+        "type": "relationship",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "created": "2020-07-04T22:55:43.585Z",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "relationship_type": "uses",
+        "target_ref": "tool--9a2640c2-9f43-46fe-b13f-bde881e55555",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "FireEye Operation Saffron Rose 2013",
+                "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-operation-saffron-rose.pdf",
+                "description": "Villeneuve, N. et al.. (2013). OPERATION SAFFRON ROSE . Retrieved May 28, 2020."
+            }
+        ],
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has lured victims into executing malicious files.(Citation: FireEye Operation Saffron Rose 2013)",
+        "id": "relationship--ef5ae5a4-69ed-4ca1-b1b7-6cb854b49550",
+        "type": "relationship",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "created": "2020-07-04T23:30:04.875Z",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "relationship_type": "uses",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) granted compromised email accounts read access to the email boxes of additional targeted accounts. The group then was able to authenticate to the intended victim's OWA (Outlook Web Access) portal and read hundreds of email communications for information on Middle East organizations.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2019-10-03T18:28:15.111Z",
+        "id": "relationship--8e11a6ff-7e98-4f69-8eb7-4ecee2912345",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "FireEye APT35 2018",
+                "description": "Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.",
+                "url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "tool--fbd727ea-c0dc-42a9-8448-9e12962d1ab5",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2018-04-18T17:59:24.739Z",
+        "id": "relationship--9ffda909-3503-47d8-9403-849a66eb9245",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "description": "Check Point Software Technologies. (2015). ROCKET KITTEN: A CAMPAIGN WITH 9 LIVES. Retrieved March 16, 2018.",
+                "source_name": "Check Point Rocket Kitten",
+                "url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null,
+        "description": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has attempted to get users to execute malware via social media and spearphishing emails.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2018-04-18T17:59:24.739Z",
+        "id": "relationship--a381abec-332f-4b93-9585-875561eb52c1",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "description": "Counter Threat Unit Research Team. (2017, July 27). The Curious Case of Mia Ash: Fake Persona Lures Middle Eastern Targets. Retrieved February 26, 2018.",
+                "source_name": "SecureWorks Mia Ash July 2017",
+                "url": "https://www.secureworks.com/research/the-curious-case-of-mia-ash"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "tool--9a2640c2-9f43-46fe-b13f-bde881e55555",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2018-04-18T17:59:24.739Z",
+        "id": "relationship--b3d63cea-ad1c-47a5-b9e5-09920bae0537",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "description": "Check Point Software Technologies. (2015). ROCKET KITTEN: A CAMPAIGN WITH 9 LIVES. Retrieved March 16, 2018.",
+                "source_name": "Check Point Rocket Kitten",
+                "url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null,
+        "description": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) sent malicious attachments to victims over email, including an Excel spreadsheet containing macros to download Pupy.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2018-04-18T17:59:24.739Z",
+        "id": "relationship--d36e441f-3455-4373-a1e9-be28f3d50c76",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "description": "Counter Threat Unit Research Team. (2017, July 27). The Curious Case of Mia Ash: Fake Persona Lures Middle Eastern Targets. Retrieved February 26, 2018.",
+                "source_name": "SecureWorks Mia Ash July 2017",
+                "url": "https://www.secureworks.com/research/the-curious-case-of-mia-ash"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--d3df754e-997b-4cf9-97d4-70feb3120847",
+        "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) used various social media channels to spearphish victims.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2018-04-18T17:59:24.739Z",
+        "id": "relationship--e931afd2-35b2-4f9f-9b7c-88093e822c7b",
+        "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "description": "Counter Threat Unit Research Team. (2017, July 27). The Curious Case of Mia Ash: Fake Persona Lures Middle Eastern Targets. Retrieved February 26, 2018.",
+                "source_name": "SecureWorks Mia Ash July 2017",
+                "url": "https://www.secureworks.com/research/the-curious-case-of-mia-ash"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

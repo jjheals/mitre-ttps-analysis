@@ -1,0 +1,282 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2155f707-de4f-4ef1-9982-1af90392af5f",
+        "type": "relationship",
+        "created": "2019-05-02T00:08:18.505Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Livelli, K, et al. (2018, November 12). Operation Shaheen. Retrieved May 1, 2019.",
+                "url": "https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/WhiteCompanyOperationShaheenReport.pdf?_ga=2.161661948.1943296560.1555683782-1066572390.1555511517",
+                "source_name": "Cylance Shaheen Nov 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[The White Company](https://attack.mitre.org/groups/G0089) has obfuscated their payloads through packing.(Citation: Cylance Shaheen Nov 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4",
+        "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2a8c6029-7714-437a-87a2-bc91067575e6",
+        "type": "relationship",
+        "created": "2019-05-02T00:08:18.461Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Livelli, K, et al. (2018, November 12). Operation Shaheen. Retrieved May 1, 2019.",
+                "url": "https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/WhiteCompanyOperationShaheenReport.pdf?_ga=2.161661948.1943296560.1555683782-1066572390.1555511517",
+                "source_name": "Cylance Shaheen Nov 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[The White Company](https://attack.mitre.org/groups/G0089) has checked for specific antivirus products on the target\u2019s computer, including Kaspersky, Quick Heal, AVG, BitDefender, Avira, Sophos, Avast!, and ESET.(Citation: Cylance Shaheen Nov 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4",
+        "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--49315e80-2d47-432f-8e5f-3a694a91bb45",
+        "type": "relationship",
+        "created": "2019-05-02T00:08:18.507Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Livelli, K, et al. (2018, November 12). Operation Shaheen. Retrieved May 1, 2019.",
+                "url": "https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/WhiteCompanyOperationShaheenReport.pdf?_ga=2.161661948.1943296560.1555683782-1066572390.1555511517",
+                "source_name": "Cylance Shaheen Nov 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": " [The White Company](https://attack.mitre.org/groups/G0089) has taken advantage of a known vulnerability in Microsoft Word (CVE 2012-0158) to execute code.(Citation: Cylance Shaheen Nov 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--852e45c7-0d49-43ff-b15c-dd4f6d51703f",
+        "type": "relationship",
+        "created": "2019-05-02T01:08:31.018Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Livelli, K, et al. (2018, November 12). Operation Shaheen. Retrieved May 1, 2019.",
+                "url": "https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/WhiteCompanyOperationShaheenReport.pdf?_ga=2.161661948.1943296560.1555683782-1066572390.1555511517",
+                "source_name": "Cylance Shaheen Nov 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Cylance Shaheen Nov 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4",
+        "target_ref": "malware--bdb27a1d-1844-42f1-a0c0-826027ae0326",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8abfac45-26c2-493f-a4f3-3fb4d196712f",
+        "type": "relationship",
+        "created": "2019-05-02T00:08:18.532Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Livelli, K, et al. (2018, November 12). Operation Shaheen. Retrieved May 1, 2019.",
+                "url": "https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/WhiteCompanyOperationShaheenReport.pdf?_ga=2.161661948.1943296560.1555683782-1066572390.1555511517",
+                "source_name": "Cylance Shaheen Nov 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Cylance Shaheen Nov 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4",
+        "target_ref": "malware--2a70812b-f1ef-44db-8578-a496a227aef2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9d42a47f-ccdc-42f0-9551-11bf5e2a9616",
+        "type": "relationship",
+        "created": "2019-05-02T00:08:18.466Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Livelli, K, et al. (2018, November 12). Operation Shaheen. Retrieved May 1, 2019.",
+                "url": "https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/WhiteCompanyOperationShaheenReport.pdf?_ga=2.161661948.1943296560.1555683782-1066572390.1555511517",
+                "source_name": "Cylance Shaheen Nov 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[The White Company](https://attack.mitre.org/groups/G0089) has the ability to delete its malware entirely from the target system.(Citation: Cylance Shaheen Nov 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e3d8a792-5c54-4e37-9ce1-6a8555e76a03",
+        "type": "relationship",
+        "created": "2019-05-02T00:08:18.529Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Livelli, K, et al. (2018, November 12). Operation Shaheen. Retrieved May 1, 2019.",
+                "url": "https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/WhiteCompanyOperationShaheenReport.pdf?_ga=2.161661948.1943296560.1555683782-1066572390.1555511517",
+                "source_name": "Cylance Shaheen Nov 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[The White Company](https://attack.mitre.org/groups/G0089) has sent phishing emails with malicious Microsoft Word attachments to victims.(Citation: Cylance Shaheen Nov 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--eba54c2a-854f-4349-9248-314519ed9c43",
+        "type": "relationship",
+        "created": "2019-05-02T00:08:18.510Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Livelli, K, et al. (2018, November 12). Operation Shaheen. Retrieved May 1, 2019.",
+                "url": "https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/WhiteCompanyOperationShaheenReport.pdf?_ga=2.161661948.1943296560.1555683782-1066572390.1555511517",
+                "source_name": "Cylance Shaheen Nov 2018"
+            }
+        ],
+        "modified": "2020-03-17T15:02:14.635Z",
+        "description": "[The White Company](https://attack.mitre.org/groups/G0089) has used phishing lure documents that trick users into opening them and infecting their computers.(Citation: Cylance Shaheen Nov 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f368f221-bcd5-400d-b350-83173de26423",
+        "type": "relationship",
+        "created": "2019-05-02T00:08:18.438Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Livelli, K, et al. (2018, November 12). Operation Shaheen. Retrieved May 1, 2019.",
+                "url": "https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/WhiteCompanyOperationShaheenReport.pdf?_ga=2.161661948.1943296560.1555683782-1066572390.1555511517",
+                "source_name": "Cylance Shaheen Nov 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[The White Company](https://attack.mitre.org/groups/G0089) has checked the current date on the victim system.(Citation: Cylance Shaheen Nov 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4",
+        "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--82caa33e-d11a-433a-94ea-9b5a5fbef81d",
+        "description": "[The White Company](https://attack.mitre.org/groups/G0089) has performed anti-analysis checks to determine if its malware was in a debugging environment.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2019-05-02T00:08:18.484Z",
+        "id": "relationship--459a275a-67c0-4357-acfa-34afe2d0778e",
+        "source_ref": "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Cylance Shaheen Nov 2018",
+                "description": "Livelli, K, et al. (2018, November 12). Operation Shaheen. Retrieved May 1, 2019.",
+                "url": "https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/WhiteCompanyOperationShaheenReport.pdf?_ga=2.161661948.1943296560.1555683782-1066572390.1555511517"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

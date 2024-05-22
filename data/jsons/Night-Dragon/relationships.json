@@ -1,0 +1,612 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--047ee6d3-1b85-4a0f-96a6-6ead4be43548",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.048Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) is known to use software packing in its tools.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0608a4e2-575d-4a2b-9ab4-b85d6d12450b",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.516Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "tool--0c8465c0-d0b4-4670-992e-4eee8d7ff952",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0d474ebe-5aff-4c13-92e6-afe04d6cefe0",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.381Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) sent spearphishing emails containing links to compromised websites where malware was downloaded.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--112b0183-25f5-4a58-8b50-c41fcae19784",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.262Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) has used ports 25 and 80 for C2 communications.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2cc18ee4-ccde-4b2a-a280-b783e1ede529",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.182Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) has copied files to company web servers and subsequently downloaded them.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--359b00ad-9425-420b-bba5-6de8d600cbc0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--36f0a0c9-ccf8-4b82-a9ab-d61d13094b24",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.299Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) used pass-the-hash tools to gain usernames and passwords.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3ba4ec9e-24eb-4255-aae7-f314f1176335",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.285Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) has dumped account hashes with [Carbanak](https://attack.mitre.org/groups/G0008) and cracked them with Cain & Abel.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--43238f43-2cbd-40e4-8dbf-c97b9500f528",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.204Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) has used compromised VPN accounts to gain access to victim systems.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5228157f-e15e-4059-a400-503f75f019b6",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.454Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "tool--b07c2c47-fefb-4d7c-a69e-6a3296171f54",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7c5c4ef2-2e0b-4c83-ae98-8f0f40cb6d3c",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.190Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) has disabled anti-virus and anti-spyware tools in some instances on the victim\u2019s machines. The actors have also disabled proxy settings to allow direct communication from victims to the Internet.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7e88dd85-5ade-4622-a6ff-eccd75f020ad",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.104Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "A [Night Dragon](https://attack.mitre.org/groups/G0014) DLL included an XOR-encoded section.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8027944a-f329-4381-a8cf-0bceb9f8e105",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.278Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) enticed users to click on links in spearphishing emails to download malware.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--820506c1-f8a0-4300-9653-2f245eff2cd1",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.196Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) has used compromised VPN accounts to gain access to victim systems.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9f89d00f-fc0f-4dbb-9b54-3553821bf7ef",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.294Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) has used HTTP for C2.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9ffb8d9a-6aee-4bb5-9f1a-0e9c1f643350",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.272Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) has used several remote administration tools as persistent infiltration channels.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a24e618b-6624-4bca-9bef-c5f4ca6cab53",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.524Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "malware--54e8672d-5338-4ad1-954a-a7c986bee530",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a95a7989-ffe1-4aac-8831-5d4db61c2f8b",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.447Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c893eaa3-de1e-47e9-a01b-5de2b54d00ab",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.371Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) has performed SQL injection attacks of extranet web servers to gain access.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d82144cd-0b3f-465c-95aa-54764891e9b6",
+        "type": "relationship",
+        "created": "2019-01-30T18:02:59.508Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "malware--56f46b17-8cfa-46c0-b501-dd52fef394e2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f82e6303-3524-42e1-8f43-fa1bb4303c7e",
+        "type": "relationship",
+        "created": "2020-10-15T00:54:00.812Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) used privately developed and customized remote access tools.(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fdc75d59-68bc-44d8-b9cd-bef10c7367a9",
+        "type": "relationship",
+        "created": "2021-10-12T22:12:11.891Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "McAfee Night Dragon",
+                "description": "McAfee\u00ae Foundstone\u00ae Professional Services and McAfee Labs\u2122. (2011, February 10). Global Energy Cyberattacks: \u201cNight Dragon\u201d. Retrieved February 19, 2018.",
+                "url": "https://scadahacker.com/library/Documents/Cyber_Events/McAfee%20-%20Night%20Dragon%20-%20Global%20Energy%20Cyberattacks.pdf"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Night Dragon](https://attack.mitre.org/groups/G0014) has obtained and used tools such as [gsecdump](https://attack.mitre.org/software/S0008).(Citation: McAfee Night Dragon)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "id": "relationship--efa81e32-8618-4461-9dff-fd0bedaab133",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "source_ref": "intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8",
+        "relationship_type": "uses",
+        "target_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
+        "type": "relationship",
+        "modified": "2018-04-30T13:45:13.024Z",
+        "created": "2018-04-18T17:59:24.739Z",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "external_references": null,
+        "revoked": null,
+        "description": null
+    }
+]

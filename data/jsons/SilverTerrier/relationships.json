@@ -1,0 +1,259 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5e7e3226-1583-48de-9376-946fa88b6d15",
+        "type": "relationship",
+        "created": "2019-01-29T21:36:59.980Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Unit42. (2016). SILVERTERRIER: THE RISE OF NIGERIAN BUSINESS EMAIL COMPROMISE. Retrieved November 13, 2018.",
+                "url": "https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/whitepapers/unit42-silverterrier-rise-of-nigerian-business-email-compromise",
+                "source_name": "Unit42 SilverTerrier 2018"
+            }
+        ],
+        "modified": "2020-03-17T02:36:01.222Z",
+        "description": "[SilverTerrier](https://attack.mitre.org/groups/G0083) uses SMTP for C2 communications.(Citation: Unit42 SilverTerrier 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
+        "target_ref": "attack-pattern--54b4c251-1f0e-4eba-ba6b-dbc7a6f6f06b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--69205d34-6967-40df-baed-45b5d23d8e27",
+        "type": "relationship",
+        "created": "2019-01-29T21:37:00.022Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Unit42. (2016). SILVERTERRIER: THE RISE OF NIGERIAN BUSINESS EMAIL COMPROMISE. Retrieved November 13, 2018.",
+                "url": "https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/whitepapers/unit42-silverterrier-rise-of-nigerian-business-email-compromise",
+                "source_name": "Unit42 SilverTerrier 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Unit42 SilverTerrier 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
+        "target_ref": "malware--b4d80f8b-d2b9-4448-8844-4bef777ed676",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7a9b075d-4a37-4b89-8643-8b4376b79416",
+        "type": "relationship",
+        "created": "2019-01-29T21:37:00.034Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Unit42. (2016). SILVERTERRIER: THE RISE OF NIGERIAN BUSINESS EMAIL COMPROMISE. Retrieved November 13, 2018.",
+                "url": "https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/whitepapers/unit42-silverterrier-rise-of-nigerian-business-email-compromise",
+                "source_name": "Unit42 SilverTerrier 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Unit42 SilverTerrier 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
+        "target_ref": "malware--e7a5229f-05eb-440e-b982-9a6d2b2b87c8",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--87cc66d0-7cab-4584-b86e-f2d56d492271",
+        "type": "relationship",
+        "created": "2020-03-17T02:36:01.176Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit42 SilverTerrier 2018",
+                "url": "https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/whitepapers/unit42-silverterrier-rise-of-nigerian-business-email-compromise",
+                "description": "Unit42. (2016). SILVERTERRIER: THE RISE OF NIGERIAN BUSINESS EMAIL COMPROMISE. Retrieved November 13, 2018."
+            }
+        ],
+        "modified": "2020-03-17T02:36:01.176Z",
+        "description": "[SilverTerrier](https://attack.mitre.org/groups/G0083) uses HTTP for C2 communications.(Citation: Unit42 SilverTerrier 2018)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cff191ef-39ba-4126-b039-12a7fe327665",
+        "type": "relationship",
+        "created": "2020-03-17T02:36:01.188Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit42 SilverTerrier 2018",
+                "url": "https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/whitepapers/unit42-silverterrier-rise-of-nigerian-business-email-compromise",
+                "description": "Unit42. (2016). SILVERTERRIER: THE RISE OF NIGERIAN BUSINESS EMAIL COMPROMISE. Retrieved November 13, 2018."
+            }
+        ],
+        "modified": "2020-03-17T02:36:01.188Z",
+        "description": "[SilverTerrier](https://attack.mitre.org/groups/G0083) uses FTP for C2 communications.(Citation: Unit42 SilverTerrier 2018)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
+        "target_ref": "attack-pattern--9a60a291-8960-4387-8a4a-2ab5c18bb50b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d88c3036-bcaf-4897-a47e-3cabc0dbc1b2",
+        "type": "relationship",
+        "created": "2019-01-29T21:37:00.007Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Unit42. (2016). SILVERTERRIER: THE RISE OF NIGERIAN BUSINESS EMAIL COMPROMISE. Retrieved November 13, 2018.",
+                "url": "https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/whitepapers/unit42-silverterrier-rise-of-nigerian-business-email-compromise",
+                "source_name": "Unit42 SilverTerrier 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Unit42 SilverTerrier 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
+        "target_ref": "malware--2a70812b-f1ef-44db-8578-a496a227aef2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e50b6d7a-8c22-45f3-9d60-383064cc58d4",
+        "type": "relationship",
+        "created": "2019-01-29T21:37:00.018Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Unit42. (2016). SILVERTERRIER: THE RISE OF NIGERIAN BUSINESS EMAIL COMPROMISE. Retrieved November 13, 2018.",
+                "url": "https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/whitepapers/unit42-silverterrier-rise-of-nigerian-business-email-compromise",
+                "source_name": "Unit42 SilverTerrier 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Unit42 SilverTerrier 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
+        "target_ref": "malware--53ab35c2-d00e-491a-8753-41d35ae7e547",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e5f93ccd-67e5-4bb5-805e-e39b41cfabf3",
+        "created": "2023-09-21T14:24:09.003Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Unit42 SilverTerrier 2016",
+                "description": "Renals, P., Conant, S. (2016). SILVERTERRIER: The Next Evolution in Nigerian Cybercrime. Retrieved November 13, 2018.",
+                "url": "https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/reports/Unit_42/silverterrier-next-evolution-in-nigerian-cybercrime.pdf"
+            },
+            {
+                "source_name": "Unit42 SilverTerrier 2018",
+                "description": "Unit42. (2016). SILVERTERRIER: THE RISE OF NIGERIAN BUSINESS EMAIL COMPROMISE. Retrieved November 13, 2018.",
+                "url": "https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/whitepapers/unit42-silverterrier-rise-of-nigerian-business-email-compromise"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-27T20:24:29.196Z",
+        "description": "[SilverTerrier](https://attack.mitre.org/groups/G0083) targets organizations in high technology, higher education, and manufacturing for business email compromise (BEC) campaigns with the goal of financial theft.(Citation: Unit42 SilverTerrier 2018)(Citation: Unit42 SilverTerrier 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
+        "target_ref": "attack-pattern--851e071f-208d-4c79-adc6-5974c85c78f3",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e8948840-b0a0-4c10-87f4-022720dc8dd9",
+        "type": "relationship",
+        "created": "2020-05-19T23:26:11.987Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Unit42. (2016). SILVERTERRIER: THE RISE OF NIGERIAN BUSINESS EMAIL COMPROMISE. Retrieved November 13, 2018.",
+                "url": "https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/whitepapers/unit42-silverterrier-rise-of-nigerian-business-email-compromise",
+                "source_name": "Unit42 SilverTerrier 2018"
+            }
+        ],
+        "modified": "2020-05-19T23:26:11.987Z",
+        "description": "(Citation: Unit42 SilverTerrier 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
+        "target_ref": "malware--cb741463-f0fe-42e0-8d45-bc7e8335f5ae",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

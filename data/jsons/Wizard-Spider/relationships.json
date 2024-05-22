@@ -1,0 +1,3026 @@
+[
+    {
+        "type": "relationship",
+        "id": "relationship--0038b0b8-f51c-4fd1-8b04-2fd7ebd1d61d",
+        "created": "2023-08-07T16:03:40.742Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.642Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has created local administrator accounts to maintain persistence in compromised networks.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--635cbe30-392d-4e27-978e-66774357c762",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--00a88d6f-fa8c-48bf-a028-fb75ca04e000",
+        "created": "2020-11-10T16:49:13.291Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020.",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.642Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has obtained code signing certificates signed by DigiCert, GlobalSign, and COMOOD for malware payloads.(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--e7cbc1de-1f79-48ee-abfd-da1241c65a15",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--02e03773-7cea-4b40-bf96-f22ccbc7187f",
+        "created": "2020-05-12T18:25:44.515Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+            },
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "Microsoft Ransomware as a Service",
+                "description": "Microsoft. (2022, May 9). Ransomware as a service: Understanding the cybercrime gig economy and how to protect yourself. Retrieved March 10, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+            },
+            {
+                "source_name": "CrowdStrike Wizard Spider October 2020",
+                "description": "Podlosky, A., Hanel, A. et al. (2020, October 16). WIZARD SPIDER Update: Resilient, Reactive and Resolute. Retrieved June 15, 2021.",
+                "url": "https://www.crowdstrike.com/blog/wizard-spider-adversary-update/"
+            },
+            {
+                "source_name": "Sophos New Ryuk Attack October 2020",
+                "description": "Sean Gallagher, Peter Mackenzie, Elida Leite, Syed Shahram, Bill Kearney, Anand Aijan, Sivagnanam Gn, Suraj Mundalik. (2020, October 14). They\u2019re back: inside a new Ryuk ransomware attack. Retrieved October 14, 2020.",
+                "url": "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-12-04T19:43:45.857Z",
+        "description": "(Citation: CrowdStrike Grim Spider May 2019)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: Sophos New Ryuk Attack October 2020)(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Mandiant FIN12 Oct 2021)(Citation: Microsoft Ransomware as a Service)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--14f3eebf-40c3-48d5-ad62-356d57ccf2dc",
+        "type": "relationship",
+        "created": "2020-11-10T16:49:12.074Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020."
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020."
+            },
+            {
+                "source_name": "DFIR Ryuk in 5 Hours October 2020",
+                "url": "https://thedfirreport.com/2020/10/18/ryuk-in-5-hours/",
+                "description": "The DFIR Report. (2020, October 18). Ryuk in 5 Hours. Retrieved October 19, 2020."
+            }
+        ],
+        "modified": "2020-11-10T16:49:12.074Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has exploited or attempted to exploit Zerologon (CVE-2020-1472) and EternalBlue (MS17-010) vulnerabilities.(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DFIR Ryuk's Return October 2020)(Citation: DFIR Ryuk in 5 Hours October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--18437772-ace9-4a63-b928-8f313dc44f1e",
+        "created": "2023-08-08T13:53:44.371Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.644Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has archived data into ZIP files on compromised machines.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--1ca344f1-97fe-453c-9f12-86130ddcebbc",
+        "created": "2020-11-10T16:24:47.269Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.644Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used `cmd.exe` to execute commands on a victim's machine.(Citation: DFIR Ryuk's Return October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--1dd1bd5b-8639-48bd-81bd-c34c61fd464a",
+        "created": "2020-12-28T19:06:02.231Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
+                "description": "Brian Donohue, Katie Nickels, Paul Michaud, Adina Bodkins, Taylor Chapman, Tony Lambert, Jeff Felling, Kyle Rainey, Mike Haag, Matt Graeber, Aaron Didier.. (2020, October 29). A Bazar start: How one hospital thwarted a Ryuk ransomware outbreak. Retrieved October 30, 2020.",
+                "url": "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/"
+            },
+            {
+                "source_name": "FireEye Ryuk and Trickbot January 2019",
+                "description": "Goody, K., et al (2019, January 11). A Nasty Trick: From Credential Theft Malware to Business Disruption. Retrieved May 12, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020.",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.645Z",
+        "description": "(Citation: FireEye Ryuk and Trickbot January 2019)(Citation: DFIR Ryuk's Return October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "tool--f59508a6-3615-47c3-b493-6676e1a39a87",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--1deb3a34-8b7d-449d-8213-81a73fd9d642",
+        "created": "2023-08-03T18:27:14.816Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.645Z",
+        "description": "(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "tool--64764dc6-a032-495f-8250-1e4c06bdc163",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--1fa97951-8eba-4771-bc42-8084967f0c65",
+        "created": "2020-05-15T18:52:17.468Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
+                "description": "Brian Donohue, Katie Nickels, Paul Michaud, Adina Bodkins, Taylor Chapman, Tony Lambert, Jeff Felling, Kyle Rainey, Mike Haag, Matt Graeber, Aaron Didier.. (2020, October 29). A Bazar start: How one hospital thwarted a Ryuk ransomware outbreak. Retrieved October 30, 2020.",
+                "url": "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/"
+            },
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+            },
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.646Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used WMI and LDAP queries for network discovery and to move laterally. [Wizard Spider](https://attack.mitre.org/groups/G0102) has also used batch scripts to leverage WMIC to deploy ransomware.(Citation: CrowdStrike Grim Spider May 2019)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--260a6771-1b29-49b6-ad42-6c43e68b11dc",
+        "created": "2021-05-26T20:00:53.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.647Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has utilized tools such as [Empire](https://attack.mitre.org/software/S0363), [Cobalt Strike](https://attack.mitre.org/software/S0154), [Cobalt Strike](https://attack.mitre.org/software/S0154), [Rubeus](https://attack.mitre.org/software/S1071), [AdFind](https://attack.mitre.org/software/S0552), [BloodHound](https://attack.mitre.org/software/S0521), Metasploit, Advanced IP Scanner, Nirsoft PingInfoView, and SoftPerfect Network Scanner for targeting efforts.(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--2b5965fe-b178-4c03-91af-942491c79302",
+        "created": "2020-05-13T13:58:12.493Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.648Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has installed [TrickBot](https://attack.mitre.org/software/S0266) as a service named ControlServiceA in order to establish persistence.(Citation: CrowdStrike Grim Spider May 2019)(Citation: Mandiant FIN12 Oct 2021) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2bb3c950-2099-4d7d-ac13-05a1470fc3c6",
+        "type": "relationship",
+        "created": "2020-11-10T16:24:47.455Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020."
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020."
+            }
+        ],
+        "modified": "2020-11-10T16:24:47.455Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used SMB to drop Cobalt Strike Beacon on a domain controller for lateral movement.(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: DFIR Ryuk's Return October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2c54816e-5dd1-4723-99f5-29c80a2fc171",
+        "type": "relationship",
+        "created": "2020-05-13T16:45:50.317Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020."
+            }
+        ],
+        "modified": "2020-05-13T16:45:50.317Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has collected and staged credentials and network enumeration information, using  the networkdll and psfin [TrickBot](https://attack.mitre.org/software/S0266) modules.(Citation: CrowdStrike Grim Spider May 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2dd33387-a109-46cd-8204-cb79a62e4830",
+        "type": "relationship",
+        "created": "2020-11-10T16:24:46.847Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020."
+            }
+        ],
+        "modified": "2020-11-10T16:24:46.847Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used administrative accounts, including Domain Admin, to move laterally within a victim network.(Citation: FireEye KEGTAP SINGLEMALT October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--3a5b04dd-815c-4f52-be7a-e997625c18e6",
+        "created": "2023-08-03T18:38:29.177Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.648Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used process injection to execute payloads to escalate privileges.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--3b3c27ed-0129-48bf-8c79-e86d73e5b212",
+        "created": "2020-11-10T18:04:03.591Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Sophos New Ryuk Attack October 2020",
+                "description": "Sean Gallagher, Peter Mackenzie, Elida Leite, Syed Shahram, Bill Kearney, Anand Aijan, Sivagnanam Gn, Suraj Mundalik. (2020, October 14). They\u2019re back: inside a new Ryuk ransomware attack. Retrieved October 14, 2020.",
+                "url": "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.649Z",
+        "description": "(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: Sophos New Ryuk Attack October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "tool--066b057c-944e-4cfc-b654-e3dfba04b926",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4340d15d-5577-4b4e-8e5b-570b9ab3a147",
+        "created": "2023-10-11T14:46:42.305Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-10-11T14:46:42.305Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used the WebDAV protocol to execute [Ryuk](https://attack.mitre.org/software/S0446) payloads hosted on network file shares.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--43b9a1b5-6f95-4c6c-8e1f-59f9049e3afb",
+        "type": "relationship",
+        "created": "2020-11-10T18:04:03.589Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020."
+            },
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020."
+            },
+            {
+                "source_name": "DFIR Ryuk in 5 Hours October 2020",
+                "url": "https://thedfirreport.com/2020/10/18/ryuk-in-5-hours/",
+                "description": "The DFIR Report. (2020, October 18). Ryuk in 5 Hours. Retrieved October 19, 2020."
+            }
+        ],
+        "modified": "2020-11-10T18:04:03.589Z",
+        "description": "(Citation: DFIR Ryuk's Return October 2020)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: DFIR Ryuk in 5 Hours October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--43fabcba-66b6-45dc-b905-926f0a0a2bba",
+        "created": "2020-05-13T15:28:06.685Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+            },
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020.",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.650Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used RDP for lateral movement and to deploy ransomware interactively.(Citation: CrowdStrike Grim Spider May 2019)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--43fec1ed-cc26-4036-95c0-1598150f3916",
+        "created": "2023-08-03T19:06:51.113Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.650Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used the `Invoke-SMBExec` PowerShell cmdlet to execute the pass-the-hash technique and utilized stolen password hashes to move laterally.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4bac5bdb-493b-4c32-882d-ce77786d12c9",
+        "created": "2021-06-15T14:11:27.387Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft Ransomware as a Service",
+                "description": "Microsoft. (2022, May 9). Ransomware as a service: Understanding the cybercrime gig economy and how to protect yourself. Retrieved March 10, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+            },
+            {
+                "source_name": "CrowdStrike Wizard Spider October 2020",
+                "description": "Podlosky, A., Hanel, A. et al. (2020, October 16). WIZARD SPIDER Update: Resilient, Reactive and Resolute. Retrieved June 15, 2021.",
+                "url": "https://www.crowdstrike.com/blog/wizard-spider-adversary-update/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-12-04T19:39:48.154Z",
+        "description": "(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Microsoft Ransomware as a Service)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "malware--99fdf3b4-96ef-4ab9-b191-fc683441cad0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4d0e6809-943f-424b-b8e9-f3b8baa11411",
+        "created": "2023-08-03T18:35:08.910Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.651Z",
+        "description": "(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4e3b7cf3-298e-4db2-a920-375abd50280d",
+        "type": "relationship",
+        "created": "2020-11-10T16:49:13.445Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Sophos New Ryuk Attack October 2020",
+                "url": "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/",
+                "description": "Sean Gallagher, Peter Mackenzie, Elida Leite, Syed Shahram, Bill Kearney, Anand Aijan, Sivagnanam Gn, Suraj Mundalik. (2020, October 14). They\u2019re back: inside a new Ryuk ransomware attack. Retrieved October 14, 2020."
+            }
+        ],
+        "modified": "2020-11-10T16:49:13.445Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used the icacls command to modify access control to backup servers, providing them with full control of all the system folders.(Citation: Sophos New Ryuk Attack October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--34e793de-0274-4982-9c1a-246ed1c19dee",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4f243ab6-812f-4fd3-9607-8d94409a94c1",
+        "type": "relationship",
+        "created": "2020-05-13T15:28:06.633Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020."
+            }
+        ],
+        "modified": "2020-05-15T18:52:17.533Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used stolen credentials to copy tools into the <code>%TEMP%</code> directory of domain controllers.(Citation: CrowdStrike Grim Spider May 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--53e1bf2f-7ab4-4173-879b-9975618c4527",
+        "created": "2020-05-13T12:42:06.786Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "CrowdStrike Wizard Spider October 2020",
+                "description": "Podlosky, A., Hanel, A. et al. (2020, October 16). WIZARD SPIDER Update: Resilient, Reactive and Resolute. Retrieved June 15, 2021.",
+                "url": "https://www.crowdstrike.com/blog/wizard-spider-adversary-update/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.651Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has lured victims to execute malware with spearphishing attachments containing macros to download either [Emotet](https://attack.mitre.org/software/S0367), Bokbot, [TrickBot](https://attack.mitre.org/software/S0266), or [Bazar](https://attack.mitre.org/software/S0534).(Citation: CrowdStrike Grim Spider May 2019)(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--57f8c6d0-406d-4e97-b3ff-5b2f0274231b",
+        "created": "2020-05-13T13:20:59.339Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+            },
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020.",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.652Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used scheduled tasks to establish persistence for [TrickBot](https://attack.mitre.org/software/S0266) and other malware.(Citation: CrowdStrike Grim Spider May 2019)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--585842e6-fe9a-4508-8e67-c232f8aa5e76",
+        "created": "2020-11-10T18:04:03.571Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
+                "description": "Brian Donohue, Katie Nickels, Paul Michaud, Adina Bodkins, Taylor Chapman, Tony Lambert, Jeff Felling, Kyle Rainey, Mike Haag, Matt Graeber, Aaron Didier.. (2020, October 29). A Bazar start: How one hospital thwarted a Ryuk ransomware outbreak. Retrieved October 30, 2020.",
+                "url": "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Sophos New Ryuk Attack October 2020",
+                "description": "Sean Gallagher, Peter Mackenzie, Elida Leite, Syed Shahram, Bill Kearney, Anand Aijan, Sivagnanam Gn, Suraj Mundalik. (2020, October 14). They\u2019re back: inside a new Ryuk ransomware attack. Retrieved October 14, 2020.",
+                "url": "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020.",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+            },
+            {
+                "source_name": "DFIR Ryuk in 5 Hours October 2020",
+                "description": "The DFIR Report. (2020, October 18). Ryuk in 5 Hours. Retrieved October 19, 2020.",
+                "url": "https://thedfirreport.com/2020/10/18/ryuk-in-5-hours/"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.652Z",
+        "description": "(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DFIR Ryuk's Return October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: DFIR Ryuk in 5 Hours October 2020)(Citation: Sophos New Ryuk Attack October 2020)(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "tool--981acc4c-2ede-4b56-be6e-fa1a75f37acf",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5a2c4561-48e4-4d51-8f00-ff470a18df32",
+        "created": "2020-05-13T17:16:11.074Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye Ryuk and Trickbot January 2019",
+                "description": "Goody, K., et al (2019, January 11). A Nasty Trick: From Credential Theft Malware to Business Disruption. Retrieved May 12, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-22T05:46:46.273Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) used Base64 encoding to obfuscate an [Empire](https://attack.mitre.org/software/S0363) service and PowerShell commands.(Citation: FireEye Ryuk and Trickbot January 2019)(Citation: DFIR Ryuk's Return October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5c252868-1474-4fed-b3b2-07a6d3415034",
+        "type": "relationship",
+        "created": "2020-05-13T13:58:12.424Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020."
+            }
+        ],
+        "modified": "2020-05-13T13:58:12.424Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used file deletion to remove some modules and configurations from an infected host after use.(Citation: CrowdStrike Grim Spider May 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5c98e0bb-7451-4c61-a798-4306b89b1e61",
+        "created": "2023-08-08T13:25:35.858Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.653Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used PowerShell cmdlets `Get-GPPPassword` and `Find-GPOPassword` to find unsecured credentials in a compromised network group policy.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--8d7bd4f5-3a89-4453-9c82-2c8894d5655e",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5d7d90a4-1ea6-4eca-94bd-3461d9a54229",
+        "type": "relationship",
+        "created": "2021-07-16T18:29:48.908Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Group IB GrimAgent July 2021",
+                "url": "https://gibnc.group-ib.com/s/Group-IB_GrimAgent_analysis#pdfviewer",
+                "description": "Priego, A. (2021, July). THE BROTHERS GRIM: THE REVERSING TALE OF GRIMAGENT MALWARE USED BY RYUK. Retrieved July 16, 2021."
+            }
+        ],
+        "modified": "2021-10-14T17:28:04.440Z",
+        "description": "(Citation: Group IB GrimAgent July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "malware--c9b99d03-ff11-4a48-95f0-82660d582c25",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5fe0a46c-7a06-4aea-9768-d611d3f3116d",
+        "type": "relationship",
+        "created": "2020-11-10T16:24:47.121Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020."
+            },
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020."
+            }
+        ],
+        "modified": "2020-11-10T16:24:47.121Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has exfiltrated victim information using FTP.(Citation: DFIR Ryuk's Return October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--61805115-3044-4ed7-91f4-074b2a073e02",
+        "type": "relationship",
+        "created": "2020-06-15T19:06:44.790Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Forbes Dyre May 2017",
+                "url": "https://www.forbes.com/sites/thomasbrewster/2017/05/04/dyre-hackers-stealing-millions-from-american-coporates/#601c77842a0a",
+                "description": "Brewster, T. (2017, May 4). https://www.forbes.com/sites/thomasbrewster/2017/05/04/dyre-hackers-stealing-millions-from-american-coporates/#601c77842a0a. Retrieved June 15, 2020."
+            },
+            {
+                "source_name": "CrowdStrike Wizard Spider March 2019",
+                "url": "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module/",
+                "description": "Feeley, B. and Stone-Gross, B. (2019, March 20). New Evidence Proves Ongoing WIZARD SPIDER / LUNAR SPIDER Collaboration. Retrieved June 15, 2020."
+            },
+            {
+                "source_name": "Malwarebytes TrickBot Sep 2019",
+                "url": "https://blog.malwarebytes.com/trojans/2019/09/trickbot-adds-new-trick-to-its-arsenal-tampering-with-trusted-texts/",
+                "description": "Umawing, J. (2019, September 3). TrickBot adds new trick to its arsenal: tampering with trusted texts. Retrieved June 15, 2020."
+            }
+        ],
+        "modified": "2020-06-16T19:04:09.745Z",
+        "description": "(Citation: Forbes Dyre May 2017)(Citation: CrowdStrike Wizard Spider March 2019)(Citation: Malwarebytes TrickBot Sep 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "malware--63c2a130-8a5b-452f-ad96-07cf0af12ffe",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--61c802ec-b415-4161-bf15-3a8c5cc0a243",
+        "created": "2020-11-10T16:49:12.444Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-10-03T17:16:09.239Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used WMI to identify anti-virus products installed on a victim's machine.(Citation: DFIR Ryuk's Return October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--6895e54e-3968-41a9-9013-a082cd46fa44",
+        "created": "2020-05-14T14:40:26.221Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
+                "description": "Brian Donohue, Katie Nickels, Paul Michaud, Adina Bodkins, Taylor Chapman, Tony Lambert, Jeff Felling, Kyle Rainey, Mike Haag, Matt Graeber, Aaron Didier.. (2020, October 29). A Bazar start: How one hospital thwarted a Ryuk ransomware outbreak. Retrieved October 30, 2020.",
+                "url": "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/"
+            },
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+            },
+            {
+                "source_name": "CrowdStrike Ryuk January 2019",
+                "description": "Hanel, A. (2019, January 10). Big Game Hunting with Ryuk: Another Lucrative Targeted Ransomware. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware/"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Microsoft Ransomware as a Service",
+                "description": "Microsoft. (2022, May 9). Ransomware as a service: Understanding the cybercrime gig economy and how to protect yourself. Retrieved March 10, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+            },
+            {
+                "source_name": "CrowdStrike Wizard Spider October 2020",
+                "description": "Podlosky, A., Hanel, A. et al. (2020, October 16). WIZARD SPIDER Update: Resilient, Reactive and Resolute. Retrieved June 15, 2021.",
+                "url": "https://www.crowdstrike.com/blog/wizard-spider-adversary-update/"
+            },
+            {
+                "source_name": "Sophos New Ryuk Attack October 2020",
+                "description": "Sean Gallagher, Peter Mackenzie, Elida Leite, Syed Shahram, Bill Kearney, Anand Aijan, Sivagnanam Gn, Suraj Mundalik. (2020, October 14). They\u2019re back: inside a new Ryuk ransomware attack. Retrieved October 14, 2020.",
+                "url": "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020.",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+            },
+            {
+                "source_name": "DFIR Ryuk in 5 Hours October 2020",
+                "description": "The DFIR Report. (2020, October 18). Ryuk in 5 Hours. Retrieved October 19, 2020.",
+                "url": "https://thedfirreport.com/2020/10/18/ryuk-in-5-hours/"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-12-04T20:04:07.781Z",
+        "description": "(Citation: CrowdStrike Ryuk January 2019)(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DFIR Ryuk's Return October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: DFIR Ryuk in 5 Hours October 2020)(Citation: Sophos New Ryuk Attack October 2020)(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Mandiant FIN12 Oct 2021)(Citation: Microsoft Ransomware as a Service)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "malware--a020a61c-423f-4195-8c46-ba1d21abba37",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--6924c49b-0f86-4712-9600-f91b21fa5691",
+        "created": "2023-08-07T16:07:34.927Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.654Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has utilized `rundll32.exe` to deploy ransomware commands with the use of WebDAV.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--72b30ddb-137c-4799-bacd-ab17aa2d01fc",
+        "created": "2020-11-10T16:04:00.641Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020.",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.654Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used Rubeus, MimiKatz Kerberos module, and the Invoke-Kerberoast cmdlet to steal AES hashes.(Citation: DFIR Ryuk's Return October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--f2877f7f-9a4c-4251-879f-1224e3006bee",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--73baa214-fbe6-477e-9beb-d1a08a6d117f",
+        "created": "2020-05-13T13:20:59.343Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
+                "description": "Brian Donohue, Katie Nickels, Paul Michaud, Adina Bodkins, Taylor Chapman, Tony Lambert, Jeff Felling, Kyle Rainey, Mike Haag, Matt Graeber, Aaron Didier.. (2020, October 29). A Bazar start: How one hospital thwarted a Ryuk ransomware outbreak. Retrieved October 30, 2020.",
+                "url": "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/"
+            },
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+            },
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.655Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used macros to execute PowerShell scripts to download malware on victim's machines.(Citation: CrowdStrike Grim Spider May 2019) It has also used PowerShell to execute commands and move laterally through a victim network.(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--743f2f00-57d0-4df8-94db-b044e2551890",
+        "created": "2023-08-07T16:05:05.713Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.655Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has exfiltrated stolen victim data to various cloud storage providers.(Citation: Mandiant FIN12 Oct 2021) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--75f0ea4c-5b88-4b14-9859-67379f4ba9b0",
+        "created": "2020-05-13T12:42:06.757Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.655Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has modified the Registry key <code>HKLM\\System\\CurrentControlSet\\Control\\SecurityProviders\\WDigest</code> by setting the <code>UseLogonCredential</code> registry value to <code>1</code> in order to force credentials to be stored in clear text in memory. [Wizard Spider](https://attack.mitre.org/groups/G0102) has also modified the WDigest registry key to allow plaintext credentials to be cached in memory.(Citation: CrowdStrike Grim Spider May 2019)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--773fc200-e44d-4049-b972-043c1e3d9035",
+        "created": "2023-08-07T16:04:27.626Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.656Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used WMIC and vssadmin to manually delete volume shadow copies. [Wizard Spider](https://attack.mitre.org/groups/G0102) has also used [Conti](https://attack.mitre.org/software/S0575) ransomware to delete volume shadow copies automatically with the use of vssadmin.(Citation: Mandiant FIN12 Oct 2021) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--79b0a6bc-4061-468c-ac1b-eef3dc3fb419",
+        "type": "relationship",
+        "created": "2020-11-10T16:24:46.955Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020."
+            }
+        ],
+        "modified": "2020-11-10T16:24:46.955Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has accessed victim networks by using stolen credentials to access the corporate VPN infrastructure.(Citation: FireEye KEGTAP SINGLEMALT October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--79e8a269-8ef5-4795-94ce-72bfbb03c7cb",
+        "type": "relationship",
+        "created": "2020-11-10T16:49:12.555Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020."
+            }
+        ],
+        "modified": "2020-11-10T16:49:12.555Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has established persistence using Userinit by adding the Registry key HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon.(Citation: FireEye KEGTAP SINGLEMALT October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--6836813e-8ec8-4375-b459-abb388cb1a35",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7a38509d-5468-4b8f-831e-a4233a36a845",
+        "created": "2021-06-15T14:11:27.407Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft Ransomware as a Service",
+                "description": "Microsoft. (2022, May 9). Ransomware as a service: Understanding the cybercrime gig economy and how to protect yourself. Retrieved March 10, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+            },
+            {
+                "source_name": "CrowdStrike Wizard Spider October 2020",
+                "description": "Podlosky, A., Hanel, A. et al. (2020, October 16). WIZARD SPIDER Update: Resilient, Reactive and Resolute. Retrieved June 15, 2021.",
+                "url": "https://www.crowdstrike.com/blog/wizard-spider-adversary-update/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-12-04T20:04:58.700Z",
+        "description": "(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Mandiant FIN12 Oct 2021)(Citation: Microsoft Ransomware as a Service)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "malware--4dea7d8e-af94-4bfb-afe4-7ff54f59308b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7e555910-0e1b-403d-a369-e7a2e8e61670",
+        "type": "relationship",
+        "created": "2020-05-13T13:20:59.322Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020."
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020."
+            }
+        ],
+        "modified": "2020-11-10T17:28:19.629Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used scheduled tasks to install [TrickBot](https://attack.mitre.org/software/S0266), using task names to appear legitimate such as WinDotNet, GoogleTask, or Sysnetsf.(Citation: CrowdStrike Grim Spider May 2019) It has also used common document file names for other malware binaries.(Citation: FireEye KEGTAP SINGLEMALT October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8263754e-20a6-49ac-9ffb-3f0e9113b228",
+        "type": "relationship",
+        "created": "2020-05-12T18:25:44.532Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020."
+            },
+            {
+                "source_name": "Sophos New Ryuk Attack October 2020",
+                "url": "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/",
+                "description": "Sean Gallagher, Peter Mackenzie, Elida Leite, Syed Shahram, Bill Kearney, Anand Aijan, Sivagnanam Gn, Suraj Mundalik. (2020, October 14). They\u2019re back: inside a new Ryuk ransomware attack. Retrieved October 14, 2020."
+            }
+        ],
+        "modified": "2020-11-10T18:04:03.780Z",
+        "description": "(Citation: CrowdStrike Grim Spider May 2019)(Citation: Sophos New Ryuk Attack October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "malware--32066e94-3112-48ca-b9eb-ba2b59d2f023",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--82dee5a5-7890-4bed-bc8c-83ffa13a8bcf",
+        "created": "2020-11-10T17:28:19.540Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-10-03T17:26:09.351Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has identified domain admins through the use of `net group \"Domain admins\" /DOMAIN`. [Wizard Spider](https://attack.mitre.org/groups/G0102) has also leveraged the PowerShell cmdlet `Get-ADComputer` to collect account names from Active Directory data.(Citation: DFIR Ryuk's Return October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--87d7a5b5-8f45-4a88-bc3c-f73f67a50255",
+        "created": "2023-08-08T14:09:55.490Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.658Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has utilized the PowerShell script `Get-DataInfo.ps1` to collect installed backup software information from a compromised machine.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--93cd9a2c-48e3-4a95-90fb-6436afcfa7a8",
+        "created": "2020-05-13T16:45:50.316Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-10-11T14:44:04.569Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used HTTP for network communications.(Citation: CrowdStrike Grim Spider May 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9438f268-3827-435b-98b5-79dbc0ee5213",
+        "type": "relationship",
+        "created": "2020-11-10T16:49:13.078Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020."
+            }
+        ],
+        "modified": "2020-11-10T16:49:13.078Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used Digicert code-signing certificates for some of its malware.(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--970860bd-6183-4728-8f34-a5a1ad199655",
+        "created": "2023-08-07T16:02:55.040Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.659Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has created and used new accounts within a victim's Active Directory environment to maintain persistence.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--7610cada-1499-41a4-b3dd-46467b68d177",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--97a62430-6a83-4ead-b8c7-ce47f5d0cac0",
+        "created": "2023-08-07T16:06:54.291Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:54:08.443Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has staged ZIP files in local directories such as, `C:\\PerfLogs\\1\\` and `C:\\User\\1\\` prior to exfiltration.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9bd4212c-2e17-41e2-9ff3-1448642ce958",
+        "type": "relationship",
+        "created": "2020-11-10T16:49:11.807Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020."
+            }
+        ],
+        "modified": "2020-11-10T16:49:11.807Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used the Invoke-Inveigh PowerShell cmdlets, likely for name service poisoning.(Citation: FireEye KEGTAP SINGLEMALT October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--650c784b-7504-4df7-ab2c-4ea882384d1e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a137a1d7-d40b-4565-8377-98a3065d5fec",
+        "created": "2023-08-07T16:06:16.547Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.660Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) can transfer malicious payloads such as ransomware to compromised machines.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a1e10048-626c-4e64-9bdb-fd576be8c19f",
+        "created": "2020-11-10T15:39:49.368Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.660Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has gained access to credentials via exported copies of the ntds.dit Active Directory database. [Wizard Spider](https://attack.mitre.org/groups/G0102) has also created a volume shadow copy and used a batch script file to collect NTDS.dit with the use of the Windows utility, ntdsutil.(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a25300cb-c2b7-4968-b1d7-cc4d5fe5bb4b",
+        "created": "2020-11-10T16:49:13.625Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Sophos New Ryuk Attack October 2020",
+                "description": "Sean Gallagher, Peter Mackenzie, Elida Leite, Syed Shahram, Bill Kearney, Anand Aijan, Sivagnanam Gn, Suraj Mundalik. (2020, October 14). They\u2019re back: inside a new Ryuk ransomware attack. Retrieved October 14, 2020.",
+                "url": "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-10-03T17:21:15.126Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used [ipconfig](https://attack.mitre.org/software/S0100) to identify the network configuration of a victim machine. [Wizard Spider](https://attack.mitre.org/groups/G0102) has also used the PowerShell cmdlet `Get-ADComputer` to collect IP address data from Active Directory.(Citation: Sophos New Ryuk Attack October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a28b6a04-5562-4550-91bd-6397c0c9fe3f",
+        "created": "2023-08-07T16:11:56.472Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.661Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has leveraged ProtonMail email addresses in ransom notes when delivering [Ryuk](https://attack.mitre.org/software/S0446) ransomware.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--aca710ff-23a3-4c78-b75a-dfe6cad337a9",
+        "created": "2020-11-10T16:22:44.111Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Sophos New Ryuk Attack October 2020",
+                "description": "Sean Gallagher, Peter Mackenzie, Elida Leite, Syed Shahram, Bill Kearney, Anand Aijan, Sivagnanam Gn, Suraj Mundalik. (2020, October 14). They\u2019re back: inside a new Ryuk ransomware attack. Retrieved October 14, 2020.",
+                "url": "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T17:58:34.540Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used \"whoami\" to identify the local user and their privileges.(Citation: Sophos New Ryuk Attack October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--ad06b85a-a0df-41aa-8f45-f41504987918",
+        "created": "2020-05-13T17:16:11.136Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.662Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used valid credentials for privileged accounts with the goal of accessing domain controllers.(Citation: CrowdStrike Grim Spider May 2019)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--afa1618c-6a9b-49a4-8105-5cae16b3415f",
+        "created": "2023-08-03T18:25:54.099Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.663Z",
+        "description": "(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "tool--e33267fe-099f-4af2-8730-63d49f8813b2",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b9dcab92-6b0d-43c7-a122-90eccb016b9d",
+        "type": "relationship",
+        "created": "2020-11-10T15:39:49.375Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020."
+            }
+        ],
+        "modified": "2020-11-10T15:39:49.375Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has lured victims into clicking a malicious link delivered through spearphishing.(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--bfd2f3f1-3a5f-4500-be4e-39e3f8d6cb8e",
+        "created": "2023-08-03T18:36:07.015Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.663Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has dumped the lsass.exe memory to harvest credentials with the use of open-source tool [LaZagne](https://attack.mitre.org/software/S0349).(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c118e50b-4559-4bff-bde5-78aa426f3db4",
+        "type": "relationship",
+        "created": "2020-11-10T18:04:03.666Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020."
+            },
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020."
+            }
+        ],
+        "modified": "2020-11-10T18:04:03.666Z",
+        "description": "(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--c1dc4089-a24e-44d2-84e3-47cb14964719",
+        "created": "2023-12-04T19:44:34.803Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft Ransomware as a Service",
+                "description": "Microsoft. (2022, May 9). Ransomware as a service: Understanding the cybercrime gig economy and how to protect yourself. Retrieved March 10, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-12-04T19:44:34.803Z",
+        "description": "(Citation: Microsoft Ransomware as a Service)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "malware--5f1d4579-4e8f-48e7-860e-2da773ae432e",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--c51d9123-7f7e-41e6-8cf7-7c7dc4170ca0",
+        "created": "2020-05-13T16:45:50.311Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.664Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has exfiltrated domain credentials and network enumeration information over command and control (C2) channels.(Citation: CrowdStrike Grim Spider May 2019)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--c671056c-f213-4084-9e9e-3361274ceb80",
+        "created": "2020-05-12T18:42:01.854Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
+                "description": "Brian Donohue, Katie Nickels, Paul Michaud, Adina Bodkins, Taylor Chapman, Tony Lambert, Jeff Felling, Kyle Rainey, Mike Haag, Matt Graeber, Aaron Didier.. (2020, October 29). A Bazar start: How one hospital thwarted a Ryuk ransomware outbreak. Retrieved October 30, 2020.",
+                "url": "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/"
+            },
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.664Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used spearphishing attachments to deliver Microsoft documents containing macros or PDFs containing malicious links to download either [Emotet](https://attack.mitre.org/software/S0367), Bokbot, [TrickBot](https://attack.mitre.org/software/S0266), or [Bazar](https://attack.mitre.org/software/S0534).(Citation: CrowdStrike Grim Spider May 2019)(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c96e7dda-d05c-458a-8332-9e7851bb4775",
+        "type": "relationship",
+        "created": "2020-11-10T16:49:12.704Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020."
+            }
+        ],
+        "modified": "2020-11-10T16:49:12.704Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has acquired credentials from the SAM/SECURITY registry hives.(Citation: FireEye KEGTAP SINGLEMALT October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cd283aa1-23f1-4516-9198-9d565bd4a431",
+        "type": "relationship",
+        "created": "2020-11-10T16:24:47.051Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020."
+            }
+        ],
+        "modified": "2020-11-10T16:24:47.051Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used taskkill.exe and net.exe to stop backup, catalog, cloud, and other services prior to network encryption.(Citation: DFIR Ryuk's Return October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--20fb2507-d71c-455d-9b6d-6104461cf26b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--cf32eab2-753c-4303-9667-54bc8c987a13",
+        "created": "2023-12-04T20:06:41.948Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft Ransomware as a Service",
+                "description": "Microsoft. (2022, May 9). Ransomware as a service: Understanding the cybercrime gig economy and how to protect yourself. Retrieved March 10, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-12-04T20:06:41.948Z",
+        "description": "(Citation: Microsoft Ransomware as a Service)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "malware--4e9bdf9a-4957-47f6-87b3-c76898d3f623",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d64f970a-8003-41bf-9769-d849c12340ed",
+        "created": "2020-05-14T14:40:26.232Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
+                "description": "Brian Donohue, Katie Nickels, Paul Michaud, Adina Bodkins, Taylor Chapman, Tony Lambert, Jeff Felling, Kyle Rainey, Mike Haag, Matt Graeber, Aaron Didier.. (2020, October 29). A Bazar start: How one hospital thwarted a Ryuk ransomware outbreak. Retrieved October 30, 2020.",
+                "url": "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/"
+            },
+            {
+                "source_name": "CrowdStrike Ryuk January 2019",
+                "description": "Hanel, A. (2019, January 10). Big Game Hunting with Ryuk: Another Lucrative Targeted Ransomware. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware/"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Sophos New Ryuk Attack October 2020",
+                "description": "Sean Gallagher, Peter Mackenzie, Elida Leite, Syed Shahram, Bill Kearney, Anand Aijan, Sivagnanam Gn, Suraj Mundalik. (2020, October 14). They\u2019re back: inside a new Ryuk ransomware attack. Retrieved October 14, 2020.",
+                "url": "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020.",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+            },
+            {
+                "source_name": "DFIR Ryuk in 5 Hours October 2020",
+                "description": "The DFIR Report. (2020, October 18). Ryuk in 5 Hours. Retrieved October 19, 2020.",
+                "url": "https://thedfirreport.com/2020/10/18/ryuk-in-5-hours/"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.665Z",
+        "description": "(Citation: CrowdStrike Ryuk January 2019)(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DFIR Ryuk's Return October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: DFIR Ryuk in 5 Hours October 2020)(Citation: Sophos New Ryuk Attack October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d73c0fd6-cbd9-4eaa-abca-a1626364ab1b",
+        "created": "2020-05-12T18:25:44.530Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+            },
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.665Z",
+        "description": "(Citation: CrowdStrike Grim Spider May 2019)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d87925c8-23ed-4913-81d6-c4d93d65c798",
+        "type": "relationship",
+        "created": "2020-11-10T15:39:49.385Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020."
+            },
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020."
+            }
+        ],
+        "modified": "2020-11-10T15:46:09.451Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has sent phishing emails containing a link to an actor-controlled Google Drive document or other free online file hosting services.(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--dae7228a-89f0-4e1c-b306-b9f6d08b902d",
+        "created": "2020-11-10T16:04:00.973Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.666Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has shut down or uninstalled security applications on victim systems that might prevent ransomware from executing.(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DFIR Ryuk's Return October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--df13cae2-4e20-4e89-ae60-6bd8b99e2342",
+        "created": "2020-05-13T17:16:11.123Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
+                "description": "Brian Donohue, Katie Nickels, Paul Michaud, Adina Bodkins, Taylor Chapman, Tony Lambert, Jeff Felling, Kyle Rainey, Mike Haag, Matt Graeber, Aaron Didier.. (2020, October 29). A Bazar start: How one hospital thwarted a Ryuk ransomware outbreak. Retrieved October 30, 2020.",
+                "url": "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/"
+            },
+            {
+                "source_name": "FireEye Ryuk and Trickbot January 2019",
+                "description": "Goody, K., et al (2019, January 11). A Nasty Trick: From Credential Theft Malware to Business Disruption. Retrieved May 12, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html"
+            },
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T17:55:00.850Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used networkdll for network discovery and psfin specifically for financial and point of sale indicators. [Wizard Spider](https://attack.mitre.org/groups/G0102) has also used [AdFind](https://attack.mitre.org/software/S0552), <code>nltest/dclist</code>, and PowerShell script Get-DataInfo.ps1 to enumerate domain computers, including the domain controller.(Citation: FireEye Ryuk and Trickbot January 2019)(Citation: CrowdStrike Grim Spider May 2019)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: DFIR Ryuk's Return October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e199c02e-a45c-4eca-ab24-7b037167c775",
+        "created": "2023-08-03T18:55:07.269Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.666Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has collected data from a compromised host prior to exfiltration.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e24411cf-6274-4b6b-87b4-b90b01146c8d",
+        "created": "2020-11-10T16:24:47.347Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-10-03T17:19:29.089Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used [Systeminfo](https://attack.mitre.org/software/S0096) and similar commands to acquire detailed configuration information of a victim's machine. [Wizard Spider](https://attack.mitre.org/groups/G0102) has also utilized the PowerShell cmdlet `Get-ADComputer` to collect DNS hostnames, last logon dates, and operating system information from Active Directory.(Citation: DFIR Ryuk's Return October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e8e8e281-398c-4cec-bcc5-d12d28bada31",
+        "created": "2023-08-03T18:37:08.479Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.667Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used PowerShell cmdlet `Invoke-WCMDump` to enumerate Windows credentials in the Credential Manager in a compromised network.(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--d336b553-5da9-46ca-98a8-0b23f49fb447",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--eaebb080-e57e-4c06-84df-376cc8bff09e",
+        "type": "relationship",
+        "created": "2020-11-10T16:04:00.852Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020."
+            }
+        ],
+        "modified": "2020-11-10T16:04:00.852Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used the \u201cnet view\u201d command to locate mapped network shares.(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--f3b210e4-9784-4305-8cad-6bdb4d44250f",
+        "created": "2020-11-10T16:49:11.397Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk in 5 Hours October 2020",
+                "description": "The DFIR Report. (2020, October 18). Ryuk in 5 Hours. Retrieved October 19, 2020.",
+                "url": "https://thedfirreport.com/2020/10/18/ryuk-in-5-hours/"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T18:31:04.575Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used `services.exe` to execute scripts and executables during lateral movement within a victim's network. [Wizard Spider](https://attack.mitre.org/groups/G0102) has also used batch scripts that leverage [PsExec](https://attack.mitre.org/software/S0029) to execute a previously transferred ransomware payload on a victim's network.(Citation: DFIR Ryuk's Return October 2020)(Citation: DFIR Ryuk in 5 Hours October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--f3cc3739-9dea-41c9-ac82-038b9c92bdb0",
+        "created": "2020-11-10T16:04:00.986Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-19T16:24:58.844Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has established persistence via the Registry key <code>HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run</code> and a shortcut within the startup folder.(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f947ae1c-1042-469d-b00e-84784e406cec",
+        "type": "relationship",
+        "created": "2020-11-10T16:04:00.714Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020."
+            }
+        ],
+        "modified": "2020-11-10T16:04:00.714Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used Window Remote Management to move laterally through a victim network.(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--60d0c01d-e2bf-49dd-a453-f8a9c9fa6f65",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f9d9b5aa-f4d6-46fc-8831-21ca405ab8e5",
+        "type": "relationship",
+        "created": "2020-11-10T15:39:49.352Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020."
+            },
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020."
+            }
+        ],
+        "modified": "2020-11-10T15:46:09.219Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has injected malicious DLLs into memory with read, write, and execute permissions.(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--fb229043-04d8-40e8-a155-bd2471bfc5c3",
+        "created": "2023-08-07T16:05:37.126Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.668Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used batch scripts that utilizes WMIC to execute a [BITSAdmin](https://attack.mitre.org/software/S0190) transfer of a ransomware payload to each compromised machine.(Citation: Mandiant FIN12 Oct 2021) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--c8e87b83-edbb-48d4-9295-4974897525b7",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--fc19dd7e-415d-4e27-92bd-262392b6d38f",
+        "created": "2020-05-12T18:25:44.512Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020.",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.668Z",
+        "description": "(Citation: CrowdStrike Grim Spider May 2019)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--fcee0cef-7d5b-49da-928c-2a3d0cfd06b0",
+        "created": "2020-11-10T18:04:03.668Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
+                "description": "DHS/CISA. (2020, October 28). Ransomware Activity Targeting the Healthcare and Public Health Sector. Retrieved October 28, 2020.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+            },
+            {
+                "source_name": "FireEye KEGTAP SINGLEMALT October 2020",
+                "description": "Kimberly Goody, Jeremy Kennelly, Joshua Shilko, Steve Elovitz, Douglas Bienstock. (2020, October 28). Unhappy Hour Special: KEGTAP and SINGLEMALT With a Ransomware Chaser. Retrieved October 28, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+            },
+            {
+                "source_name": "CrowdStrike Wizard Spider October 2020",
+                "description": "Podlosky, A., Hanel, A. et al. (2020, October 16). WIZARD SPIDER Update: Resilient, Reactive and Resolute. Retrieved June 15, 2021.",
+                "url": "https://www.crowdstrike.com/blog/wizard-spider-adversary-update/"
+            },
+            {
+                "source_name": "Sophos New Ryuk Attack October 2020",
+                "description": "Sean Gallagher, Peter Mackenzie, Elida Leite, Syed Shahram, Bill Kearney, Anand Aijan, Sivagnanam Gn, Suraj Mundalik. (2020, October 14). They\u2019re back: inside a new Ryuk ransomware attack. Retrieved October 14, 2020.",
+                "url": "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/"
+            },
+            {
+                "source_name": "Mandiant FIN12 Oct 2021",
+                "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
+                "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+            },
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020.",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+            },
+            {
+                "source_name": "DFIR Ryuk in 5 Hours October 2020",
+                "description": "The DFIR Report. (2020, October 18). Ryuk in 5 Hours. Retrieved October 19, 2020.",
+                "url": "https://thedfirreport.com/2020/10/18/ryuk-in-5-hours/"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-12T14:30:20.669Z",
+        "description": "(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: DFIR Ryuk's Return October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: DFIR Ryuk in 5 Hours October 2020)(Citation: Sophos New Ryuk Attack October 2020)(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Mandiant FIN12 Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "FireEye Ryuk and Trickbot January 2019",
+                "description": "Goody, K., et al (2019, January 11). A Nasty Trick: From Credential Theft Malware to Business Disruption. Retrieved May 12, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html"
+            },
+            {
+                "source_name": "DFIR Ryuk's Return October 2020",
+                "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
+                "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
+            },
+            {
+                "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
+                "description": "The DFIR Report. (2020, November 5). Ryuk Speed Run, 2 Hours to Ransom. Retrieved November 6, 2020.",
+                "url": "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+            },
+            {
+                "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
+                "description": "Brian Donohue, Katie Nickels, Paul Michaud, Adina Bodkins, Taylor Chapman, Tony Lambert, Jeff Felling, Kyle Rainey, Mike Haag, Matt Graeber, Aaron Didier.. (2020, October 29). A Bazar start: How one hospital thwarted a Ryuk ransomware outbreak. Retrieved October 30, 2020.",
+                "url": "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/ "
+            }
+        ],
+        "id": "relationship--7af53b3b-0e82-4839-b69a-e47a5001218c",
+        "type": "relationship",
+        "created": "2020-05-18T12:37:03.945Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used <code>AdFind.exe</code> to collect information about Active Directory groups and accounts.(Citation: FireEye Ryuk and Trickbot January 2019)(Citation: DFIR Ryuk's Return October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: Red Canary Hospital Thwarted Ryuk October 2020)",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "relationship_type": "uses",
+        "target_ref": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "FireEye Ryuk and Trickbot January 2019",
+                "description": "Goody, K., et al (2019, January 11). A Nasty Trick: From Credential Theft Malware to Business Disruption. Retrieved May 12, 2020.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html"
+            }
+        ],
+        "id": "relationship--e2df3e8d-beeb-4592-88f0-0241e321be91",
+        "type": "relationship",
+        "created": "2020-05-18T21:36:26.102Z",
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used <code>AdFind.exe</code> to collect information about Active Directory organizational units and trust objects.(Citation: FireEye Ryuk and Trickbot January 2019)",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "relationship_type": "uses",
+        "target_ref": "attack-pattern--767dbf9e-df3f-45cb-8998-4903ab5f80c0",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+        "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+        "external_references": [
+            {
+                "source_name": "CrowdStrike Grim Spider May 2019",
+                "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "description": "John, E. and Carvey, H. (2019, May 30). Unraveling the Spiderweb: Timelining ATT&CK Artifacts Used by GRIM SPIDER. Retrieved May 12, 2020."
+            }
+        ],
+        "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used a module named NewBCtestnDll64 as a reverse SOCKS proxy.(Citation: CrowdStrike Grim Spider May 2019)",
+        "relationship_type": "uses",
+        "id": "relationship--f8a48d68-8557-4e17-a04b-9226efd4f4ef",
+        "type": "relationship",
+        "modified": "2020-10-27T14:49:39.188Z",
+        "created": "2020-05-13T13:20:59.374Z",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

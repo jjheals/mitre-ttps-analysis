@@ -1,0 +1,282 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--20599767-204a-4cbf-ada7-0f931ee925e4",
+        "type": "relationship",
+        "created": "2020-05-05T19:37:33.769Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "QiAnXin APT-C-36 Feb2019",
+                "url": "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/",
+                "description": "QiAnXin Threat Intelligence Center. (2019, February 18). APT-C-36: Continuous Attacks Targeting Colombian Government Institutions and Corporations. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-10-14T14:40:36.548Z",
+        "description": "[APT-C-36](https://attack.mitre.org/groups/G0099) has prompted victims to accept macros in order to execute the subsequent payload.(Citation: QiAnXin APT-C-36 Feb2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3f010259-666c-403b-b5c7-603b319583da",
+        "type": "relationship",
+        "created": "2020-05-05T19:37:33.785Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "QiAnXin APT-C-36 Feb2019",
+                "url": "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/",
+                "description": "QiAnXin Threat Intelligence Center. (2019, February 18). APT-C-36: Continuous Attacks Targeting Colombian Government Institutions and Corporations. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-10-14T14:40:36.542Z",
+        "description": "(Citation: QiAnXin APT-C-36 Feb2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842",
+        "target_ref": "tool--8f8cd191-902c-4e83-bf20-b57c8c4640e9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5cabd775-7d78-4150-b529-bb8cfb747013",
+        "type": "relationship",
+        "created": "2020-05-07T03:04:14.719Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "QiAnXin APT-C-36 Feb2019",
+                "url": "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/",
+                "description": "QiAnXin Threat Intelligence Center. (2019, February 18). APT-C-36: Continuous Attacks Targeting Colombian Government Institutions and Corporations. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-10-14T14:40:36.587Z",
+        "description": "[APT-C-36](https://attack.mitre.org/groups/G0099) has disguised its scheduled tasks as those used by Google.(Citation: QiAnXin APT-C-36 Feb2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842",
+        "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6c89f28c-963b-44ef-8dda-5916aa17b7e9",
+        "type": "relationship",
+        "created": "2021-05-26T20:17:53.337Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "QiAnXin APT-C-36 Feb2019",
+                "url": "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/",
+                "description": "QiAnXin Threat Intelligence Center. (2019, February 18). APT-C-36: Continuous Attacks Targeting Colombian Government Institutions and Corporations. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2021-05-26T20:17:53.337Z",
+        "description": "[APT-C-36](https://attack.mitre.org/groups/G0099) obtained and used a modified variant of [Imminent Monitor](https://attack.mitre.org/software/S0434).(Citation: QiAnXin APT-C-36 Feb2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7b4b8d0b-fbc3-469a-ab62-72c5c4c4653d",
+        "type": "relationship",
+        "created": "2020-05-05T19:37:33.740Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "QiAnXin APT-C-36 Feb2019",
+                "url": "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/",
+                "description": "QiAnXin Threat Intelligence Center. (2019, February 18). APT-C-36: Continuous Attacks Targeting Colombian Government Institutions and Corporations. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-10-14T14:40:36.476Z",
+        "description": "[APT-C-36](https://attack.mitre.org/groups/G0099) has used ConfuserEx to obfuscate its variant of [Imminent Monitor](https://attack.mitre.org/software/S0434), compressed payload and RAT packages, and password protected encrypted email attachments to avoid detection.(Citation: QiAnXin APT-C-36 Feb2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842",
+        "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--aa5d5fcd-db19-4593-a958-b09853ceb372",
+        "type": "relationship",
+        "created": "2020-05-05T19:37:33.765Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "QiAnXin APT-C-36 Feb2019",
+                "url": "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/",
+                "description": "QiAnXin Threat Intelligence Center. (2019, February 18). APT-C-36: Continuous Attacks Targeting Colombian Government Institutions and Corporations. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-10-14T14:40:36.513Z",
+        "description": "[APT-C-36](https://attack.mitre.org/groups/G0099) has used a macro function to set scheduled tasks, disguised as those used by Google.(Citation: QiAnXin APT-C-36 Feb2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c3bedbae-b1e1-4a35-8c59-d181dca093e4",
+        "type": "relationship",
+        "created": "2020-05-07T22:53:31.241Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "QiAnXin APT-C-36 Feb2019",
+                "url": "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/",
+                "description": "QiAnXin Threat Intelligence Center. (2019, February 18). APT-C-36: Continuous Attacks Targeting Colombian Government Institutions and Corporations. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-10-14T14:40:36.608Z",
+        "description": "[APT-C-36](https://attack.mitre.org/groups/G0099) has downloaded binary data from a specified domain after the malicious document is opened.(Citation: QiAnXin APT-C-36 Feb2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d4922804-7216-4e83-b0c0-6e61b09d5fc0",
+        "type": "relationship",
+        "created": "2020-05-07T22:32:37.695Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "QiAnXin APT-C-36 Feb2019",
+                "url": "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/",
+                "description": "QiAnXin Threat Intelligence Center. (2019, February 18). APT-C-36: Continuous Attacks Targeting Colombian Government Institutions and Corporations. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-10-14T14:40:36.592Z",
+        "description": "[APT-C-36](https://attack.mitre.org/groups/G0099) has embedded a VBScript within a malicious Word document which is executed upon the document opening.(Citation: QiAnXin APT-C-36 Feb2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--db0f9f05-6f76-47c3-81bf-a59d85045188",
+        "type": "relationship",
+        "created": "2020-05-05T19:44:41.806Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "QiAnXin APT-C-36 Feb2019",
+                "url": "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/",
+                "description": "QiAnXin Threat Intelligence Center. (2019, February 18). APT-C-36: Continuous Attacks Targeting Colombian Government Institutions and Corporations. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-10-14T14:40:36.555Z",
+        "description": "[APT-C-36](https://attack.mitre.org/groups/G0099) has used port 4050 for C2 communications.(Citation: QiAnXin APT-C-36 Feb2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842",
+        "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ee00cd55-254b-4780-be47-e0f78a327c93",
+        "type": "relationship",
+        "created": "2020-05-05T18:53:08.295Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "QiAnXin APT-C-36 Feb2019",
+                "url": "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/",
+                "description": "QiAnXin Threat Intelligence Center. (2019, February 18). APT-C-36: Continuous Attacks Targeting Colombian Government Institutions and Corporations. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-10-14T14:40:36.473Z",
+        "description": "[APT-C-36](https://attack.mitre.org/groups/G0099) has used spearphishing emails with password protected RAR attachment to avoid being detected by the email gateway.(Citation: QiAnXin APT-C-36 Feb2019) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--00caa57d-7b0f-4156-907e-18d14d62965a",
+        "type": "relationship",
+        "created": "2020-06-29T01:39:22.199Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Equation QA",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, February). Equation Group: Questions and Answers. Retrieved December 21, 2015.",
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf"
+            }
+        ],
+        "modified": "2020-06-29T01:39:22.199Z",
+        "description": "[Equation](https://attack.mitre.org/groups/G0020) has used an encrypted virtual file system stored in the Windows Registry.(Citation: Kaspersky Equation QA)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--96e239be-ad99-49eb-b127-3007b8c1bec9",
+        "target_ref": "attack-pattern--dfebc3b7-d19d-450b-81c7-6dafe4184c04",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--062ebca3-abf7-449a-ad84-f04a3cada4dd",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.055Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Equation QA",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, February). Equation Group: Questions and Answers. Retrieved December 21, 2015.",
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf"
+            }
+        ],
+        "modified": "2019-12-20T14:23:29.292Z",
+        "description": "[Equation](https://attack.mitre.org/groups/G0020) has used tools with the functionality to search for specific information about the attached hard drive that could be used to identify and overwrite the firmware.(Citation: Kaspersky Equation QA)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--96e239be-ad99-49eb-b127-3007b8c1bec9",
+        "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3d661b40-6ebf-470f-a675-142f86b6c649",
+        "type": "relationship",
+        "created": "2019-01-31T02:11:53.932Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Gauss Whitepaper",
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/20134940/kaspersky-lab-gauss.pdf",
+                "description": "Kaspersky Lab. (2012, August). Gauss: Abnormal Distribution. Retrieved January 17, 2019."
+            },
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, February). Equation Group: Questions and Answers. Retrieved December 21, 2015.",
+                "source_name": "Kaspersky Equation QA"
+            }
+        ],
+        "modified": "2020-06-24T00:32:56.513Z",
+        "description": "[Equation](https://attack.mitre.org/groups/G0020) has been observed utilizing environmental keying in payload delivery.(Citation: Kaspersky Gauss Whitepaper)(Citation: Kaspersky Equation QA)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--96e239be-ad99-49eb-b127-3007b8c1bec9",
+        "target_ref": "attack-pattern--f244b8dd-af6c-4391-a497-fc03627ce995",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--41d59812-ad44-46f4-89d9-51a9b080a772",
+        "type": "relationship",
+        "created": "2019-12-20T14:23:29.279Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, February). Equation Group: Questions and Answers. Retrieved December 21, 2015.",
+                "source_name": "Kaspersky Equation QA"
+            }
+        ],
+        "modified": "2019-12-20T14:23:29.279Z",
+        "description": "[Equation](https://attack.mitre.org/groups/G0020) is known to have the capability to overwrite the firmware on hard drives from some manufacturers.(Citation: Kaspersky Equation QA) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--96e239be-ad99-49eb-b127-3007b8c1bec9",
+        "target_ref": "attack-pattern--791481f8-e96a-41be-b089-a088763083d4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--51006a56-a1fa-4467-b930-6488de0d32bd",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.055Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Equation QA",
+                "description": "Kaspersky Lab's Global Research and Analysis Team. (2015, February). Equation Group: Questions and Answers. Retrieved December 21, 2015.",
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf"
+            }
+        ],
+        "modified": "2023-04-25T14:00:00.188Z",
+        "description": "[Equation](https://attack.mitre.org/groups/G0020) is known to have the capability to overwrite the firmware on hard drives from some manufacturers.(Citation: Kaspersky Equation QA)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--96e239be-ad99-49eb-b127-3007b8c1bec9",
+        "target_ref": "attack-pattern--10d5f3b7-6be6-4da5-9a77-0f1e2bbfcc44",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

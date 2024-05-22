@@ -1,0 +1,142 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--08692b08-78e8-4f04-82a0-e4efe009dba4",
+        "type": "relationship",
+        "created": "2021-12-02T14:15:49.946Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gelsemium June 2021",
+                "url": "https://www.welivesecurity.com/wp-content/uploads/2021/06/eset_gelsemium.pdf",
+                "description": "Dupuy, T. and Faou, M. (2021, June). Gelsemium. Retrieved November 30, 2021."
+            }
+        ],
+        "modified": "2022-05-11T14:00:00.188Z",
+        "description": "[Gelsemium](https://attack.mitre.org/groups/G0141) has compromised software supply chains to gain access to victims.(Citation: ESET Gelsemium June 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--99910207-1741-4da1-9b5d-537410186b51",
+        "target_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2ac0319b-484a-4fb3-a11e-7c116ff61b45",
+        "type": "relationship",
+        "created": "2021-12-01T19:12:30.345Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gelsemium June 2021",
+                "url": "https://www.welivesecurity.com/wp-content/uploads/2021/06/eset_gelsemium.pdf",
+                "description": "Dupuy, T. and Faou, M. (2021, June). Gelsemium. Retrieved November 30, 2021."
+            }
+        ],
+        "modified": "2022-05-11T14:00:00.188Z",
+        "description": "(Citation: ESET Gelsemium June 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--99910207-1741-4da1-9b5d-537410186b51",
+        "target_ref": "malware--efa7c4d6-8e30-41d9-a8fd-26dc337f4a1b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2b23da9c-d6c7-40f2-a4e7-639bea06160f",
+        "type": "relationship",
+        "created": "2021-12-02T14:15:49.926Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gelsemium June 2021",
+                "url": "https://www.welivesecurity.com/wp-content/uploads/2021/06/eset_gelsemium.pdf",
+                "description": "Dupuy, T. and Faou, M. (2021, June). Gelsemium. Retrieved November 30, 2021."
+            }
+        ],
+        "modified": "2022-05-11T14:00:00.188Z",
+        "description": "[Gelsemium](https://attack.mitre.org/groups/G0141) has used dynamic DNS in its C2 infrastructure.(Citation: ESET Gelsemium June 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--99910207-1741-4da1-9b5d-537410186b51",
+        "target_ref": "attack-pattern--7bd9c723-2f78-4309-82c5-47cad406572b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6dc798f0-5d09-4f61-bf7b-e03b220a0c1f",
+        "type": "relationship",
+        "created": "2021-11-30T18:28:37.273Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gelsemium June 2021",
+                "url": "https://www.welivesecurity.com/wp-content/uploads/2021/06/eset_gelsemium.pdf",
+                "description": "Dupuy, T. and Faou, M. (2021, June). Gelsemium. Retrieved November 30, 2021."
+            }
+        ],
+        "modified": "2022-05-11T14:00:00.188Z",
+        "description": "(Citation: ESET Gelsemium June 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--99910207-1741-4da1-9b5d-537410186b51",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8d67f2f5-dca5-4a18-a587-7f9e2d730fd8",
+        "type": "relationship",
+        "created": "2021-11-30T18:46:14.152Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gelsemium June 2021",
+                "url": "https://www.welivesecurity.com/wp-content/uploads/2021/06/eset_gelsemium.pdf",
+                "description": "Dupuy, T. and Faou, M. (2021, June). Gelsemium. Retrieved November 30, 2021."
+            }
+        ],
+        "modified": "2022-05-11T14:00:00.188Z",
+        "description": "[Gelsemium](https://attack.mitre.org/groups/G0141) has established infrastructure through renting servers at multiple providers worldwide.(Citation: ESET Gelsemium June 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--99910207-1741-4da1-9b5d-537410186b51",
+        "target_ref": "attack-pattern--60c4b628-4807-4b0b-bbf5-fdac8643c337",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

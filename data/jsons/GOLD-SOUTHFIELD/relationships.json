@@ -1,0 +1,330 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1567be6a-0231-4605-b92b-ae1bc5e1bb4e",
+        "type": "relationship",
+        "created": "2020-09-22T20:17:38.769Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Secureworks REvil September 2019",
+                "url": "https://www.secureworks.com/research/revil-sodinokibi-ransomware",
+                "description": "Counter Threat Unit Research Team. (2019, September 24). REvil/Sodinokibi Ransomware. Retrieved August 4, 2020."
+            }
+        ],
+        "modified": "2020-09-22T20:17:38.769Z",
+        "description": "[GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) has breached Managed Service Providers (MSP's) to deliver malware to MSP customers.(Citation: Secureworks REvil September 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+        "target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--42d0b653-1d08-4e7b-910f-753412fda316",
+        "type": "relationship",
+        "created": "2020-09-22T20:17:38.795Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Secureworks REvil September 2019",
+                "url": "https://www.secureworks.com/research/revil-sodinokibi-ransomware",
+                "description": "Counter Threat Unit Research Team. (2019, September 24). REvil/Sodinokibi Ransomware. Retrieved August 4, 2020."
+            }
+        ],
+        "modified": "2020-09-22T20:17:38.795Z",
+        "description": "[GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) has exploited Oracle WebLogic vulnerabilities for initial compromise.(Citation: Secureworks REvil September 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--513f6b4c-c9b1-4339-910e-376b2a908689",
+        "type": "relationship",
+        "created": "2020-12-18T16:48:32.674Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Tetra Defense Sodinokibi March 2020",
+                "url": "https://www.tetradefense.com/incident-response-services/cause-and-effect-sodinokibi-ransomware-analysis",
+                "description": "Tetra Defense. (2020, March). CAUSE AND EFFECT: SODINOKIBI RANSOMWARE ANALYSIS. Retrieved December 14, 2020."
+            }
+        ],
+        "modified": "2020-12-18T16:48:32.674Z",
+        "description": "[GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) has used the remote monitoring and management tool ConnectWise to obtain screen captures from victim's machines.(Citation: Tetra Defense Sodinokibi March 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+        "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--58a574e4-ba44-4472-92fe-c50a9a9cbb49",
+        "type": "relationship",
+        "created": "2020-12-14T20:22:53.391Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Tetra Defense Sodinokibi March 2020",
+                "url": "https://www.tetradefense.com/incident-response-services/cause-and-effect-sodinokibi-ransomware-analysis",
+                "description": "Tetra Defense. (2020, March). CAUSE AND EFFECT: SODINOKIBI RANSOMWARE ANALYSIS. Retrieved December 14, 2020."
+            }
+        ],
+        "modified": "2020-12-14T20:22:53.391Z",
+        "description": "[GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) has used the cloud-based remote management and monitoring tool \"ConnectWise Control\" to deploy [REvil](https://attack.mitre.org/software/S0496).(Citation: Tetra Defense Sodinokibi March 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+        "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--689b0bff-7eb4-4678-997b-64794c56add0",
+        "type": "relationship",
+        "created": "2020-09-22T20:17:38.809Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Secureworks REvil September 2019",
+                "url": "https://www.secureworks.com/research/revil-sodinokibi-ransomware",
+                "description": "Counter Threat Unit Research Team. (2019, September 24). REvil/Sodinokibi Ransomware. Retrieved August 4, 2020."
+            },
+            {
+                "source_name": "Secureworks GandCrab and REvil September 2019",
+                "url": "https://www.secureworks.com/blog/revil-the-gandcrab-connection",
+                "description": "Secureworks . (2019, September 24). REvil: The GandCrab Connection. Retrieved August 4, 2020."
+            },
+            {
+                "source_name": "Secureworks GOLD SOUTHFIELD",
+                "url": "https://www.secureworks.com/research/threat-profiles/gold-southfield",
+                "description": "Secureworks. (n.d.). GOLD SOUTHFIELD. Retrieved October 6, 2020."
+            }
+        ],
+        "modified": "2020-10-06T15:32:20.360Z",
+        "description": "[GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) has distributed ransomware by backdooring software installers via a strategic web compromise of the site hosting Italian WinRAR.(Citation: Secureworks REvil September 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: Secureworks GOLD SOUTHFIELD)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+        "target_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ab641f16-7ba7-452f-b737-786e8c20d815",
+        "type": "relationship",
+        "created": "2021-03-18T13:52:56.041Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Anomali Static Kitten February 2021",
+                "url": "https://www.anomali.com/blog/probable-iranian-cyber-actors-static-kitten-conducting-cyberespionage-campaign-targeting-uae-and-kuwait-government-agencies",
+                "description": "Mele, G. et al. (2021, February 10). Probable Iranian Cyber Actors, Static Kitten, Conducting Cyberespionage Campaign Targeting UAE and Kuwait Government Agencies. Retrieved March 17, 2021."
+            },
+            {
+                "source_name": "Tetra Defense Sodinokibi March 2020",
+                "url": "https://www.tetradefense.com/incident-response-services/cause-and-effect-sodinokibi-ransomware-analysis",
+                "description": "Tetra Defense. (2020, March). CAUSE AND EFFECT: SODINOKIBI RANSOMWARE ANALYSIS. Retrieved December 14, 2020."
+            }
+        ],
+        "modified": "2021-04-13T00:37:06.963Z",
+        "description": "(Citation: Anomali Static Kitten February 2021)(Citation: Tetra Defense Sodinokibi March 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+        "target_ref": "tool--842976c7-f9c8-41b2-8371-41dc64fbe261",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--ba7fad22-26af-43f1-a120-6a4d4269d9ab",
+        "created": "2020-12-18T16:54:50.273Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Tetra Defense Sodinokibi March 2020",
+                "description": "Tetra Defense. (2020, March). CAUSE AND EFFECT: SODINOKIBI RANSOMWARE ANALYSIS. Retrieved December 14, 2020.",
+                "url": "https://www.tetradefense.com/incident-response-services/cause-and-effect-sodinokibi-ransomware-analysis"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-22T04:40:20.070Z",
+        "description": "[GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) has executed base64 encoded PowerShell scripts on compromised hosts.(Citation: Tetra Defense Sodinokibi March 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+        "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bc7f00a2-ba1c-428a-ba8f-174703389c73",
+        "type": "relationship",
+        "created": "2020-09-22T20:17:38.750Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Secureworks REvil September 2019",
+                "url": "https://www.secureworks.com/research/revil-sodinokibi-ransomware",
+                "description": "Counter Threat Unit Research Team. (2019, September 24). REvil/Sodinokibi Ransomware. Retrieved August 4, 2020."
+            }
+        ],
+        "modified": "2020-10-06T15:23:45.908Z",
+        "description": "[GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) has used publicly-accessible RDP and remote management and monitoring (RMM) servers to gain access to victim machines.(Citation: Secureworks REvil September 2019)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+        "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bff99f91-e1a9-4379-a2d9-5a99615a95d1",
+        "type": "relationship",
+        "created": "2020-09-22T19:41:27.951Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Secureworks REvil September 2019",
+                "url": "https://www.secureworks.com/research/revil-sodinokibi-ransomware",
+                "description": "Counter Threat Unit Research Team. (2019, September 24). REvil/Sodinokibi Ransomware. Retrieved August 4, 2020."
+            },
+            {
+                "source_name": "Secureworks GandCrab and REvil September 2019",
+                "url": "https://www.secureworks.com/blog/revil-the-gandcrab-connection",
+                "description": "Secureworks . (2019, September 24). REvil: The GandCrab Connection. Retrieved August 4, 2020."
+            }
+        ],
+        "modified": "2020-09-22T19:41:27.951Z",
+        "description": "(Citation: Secureworks REvil September 2019)(Citation: Secureworks GandCrab and REvil September 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+        "target_ref": "malware--ac61f1f9-7bb1-465e-9b8a-c2ce8e88baf5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--deec4c70-b8b5-420b-bdc7-88badae84456",
+        "type": "relationship",
+        "created": "2020-12-18T16:54:50.285Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Tetra Defense Sodinokibi March 2020",
+                "url": "https://www.tetradefense.com/incident-response-services/cause-and-effect-sodinokibi-ransomware-analysis",
+                "description": "Tetra Defense. (2020, March). CAUSE AND EFFECT: SODINOKIBI RANSOMWARE ANALYSIS. Retrieved December 14, 2020."
+            }
+        ],
+        "modified": "2020-12-18T16:54:50.285Z",
+        "description": "[GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) has staged and executed PowerShell scripts on compromised hosts.(Citation: Tetra Defense Sodinokibi March 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f7aab529-962c-4bb8-812b-d63e0f8df494",
+        "type": "relationship",
+        "created": "2020-09-22T20:17:38.785Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Secureworks REvil September 2019",
+                "url": "https://www.secureworks.com/research/revil-sodinokibi-ransomware",
+                "description": "Counter Threat Unit Research Team. (2019, September 24). REvil/Sodinokibi Ransomware. Retrieved August 4, 2020."
+            }
+        ],
+        "modified": "2020-09-22T20:17:38.785Z",
+        "description": "[GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) has conducted malicious spam (malspam) campaigns to gain access to victim's machines.(Citation: Secureworks REvil September 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+        "target_ref": "attack-pattern--a62a8db3-f23a-4d8f-afd6-9dbc77e7813b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

@@ -1,0 +1,3209 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--02804eca-a840-4ffe-8abd-60705d3456e4",
+        "type": "relationship",
+        "created": "2020-11-25T22:46:47.604Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T22:46:47.604Z",
+        "description": "In 2017, [Sandworm Team](https://attack.mitre.org/groups/G0034) conducted technical research related to vulnerabilities associated with websites used by the Korean Sport and Olympic Committee, a Korean power company, and a Korean airport.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--2b5aa86b-a0df-4382-848d-30abea443327",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--03f1e3ee-5c1b-4897-8631-d15ed48a0730",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.086Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2020-06-10T21:56:40.086Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used intercepter-NG to sniff passwords in network traffic.(Citation: ESET Telebots Dec 2016)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--05245120-4208-4cd1-b32e-e31e069c0d28",
+        "created": "2023-03-22T05:28:46.936Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020.",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-22T05:28:46.936Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used ROT13 encoding, AES encryption and compression with the zlib library for their Python-based backdoor.(Citation: ESET Telebots Dec 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--105a37da-145b-4143-8641-566350cd143c",
+        "type": "relationship",
+        "created": "2020-11-25T22:46:47.615Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T22:46:47.615Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has scanned network infrastructure for vulnerabilities as part of its operational planning.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--12853add-45f8-4dfb-9d64-af39b1575dcf",
+        "type": "relationship",
+        "created": "2020-11-25T20:37:53.605Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T20:37:53.606Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has established social media accounts to disseminate victim internal-only documents and other sensitive data.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--b1ccd744-3f78-4a0e-9bb2-2002057f7928",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--129a4d3f-fa4a-42c3-833e-8f15155b9693",
+        "type": "relationship",
+        "created": "2022-03-09T23:42:34.056Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Secureworks IRON VIKING ",
+                "url": "https://www.secureworks.com/research/threat-profiles/iron-viking",
+                "description": "Secureworks. (2020, May 1). IRON VIKING Threat Profile. Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2022-03-09T23:42:34.056Z",
+        "description": "(Citation: Secureworks IRON VIKING )",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--2eaa5319-5e1e-4dd7-bbc4-566fced3964a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--17ebdc53-6faa-409d-a914-2a91f668bc32",
+        "created": "2024-03-01T19:01:35.930Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Slowik Sandworm 2021",
+                "description": "Joseph Slowik, DomainTools. (2021, March 3). Centreon to Exim and Back: On the Trail of Sandworm. Retrieved April 6, 2024.",
+                "url": "https://www.domaintools.com/resources/blog/centreon-to-exim-and-back-on-the-trail-of-sandworm/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-06T18:55:49.622Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) creates credential capture webpages to compromise existing, legitimate social media accounts.(Citation: Slowik Sandworm 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--274770e0-2612-4ccf-a678-ef8e7bad365d",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--185020c6-9b2a-4b08-8936-7d407ea753b4",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:39.932Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2020-06-10T21:56:39.932Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034)'s BCS-server tool uses base64 encoding and HTML tags for the communication traffic between the C2 server.(Citation: ESET Telebots Dec 2016)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--1ba96cb7-3417-4091-af1f-c27d8e350ea1",
+        "created": "2024-03-01T19:02:45.297Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Leonard TAG 2023",
+                "description": "Billy Leonard. (2023, April 19). Ukraine remains Russia\u2019s biggest cyber focus in 2023. Retrieved March 1, 2024.",
+                "url": "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-03-01T19:02:45.297Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) exfiltrates data of interest from enterprise databases using Adminer.(Citation: Leonard TAG 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--1c61ec55-92dd-4bab-8a1d-fcadafc17dfe",
+        "created": "2024-03-01T18:58:24.972Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Leonard TAG 2023",
+                "description": "Billy Leonard. (2023, April 19). Ukraine remains Russia\u2019s biggest cyber focus in 2023. Retrieved March 1, 2024.",
+                "url": "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-03-01T18:58:24.972Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) used information stealer malware to collect browser session cookies.(Citation: Leonard TAG 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--10ffac09-e42d-4f56-ab20-db94c67d76ff",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--1d8fedc7-e139-4806-9904-3cc2bf8b9334",
+        "created": "2020-11-25T22:46:47.503Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used PowerShell scripts to run a credential harvesting tool in memory to evade defenses.(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: Dragos Crashoverride 2018) ",
+        "modified": "2022-06-30T20:19:13.565Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2050b131-d5e1-419c-ad85-660fba4004d7",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:39.959Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2020-06-18T20:24:20.645Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034)'s BCS-server tool can create an internal proxy server to redirect traffic from the adversary-controlled C2 to internal servers which may not be connected to the internet, but are interconnected locally.(Citation: ESET Telebots Dec 2016)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2311db5c-218f-44f8-aa50-3e8322b79081",
+        "type": "relationship",
+        "created": "2020-06-10T19:35:58.169Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "iSight Sandworm Oct 2014",
+                "url": "https://web.archive.org/web/20160503234007/https://www.isightpartners.com/2014/10/cve-2014-4114/",
+                "description": "Ward, S.. (2014, October 14). iSIGHT discovers zero-day vulnerability CVE-2014-4114 used in Russian cyber-espionage campaign. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "TrendMicro Sandworm October 2014",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/an-analysis-of-windows-zero-day-vulnerability-cve-2014-4114-aka-sandworm/",
+                "description": "Wu, W. (2014, October 14). An Analysis of Windows Zero-day Vulnerability \u2018CVE-2014-4114\u2019 aka \u201cSandworm\u201d. Retrieved June 18, 2020."
+            },
+            {
+                "source_name": "McAfee Sandworm November 2013",
+                "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs-detects-zero-day-exploit-targeting-microsoft-office-2",
+                "description": "Li, H. (2013, November 5). McAfee Labs Detects Zero-Day Exploit Targeting Microsoft Office. Retrieved June 18, 2020."
+            }
+        ],
+        "modified": "2020-06-18T20:24:20.611Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has exploited vulnerabilities in Microsoft PowerPoint via OLE objects (CVE-2014-4114) and Microsoft Word via crafted TIFF images (CVE-2013-3906).(Citation: iSight Sandworm Oct 2014)(Citation: TrendMicro Sandworm October 2014)(Citation: McAfee Sandworm November 2013)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--29818fd0-e6df-4871-b025-938c77978544",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.034Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2020-06-10T21:56:40.034Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has sent system information to its C2 server using HTTP.(Citation: ESET Telebots Dec 2016)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--30c4bdc2-1697-4eb6-ac74-3cfb86d17a5b",
+        "created": "2021-10-15T21:46:20.726Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: Dragos Crashoverride 2018)",
+        "modified": "2022-06-30T20:19:13.566Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--31353596-4fa7-4a37-8bb9-bc0690742576",
+        "created": "2024-03-01T18:51:19.174Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Leonard TAG 2023",
+                "description": "Billy Leonard. (2023, April 19). Ukraine remains Russia\u2019s biggest cyber focus in 2023. Retrieved March 1, 2024.",
+                "url": "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
+            },
+            {
+                "source_name": "NSA Sandworm 2020",
+                "description": "National Security Agency. (2020, March 28). Sandworm Actors Exploiting Vulnerability In EXIM Mail Transfer Agent. Retrieved March 1, 2024.",
+                "url": "https://media.defense.gov/2020/May/28/2002306626/-1/-1/0/CSA%20Sandworm%20Actors%20Exploiting%20Vulnerability%20in%20Exim%20Transfer%20Agent%2020200528.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-03-01T18:51:19.174Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) exploits public-facing applications for initial access and to acquire infrastructure, such as exploitation of the EXIM mail transfer agent in Linux systems.(Citation: NSA Sandworm 2020)(Citation: Leonard TAG 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--32478440-a1d2-458d-a749-e2d200415106",
+        "created": "2020-11-25T22:46:47.381Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft Prestige ransomware October 2022",
+                "description": "MSTIC. (2022, October 14). New \u201cPrestige\u201d ransomware impacts organizations in Ukraine and Poland. Retrieved January 19, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020.",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-20T18:40:35.934Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used stolen credentials to access administrative accounts within the domain.(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: Microsoft Prestige ransomware October 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--342fb7f0-ef23-4b17-8550-750cbe5c8723",
+        "created": "2023-01-20T18:35:51.537Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft Prestige ransomware October 2022",
+                "description": "MSTIC. (2022, October 14). New \u201cPrestige\u201d ransomware impacts organizations in Ukraine and Poland. Retrieved January 19, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-02-24T22:15:58.255Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used `ntdsutil.exe` to back up the Active Directory database, likely for credential access.(Citation: Microsoft Prestige ransomware October 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--34371a06-bc30-47c0-89c7-cae8bb7a6f22",
+        "created": "2024-03-01T18:56:59.880Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Leonard TAG 2023",
+                "description": "Billy Leonard. (2023, April 19). Ukraine remains Russia\u2019s biggest cyber focus in 2023. Retrieved March 1, 2024.",
+                "url": "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-03-01T18:56:59.880Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) masqueraded malicious installers as Windows update packages to evade defense and entice users to execute binaries.(Citation: Leonard TAG 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3954c9eb-1916-43ed-ba79-cc40d084c1a0",
+        "type": "relationship",
+        "created": "2020-11-30T17:05:19.819Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-30T17:05:19.819Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has crafted spearphishing emails with hyperlinks designed to trick unwitting recipients into revealing their account credentials.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3bf307c2-efb0-40b1-b896-82d15a9bce5f",
+        "type": "relationship",
+        "created": "2020-06-10T18:36:54.633Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET TeleBots Oct 2018",
+                "url": "https://www.welivesecurity.com/2018/10/11/new-telebots-backdoor-linking-industroyer-notpetya/",
+                "description": "Cherepanov, A., Lipovsky, R. (2018, October 11). New TeleBots backdoor: First evidence linking Industroyer to NotPetya. Retrieved November 27, 2018."
+            },
+            {
+                "source_name": "ANSSI Sandworm January 2021",
+                "url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-005.pdf",
+                "description": "ANSSI. (2021, January 27). SANDWORM INTRUSION SET CAMPAIGN TARGETING CENTREON SYSTEMS. Retrieved March 30, 2021."
+            }
+        ],
+        "modified": "2021-03-31T15:59:33.151Z",
+        "description": "(Citation: ESET TeleBots Oct 2018)(Citation: ANSSI Sandworm January 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--11194d8b-fdce-45d2-8047-df15bb8f16bd",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3d450e48-e73f-417f-941d-85c8658f5d1f",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.250Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BlackEnergy Jan 2016",
+                "url": "https://www.welivesecurity.com/2016/01/03/blackenergy-sshbeardoor-details-2015-attacks-ukrainian-news-media-electric-industry/",
+                "description": "Cherepanov, A.. (2016, January 3). BlackEnergy by the SSHBearDoor: attacks against Ukrainian news media and electric industry . Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "ESET Telebots June 2017",
+                "url": "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/",
+                "description": "Cherepanov, A.. (2017, June 30). TeleBots are back: Supply chain attacks against Ukraine. Retrieved June 11, 2020."
+            },
+            {
+                "source_name": "ANSSI Sandworm January 2021",
+                "url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-005.pdf",
+                "description": "ANSSI. (2021, January 27). SANDWORM INTRUSION SET CAMPAIGN TARGETING CENTREON SYSTEMS. Retrieved March 30, 2021."
+            }
+        ],
+        "modified": "2021-03-31T15:59:33.069Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used Dropbear SSH with a hardcoded backdoor password to maintain persistence within the target network. [Sandworm Team](https://attack.mitre.org/groups/G0034) has also used VPN tunnels established in legitimate software company infrastructure to gain access to internal networks of that software company's users.(Citation: ESET BlackEnergy Jan 2016)(Citation: ESET Telebots June 2017)(Citation: ANSSI Sandworm January 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3e925289-8c29-4e14-ac5e-dd4ab927b113",
+        "type": "relationship",
+        "created": "2020-11-25T19:48:34.380Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T22:46:48.714Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has developed malware for its operations, including malicious mobile applications and destructive malware such as [NotPetya](https://attack.mitre.org/software/S0368) and [Olympic Destroyer](https://attack.mitre.org/software/S0365).(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--3fdd32ab-646e-4ba4-96fd-165a09db0c67",
+        "created": "2023-04-13T18:07:36.641Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft Prestige ransomware October 2022",
+                "description": "MSTIC. (2022, October 14). New \u201cPrestige\u201d ransomware impacts organizations in Ukraine and Poland. Retrieved January 19, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-13T18:07:36.641Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used the commercially available tool RemoteExec for agentless remote code execution.(Citation: Microsoft Prestige ransomware October 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--40df642d-ed7f-4b05-ac08-bdc9d4f0246a",
+        "type": "relationship",
+        "created": "2022-03-07T19:05:36.840Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCSC Cyclops Blink February 2022",
+                "url": "https://www.ncsc.gov.uk/files/Cyclops-Blink-Malware-Analysis-Report.pdf",
+                "description": "NCSC. (2022, February 23). Cyclops Blink Malware Analysis Report. Retrieved March 3, 2022."
+            }
+        ],
+        "modified": "2022-03-07T19:05:36.840Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used a large-scale botnet to target Small Office/Home Office (SOHO) network devices.(Citation: NCSC Cyclops Blink February 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--810d8072-afb6-4a56-9ee7-86379ac4a6f3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--40ecbb46-642a-4742-be84-8ec34382e7c0",
+        "type": "relationship",
+        "created": "2020-06-10T18:36:54.630Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET TeleBots Oct 2018",
+                "url": "https://www.welivesecurity.com/2018/10/11/new-telebots-backdoor-linking-industroyer-notpetya/",
+                "description": "Cherepanov, A., Lipovsky, R. (2018, October 11). New TeleBots backdoor: First evidence linking Industroyer to NotPetya. Retrieved November 27, 2018."
+            }
+        ],
+        "modified": "2020-06-10T18:36:54.630Z",
+        "description": "(Citation: ESET TeleBots Oct 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--051eaca1-958f-4091-9e5f-a9acd8f820b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4170eaf9-9845-4f13-91b2-ff5c9931f365",
+        "type": "relationship",
+        "created": "2020-11-25T21:00:55.971Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T21:00:55.971Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has crafted phishing emails containing malicious hyperlinks.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--42d2f7f0-9548-4bdd-9e88-7200a9e91b57",
+        "created": "2020-06-22T15:45:19.036Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used a tool to query Active Directory using LDAP, discovering information about computers listed in AD.(Citation: ESET Telebots Dec 2016)(Citation: Dragos Crashoverride 2018) ",
+        "modified": "2022-06-30T20:19:13.567Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--460652b5-ffb6-437e-8594-430b62eed38e",
+        "type": "relationship",
+        "created": "2022-03-09T23:42:34.070Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Secureworks IRON VIKING ",
+                "url": "https://www.secureworks.com/research/threat-profiles/iron-viking",
+                "description": "Secureworks. (2020, May 1). IRON VIKING Threat Profile. Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2022-03-09T23:42:34.070Z",
+        "description": "(Citation: Secureworks IRON VIKING )",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--308b3d68-a084-4dfb-885a-3125e1a9c1e8",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--4d1f00f6-30cc-48b6-baef-66a7fe3cbe86",
+        "created": "2021-09-20T19:47:42.239Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: Dragos Crashoverride 2018)",
+        "modified": "2022-06-30T20:19:13.568Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4d407dda-944a-4974-b1c2-0a04d2c9ee4c",
+        "created": "2023-09-27T13:17:12.592Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Andy Greenberg June 2017",
+                "description": "Andy Greenberg. (2017, June 28). How an Entire Nation Became Russia's Test Lab for Cyberwar. Retrieved September 27, 2023.",
+                "url": "https://www.wired.com/story/russian-hackers-attack-ukraine/"
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020.",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-09-27T13:37:24.610Z",
+        "description": "(Citation: Andy Greenberg June 2017) (Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--46421788-b6e1-4256-b351-f8beffd1afba",
+        "target_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4e602d58-5a4f-417c-8b61-568e830411d1",
+        "type": "relationship",
+        "created": "2020-11-30T17:05:19.822Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-30T17:05:19.822Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034)'s research of potential victim organizations included the identification and collection of employee information.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--76551c52-b111-4884-bc47-ff3e728f0156",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--500bb3d4-9c5e-4020-b173-1a83e5ce1c3c",
+        "created": "2023-01-20T18:45:18.238Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft Prestige ransomware October 2022",
+                "description": "MSTIC. (2022, October 14). New \u201cPrestige\u201d ransomware impacts organizations in Ukraine and Poland. Retrieved January 19, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-05T14:00:12.284Z",
+        "description": "(Citation: Microsoft Prestige ransomware October 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--1da748a5-875d-4212-9222-b4c23ab861be",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--50156329-1c32-4044-9c6e-ee2eb079cd1c",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.191Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US-CERT Ukraine Feb 2016",
+                "url": "https://www.us-cert.gov/ics/alerts/IR-ALERT-H-16-056-01",
+                "description": "US-CERT. (2016, February 25). ICS Alert (IR-ALERT-H-16-056-01) Cyber-Attack Against Ukrainian Critical Infrastructure. Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2020-06-10T21:56:40.191Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) have used previously acquired legitimate credentials prior to attacks.(Citation: US-CERT Ukraine Feb 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5259c2ae-964d-49b6-a7e7-6246e748369f",
+        "type": "relationship",
+        "created": "2020-06-10T19:35:58.143Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "iSight Sandworm Oct 2014",
+                "url": "https://web.archive.org/web/20160503234007/https://www.isightpartners.com/2014/10/cve-2014-4114/",
+                "description": "Ward, S.. (2014, October 14). iSIGHT discovers zero-day vulnerability CVE-2014-4114 used in Russian cyber-espionage campaign. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "US-CERT Ukraine Feb 2016",
+                "url": "https://www.us-cert.gov/ics/alerts/IR-ALERT-H-16-056-01",
+                "description": "US-CERT. (2016, February 25). ICS Alert (IR-ALERT-H-16-056-01) Cyber-Attack Against Ukrainian Critical Infrastructure. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T21:00:56.296Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has delivered malicious Microsoft Office attachments via spearphishing emails.(Citation: iSight Sandworm Oct 2014)(Citation: US-CERT Ukraine Feb 2016)(Citation: ESET Telebots Dec 2016)(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--53da73de-7983-4517-8e59-a1b305fcfac0",
+        "type": "relationship",
+        "created": "2021-04-13T13:13:10.399Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ANSSI Sandworm January 2021",
+                "url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-005.pdf",
+                "description": "ANSSI. (2021, January 27). SANDWORM INTRUSION SET CAMPAIGN TARGETING CENTREON SYSTEMS. Retrieved March 30, 2021."
+            }
+        ],
+        "modified": "2021-04-13T13:13:10.399Z",
+        "description": "(Citation: ANSSI Sandworm January 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--4800d0f9-00aa-47cd-a4d2-92198585b8fd",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--55fb787a-6622-43c7-a47d-48b4db7e8d81",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.153Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-30T19:38:30.045Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has tricked unwitting recipients into clicking on spearphishing attachments and enabling malicious macros embedded within files.(Citation: ESET Telebots Dec 2016)(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--59116a0e-f23b-43ec-8b25-fbad5043344a",
+        "created": "2020-11-25T22:46:47.513Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft Prestige ransomware October 2022",
+                "description": "MSTIC. (2022, October 14). New \u201cPrestige\u201d ransomware impacts organizations in Ukraine and Poland. Retrieved January 19, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020.",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-02-24T22:18:55.783Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has acquired open-source tools for their operations, including [Invoke-PSImage](https://attack.mitre.org/software/S0231), which was used to establish an encrypted channel from a compromised host to [Sandworm Team](https://attack.mitre.org/groups/G0034)'s C2 server in preparation for the 2018 Winter Olympics attack, as well as [Impacket](https://attack.mitre.org/software/S0357) and RemoteExec, which were used in their 2022 [Prestige](https://attack.mitre.org/software/S1058) operations.(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: Microsoft Prestige ransomware October 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5a76872f-862b-414c-a71d-f0dc39a6c3b4",
+        "type": "relationship",
+        "created": "2020-11-25T21:00:56.154Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T21:00:56.154Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has leased servers from resellers instead of leasing infrastructure directly from hosting companies to enable its operations.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--60c4b628-4807-4b0b-bbf5-fdac8643c337",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--614b4bf0-8a57-401f-a018-8217146c27d2",
+        "type": "relationship",
+        "created": "2020-11-25T22:46:47.280Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T22:46:47.280Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) conducted technical reconnaissance of the Parliament of Georgia's official internet domain prior to its 2019 attack.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--e3b168bd-fcd7-439e-9382-2e6c2f63514d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--62f2c1a6-3019-44a0-a750-794677ddabd0",
+        "created": "2020-11-25T22:46:47.712Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has enumerated files on a compromised host.(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: Dragos Crashoverride 2018)",
+        "modified": "2022-06-30T20:19:13.571Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6409dbdd-d253-4b4a-8740-8b9592c75f25",
+        "type": "relationship",
+        "created": "2022-03-08T19:36:14.707Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCSC CISA Cyclops Blink Advisory February 2022",
+                "url": "https://www.ncsc.gov.uk/news/joint-advisory-shows-new-sandworm-malware-cyclops-blink-replaces-vpnfilter",
+                "description": "NCSC, CISA, FBI, NSA. (2022, February 23). New Sandworm malware Cyclops Blink replaces VPNFilter. Retrieved March 3, 2022."
+            },
+            {
+                "source_name": "Trend Micro Cyclops Blink March 2022",
+                "url": "https://www.trendmicro.com/en_us/research/22/c/cyclops-blink-sets-sights-on-asus-routers--.html",
+                "description": "Haquebord, F. et al. (2022, March 17). Cyclops Blink Sets Sights on Asus Routers. Retrieved March 17, 2022."
+            }
+        ],
+        "modified": "2022-03-17T15:07:01.050Z",
+        "description": "(Citation: NCSC CISA Cyclops Blink Advisory February 2022)(Citation: Trend Micro Cyclops Blink March 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--b350b47f-88fe-4921-8538-6d9c59bac84e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--65a16e8c-47a1-4327-8eed-5cc82339807f",
+        "created": "2020-11-25T22:46:47.409Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) had gathered user, IP address, and server data related to RDP sessions on a compromised host. It has also accessed network diagram files useful for understanding how a host's network was configured.(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: Dragos Crashoverride 2018) ",
+        "modified": "2022-06-30T20:19:13.572Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6930c084-c02c-4278-8343-6a47fed4fdc0",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.105Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2020-06-10T21:56:40.105Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034)'s CredRaptor tool can collect saved passwords from various internet browsers.(Citation: ESET Telebots Dec 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--759af051-f194-4a68-98af-224f7d9916e8",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.267Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BlackEnergy Jan 2016",
+                "url": "https://www.welivesecurity.com/2016/01/03/blackenergy-sshbeardoor-details-2015-attacks-ukrainian-news-media-electric-industry/",
+                "description": "Cherepanov, A.. (2016, January 3). BlackEnergy by the SSHBearDoor: attacks against Ukrainian news media and electric industry . Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2020-06-11T15:05:02.087Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used port 6789 to accept connections on the group's SSH server.(Citation: ESET BlackEnergy Jan 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7867218e-78a0-41cf-ada0-8400285b8a1d",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.020Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "ESET Telebots July 2017",
+                "url": "https://www.welivesecurity.com/2017/07/04/analysis-of-telebots-cunning-backdoor/",
+                "description": "Cherepanov, A.. (2017, July 4). Analysis of TeleBots\u2019 cunning backdoor . Retrieved June 11, 2020."
+            }
+        ],
+        "modified": "2020-06-11T16:28:58.426Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used backdoors that can delete files used in an attack from an infected system.(Citation: ESET Telebots Dec 2016)(Citation: ESET Telebots July 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7dcf8536-cf47-4979-a3a2-cda656431edc",
+        "created": "2021-10-15T20:27:54.943Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020.",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf"
+            },
+            {
+                "source_name": "Microsoft Prestige ransomware October 2022",
+                "description": "MSTIC. (2022, October 14). New \u201cPrestige\u201d ransomware impacts organizations in Ukraine and Poland. Retrieved January 19, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-19T21:34:13.608Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used [Impacket](https://attack.mitre.org/software/S0357)\u2019s WMIexec module for remote code execution and VBScript to run WMI queries.(Citation: Dragos Crashoverride 2018)(Citation: Microsoft Prestige ransomware October 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7e6e46e1-6990-4d37-87cb-9ef6a488a8a1",
+        "type": "relationship",
+        "created": "2020-06-11T16:28:58.270Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots July 2017",
+                "url": "https://www.welivesecurity.com/2017/07/04/analysis-of-telebots-cunning-backdoor/",
+                "description": "Cherepanov, A.. (2017, July 4). Analysis of TeleBots\u2019 cunning backdoor . Retrieved June 11, 2020."
+            }
+        ],
+        "modified": "2020-06-22T15:45:19.240Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) used malware to enumerate email settings, including usernames and passwords, from the M.E.Doc application.(Citation: ESET Telebots July 2017)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7ed0bce7-c9b1-4c48-9e42-930f6006fa4d",
+        "created": "2021-10-15T20:27:54.938Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020.",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf"
+            },
+            {
+                "source_name": "Microsoft Prestige ransomware October 2022",
+                "description": "MSTIC. (2022, October 14). New \u201cPrestige\u201d ransomware impacts organizations in Ukraine and Poland. Retrieved January 19, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-02-27T19:42:16.095Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has copied payloads to the `ADMIN$` share of remote systems and run <code>net use</code> to connect to network shares.(Citation: Dragos Crashoverride 2018)(Citation: Microsoft Prestige ransomware October 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8769bb08-b5e3-4264-95ac-6164bdbd54f3",
+        "type": "relationship",
+        "created": "2020-11-25T21:00:55.904Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T21:00:55.904Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has tricked unwitting recipients into clicking on malicious hyperlinks within emails crafted to resemble trustworthy senders.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8a7c712a-c79d-42f2-bfbf-d38798f4c855",
+        "type": "relationship",
+        "created": "2021-03-31T15:10:48.164Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ANSSI Sandworm January 2021",
+                "url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-005.pdf",
+                "description": "ANSSI. (2021, January 27). SANDWORM INTRUSION SET CAMPAIGN TARGETING CENTREON SYSTEMS. Retrieved March 30, 2021."
+            }
+        ],
+        "modified": "2021-03-31T15:10:48.164Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used webshells including [P.A.S. Webshell](https://attack.mitre.org/software/S0598) to maintain access to victim networks.(Citation: ANSSI Sandworm January 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8e6cbb16-a5cb-4957-8654-dfde2471c3de",
+        "type": "relationship",
+        "created": "2020-06-11T16:28:58.231Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots July 2017",
+                "url": "https://www.welivesecurity.com/2017/07/04/analysis-of-telebots-cunning-backdoor/",
+                "description": "Cherepanov, A.. (2017, July 4). Analysis of TeleBots\u2019 cunning backdoor . Retrieved June 11, 2020."
+            }
+        ],
+        "modified": "2020-06-11T16:28:58.231Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) used a backdoor which could execute a supplied DLL using rundll32.exe.(Citation: ESET Telebots July 2017)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--90647f03-38a4-4364-a3af-53640a81360e",
+        "created": "2023-03-31T18:11:19.943Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Joe Slowik August 2019",
+                "description": "Joe Slowik 2019, August 15 CRASHOVERRIDE: Reassessing the 2016 Ukraine Electric Power Event as a Protection-Focused Attack Retrieved. 2019/10/22 ",
+                "url": "https://dragos.com/wp-content/uploads/CRASHOVERRIDE.pdf"
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020.",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-31T18:11:19.943Z",
+        "description": "(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: Joe Slowik August 2019)",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--aa73efef-1418-4dbe-b43c-87a498e97234",
+        "target_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--927272db-cc41-45ce-bb38-e3e37ac3a68e",
+        "type": "relationship",
+        "created": "2020-11-25T22:46:47.266Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T22:46:47.266Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) temporarily disrupted service to Georgian government, non-government, and private sector websites after compromising a Georgian web hosting provider in 2019.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--c675646d-e204-4aa8-978d-e3d6d65885c4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--927434d1-b487-4e3c-909d-ac8725555080",
+        "created": "2020-06-11T15:05:01.794Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots June 2017",
+                "url": "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/",
+                "description": "Cherepanov, A.. (2017, June 30). TeleBots are back: Supply chain attacks against Ukraine. Retrieved June 11, 2020."
+            },
+            {
+                "source_name": "Secureworks NotPetya June 2017",
+                "url": "https://www.secureworks.com/blog/notpetya-campaign-what-we-know-about-the-latest-global-ransomware-attack",
+                "description": "Counter Threat Research Team. (2017, June 28). NotPetya Campaign: What We Know About the Latest Global Ransomware Attack. Retrieved June 11, 2020."
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has distributed [NotPetya](https://attack.mitre.org/software/S0368) by compromising the legitimate Ukrainian accounting software M.E.Doc and replacing a legitimate software update with a malicious one.(Citation: Secureworks NotPetya June 2017)(Citation: ESET Telebots June 2017)(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "modified": "2022-04-12T19:13:26.635Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9411254c-baa7-4e0d-abd2-da6a081add1c",
+        "created": "2024-03-25T16:28:15.999Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Vincens AcidPour 2024",
+                "description": "A.J. Vincens, CyberScoop. (2024, March 18). Researchers spot updated version of malware that hit Viasat. Retrieved March 25, 2024.",
+                "url": "https://cyberscoop.com/viasat-malware-wiper-acidrain/"
+            },
+            {
+                "source_name": "AcidRain JAGS 2022",
+                "description": "Juan Andres Guerrero-Saade and Max van Amerongen, SentinelOne. (2022, March 31). AcidRain | A Modem Wiper Rains Down on Europe. Retrieved March 25, 2024.",
+                "url": "https://www.sentinelone.com/labs/acidrain-a-modem-wiper-rains-down-on-europe/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-10T10:39:39.295Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) is linked to [AcidRain](https://attack.mitre.org/software/S1125) deployment during the ViaSat KA-SAT incident in 2022.(Citation: Vincens AcidPour 2024)(Citation: AcidRain JAGS 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--04cecafd-cb5f-4daf-aa1f-73899116c4a2",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9528abfe-4897-4171-8e01-a0ceeb376a9a",
+        "type": "relationship",
+        "created": "2020-11-25T21:00:55.820Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2021-01-06T21:30:47.793Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used dedicated network connections from one victim organization to gain unauthorized access to a separate organization.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--96c1ab08-b165-447b-afa7-5c1d30cd6219",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.090Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2020-06-18T20:24:21.119Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used a keylogger to capture keystrokes by using the SetWindowsHookEx function.(Citation: ESET Telebots Dec 2016)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--98b6dbac-dac9-4856-9b67-25c49e20448e",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.180Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US-CERT Ukraine Feb 2016",
+                "url": "https://www.us-cert.gov/ics/alerts/IR-ALERT-H-16-056-01",
+                "description": "US-CERT. (2016, February 25). ICS Alert (IR-ALERT-H-16-056-01) Cyber-Attack Against Ukrainian Critical Infrastructure. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "ESET Telebots June 2017",
+                "url": "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/",
+                "description": "Cherepanov, A.. (2017, June 30). TeleBots are back: Supply chain attacks against Ukraine. Retrieved June 11, 2020."
+            }
+        ],
+        "modified": "2020-06-11T15:19:18.067Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used the [BlackEnergy](https://attack.mitre.org/software/S0089) KillDisk component to corrupt the infected system's master boot record.(Citation: US-CERT Ukraine Feb 2016)(Citation: ESET Telebots June 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9e65e16c-eecc-4b8f-befa-01a5cf94ca8c",
+        "created": "2023-01-19T19:48:06.461Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft Prestige ransomware October 2022",
+                "description": "MSTIC. (2022, October 14). New \u201cPrestige\u201d ransomware impacts organizations in Ukraine and Poland. Retrieved January 19, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-02-24T22:30:14.837Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used [Prestige](https://attack.mitre.org/software/S1058) ransomware to encrypt data at targeted organizations in transportation and related logistics industries in Ukraine and Poland.(Citation: Microsoft Prestige ransomware October 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9f07c92a-78a0-438a-8cb2-01e2bddaeb42",
+        "created": "2021-01-04T21:30:14.830Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "ESET Industroyer",
+                "description": "Anton Cherepanov. (2017, June 12). Win32/Industroyer: A new threat for industrial controls systems. Retrieved December 18, 2020.",
+                "url": "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            },
+            {
+                "source_name": "Dragos Crashoverride 2017",
+                "description": "Dragos Inc.. (2017, June 13). CRASHOVERRIDE Analysis of the Threat to Electric Grid Operations. Retrieved December 18, 2020.",
+                "url": "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf"
+            },
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020.",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf"
+            },
+            {
+                "source_name": "Secureworks IRON VIKING",
+                "description": "Secureworks. (2020, May 1). IRON VIKING Threat Profile. Retrieved June 10, 2020.",
+                "url": "https://www.secureworks.com/research/threat-profiles/iron-viking"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-12T18:46:32.756Z",
+        "description": "(Citation: Dragos Crashoverride 2018)(Citation: Dragos Crashoverride 2017)(Citation: ESET Industroyer)(Citation: Secureworks IRON VIKING)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--e401d4fe-f0c9-44f0-98e6-f93487678808",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--9f10e334-ae5f-4d8e-8229-64408fef1fd1",
+        "created": "2020-11-25T22:46:47.792Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has researched software code to enable supply-chain operations, most notably for the 2017 [NotPetya](https://attack.mitre.org/software/S0368) attack. [Sandworm Team](https://attack.mitre.org/groups/G0034) also collected a list of computers using specific software as part of its targeting efforts.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "modified": "2022-04-12T19:12:16.434Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--baf60e1a-afe5-4d31-830f-1b1ba2351884",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9f43126d-5f6c-42a9-9908-49175c27ead7",
+        "created": "2023-03-30T19:27:26.398Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Industroyer2 ESET April 2022",
+                "description": "ESET. (2022, April 12). Industroyer2: Industroyer reloaded. Retrieved March 30, 2023.",
+                "url": "https://www.welivesecurity.com/2022/04/12/industroyer2-industroyer-reloaded/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-05T15:49:13.700Z",
+        "description": "(Citation: Industroyer2 ESET April 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--6a0d0ea9-b2c4-43fe-a552-ac41a3009dc5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9fd468a1-e0ef-4371-b7fd-93f81900f069",
+        "type": "relationship",
+        "created": "2020-11-25T22:46:47.291Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            },
+            {
+                "source_name": "UK NCSC Olympic Attacks October 2020",
+                "url": "https://www.gov.uk/government/news/uk-exposes-series-of-russian-cyber-attacks-against-olympic-and-paralympic-games",
+                "description": "UK NCSC. (2020, October 19). UK exposes series of Russian cyber attacks against Olympic and Paralympic Games . Retrieved November 30, 2020."
+            }
+        ],
+        "modified": "2020-11-30T19:59:13.956Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) defaced approximately 15,000 websites belonging to Georgian government, non-government, and private sector organizations in 2019.(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: UK NCSC Olympic Attacks October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--0cfe31a7-81fc-472c-bc45-e2808d1066a3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a4676ad1-f8d2-43f0-a342-8d5d01bff9cf",
+        "created": "2024-03-01T18:59:55.331Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Leonard TAG 2023",
+                "description": "Billy Leonard. (2023, April 19). Ukraine remains Russia\u2019s biggest cyber focus in 2023. Retrieved March 1, 2024.",
+                "url": "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-12T11:08:03.233Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) used various third-party email campaign management services to deliver phishing emails.(Citation: Leonard TAG 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--0458aab9-ad42-4eac-9e22-706a95bafee2",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--ad949bd4-7ffd-4712-91d8-4a8523db6b50",
+        "created": "2020-06-10T21:56:40.261Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft Prestige ransomware October 2022",
+                "description": "MSTIC. (2022, October 14). New \u201cPrestige\u201d ransomware impacts organizations in Ukraine and Poland. Retrieved January 19, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+            },
+            {
+                "source_name": "US-CERT Ukraine Feb 2016",
+                "description": "US-CERT. (2016, February 25). ICS Alert (IR-ALERT-H-16-056-01) Cyber-Attack Against Ukrainian Critical Infrastructure. Retrieved June 10, 2020.",
+                "url": "https://www.us-cert.gov/ics/alerts/IR-ALERT-H-16-056-01"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-13T18:20:56.359Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used remote administration tools or remote industrial control system client software for execution and to maliciously release electricity breakers.(Citation: US-CERT Ukraine Feb 2016)(Citation: Microsoft Prestige ransomware October 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--adc994b3-b5cb-4005-882f-a5116d6e40d5",
+        "created": "2024-03-01T18:53:20.516Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Leonard TAG 2023",
+                "description": "Billy Leonard. (2023, April 19). Ukraine remains Russia\u2019s biggest cyber focus in 2023. Retrieved March 1, 2024.",
+                "url": "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
+            },
+            {
+                "source_name": "NSA Sandworm 2020",
+                "description": "National Security Agency. (2020, March 28). Sandworm Actors Exploiting Vulnerability In EXIM Mail Transfer Agent. Retrieved March 1, 2024.",
+                "url": "https://media.defense.gov/2020/May/28/2002306626/-1/-1/0/CSA%20Sandworm%20Actors%20Exploiting%20Vulnerability%20in%20Exim%20Transfer%20Agent%2020200528.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-03-01T18:53:20.516Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) compromised legitimate Linux servers running the EXIM mail transfer agent for use in subsequent campaigns.(Citation: NSA Sandworm 2020)(Citation: Leonard TAG 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--e196b5c5-8118-4a1c-ab8a-936586ce3db5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b349ef5f-4a05-4eef-afe4-1543b8c832fa",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.070Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2016/01/ukraine-and-sandworm-team.html",
+                "description": "Hultquist, J.. (2016, January 7). Sandworm Team and the Ukrainian Power Authority Attacks. Retrieved October 6, 2017.",
+                "source_name": "iSIGHT Sandworm 2014"
+            },
+            {
+                "url": "https://blog-assets.f-secure.com/wp-content/uploads/2019/10/15163408/BlackEnergy_Quedagh.pdf",
+                "description": "F-Secure Labs. (2014). BlackEnergy & Quedagh: The convergence of crimeware and APT attacks. Retrieved March 24, 2016.",
+                "source_name": "F-Secure BlackEnergy 2014"
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            },
+            {
+                "source_name": "UK NCSC Olympic Attacks October 2020",
+                "url": "https://www.gov.uk/government/news/uk-exposes-series-of-russian-cyber-attacks-against-olympic-and-paralympic-games",
+                "description": "UK NCSC. (2020, October 19). UK exposes series of Russian cyber attacks against Olympic and Paralympic Games . Retrieved November 30, 2020."
+            },
+            {
+                "source_name": "Secureworks IRON VIKING ",
+                "url": "https://www.secureworks.com/research/threat-profiles/iron-viking",
+                "description": "Secureworks. (2020, May 1). IRON VIKING Threat Profile. Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2022-02-28T17:02:50.401Z",
+        "description": "(Citation: iSIGHT Sandworm 2014)(Citation: F-Secure BlackEnergy 2014)(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: UK NCSC Olympic Attacks October 2020)(Citation: Secureworks IRON VIKING )",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--b96e67e2-7d82-478e-8bf3-2e8acf8a14dd",
+        "created": "2020-06-10T21:56:40.092Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020.",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+            },
+            {
+                "source_name": "ESET Telebots June 2017",
+                "description": "Cherepanov, A.. (2017, June 30). TeleBots are back: Supply chain attacks against Ukraine. Retrieved June 11, 2020.",
+                "url": "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/"
+            },
+            {
+                "source_name": "Microsoft Prestige ransomware October 2022",
+                "description": "MSTIC. (2022, October 14). New \u201cPrestige\u201d ransomware impacts organizations in Ukraine and Poland. Retrieved January 19, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-19T21:40:14.734Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used its plainpwd tool, a modified version of [Mimikatz](https://attack.mitre.org/software/S0002), and comsvcs.dll to dump Windows credentials from system memory.(Citation: ESET Telebots Dec 2016)(Citation: ESET Telebots June 2017)(Citation: Microsoft Prestige ransomware October 2022)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bfb63eb2-7db6-45d0-83c4-1fc93a8e51c5",
+        "type": "relationship",
+        "created": "2020-11-25T22:46:47.300Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T22:46:47.300Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has conducted research against potential victim websites as part of its operational planning.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--16cdd21f-da65-4e4f-bc04-dd7d198c7b26",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--c2d06b1b-823c-4f94-9b11-79892bca9f4e",
+        "created": "2021-10-15T20:27:54.926Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020.",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf"
+            },
+            {
+                "source_name": "Microsoft Prestige ransomware October 2022",
+                "description": "MSTIC. (2022, October 14). New \u201cPrestige\u201d ransomware impacts organizations in Ukraine and Poland. Retrieved January 19, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-03T18:04:39.628Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used `move` to transfer files to a network share and has copied payloads--such as [Prestige](https://attack.mitre.org/software/S1058) ransomware--to an Active Directory Domain Controller and distributed via the Default Domain Group Policy Object.(Citation: Dragos Crashoverride 2018)(Citation: Microsoft Prestige ransomware October 2022) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--c2e9f949-59a5-4e96-b0dd-0bde1a507909",
+        "created": "2020-06-10T19:35:58.136Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "iSight Sandworm Oct 2014",
+                "description": "Ward, S.. (2014, October 14). iSIGHT discovers zero-day vulnerability CVE-2014-4114 used in Russian cyber-espionage campaign. Retrieved June 10, 2020.",
+                "url": "https://web.archive.org/web/20160503234007/https://www.isightpartners.com/2014/10/cve-2014-4114/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-22T05:28:16.646Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used Base64 encoding within malware variants.(Citation: iSight Sandworm Oct 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c2ebda8d-2f91-440c-85b1-36fa969300a5",
+        "type": "relationship",
+        "created": "2020-11-25T22:46:47.622Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2021-01-06T21:30:47.871Z",
+        "description": "In preparation for its attack against the 2018 Winter Olympics, [Sandworm Team](https://attack.mitre.org/groups/G0034) conducted online research of partner organizations listed on an official PyeongChang Olympics partnership site.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--6ee2dc99-91ad-4534-a7d8-a649358c331f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c5dd0d66-99f1-4efd-b0f9-bf9f9118ff16",
+        "type": "relationship",
+        "created": "2020-06-10T18:36:54.638Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NCSC Sandworm Feb 2020",
+                "url": "https://www.ncsc.gov.uk/news/ncsc-supports-sandworm-advisory",
+                "description": "NCSC. (2020, February 20). NCSC supports US advisory regarding GRU intrusion set Sandworm. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            },
+            {
+                "source_name": "UK NCSC Olympic Attacks October 2020",
+                "url": "https://www.gov.uk/government/news/uk-exposes-series-of-russian-cyber-attacks-against-olympic-and-paralympic-games",
+                "description": "UK NCSC. (2020, October 19). UK exposes series of Russian cyber attacks against Olympic and Paralympic Games . Retrieved November 30, 2020."
+            },
+            {
+                "source_name": "Secureworks IRON VIKING ",
+                "url": "https://www.secureworks.com/research/threat-profiles/iron-viking",
+                "description": "Secureworks. (2020, May 1). IRON VIKING Threat Profile. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "Trend Micro Cyclops Blink March 2022",
+                "url": "https://www.trendmicro.com/en_us/research/22/c/cyclops-blink-sets-sights-on-asus-routers--.html",
+                "description": "Haquebord, F. et al. (2022, March 17). Cyclops Blink Sets Sights on Asus Routers. Retrieved March 17, 2022."
+            }
+        ],
+        "modified": "2022-03-17T15:07:01.055Z",
+        "description": "(Citation: NCSC Sandworm Feb 2020)(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: UK NCSC Olympic Attacks October 2020)(Citation: Secureworks IRON VIKING )(Citation: Trend Micro Cyclops Blink March 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--5719af9d-6b16-46f9-9b28-fb019541ddbb",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ce64ed04-f0ff-4897-b636-3177c9c5d9bb",
+        "type": "relationship",
+        "created": "2021-01-20T21:03:13.436Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            },
+            {
+                "source_name": "Secureworks IRON VIKING ",
+                "url": "https://www.secureworks.com/research/threat-profiles/iron-viking",
+                "description": "Secureworks. (2020, May 1). IRON VIKING Threat Profile. Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2022-02-28T17:02:50.467Z",
+        "description": "(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: Secureworks IRON VIKING )",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--e221eb77-1502-4129-af1d-fe1ad55e7ec6",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d3717846-eaab-4fde-99f6-a972dec9323b",
+        "created": "2024-03-27T19:43:45.213Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Dragos-Sandworm-Ukraine-2022",
+                "description": "Dragos, Inc.. (2023, December 11). ELECTRUM Targeted Ukrainian Electric Entity Using Custom Tools and CaddyWiper Malware, October 2022. Retrieved March 28, 2024.",
+                "url": "https://www.dragos.com/blog/new-details-electrum-ukraine-electric-sector-compromise-2022/"
+            },
+            {
+                "source_name": "Mandiant-Sandworm-Ukraine-2022",
+                "description": "Ken Proska, John Wolfram, Jared Wilson, Dan Black, Keith Lunden, Daniel Kapellmann Zafra, Nathan Brubaker, Tyler Mclellan, Chris Sistrunk. (2023, November 9). Sandworm Disrupts Power in Ukraine Using a Novel Attack Against Operational Technology. Retrieved March 28, 2024.",
+                "url": "https://www.mandiant.com/resources/blog/sandworm-disrupts-power-ukraine-operational-technology"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-10T16:02:58.250Z",
+        "description": "(Citation: Mandiant-Sandworm-Ukraine-2022)(Citation: Dragos-Sandworm-Ukraine-2022) ",
+        "relationship_type": "attributed-to",
+        "source_ref": "campaign--df8eb785-70f8-4300-b444-277ba849083d",
+        "target_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d3ac0edb-8e56-440f-a844-be61b6045901",
+        "type": "relationship",
+        "created": "2020-11-25T21:00:55.751Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T21:00:55.751Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has created email accounts that mimic legitimate organizations for its spearphishing operations.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d66da21d-1a8c-4b32-b700-f1d3d938b57e",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.115Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "ESET Telebots June 2017",
+                "url": "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/",
+                "description": "Cherepanov, A.. (2017, June 30). TeleBots are back: Supply chain attacks against Ukraine. Retrieved June 11, 2020."
+            }
+        ],
+        "modified": "2020-06-18T20:24:21.408Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used the Telegram Bot API from Telegram Messenger to send and receive commands to its Python backdoor. [Sandworm Team](https://attack.mitre.org/groups/G0034) also used legitimate M.E.Doc software update check requests for sending and receiving commands and hosted malicious payloads on putdrive.com.(Citation: ESET Telebots Dec 2016)(Citation: ESET Telebots June 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--d993160c-17cd-4026-996a-f7c9bb5b5fc7",
+        "created": "2021-10-15T20:30:52.299Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: Dragos Crashoverride 2018)",
+        "modified": "2022-06-30T20:19:13.581Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--da00bf2c-926a-45e1-a0c9-02f02a490393",
+        "created": "2020-11-25T21:00:56.054Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Slowik Sandworm 2021",
+                "description": "Joseph Slowik, DomainTools. (2021, March 3). Centreon to Exim and Back: On the Trail of Sandworm. Retrieved April 6, 2024.",
+                "url": "https://www.domaintools.com/resources/blog/centreon-to-exim-and-back-on-the-trail-of-sandworm/"
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020.",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-06T19:04:07.568Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has registered domain names and created URLs that are often designed to mimic or spoof legitimate websites, such as email login pages, online file sharing and storage websites, and password reset pages, while also hosting these items on legitimate, compromised network infrastructure.(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: Slowik Sandworm 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--df98db39-fdfd-463c-96b3-e9a8b049f316",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.022Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "ESET Telebots July 2017",
+                "url": "https://www.welivesecurity.com/2017/07/04/analysis-of-telebots-cunning-backdoor/",
+                "description": "Cherepanov, A.. (2017, July 4). Analysis of TeleBots\u2019 cunning backdoor . Retrieved June 11, 2020."
+            }
+        ],
+        "modified": "2020-06-11T16:28:58.431Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034)'s VBS backdoor can decode Base64-encoded data and save it to the %TEMP% folder. The group also decrypted received information using the Triple DES algorithm and decompresses it using GZip.(Citation: ESET Telebots Dec 2016)(Citation: ESET Telebots July 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e4c6b2e0-e644-4bb6-b2d0-f5a757ed9485",
+        "created": "2023-01-19T21:28:38.609Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft Prestige ransomware October 2022",
+                "description": "MSTIC. (2022, October 14). New \u201cPrestige\u201d ransomware impacts organizations in Ukraine and Poland. Retrieved January 19, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-01-19T21:28:38.609Z",
+        "description": "(Citation: Microsoft Prestige ransomware October 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e7e5e5af-7ef8-43a4-88c6-8f142ee3e1c9",
+        "type": "relationship",
+        "created": "2020-11-25T19:08:39.356Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T19:08:39.356Z",
+        "description": "(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "tool--b52d6583-14a2-4ddc-8527-87fd2142558f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e85a5fe7-cbfe-44b1-b297-d02f531c5fb1",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.179Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US-CERT Ukraine Feb 2016",
+                "url": "https://www.us-cert.gov/ics/alerts/IR-ALERT-H-16-056-01",
+                "description": "US-CERT. (2016, February 25). ICS Alert (IR-ALERT-H-16-056-01) Cyber-Attack Against Ukrainian Critical Infrastructure. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "ESET Telebots June 2017",
+                "url": "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/",
+                "description": "Cherepanov, A.. (2017, June 30). TeleBots are back: Supply chain attacks against Ukraine. Retrieved June 11, 2020."
+            }
+        ],
+        "modified": "2020-06-18T17:13:41.880Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used the [BlackEnergy](https://attack.mitre.org/software/S0089) KillDisk component to overwrite files on Windows-based Human-Machine Interfaces. (Citation: US-CERT Ukraine Feb 2016)(Citation: ESET Telebots June 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--d45a3d09-b3cf-48f4-9f0f-f521ee5cb05c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--e941da7d-9d23-4ada-b4ae-36f150d70087",
+        "created": "2020-06-10T21:56:40.245Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "ESET BlackEnergy Jan 2016",
+                "url": "https://www.welivesecurity.com/2016/01/03/blackenergy-sshbeardoor-details-2015-attacks-ukrainian-news-media-electric-industry/",
+                "description": "Cherepanov, A.. (2016, January 3). BlackEnergy by the SSHBearDoor: attacks against Ukrainian news media and electric industry . Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "ESET Telebots June 2017",
+                "url": "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/",
+                "description": "Cherepanov, A.. (2017, June 30). TeleBots are back: Supply chain attacks against Ukraine. Retrieved June 11, 2020."
+            },
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has created VBScripts to run an SSH server.(Citation: ESET BlackEnergy Jan 2016)(Citation: ESET Telebots Dec 2016)(Citation: ESET Telebots June 2017)(Citation: Dragos Crashoverride 2018) ",
+        "modified": "2022-06-30T20:19:13.583Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ea80c942-680d-43b4-9cbf-21f2078977ad",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.113Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T21:00:57.219Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has pushed additional malicious tools onto an infected system to steal user credentials, move laterally, and destroy data.(Citation: ESET Telebots Dec 2016)(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ef041776-abd8-4e6f-8737-07e724e68cd1",
+        "type": "relationship",
+        "created": "2020-11-25T22:46:47.714Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T22:46:47.714Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has collected the username from a compromised host.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f425ddf8-fc3b-41d5-ba2e-66291ba16329",
+        "type": "relationship",
+        "created": "2020-11-30T17:05:19.844Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-30T17:05:19.844Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has obtained valid emails addresses while conducting research against target organizations that were subsequently used in spearphishing campaigns.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f6946801-949a-45e8-b99a-5f58fe119078",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:39.961Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2020-06-10T21:56:39.961Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034)'s BCS-server tool connects to the designated C2 server via HTTP.(Citation: ESET Telebots Dec 2016)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f6cf6ad8-7a42-4cf5-82ab-45d6a5107aeb",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.084Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            }
+        ],
+        "modified": "2020-06-22T15:45:19.153Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used a tool to query Active Directory using LDAP, discovering information about usernames listed in AD.(Citation: ESET Telebots Dec 2016)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f7bfecc9-a5ff-43c4-ad9e-4ca8c64c7fe2",
+        "type": "relationship",
+        "created": "2020-06-10T18:36:54.635Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CrowdStrike GTR 2019",
+                "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2019GlobalThreatReport.pdf",
+                "description": "CrowdStrike. (2019, January). 2019 Global Threat Report. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "Secureworks IRON VIKING ",
+                "url": "https://www.secureworks.com/research/threat-profiles/iron-viking",
+                "description": "Secureworks. (2020, May 1). IRON VIKING Threat Profile. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            },
+            {
+                "source_name": "UK NCSC Olympic Attacks October 2020",
+                "url": "https://www.gov.uk/government/news/uk-exposes-series-of-russian-cyber-attacks-against-olympic-and-paralympic-games",
+                "description": "UK NCSC. (2020, October 19). UK exposes series of Russian cyber attacks against Olympic and Paralympic Games . Retrieved November 30, 2020."
+            },
+            {
+                "source_name": "Trend Micro Cyclops Blink March 2022",
+                "url": "https://www.trendmicro.com/en_us/research/22/c/cyclops-blink-sets-sights-on-asus-routers--.html",
+                "description": "Haquebord, F. et al. (2022, March 17). Cyclops Blink Sets Sights on Asus Routers. Retrieved March 17, 2022."
+            }
+        ],
+        "modified": "2022-03-17T15:07:01.078Z",
+        "description": "(Citation: CrowdStrike GTR 2019)(Citation: Secureworks IRON VIKING )(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: UK NCSC Olympic Attacks October 2020)(Citation: Trend Micro Cyclops Blink March 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "malware--3249e92a-870b-426d-8790-ba311c1abfb4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f7f1c7c3-192b-4675-815d-0a61b3e3a206",
+        "type": "relationship",
+        "created": "2020-06-11T16:28:58.245Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots July 2017",
+                "url": "https://www.welivesecurity.com/2017/07/04/analysis-of-telebots-cunning-backdoor/",
+                "description": "Cherepanov, A.. (2017, July 4). Analysis of TeleBots\u2019 cunning backdoor . Retrieved June 11, 2020."
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T22:46:48.611Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) used a backdoor to enumerate information about the infected system's operating system.(Citation: ESET Telebots July 2017)(Citation: US District Court Indictment GRU Unit 74455 October 2020)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f892dddf-79a7-4d11-94b3-5df0c37d134a",
+        "type": "relationship",
+        "created": "2020-11-25T22:46:47.726Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T22:46:47.727Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has exfiltrated internal documents, files, and other data from compromised hosts.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--fac15889-5e75-4d1d-b624-294581c299ca",
+        "created": "2020-11-25T22:46:47.790Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) researched Ukraine's unique legal entity identifier (called an \"EDRPOU\" number), including running queries on the EDRPOU website, in preparation for the [NotPetya](https://attack.mitre.org/software/S0368) attack. [Sandworm Team](https://attack.mitre.org/groups/G0034) has also researched third-party websites to help it craft credible spearphishing emails.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "modified": "2022-04-12T19:07:31.753Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--a0e6614a-7740-4b24-bd65-f1bde09fc365",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fed23938-8fbc-4b67-8452-f2f413eed291",
+        "type": "relationship",
+        "created": "2020-06-10T21:56:40.151Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Telebots Dec 2016",
+                "url": "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "description": "Cherepanov, A.. (2016, December 13). The rise of TeleBots: Analyzing disruptive KillDisk attacks. Retrieved June 10, 2020."
+            },
+            {
+                "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
+                "url": "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "description": "Scott W. Brady. (2020, October 15). United States vs. Yuriy Sergeyevich Andrienko et al.. Retrieved November 25, 2020."
+            }
+        ],
+        "modified": "2020-11-25T21:00:57.830Z",
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has avoided detection by naming a malicious binary explorer.exe.(Citation: ESET Telebots Dec 2016)(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--8d475c89-8d34-4e8e-9b02-9d4dbde5e8f5",
+        "created": "2021-09-16T15:12:59.936Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has created new domain accounts on an ICS access server.(Citation: Dragos Crashoverride 2018)",
+        "modified": "2023-10-31T14:00:00.188Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--7610cada-1499-41a4-b3dd-46467b68d177",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--51a553b1-50e6-4500-b7f8-aa14aa1e6862",
+        "created": "2021-10-15T20:27:54.957Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used a script to attempt RPC authentication against a number of hosts.(Citation: Dragos Crashoverride 2018) ",
+        "modified": "2023-04-25T14:00:00.188Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--56f7e5b4-4788-451d-8dbd-20a29be22aa6",
+        "created": "2021-10-15T20:27:54.955Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has run the  <code>xp_cmdshell</code> command in MS-SQL.(Citation: Dragos Crashoverride 2018) ",
+        "modified": "2023-04-25T14:00:00.188Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--58e6437a-e798-45a1-ae72-d6b4194daea8",
+        "created": "2021-09-16T15:12:59.900Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used various MS-SQL stored procedures.(Citation: Dragos Crashoverride 2018) \n",
+        "modified": "2023-04-25T14:00:00.188Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--f9e9365a-9ca2-4d9c-8e7c-050d73d1101a",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--aa3ed011-74a7-4db2-a33b-490869c823e1",
+        "created": "2021-10-15T20:27:54.970Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) used the <code>sp_addlinkedsrvlogin</code> command in MS-SQL to create a link between a created account and other servers in the network.(Citation: Dragos Crashoverride 2018)",
+        "modified": "2023-04-25T14:00:00.188Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--c7cf1f99-d2f8-4ce2-b32e-3cd6116d9e15",
+        "created": "2020-06-11T16:28:58.305Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) checks for connectivity to other resources in the network.(Citation: Dragos Crashoverride 2018) ",
+        "modified": "2023-04-25T14:00:00.188Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--c998502c-ed2e-48f5-9c3d-6161657433a7",
+        "created": "2021-09-16T15:12:59.938Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) added a login to a SQL Server with <code>sp_addlinkedsrvlogin</code>.(Citation: Dragos Crashoverride 2018)",
+        "modified": "2023-04-25T14:00:00.188Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--de050628-5819-420e-9936-c147fcc8fc84",
+        "created": "2021-10-15T20:27:54.917Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) used UPX to pack a copy of [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: Dragos Crashoverride 2018) ",
+        "modified": "2023-04-25T14:00:00.188Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--faaccd16-4153-488d-be26-6f2e5b266ded",
+        "created": "2021-09-16T15:12:59.923Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Dragos Crashoverride 2018",
+                "url": "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "description": "Joe Slowik. (2018, October 12). Anatomy of an Attack: Detecting and Defeating CRASHOVERRIDE. Retrieved December 18, 2020."
+            }
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": false,
+        "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has disabled event logging on compromised systems.(Citation: Dragos Crashoverride 2018)",
+        "modified": "2023-04-25T14:00:00.188Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+        "target_ref": "attack-pattern--4eb28bed-d11a-4641-9863-c2ac017d910a",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    }
+]

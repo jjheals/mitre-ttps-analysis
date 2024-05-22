@@ -1,0 +1,767 @@
+[
+    {
+        "type": "relationship",
+        "id": "relationship--01323439-5287-43cd-b7d9-750e606db602",
+        "created": "2020-05-08T18:41:16.460Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas December 2014",
+                "description": "GReAT. (2014, December 10). Cloud Atlas: RedOctober APT is back in style. Retrieved May 8, 2020.",
+                "url": "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-11T02:15:41.999Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has encrypted malware payloads dropped on victim machines with AES and RC4 encryption.(Citation: Kaspersky Cloud Atlas December 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--108b7d74-30a7-40ec-997e-b47c62a5f6e7",
+        "type": "relationship",
+        "created": "2021-10-12T19:28:40.541Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas August 2019",
+                "url": "https://securelist.com/recent-cloud-atlas-activity/92016/",
+                "description": "GReAT. (2019, August 12). Recent Cloud Atlas activity. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2021-10-12T23:21:06.794Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has obtained and used open-source tools such as [LaZagne](https://attack.mitre.org/software/S0349).(Citation: Kaspersky Cloud Atlas August 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1215a807-77b4-465e-9c82-c4f023e668da",
+        "type": "relationship",
+        "created": "2020-05-08T18:41:16.426Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas December 2014",
+                "url": "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "description": "GReAT. (2014, December 10). Cloud Atlas: RedOctober APT is back in style. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T15:17:50.158Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has maintained persistence by modifying Registry run key value \n <code>HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\</code>.(Citation: Kaspersky Cloud Atlas December 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--16d59476-9fff-413f-9dbe-5c9e43c3860d",
+        "type": "relationship",
+        "created": "2020-05-08T18:41:16.417Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas December 2014",
+                "url": "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "description": "GReAT. (2014, December 10). Cloud Atlas: RedOctober APT is back in style. Retrieved May 8, 2020."
+            },
+            {
+                "source_name": "Symantec Inception Framework March 2018",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "description": "Symantec. (2018, March 14). Inception Framework: Alive and Well, and Hiding Behind Proxies. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-20T20:54:12.843Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has incorporated at least five different cloud service providers into their C2 infrastructure including CloudMe.(Citation: Kaspersky Cloud Atlas December 2014)(Citation: Symantec Inception Framework March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3bd9165f-6f5f-4c1a-bdbf-47c733d577a8",
+        "type": "relationship",
+        "created": "2020-05-08T18:41:16.430Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Inception Framework March 2018",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "description": "Symantec. (2018, March 14). Inception Framework: Alive and Well, and Hiding Behind Proxies. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-20T20:54:12.954Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) used chains of compromised routers to proxy C2 communications between them and cloud service providers.(Citation: Symantec Inception Framework March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3c9c3d3d-a209-43dc-ae8d-53cd4c1de65c",
+        "type": "relationship",
+        "created": "2020-05-12T22:22:08.596Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Inception Framework March 2018",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "description": "Symantec. (2018, March 14). Inception Framework: Alive and Well, and Hiding Behind Proxies. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T22:22:08.596Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has enumerated installed software on compromised systems.(Citation: Symantec Inception Framework March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--40e6721c-f5fd-4c51-aec9-93b70e7e312c",
+        "type": "relationship",
+        "created": "2020-05-08T18:41:16.457Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Inception Framework March 2018",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "description": "Symantec. (2018, March 14). Inception Framework: Alive and Well, and Hiding Behind Proxies. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-08T18:41:16.457Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) used a file listing plugin to collect information about file and directories both on local and remote drives.(Citation: Symantec Inception Framework March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--42580e44-781d-467d-b131-45f7d4651d0a",
+        "type": "relationship",
+        "created": "2020-05-08T17:17:37.627Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas December 2014",
+                "url": "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "description": "GReAT. (2014, December 10). Cloud Atlas: RedOctober APT is back in style. Retrieved May 8, 2020."
+            },
+            {
+                "source_name": "Symantec Inception Framework March 2018",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "description": "Symantec. (2018, March 14). Inception Framework: Alive and Well, and Hiding Behind Proxies. Retrieved May 8, 2020."
+            },
+            {
+                "source_name": "Unit 42 Inception November 2018",
+                "url": "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/",
+                "description": "Lancaster, T. (2018, November 5). Inception Attackers Target Europe with Year-old Office Vulnerability. Retrieved May 8, 2020."
+            },
+            {
+                "source_name": "Kaspersky Cloud Atlas August 2019",
+                "url": "https://securelist.com/recent-cloud-atlas-activity/92016/",
+                "description": "GReAT. (2019, August 12). Recent Cloud Atlas activity. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T15:18:43.918Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has used weaponized documents attached to spearphishing emails for reconnaissance and initial compromise.(Citation: Kaspersky Cloud Atlas December 2014)(Citation: Symantec Inception Framework March 2018)(Citation: Unit 42 Inception November 2018)(Citation: Kaspersky Cloud Atlas August 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4b3f85b7-a7a4-446f-a3cb-d922268ee879",
+        "type": "relationship",
+        "created": "2020-05-08T18:41:16.342Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Inception Framework March 2018",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "description": "Symantec. (2018, March 14). Inception Framework: Alive and Well, and Hiding Behind Proxies. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-08T20:02:19.454Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has used a reconnaissance module to gather information about the operating system and hardware on the infected host.(Citation: Symantec Inception Framework March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5b2457a6-a2b8-4809-a2a0-68d1c74bbb9b",
+        "type": "relationship",
+        "created": "2020-05-08T18:56:22.995Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Inception November 2018",
+                "url": "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/",
+                "description": "Lancaster, T. (2018, November 5). Inception Attackers Target Europe with Year-old Office Vulnerability. Retrieved May 8, 2020."
+            },
+            {
+                "source_name": "Kaspersky Cloud Atlas December 2014",
+                "url": "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "description": "GReAT. (2014, December 10). Cloud Atlas: RedOctober APT is back in style. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T15:18:44.006Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has used PowerShell to execute malicious commands and payloads.(Citation: Unit 42 Inception November 2018)(Citation: Kaspersky Cloud Atlas December 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--69ab51f8-fce5-436e-86a9-5d33d2332439",
+        "type": "relationship",
+        "created": "2020-05-08T20:02:19.640Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Inception November 2018",
+                "url": "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/",
+                "description": "Lancaster, T. (2018, November 5). Inception Attackers Target Europe with Year-old Office Vulnerability. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T15:18:44.211Z",
+        "description": "(Citation: Unit 42 Inception November 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "malware--53486bc7-7748-4716-8190-e4f1fde04c53",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6ee38990-50e9-423d-aea8-c3c16cf98ca4",
+        "type": "relationship",
+        "created": "2020-05-08T18:41:16.433Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas December 2014",
+                "url": "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "description": "GReAT. (2014, December 10). Cloud Atlas: RedOctober APT is back in style. Retrieved May 8, 2020."
+            },
+            {
+                "source_name": "Kaspersky Cloud Atlas August 2019",
+                "url": "https://securelist.com/recent-cloud-atlas-activity/92016/",
+                "description": "GReAT. (2019, August 12). Recent Cloud Atlas activity. Retrieved May 8, 2020."
+            },
+            {
+                "source_name": "Symantec Inception Framework March 2018",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "description": "Symantec. (2018, March 14). Inception Framework: Alive and Well, and Hiding Behind Proxies. Retrieved May 8, 2020."
+            },
+            {
+                "source_name": "Unit 42 Inception November 2018",
+                "url": "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/",
+                "description": "Lancaster, T. (2018, November 5). Inception Attackers Target Europe with Year-old Office Vulnerability. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T15:18:43.919Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) lured victims into clicking malicious files for machine reconnaissance and to execute malware.(Citation: Kaspersky Cloud Atlas December 2014)(Citation: Kaspersky Cloud Atlas August 2019)(Citation: Symantec Inception Framework March 2018)(Citation: Unit 42 Inception November 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7fcb628d-ce4d-48a4-bb9f-b727fe54e6af",
+        "type": "relationship",
+        "created": "2020-05-08T18:41:16.445Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas December 2014",
+                "url": "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "description": "GReAT. (2014, December 10). Cloud Atlas: RedOctober APT is back in style. Retrieved May 8, 2020."
+            },
+            {
+                "source_name": "Unit 42 Inception November 2018",
+                "url": "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/",
+                "description": "Lancaster, T. (2018, November 5). Inception Attackers Target Europe with Year-old Office Vulnerability. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T15:18:43.914Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has used HTTP, HTTPS, and WebDav in network communications.(Citation: Kaspersky Cloud Atlas December 2014)(Citation: Unit 42 Inception November 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--86079dc0-0c46-4068-a2f1-9422d81a03be",
+        "type": "relationship",
+        "created": "2020-05-08T20:02:19.072Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas August 2019",
+                "url": "https://securelist.com/recent-cloud-atlas-activity/92016/",
+                "description": "GReAT. (2019, August 12). Recent Cloud Atlas activity. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T15:17:50.243Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) used a file hunting plugin to collect .txt, .pdf, .xls or .doc files from the infected host.(Citation: Kaspersky Cloud Atlas August 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--864fdbd1-99fe-4036-a296-241c53337d85",
+        "type": "relationship",
+        "created": "2020-05-12T12:49:52.904Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas August 2019",
+                "url": "https://securelist.com/recent-cloud-atlas-activity/92016/",
+                "description": "GReAT. (2019, August 12). Recent Cloud Atlas activity. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T12:49:52.904Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has used malicious HTA files to drop and execute malware.(Citation: Kaspersky Cloud Atlas August 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9b049c1e-0074-460e-86d3-338a33727172",
+        "type": "relationship",
+        "created": "2020-05-08T20:57:03.988Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas August 2019",
+                "url": "https://securelist.com/recent-cloud-atlas-activity/92016/",
+                "description": "GReAT. (2019, August 12). Recent Cloud Atlas activity. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-08T20:58:45.034Z",
+        "description": "(Citation: Kaspersky Cloud Atlas August 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "malware--8caa18af-4758-4fd3-9600-e8af579e89ed",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9b2caa3d-10ae-471b-b0b1-527fbcd006ec",
+        "type": "relationship",
+        "created": "2020-05-08T17:17:37.635Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas August 2019",
+                "url": "https://securelist.com/recent-cloud-atlas-activity/92016/",
+                "description": "GReAT. (2019, August 12). Recent Cloud Atlas activity. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-08T17:17:37.635Z",
+        "description": "(Citation: Kaspersky Cloud Atlas August 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ad3298b6-8cb5-4c4e-b2be-e058273c15be",
+        "type": "relationship",
+        "created": "2020-05-08T18:41:16.441Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Inception Framework March 2018",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "description": "Symantec. (2018, March 14). Inception Framework: Alive and Well, and Hiding Behind Proxies. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-08T18:41:16.441Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) used a browser plugin to steal passwords and sessions from Internet Explorer, Chrome, Opera, Firefox, Torch, and Yandex.(Citation: Symantec Inception Framework March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b0702a30-f680-4f9b-99c3-352ce2a9557a",
+        "type": "relationship",
+        "created": "2020-05-08T18:41:16.450Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas August 2019",
+                "url": "https://securelist.com/recent-cloud-atlas-activity/92016/",
+                "description": "GReAT. (2019, August 12). Recent Cloud Atlas activity. Retrieved May 8, 2020."
+            },
+            {
+                "source_name": "Kaspersky Cloud Atlas December 2014",
+                "url": "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "description": "GReAT. (2014, December 10). Cloud Atlas: RedOctober APT is back in style. Retrieved May 8, 2020."
+            },
+            {
+                "source_name": "Symantec Inception Framework March 2018",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "description": "Symantec. (2018, March 14). Inception Framework: Alive and Well, and Hiding Behind Proxies. Retrieved May 8, 2020."
+            },
+            {
+                "source_name": "Unit 42 Inception November 2018",
+                "url": "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/",
+                "description": "Lancaster, T. (2018, November 5). Inception Attackers Target Europe with Year-old Office Vulnerability. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T15:18:43.912Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has exploited CVE-2012-0158, CVE-2014-1761, CVE-2017-11882 and CVE-2018-0802 for execution.(Citation: Kaspersky Cloud Atlas August 2019)(Citation: Kaspersky Cloud Atlas December 2014)(Citation: Symantec Inception Framework March 2018)(Citation: Unit 42 Inception November 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bcf90f77-1b2b-46e2-914b-051e51a2d409",
+        "type": "relationship",
+        "created": "2020-05-08T18:41:16.422Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Inception Framework March 2018",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "description": "Symantec. (2018, March 14). Inception Framework: Alive and Well, and Hiding Behind Proxies. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T15:17:50.112Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has used specific malware modules to gather domain membership.(Citation: Symantec Inception Framework March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c4c1e4e6-5662-42cd-86e1-fa7b3c82f84c",
+        "type": "relationship",
+        "created": "2020-05-08T18:56:22.979Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Inception November 2018",
+                "url": "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/",
+                "description": "Lancaster, T. (2018, November 5). Inception Attackers Target Europe with Year-old Office Vulnerability. Retrieved May 8, 2020."
+            },
+            {
+                "source_name": "Kaspersky Cloud Atlas December 2014",
+                "url": "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "description": "GReAT. (2014, December 10). Cloud Atlas: RedOctober APT is back in style. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T15:18:44.004Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has used VBScript to execute malicious commands and payloads.(Citation: Unit 42 Inception November 2018)(Citation: Kaspersky Cloud Atlas December 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c597beea-3bcd-45ee-a400-5b615f9ae621",
+        "type": "relationship",
+        "created": "2020-05-08T18:56:22.967Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Inception November 2018",
+                "url": "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/",
+                "description": "Lancaster, T. (2018, November 5). Inception Attackers Target Europe with Year-old Office Vulnerability. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T15:18:43.952Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has used decoy documents to load malicious remote payloads via HTTP.(Citation: Unit 42 Inception November 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--dc31fe1e-d722-49da-8f5f-92c7b5aff534",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cab50f6d-3621-4429-8c9a-803df15f4e75",
+        "type": "relationship",
+        "created": "2020-05-08T18:41:16.419Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas December 2014",
+                "url": "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "description": "GReAT. (2014, December 10). Cloud Atlas: RedOctober APT is back in style. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-08T18:56:23.074Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has ensured persistence at system boot by setting the value <code>regsvr32 %path%\\ctfmonrn.dll /s</code>.(Citation: Kaspersky Cloud Atlas December 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cd89dfdb-5c48-4a91-ba2f-e3c6e74c5094",
+        "type": "relationship",
+        "created": "2020-05-08T18:41:16.424Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky Cloud Atlas December 2014",
+                "url": "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "description": "GReAT. (2014, December 10). Cloud Atlas: RedOctober APT is back in style. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-08T18:41:16.424Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has encrypted network communications with AES.(Citation: Kaspersky Cloud Atlas December 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cece5cb5-3837-4551-be22-5c27b63eae63",
+        "type": "relationship",
+        "created": "2020-05-08T18:41:16.415Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Inception Framework March 2018",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "description": "Symantec. (2018, March 14). Inception Framework: Alive and Well, and Hiding Behind Proxies. Retrieved May 8, 2020."
+            }
+        ],
+        "modified": "2020-05-12T15:21:21.632Z",
+        "description": "[Inception](https://attack.mitre.org/groups/G0100) has used a reconnaissance module to identify active processes and other associated loaded modules.(Citation: Symantec Inception Framework March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+        "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

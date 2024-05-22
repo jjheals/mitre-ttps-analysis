@@ -1,0 +1,1090 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--02c3ea88-c33c-47d8-a34a-532ed5498a3d",
+        "type": "relationship",
+        "created": "2021-03-03T20:20:35.804Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-03-03T20:20:35.804Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has interacted with Office 365 tenants to gather details regarding target's environments.(Citation: Microsoft HAFNIUM March 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--774ad5bb-2366-4c13-a8a9-65e50b292e7c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--05ff481d-299f-4b72-9210-f07e7c5bf938",
+        "created": "2021-04-19T17:50:00.143Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Rapid7 HAFNIUM Mar 2021",
+                "description": "Eoin Miller. (2021, March 23). Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Retrieved October 27, 2022.",
+                "url": "https://www.rapid7.com/blog/post/2021/03/23/defending-against-the-zero-day-analyzing-attacker-behavior-post-exploitation-of-microsoft-exchange/"
+            },
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021.",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T22:23:16.482Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has downloaded malware and tools--including Nishang and PowerCat--onto a compromised host.(Citation: Microsoft HAFNIUM March 2020)(Citation: Rapid7 HAFNIUM Mar 2021) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--067696dc-a106-42d7-9fc9-31c4865879e8",
+        "created": "2022-06-01T18:51:57.929Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Tarrask scheduled task",
+                "url": "https://www.microsoft.com/security/blog/2022/04/12/tarrask-malware-uses-scheduled-tasks-for-defense-evasion/",
+                "description": "Microsoft Threat Intelligence Team & Detection and Response Team . (2022, April 12). Tarrask malware uses scheduled tasks for defense evasion. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: Tarrask scheduled task) ",
+        "modified": "2022-07-06T20:03:57.870Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "malware--988976ff-beeb-4fb5-b07d-ca7437ea66e8",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--079eaba3-fdea-4551-b126-6e824136e6f5",
+        "type": "relationship",
+        "created": "2021-03-03T20:11:21.884Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-03-03T20:15:51.507Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has acquired web services for use in C2 and exfiltration.(Citation: Microsoft HAFNIUM March 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0b7dfe49-d8c3-46d8-84ed-bf1898638ac3",
+        "type": "relationship",
+        "created": "2021-03-04T14:15:16.145Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021."
+            },
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-03-04T14:47:27.418Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used 7-Zip and WinRAR to compress stolen files for exfiltration.(Citation: Microsoft HAFNIUM March 2020)(Citation: Volexity Exchange Marauder March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--12cfc154-5240-47ce-ba54-ec40f8a6d13d",
+        "created": "2023-04-10T22:33:55.144Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Rapid7 HAFNIUM Mar 2021",
+                "description": "Eoin Miller. (2021, March 23). Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Retrieved October 27, 2022.",
+                "url": "https://www.rapid7.com/blog/post/2021/03/23/defending-against-the-zero-day-analyzing-attacker-behavior-post-exploitation-of-microsoft-exchange/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T22:33:55.144Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has collected data and files from a compromised machine.(Citation: Rapid7 HAFNIUM Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--1ffb7c73-5c51-48a3-85a0-b64111cccdd1",
+        "created": "2023-04-10T22:14:47.005Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Rapid7 HAFNIUM Mar 2021",
+                "description": "Eoin Miller. (2021, March 23). Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Retrieved October 27, 2022.",
+                "url": "https://www.rapid7.com/blog/post/2021/03/23/defending-against-the-zero-day-analyzing-attacker-behavior-post-exploitation-of-microsoft-exchange/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T22:14:47.005Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used `whoami` to gather user information.(Citation: Rapid7 HAFNIUM Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--3f7c9ed8-62c0-44fe-9eb1-68b3c226e598",
+        "created": "2023-02-21T18:38:30.820Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Rapid7 HAFNIUM Mar 2021",
+                "description": "Eoin Miller. (2021, March 23). Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Retrieved October 27, 2022.",
+                "url": "https://www.rapid7.com/blog/post/2021/03/23/defending-against-the-zero-day-analyzing-attacker-behavior-post-exploitation-of-microsoft-exchange/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-02-21T18:38:30.820Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used `cmd.exe` to execute commands on the victim's machine.(Citation: Rapid7 HAFNIUM Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--41561c6a-7749-4607-a8d1-c094631b4aaa",
+        "type": "relationship",
+        "created": "2021-03-04T14:47:27.401Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-03-04T14:47:27.401Z",
+        "description": "(Citation: Volexity Exchange Marauder March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "malware--56f46b17-8cfa-46c0-b501-dd52fef394e2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--465d0043-32d0-4ec9-84a6-c0f455f9a33b",
+        "created": "2023-04-10T22:16:16.271Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Rapid7 HAFNIUM Mar 2021",
+                "description": "Eoin Miller. (2021, March 23). Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Retrieved October 27, 2022.",
+                "url": "https://www.rapid7.com/blog/post/2021/03/23/defending-against-the-zero-day-analyzing-attacker-behavior-post-exploitation-of-microsoft-exchange/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T22:16:16.271Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used `tasklist` to enumerate processes.(Citation: Rapid7 HAFNIUM Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--467d9812-8d19-4fca-a2fd-5a8e1dbb43f7",
+        "created": "2021-03-03T20:31:09.249Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Rapid7 HAFNIUM Mar 2021",
+                "description": "Eoin Miller. (2021, March 23). Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Retrieved October 27, 2022.",
+                "url": "https://www.rapid7.com/blog/post/2021/03/23/defending-against-the-zero-day-analyzing-attacker-behavior-post-exploitation-of-microsoft-exchange/"
+            },
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021.",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/"
+            },
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021.",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T21:59:44.141Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used <code>procdump</code> to dump the LSASS process memory.(Citation: Microsoft HAFNIUM March 2020)(Citation: Volexity Exchange Marauder March 2021)(Citation: Rapid7 HAFNIUM Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4fd56621-eb11-43b9-b90f-e6739af43660",
+        "created": "2022-10-18T14:49:35.526Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Tarrask scheduled task",
+                "description": "Microsoft Threat Intelligence Team & Detection and Response Team . (2022, April 12). Tarrask malware uses scheduled tasks for defense evasion. Retrieved June 1, 2022.",
+                "url": "https://www.microsoft.com/security/blog/2022/04/12/tarrask-malware-uses-scheduled-tasks-for-defense-evasion/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-18T14:49:35.526Z",
+        "description": "(Citation: Tarrask scheduled task)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--577f5fe4-3fb4-4969-a5a4-5b7c1bc693a8",
+        "type": "relationship",
+        "created": "2021-03-04T14:47:27.407Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-03-04T14:47:27.407Z",
+        "description": "(Citation: Volexity Exchange Marauder March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--73e8d90b-62e2-4ea2-b66c-2c94297bdcc5",
+        "type": "relationship",
+        "created": "2021-03-04T14:29:23.800Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-04-25T23:43:56.495Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) gathered the fully qualified domain names (FQDNs) for targeted Exchange servers in the victim's environment.(Citation: Volexity Exchange Marauder March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--9d48cab2-7929-4812-ad22-f536665f0109",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--746c3746-a4e3-4fcb-849c-a1646e48a1bf",
+        "created": "2021-03-03T20:27:49.262Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye Exchange Zero Days March 2021",
+                "description": "Bromiley, M. et al. (2021, March 4). Detection and Response to Exploitation of Microsoft Exchange Zero-Day Vulnerabilities. Retrieved March 9, 2021.",
+                "url": "https://www.fireeye.com/blog/threat-research/2021/03/detection-response-to-exploitation-of-microsoft-exchange-zero-day-vulnerabilities.html"
+            },
+            {
+                "source_name": "Rapid7 HAFNIUM Mar 2021",
+                "description": "Eoin Miller. (2021, March 23). Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Retrieved October 27, 2022.",
+                "url": "https://www.rapid7.com/blog/post/2021/03/23/defending-against-the-zero-day-analyzing-attacker-behavior-post-exploitation-of-microsoft-exchange/"
+            },
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021.",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/"
+            },
+            {
+                "source_name": "Tarrask scheduled task",
+                "description": "Microsoft Threat Intelligence Team & Detection and Response Team . (2022, April 12). Tarrask malware uses scheduled tasks for defense evasion. Retrieved June 1, 2022.",
+                "url": "https://www.microsoft.com/security/blog/2022/04/12/tarrask-malware-uses-scheduled-tasks-for-defense-evasion/"
+            },
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021.",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T22:23:41.490Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has deployed multiple web shells on compromised servers including SIMPLESEESHARP, SPORTSBALL, [China Chopper](https://attack.mitre.org/software/S0020), and [ASPXSpy](https://attack.mitre.org/software/S0073).(Citation: Microsoft HAFNIUM March 2020)(Citation: Volexity Exchange Marauder March 2021)(Citation: FireEye Exchange Zero Days March 2021)(Citation: Tarrask scheduled task)(Citation: Rapid7 HAFNIUM Mar 2021)   ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--76bef74f-4820-4838-b56e-b59ae71ac170",
+        "type": "relationship",
+        "created": "2021-03-04T14:23:52.803Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-03-04T14:23:52.803Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has collected e-mail addresses for users they intended to target.(Citation: Volexity Exchange Marauder March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--80efda4a-36a7-4b59-9f70-72f4952e2140",
+        "type": "relationship",
+        "created": "2021-03-03T20:15:51.487Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-04-19T17:50:00.310Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has exfiltrated data to file sharing sites, including MEGA.(Citation: Microsoft HAFNIUM March 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--885c54ee-078a-4cc2-a2a1-c7376767b6b6",
+        "type": "relationship",
+        "created": "2021-03-04T14:15:16.114Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021."
+            },
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-03-04T14:23:52.879Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used web shells to export mailbox data.(Citation: Microsoft HAFNIUM March 2020)(Citation: Volexity Exchange Marauder March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--94a67c86-e7f6-4874-b41f-83a3bfc35be3",
+        "type": "relationship",
+        "created": "2021-04-19T20:13:44.480Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-04-19T20:13:44.480Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used <code>rundll32</code> to load malicious DLLs.(Citation: Volexity Exchange Marauder March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--951774ce-173c-4aaf-a6e3-515ba497d523",
+        "created": "2021-03-04T14:47:27.385Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye Exchange Zero Days March 2021",
+                "description": "Bromiley, M. et al. (2021, March 4). Detection and Response to Exploitation of Microsoft Exchange Zero-Day Vulnerabilities. Retrieved March 9, 2021.",
+                "url": "https://www.fireeye.com/blog/threat-research/2021/03/detection-response-to-exploitation-of-microsoft-exchange-zero-day-vulnerabilities.html"
+            },
+            {
+                "source_name": "Rapid7 HAFNIUM Mar 2021",
+                "description": "Eoin Miller. (2021, March 23). Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Retrieved October 27, 2022.",
+                "url": "https://www.rapid7.com/blog/post/2021/03/23/defending-against-the-zero-day-analyzing-attacker-behavior-post-exploitation-of-microsoft-exchange/"
+            },
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021.",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-02-21T18:34:35.421Z",
+        "description": "(Citation: Volexity Exchange Marauder March 2021)(Citation: FireEye Exchange Zero Days March 2021)(Citation: Rapid7 HAFNIUM Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--996765a6-6c8a-429d-baa5-32d423fb4207",
+        "type": "relationship",
+        "created": "2021-03-09T16:09:27.405Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye Exchange Zero Days March 2021",
+                "url": "https://www.fireeye.com/blog/threat-research/2021/03/detection-response-to-exploitation-of-microsoft-exchange-zero-day-vulnerabilities.html",
+                "description": "Bromiley, M. et al. (2021, March 4). Detection and Response to Exploitation of Microsoft Exchange Zero-Day Vulnerabilities. Retrieved March 9, 2021."
+            }
+        ],
+        "modified": "2021-03-09T16:09:27.405Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used the NT AUTHORITY\\SYSTEM account to create files on Exchange servers.(Citation: FireEye Exchange Zero Days March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a1625ff1-af65-4dbb-b192-3c462fae1acf",
+        "type": "relationship",
+        "created": "2021-03-04T14:15:16.141Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021."
+            },
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-03-04T14:37:25.217Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used the Exchange Power Shell module <code>Set-OabVirtualDirectoryPowerShell</code> to export mailbox data.(Citation: Microsoft HAFNIUM March 2020)(Citation: Volexity Exchange Marauder March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--ab6a59bc-fa67-4d6f-ab55-e5cb35f62839",
+        "created": "2023-04-10T22:32:44.414Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Rapid7 HAFNIUM Mar 2021",
+                "description": "Eoin Miller. (2021, March 23). Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Retrieved October 27, 2022.",
+                "url": "https://www.rapid7.com/blog/post/2021/03/23/defending-against-the-zero-day-analyzing-attacker-behavior-post-exploitation-of-microsoft-exchange/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T22:32:44.414Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has hidden files on a compromised host.(Citation: Rapid7 HAFNIUM Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--baaa6228-daa9-45e9-884e-42add3851843",
+        "created": "2023-04-10T22:26:51.317Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Rapid7 HAFNIUM Mar 2021",
+                "description": "Eoin Miller. (2021, March 23). Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Retrieved October 27, 2022.",
+                "url": "https://www.rapid7.com/blog/post/2021/03/23/defending-against-the-zero-day-analyzing-attacker-behavior-post-exploitation-of-microsoft-exchange/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T22:26:51.317Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has checked for network connectivity from a compromised host using `ping`, including attempts to contact `google[.]com`.(Citation: Rapid7 HAFNIUM Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--132d5b37-aac5-4378-a8dc-3127b18a73dc",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--be93a442-915b-4923-b7dd-0a20098fe264",
+        "created": "2023-04-10T22:28:55.942Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Rapid7 HAFNIUM Mar 2021",
+                "description": "Eoin Miller. (2021, March 23). Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Retrieved October 27, 2022.",
+                "url": "https://www.rapid7.com/blog/post/2021/03/23/defending-against-the-zero-day-analyzing-attacker-behavior-post-exploitation-of-microsoft-exchange/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T22:28:55.942Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has collected IP information via IPInfo.(Citation: Rapid7 HAFNIUM Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c8a0a286-1296-4f87-bc6e-322cd956fb73",
+        "type": "relationship",
+        "created": "2021-03-09T16:04:38.886Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-04-19T17:50:00.284Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has obtained IP addresses for publicly-accessible Exchange servers.(Citation: Volexity Exchange Marauder March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--0dda99f0-4701-48ca-9774-8504922e92d3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--cf249a85-b0e9-4264-899f-164cdfa5a7c8",
+        "created": "2023-04-10T22:30:40.916Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Rapid7 HAFNIUM Mar 2021",
+                "description": "Eoin Miller. (2021, March 23). Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Retrieved October 27, 2022.",
+                "url": "https://www.rapid7.com/blog/post/2021/03/23/defending-against-the-zero-day-analyzing-attacker-behavior-post-exploitation-of-microsoft-exchange/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-10T22:30:40.916Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has searched file contents on a compromised host.(Citation: Rapid7 HAFNIUM Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d1197689-ff2e-4a0e-ad1e-69bb14c8822d",
+        "type": "relationship",
+        "created": "2021-03-04T14:23:52.806Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-03-04T14:23:52.806Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has stolen copies of the Active Directory database (NTDS.DIT).(Citation: Volexity Exchange Marauder March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d2edfaee-154b-4566-b85c-740e591477d9",
+        "created": "2023-03-06T21:23:26.100Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021.",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-06T21:23:26.101Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has granted privileges to domain accounts.(Citation: Volexity Exchange Marauder March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d814a304-f957-4e7c-9890-30a6d5be39bd",
+        "created": "2021-03-04T14:49:27.358Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021.",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-06T21:22:57.464Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has created domain accounts.(Citation: Volexity Exchange Marauder March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--7610cada-1499-41a4-b3dd-46467b68d177",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--dca36cf3-4501-4682-9d3e-df148b46792e",
+        "type": "relationship",
+        "created": "2021-03-03T20:11:21.892Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-04-19T17:50:00.251Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used open-source C2 frameworks, including Covenant.(Citation: Microsoft HAFNIUM March 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--de7f9b12-d6e7-4ef6-b55c-77bbca0f8c83",
+        "created": "2023-04-10T22:13:19.190Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Rapid7 HAFNIUM Mar 2021",
+                "description": "Eoin Miller. (2021, March 23). Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Retrieved October 27, 2022.",
+                "url": "https://www.rapid7.com/blog/post/2021/03/23/defending-against-the-zero-day-analyzing-attacker-behavior-post-exploitation-of-microsoft-exchange/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-04-14T12:30:46.851Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has enumerated domain controllers using `net group \"Domain computers\"` and `nltest /dclist`.(Citation: Rapid7 HAFNIUM Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e8e6f472-e048-401c-8a2e-5e2effc09040",
+        "created": "2021-03-03T19:53:18.996Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye Exchange Zero Days March 2021",
+                "description": "Bromiley, M. et al. (2021, March 4). Detection and Response to Exploitation of Microsoft Exchange Zero-Day Vulnerabilities. Retrieved March 9, 2021.",
+                "url": "https://www.fireeye.com/blog/threat-research/2021/03/detection-response-to-exploitation-of-microsoft-exchange-zero-day-vulnerabilities.html"
+            },
+            {
+                "source_name": "Volexity Exchange Marauder March 2021",
+                "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021.",
+                "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/"
+            },
+            {
+                "source_name": "Tarrask scheduled task",
+                "description": "Microsoft Threat Intelligence Team & Detection and Response Team . (2022, April 12). Tarrask malware uses scheduled tasks for defense evasion. Retrieved June 1, 2022.",
+                "url": "https://www.microsoft.com/security/blog/2022/04/12/tarrask-malware-uses-scheduled-tasks-for-defense-evasion/"
+            },
+            {
+                "source_name": "Microsoft Log4j Vulnerability Exploitation December 2021",
+                "description": "Microsoft Threat Intelligence. (2021, December 11). Guidance for preventing, detecting, and hunting for exploitation of the Log4j 2 vulnerability. Retrieved December 7, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/"
+            },
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021.",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-03T20:15:46.195Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has exploited CVE-2021-44228 in Log4j and CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, and CVE-2021-27065  to compromise on-premises versions of Microsoft Exchange Server.(Citation: Microsoft HAFNIUM March 2020)(Citation: Volexity Exchange Marauder March 2021)(Citation: FireEye Exchange Zero Days March 2021)(Citation: Tarrask scheduled task)(Citation: Microsoft Log4j Vulnerability Exploitation December 2021)   ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f503c254-b86c-433e-8107-585c53f23b6e",
+        "type": "relationship",
+        "created": "2021-04-19T17:50:00.126Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-04-19T17:50:00.126Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used TCP for C2.(Citation: Microsoft HAFNIUM March 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f8fe4311-f367-42bb-a51d-688753d0218b",
+        "type": "relationship",
+        "created": "2021-04-19T17:50:00.119Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-04-19T17:50:00.119Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used ASCII encoding for C2 traffic.(Citation: Microsoft HAFNIUM March 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fedcb717-2453-4c77-8f05-8a28f934725e",
+        "type": "relationship",
+        "created": "2021-03-03T20:22:59.518Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft HAFNIUM March 2020",
+                "url": "https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/",
+                "description": "MSTIC. (2021, March 2). HAFNIUM targeting Exchange Servers with 0-day exploits. Retrieved March 3, 2021."
+            }
+        ],
+        "modified": "2021-03-03T20:22:59.518Z",
+        "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has operated from leased virtual private servers (VPS) in the United States.(Citation: Microsoft HAFNIUM March 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+        "target_ref": "attack-pattern--79da0971-3147-4af6-a4f5-e8cd447cd795",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

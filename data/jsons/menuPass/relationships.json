@@ -1,0 +1,2296 @@
+[
+    {
+        "type": "relationship",
+        "id": "relationship--03f32a8b-4cd9-488c-9759-37f3dff9faea",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye APT10 April 2017",
+                "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html"
+            },
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.600Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) uses scripts to enumerate IP ranges on the victim network. [menuPass](https://attack.mitre.org/groups/G0045) has also issued the command <code>net view /domain</code> to a [PlugX](https://attack.mitre.org/software/S0013) implant to gather information about remote systems on the network.(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: FireEye APT10 April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--04203d88-5fe1-4e63-be65-51a17705716b",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            },
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020.",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+            },
+            {
+                "source_name": "Github AD-Pentest-Script",
+                "description": "Twi1ight. (2015, July 11). AD-Pentest-Script - wmiexec.vbs. Retrieved June 29, 2017.",
+                "url": "https://github.com/Twi1ight/AD-Pentest-Script/blob/master/wmiexec.vbs"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.602Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used a modified version of pentesting script wmiexec.vbs, which logs into a remote machine using WMI.(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: Github AD-Pentest-Script)(Citation: Symantec Cicada November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--06b18704-e29e-4bf9-900f-44aa719df0c6",
+        "type": "relationship",
+        "created": "2020-03-18T14:48:43.975Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "source_name": "FireEye APT10 Sept 2018"
+            }
+        ],
+        "modified": "2020-03-18T14:48:43.975Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used [esentutl](https://attack.mitre.org/software/S0404) to change file extensions to their true type that were masquerading as .txt files.(Citation: FireEye APT10 Sept 2018) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--0741e02b-edaa-43a4-a96c-d6baf2d29015",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Accenture Hogfish April 2018",
+                "description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
+                "url": "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+            },
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020.",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:06:31.021Z",
+        "description": "A [menuPass](https://attack.mitre.org/groups/G0045) macro deletes files after it has decoded and decompressed them.(Citation: Accenture Hogfish April 2018)(Citation: District Court of NY APT10 Indictment December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--0d889b2d-eda4-45dc-99bf-c530b7d4b05f",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.605Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used tcping.exe, similar to [Ping](https://attack.mitre.org/software/S0097), to probe port status on systems of interest.(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--10af8211-36f6-4152-8221-c152407bd969",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Accenture Hogfish April 2018",
+                "description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
+                "url": "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+            },
+            {
+                "source_name": "FireEye APT10 Sept 2018",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+            },
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020.",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:06:31.024Z",
+        "description": "(Citation: Accenture Hogfish April 2018)(Citation: FireEye APT10 Sept 2018)(Citation: Symantec Cicada November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--10d94e64-2702-42cd-b188-a404ed8feb11",
+        "type": "relationship",
+        "created": "2021-06-22T15:32:10.320Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Securelist APT10 March 2021",
+                "url": "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "description": "GREAT. (2021, March 30). APT10: sophisticated multi-layered loader Ecipekac discovered in A41APT campaign. Retrieved June 17, 2021."
+            }
+        ],
+        "modified": "2021-06-22T15:32:10.320Z",
+        "description": "(Citation: Securelist APT10 March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "malware--434ba392-ebdc-488b-b1ef-518deea65774",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--12ea66f1-566a-404f-a948-f76b9047710e",
+        "created": "2017-12-14T16:46:06.044Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper April 2017",
+                "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used <code>net use</code> to conduct connectivity checks to machines.(Citation: PWC Cloud Hopper April 2017)",
+        "modified": "2022-07-20T20:07:40.170Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--14702113-ddd7-4898-902a-aeb884b26266",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "source_name": "FireEye APT10 Sept 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: FireEye APT10 Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "malware--fb4e3792-e915-4fdd-a9cd-92dfa2ace7aa",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--15aa00d1-11c0-4be1-a900-ede5e1376110",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+                "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                "source_name": "FireEye APT10 April 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: FireEye APT10 April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "malware--3240cbe4-c550-443b-aa76-cc2a7058b870",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--17262c58-2f41-41d2-a86a-5bc86642ddb4",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            },
+            {
+                "source_name": "PWC Cloud Hopper April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017.",
+                "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf"
+            },
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020.",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.607Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has compressed files before exfiltration using TAR and RAR.(Citation: PWC Cloud Hopper April 2017)(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: Symantec Cicada November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--239d98a7-f134-4270-8333-c2df2feaa9ca",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye APT10 April 2017",
+                "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html"
+            },
+            {
+                "source_name": "FireEye APT10 Sept 2018",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+            },
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            },
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020.",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.608Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has sent malicious Office documents via email as part of spearphishing campaigns as well as executables disguised as documents.(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: FireEye APT10 April 2017)(Citation: FireEye APT10 Sept 2018)(Citation: District Court of NY APT10 Indictment December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--2cc93cb7-fbe6-4c79-b619-a2eb877de1cf",
+        "created": "2017-12-14T16:46:06.044Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper April 2017",
+                "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017."
+            },
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has installed updates and new malware on victims.(Citation: PWC Cloud Hopper April 2017)(Citation: District Court of NY APT10 Indictment December 2018)",
+        "modified": "2022-07-20T20:07:40.174Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--34ff9bfb-0b3a-4b83-af85-60700ed052f4",
+        "created": "2021-05-26T20:19:44.143Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.615Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used and modified open-source tools like [Impacket](https://attack.mitre.org/software/S0357), [Mimikatz](https://attack.mitre.org/software/S0002), and [pwdump](https://attack.mitre.org/software/S0006).(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--350e9dad-4dd3-450f-b649-60340710505a",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Accenture Hogfish April 2018",
+                "description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
+                "url": "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+            },
+            {
+                "source_name": "FireEye APT10 April 2017",
+                "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html"
+            },
+            {
+                "source_name": "FireEye APT10 Sept 2018",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+            },
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            },
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020.",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.616Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has attempted to get victims to open malicious files such as Windows Shortcuts (.lnk) and/or Microsoft Office documents, sent via email as part of spearphishing campaigns.(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: FireEye APT10 April 2017)(Citation: Accenture Hogfish April 2018)(Citation: FireEye APT10 Sept 2018)(Citation: District Court of NY APT10 Indictment December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--355d8ef4-ed79-49e4-b287-feb525d33ac4",
+        "type": "relationship",
+        "created": "2021-06-21T15:42:04.353Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Securelist APT10 March 2021",
+                "url": "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "description": "GREAT. (2021, March 30). APT10: sophisticated multi-layered loader Ecipekac discovered in A41APT campaign. Retrieved June 17, 2021."
+            }
+        ],
+        "modified": "2021-06-22T15:32:10.454Z",
+        "description": "(Citation: Securelist APT10 March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "malware--7c58fff0-d206-4db1-96b1-e3a9e0e320b9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3a2d591a-f918-44b3-9e75-7520906b9aa3",
+        "type": "relationship",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+                "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                "source_name": "FireEye APT10 April 2017"
+            },
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "source_name": "FireEye APT10 Sept 2018"
+            }
+        ],
+        "modified": "2020-03-23T16:27:15.084Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used a global service provider's IP as a proxy for C2 traffic from a victim.(Citation: FireEye APT10 April 2017)(Citation: FireEye APT10 Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--3dd745f5-1c0c-4376-8850-89679fcd4e31",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            },
+            {
+                "source_name": "DOJ APT10 Dec 2018",
+                "description": "United States District Court Southern District of New York (USDC SDNY) . (2018, December 17). United States of America v. Zhu Hua and Zhang Shilong. Retrieved April 17, 2019.",
+                "url": "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.617Z",
+        "description": "(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: DOJ APT10 Dec 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "malware--17b40f60-729f-4fe8-8aea-cc9ee44a95d5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--44273d72-b0d9-42ee-9e8e-53d1b39f0651",
+        "created": "2017-12-14T16:46:06.044Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Securelist APT10 March 2021",
+                "url": "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "description": "GREAT. (2021, March 30). APT10: sophisticated multi-layered loader Ecipekac discovered in A41APT campaign. Retrieved June 17, 2021."
+            },
+            {
+                "source_name": "PWC Cloud Hopper April 2017",
+                "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017."
+            },
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020."
+            },
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used valid accounts including shared between Managed Service Providers and clients to move between the two environments.(Citation: PWC Cloud Hopper April 2017)(Citation: Symantec Cicada November 2020)(Citation: District Court of NY APT10 Indictment December 2018)(Citation: Securelist APT10 March 2021)",
+        "modified": "2022-07-20T20:07:40.176Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--464f060e-5c48-4f73-a672-c61bb22740c6",
+        "type": "relationship",
+        "created": "2021-06-22T15:32:10.344Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Securelist APT10 March 2021",
+                "url": "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "description": "GREAT. (2021, March 30). APT10: sophisticated multi-layered loader Ecipekac discovered in A41APT campaign. Retrieved June 17, 2021."
+            }
+        ],
+        "modified": "2021-06-22T15:32:10.344Z",
+        "description": "(Citation: Securelist APT10 March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "malware--94d6d788-07bb-4dcc-b62f-e02626b00108",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4aa62b6b-7441-4ece-9cb0-2a5bcb46f966",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.619Z",
+        "description": "(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "tool--9de2308e-7bed-43a3-8e58-f194b3586700",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4cc8afb8-86ab-4537-926f-3178975a7886",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.620Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used several tools to scan for open NetBIOS nameservers and enumerate NetBIOS sessions.(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--50b623c1-828f-4a2b-bb9e-38600b071563",
+        "type": "relationship",
+        "created": "2020-12-17T20:02:13.991Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020."
+            }
+        ],
+        "modified": "2020-12-28T15:35:41.915Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used dynamic DNS service providers to host malicious domains.(Citation: District Court of NY APT10 Indictment December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--29ba5a15-3b7b-4732-b817-65ea8f6468e6",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--51372934-2c81-4db7-aa38-cbb173698cc2",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.621Z",
+        "description": "(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5151bd6c-fb42-49da-9c97-f32a33a505a1",
+        "type": "relationship",
+        "created": "2020-03-18T14:48:43.980Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "source_name": "FireEye APT10 Sept 2018"
+            }
+        ],
+        "modified": "2020-03-18T14:48:43.980Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has renamed [certutil](https://attack.mitre.org/software/S0160) and moved it to a different location on the system to avoid detection based on use of the tool.(Citation: FireEye APT10 Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--bd5b58a4-a52d-4a29-bc0d-3f1d3968eb6b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5680146f-fc33-4b3e-bbc0-66a7f74587d3",
+        "type": "relationship",
+        "created": "2019-04-17T16:58:29.419Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020."
+            }
+        ],
+        "modified": "2020-12-17T19:56:08.070Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used key loggers to steal usernames and passwords.(Citation: District Court of NY APT10 Indictment December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5a6942dc-eab7-4f45-b5fa-6149774e2acc",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.622Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used the Microsoft administration tool csvde.exe to export Active Directory data.(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5ffaf9bf-10a0-477f-88ff-5b9e7d5831cc",
+        "type": "relationship",
+        "created": "2020-12-17T18:57:21.258Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020."
+            }
+        ],
+        "modified": "2020-12-17T18:57:21.258Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used Ntdsutil to dump credentials.(Citation: Symantec Cicada November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--68487d82-458b-4f45-b1c8-c6e4affaa226",
+        "created": "2017-05-31T21:33:27.079Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye APT10 April 2017",
+                "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html"
+            },
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            },
+            {
+                "source_name": "DOJ APT10 Dec 2018",
+                "description": "United States District Court Southern District of New York (USDC SDNY) . (2018, December 17). United States of America v. Zhu Hua and Zhang Shilong. Retrieved April 17, 2019.",
+                "url": "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.624Z",
+        "description": "(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: FireEye APT10 April 2017)(Citation: DOJ APT10 Dec 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--70fa0bd3-3fbb-4fda-9de2-2b751f9552e7",
+        "created": "2020-08-13T17:15:14.575Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.625Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used <code>InstallUtil.exe</code> to execute malicious software.(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--2cd950a6-16c4-404a-aa01-044322395107",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7193ed4c-7169-46fa-9294-d74d912510d0",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.626Z",
+        "description": "(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7b59aa8f-d9d6-4bb5-b2ca-6fc1d36c1550",
+        "type": "relationship",
+        "created": "2020-12-17T19:40:29.547Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020."
+            }
+        ],
+        "modified": "2020-12-29T16:51:25.615Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used native APIs including <code>GetModuleFileName</code>, <code>lstrcat</code>, <code>CreateFile</code>, and <code>ReadFile</code>.(Citation: Symantec Cicada November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--80d72d09-c1a4-4735-b85a-28bfc19ef8b9",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.629Z",
+        "description": "(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--845482a1-a062-407d-a83e-90d883d1d91b",
+        "created": "2017-05-31T21:33:27.079Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.630Z",
+        "description": "(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9066dcee-7c80-429c-a5cc-77458e891349",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            },
+            {
+                "source_name": "Github AD-Pentest-Script",
+                "description": "Twi1ight. (2015, July 11). AD-Pentest-Script - wmiexec.vbs. Retrieved June 29, 2017.",
+                "url": "https://github.com/Twi1ight/AD-Pentest-Script/blob/master/wmiexec.vbs"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.631Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used a modified version of pentesting tools wmiexec.vbs and secretsdump.py to dump credentials.(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: Github AD-Pentest-Script)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--99800503-d535-4fae-a318-dfa034dca663",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.633Z",
+        "description": "(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "tool--bba595da-b73a-4354-aa6c-224d4de7cb4e",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--998650da-f301-46be-ab18-38d14359530b",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Accenture Hogfish April 2018",
+                "description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
+                "url": "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+            },
+            {
+                "source_name": "FireEye APT10 Sept 2018",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+            },
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020.",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-11T00:48:17.309Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has encoded strings in its malware with base64 as well as with a simple, single-byte XOR obfuscation using key 0x40.(Citation: Accenture Hogfish April 2018)(Citation: FireEye APT10 Sept 2018)(Citation: Symantec Cicada November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--99a96ac0-c93d-488b-8439-04d97716682c",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye APT10 April 2017",
+                "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html"
+            },
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            },
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020.",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+            },
+            {
+                "source_name": "DOJ APT10 Dec 2018",
+                "description": "United States District Court Southern District of New York (USDC SDNY) . (2018, December 17). United States of America v. Zhu Hua and Zhang Shilong. Retrieved April 17, 2019.",
+                "url": "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion"
+            },
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020.",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.634Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used legitimate access granted to Managed Service Providers in order to access victims of interest.(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: FireEye APT10 April 2017)(Citation: Symantec Cicada November 2020)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9e27b122-a10d-4f0a-8ca8-6040d8879586",
+        "type": "relationship",
+        "created": "2021-06-17T15:38:53.207Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Securelist APT10 March 2021",
+                "url": "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "description": "GREAT. (2021, March 30). APT10: sophisticated multi-layered loader Ecipekac discovered in A41APT campaign. Retrieved June 17, 2021."
+            }
+        ],
+        "modified": "2021-06-17T15:38:53.207Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has leveraged vulnerabilities in Pulse Secure VPNs to hijack sessions.(Citation: Securelist APT10 March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--9ffd6752-5d0f-4108-8cab-8541b54c0434",
+        "created": "2020-03-17T00:25:45.291Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper April 2017",
+                "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017."
+            },
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has staged data on remote MSP systems or other victim networks prior to exfiltration.(Citation: PWC Cloud Hopper April 2017)(Citation: Symantec Cicada November 2020)",
+        "modified": "2022-07-20T20:07:40.178Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--359b00ad-9425-420b-bba5-6de8d600cbc0",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a552bf3d-a438-406f-8f5b-8e263adad080",
+        "type": "relationship",
+        "created": "2019-04-17T16:58:29.703Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ APT10 Dec 2018",
+                "url": "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion",
+                "description": "United States District Court Southern District of New York (USDC SDNY) . (2018, December 17). United States of America v. Zhu Hua and Zhang Shilong. Retrieved April 17, 2019."
+            },
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020."
+            },
+            {
+                "source_name": "Securelist APT10 March 2021",
+                "url": "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "description": "GREAT. (2021, March 30). APT10: sophisticated multi-layered loader Ecipekac discovered in A41APT campaign. Retrieved June 17, 2021."
+            }
+        ],
+        "modified": "2021-06-21T14:50:51.401Z",
+        "description": "(Citation: DOJ APT10 Dec 2018)(Citation: Symantec Cicada November 2020)(Citation: Securelist APT10 March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "tool--da04ac30-27da-4959-a67d-450ce47d9470",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a68fb27c-1aaf-474f-b97c-aff986eb5bbe",
+        "type": "relationship",
+        "created": "2021-06-22T15:20:39.770Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Securelist APT10 March 2021",
+                "url": "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "description": "GREAT. (2021, March 30). APT10: sophisticated multi-layered loader Ecipekac discovered in A41APT campaign. Retrieved June 17, 2021."
+            }
+        ],
+        "modified": "2021-10-11T14:01:45.761Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used [Wevtutil](https://attack.mitre.org/software/S0645) to remove PowerShell execution logs.(Citation: Securelist APT10 March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a6ddb76d-4317-4cfd-9e1d-57d8a0c5fb21",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Accenture Hogfish April 2018",
+                "description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
+                "url": "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+            },
+            {
+                "source_name": "FireEye APT10 Sept 2018",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:06:31.036Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used [certutil](https://attack.mitre.org/software/S0160) in a macro to decode base64-encoded content contained in a dropper document attached to an email. The group has also used <code>certutil -decode</code> to decode files on the victim\u2019s machine when dropping [UPPERCUT](https://attack.mitre.org/software/S0275).(Citation: Accenture Hogfish April 2018)(Citation: FireEye APT10 Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a802ece1-2efd-4243-8db2-568b59a9c496",
+        "type": "relationship",
+        "created": "2021-06-21T14:32:01.402Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Securelist APT10 March 2021",
+                "url": "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "description": "GREAT. (2021, March 30). APT10: sophisticated multi-layered loader Ecipekac discovered in A41APT campaign. Retrieved June 17, 2021."
+            }
+        ],
+        "modified": "2021-06-21T14:32:01.402Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has resized and added data to the certificate table to enable the signing of modified files with legitimate signatures.(Citation: Securelist APT10 March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a901eaf4-7cbe-43c2-9c03-7d716357edc9",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.637Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used a script (atexec.py) to execute a command on a target machine via Task Scheduler.(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--ad7592fd-f5d3-4802-9217-dffe89a6c8eb",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Accenture Hogfish April 2018",
+                "description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
+                "url": "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:06:31.039Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used process hollowing in iexplore.exe to load the [RedLeaves](https://attack.mitre.org/software/S0153) implant.(Citation: Accenture Hogfish April 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--b200542e-e877-4395-875b-cf1a44537ca4",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b593a75c-245f-449c-861b-b283c47357f0",
+        "type": "relationship",
+        "created": "2020-12-28T19:08:56.363Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020."
+            }
+        ],
+        "modified": "2020-12-28T19:08:56.363Z",
+        "description": "(Citation: Symantec Cicada November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "tool--f59508a6-3615-47c3-b493-6676e1a39a87",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b8e169f0-2d84-4785-ba46-0cd79082fcf5",
+        "type": "relationship",
+        "created": "2021-06-21T14:48:40.910Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Securelist APT10 March 2021",
+                "url": "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "description": "GREAT. (2021, March 30). APT10: sophisticated multi-layered loader Ecipekac discovered in A41APT campaign. Retrieved June 17, 2021."
+            }
+        ],
+        "modified": "2021-06-21T14:48:40.910Z",
+        "description": "(Citation: Securelist APT10 March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--bab6aadc-7a93-43e4-88cb-904fd1f2fddd",
+        "created": "2017-05-31T21:33:27.079Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            },
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020.",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.638Z",
+        "description": "(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: District Court of NY APT10 Indictment December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "malware--b42378e0-f147-496f-992a-26a49705395b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--bbd29878-c16a-45ee-9785-78550f080d83",
+        "created": "2017-12-14T16:46:06.044Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper April 2017",
+                "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) stages data prior to exfiltration in multi-part archives, often saved in the Recycle Bin.(Citation: PWC Cloud Hopper April 2017)",
+        "modified": "2022-07-20T20:07:40.180Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--bd78bfa6-f30e-4429-ac06-0039d553a69d",
+        "created": "2017-12-14T16:46:06.044Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper April 2017",
+                "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017."
+            },
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used RDP connections to move across the victim network.(Citation: PWC Cloud Hopper April 2017)(Citation: District Court of NY APT10 Indictment December 2018)",
+        "modified": "2022-07-20T20:07:40.181Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--c2909563-2b7e-48d6-b165-05b8eff63862",
+        "created": "2017-12-14T16:46:06.044Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper April 2017",
+                "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has collected data from remote systems by mounting network shares with <code>net use</code> and using Robocopy to transfer data.(Citation: PWC Cloud Hopper April 2017)",
+        "modified": "2022-07-20T20:07:40.183Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--c69ee5f4-161a-4d2b-bad4-cc7929596bd3",
+        "created": "2020-03-19T23:25:31.148Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            },
+            {
+                "source_name": "Github AD-Pentest-Script",
+                "description": "Twi1ight. (2015, July 11). AD-Pentest-Script - wmiexec.vbs. Retrieved June 29, 2017.",
+                "url": "https://github.com/Twi1ight/AD-Pentest-Script/blob/master/wmiexec.vbs"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.638Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used a modified version of pentesting tools wmiexec.vbs and secretsdump.py to dump credentials.(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: Github AD-Pentest-Script)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--1ecfdab8-7d59-4c98-95d4-dc41970f57fc",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ca295c89-bee0-4702-b0e1-61416023bacb",
+        "type": "relationship",
+        "created": "2020-12-17T19:43:08.197Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020."
+            }
+        ],
+        "modified": "2020-12-17T19:43:08.197Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has searched compromised systems for folders of interest including those related to HR, audit and expense, and meeting memos.(Citation: Symantec Cicada November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--cfc7da70-d7c5-4508-8f50-1c3107269633",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.640Z",
+        "description": "(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "malware--2f1a9fd0-3b7c-4d77-a358-78db13adbe78",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d464c661-d4da-427f-8c16-dfc275735fe9",
+        "type": "relationship",
+        "created": "2019-04-17T16:58:29.391Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020."
+            }
+        ],
+        "modified": "2020-12-17T20:15:30.830Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has been seen changing malicious files to appear legitimate.(Citation: District Court of NY APT10 Indictment December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d4d07662-749c-4116-a83c-e4045eddad43",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye APT10 Sept 2018",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+            },
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            },
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020.",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.642Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used DLL side-loading to launch versions of Mimikatz and PwDump6 as well as [UPPERCUT](https://attack.mitre.org/software/S0275).(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: FireEye APT10 Sept 2018)(Citation: Symantec Cicada November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d608c524-ad0a-4595-8fe2-4a0ec0dbf501",
+        "type": "relationship",
+        "created": "2019-09-03T18:50:16.769Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye APT10 Sept 2018",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+            }
+        ],
+        "modified": "2019-11-02T16:31:45.027Z",
+        "description": "(Citation: FireEye APT10 Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "tool--c256da91-6dd5-40b2-beeb-ee3b22ab3d27",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d61f5cc3-e075-4a5b-ac7c-e77feac1d310",
+        "created": "2019-01-31T02:13:33.990Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.644Z",
+        "description": "(Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d810e14a-e78b-4e65-842b-c1b7b727750a",
+        "type": "relationship",
+        "created": "2021-06-21T15:42:04.445Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Securelist APT10 March 2021",
+                "url": "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "description": "GREAT. (2021, March 30). APT10: sophisticated multi-layered loader Ecipekac discovered in A41APT campaign. Retrieved June 17, 2021."
+            }
+        ],
+        "modified": "2021-06-21T15:42:04.445Z",
+        "description": "(Citation: Securelist APT10 March 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "malware--292eb0c5-b8e8-4af6-9e8f-0fda6b4528d3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d844fdcc-a0d1-46b4-a4dc-f56063ef9584",
+        "type": "relationship",
+        "created": "2019-04-17T16:58:29.414Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ APT10 Dec 2018",
+                "url": "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion",
+                "description": "United States District Court Southern District of New York (USDC SDNY) . (2018, December 17). United States of America v. Zhu Hua and Zhang Shilong. Retrieved April 17, 2019."
+            },
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020."
+            }
+        ],
+        "modified": "2020-12-17T20:15:30.836Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has encrypted files and information before exfiltration.(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--dea36846-b8ad-4926-a242-9fa2d12069c8",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Accenture Hogfish April 2018",
+                "description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
+                "url": "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+            },
+            {
+                "source_name": "FireEye APT10 Sept 2018",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+            },
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            },
+            {
+                "source_name": "PWC Cloud Hopper April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017.",
+                "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf"
+            },
+            {
+                "source_name": "Github AD-Pentest-Script",
+                "description": "Twi1ight. (2015, July 11). AD-Pentest-Script - wmiexec.vbs. Retrieved June 29, 2017.",
+                "url": "https://github.com/Twi1ight/AD-Pentest-Script/blob/master/wmiexec.vbs"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.649Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) executes commands using a command-line interface and reverse shell. The group has used a modified version of pentesting script wmiexec.vbs to execute commands.(Citation: PWC Cloud Hopper April 2017)(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: Github AD-Pentest-Script)(Citation: FireEye APT10 Sept 2018) [menuPass](https://attack.mitre.org/groups/G0045) has used malicious macros embedded inside Office documents to execute files.(Citation: Accenture Hogfish April 2018)(Citation: FireEye APT10 Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--dfedbce3-afe2-46f4-80fb-7f3e802c5f03",
+        "type": "relationship",
+        "created": "2019-04-17T16:58:29.416Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ APT10 Dec 2018",
+                "url": "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion",
+                "description": "United States District Court Southern District of New York (USDC SDNY) . (2018, December 17). United States of America v. Zhu Hua and Zhang Shilong. Retrieved April 17, 2019."
+            },
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020."
+            }
+        ],
+        "modified": "2020-12-17T16:16:08.962Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has collected various files from the compromised computers.(Citation: DOJ APT10 Dec 2018)(Citation: Symantec Cicada November 2020)\n",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e104cf3c-a802-4e06-8abc-6293cea9492f",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            },
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020.",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.649Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) uses [PowerSploit](https://attack.mitre.org/software/S0194) to inject shellcode into PowerShell.(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: Symantec Cicada November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e31ca67c-1662-4d27-b349-44f3dda2a872",
+        "type": "relationship",
+        "created": "2020-12-17T16:16:08.594Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020."
+            }
+        ],
+        "modified": "2020-12-29T16:51:25.563Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used tools to exploit the ZeroLogon vulnerability (CVE-2020-1472).(Citation: Symantec Cicada November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e5f75ae0-45f5-48b8-938f-f0d9e17e53eb",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye APT10 April 2017",
+                "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html"
+            },
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.650Z",
+        "description": "(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: FireEye APT10 April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--f16c18f0-c5ac-4ea2-bfd0-222e63c09018",
+        "created": "2017-12-14T16:46:06.044Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper April 2017",
+                "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used Putty Secure Copy Client (PSCP) to transfer data.(Citation: PWC Cloud Hopper April 2017)",
+        "modified": "2022-07-20T20:07:40.186Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f2f93fbb-2164-4de7-9d0b-24ad93caf7f2",
+        "type": "relationship",
+        "created": "2020-12-17T16:16:08.548Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020."
+            }
+        ],
+        "modified": "2020-12-28T15:29:54.586Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used the Csvde tool to collect Active Directory files and data.(Citation: Symantec Cicada November 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f34e5f17-c0ac-4f1b-b45b-e6076e69721a",
+        "type": "relationship",
+        "created": "2020-12-17T19:47:24.727Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ APT10 Dec 2018",
+                "url": "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion",
+                "description": "United States District Court Southern District of New York (USDC SDNY) . (2018, December 17). United States of America v. Zhu Hua and Zhang Shilong. Retrieved April 17, 2019."
+            },
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020."
+            }
+        ],
+        "modified": "2020-12-28T15:33:58.586Z",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has registered malicious domains for use in intrusion campaigns.(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--f9600732-9116-4325-8073-28d81721b37a",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye APT10 April 2017",
+                "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html"
+            },
+            {
+                "source_name": "PWC Cloud Hopper Technical Annex April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.",
+                "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-23T15:14:18.653Z",
+        "description": "(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: FireEye APT10 April 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--fb061840-c7b6-4df3-ac27-7b7e62d17ba5",
+        "created": "2024-01-02T19:08:50.040Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022",
+                "description": "Counter Threat Unit Research Team . (2022, June 23). BRONZE STARLIGHT RANSOMWARE OPERATIONS USE HUI LOADER. Retrieved December 7, 2023.",
+                "url": "https://www.secureworks.com/research/bronze-starlight-ransomware-operations-use-hui-loader"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-02T19:08:50.040Z",
+        "description": "(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "malware--54089fba-8662-4f37-9a44-6ad25a5f630a",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--ffee4cd1-f193-4dbc-9f47-6fe47e1523eb",
+        "created": "2017-12-14T16:46:06.044Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "PWC Cloud Hopper April 2017",
+                "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used DLL search order hijacking.(Citation: PWC Cloud Hopper April 2017)",
+        "modified": "2022-07-20T20:07:40.187Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used malicious macros embedded inside Office documents to execute files.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2018-10-17T00:14:20.652Z",
+        "id": "relationship--ffee57f7-edea-499d-8912-88cd3204648a",
+        "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Accenture Hogfish April 2018",
+                "description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
+                "url": "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+            },
+            {
+                "source_name": "FireEye APT10 Sept 2018",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

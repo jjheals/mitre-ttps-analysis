@@ -1,0 +1,586 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--003f23dd-24c7-4b3b-b703-0bf081d638f4",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:29.096Z",
+        "description": "(Citation: Symantec Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "malware--b42378e0-f147-496f-992a-26a49705395b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--0c81e49d-53be-4fba-9a07-ec2fe5501267",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Symantec Elderwood Sept 2012",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-11T02:36:48.373Z",
+        "description": "[Elderwood](https://attack.mitre.org/groups/G0066) has encrypted documents and malicious executables.(Citation: Symantec Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1262d88d-0eb1-4d19-b84a-9793ef3e4d03",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            },
+            {
+                "url": "https://www.csmonitor.com/USA/2012/0914/Stealing-US-business-secrets-Experts-ID-two-huge-cyber-gangs-in-China",
+                "description": "Clayton, M.. (2012, September 14). Stealing US business secrets: Experts ID two huge cyber 'gangs' in China. Retrieved February 15, 2018.",
+                "source_name": "CSM Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:28.676Z",
+        "description": "[Elderwood](https://attack.mitre.org/groups/G0066) has leveraged multiple types of spearphishing in order to attempt to get a user to open attachments.(Citation: Symantec Elderwood Sept 2012)(Citation: CSM Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--13c8251c-f380-425c-b762-2298e5802dee",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:29.109Z",
+        "description": "(Citation: Symantec Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "malware--48523614-309e-43bf-a2b8-705c2b45d7b2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2003aaad-7b87-461d-b17f-b19100069ad9",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            },
+            {
+                "url": "https://www.csmonitor.com/USA/2012/0914/Stealing-US-business-secrets-Experts-ID-two-huge-cyber-gangs-in-China",
+                "description": "Clayton, M.. (2012, September 14). Stealing US business secrets: Experts ID two huge cyber 'gangs' in China. Retrieved February 15, 2018.",
+                "source_name": "CSM Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:29.092Z",
+        "description": "[Elderwood](https://attack.mitre.org/groups/G0066) has delivered zero-day exploits and malware to victims via targeted emails containing a link to malicious content hosted on an uncommon Web server.(Citation: Symantec Elderwood Sept 2012)(Citation: CSM Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2d20e20c-7f01-4834-88de-030ca09ee540",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:29.097Z",
+        "description": "(Citation: Symantec Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "malware--79499993-a8d6-45eb-b343-bf58dea5bdde",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4a851ebf-c021-4ab1-a02f-84b03d65fdda",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:29.100Z",
+        "description": "(Citation: Symantec Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--50cc59f8-6d62-4140-b5c6-40da528a5e13",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:28.397Z",
+        "description": "(Citation: Symantec Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "malware--e9e9bfe2-76f4-4870-a2a1-b7af89808613",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--537d027b-0559-4d1a-8f28-a918d3d23e63",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            },
+            {
+                "url": "https://www.csmonitor.com/USA/2012/0914/Stealing-US-business-secrets-Experts-ID-two-huge-cyber-gangs-in-China",
+                "description": "Clayton, M.. (2012, September 14). Stealing US business secrets: Experts ID two huge cyber 'gangs' in China. Retrieved February 15, 2018.",
+                "source_name": "CSM Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:29.099Z",
+        "description": "[Elderwood](https://attack.mitre.org/groups/G0066) has delivered zero-day exploits and malware to victims via targeted emails containing malicious attachments.(Citation: Symantec Elderwood Sept 2012)(Citation: CSM Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5406867b-20fe-43e3-bd64-6816ba340b60",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:29.093Z",
+        "description": "(Citation: Symantec Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "malware--c251e4a5-9a2e-4166-8e42-442af75c3b9a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--77426812-954b-49dd-9db8-c3aa99113678",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:29.090Z",
+        "description": "(Citation: Symantec Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "malware--f4d8a2d6-c684-453a-8a14-cf4a94f755c5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--89672463-a201-43c7-a24a-1e6d7a1a188a",
+        "type": "relationship",
+        "created": "2020-03-17T14:16:23.897Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            },
+            {
+                "source_name": "CSM Elderwood Sept 2012",
+                "description": "Clayton, M.. (2012, September 14). Stealing US business secrets: Experts ID two huge cyber 'gangs' in China. Retrieved February 15, 2018.",
+                "url": "https://www.csmonitor.com/USA/2012/0914/Stealing-US-business-secrets-Experts-ID-two-huge-cyber-gangs-in-China"
+            }
+        ],
+        "modified": "2021-01-06T19:32:28.688Z",
+        "description": "[Elderwood](https://attack.mitre.org/groups/G0066) has leveraged multiple types of spearphishing in order to attempt to get a user to open links.(Citation: Symantec Elderwood Sept 2012)(Citation: CSM Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--91b22928-d538-4460-a5ff-7a0a5e797430",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            },
+            {
+                "url": "https://www.csmonitor.com/USA/2012/0914/Stealing-US-business-secrets-Experts-ID-two-huge-cyber-gangs-in-China",
+                "description": "Clayton, M.. (2012, September 14). Stealing US business secrets: Experts ID two huge cyber 'gangs' in China. Retrieved February 15, 2018.",
+                "source_name": "CSM Elderwood Sept 2012"
+            },
+            {
+                "url": "http://securityaffairs.co/wordpress/8528/hacking/elderwood-project-who-is-behind-op-aurora-and-ongoing-attacks.html",
+                "description": "Paganini, P. (2012, September 9). Elderwood project, who is behind Op. Aurora and ongoing attacks?. Retrieved February 13, 2018.",
+                "source_name": "Security Affairs Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:28.685Z",
+        "description": "[Elderwood](https://attack.mitre.org/groups/G0066) has delivered zero-day exploits and malware to victims by injecting malicious code into specific public Web pages visited by targets within a particular sector.(Citation: Symantec Elderwood Sept 2012)(Citation: CSM Elderwood Sept 2012)(Citation: Security Affairs Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--949c94e6-7c2f-4605-957f-11b7cd5a6097",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:28.683Z",
+        "description": "(Citation: Symantec Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "malware--039814a0-88de-46c5-a4fb-b293db21880a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e1269d18-6cc9-45cc-9c99-06f765bea366",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:28.680Z",
+        "description": "[Elderwood](https://attack.mitre.org/groups/G0066) has used exploitation of endpoint software, including Microsoft Internet Explorer Adobe Flash vulnerabilities, to gain execution. They have also used zero-day exploits.(Citation: Symantec Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f0ef3f47-5651-4638-a007-cb585d3174b0",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.symantec.com/security_response/writeup.jsp?docid=2012-051515-3909-99",
+                "description": "Ladley, F. (2012, May 15). Backdoor.Ritsol. Retrieved February 23, 2018.",
+                "source_name": "Symantec Ristol May 2012"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "The Ritsol backdoor trojan used by [Elderwood](https://attack.mitre.org/groups/G0066) can download files onto a compromised host from a remote location.(Citation: Symantec Ristol May 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f718c8ae-859f-4987-bf8c-9fac91a610bf",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:29.108Z",
+        "description": "(Citation: Symantec Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "malware--e811ff6a-4cef-4856-a6ae-a7daf9ed39ae",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f8c27264-e42d-48fd-9a18-4b275383f155",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "source_name": "Symantec Elderwood Sept 2012"
+            }
+        ],
+        "modified": "2021-01-06T19:32:28.284Z",
+        "description": "[Elderwood](https://attack.mitre.org/groups/G0066) has packed malware payloads before delivery to victims.(Citation: Symantec Elderwood Sept 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "id": "relationship--f1e20caf-cba3-4d4c-a5d4-0a06ce224b78",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "description": "[Elderwood](https://attack.mitre.org/groups/G0066) has targeted manufacturers in the supply chain for the defense industry.(Citation: Symantec Elderwood Sept 2012)",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Symantec Elderwood Sept 2012",
+                "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                "url": "http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf"
+            }
+        ],
+        "type": "relationship",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "created": "2018-04-18T17:59:24.739Z",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "relationship_type": "uses",
+        "target_ref": "attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2018-10-23T00:14:20.652Z",
+        "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+        "relationship_type": "uses",
+        "target_ref": "malware--310f437b-29e7-4844-848c-7220868d074a",
+        "type": "relationship",
+        "id": "relationship--415e4897-81ef-4966-a829-d8461f5a637c",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "external_references": null,
+        "revoked": null,
+        "description": null
+    }
+]

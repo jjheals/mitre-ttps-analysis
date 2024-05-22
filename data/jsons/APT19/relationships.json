@@ -1,0 +1,717 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--04558d61-aa04-46b5-a65f-921011ac9621",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+                "description": "Grunzweig, J., Lee, B. (2016, January 22). New Attacks Linked to C0d0so0 Group. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 C0d0so0 Jan 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "An [APT19](https://attack.mitre.org/groups/G0073) HTTP malware variant establishes persistence by setting the Registry key <code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Windows Debug Tools-%LOCALAPPDATA%\\</code>.(Citation: Unit 42 C0d0so0 Jan 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1219cbd2-26b8-4a2e-bbf1-477afc396203",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "source_name": "FireEye APT19"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) used PowerShell commands to execute payloads.(Citation: FireEye APT19)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--2e6e8722-d09d-402e-9ea8-ccf8412339d0",
+        "created": "2019-10-10T22:00:27.892Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "FireEye APT19",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) used <code>-W Hidden</code> to conceal [PowerShell](https://attack.mitre.org/techniques/T1059/001) windows by setting the WindowStyle parameter to hidden. (Citation: FireEye APT19)",
+        "modified": "2022-04-19T20:58:31.323Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--322703cc-c8f9-4046-8a61-e165a2d11bc7",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+                "description": "Grunzweig, J., Lee, B. (2016, January 22). New Attacks Linked to C0d0so0 Group. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 C0d0so0 Jan 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) used an HTTP malware variant and a Port 22 malware variant to collect the MAC address and IP address from the victim\u2019s machine.(Citation: Unit 42 C0d0so0 Jan 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--331ebf73-af72-4121-815a-d10392ac75ab",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+                "description": "Grunzweig, J., Lee, B. (2016, January 22). New Attacks Linked to C0d0so0 Group. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 C0d0so0 Jan 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) used an HTTP malware variant and a Port 22 malware variant to collect the victim\u2019s username.(Citation: Unit 42 C0d0so0 Jan 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3bcfc38f-5fe8-4c66-8352-d3ba71c4f3ec",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "source_name": "FireEye APT19"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) configured its payload to inject into the rundll32.exe.(Citation: FireEye APT19)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--45f35ec0-73a8-42a6-b879-d800d27211c8",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+                "description": "Grunzweig, J., Lee, B. (2016, January 22). New Attacks Linked to C0d0so0 Group. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 C0d0so0 Jan 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) uses a Port 22 malware variant to modify several Registry keys.(Citation: Unit 42 C0d0so0 Jan 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--478f7f77-6b6b-4949-ac87-f28419b5e2ab",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+                "description": "Grunzweig, J., Lee, B. (2016, January 22). New Attacks Linked to C0d0so0 Group. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 C0d0so0 Jan 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) performed a watering hole attack on forbes.com in 2014 to compromise targets.(Citation: Unit 42 C0d0so0 Jan 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4999a323-b025-4a1d-8c80-5ae36b2f5a0d",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+                "description": "Grunzweig, J., Lee, B. (2016, January 22). New Attacks Linked to C0d0so0 Group. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 C0d0so0 Jan 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "An [APT19](https://attack.mitre.org/groups/G0073) Port 22 malware variant registers itself as a service.(Citation: Unit 42 C0d0so0 Jan 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4a6c44ec-a1de-4fbc-88ef-d3003137a2fc",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "source_name": "FireEye APT19"
+            },
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+                "description": "Grunzweig, J., Lee, B. (2016, January 22). New Attacks Linked to C0d0so0 Group. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 C0d0so0 Jan 2016"
+            }
+        ],
+        "modified": "2020-03-17T00:05:25.628Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) used HTTP for C2 communications. [APT19](https://attack.mitre.org/groups/G0073) also used an HTTP malware variant to communicate over HTTP for C2.(Citation: FireEye APT19)(Citation: Unit 42 C0d0so0 Jan 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4f2e62d0-5345-45dc-9e9d-46bb11c5f35d",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "source_name": "FireEye APT19"
+            }
+        ],
+        "modified": "2020-03-17T18:25:45.809Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) downloaded and launched code within a SCT file.(Citation: FireEye APT19)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--59cccc5a-f6f9-4a2f-aa74-2b7235b1855c",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye APT19",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-11T03:03:28.136Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) used Base64 to obfuscate payloads.(Citation: FireEye APT19)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5f830006-234e-44d1-9441-1aca7990006c",
+        "type": "relationship",
+        "created": "2020-11-06T18:40:38.335Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "source_name": "FireEye APT19"
+            }
+        ],
+        "modified": "2020-11-06T18:40:38.335Z",
+        "description": "(Citation: FireEye APT19)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--818b440b-075d-483d-83ff-9991a78e25f4",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "source_name": "FireEye APT19"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) sent spearphishing emails with malicious attachments in RTF and XLSM formats to deliver initial exploits.(Citation: FireEye APT19)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--89b157e1-3972-421e-87c9-f9e83b26ec90",
+        "type": "relationship",
+        "created": "2019-03-12T16:19:09.902Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "The Australian Cyber Security Centre (ACSC), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NZ NCSC), CERT New Zealand, the UK National Cyber Security Centre (UK NCSC) and the US National Cybersecurity and Communications Integration Center (NCCIC). (2018, October 11). Joint report on publicly available hacking tools. Retrieved March 11, 2019.",
+                "url": "https://www.ncsc.gov.uk/report/joint-report-on-publicly-available-hacking-tools",
+                "source_name": "NCSC Joint Report Public Tools"
+            }
+        ],
+        "modified": "2021-01-25T15:43:46.054Z",
+        "description": "(Citation: NCSC Joint Report Public Tools)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b033e131-e448-46c6-815b-b86e4bd6d638",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "source_name": "FireEye APT19"
+            }
+        ],
+        "modified": "2020-03-12T00:28:05.750Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) attempted to get users to launch malicious attachments delivered via spearphishing emails.(Citation: FireEye APT19)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c3d9182c-178b-4d8d-91d8-f4d1313738bb",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "source_name": "FireEye APT19"
+            },
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+                "description": "Grunzweig, J., Lee, B. (2016, January 22). New Attacks Linked to C0d0so0 Group. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 C0d0so0 Jan 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) collected system architecture information. [APT19](https://attack.mitre.org/groups/G0073) used an HTTP malware variant and a Port 22 malware variant to gather the hostname and CPU information from the victim\u2019s machine.(Citation: FireEye APT19)(Citation: Unit 42 C0d0so0 Jan 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d1b46f3e-b25c-43c0-9ab2-ef6e5ff8270c",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+                "description": "Grunzweig, J., Lee, B. (2016, January 22). New Attacks Linked to C0d0so0 Group. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 C0d0so0 Jan 2016"
+            }
+        ],
+        "modified": "2020-03-20T18:02:57.179Z",
+        "description": "An [APT19](https://attack.mitre.org/groups/G0073) HTTP malware variant used Base64 to encode communications to the C2 server.(Citation: Unit 42 C0d0so0 Jan 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e6b509c8-0e00-48ac-b76d-f42d18a0ae51",
+        "type": "relationship",
+        "created": "2021-05-26T12:38:01.263Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "The Australian Cyber Security Centre (ACSC), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NZ NCSC), CERT New Zealand, the UK National Cyber Security Centre (UK NCSC) and the US National Cybersecurity and Communications Integration Center (NCCIC). (2018, October 11). Joint report on publicly available hacking tools. Retrieved March 11, 2019.",
+                "url": "https://www.ncsc.gov.uk/report/joint-report-on-publicly-available-hacking-tools",
+                "source_name": "NCSC Joint Report Public Tools"
+            },
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "source_name": "FireEye APT19"
+            }
+        ],
+        "modified": "2021-05-26T12:38:01.263Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) has obtained and used publicly-available tools like [Empire](https://attack.mitre.org/software/S0363).(Citation: NCSC Joint Report Public Tools)(Citation: FireEye APT19)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f35a3ca7-b916-4bc2-a493-613196b5d41e",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+                "description": "Grunzweig, J., Lee, B. (2016, January 22). New Attacks Linked to C0d0so0 Group. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 C0d0so0 Jan 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) launched an HTTP malware variant and a Port 22 malware variant using a legitimate executable that loaded the malicious DLL.(Citation: Unit 42 C0d0so0 Jan 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f832e042-6859-4415-9b6c-4e093dc955ec",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "source_name": "FireEye APT19"
+            }
+        ],
+        "modified": "2020-06-20T22:48:29.688Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) used Regsvr32 to bypass application control techniques.(Citation: FireEye APT19)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f84b2658-a891-45a8-93ff-14dc0a86df10",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+                "description": "Grunzweig, J., Lee, B. (2016, January 22). New Attacks Linked to C0d0so0 Group. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 C0d0so0 Jan 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "An [APT19](https://attack.mitre.org/groups/G0073) HTTP malware variant decrypts strings using single-byte XOR keys.(Citation: Unit 42 C0d0so0 Jan 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--fd78292b-d484-4d08-baa4-f6b58bb63622",
+        "created": "2023-03-21T20:45:58.707Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "FireEye APT19",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-21T20:45:58.707Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) used Base64 to obfuscate executed commands.(Citation: FireEye APT19)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1ed35fc6-ea81-4669-9fd3-997422febe09",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "source_name": "FireEye APT19"
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) used TCP port 80 for C2.(Citation: FireEye APT19)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "id": "relationship--95bbada2-6096-475e-b8c5-7b79351b03a0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "source_name": "FireEye APT19"
+            }
+        ],
+        "description": "(Citation: FireEye APT19)",
+        "type": "relationship",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "created": "2018-10-17T00:14:20.652Z",
+        "source_ref": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "relationship_type": "uses",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

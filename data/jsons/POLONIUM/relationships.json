@@ -1,0 +1,254 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--0337777c-cfe7-4cfa-b1f0-4000d3c8244b",
+        "created": "2022-08-08T19:04:57.823Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Microsoft POLONIUM June 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/",
+                "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: Microsoft POLONIUM June 2022)",
+        "modified": "2022-08-08T19:04:57.823Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5f3d0238-d058-44a9-8812-3dd1b6741a8c",
+        "target_ref": "malware--750eb92a-7fdf-451e-9592-1d42357018f1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--3077e0e6-4540-4f0d-a2ec-c4db78a35a0e",
+        "created": "2022-08-08T19:59:41.091Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Microsoft POLONIUM June 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/",
+                "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[POLONIUM](https://attack.mitre.org/groups/G1005) has exfiltrated stolen data to [POLONIUM](https://attack.mitre.org/groups/G1005)-owned OneDrive and Dropbox accounts.(Citation: Microsoft POLONIUM June 2022) ",
+        "modified": "2022-08-08T19:59:41.091Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5f3d0238-d058-44a9-8812-3dd1b6741a8c",
+        "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--322fcce0-fe46-48f2-b57c-01b73b316339",
+        "created": "2022-08-08T19:53:16.516Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Microsoft POLONIUM June 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/",
+                "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[POLONIUM](https://attack.mitre.org/groups/G1005) has used OneDrive and DropBox for C2.(Citation: Microsoft POLONIUM June 2022)",
+        "modified": "2022-08-08T19:53:16.516Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5f3d0238-d058-44a9-8812-3dd1b6741a8c",
+        "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--81eaf78c-2282-4e86-baa9-820020a54031",
+        "created": "2022-07-07T14:26:52.432Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Microsoft POLONIUM June 2022",
+                "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022.",
+                "url": "https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-10-17T18:48:48.311Z",
+        "description": "[POLONIUM](https://attack.mitre.org/groups/G1005) has used the AirVPN service for operational activity.(Citation: Microsoft POLONIUM June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5f3d0238-d058-44a9-8812-3dd1b6741a8c",
+        "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--84a7d204-857f-43dd-8876-215b7a946ed1",
+        "created": "2022-08-08T19:56:59.929Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Microsoft POLONIUM June 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/",
+                "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[POLONIUM](https://attack.mitre.org/groups/G1005) has obtained and used tools such as AirVPN and plink in their operations.(Citation: Microsoft POLONIUM June 2022) ",
+        "modified": "2022-08-08T19:56:59.929Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5f3d0238-d058-44a9-8812-3dd1b6741a8c",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--a3a4fbbe-3559-4333-8285-732a3dfa0460",
+        "created": "2022-08-08T19:33:02.925Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Microsoft POLONIUM June 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/",
+                "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: Microsoft POLONIUM June 2022)",
+        "modified": "2022-08-08T19:33:02.925Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5f3d0238-d058-44a9-8812-3dd1b6741a8c",
+        "target_ref": "malware--d23de441-f9cf-4802-b1ff-f588a11a896b",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--b0e3680e-6099-4f33-a45e-5e938a7e7085",
+        "created": "2022-07-05T13:46:50.731Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Microsoft POLONIUM June 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/",
+                "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[POLONIUM](https://attack.mitre.org/groups/G1005) has used compromised credentials from an IT company to target downstream customers including a law firm and aviation company.(Citation: Microsoft POLONIUM June 2022)",
+        "modified": "2022-07-25T16:22:01.631Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5f3d0238-d058-44a9-8812-3dd1b6741a8c",
+        "target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--ba747d29-53c9-4841-bbbe-93527c789e63",
+        "created": "2022-07-01T19:11:32.878Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Microsoft POLONIUM June 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/",
+                "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[POLONIUM](https://attack.mitre.org/groups/G1005) has created and used legitimate Microsoft OneDrive accounts for their operations.(Citation: Microsoft POLONIUM June 2022)",
+        "modified": "2022-08-08T19:51:03.692Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5f3d0238-d058-44a9-8812-3dd1b6741a8c",
+        "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--e145eb03-1e0b-4062-ab24-20269e3e85d0",
+        "created": "2022-07-05T13:50:35.704Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Microsoft POLONIUM June 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/",
+                "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[POLONIUM](https://attack.mitre.org/groups/G1005) has used valid compromised credentials to gain access to victim environments.(Citation: Microsoft POLONIUM June 2022)",
+        "modified": "2022-08-09T15:02:56.804Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--5f3d0238-d058-44a9-8812-3dd1b6741a8c",
+        "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    }
+]

@@ -1,0 +1,577 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--0930d98a-d8ae-4300-a50b-8a80b06e88e9",
+        "created": "2021-12-27T16:53:14.020Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Aug 2021",
+                "url": "https://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html",
+                "description": "Lunghi, D. (2021, August 17). Confucius Uses Pegasus Spyware-related Lures to Target Pakistani Military. Retrieved December 26, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has sent malicious links to victims through email campaigns.(Citation: TrendMicro Confucius APT Aug 2021)",
+        "modified": "2022-04-07T21:13:45.891Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--2f14f601-d732-4770-ab76-a7c99627398e",
+        "created": "2021-12-27T16:53:14.018Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Aug 2021",
+                "url": "https://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html",
+                "description": "Lunghi, D. (2021, August 17). Confucius Uses Pegasus Spyware-related Lures to Target Pakistani Military. Retrieved December 26, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has lured victims into clicking on a malicious link sent through spearphishing.(Citation: TrendMicro Confucius APT Aug 2021)",
+        "modified": "2022-04-07T21:12:38.058Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--2fcc26f7-9da6-4155-af96-b826e2dfe085",
+        "created": "2022-04-07T22:37:35.143Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Feb 2018",
+                "url": "https://www.trendmicro.com/en_us/research/18/b/deciphering-confucius-cyberespionage-operations.html",
+                "description": "Lunghi, D and Horejsi, J. (2018, February 13). Deciphering Confucius: A Look at the Group's Cyberespionage Operations. Retrieved December 26, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has exfiltrated victim data to cloud storage service accounts.(Citation: TrendMicro Confucius APT Feb 2018)",
+        "modified": "2022-04-07T22:37:35.143Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--38467bd5-4afc-4c64-b8c0-8c7140ac9e58",
+        "created": "2021-12-27T16:53:13.985Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Uptycs Confucius APT Jan 2021",
+                "url": "https://www.uptycs.com/blog/confucius-apt-deploys-warzone-rat",
+                "description": "Uptycs Threat Research Team. (2021, January 12). Confucius APT deploys Warzone RAT. Retrieved December 17, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has used a weaponized Microsoft Word document with an embedded RTF exploit.(Citation: Uptycs Confucius APT Jan 2021)",
+        "modified": "2022-06-30T20:15:32.699Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--dc31fe1e-d722-49da-8f5f-92c7b5aff534",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--565d59a0-e2a6-45d2-b655-cff8d02f7ebf",
+        "created": "2022-04-07T22:40:55.377Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Feb 2018",
+                "url": "https://www.trendmicro.com/en_us/research/18/b/deciphering-confucius-cyberespionage-operations.html",
+                "description": "Lunghi, D and Horejsi, J. (2018, February 13). Deciphering Confucius: A Look at the Group's Cyberespionage Operations. Retrieved December 26, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has used VBScript to execute malicious code.(Citation: TrendMicro Confucius APT Feb 2018)",
+        "modified": "2022-04-07T22:40:55.377Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--6c4c4e5d-0641-4441-a5aa-d27f3362811f",
+        "created": "2021-12-27T16:53:14.037Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Uptycs Confucius APT Jan 2021",
+                "url": "https://www.uptycs.com/blog/confucius-apt-deploys-warzone-rat",
+                "description": "Uptycs Threat Research Team. (2021, January 12). Confucius APT deploys Warzone RAT. Retrieved December 17, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has crafted and sent victims malicious attachments to gain initial access.(Citation: Uptycs Confucius APT Jan 2021)",
+        "modified": "2022-06-30T20:15:32.700Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--718b8ec5-a10a-46e1-96e2-14ceb3835b1e",
+        "created": "2021-12-27T16:53:13.987Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Feb 2018",
+                "url": "https://www.trendmicro.com/en_us/research/18/b/deciphering-confucius-cyberespionage-operations.html",
+                "description": "Lunghi, D and Horejsi, J. (2018, February 13). Deciphering Confucius: A Look at the Group's Cyberespionage Operations. Retrieved December 26, 2021."
+            },
+            {
+                "source_name": "Uptycs Confucius APT Jan 2021",
+                "url": "https://www.uptycs.com/blog/confucius-apt-deploys-warzone-rat",
+                "description": "Uptycs Threat Research Team. (2021, January 12). Confucius APT deploys Warzone RAT. Retrieved December 17, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has exploited Microsoft Office vulnerabilities, including CVE-2015-1641, CVE-2017-11882, and CVE-2018-0802.(Citation: Uptycs Confucius APT Jan 2021)(Citation: TrendMicro Confucius APT Feb 2018)",
+        "modified": "2022-06-30T20:15:32.701Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--8135fc16-4dda-4afb-bc35-d24c370b0c53",
+        "created": "2021-12-27T16:53:13.909Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Aug 2021",
+                "url": "https://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html",
+                "description": "Lunghi, D. (2021, August 17). Confucius Uses Pegasus Spyware-related Lures to Target Pakistani Military. Retrieved December 26, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has used a file stealer that can examine system drives, including those other than the C drive.(Citation: TrendMicro Confucius APT Aug 2021)",
+        "modified": "2022-04-18T17:33:46.313Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--95d15400-aa0c-4382-be3f-49f931b81f27",
+        "created": "2021-12-27T16:53:13.984Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Aug 2021",
+                "url": "https://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html",
+                "description": "Lunghi, D. (2021, August 17). Confucius Uses Pegasus Spyware-related Lures to Target Pakistani Military. Retrieved December 26, 2021."
+            },
+            {
+                "source_name": "Uptycs Confucius APT Jan 2021",
+                "url": "https://www.uptycs.com/blog/confucius-apt-deploys-warzone-rat",
+                "description": "Uptycs Threat Research Team. (2021, January 12). Confucius APT deploys Warzone RAT. Retrieved December 17, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has downloaded additional files and payloads onto a compromised host following initial access.(Citation: Uptycs Confucius APT Jan 2021)(Citation: TrendMicro Confucius APT Aug 2021)",
+        "modified": "2022-06-30T20:15:32.704Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--985bb7ab-6853-4906-98a0-1945e4504ee8",
+        "created": "2021-12-27T16:53:13.981Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Aug 2021",
+                "url": "https://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html",
+                "description": "Lunghi, D. (2021, August 17). Confucius Uses Pegasus Spyware-related Lures to Target Pakistani Military. Retrieved December 26, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has used a file stealer to steal documents and images with the following extensions: txt, pdf, png, jpg, doc, xls, xlm, odp, ods, odt, rtf, ppt, xlsx, xlsm, docx, pptx, and jpeg.(Citation: TrendMicro Confucius APT Aug 2021)",
+        "modified": "2022-04-18T12:24:52.898Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--994462e4-b75a-45b5-9b63-43e449bb1b10",
+        "created": "2021-12-27T23:25:08.643Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Check Point Warzone Feb 2020",
+                "url": "https://research.checkpoint.com/2020/warzone-behind-the-enemy-lines/",
+                "description": "Harakhavik, Y. (2020, February 3). Warzone: Behind the enemy lines. Retrieved December 17, 2021."
+            },
+            {
+                "source_name": "Uptycs Confucius APT Jan 2021",
+                "url": "https://www.uptycs.com/blog/confucius-apt-deploys-warzone-rat",
+                "description": "Uptycs Threat Research Team. (2021, January 12). Confucius APT deploys Warzone RAT. Retrieved December 17, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: Check Point Warzone Feb 2020)(Citation: Uptycs Confucius APT Jan 2021)",
+        "modified": "2022-06-30T20:15:32.705Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "malware--fde19a18-e502-467f-be14-58c71b4e7f4b",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--9c070a22-d1cc-4565-918f-e0b85fe4bab3",
+        "created": "2022-04-07T22:33:28.262Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Feb 2018",
+                "url": "https://www.trendmicro.com/en_us/research/18/b/deciphering-confucius-cyberespionage-operations.html",
+                "description": "Lunghi, D and Horejsi, J. (2018, February 13). Deciphering Confucius: A Look at the Group's Cyberespionage Operations. Retrieved December 26, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has obtained cloud storage service accounts to host stolen data.(Citation: TrendMicro Confucius APT Feb 2018)",
+        "modified": "2022-04-07T22:33:28.262Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--a68cb676-409e-483d-8af1-500d57ad1f81",
+        "created": "2021-12-27T16:53:13.989Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Uptycs Confucius APT Jan 2021",
+                "url": "https://www.uptycs.com/blog/confucius-apt-deploys-warzone-rat",
+                "description": "Uptycs Threat Research Team. (2021, January 12). Confucius APT deploys Warzone RAT. Retrieved December 17, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has used HTTP for C2 communications.(Citation: Uptycs Confucius APT Jan 2021)",
+        "modified": "2022-06-30T20:15:32.706Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b148a44c-b4f9-4e19-b6b0-730b83445451",
+        "type": "relationship",
+        "created": "2021-12-27T16:53:13.961Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Aug 2021",
+                "url": "https://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html",
+                "description": "Lunghi, D. (2021, August 17). Confucius Uses Pegasus Spyware-related Lures to Target Pakistani Military. Retrieved December 26, 2021."
+            }
+        ],
+        "modified": "2021-12-27T16:53:13.961Z",
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has exfiltrated stolen files to its C2 server.(Citation: TrendMicro Confucius APT Aug 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--bcb09da2-4ef9-4739-b36d-96c9c62ec4e2",
+        "created": "2022-04-07T22:45:27.889Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Feb 2018",
+                "url": "https://www.trendmicro.com/en_us/research/18/b/deciphering-confucius-cyberespionage-operations.html",
+                "description": "Lunghi, D and Horejsi, J. (2018, February 13). Deciphering Confucius: A Look at the Group's Cyberespionage Operations. Retrieved December 26, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has used mshta.exe to execute malicious VBScript.(Citation: TrendMicro Confucius APT Feb 2018) ",
+        "modified": "2022-04-18T12:38:31.034Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--d618ef5e-5d76-4014-8c86-9357c4c7f749",
+        "created": "2021-12-27T16:53:13.926Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Aug 2021",
+                "url": "https://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html",
+                "description": "Lunghi, D. (2021, August 17). Confucius Uses Pegasus Spyware-related Lures to Target Pakistani Military. Retrieved December 26, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has used a file stealer that checks the Document, Downloads, Desktop, and Picture folders for documents and images with specific extensions.(Citation: TrendMicro Confucius APT Aug 2021)",
+        "modified": "2022-04-07T21:28:04.807Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--decc0aea-70d2-42b8-8529-3049b9f5937f",
+        "created": "2021-12-27T16:53:13.921Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Uptycs Confucius APT Jan 2021",
+                "url": "https://www.uptycs.com/blog/confucius-apt-deploys-warzone-rat",
+                "description": "Uptycs Threat Research Team. (2021, January 12). Confucius APT deploys Warzone RAT. Retrieved December 17, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has dropped malicious files into the startup folder `%AppData%\\Microsoft\\Windows\\Start Menu\\Programs\\Startup` on a compromised host in order to maintain persistence.(Citation: Uptycs Confucius APT Jan 2021)",
+        "modified": "2022-06-30T20:15:32.709Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--eca69ead-d0af-4926-9faf-c82baea31296",
+        "created": "2021-12-27T16:53:13.967Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Aug 2021",
+                "url": "https://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html",
+                "description": "Lunghi, D. (2021, August 17). Confucius Uses Pegasus Spyware-related Lures to Target Pakistani Military. Retrieved December 26, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has created scheduled tasks to maintain persistence on a compromised host.(Citation: TrendMicro Confucius APT Aug 2021)",
+        "modified": "2022-04-18T12:34:52.938Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--f40b2e98-47a9-4cd6-a345-7e4618d896e7",
+        "created": "2021-12-27T16:53:13.996Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Uptycs Confucius APT Jan 2021",
+                "url": "https://www.uptycs.com/blog/confucius-apt-deploys-warzone-rat",
+                "description": "Uptycs Threat Research Team. (2021, January 12). Confucius APT deploys Warzone RAT. Retrieved December 17, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has lured victims to execute malicious attachments included in crafted spearphishing emails related to current topics.(Citation: Uptycs Confucius APT Jan 2021)",
+        "modified": "2022-06-30T20:15:32.710Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--f739246f-dd47-44bf-ae15-74fd7a053c7a",
+        "created": "2021-12-27T16:53:13.995Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Confucius APT Aug 2021",
+                "url": "https://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html",
+                "description": "Lunghi, D. (2021, August 17). Confucius Uses Pegasus Spyware-related Lures to Target Pakistani Military. Retrieved December 26, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Confucius](https://attack.mitre.org/groups/G0142) has used PowerShell to execute malicious files and payloads.(Citation: TrendMicro Confucius APT Aug 2021)",
+        "modified": "2022-04-07T22:47:00.110Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    }
+]

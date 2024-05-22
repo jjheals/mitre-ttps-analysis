@@ -1,0 +1,1627 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--01c46868-c510-4df1-93fe-31d1fa9eb62e",
+        "type": "relationship",
+        "created": "2020-10-09T13:41:46.602Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Visa Public. (2019, February). FIN6 Cybercrime Group Expands Threat to eCommerce Merchants. Retrieved September 16, 2019.",
+                "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/fin6-cybercrime-group-expands-threat-To-ecommerce-merchants.pdf",
+                "source_name": "Visa FIN6 Feb 2019"
+            }
+        ],
+        "modified": "2020-10-09T13:41:46.602Z",
+        "description": "(Citation: Visa FIN6 Feb 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "malware--432555de-63bf-4f2a-a3fa-f720a4561078",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0c78e3a7-45c5-454f-8905-a831fbede841",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.072Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            },
+            {
+                "source_name": "Trend Micro FIN6 October 2019",
+                "url": "https://www.trendmicro.com/en_us/research/19/j/fin6-compromised-e-commerce-platform-via-magecart-to-inject-credit-card-skimmers-into-thousands-of-online-shops.html",
+                "description": "Chen, J. (2019, October 10). Magecart Card Skimmers Injected Into Online Shops. Retrieved September 9, 2020."
+            }
+        ],
+        "modified": "2020-09-09T13:35:31.252Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has encoded data gathered from the victim with a simple substitution cipher and single-byte XOR using the 0xAA key, and Base64 with character permutation.(Citation: FireEye FIN6 April 2016)(Citation: Trend Micro FIN6 October 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--143c0cbb-a297-4142-9624-87ffc778980b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0e1bf920-fd5a-4859-bf55-62e5f9817289",
+        "type": "relationship",
+        "created": "2020-09-09T15:45:49.120Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Visa Public. (2019, February). FIN6 Cybercrime Group Expands Threat to eCommerce Merchants. Retrieved September 16, 2019.",
+                "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/fin6-cybercrime-group-expands-threat-To-ecommerce-merchants.pdf",
+                "source_name": "Visa FIN6 Feb 2019"
+            }
+        ],
+        "modified": "2020-09-09T15:45:49.120Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has targeted victims with e-mails containing malicious attachments.(Citation: Visa FIN6 Feb 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--16c7058c-8fa5-4477-8332-9e76fcb38924",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.071Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            }
+        ],
+        "modified": "2020-03-18T19:58:05.813Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used Metasploit\u2019s [PsExec](https://attack.mitre.org/software/S0029) NTDSGRAB module to obtain a copy of the victim's Active Directory database.(Citation: FireEye FIN6 April 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1f764874-0e08-4799-9487-a9e12c499c13",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.071Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            },
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-10-19T18:18:50.146Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used scripting to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--20c7d1a2-be94-4f58-83a9-7eb9e05c4449",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.072Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            }
+        ],
+        "modified": "2020-03-17T01:19:55.563Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) used the Plink command-line utility to create SSH tunnels to C2 servers.(Citation: FireEye FIN6 April 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--23749a96-a086-4e14-b6c1-44bc9c7d99c1",
+        "type": "relationship",
+        "created": "2020-10-09T13:47:23.614Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Visa Public. (2019, February). FIN6 Cybercrime Group Expands Threat to eCommerce Merchants. Retrieved September 16, 2019.",
+                "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/fin6-cybercrime-group-expands-threat-To-ecommerce-merchants.pdf",
+                "source_name": "Visa FIN6 Feb 2019"
+            }
+        ],
+        "modified": "2020-10-09T13:47:23.614Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has collected schemas and user accounts from systems running SQL Server.(Citation: Visa FIN6 Feb 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--2c8ae921-219f-42ab-a4a4-5736ef0f8bf8",
+        "created": "2020-10-08T20:15:21.341Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Visa FIN6 Feb 2019",
+                "description": "Visa Public. (2019, February). FIN6 Cybercrime Group Expands Threat to eCommerce Merchants. Retrieved September 16, 2019.",
+                "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/fin6-cybercrime-group-expands-threat-To-ecommerce-merchants.pdf"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-22T03:50:39.584Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used encoded PowerShell commands.(Citation: Visa FIN6 Feb 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2f5dca6f-7a62-4933-a003-16dbb6d234cb",
+        "type": "relationship",
+        "created": "2021-07-16T18:27:25.033Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Group IB GrimAgent July 2021",
+                "url": "https://gibnc.group-ib.com/s/Group-IB_GrimAgent_analysis#pdfviewer",
+                "description": "Priego, A. (2021, July). THE BROTHERS GRIM: THE REVERSING TALE OF GRIMAGENT MALWARE USED BY RYUK. Retrieved July 16, 2021."
+            }
+        ],
+        "modified": "2021-10-14T17:23:58.853Z",
+        "description": "(Citation: Group IB GrimAgent July 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "malware--c9b99d03-ff11-4a48-95f0-82660d582c25",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--31221040-295a-437a-ac4a-d85e0b5d9122",
+        "type": "relationship",
+        "created": "2020-10-09T13:28:48.189Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro FIN6 October 2019",
+                "url": "https://www.trendmicro.com/en_us/research/19/j/fin6-compromised-e-commerce-platform-via-magecart-to-inject-credit-card-skimmers-into-thousands-of-online-shops.html",
+                "description": "Chen, J. (2019, October 10). Magecart Card Skimmers Injected Into Online Shops. Retrieved September 9, 2020."
+            }
+        ],
+        "modified": "2020-10-09T13:28:48.189Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used malicious JavaScript to steal payment card data from e-commerce sites.(Citation: Trend Micro FIN6 October 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--41ba13d1-5681-402e-a847-08b7e7b12f42",
+        "type": "relationship",
+        "created": "2019-04-17T15:08:45.097Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-10-09T13:28:48.778Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used Pastebin and Google Storage to host content for their operations.(Citation: FireEye FIN6 Apr 2019)\t\n",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--46389d22-1f4d-4597-b03d-30b9ec4146df",
+        "created": "2020-09-09T13:53:35.121Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Trend Micro FIN6 October 2019",
+                "description": "Chen, J. (2019, October 10). Magecart Card Skimmers Injected Into Online Shops. Retrieved September 9, 2020.",
+                "url": "https://www.trendmicro.com/en_us/research/19/j/fin6-compromised-e-commerce-platform-via-magecart-to-inject-credit-card-skimmers-into-thousands-of-online-shops.html"
+            },
+            {
+                "source_name": "RiskIQ British Airways September 2018",
+                "description": "Klijnsma, Y. (2018, September 11). Inside the Magecart Breach of British Airways: How 22 Lines of Code Claimed 380,000 Victims. Retrieved September 9, 2020.",
+                "url": "https://web.archive.org/web/20181231220607/https://riskiq.com/blog/labs/magecart-british-airways-breach/"
+            },
+            {
+                "source_name": "RiskIQ Newegg September 2018",
+                "description": "Klijnsma, Y. (2018, September 19). Another Victim of the Magecart Assault Emerges: Newegg. Retrieved September 9, 2020.",
+                "url": "https://web.archive.org/web/20181209083100/https://www.riskiq.com/blog/labs/magecart-newegg/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-12-23T14:06:46.108Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has collected and exfiltrated payment card data from compromised systems.(Citation: Trend Micro FIN6 October 2019)(Citation: RiskIQ British Airways September 2018)(Citation: RiskIQ Newegg September 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4b45b720-a606-4c52-a28a-2ef298f9b42f",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.071Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            }
+        ],
+        "modified": "2020-10-08T14:44:54.343Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used Registry Run keys to establish persistence for its downloader tools known as HARDTACK and SHIPBREAD.(Citation: FireEye FIN6 April 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--51fa2148-9dba-4479-95d7-8d940511e10e",
+        "type": "relationship",
+        "created": "2020-10-09T15:35:15.414Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-10-09T15:35:15.414Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used <code>kill.bat</code> script to disable security tools.(Citation: FireEye FIN6 Apr 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--546bc8ea-9330-47a4-a5d1-d3fe89b1382b",
+        "type": "relationship",
+        "created": "2020-09-08T15:46:10.564Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "SentinelOne FrameworkPOS September 2019",
+                "url": "https://labs.sentinelone.com/fin6-frameworkpos-point-of-sale-malware-analysis-internals-2/",
+                "description": "Kremez, V. (2019, September 19). FIN6 \u201cFrameworkPOS\u201d: Point-of-Sale Malware Analysis & Internals. Retrieved September 8, 2020."
+            },
+            {
+                "source_name": "Crowdstrike Global Threat Report Feb 2018",
+                "description": "CrowdStrike. (2018, February 26). CrowdStrike 2018 Global Threat Report. Retrieved October 10, 2018.",
+                "url": "https://crowdstrike.lookbookhq.com/global-threat-report-2018-web/cs-2018-global-threat-report"
+            },
+            {
+                "description": "Visa Public. (2019, February). FIN6 Cybercrime Group Expands Threat to eCommerce Merchants. Retrieved September 16, 2019.",
+                "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/fin6-cybercrime-group-expands-threat-To-ecommerce-merchants.pdf",
+                "source_name": "Visa FIN6 Feb 2019"
+            }
+        ],
+        "modified": "2020-10-19T18:48:18.059Z",
+        "description": "(Citation: SentinelOne FrameworkPOS September 2019)(Citation: Crowdstrike Global Threat Report Feb 2018)(Citation: Visa FIN6 Feb 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "malware--1cdbbcab-903a-414d-8eb0-439a97343737",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5614b582-eeed-4a52-a2e0-2f756f03e26c",
+        "type": "relationship",
+        "created": "2021-10-12T20:50:46.945Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Villadsen, O.. (2019, August 29). More_eggs, Anyone? Threat Actor ITG08 Strikes Again. Retrieved September 16, 2019.",
+                "url": "https://securityintelligence.com/posts/more_eggs-anyone-threat-actor-itg08-strikes-again/",
+                "source_name": "Security Intelligence More Eggs Aug 2019"
+            },
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2021-10-12T20:50:46.945Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has obtained and used tools such as [Mimikatz](https://attack.mitre.org/software/S0002), [Cobalt Strike](https://attack.mitre.org/software/S0154), and [AdFind](https://attack.mitre.org/software/S0552).(Citation: Security Intelligence More Eggs Aug 2019)(Citation: FireEye FIN6 Apr 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--56682d47-48ad-4a8c-9f55-124f7cb90e5b",
+        "type": "relationship",
+        "created": "2020-10-08T20:15:21.359Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            }
+        ],
+        "modified": "2020-10-19T18:18:50.434Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has removed files from victim machines.(Citation: FireEye FIN6 April 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--56f53206-d15a-4b4d-8391-9d5dd5e0e403",
+        "type": "relationship",
+        "created": "2020-03-19T22:55:47.101Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye FIN6 April 2016",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf"
+            },
+            {
+                "source_name": "FireEye FIN6 Apr 2019",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019."
+            }
+        ],
+        "modified": "2020-03-19T22:55:47.101Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used Metasploit\u2019s [PsExec](https://attack.mitre.org/software/S0029) NTDSGRAB module to obtain a copy of the victim's Active Directory database.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5b8c6d74-6fa5-455b-8400-92fdda5c299e",
+        "type": "relationship",
+        "created": "2019-09-16T19:42:21.183Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Villadsen, O.. (2019, August 29). More_eggs, Anyone? Threat Actor ITG08 Strikes Again. Retrieved September 16, 2019.",
+                "url": "https://securityintelligence.com/posts/more_eggs-anyone-threat-actor-itg08-strikes-again/",
+                "source_name": "Security Intelligence More Eggs Aug 2019"
+            },
+            {
+                "description": "Visa Public. (2019, February). FIN6 Cybercrime Group Expands Threat to eCommerce Merchants. Retrieved September 16, 2019.",
+                "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/fin6-cybercrime-group-expands-threat-To-ecommerce-merchants.pdf",
+                "source_name": "Visa FIN6 Feb 2019"
+            }
+        ],
+        "modified": "2020-09-09T15:53:09.924Z",
+        "description": "(Citation: Security Intelligence More Eggs Aug 2019)(Citation: Visa FIN6 Feb 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "malware--bfd2738c-8b43-43c3-bc9f-d523c8e88bf4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--671cfed4-4809-4f53-a6b0-ff4da289e406",
+        "type": "relationship",
+        "created": "2020-09-08T14:19:02.613Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-09-08T14:19:02.613Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used has used Metasploit\u2019s named-pipe impersonation technique to escalate privileges.(Citation: FireEye FIN6 Apr 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--dcaa092b-7de9-4a21-977f-7fcb77e89c48",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6d520715-126a-4678-ba03-cbdd70fae8d0",
+        "type": "relationship",
+        "created": "2020-11-06T18:40:38.446Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-11-06T18:40:38.446Z",
+        "description": "(Citation: FireEye FIN6 Apr 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6ed5961a-224a-419b-b696-8962813158f2",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.072Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: FireEye FIN6 April 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "tool--242f3da3-4425-4d11-8f5c-b842886da966",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7107db7b-24f5-473e-9d01-ab858dcf3adc",
+        "type": "relationship",
+        "created": "2020-09-08T14:19:02.690Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-09-08T14:19:02.690Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has deployed a utility script named <code>kill.bat</code> to disable anti-virus.(Citation: FireEye FIN6 Apr 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--74e737cf-67fb-4f80-ac4e-0ddff90b6f8e",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.071Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used tools to exploit Windows vulnerabilities in order to escalate privileges. The tools targeted CVE-2013-3660, CVE-2011-2005, and CVE-2010-4398, all of which could allow local users to access kernel-level privileges.(Citation: FireEye FIN6 April 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7b7410ad-f09f-49e1-8077-9ffac9d77fcc",
+        "type": "relationship",
+        "created": "2020-12-28T19:02:09.181Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-12-28T19:02:09.181Z",
+        "description": "(Citation: FireEye FIN6 Apr 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "tool--f59508a6-3615-47c3-b493-6676e1a39a87",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--862d150d-ea3c-439e-9a56-b877935e5262",
+        "type": "relationship",
+        "created": "2020-09-09T15:45:49.103Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Visa Public. (2019, February). FIN6 Cybercrime Group Expands Threat to eCommerce Merchants. Retrieved September 16, 2019.",
+                "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/fin6-cybercrime-group-expands-threat-To-ecommerce-merchants.pdf",
+                "source_name": "Visa FIN6 Feb 2019"
+            }
+        ],
+        "modified": "2020-09-09T15:45:49.103Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used malicious documents to lure victims into allowing execution of PowerShell scripts.(Citation: Visa FIN6 Feb 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--87c11236-9f13-4179-aa6f-7b0fe9124a13",
+        "type": "relationship",
+        "created": "2019-04-17T15:08:45.079Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-03-18T00:06:41.717Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has renamed the \"psexec\" service name to \"mstdc\" to masquerade as a legitimate Windows service.(Citation: FireEye FIN6 Apr 2019)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--95914d60-80b6-432b-945a-316b93cb2a13",
+        "type": "relationship",
+        "created": "2019-09-16T18:46:37.655Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Villadsen, O.. (2019, August 29). More_eggs, Anyone? Threat Actor ITG08 Strikes Again. Retrieved September 16, 2019.",
+                "url": "https://securityintelligence.com/posts/more_eggs-anyone-threat-actor-itg08-strikes-again/",
+                "source_name": "Security Intelligence More Eggs Aug 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used fake job advertisements sent via LinkedIn to spearphish targets.(Citation: Security Intelligence More Eggs Aug 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--f6ad61ee-65f3-4bd0-a3f5-2f0accb36317",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--97ea3b82-58ba-4a3e-8e6d-367755f83fa6",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.071Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            },
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            },
+            {
+                "description": "Visa Public. (2019, February). FIN6 Cybercrime Group Expands Threat to eCommerce Merchants. Retrieved September 16, 2019.",
+                "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/fin6-cybercrime-group-expands-threat-To-ecommerce-merchants.pdf",
+                "source_name": "Visa FIN6 Feb 2019"
+            }
+        ],
+        "modified": "2020-09-09T15:53:09.648Z",
+        "description": " [FIN6](https://attack.mitre.org/groups/G0037) has used PowerShell to gain access to merchant's networks, and a Metasploit PowerShell module to download and execute shellcode and to set up a local listener.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)(Citation: Visa FIN6 Feb 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--98229d5a-fce3-442e-91cf-7ec7b7994248",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.072Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            }
+        ],
+        "modified": "2020-03-30T02:14:10.655Z",
+        "description": "Following data collection, [FIN6](https://attack.mitre.org/groups/G0037) has compressed log files into a ZIP archive prior to staging and exfiltration.(Citation: FireEye FIN6 April 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9c8fa95a-cbbe-4ef6-999d-21b4080b54f6",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.072Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            },
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a30f6573-061d-4df0-8c0d-0f6afc5fa96c",
+        "type": "relationship",
+        "created": "2019-09-16T18:46:37.624Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Villadsen, O.. (2019, August 29). More_eggs, Anyone? Threat Actor ITG08 Strikes Again. Retrieved September 16, 2019.",
+                "url": "https://securityintelligence.com/posts/more_eggs-anyone-threat-actor-itg08-strikes-again/",
+                "source_name": "Security Intelligence More Eggs Aug 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used Comodo code-signing certificates.(Citation: Security Intelligence More Eggs Aug 2019)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a317b097-b819-441b-b344-9f129ba6cb40",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.072Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            },
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) used RDP to move laterally in victim networks.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a5840067-79c4-4965-832c-ebca455cc17c",
+        "type": "relationship",
+        "created": "2020-09-09T15:19:32.155Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye Maze May 2020",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/05/tactics-techniques-procedures-associated-with-maze-ransomware-incidents.html",
+                "description": "Kennelly, J., Goody, K., Shilko, J. (2020, May 7). Navigating the MAZE: Tactics, Techniques and Procedures Associated With MAZE Ransomware Incidents. Retrieved May 18, 2020."
+            }
+        ],
+        "modified": "2020-09-09T15:19:32.155Z",
+        "description": "(Citation: FireEye Maze May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "malware--d9f7383c-95ec-4080-bbce-121c9384457b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ac7d5b88-7929-4f64-abcd-8219caafac24",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.072Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            },
+            {
+                "source_name": "Trend Micro FIN6 October 2019",
+                "url": "https://www.trendmicro.com/en_us/research/19/j/fin6-compromised-e-commerce-platform-via-magecart-to-inject-credit-card-skimmers-into-thousands-of-online-shops.html",
+                "description": "Chen, J. (2019, October 10). Magecart Card Skimmers Injected Into Online Shops. Retrieved September 9, 2020."
+            }
+        ],
+        "modified": "2020-10-09T13:28:48.437Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used a script to iterate through a list of compromised PoS systems, copy and remove data to a log file, and to bind to events from the submit payment button.(Citation: FireEye FIN6 April 2016)(Citation: Trend Micro FIN6 October 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ad7770c3-fe24-4285-9ce2-1616a1061472",
+        "type": "relationship",
+        "created": "2019-04-17T14:45:59.681Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: FireEye FIN6 Apr 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "malware--5af7a825-2d9f-400d-931a-e00eb9e27f48",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ade72dc6-559e-4a84-9024-1a862faec6a0",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.071Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) used publicly available tools (including Microsoft's built-in SQL querying tool, osql.exe) to map the internal network and conduct reconnaissance against Active Directory, Structured Query Language (SQL) servers, and NetBIOS.(Citation: FireEye FIN6 April 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--aea8401e-774e-47b1-86ac-220cacd11a3c",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.071Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            }
+        ],
+        "modified": "2020-10-19T18:18:50.020Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used scheduled tasks to establish persistence for various malware it uses, including downloaders known as HARDTACK and SHIPBREAD and [FrameworkPOS](https://attack.mitre.org/software/S0503).(Citation: FireEye FIN6 April 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b106e9ad-dbde-43c7-a38d-da5c87e1da05",
+        "type": "relationship",
+        "created": "2019-04-17T15:08:45.104Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has created Windows services to execute encoded PowerShell commands.(Citation: FireEye FIN6 Apr 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b1c49faa-0b6f-4a0e-85da-5ab8ddeab2ce",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.071Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) used publicly available tools (including Microsoft's built-in SQL querying tool, osql.exe) to map the internal network and conduct reconnaissance against Active Directory, Structured Query Language (SQL) servers, and NetBIOS.(Citation: FireEye FIN6 April 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b9349020-d0b1-4d48-94f1-74a4f3c79185",
+        "type": "relationship",
+        "created": "2020-10-09T13:30:46.643Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro FIN6 October 2019",
+                "url": "https://www.trendmicro.com/en_us/research/19/j/fin6-compromised-e-commerce-platform-via-magecart-to-inject-credit-card-skimmers-into-thousands-of-online-shops.html",
+                "description": "Chen, J. (2019, October 10). Magecart Card Skimmers Injected Into Online Shops. Retrieved September 9, 2020."
+            }
+        ],
+        "modified": "2020-10-19T18:18:50.448Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has sent stolen payment card data to remote servers via HTTP POSTs.(Citation: Trend Micro FIN6 October 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c8e9b49a-4509-407b-9d49-1c1d6f4cb794",
+        "type": "relationship",
+        "created": "2019-09-16T18:46:37.649Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Villadsen, O.. (2019, August 29). More_eggs, Anyone? Threat Actor ITG08 Strikes Again. Retrieved September 16, 2019.",
+                "url": "https://securityintelligence.com/posts/more_eggs-anyone-threat-actor-itg08-strikes-again/",
+                "source_name": "Security Intelligence More Eggs Aug 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used WMI to automate the remote execution of PowerShell scripts.(Citation: Security Intelligence More Eggs Aug 2019)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cef68296-665f-49ed-8a30-c91f8c00096f",
+        "type": "relationship",
+        "created": "2020-09-01T15:08:18.719Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            }
+        ],
+        "modified": "2020-09-01T15:08:18.719Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has extracted password hashes from ntds.dit to crack offline.(Citation: FireEye FIN6 April 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--1d24cdee-9ea2-4189-b08e-af110bf2435d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d2212e02-787a-4893-8ecd-d1ac6619bf9f",
+        "type": "relationship",
+        "created": "2020-09-09T15:57:51.730Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Visa Public. (2019, February). FIN6 Cybercrime Group Expands Threat to eCommerce Merchants. Retrieved September 16, 2019.",
+                "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/fin6-cybercrime-group-expands-threat-To-ecommerce-merchants.pdf",
+                "source_name": "Visa FIN6 Feb 2019"
+            }
+        ],
+        "modified": "2020-09-09T15:57:51.730Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used the Stealer One credential stealer to target e-mail and file transfer utilities including FTP.(Citation: Visa FIN6 Feb 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d6cb7440-c39c-4bc2-b30e-5264a7f8753c",
+        "type": "relationship",
+        "created": "2020-10-09T14:23:34.744Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro FIN6 October 2019",
+                "url": "https://www.trendmicro.com/en_us/research/19/j/fin6-compromised-e-commerce-platform-via-magecart-to-inject-credit-card-skimmers-into-thousands-of-online-shops.html",
+                "description": "Chen, J. (2019, October 10). Magecart Card Skimmers Injected Into Online Shops. Retrieved September 9, 2020."
+            }
+        ],
+        "modified": "2020-10-09T14:23:34.744Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used Metasploit Bind and Reverse TCP stagers.(Citation: Trend Micro FIN6 October 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--da395019-238a-4c4e-b4cd-43947e8aa019",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.072Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            },
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            },
+            {
+                "description": "Visa Public. (2019, February). FIN6 Cybercrime Group Expands Threat to eCommerce Merchants. Retrieved September 16, 2019.",
+                "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/fin6-cybercrime-group-expands-threat-To-ecommerce-merchants.pdf",
+                "source_name": "Visa FIN6 Feb 2019"
+            }
+        ],
+        "modified": "2020-09-09T15:53:09.750Z",
+        "description": "To move laterally on a victim network, [FIN6](https://attack.mitre.org/groups/G0037) has used credentials stolen from various systems on which it gathered usernames and password hashes.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)(Citation: Visa FIN6 Feb 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--de840f88-b9d0-4f7e-b5c0-b666faa2d92f",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.072Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            }
+        ],
+        "modified": "2020-03-20T23:51:21.195Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) used the Plink command-line utility to create SSH tunnels to C2 servers.(Citation: FireEye FIN6 April 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e0bc7e9b-aec8-4e78-baed-f635ee7bd196",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.071Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            },
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-03-19T22:55:47.201Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used [Windows Credential Editor](https://attack.mitre.org/software/S0005) for credential dumping.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)\t\n",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e9f5096e-b9fc-459a-a303-88763b1269cc",
+        "type": "relationship",
+        "created": "2020-05-14T14:41:42.975Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "modified": "2020-05-15T19:15:35.568Z",
+        "description": "(Citation: FireEye FIN6 Apr 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "malware--a020a61c-423f-4195-8c46-ba1d21abba37",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ed3bc4c8-f800-440f-8bb4-c5e8e4611eb3",
+        "type": "relationship",
+        "created": "2019-09-16T18:46:37.956Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Villadsen, O.. (2019, August 29). More_eggs, Anyone? Threat Actor ITG08 Strikes Again. Retrieved September 16, 2019.",
+                "url": "https://securityintelligence.com/posts/more_eggs-anyone-threat-actor-itg08-strikes-again/",
+                "source_name": "Security Intelligence More Eggs Aug 2019"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Security Intelligence More Eggs Aug 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f097444b-fa65-4457-943c-5061e29f9ef0",
+        "type": "relationship",
+        "created": "2020-09-09T15:57:51.673Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Visa Public. (2019, February). FIN6 Cybercrime Group Expands Threat to eCommerce Merchants. Retrieved September 16, 2019.",
+                "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/fin6-cybercrime-group-expands-threat-To-ecommerce-merchants.pdf",
+                "source_name": "Visa FIN6 Feb 2019"
+            }
+        ],
+        "modified": "2020-09-09T15:57:51.673Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used the Stealer One credential stealer to target web browsers.(Citation: Visa FIN6 Feb 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f875597f-06ce-4402-bfec-eb55e28369c2",
+        "type": "relationship",
+        "created": "2020-03-16T23:54:26.195Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FireEye FIN6 April 2016",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf"
+            }
+        ],
+        "modified": "2020-03-16T23:54:26.195Z",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) actors have compressed data from remote systems and moved it to another staging system before exfiltration.(Citation: FireEye FIN6 April 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "target_ref": "attack-pattern--359b00ad-9425-420b-bba5-6de8d600cbc0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "description": "(Citation: FireEye FIN6 Apr 2019)",
+        "id": "relationship--935681a5-d027-4c13-8565-54cd8505bf61",
+        "type": "relationship",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "created": "2019-04-17T14:45:59.674Z",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "relationship_type": "uses",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html",
+                "source_name": "FireEye FIN6 Apr 2019"
+            }
+        ],
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used tools like Adfind to query users, groups, organizational units, and trusts.(Citation: FireEye FIN6 Apr 2019)\t\n",
+        "id": "relationship--9fcb40e0-a3a8-4625-b889-0d623960aa3d",
+        "type": "relationship",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "created": "2019-04-17T15:08:45.101Z",
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "relationship_type": "uses",
+        "target_ref": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "id": "relationship--eaaf6671-ead6-441b-b8d0-037a1e47572e",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "description": "TRINITY malware used by [FIN6](https://attack.mitre.org/groups/G0037) identifies payment card track data on the victim and then copies it to a local file in a subdirectory of <code>C:\\Windows\\</code>.(Citation: FireEye FIN6 April 2016)",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "source_name": "FireEye FIN6 April 2016"
+            }
+        ],
+        "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "relationship_type": "uses",
+        "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
+        "type": "relationship",
+        "modified": "2020-10-27T14:49:39.188Z",
+        "created": "2017-05-31T21:33:27.072Z",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

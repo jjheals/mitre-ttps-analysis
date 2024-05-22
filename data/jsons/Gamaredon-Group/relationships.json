@@ -1,0 +1,1733 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--09677a24-20ac-4983-a97f-f1b54282b609",
+        "type": "relationship",
+        "created": "2022-02-17T16:21:31.926Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            }
+        ],
+        "modified": "2022-02-17T20:26:31.322Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has left taunting images and messages on the victims' desktops as proof of system access.(Citation: CERT-EE Gamaredon January 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--8c41090b-aa47-4331-986b-8c9a51a91103",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--109bbda3-f97a-4067-81d6-ed635f251282",
+        "type": "relationship",
+        "created": "2020-06-16T17:53:18.964Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-06-22T19:08:12.489Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used an Outlook VBA module on infected systems to send phishing emails with malicious attachments to other employees within the organization.(Citation: ESET Gamaredon June 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--9e7452df-5144-4b6e-b04a-b66dd4016747",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--12e24dfb-3b4c-4244-90c9-2f9675dc6eaa",
+        "type": "relationship",
+        "created": "2022-02-17T16:16:01.705Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            }
+        ],
+        "modified": "2022-02-17T16:16:01.705Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used WMI to execute scripts used for discovery.(Citation: CERT-EE Gamaredon January 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--16b915ff-7bf5-4032-b39a-9c8073847d77",
+        "type": "relationship",
+        "created": "2020-06-16T17:53:18.787Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            },
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            }
+        ],
+        "modified": "2022-02-21T16:18:11.205Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) macros can scan for Microsoft Word and Excel files to inject with additional malicious macros. [Gamaredon Group](https://attack.mitre.org/groups/G0047) has also used its backdoors to automatically list interesting files (such as Office documents) found on a system.(Citation: ESET Gamaredon June 2020)(Citation: Unit 42 Gamaredon February 2022)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1de5c5fb-ba73-446b-8596-225cb5bcb611",
+        "type": "relationship",
+        "created": "2020-08-31T15:06:48.148Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-08-31T15:06:48.148Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has deployed scripts on compromised systems that automatically scan for interesting documents.(Citation: ESET Gamaredon June 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--1e049e66-14ce-46d5-8af1-d93ea35f4aec",
+        "created": "2022-02-21T15:38:23.557Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used legitimate process names to hide malware including <code>svchosst</code>.(Citation: Unit 42 Gamaredon February 2022)",
+        "modified": "2022-04-19T15:02:18.407Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2278eb19-1ff4-4406-ab79-03108732330c",
+        "type": "relationship",
+        "created": "2020-06-16T17:53:18.779Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-06-16T17:53:18.779Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has compiled the source code for a downloader directly on the infected system using the built-in <code>Microsoft.CSharp.CSharpCodeProvider</code> class.(Citation: ESET Gamaredon June 2020)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--c726e0a2-a57a-4b7b-a973-d0f013246617",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--253b56a5-232f-44bc-af4d-85ccc12a0577",
+        "created": "2017-05-31T21:33:27.080Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            },
+            {
+                "source_name": "TrendMicro Gamaredon April 2020",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "description": "Kakara, H., Maruyama, E. (2020, April 17). Gamaredon APT Group Use Covid-19 Lure in Campaigns. Retrieved May 19, 2020."
+            },
+            {
+                "source_name": "Palo Alto Gamaredon Feb 2017",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
+                "description": "Kasza, A. and Reichel, D. (2017, February 27). The Gamaredon Group Toolset Evolution. Retrieved March 1, 2017."
+            },
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has downloaded additional malware and tools onto a compromised host.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: Microsoft Actinium February 2022)",
+        "modified": "2022-04-15T13:44:10.765Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--27bf147a-1e8b-481d-8910-3af3e64aa18c",
+        "created": "2022-02-17T15:40:15.864Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+            },
+            {
+                "source_name": "Symantec Shuckworm January 2022",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "description": "Symantec. (2022, January 31). Shuckworm Continues Cyber-Espionage Attacks Against Ukraine. Retrieved February 17, 2022."
+            },
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used VNC tools, including UltraVNC, to remotely interact with compromised hosts.(Citation: Symantec Shuckworm January 2022)(Citation: Microsoft Actinium February 2022)(Citation: Unit 42 Gamaredon February 2022)",
+        "modified": "2022-04-15T12:06:00.004Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--01327cde-66c4-4123-bf34-5f258d59457b",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--28c17b23-901c-46d5-84f2-544401f68d83",
+        "type": "relationship",
+        "created": "2020-06-16T17:53:18.782Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-06-16T17:53:18.782Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has obfuscated .NET executables by inserting junk code.(Citation: ESET Gamaredon June 2020)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--5bfccc3f-2326-4112-86cc-c1ece9d8a2b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--29e9bfd8-e2d3-4e25-8683-6605d99538de",
+        "type": "relationship",
+        "created": "2020-08-31T15:06:48.172Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-08-31T15:06:48.172Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) malware has used rundll32 to launch additional malicious components.(Citation: ESET Gamaredon June 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--3151bdb1-baa0-4098-ac1c-a98cc72d0a84",
+        "created": "2022-04-15T13:46:02.323Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: Microsoft Actinium February 2022)",
+        "modified": "2022-04-15T13:46:02.323Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "malware--03eb4a05-6a02-43f6-afb7-3c7835501828",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--35624bc2-caf0-4124-88e8-6f60ae52ed9c",
+        "type": "relationship",
+        "created": "2020-05-19T20:39:12.502Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Gamaredon April 2020",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "description": "Kakara, H., Maruyama, E. (2020, April 17). Gamaredon APT Group Use Covid-19 Lure in Campaigns. Retrieved May 19, 2020."
+            },
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            },
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            },
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+            },
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            },
+            {
+                "source_name": "Secureworks IRON TILDEN Profile",
+                "url": "https://www.secureworks.com/research/threat-profiles/iron-tilden",
+                "description": "Secureworks CTU. (n.d.). IRON TILDEN. Retrieved February 24, 2022."
+            }
+        ],
+        "modified": "2022-02-24T20:57:00.449Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has delivered spearphishing emails with malicious attachments to targets.(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: CERT-EE Gamaredon January 2021)(Citation: Microsoft Actinium February 2022)(Citation: Unit 42 Gamaredon February 2022)(Citation: Secureworks IRON TILDEN Profile)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--36112f24-7814-4c75-b5b7-a1205bb28b68",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.080Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Palo Alto Gamaredon Feb 2017",
+                "description": "Kasza, A. and Reichel, D. (2017, February 27). The Gamaredon Group Toolset Evolution. Retrieved March 1, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/"
+            },
+            {
+                "source_name": "TrendMicro Gamaredon April 2020",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "description": "Kakara, H., Maruyama, E. (2020, April 17). Gamaredon APT Group Use Covid-19 Lure in Campaigns. Retrieved May 19, 2020."
+            },
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            }
+        ],
+        "modified": "2022-02-17T16:16:01.724Z",
+        "description": "A [Gamaredon Group](https://attack.mitre.org/groups/G0047) file stealer can gather the victim's computer name and drive serial numbers to send to a C2 server.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: TrendMicro Gamaredon April 2020)(Citation: CERT-EE Gamaredon January 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3a6022ea-7647-4d61-8103-dd354d8dfd4d",
+        "type": "relationship",
+        "created": "2020-05-19T20:39:12.457Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Gamaredon April 2020",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "description": "Kakara, H., Maruyama, E. (2020, April 17). Gamaredon APT Group Use Covid-19 Lure in Campaigns. Retrieved May 19, 2020."
+            },
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            },
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            },
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+            },
+            {
+                "source_name": "Secureworks IRON TILDEN Profile",
+                "url": "https://www.secureworks.com/research/threat-profiles/iron-tilden",
+                "description": "Secureworks CTU. (n.d.). IRON TILDEN. Retrieved February 24, 2022."
+            }
+        ],
+        "modified": "2022-03-09T22:26:07.098Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has embedded malicious macros in document templates, which executed VBScript. [Gamaredon Group](https://attack.mitre.org/groups/G0047) has also delivered Microsoft Outlook VBA projects with embedded macros.(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: CERT-EE Gamaredon January 2021)(Citation: Microsoft Actinium February 2022)(Citation: Secureworks IRON TILDEN Profile)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3a9117f6-9244-4d09-a69b-43afbb4d2998",
+        "type": "relationship",
+        "created": "2020-06-16T17:53:18.390Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-06-16T17:53:18.390Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047)'s malware can take screenshots of the compromised computer every minute.(Citation: ESET Gamaredon June 2020)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--430afd29-f2c0-43d3-b7bf-e7a549960254",
+        "type": "relationship",
+        "created": "2020-06-16T17:53:18.764Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-06-16T17:53:18.764Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has collected files from infected systems and uploaded them to a C2 server.(Citation: ESET Gamaredon June 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4716b9ec-a0d4-47db-a901-5a3b67d9e096",
+        "type": "relationship",
+        "created": "2020-08-31T15:06:48.160Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-08-31T15:06:48.160Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) malware has collected Microsoft Office documents from mapped network drives.(Citation: ESET Gamaredon June 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4973197d-b2b7-4da2-ad4f-245beca0b389",
+        "type": "relationship",
+        "created": "2022-02-18T15:27:32.696Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+            },
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            }
+        ],
+        "modified": "2022-02-21T15:29:39.442Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has registered domains to stage payloads.(Citation: Microsoft Actinium February 2022)(Citation: Unit 42 Gamaredon February 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4f33536d-eb06-4eba-8765-4379e399f3b8",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.080Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Palo Alto Gamaredon Feb 2017",
+                "description": "Kasza, A. and Reichel, D. (2017, February 27). The Gamaredon Group Toolset Evolution. Retrieved March 1, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/"
+            },
+            {
+                "source_name": "Symantec Shuckworm January 2022",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "description": "Symantec. (2022, January 31). Shuckworm Continues Cyber-Espionage Attacks Against Ukraine. Retrieved February 17, 2022."
+            },
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+            },
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            },
+            {
+                "source_name": "Secureworks IRON TILDEN Profile",
+                "url": "https://www.secureworks.com/research/threat-profiles/iron-tilden",
+                "description": "Secureworks CTU. (n.d.). IRON TILDEN. Retrieved February 24, 2022."
+            }
+        ],
+        "modified": "2022-02-24T21:00:56.053Z",
+        "description": "(Citation: Palo Alto Gamaredon Feb 2017)(Citation: Symantec Shuckworm January 2022)(Citation: Microsoft Actinium February 2022)(Citation: Unit 42 Gamaredon February 2022)(Citation: Secureworks IRON TILDEN Profile)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5edb6931-3262-40a9-acce-3016ac4153d4",
+        "type": "relationship",
+        "created": "2020-06-16T17:53:19.061Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            },
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            }
+        ],
+        "modified": "2022-02-17T16:16:01.882Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has removed security settings for VBA macro execution by changing registry values <code>HKCU\\Software\\Microsoft\\Office\\&lt;version&gt;\\&lt;product&gt;\\Security\\VBAWarnings</code> and <code>HKCU\\Software\\Microsoft\\Office\\&lt;version&gt;\\&lt;product&gt;\\Security\\AccessVBOM</code>.(Citation: ESET Gamaredon June 2020)(Citation: CERT-EE Gamaredon January 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--5fc69974-db3b-4475-b37b-07c4731b1a6f",
+        "created": "2022-04-15T13:50:12.466Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Symantec Shuckworm January 2022",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "description": "Symantec. (2022, January 31). Shuckworm Continues Cyber-Espionage Attacks Against Ukraine. Retrieved February 17, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has tested connectivity between a compromised machine and a C2 server using  [Ping](https://attack.mitre.org/software/S0097) with commands such as `CSIDL_SYSTEM\\cmd.exe /c ping -n 1`.(Citation: Symantec Shuckworm January 2022)",
+        "modified": "2022-04-18T18:03:39.811Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--132d5b37-aac5-4378-a8dc-3127b18a73dc",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--69513daf-2acd-4b04-a7be-9f31174a2ae9",
+        "type": "relationship",
+        "created": "2020-06-16T17:53:18.768Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-06-22T18:27:32.047Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) malware can insert malicious macros into documents using a <code>Microsoft.Office.Interop</code> object.(Citation: ESET Gamaredon June 2020)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--2f6b4ed7-fef1-44ba-bcb8-1b4beb610b64",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7464b3a1-f7ab-481b-97d4-c98199e0a387",
+        "type": "relationship",
+        "created": "2020-06-16T17:53:18.825Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-06-16T17:53:18.825Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has delivered macros which can tamper with Microsoft Office security settings.(Citation: ESET Gamaredon June 2020)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--788e8246-d835-42c6-b8b4-7efad31e4a84",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.080Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Palo Alto Gamaredon Feb 2017",
+                "description": "Kasza, A. and Reichel, D. (2017, February 27). The Gamaredon Group Toolset Evolution. Retrieved March 1, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/"
+            },
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-06-22T17:54:16.016Z",
+        "description": "A [Gamaredon Group](https://attack.mitre.org/groups/G0047) file stealer has the capability to steal data from newly connected logical volumes on a system, including USB drives.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: ESET Gamaredon June 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7cabf1a6-5ad3-4c5d-83e8-161d49e082ac",
+        "type": "relationship",
+        "created": "2020-05-19T20:39:12.459Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Proofpoint RTF Injection",
+                "url": "https://www.proofpoint.com/us/blog/threat-insight/injection-new-black-novel-rtf-template-inject-technique-poised-widespread",
+                "description": "Raggi, M. (2021, December 1). Injection is the New Black: Novel RTF Template Inject Technique Poised for Widespread Adoption\u202fBeyond APT Actors\u202f. Retrieved December 9, 2021."
+            },
+            {
+                "source_name": "TrendMicro Gamaredon April 2020",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "description": "Kakara, H., Maruyama, E. (2020, April 17). Gamaredon APT Group Use Covid-19 Lure in Campaigns. Retrieved May 19, 2020."
+            },
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            },
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            },
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+            },
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            },
+            {
+                "source_name": "Secureworks IRON TILDEN Profile",
+                "url": "https://www.secureworks.com/research/threat-profiles/iron-tilden",
+                "description": "Secureworks CTU. (n.d.). IRON TILDEN. Retrieved February 24, 2022."
+            }
+        ],
+        "modified": "2022-02-24T20:57:00.461Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used DOCX files to download malicious DOT document templates and has used RTF template injection to download malicious payloads.(Citation: Proofpoint RTF Injection) [Gamaredon Group](https://attack.mitre.org/groups/G0047) can also inject malicious macros or remote templates into documents already present on compromised systems.(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: CERT-EE Gamaredon January 2021)(Citation: Microsoft Actinium February 2022)(Citation: Unit 42 Gamaredon February 2022)(Citation: Secureworks IRON TILDEN Profile)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--dc31fe1e-d722-49da-8f5f-92c7b5aff534",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--86bcc5c3-456e-4bac-a419-54f54af80325",
+        "type": "relationship",
+        "created": "2020-05-19T20:39:12.455Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Gamaredon April 2020",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "description": "Kakara, H., Maruyama, E. (2020, April 17). Gamaredon APT Group Use Covid-19 Lure in Campaigns. Retrieved May 19, 2020."
+            },
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-08-31T15:06:48.443Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) tools decrypted additional payloads from the C2. [Gamaredon Group](https://attack.mitre.org/groups/G0047) has also decoded base64-encoded source code of a downloader.(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9b2ff8c9-3811-4615-a0c7-d79a14b7ade6",
+        "type": "relationship",
+        "created": "2020-08-31T15:06:48.169Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-08-31T15:06:48.169Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has injected malicious macros into all Word and Excel documents on mapped network drives.(Citation: ESET Gamaredon June 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9c51f7a2-346b-4ef9-ade0-ac2c5c845c27",
+        "type": "relationship",
+        "created": "2020-06-22T21:18:35.451Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-06-22T21:18:35.451Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) malware has used <code>CreateProcess</code> to launch additional malicious components.(Citation: ESET Gamaredon June 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a2e09ef2-2511-476b-8759-264843b4d772",
+        "type": "relationship",
+        "created": "2022-02-17T16:21:31.929Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            }
+        ],
+        "modified": "2022-02-17T16:21:31.929Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used tools to delete files and folders from victims' desktops and profiles.(Citation: CERT-EE Gamaredon January 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--d45a3d09-b3cf-48f4-9f0f-f521ee5cb05c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a5ffea60-7694-48cd-92e9-b755669b2fdb",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.080Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Palo Alto Gamaredon Feb 2017",
+                "description": "Kasza, A. and Reichel, D. (2017, February 27). The Gamaredon Group Toolset Evolution. Retrieved March 1, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/"
+            }
+        ],
+        "modified": "2020-06-22T17:54:15.767Z",
+        "description": "A [Gamaredon Group](https://attack.mitre.org/groups/G0047) file stealer can gather the victim's username to send to a C2 server.(Citation: Palo Alto Gamaredon Feb 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a987bd4f-dcb3-4fa8-8ca3-b76cfea921f6",
+        "type": "relationship",
+        "created": "2022-02-21T15:35:14.717Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            }
+        ],
+        "modified": "2022-02-21T15:35:14.717Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used <code>hidcon</code> to run batch files in a hidden console window.(Citation: Unit 42 Gamaredon February 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--bda5489b-7735-4793-8816-fc2238f6957f",
+        "created": "2020-05-19T20:39:12.429Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            },
+            {
+                "source_name": "TrendMicro Gamaredon April 2020",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "description": "Kakara, H., Maruyama, E. (2020, April 17). Gamaredon APT Group Use Covid-19 Lure in Campaigns. Retrieved May 19, 2020."
+            },
+            {
+                "source_name": "Symantec Shuckworm January 2022",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "description": "Symantec. (2022, January 31). Shuckworm Continues Cyber-Espionage Attacks Against Ukraine. Retrieved February 17, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) tools can delete files used during an operation.(Citation: TrendMicro Gamaredon April 2020)(Citation: Symantec Shuckworm January 2022)(Citation: CERT-EE Gamaredon January 2021)",
+        "modified": "2022-04-15T11:55:41.880Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c14a954c-5d6d-4f29-8542-934e0fa5e9d3",
+        "type": "relationship",
+        "created": "2022-02-18T15:13:56.312Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+            }
+        ],
+        "modified": "2022-02-18T15:13:56.312Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used obfuscated PowerShell scripts for staging.(Citation: Microsoft Actinium February 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c623d41f-3af0-4e3a-bf4f-8550bec85b37",
+        "type": "relationship",
+        "created": "2020-08-31T15:06:48.118Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-08-31T15:06:48.118Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used modules that automatically upload gathered documents to the C2 server.(Citation: ESET Gamaredon June 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--774a3188-6ba9-4dc4-879d-d54ee48a5ce9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--c63c7dc5-e374-4bf0-9839-0f940ac6d46c",
+        "created": "2017-05-31T21:33:27.080Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            },
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            },
+            {
+                "source_name": "TrendMicro Gamaredon April 2020",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "description": "Kakara, H., Maruyama, E. (2020, April 17). Gamaredon APT Group Use Covid-19 Lure in Campaigns. Retrieved May 19, 2020."
+            },
+            {
+                "source_name": "Palo Alto Gamaredon Feb 2017",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
+                "description": "Kasza, A. and Reichel, D. (2017, February 27). The Gamaredon Group Toolset Evolution. Retrieved March 1, 2017."
+            },
+            {
+                "source_name": "Symantec Shuckworm January 2022",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "description": "Symantec. (2022, January 31). Shuckworm Continues Cyber-Espionage Attacks Against Ukraine. Retrieved February 17, 2022."
+            },
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used HTTP and HTTPS for C2 communications.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: Symantec Shuckworm January 2022)(Citation: CERT-EE Gamaredon January 2021)(Citation: Unit 42 Gamaredon February 2022)",
+        "modified": "2022-04-15T14:08:47.248Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ccdab928-86cd-4e6d-b477-0ec156f6105a",
+        "type": "relationship",
+        "created": "2022-02-18T15:21:51.169Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+            },
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            }
+        ],
+        "modified": "2022-02-21T15:11:39.858Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has registered multiple domains to facilitate payload staging and C2.(Citation: Microsoft Actinium February 2022)(Citation: Unit 42 Gamaredon February 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d30d8fa0-7f24-41e5-ae8d-e4449e88d2f0",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.080Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Palo Alto Gamaredon Feb 2017",
+                "description": "Kasza, A. and Reichel, D. (2017, February 27). The Gamaredon Group Toolset Evolution. Retrieved March 1, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/"
+            },
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-06-22T17:54:15.755Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) tools have contained an application to check performance of USB flash drives. [Gamaredon Group](https://attack.mitre.org/groups/G0047) has also used malware to scan for removable drives.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: ESET Gamaredon June 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d361058d-a11b-470d-bed8-44bfd8e50393",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.080Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Palo Alto Gamaredon Feb 2017",
+                "description": "Kasza, A. and Reichel, D. (2017, February 27). The Gamaredon Group Toolset Evolution. Retrieved March 1, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/"
+            }
+        ],
+        "modified": "2020-06-22T17:54:15.519Z",
+        "description": "A [Gamaredon Group](https://attack.mitre.org/groups/G0047) file stealer can transfer collected files to a hardcoded C2 server.(Citation: Palo Alto Gamaredon Feb 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--d65c9c85-2206-46c0-b55b-4fe2bd022c41",
+        "created": "2020-06-16T17:53:18.776Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            },
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            },
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has created scheduled tasks to launch executables after a designated number of minutes have passed.(Citation: ESET Gamaredon June 2020)(Citation: CERT-EE Gamaredon January 2021)(Citation: Microsoft Actinium February 2022)\t",
+        "modified": "2022-04-18T18:04:36.627Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d77885d0-46e0-47b7-9cc2-6a396c570b12",
+        "type": "relationship",
+        "created": "2022-02-17T15:07:29.359Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Shuckworm January 2022",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "description": "Symantec. (2022, January 31). Shuckworm Continues Cyber-Espionage Attacks Against Ukraine. Retrieved February 17, 2022."
+            }
+        ],
+        "modified": "2022-02-17T15:07:29.359Z",
+        "description": "(Citation: Symantec Shuckworm January 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--dd84b767-1623-421b-8f31-048924be5f17",
+        "created": "2020-06-16T17:53:19.063Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020.",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-22T04:36:22.386Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has delivered self-extracting 7z archive files within malicious document attachments.(Citation: ESET Gamaredon June 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--dfe4c167-8e69-4b15-912f-ccd437674423",
+        "created": "2022-02-17T15:51:18.114Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "Symantec Shuckworm January 2022",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "description": "Symantec. (2022, January 31). Shuckworm Continues Cyber-Espionage Attacks Against Ukraine. Retrieved February 17, 2022."
+            },
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used tools to enumerate processes on target hosts including Process Explorer.(Citation: Symantec Shuckworm January 2022)(Citation: Unit 42 Gamaredon February 2022)",
+        "modified": "2022-04-18T18:00:51.202Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e17c193a-d616-42d3-9525-940f3424c96c",
+        "created": "2023-03-22T04:37:02.631Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020.",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+            },
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022.",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-22T04:37:02.631Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used obfuscated or encrypted scripts.(Citation: ESET Gamaredon June 2020)(Citation: Microsoft Actinium February 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--e1b5c306-3f7a-4d69-b30f-450b9054679a",
+        "created": "2022-04-15T13:45:35.852Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: Microsoft Actinium February 2022)",
+        "modified": "2022-04-15T13:45:35.852Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "malware--d52291b4-bb23-45a8-aef0-3dc7e986ba15",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e84791af-7bdb-4fe9-8e03-7a10a154c9a4",
+        "type": "relationship",
+        "created": "2020-05-19T20:39:12.495Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Gamaredon April 2020",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "description": "Kakara, H., Maruyama, E. (2020, April 17). Gamaredon APT Group Use Covid-19 Lure in Campaigns. Retrieved May 19, 2020."
+            },
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            },
+            {
+                "source_name": "Symantec Shuckworm January 2022",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "description": "Symantec. (2022, January 31). Shuckworm Continues Cyber-Espionage Attacks Against Ukraine. Retrieved February 17, 2022."
+            },
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            },
+            {
+                "source_name": "Microsoft Actinium February 2022",
+                "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "description": "Microsoft Threat Intelligence Center. (2022, February 4). ACTINIUM targets Ukrainian organizations. Retrieved February 18, 2022."
+            },
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            },
+            {
+                "source_name": "Secureworks IRON TILDEN Profile",
+                "url": "https://www.secureworks.com/research/threat-profiles/iron-tilden",
+                "description": "Secureworks CTU. (n.d.). IRON TILDEN. Retrieved February 24, 2022."
+            }
+        ],
+        "modified": "2022-02-24T20:57:00.192Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has attempted to get users to click on Office attachments with malicious macros embedded.(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: Symantec Shuckworm January 2022)(Citation: CERT-EE Gamaredon January 2021)(Citation: Microsoft Actinium February 2022)(Citation: Unit 42 Gamaredon February 2022)(Citation: Secureworks IRON TILDEN Profile)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--eb77b635-6f00-4975-b36e-63c7a5c48e3c",
+        "type": "relationship",
+        "created": "2022-02-21T15:11:39.231Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            }
+        ],
+        "modified": "2022-02-21T15:11:39.231Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has incorporated dynamic DNS domains in its infrastructure.(Citation: Unit 42 Gamaredon February 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--7bd9c723-2f78-4309-82c5-47cad406572b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f2d0fd0d-7bfc-4f3e-bd78-2d691c476046",
+        "type": "relationship",
+        "created": "2020-05-19T20:39:12.450Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Gamaredon April 2020",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "description": "Kakara, H., Maruyama, E. (2020, April 17). Gamaredon APT Group Use Covid-19 Lure in Campaigns. Retrieved May 19, 2020."
+            },
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            },
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            }
+        ],
+        "modified": "2022-02-17T16:24:30.355Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) tools have registered Run keys in the registry to give malicious VBS files persistence.(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: CERT-EE Gamaredon January 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f73df541-6b55-42d1-aec3-53660fda1508",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.080Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Palo Alto Gamaredon Feb 2017",
+                "description": "Kasza, A. and Reichel, D. (2017, February 27). The Gamaredon Group Toolset Evolution. Retrieved March 1, 2017.",
+                "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/"
+            },
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            },
+            {
+                "source_name": "CERT-EE Gamaredon January 2021",
+                "url": "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "description": "CERT-EE. (2021, January 27). Gamaredon Infection: From Dropper to Entry. Retrieved February 17, 2022."
+            },
+            {
+                "source_name": "Unit 42 Gamaredon February 2022",
+                "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "description": "Unit 42. (2022, February 3). Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine. Retrieved February 21, 2022."
+            }
+        ],
+        "modified": "2022-02-21T15:35:15.184Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used various batch scripts to establish C2 and download additional files. [Gamaredon Group](https://attack.mitre.org/groups/G0047)'s backdoor malware has also been written to a batch file.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: ESET Gamaredon June 2020)(Citation: CERT-EE Gamaredon January 2021)(Citation: Unit 42 Gamaredon February 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--f76be4ac-f342-4904-b50d-06e28b878011",
+        "created": "2022-04-15T13:42:41.186Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Symantec Shuckworm January 2022",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "description": "Symantec. (2022, January 31). Shuckworm Continues Cyber-Espionage Attacks Against Ukraine. Retrieved February 17, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used `mshta.exe` to execute malicious HTA files.(Citation: Symantec Shuckworm January 2022)",
+        "modified": "2022-04-15T13:42:41.186Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f78a5009-59ec-4ae2-89a0-44b8be49a140",
+        "type": "relationship",
+        "created": "2020-06-22T19:08:12.265Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-06-22T19:08:12.265Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has inserted malicious macros into existing documents, providing persistence when they are reopened. [Gamaredon Group](https://attack.mitre.org/groups/G0047) has loaded the group's previously delivered VBA project by relaunching Microsoft Outlook with the <code>/altvba</code> option, once the Application.Startup event is received.(Citation: ESET Gamaredon June 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--2c4d4e92-0ccf-4a97-b54c-86d662988a53",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fa7887c3-d49d-4499-9ee4-f9a504ce7dec",
+        "type": "relationship",
+        "created": "2020-06-16T17:53:18.771Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Gamaredon June 2020",
+                "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+                "description": "Boutin, J. (2020, June 11). Gamaredon group grows its game. Retrieved June 16, 2020."
+            }
+        ],
+        "modified": "2020-06-22T18:52:36.952Z",
+        "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used GitHub repositories for downloaders which will be obtained by the group's .NET executable on the compromised system.(Citation: ESET Gamaredon June 2020)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+        "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

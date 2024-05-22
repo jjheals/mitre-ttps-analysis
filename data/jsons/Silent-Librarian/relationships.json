@@ -1,0 +1,446 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1a2119a2-6a39-4062-b90c-bffd15b259ec",
+        "type": "relationship",
+        "created": "2021-02-04T14:12:26.131Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Phish Labs Silent Librarian",
+                "url": "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+                "description": "Hassold, Crane. (2018, March 26). Silent Librarian: More to the Story of the Iranian Mabna Institute Indictment. Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Secureworks COBALT DICKENS September 2019",
+                "url": "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+                "description": "Counter Threat Unit Research Team. (2019, September 11). COBALT DICKENS Goes Back to School\u2026Again. Retrieved February 3, 2021."
+            }
+        ],
+        "modified": "2021-02-04T14:43:12.963Z",
+        "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has obtained free Let's Encrypt SSL certificates for use on their phishing pages.(Citation: Phish Labs Silent Librarian)(Citation: Secureworks COBALT DICKENS September 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+        "target_ref": "attack-pattern--19401639-28d0-4c3c-adcc-bc2ba22f6421",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--33201f98-6367-4f36-a581-98fd4d1203fa",
+        "type": "relationship",
+        "created": "2021-02-03T16:59:34.743Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ Iran Indictments March 2018",
+                "url": "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+                "description": "DOJ. (2018, March 23). U.S. v. Rafatnejad et al . Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Phish Labs Silent Librarian",
+                "url": "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+                "description": "Hassold, Crane. (2018, March 26). Silent Librarian: More to the Story of the Iranian Mabna Institute Indictment. Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Proofpoint TA407 September 2019",
+                "url": "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+                "description": "Proofpoint Threat Insight Team. (2019, September 5). Threat Actor Profile: TA407, the Silent Librarian. Retrieved February 3, 2021."
+            }
+        ],
+        "modified": "2021-02-04T14:43:12.883Z",
+        "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has searched victim's websites to identify the interests and academic areas of targeted individuals and to scrape source code, branding, and organizational contact information for phishing pages.(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation: Proofpoint TA407 September 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+        "target_ref": "attack-pattern--16cdd21f-da65-4e4f-bc04-dd7d198c7b26",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--406fbbc1-408a-4f59-8f0c-0f670eb60879",
+        "type": "relationship",
+        "created": "2021-02-03T18:34:46.539Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ Iran Indictments March 2018",
+                "url": "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+                "description": "DOJ. (2018, March 23). U.S. v. Rafatnejad et al . Retrieved February 3, 2021."
+            }
+        ],
+        "modified": "2021-04-21T11:55:51.109Z",
+        "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has exfiltrated entire mailboxes from compromised accounts.(Citation: DOJ Iran Indictments March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+        "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--44866cfd-7d8f-45f6-906b-5b4992aa69e0",
+        "type": "relationship",
+        "created": "2021-02-03T16:59:34.737Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ Iran Indictments March 2018",
+                "url": "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+                "description": "DOJ. (2018, March 23). U.S. v. Rafatnejad et al . Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Phish Labs Silent Librarian",
+                "url": "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+                "description": "Hassold, Crane. (2018, March 26). Silent Librarian: More to the Story of the Iranian Mabna Institute Indictment. Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Secureworks COBALT DICKENS August 2018",
+                "url": "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+                "description": "Counter Threat Unit Research Team. (2018, August 24). Back to School: COBALT DICKENS Targets Universities. Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Proofpoint TA407 September 2019",
+                "url": "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+                "description": "Proofpoint Threat Insight Team. (2019, September 5). Threat Actor Profile: TA407, the Silent Librarian. Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Secureworks COBALT DICKENS September 2019",
+                "url": "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+                "description": "Counter Threat Unit Research Team. (2019, September 11). COBALT DICKENS Goes Back to School\u2026Again. Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Malwarebytes Silent Librarian October 2020",
+                "url": "https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, October 14). Silent Librarian APT right on schedule for 20/21 academic year. Retrieved February 3, 2021."
+            }
+        ],
+        "modified": "2021-02-04T14:49:40.477Z",
+        "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has used links in e-mails to direct victims to credential harvesting websites designed to appear like the targeted organization's login page.(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation: Secureworks COBALT DICKENS August 2018)(Citation: Proofpoint TA407 September 2019)(Citation: Secureworks COBALT DICKENS September 2019)(Citation: Malwarebytes Silent Librarian October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+        "target_ref": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--53608455-3b90-45b1-9006-da343efa52d4",
+        "type": "relationship",
+        "created": "2021-02-03T18:26:21.896Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ Iran Indictments March 2018",
+                "url": "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+                "description": "DOJ. (2018, March 23). U.S. v. Rafatnejad et al . Retrieved February 3, 2021."
+            }
+        ],
+        "modified": "2021-02-03T18:26:21.896Z",
+        "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has collected lists of names for individuals from targeted organizations.(Citation: DOJ Iran Indictments March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+        "target_ref": "attack-pattern--76551c52-b111-4884-bc47-ff3e728f0156",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--67f029d5-c44b-446b-9efe-0e0e0d85192a",
+        "type": "relationship",
+        "created": "2021-02-03T18:34:46.363Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ Iran Indictments March 2018",
+                "url": "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+                "description": "DOJ. (2018, March 23). U.S. v. Rafatnejad et al . Retrieved February 3, 2021."
+            }
+        ],
+        "modified": "2021-02-03T18:34:46.363Z",
+        "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has set up auto forwarding rules on compromised e-mail accounts.(Citation: DOJ Iran Indictments March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+        "target_ref": "attack-pattern--7d77a07d-02fe-4e88-8bd9-e9c008c01bf0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--83219112-6e5b-43ea-a7a7-78213f28397f",
+        "type": "relationship",
+        "created": "2021-02-03T18:40:49.321Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ Iran Indictments March 2018",
+                "url": "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+                "description": "DOJ. (2018, March 23). U.S. v. Rafatnejad et al . Retrieved February 3, 2021."
+            }
+        ],
+        "modified": "2021-02-03T18:40:49.321Z",
+        "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has established e-mail accounts to receive e-mails forwarded from compromised accounts.(Citation: DOJ Iran Indictments March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+        "target_ref": "attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--87661f05-f448-49be-afa8-d8198a1c0092",
+        "type": "relationship",
+        "created": "2021-02-03T18:26:21.905Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ Iran Indictments March 2018",
+                "url": "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+                "description": "DOJ. (2018, March 23). U.S. v. Rafatnejad et al . Retrieved February 3, 2021."
+            }
+        ],
+        "modified": "2021-04-21T02:25:51.085Z",
+        "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has collected e-mail addresses from targeted organizations from open Internet searches.(Citation: DOJ Iran Indictments March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+        "target_ref": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9038cd4b-182b-469f-ac45-83dedf5110c9",
+        "type": "relationship",
+        "created": "2021-04-20T03:06:40.236Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Secureworks COBALT DICKENS September 2019",
+                "url": "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+                "description": "Counter Threat Unit Research Team. (2019, September 11). COBALT DICKENS Goes Back to School\u2026Again. Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Malwarebytes Silent Librarian October 2020",
+                "url": "https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, October 14). Silent Librarian APT right on schedule for 20/21 academic year. Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Proofpoint TA407 September 2019",
+                "url": "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+                "description": "Proofpoint Threat Insight Team. (2019, September 5). Threat Actor Profile: TA407, the Silent Librarian. Retrieved February 3, 2021."
+            }
+        ],
+        "modified": "2021-04-20T03:14:15.249Z",
+        "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has cloned victim organization login pages and staged them for later use in credential harvesting campaigns. [Silent Librarian](https://attack.mitre.org/groups/G0122) has also made use of a variety of URL shorteners for these staged websites.(Citation: Secureworks COBALT DICKENS September 2019)(Citation: Malwarebytes Silent Librarian October 2020)(Citation: Proofpoint TA407 September 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+        "target_ref": "attack-pattern--84ae8255-b4f4-4237-b5c5-e717405a9701",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--93edbfc7-c1be-4c2c-aa2c-9b15f53f6528",
+        "type": "relationship",
+        "created": "2021-02-03T18:19:48.693Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ Iran Indictments March 2018",
+                "url": "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+                "description": "DOJ. (2018, March 23). U.S. v. Rafatnejad et al . Retrieved February 3, 2021."
+            }
+        ],
+        "modified": "2021-02-03T18:26:21.959Z",
+        "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has used collected lists of names and e-mail accounts to use in password spraying attacks against private sector targets.(Citation: DOJ Iran Indictments March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+        "target_ref": "attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b85fdb75-ec29-4bc9-921d-b11ebd8528dc",
+        "type": "relationship",
+        "created": "2021-02-03T18:13:28.308Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ Iran Indictments March 2018",
+                "url": "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+                "description": "DOJ. (2018, March 23). U.S. v. Rafatnejad et al . Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Phish Labs Silent Librarian",
+                "url": "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+                "description": "Hassold, Crane. (2018, March 26). Silent Librarian: More to the Story of the Iranian Mabna Institute Indictment. Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Secureworks COBALT DICKENS August 2018",
+                "url": "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+                "description": "Counter Threat Unit Research Team. (2018, August 24). Back to School: COBALT DICKENS Targets Universities. Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Proofpoint TA407 September 2019",
+                "url": "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+                "description": "Proofpoint Threat Insight Team. (2019, September 5). Threat Actor Profile: TA407, the Silent Librarian. Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Secureworks COBALT DICKENS September 2019",
+                "url": "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+                "description": "Counter Threat Unit Research Team. (2019, September 11). COBALT DICKENS Goes Back to School\u2026Again. Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Malwarebytes Silent Librarian October 2020",
+                "url": "https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack/",
+                "description": "Malwarebytes Threat Intelligence Team. (2020, October 14). Silent Librarian APT right on schedule for 20/21 academic year. Retrieved February 3, 2021."
+            }
+        ],
+        "modified": "2021-04-21T02:25:51.044Z",
+        "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has acquired domains to establish credential harvesting pages, often spoofing the target organization and using free top level domains .TK, .ML, .GA, .CF, and .GQ.(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation: Secureworks COBALT DICKENS August 2018)(Citation: Proofpoint TA407 September 2019)(Citation: Secureworks COBALT DICKENS September 2019)(Citation: Malwarebytes Silent Librarian October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+        "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d970ba14-4c96-4f98-a1e1-4417f52b76f3",
+        "type": "relationship",
+        "created": "2021-02-04T14:30:37.973Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Proofpoint TA407 September 2019",
+                "url": "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+                "description": "Proofpoint Threat Insight Team. (2019, September 5). Threat Actor Profile: TA407, the Silent Librarian. Retrieved February 3, 2021."
+            },
+            {
+                "source_name": "Secureworks COBALT DICKENS September 2019",
+                "url": "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+                "description": "Counter Threat Unit Research Team. (2019, September 11). COBALT DICKENS Goes Back to School\u2026Again. Retrieved February 3, 2021."
+            }
+        ],
+        "modified": "2021-04-21T02:25:51.099Z",
+        "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has obtained free and publicly available tools including SingleFile and HTTrack to copy login pages of targeted organizations.(Citation: Proofpoint TA407 September 2019)(Citation: Secureworks COBALT DICKENS September 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e85549b5-77c8-426a-b7ea-fec30b05973f",
+        "type": "relationship",
+        "created": "2021-02-03T18:13:28.321Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "DOJ Iran Indictments March 2018",
+                "url": "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+                "description": "DOJ. (2018, March 23). U.S. v. Rafatnejad et al . Retrieved February 3, 2021."
+            }
+        ],
+        "modified": "2021-04-21T11:59:13.573Z",
+        "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has used compromised credentials to obtain unauthorized access to online accounts.(Citation: DOJ Iran Indictments March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+        "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

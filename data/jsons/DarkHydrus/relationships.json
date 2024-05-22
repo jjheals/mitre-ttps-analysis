@@ -1,0 +1,350 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--17aef45b-9a3c-4192-af31-4a21300a90e0",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+                "description": "Falcone, R., et al. (2018, July 27). New Threat Actor Group DarkHydrus Targets Middle East Government. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 DarkHydrus July 2018"
+            },
+            {
+                "url": "https://pan-unit42.github.io/playbook_viewer/",
+                "description": "Unit 42. (2017, December 15). Unit 42 Playbook Viewer. Retrieved December 20, 2017.",
+                "source_name": "Unit 42 Playbook Dec 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Unit 42 DarkHydrus July 2018)(Citation: Unit 42 Playbook Dec 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2b91534d-4687-457b-bcb0-96be9357fa6d",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+                "description": "Falcone, R., et al. (2018, July 27). New Threat Actor Group DarkHydrus Targets Middle East Government. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 DarkHydrus July 2018"
+            },
+            {
+                "url": "https://pan-unit42.github.io/playbook_viewer/",
+                "description": "Unit 42. (2017, December 15). Unit 42 Playbook Viewer. Retrieved December 20, 2017.",
+                "source_name": "Unit 42 Playbook Dec 2017"
+            }
+        ],
+        "modified": "2020-03-17T14:13:21.682Z",
+        "description": "[DarkHydrus](https://attack.mitre.org/groups/G0079) has sent malware that required users to hit the enable button in Microsoft Excel to allow an .iqy file to be downloaded.(Citation: Unit 42 DarkHydrus July 2018)(Citation: Unit 42 Playbook Dec 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2db02b07-4dd3-4810-9103-1f8d7bd46a60",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2018/08/unit42-darkhydrus-uses-phishery-harvest-credentials-middle-east/",
+                "description": "Falcone, R. (2018, August 07). DarkHydrus Uses Phishery to Harvest Credentials in the Middle East. Retrieved August 10, 2018.",
+                "source_name": "Unit 42 Phishery Aug 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[DarkHydrus](https://attack.mitre.org/groups/G0079) used [Template Injection](https://attack.mitre.org/techniques/T1221) to launch an authentication window for users to enter their credentials.(Citation: Unit 42 Phishery Aug 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01",
+        "target_ref": "attack-pattern--b77cf5f3-6060-475d-bd60-40ccbf28fdc2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--87f40abf-4ee5-4f56-8150-97e0dd823a93",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+                "description": "Falcone, R., et al. (2018, July 27). New Threat Actor Group DarkHydrus Targets Middle East Government. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 DarkHydrus July 2018"
+            },
+            {
+                "source_name": "Unit42 DarkHydrus Jan 2019",
+                "url": "https://unit42.paloaltonetworks.com/darkhydrus-delivers-new-trojan-that-can-use-google-drive-for-c2-communications/",
+                "description": "Lee, B., Falcone, R. (2019, January 18). DarkHydrus delivers new Trojan that can use Google Drive for C2 communications. Retrieved April 17, 2019."
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Unit 42 DarkHydrus July 2018)(Citation: Unit42 DarkHydrus Jan 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01",
+        "target_ref": "malware--8ec6e3b4-b06d-4805-b6aa-af916acc2122",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8d1da663-a3eb-4464-9be1-b43b8671e599",
+        "type": "relationship",
+        "created": "2020-11-06T18:40:38.326Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+                "description": "Falcone, R., et al. (2018, July 27). New Threat Actor Group DarkHydrus Targets Middle East Government. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 DarkHydrus July 2018"
+            },
+            {
+                "url": "https://pan-unit42.github.io/playbook_viewer/",
+                "description": "Unit 42. (2017, December 15). Unit 42 Playbook Viewer. Retrieved December 20, 2017.",
+                "source_name": "Unit 42 Playbook Dec 2017"
+            }
+        ],
+        "modified": "2020-11-06T18:40:38.326Z",
+        "description": "(Citation: Unit 42 DarkHydrus July 2018)(Citation: Unit 42 Playbook Dec 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ab3cf933-236f-4255-9ca6-24826f9bbe99",
+        "type": "relationship",
+        "created": "2019-10-10T22:19:43.951Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Unit 42 DarkHydrus July 2018",
+                "description": "Falcone, R., et al. (2018, July 27). New Threat Actor Group DarkHydrus Targets Middle East Government. Retrieved August 2, 2018.",
+                "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/"
+            }
+        ],
+        "modified": "2021-02-09T13:51:14.503Z",
+        "description": "[DarkHydrus](https://attack.mitre.org/groups/G0079) has used <code>-WindowStyle Hidden</code> to conceal [PowerShell](https://attack.mitre.org/techniques/T1059/001) windows. (Citation: Unit 42 DarkHydrus July 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01",
+        "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--da3fc762-2ac5-4ab7-8c77-6df2f06b5680",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+                "description": "Falcone, R., et al. (2018, July 27). New Threat Actor Group DarkHydrus Targets Middle East Government. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 DarkHydrus July 2018"
+            },
+            {
+                "url": "https://pan-unit42.github.io/playbook_viewer/",
+                "description": "Unit 42. (2017, December 15). Unit 42 Playbook Viewer. Retrieved December 20, 2017.",
+                "source_name": "Unit 42 Playbook Dec 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[DarkHydrus](https://attack.mitre.org/groups/G0079) leveraged PowerShell to download and execute additional scripts for execution.(Citation: Unit 42 DarkHydrus July 2018)(Citation: Unit 42 Playbook Dec 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e3425903-a09d-44e2-b033-daadc8208ff5",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+                "description": "Falcone, R., et al. (2018, July 27). New Threat Actor Group DarkHydrus Targets Middle East Government. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 DarkHydrus July 2018"
+            },
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2018/08/unit42-darkhydrus-uses-phishery-harvest-credentials-middle-east/",
+                "description": "Falcone, R. (2018, August 07). DarkHydrus Uses Phishery to Harvest Credentials in the Middle East. Retrieved August 10, 2018.",
+                "source_name": "Unit 42 Phishery Aug 2018"
+            },
+            {
+                "url": "https://pan-unit42.github.io/playbook_viewer/",
+                "description": "Unit 42. (2017, December 15). Unit 42 Playbook Viewer. Retrieved December 20, 2017.",
+                "source_name": "Unit 42 Playbook Dec 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[DarkHydrus](https://attack.mitre.org/groups/G0079) has sent spearphishing emails with password-protected RAR archives containing malicious Excel Web Query files (.iqy). The group has also sent spearphishing emails that contained malicious Microsoft Office documents that use the \u201cattachedTemplate\u201d technique to load a template from a remote server.(Citation: Unit 42 DarkHydrus July 2018)(Citation: Unit 42 Phishery Aug 2018)(Citation: Unit 42 Playbook Dec 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e3a3186e-2ce7-4d46-836e-dc024464ede7",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2018/08/unit42-darkhydrus-uses-phishery-harvest-credentials-middle-east/",
+                "description": "Falcone, R. (2018, August 07). DarkHydrus Uses Phishery to Harvest Credentials in the Middle East. Retrieved August 10, 2018.",
+                "source_name": "Unit 42 Phishery Aug 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[DarkHydrus](https://attack.mitre.org/groups/G0079) used an open-source tool, Phishery, to inject malicious remote template URLs into Microsoft Word documents and then sent them to victims to enable [Forced Authentication](https://attack.mitre.org/techniques/T1187).(Citation: Unit 42 Phishery Aug 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01",
+        "target_ref": "attack-pattern--dc31fe1e-d722-49da-8f5f-92c7b5aff534",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fd49b386-9455-4a23-b5eb-b673e58b9d3a",
+        "type": "relationship",
+        "created": "2021-10-12T19:52:22.587Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+                "description": "Falcone, R., et al. (2018, July 27). New Threat Actor Group DarkHydrus Targets Middle East Government. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 DarkHydrus July 2018"
+            }
+        ],
+        "modified": "2021-10-12T19:52:22.587Z",
+        "description": "[DarkHydrus](https://attack.mitre.org/groups/G0079) has obtained and used tools such as [Mimikatz](https://attack.mitre.org/software/S0002), [Empire](https://attack.mitre.org/software/S0363), and [Cobalt Strike](https://attack.mitre.org/software/S0154).(Citation: Unit 42 DarkHydrus July 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "id": "relationship--12547d20-24ca-4145-98b3-dc0849f78ef1",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+                "description": "Falcone, R., et al. (2018, July 27). New Threat Actor Group DarkHydrus Targets Middle East Government. Retrieved August 2, 2018.",
+                "source_name": "Unit 42 DarkHydrus July 2018"
+            },
+            {
+                "url": "https://pan-unit42.github.io/playbook_viewer/",
+                "description": "Unit 42. (2017, December 15). Unit 42 Playbook Viewer. Retrieved December 20, 2017.",
+                "source_name": "Unit 42 Playbook Dec 2017"
+            }
+        ],
+        "description": "(Citation: Unit 42 DarkHydrus July 2018)(Citation: Unit 42 Playbook Dec 2017)",
+        "type": "relationship",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "created": "2018-10-17T00:14:20.652Z",
+        "source_ref": "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01",
+        "relationship_type": "uses",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

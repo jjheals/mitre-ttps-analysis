@@ -1,0 +1,620 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--09673a33-d15e-460a-8980-55c67ee2bb19",
+        "type": "relationship",
+        "created": "2021-10-17T15:10:00.720Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            }
+        ],
+        "modified": "2021-10-17T15:10:00.720Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has used tools such as [NBTscan](https://attack.mitre.org/software/S0590) to enumerate network shares.(Citation: TrendMicro Tonto Team October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--16e906b5-011b-476d-a00d-78e514e7354c",
+        "type": "relationship",
+        "created": "2021-05-21T20:19:59.899Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Exchange Mar 2021",
+                "url": "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/",
+                "description": "Faou, M., Tartare, M., Dupuy, T. (2021, March 10). Exchange servers under siege from at least 10 APT groups. Retrieved May 21, 2021."
+            }
+        ],
+        "modified": "2021-05-21T20:19:59.899Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) abuses a legitimate and signed Microsoft executable to launch a malicious DLL.(Citation: ESET Exchange Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1dcca5db-e03e-4330-8705-76aaedcf295f",
+        "type": "relationship",
+        "created": "2021-10-17T20:56:22.408Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            }
+        ],
+        "modified": "2021-10-17T20:56:22.408Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has routed their traffic through an external server in order to obfuscate their location.(Citation: TrendMicro Tonto Team October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--27f561f4-2631-4d82-b384-4e7a208ba484",
+        "type": "relationship",
+        "created": "2021-10-17T15:10:00.657Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            }
+        ],
+        "modified": "2021-10-17T15:10:00.657Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has used Python-based tools for execution.(Citation: TrendMicro Tonto Team October 2020) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--420064ce-0bfd-4daa-9e4c-4b197634be19",
+        "type": "relationship",
+        "created": "2021-05-05T17:56:59.112Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky CactusPete Aug 2020",
+                "url": "https://securelist.com/cactuspete-apt-groups-updated-bisonal-backdoor/97962/",
+                "description": "Zykov, K. (2020, August 13). CactusPete APT group\u2019s updated Bisonal backdoor. Retrieved May 5, 2021."
+            }
+        ],
+        "modified": "2021-05-05T17:56:59.112Z",
+        "description": "(Citation: Kaspersky CactusPete Aug 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--481fedde-ac7d-4d1b-a70a-b90ccd7acc52",
+        "type": "relationship",
+        "created": "2021-10-17T15:10:00.603Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            }
+        ],
+        "modified": "2021-10-17T15:10:00.603Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has used the <code>ShowLocalGroupDetails</code> command to identify administrator, user, and guest accounts on a compromised host.(Citation: TrendMicro Tonto Team October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--a01bf75f-00b2-4568-a58f-565ff9bf202b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4d2c0b15-fb83-4ec1-9e3c-3b0707519278",
+        "type": "relationship",
+        "created": "2021-05-05T17:19:35.885Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky CactusPete Aug 2020",
+                "url": "https://securelist.com/cactuspete-apt-groups-updated-bisonal-backdoor/97962/",
+                "description": "Zykov, K. (2020, August 13). CactusPete APT group\u2019s updated Bisonal backdoor. Retrieved May 5, 2021."
+            },
+            {
+                "source_name": "Secureworks BRONZE HUNTLEY ",
+                "url": "https://www.secureworks.com/research/threat-profiles/bronze-huntley",
+                "description": "Secureworks. (2021, January 1). BRONZE HUNTLEY Threat Profile. Retrieved May 5, 2021."
+            },
+            {
+                "source_name": "Talos Bisonal Mar 2020",
+                "url": "https://blog.talosintelligence.com/2020/03/bisonal-10-years-of-play.html",
+                "description": "Mercer, W., et al. (2020, March 5). Bisonal: 10 years of play. Retrieved January 26, 2022."
+            }
+        ],
+        "modified": "2022-01-27T17:51:43.772Z",
+        "description": "(Citation: Kaspersky CactusPete Aug 2020)(Citation: Secureworks BRONZE HUNTLEY )(Citation: Talos Bisonal Mar 2020) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "malware--65ffc206-d7c1-45b3-b543-f6b726e7840d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--61ecf569-fd27-4c61-b1a9-a516fba16fac",
+        "type": "relationship",
+        "created": "2021-10-17T15:10:00.617Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            }
+        ],
+        "modified": "2021-10-17T15:10:00.617Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has used keylogging tools in their operations.(Citation: TrendMicro Tonto Team October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6d4b2be8-946d-4ae7-a897-a5c92b00c512",
+        "type": "relationship",
+        "created": "2021-05-05T17:19:35.877Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Kaspersky CactusPete Aug 2020",
+                "url": "https://securelist.com/cactuspete-apt-groups-updated-bisonal-backdoor/97962/",
+                "description": "Zykov, K. (2020, August 13). CactusPete APT group\u2019s updated Bisonal backdoor. Retrieved May 5, 2021."
+            }
+        ],
+        "modified": "2021-05-05T17:28:05.235Z",
+        "description": "(Citation: Kaspersky CactusPete Aug 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6e43af09-b4bb-46dc-87f3-e2b72e70b47a",
+        "type": "relationship",
+        "created": "2021-10-17T15:10:00.711Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            }
+        ],
+        "modified": "2021-10-17T15:10:00.711Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has used a variety of credential dumping tools.(Citation: TrendMicro Tonto Team October 2020) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9b6bebc2-caf5-4b22-847d-ef43881f9bd6",
+        "type": "relationship",
+        "created": "2021-05-21T20:19:59.948Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Exchange Mar 2021",
+                "url": "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/",
+                "description": "Faou, M., Tartare, M., Dupuy, T. (2021, March 10). Exchange servers under siege from at least 10 APT groups. Retrieved May 21, 2021."
+            }
+        ],
+        "modified": "2021-05-21T20:19:59.948Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has used a first stage web shell after compromising a vulnerable Exchange server.(Citation: ESET Exchange Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a779fd0b-0fa0-4bcd-837f-4d3e12482ca1",
+        "type": "relationship",
+        "created": "2021-10-17T15:10:00.722Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            }
+        ],
+        "modified": "2021-10-17T15:10:00.722Z",
+        "description": "(Citation: TrendMicro Tonto Team October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--af7d7ff9-c74e-48da-9e6d-029161746afd",
+        "created": "2021-05-05T17:56:59.097Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            },
+            {
+                "source_name": "Talos Bisonal Mar 2020",
+                "url": "https://blog.talosintelligence.com/2020/03/bisonal-10-years-of-play.html",
+                "description": "Mercer, W., et al. (2020, March 5). Bisonal: 10 years of play. Retrieved January 26, 2022."
+            },
+            {
+                "source_name": "Talos Bisonal 10 Years March 2020",
+                "url": "https://blog.talosintelligence.com/2020/03/bisonal-10-years-of-play.html",
+                "description": "Warren Mercer, Paul Rascagneres, Vitor Ventura. (2020, March 6). Bisonal 10 Years of Play. Retrieved October 17, 2021."
+            },
+            {
+                "source_name": "Kaspersky CactusPete Aug 2020",
+                "url": "https://securelist.com/cactuspete-apt-groups-updated-bisonal-backdoor/97962/",
+                "description": "Zykov, K. (2020, August 13). CactusPete APT group\u2019s updated Bisonal backdoor. Retrieved May 5, 2021."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has exploited Microsoft vulnerabilities, including CVE-2018-0798, CVE-2018-8174, CVE-2018-0802, CVE-2017-11882, CVE-2019-9489 CVE-2020-8468, and CVE-2018-0798 to enable execution of their delivered malicious payloads.(Citation: Kaspersky CactusPete Aug 2020)(Citation: TrendMicro Tonto Team October 2020)(Citation: Talos Bisonal Mar 2020)(Citation: Talos Bisonal 10 Years March 2020) ",
+        "modified": "2022-04-13T19:14:37.880Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ba2d135f-cce4-4548-9298-ff8ed0d07dc7",
+        "type": "relationship",
+        "created": "2021-05-05T17:56:59.086Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            },
+            {
+                "source_name": "Talos Bisonal Mar 2020",
+                "url": "https://blog.talosintelligence.com/2020/03/bisonal-10-years-of-play.html",
+                "description": "Mercer, W., et al. (2020, March 5). Bisonal: 10 years of play. Retrieved January 26, 2022."
+            }
+        ],
+        "modified": "2022-01-27T17:51:43.051Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has relied on user interaction to open their malicious RTF documents.(Citation: TrendMicro Tonto Team October 2020)(Citation: Talos Bisonal Mar 2020) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c20cc0d1-fe0b-4683-b6ed-bbb8736fe2ca",
+        "type": "relationship",
+        "created": "2021-10-17T15:10:00.758Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            }
+        ],
+        "modified": "2021-10-17T15:10:00.758Z",
+        "description": "(Citation: TrendMicro Tonto Team October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "tool--b63970b7-ddfb-4aee-97b1-80d335e033a8",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cbadd419-3f8c-485a-a458-09caed90d82e",
+        "type": "relationship",
+        "created": "2021-05-05T17:56:59.100Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            }
+        ],
+        "modified": "2021-10-17T15:10:00.779Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has delivered payloads via spearphishing attachments.(Citation: TrendMicro Tonto Team October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d393d40d-d18a-4d89-9cc8-b57d3afaa9bf",
+        "type": "relationship",
+        "created": "2021-10-17T15:10:00.610Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            }
+        ],
+        "modified": "2021-10-17T15:10:00.610Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has used EternalBlue exploits for lateral movement.(Citation: TrendMicro Tonto Team October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d850b604-f451-4f58-aa8e-6fb2e2a307d0",
+        "type": "relationship",
+        "created": "2021-05-21T20:19:59.930Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Exchange Mar 2021",
+                "url": "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/",
+                "description": "Faou, M., Tartare, M., Dupuy, T. (2021, March 10). Exchange servers under siege from at least 10 APT groups. Retrieved May 21, 2021."
+            }
+        ],
+        "modified": "2021-05-21T20:19:59.930Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has used PowerShell to download additional payloads.(Citation: ESET Exchange Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d8d1b814-2a28-402f-ab3b-f64c6d9974ce",
+        "type": "relationship",
+        "created": "2021-10-17T15:10:00.732Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            }
+        ],
+        "modified": "2021-10-17T15:10:00.732Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has exploited CVE-2019-0803 and MS16-032 to escalate privileges.(Citation: TrendMicro Tonto Team October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fb03b86a-02d4-4079-815f-46369026ad17",
+        "type": "relationship",
+        "created": "2021-05-21T20:19:59.906Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET Exchange Mar 2021",
+                "url": "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/",
+                "description": "Faou, M., Tartare, M., Dupuy, T. (2021, March 10). Exchange servers under siege from at least 10 APT groups. Retrieved May 21, 2021."
+            }
+        ],
+        "modified": "2021-05-21T20:19:59.906Z",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has downloaded malicious DLLs which served as a [ShadowPad](https://attack.mitre.org/software/S0596) loader.(Citation: ESET Exchange Mar 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fcc1d2e7-f41d-4a06-85c6-f00ea602ddac",
+        "type": "relationship",
+        "created": "2021-10-17T15:10:00.772Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            }
+        ],
+        "modified": "2021-10-17T15:10:00.772Z",
+        "description": "(Citation: TrendMicro Tonto Team October 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "target_ref": "tool--b07c2c47-fefb-4d7c-a69e-6a3296171f54",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

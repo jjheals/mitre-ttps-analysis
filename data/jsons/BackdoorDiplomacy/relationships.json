@@ -1,0 +1,562 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--034b1ca2-8202-4eb9-9fbe-b519ed3dd5a8",
+        "type": "relationship",
+        "created": "2021-09-21T15:16:40.912Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-07T16:28:04.670Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has obfuscated tools and malware it uses with VMProtect.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1ea2c546-6719-4695-93e6-891c3bad6194",
+        "type": "relationship",
+        "created": "2021-09-21T21:13:33.355Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-09-21T21:13:33.355Z",
+        "description": "(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "malware--350f12cf-fd3b-4dad-b323-14b943090df4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--368ed1d6-0ce4-457c-b0b8-aad079d7a28e",
+        "type": "relationship",
+        "created": "2021-09-21T14:52:49.737Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-09-21T17:11:52.836Z",
+        "description": "(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3740c99a-3d2d-4ea3-ae6e-2a3bfcf572f3",
+        "type": "relationship",
+        "created": "2021-10-07T16:43:58.710Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-07T16:43:58.710Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has used web shells to establish an initial foothold and for lateral movement within a victim's system.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3f4096d5-06d8-4a1e-bb31-0e2b37d5f622",
+        "type": "relationship",
+        "created": "2021-09-21T15:16:40.909Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-07T20:19:55.937Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has exploited CVE-2020-5902, an F5 BIP-IP vulnerability, to drop a Linux backdoor. [BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has also exploited mis-configured Plesk servers.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--41e2d922-5014-479d-85ba-da70ad6aa44b",
+        "type": "relationship",
+        "created": "2021-09-21T15:16:40.914Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-07T16:28:04.669Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has obtained a variety of open-source reconnaissance and red team tools for discovery and lateral movement.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5017f2dc-e43e-438b-b63f-5f3f4603e9db",
+        "type": "relationship",
+        "created": "2021-09-21T15:16:40.902Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-07T16:28:04.671Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has dropped implants in folders named for legitimate software.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5893fbd3-f3c0-4332-b2e3-e6a07142ef9d",
+        "type": "relationship",
+        "created": "2021-09-21T15:16:40.893Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-07T16:28:04.532Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has dropped legitimate software onto a compromised host and used it to execute malicious DLLs.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8ac0d84e-76ce-4702-8616-2a2f9b41cfdc",
+        "type": "relationship",
+        "created": "2021-09-21T14:52:49.735Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-09-21T17:11:52.844Z",
+        "description": "(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8b26be81-0112-43be-a3e5-a94d5b15c738",
+        "type": "relationship",
+        "created": "2021-09-21T14:52:49.734Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-09-21T17:11:52.859Z",
+        "description": "(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "tool--b63970b7-ddfb-4aee-97b1-80d335e033a8",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b683c558-074d-4e29-808f-6d86948dd5d0",
+        "type": "relationship",
+        "created": "2021-09-21T15:16:40.897Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-07T16:28:04.587Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has downloaded additional files and tools onto a compromised host.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bc592166-c29c-4913-b8a0-ec266321a325",
+        "type": "relationship",
+        "created": "2021-09-21T14:52:49.732Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-09-21T17:11:52.855Z",
+        "description": "(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "tool--da04ac30-27da-4959-a67d-450ce47d9470",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c37f69b0-176a-483d-b75c-3b0c84e03276",
+        "type": "relationship",
+        "created": "2021-10-07T16:43:58.716Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-07T16:43:58.716Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has copied files of interest to the main drive's recycle bin.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c92f6bab-4dfc-443d-903c-35318b80a396",
+        "type": "relationship",
+        "created": "2021-09-21T15:16:40.900Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-07T16:28:04.634Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has used SMBTouch, a vulnerability scanner, to determine whether a target is vulnerable to EternalBlue malware.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cdcf94e0-b105-49c0-8f62-64f7350a5658",
+        "type": "relationship",
+        "created": "2021-09-21T15:16:40.908Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-07T16:28:04.650Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has used NetCat and PortQry  to enumerate network connections and display the status of related TCP and UDP ports.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d758de81-c572-45dc-94ed-67a4dc1da3fe",
+        "type": "relationship",
+        "created": "2021-10-07T16:43:58.718Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-07T16:43:58.718Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has used an executable to detect removable media, such as USB flash drives.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d92f4be1-6745-45a2-bfbb-c4cb227682d2",
+        "type": "relationship",
+        "created": "2021-09-21T15:16:40.911Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-18T13:04:48.927Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has used EarthWorm for network tunneling with a SOCKS5 server and port transfer functionalities.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e4fe7d70-a0c9-4d2b-ba4a-0d6bc2e08f0e",
+        "type": "relationship",
+        "created": "2021-09-21T15:16:40.899Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-07T16:28:04.597Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has executed DLL search order hijacking.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ed5bd47a-cdc4-4962-b956-dd3ae7c00024",
+        "type": "relationship",
+        "created": "2021-09-21T15:16:40.896Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-10-07T16:28:04.570Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has obtained and used leaked malware, including DoublePulsar, EternalBlue, EternalRocks, and EternalSynergy, in its operations.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--7807d3a4-a885-4639-a786-c1ed41484970",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f7fee577-ea37-4d2b-9353-8bfada984f55",
+        "type": "relationship",
+        "created": "2021-09-21T15:16:40.910Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "ESET BackdoorDiplomacy Jun 2021",
+                "url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+                "description": "Adam Burgher. (2021, June 10). BackdoorDiplomacy: Upgrading from Quarian to Turian. Retrieved September 1, 2021"
+            }
+        ],
+        "modified": "2021-09-21T21:13:33.396Z",
+        "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has disguised their backdoor droppers with naming conventions designed to blend into normal operations.(Citation: ESET BackdoorDiplomacy Jun 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+        "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

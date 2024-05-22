@@ -1,0 +1,592 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--01455ab2-2769-4eab-9df2-e7e5f707e7c6",
+        "type": "relationship",
+        "created": "2020-05-05T20:54:53.136Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro BlackTech June 2017",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/following-trail-blacktech-cyber-espionage-campaigns/",
+                "description": "Bermejo, L., et al. (2017, June 22). Following the Trail of BlackTech\u2019s Cyber Espionage Campaigns. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-05-05T20:54:53.136Z",
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has used spearphishing e-mails with links to cloud services to deliver malware.(Citation: TrendMicro BlackTech June 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--036d9e28-e7c4-4865-b964-2ea213274521",
+        "type": "relationship",
+        "created": "2020-05-05T20:54:53.107Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro BlackTech June 2017",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/following-trail-blacktech-cyber-espionage-campaigns/",
+                "description": "Bermejo, L., et al. (2017, June 22). Following the Trail of BlackTech\u2019s Cyber Espionage Campaigns. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-05-05T20:54:53.107Z",
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has used e-mails with malicious links to lure victims into installing malware.(Citation: TrendMicro BlackTech June 2017)\t ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--036f4704-ce28-49cf-bb57-e4ce5079981e",
+        "type": "relationship",
+        "created": "2020-05-06T15:48:01.780Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro BlackTech June 2017",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/following-trail-blacktech-cyber-espionage-campaigns/",
+                "description": "Bermejo, L., et al. (2017, June 22). Following the Trail of BlackTech\u2019s Cyber Espionage Campaigns. Retrieved May 5, 2020."
+            },
+            {
+                "source_name": "JPCert PLEAD Downloader June 2018",
+                "url": "https://blogs.jpcert.or.jp/en/2018/03/malware-tscooki-7aa0.html",
+                "description": "Tomonaga, S. (2018, June 8). PLEAD Downloader Used by BlackTech. Retrieved May 6, 2020."
+            },
+            {
+                "source_name": "Trend Micro Waterbear December 2019",
+                "url": "https://www.trendmicro.com/en_us/research/19/l/waterbear-is-back-uses-api-hooking-to-evade-security-product-detection.html",
+                "description": "Su, V. et al. (2019, December 11). Waterbear Returns, Uses API Hooking to Evade Security. Retrieved February 22, 2021."
+            },
+            {
+                "source_name": "Symantec Palmerworm Sep 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/palmerworm-blacktech-espionage-apt",
+                "description": "Threat Intelligence. (2020, September 29). Palmerworm: Espionage Gang Targets the Media, Finance, and Other Sectors. Retrieved March 25, 2022."
+            }
+        ],
+        "modified": "2022-05-11T14:00:00.188Z",
+        "description": "(Citation: TrendMicro BlackTech June 2017)(Citation: JPCert PLEAD Downloader June 2018)(Citation: Trend Micro Waterbear December 2019)(Citation: Symantec Palmerworm Sep 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "malware--b57f419e-8b12-49d3-886b-145383725dcd",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--06bf8477-fed1-410b-8fc9-2655758eed41",
+        "created": "2022-04-06T13:34:51.870Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Symantec Palmerworm Sep 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/palmerworm-blacktech-espionage-apt",
+                "description": "Threat Intelligence. (2020, September 29). Palmerworm: Espionage Gang Targets the Media, Finance, and Other Sectors. Retrieved March 25, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has used stolen code-signing certificates for its malicious payloads.(Citation: Symantec Palmerworm Sep 2020)",
+        "modified": "2022-04-06T13:35:16.120Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--e7cbc1de-1f79-48ee-abfd-da1241c65a15",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0bc4d3d8-8018-4e0a-a365-ebef543e1222",
+        "type": "relationship",
+        "created": "2022-03-25T15:24:08.781Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Palmerworm Sep 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/palmerworm-blacktech-espionage-apt",
+                "description": "Threat Intelligence. (2020, September 29). Palmerworm: Espionage Gang Targets the Media, Finance, and Other Sectors. Retrieved March 25, 2022."
+            }
+        ],
+        "modified": "2022-03-25T15:24:08.781Z",
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has used the SNScan tool to find other potential targets on victim networks.(Citation: Symantec Palmerworm Sep 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--17738bdd-24b9-44d0-a897-d1b861fd2636",
+        "created": "2022-04-06T14:01:49.558Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Symantec Palmerworm Sep 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/palmerworm-blacktech-espionage-apt",
+                "description": "Threat Intelligence. (2020, September 29). Palmerworm: Espionage Gang Targets the Media, Finance, and Other Sectors. Retrieved March 25, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has obtained and used tools such as Putty, SNScan, and [PsExec](https://attack.mitre.org/software/S0029) for its operations.(Citation: Symantec Palmerworm Sep 2020)",
+        "modified": "2022-04-06T14:01:49.558Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--28ee4a1e-1e63-4c72-8424-4f923b074ad9",
+        "type": "relationship",
+        "created": "2020-05-06T18:12:24.034Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro BlackTech June 2017",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/following-trail-blacktech-cyber-espionage-campaigns/",
+                "description": "Bermejo, L., et al. (2017, June 22). Following the Trail of BlackTech\u2019s Cyber Espionage Campaigns. Retrieved May 5, 2020."
+            },
+            {
+                "source_name": "Symantec Palmerworm Sep 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/palmerworm-blacktech-espionage-apt",
+                "description": "Threat Intelligence. (2020, September 29). Palmerworm: Espionage Gang Targets the Media, Finance, and Other Sectors. Retrieved March 25, 2022."
+            }
+        ],
+        "modified": "2022-03-25T14:39:06.454Z",
+        "description": "(Citation: TrendMicro BlackTech June 2017)(Citation: Symantec Palmerworm Sep 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "malware--b2d134a1-7bd5-4293-94d4-8fc978cb1cd7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--36f159f7-5018-4889-a540-98e3ac242602",
+        "type": "relationship",
+        "created": "2022-03-25T14:39:06.385Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Palmerworm Sep 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/palmerworm-blacktech-espionage-apt",
+                "description": "Threat Intelligence. (2020, September 29). Palmerworm: Espionage Gang Targets the Media, Finance, and Other Sectors. Retrieved March 25, 2022."
+            }
+        ],
+        "modified": "2022-03-25T14:39:06.385Z",
+        "description": "(Citation: Symantec Palmerworm Sep 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--51cc3f41-f5aa-4d04-95de-15d96e103bac",
+        "type": "relationship",
+        "created": "2020-05-05T20:54:53.062Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro BlackTech June 2017",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/following-trail-blacktech-cyber-espionage-campaigns/",
+                "description": "Bermejo, L., et al. (2017, June 22). Following the Trail of BlackTech\u2019s Cyber Espionage Campaigns. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-05-05T20:54:53.062Z",
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has exploited a buffer overflow vulnerability in Microsoft Internet Information Services (IIS) 6.0, CVE-2017-7269, in order to establish a new HTTP or command and control (C2) server.(Citation: TrendMicro BlackTech June 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--55b0cb4d-1109-449c-82f6-ed42317df209",
+        "type": "relationship",
+        "created": "2022-03-25T14:39:05.395Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Palmerworm Sep 2020",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/palmerworm-blacktech-espionage-apt",
+                "description": "Threat Intelligence. (2020, September 29). Palmerworm: Espionage Gang Targets the Media, Finance, and Other Sectors. Retrieved March 25, 2022."
+            }
+        ],
+        "modified": "2022-03-25T14:39:05.395Z",
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has used Putty for remote access.(Citation: Symantec Palmerworm Sep 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--56f73ea6-f7ba-4226-bbf9-55e904843e31",
+        "type": "relationship",
+        "created": "2022-03-25T15:24:08.713Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "IronNet BlackTech Oct 2021",
+                "url": "https://www.ironnet.com/blog/china-cyber-attacks-the-current-threat-landscape",
+                "description": "Demboski, M., et al. (2021, October 26). China cyber attacks: the current threat landscape. Retrieved March 25, 2022."
+            }
+        ],
+        "modified": "2022-03-25T15:24:08.713Z",
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has used built-in API functions.(Citation: IronNet BlackTech Oct 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--66a14eeb-a6a0-4614-8224-7f238b3a83da",
+        "created": "2020-05-05T20:54:53.098Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "TrendMicro BlackTech June 2017",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/following-trail-blacktech-cyber-espionage-campaigns/",
+                "description": "Bermejo, L., et al. (2017, June 22). Following the Trail of BlackTech\u2019s Cyber Espionage Campaigns. Retrieved May 5, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has exploited multiple vulnerabilities for execution, including Microsoft Office vulnerabilities CVE-2012-0158, CVE-2014-6352, CVE-2017-0199, and Adobe Flash CVE-2015-5119.(Citation: TrendMicro BlackTech June 2017)",
+        "modified": "2022-04-06T13:21:42.391Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--795b9ebc-6bf1-47f9-b236-117c2216c5d4",
+        "created": "2020-05-05T20:54:53.144Z",
+        "x_mitre_version": "1.0",
+        "external_references": [
+            {
+                "source_name": "TrendMicro BlackTech June 2017",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/following-trail-blacktech-cyber-espionage-campaigns/",
+                "description": "Bermejo, L., et al. (2017, June 22). Following the Trail of BlackTech\u2019s Cyber Espionage Campaigns. Retrieved May 5, 2020."
+            },
+            {
+                "source_name": "NTT Security Flagpro new December 2021",
+                "url": "https://insight-jp.nttsecurity.com/post/102hf3q/flagpro-the-new-malware-used-by-blacktech",
+                "description": "Hada, H. (2021, December 28).  Flagpro The new malware used by BlackTech. Retrieved March 25, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has used spearphishing e-mails with malicious password-protected archived files (ZIP or RAR) to deliver malware.(Citation: TrendMicro BlackTech June 2017)(Citation: NTT Security Flagpro new December 2021)",
+        "modified": "2022-04-06T13:31:57.008Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8c5e20b3-b15c-4c08-84fe-eeacd9209375",
+        "type": "relationship",
+        "created": "2020-05-05T20:54:53.104Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro BlackTech June 2017",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/following-trail-blacktech-cyber-espionage-campaigns/",
+                "description": "Bermejo, L., et al. (2017, June 22). Following the Trail of BlackTech\u2019s Cyber Espionage Campaigns. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-05-05T20:54:53.104Z",
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has used right-to-left-override to obfuscate the filenames of malicious e-mail attachments.(Citation: TrendMicro BlackTech June 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--77eae145-55db-4519-8ae5-77b0c7215d69",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9d2dfa0b-8370-4873-9b8f-4366e61be715",
+        "type": "relationship",
+        "created": "2021-02-22T17:11:18.401Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Waterbear December 2019",
+                "url": "https://www.trendmicro.com/en_us/research/19/l/waterbear-is-back-uses-api-hooking-to-evade-security-product-detection.html",
+                "description": "Su, V. et al. (2019, December 11). Waterbear Returns, Uses API Hooking to Evade Security. Retrieved February 22, 2021."
+            }
+        ],
+        "modified": "2021-02-22T17:11:18.401Z",
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has used DLL side loading by giving DLLs hardcoded names and placing them in searched directories.(Citation: Trend Micro Waterbear December 2019) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c756d00a-9ca0-435e-b226-bff2c123b390",
+        "type": "relationship",
+        "created": "2020-05-06T15:48:01.508Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "JPCert TSCookie March 2018",
+                "url": "https://blogs.jpcert.or.jp/en/2018/03/malware-tscooki-7aa0.html",
+                "description": "Tomonaga, S. (2018, March 6). Malware \u201cTSCookie\u201d. Retrieved May 6, 2020."
+            }
+        ],
+        "modified": "2022-05-11T14:00:00.188Z",
+        "description": "(Citation: JPCert TSCookie March 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "malware--76ac7989-c5cc-42e2-93e3-d6c476f01ace",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ca856513-b1ac-46d4-8b24-eafed59bd5f0",
+        "type": "relationship",
+        "created": "2022-03-25T16:33:24.418Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "NTT Security Flagpro new December 2021",
+                "url": "https://insight-jp.nttsecurity.com/post/102hf3q/flagpro-the-new-malware-used-by-blacktech",
+                "description": "Hada, H. (2021, December 28).  Flagpro The new malware used by BlackTech. Retrieved March 25, 2022."
+            }
+        ],
+        "modified": "2022-03-25T16:33:24.418Z",
+        "description": "(Citation: NTT Security Flagpro new December 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "malware--592260fb-dd5c-4a30-8d99-106a0485be0d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d14e6464-a6c5-4554-a463-88e267828397",
+        "type": "relationship",
+        "created": "2021-02-22T17:07:20.098Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Waterbear December 2019",
+                "url": "https://www.trendmicro.com/en_us/research/19/l/waterbear-is-back-uses-api-hooking-to-evade-security-product-detection.html",
+                "description": "Su, V. et al. (2019, December 11). Waterbear Returns, Uses API Hooking to Evade Security. Retrieved February 22, 2021."
+            }
+        ],
+        "modified": "2021-02-22T17:07:20.098Z",
+        "description": "(Citation: Trend Micro Waterbear December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "malware--f3f1fbed-7e29-49cb-8579-4a378f858deb",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f6d1c615-16df-4527-ad74-ce8623f87ce0",
+        "type": "relationship",
+        "created": "2020-05-05T20:54:53.140Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "TrendMicro BlackTech June 2017",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/following-trail-blacktech-cyber-espionage-campaigns/",
+                "description": "Bermejo, L., et al. (2017, June 22). Following the Trail of BlackTech\u2019s Cyber Espionage Campaigns. Retrieved May 5, 2020."
+            },
+            {
+                "source_name": "NTT Security Flagpro new December 2021",
+                "url": "https://insight-jp.nttsecurity.com/post/102hf3q/flagpro-the-new-malware-used-by-blacktech",
+                "description": "Hada, H. (2021, December 28).  Flagpro The new malware used by BlackTech. Retrieved March 25, 2022."
+            }
+        ],
+        "modified": "2022-03-25T16:28:45.704Z",
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has used e-mails with malicious documents to lure victims into installing malware.(Citation: TrendMicro BlackTech June 2017)(Citation: NTT Security Flagpro new December 2021)\t ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--ff9691d7-91dd-4549-b997-d5abf327ef1f",
+        "created": "2022-04-06T13:57:51.746Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "ESET PLEAD Malware July 2018",
+                "url": "https://www.welivesecurity.com/2018/07/09/certificates-stolen-taiwanese-tech-companies-plead-malware-campaign/",
+                "description": "Cherepanov, A.. (2018, July 9). Certificates stolen from Taiwanese tech\u2011companies misused in Plead malware campaign. Retrieved May 6, 2020."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has used valid, stolen digital certificates for some of their malware and tools.(Citation: ESET PLEAD Malware July 2018)",
+        "modified": "2022-04-06T13:57:51.746Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+        "target_ref": "attack-pattern--19401639-28d0-4c3c-adcc-bc2ba22f6421",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    }
+]

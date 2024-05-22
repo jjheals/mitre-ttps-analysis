@@ -1,0 +1,950 @@
+[
+    {
+        "type": "relationship",
+        "id": "relationship--01c982c2-f610-443f-ae60-1b4a1f508f81",
+        "created": "2020-05-13T19:06:23.934Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.203Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used port 444 when sending data about the system from the client to the server.(Citation: Group IB Silence Sept 2018)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1567fbd3-5d2b-4040-a736-11f3d5e2139f",
+        "type": "relationship",
+        "created": "2020-05-06T03:23:03.604Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Aug 2019",
+                "url": "https://www.group-ib.com/resources/threat-research/silence_2.0.going_global.pdf",
+                "description": "Group-IB. (2019, August). Silence 2.0: Going Global. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-05-06T03:23:03.604Z",
+        "description": "(Citation: Group IB Silence Aug 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1d7e1954-b020-4578-9a57-b1596a7a25ff",
+        "type": "relationship",
+        "created": "2019-05-24T17:57:36.730Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Skulkin, O.. (2019, January 20). Silence: Dissecting Malicious CHM Files and Performing Forensic Analysis. Retrieved May 24, 2019.",
+                "url": "https://cyberforensicator.com/2019/01/20/silence-dissecting-malicious-chm-files-and-performing-forensic-analysis/",
+                "source_name": "Cyber Forensicator Silence Jan 2019"
+            }
+        ],
+        "modified": "2020-03-28T21:29:58.245Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used scheduled tasks to stage its operation.(Citation: Cyber Forensicator Silence Jan 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--28a76700-4834-4a1b-bb56-2005bc044e29",
+        "created": "2020-05-13T19:06:23.909Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.208Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has injected a DLL library containing a Trojan into the fwmain32.exe process.(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--2d49852d-083e-4379-90e3-dcb0748be624",
+        "created": "2020-05-13T19:06:23.890Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.208Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used <code>HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run</code>, <code>HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run</code>, and the Startup folder to establish persistence.(Citation: Group IB Silence Sept 2018)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--378914cd-36cf-409f-8c99-25e144218546",
+        "type": "relationship",
+        "created": "2019-05-24T17:57:36.727Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Skulkin, O.. (2019, January 20). Silence: Dissecting Malicious CHM Files and Performing Forensic Analysis. Retrieved May 24, 2019.",
+                "url": "https://cyberforensicator.com/2019/01/20/silence-dissecting-malicious-chm-files-and-performing-forensic-analysis/",
+                "source_name": "Cyber Forensicator Silence Jan 2019"
+            }
+        ],
+        "modified": "2020-03-19T16:21:36.796Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used VBS scripts.(Citation: Cyber Forensicator Silence Jan 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--396a5415-67aa-4ec6-ae27-6be641d69e15",
+        "created": "2020-05-08T17:01:36.122Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.209Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) can create, delete, or modify a specified Registry key or value.(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--465385c3-8659-4225-82b3-215dfc66ba83",
+        "type": "relationship",
+        "created": "2019-05-24T17:57:36.755Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "GReAT. (2017, November 1). Silence \u2013 a new Trojan attacking financial organizations. Retrieved May 24, 2019.",
+                "url": "https://securelist.com/the-silence/83009/",
+                "source_name": "SecureList Silence Nov 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: SecureList Silence Nov 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "tool--96fd6cc4-a693-4118-83ec-619e5352d07d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5cc793b0-cc45-439e-a994-c8884ca55fe7",
+        "created": "2020-05-08T17:01:36.169Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.209Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used RDP for lateral movement.(Citation: Group IB Silence Sept 2018)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5e60c70a-7b2f-45b8-b7d4-80e214acfb2d",
+        "created": "2019-05-24T17:57:36.608Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SecureList Silence Nov 2017",
+                "description": "GReAT. (2017, November 1). Silence \u2013 a new Trojan attacking financial organizations. Retrieved May 24, 2019.",
+                "url": "https://securelist.com/the-silence/83009/"
+            },
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.209Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has been observed making videos of victims to observe bank employees day to day activities.(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--6faf650d-bf31-4eb4-802d-1000cf38efaf",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--60989b47-4725-4077-8aed-fb5f990fda22",
+        "type": "relationship",
+        "created": "2020-03-19T16:21:36.690Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Skulkin, O.. (2019, January 20). Silence: Dissecting Malicious CHM Files and Performing Forensic Analysis. Retrieved May 24, 2019.",
+                "url": "https://cyberforensicator.com/2019/01/20/silence-dissecting-malicious-chm-files-and-performing-forensic-analysis/",
+                "source_name": "Cyber Forensicator Silence Jan 2019"
+            }
+        ],
+        "modified": "2020-06-23T20:30:07.122Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used JS scripts.(Citation: Cyber Forensicator Silence Jan 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--68602080-9968-4a36-9a5e-130343e61566",
+        "created": "2019-05-24T17:57:36.686Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SecureList Silence Nov 2017",
+                "description": "GReAT. (2017, November 1). Silence \u2013 a new Trojan attacking financial organizations. Retrieved May 24, 2019.",
+                "url": "https://securelist.com/the-silence/83009/"
+            },
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            },
+            {
+                "source_name": "Group IB Silence Aug 2019",
+                "description": "Group-IB. (2019, August). Silence 2.0: Going Global. Retrieved May 5, 2020.",
+                "url": "https://www.group-ib.com/resources/threat-research/silence_2.0.going_global.pdf"
+            },
+            {
+                "source_name": "Cyber Forensicator Silence Jan 2019",
+                "description": "Skulkin, O.. (2019, January 20). Silence: Dissecting Malicious CHM Files and Performing Forensic Analysis. Retrieved May 24, 2019.",
+                "url": "https://cyberforensicator.com/2019/01/20/silence-dissecting-malicious-chm-files-and-performing-forensic-analysis/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.210Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has weaponized CHM files in their phishing campaigns.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Aug 2019)(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--a6937325-9321-4e2e-bb2b-3ed2d40b2a9d",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--6fc128ed-90f3-4933-8ad7-4fd4a04cb39f",
+        "created": "2020-05-13T19:06:23.916Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.211Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used RAdmin, a remote software tool used to remotely control workstations and ATMs.(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--778765e1-7eb6-46b1-a370-6dfe09081ee3",
+        "created": "2019-05-24T17:57:36.629Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SecureList Silence Nov 2017",
+                "description": "GReAT. (2017, November 1). Silence \u2013 a new Trojan attacking financial organizations. Retrieved May 24, 2019.",
+                "url": "https://securelist.com/the-silence/83009/"
+            },
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.211Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) can capture victim screen activity.(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7b2113c8-9b48-4f93-9090-3946a980c183",
+        "created": "2019-05-24T17:57:36.651Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Cyber Forensicator Silence Jan 2019",
+                "description": "Skulkin, O.. (2019, January 20). Silence: Dissecting Malicious CHM Files and Performing Forensic Analysis. Retrieved May 24, 2019.",
+                "url": "https://cyberforensicator.com/2019/01/20/silence-dissecting-malicious-chm-files-and-performing-forensic-analysis/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-22T05:35:17.106Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used environment variable string substitution for obfuscation.(Citation: Cyber Forensicator Silence Jan 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--85be49ac-785e-48af-8d0e-4b74818428fc",
+        "created": "2019-05-24T17:57:36.723Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SecureList Silence Nov 2017",
+                "description": "GReAT. (2017, November 1). Silence \u2013 a new Trojan attacking financial organizations. Retrieved May 24, 2019.",
+                "url": "https://securelist.com/the-silence/83009/"
+            },
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.213Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used [Winexe](https://attack.mitre.org/software/S0191) to install a service on the remote system.(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--89077d0b-aaa2-48b9-90d7-e253a550bfad",
+        "created": "2020-05-13T19:06:23.919Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.214Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used ProxyBot, which allows the attacker to redirect traffic from the current node to the backconnect server via Sock4\\Socks5.(Citation: Group IB Silence Sept 2018)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--908f1fa6-c797-47c3-bcb1-3438a9105095",
+        "type": "relationship",
+        "created": "2020-05-06T03:32:07.175Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Aug 2019",
+                "url": "https://www.group-ib.com/resources/threat-research/silence_2.0.going_global.pdf",
+                "description": "Group-IB. (2019, August). Silence 2.0: Going Global. Retrieved May 5, 2020."
+            }
+        ],
+        "modified": "2020-05-06T03:32:07.175Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used a valid certificate to sign their primary loader Silence.Downloader (aka TrueBot).(Citation: Group IB Silence Aug 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--948146db-f966-4e0c-bbb2-289e2eae6718",
+        "created": "2020-05-08T17:01:36.171Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.214Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has downloaded additional modules and malware to victim\u2019s machines.(Citation: Group IB Silence Sept 2018)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9569bfcd-38f8-4cb7-8470-a473ea9e4328",
+        "created": "2020-05-08T17:01:36.095Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.222Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used compromised credentials to log on to other systems and escalate privileges.(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a6dc02a8-2ce3-45db-a7e5-e475d6acec3c",
+        "created": "2020-05-08T17:01:36.139Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.222Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used Nmap to scan the corporate network, build a network topology, and identify vulnerable hosts.(Citation: Group IB Silence Sept 2018)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a9c366b6-270d-4884-86dd-7c048460741b",
+        "created": "2020-05-08T17:01:36.126Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.223Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used the Farse6.1 utility (based on [Mimikatz](https://attack.mitre.org/software/S0002)) to extract credentials from lsass.exe.(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--afafd676-1b44-44ae-ad9a-930c0df348bc",
+        "created": "2020-03-19T16:21:36.705Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            },
+            {
+                "source_name": "Cyber Forensicator Silence Jan 2019",
+                "description": "Skulkin, O.. (2019, January 20). Silence: Dissecting Malicious CHM Files and Performing Forensic Analysis. Retrieved May 24, 2019.",
+                "url": "https://cyberforensicator.com/2019/01/20/silence-dissecting-malicious-chm-files-and-performing-forensic-analysis/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.223Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used PowerShell to download and execute payloads.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c3a35bf1-acfc-4e70-8be8-db843110a142",
+        "type": "relationship",
+        "created": "2021-05-26T19:54:55.773Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Aug 2019",
+                "url": "https://www.group-ib.com/resources/threat-research/silence_2.0.going_global.pdf",
+                "description": "Group-IB. (2019, August). Silence 2.0: Going Global. Retrieved May 5, 2020."
+            },
+            {
+                "description": "GReAT. (2017, November 1). Silence \u2013 a new Trojan attacking financial organizations. Retrieved May 24, 2019.",
+                "url": "https://securelist.com/the-silence/83009/",
+                "source_name": "SecureList Silence Nov 2017"
+            }
+        ],
+        "modified": "2021-05-26T19:54:55.773Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has obtained and modified versions of publicly-available tools like [Empire](https://attack.mitre.org/software/S0363) and [PsExec](https://attack.mitre.org/software/S0029).(Citation: Group IB Silence Aug 2019) (Citation: SecureList Silence Nov 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--ccd99593-7ff0-4706-aa94-73cc8d237fe8",
+        "created": "2019-05-24T17:57:36.633Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            },
+            {
+                "source_name": "Cyber Forensicator Silence Jan 2019",
+                "description": "Skulkin, O.. (2019, January 20). Silence: Dissecting Malicious CHM Files and Performing Forensic Analysis. Retrieved May 24, 2019.",
+                "url": "https://cyberforensicator.com/2019/01/20/silence-dissecting-malicious-chm-files-and-performing-forensic-analysis/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.224Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has deleted artifacts, including scheduled tasks, communicates files from the C2 and other logs.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: Group IB Silence Sept 2018)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--da331399-4c9f-4a16-92b1-97e635703c18",
+        "created": "2020-05-06T03:13:43.392Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.224Z",
+        "description": "(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "tool--d8d19e33-94fd-4aa3-b94a-08ee801a2153",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--da6a811d-2a77-4f6f-a19e-2aff8662f12f",
+        "created": "2019-05-24T17:57:36.733Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SecureList Silence Nov 2017",
+                "description": "GReAT. (2017, November 1). Silence \u2013 a new Trojan attacking financial organizations. Retrieved May 24, 2019.",
+                "url": "https://securelist.com/the-silence/83009/"
+            },
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            },
+            {
+                "source_name": "Cyber Forensicator Silence Jan 2019",
+                "description": "Skulkin, O.. (2019, January 20). Silence: Dissecting Malicious CHM Files and Performing Forensic Analysis. Retrieved May 24, 2019.",
+                "url": "https://cyberforensicator.com/2019/01/20/silence-dissecting-malicious-chm-files-and-performing-forensic-analysis/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.224Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has sent emails with malicious DOCX, CHM, LNK and ZIP attachments. (Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e3038b75-63f6-44c2-9645-673bbf0ffa3b",
+        "created": "2020-05-08T17:01:36.105Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.225Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has named its backdoor \"WINWORD.exe\".(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--efe23026-7cba-46df-873b-1c8244a92d36",
+        "created": "2019-05-24T17:57:36.689Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SecureList Silence Nov 2017",
+                "description": "GReAT. (2017, November 1). Silence \u2013 a new Trojan attacking financial organizations. Retrieved May 24, 2019.",
+                "url": "https://securelist.com/the-silence/83009/"
+            },
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            },
+            {
+                "source_name": "Cyber Forensicator Silence Jan 2019",
+                "description": "Skulkin, O.. (2019, January 20). Silence: Dissecting Malicious CHM Files and Performing Forensic Analysis. Retrieved May 24, 2019.",
+                "url": "https://cyberforensicator.com/2019/01/20/silence-dissecting-malicious-chm-files-and-performing-forensic-analysis/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.225Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) attempts to get users to launch malicious attachments delivered via spearphishing emails.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--f1eda5c7-6843-406d-89b8-c61759c02450",
+        "created": "2019-05-24T17:57:36.696Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SecureList Silence Nov 2017",
+                "description": "GReAT. (2017, November 1). Silence \u2013 a new Trojan attacking financial organizations. Retrieved May 24, 2019.",
+                "url": "https://securelist.com/the-silence/83009/"
+            },
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            },
+            {
+                "source_name": "Cyber Forensicator Silence Jan 2019",
+                "description": "Skulkin, O.. (2019, January 20). Silence: Dissecting Malicious CHM Files and Performing Forensic Analysis. Retrieved May 24, 2019.",
+                "url": "https://cyberforensicator.com/2019/01/20/silence-dissecting-malicious-chm-files-and-performing-forensic-analysis/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.226Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has used Windows command-line to run commands.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--fdedfad5-5cb7-436a-8522-6df3f6de42b1",
+        "created": "2019-05-24T17:57:36.683Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SecureList Silence Nov 2017",
+                "description": "GReAT. (2017, November 1). Silence \u2013 a new Trojan attacking financial organizations. Retrieved May 24, 2019.",
+                "url": "https://securelist.com/the-silence/83009/"
+            },
+            {
+                "source_name": "Group IB Silence Sept 2018",
+                "description": "Group-IB. (2018, September). Silence: Moving Into the Darkside. Retrieved May 5, 2020.",
+                "url": "https://go.group-ib.com/report-silence-en?_gl=1*d1bh3a*_ga*MTIwMzM5Mzc5MS4xNjk4OTI5NzY4*_ga_QMES53K3Y2*MTcwNDcyMjU2OS40LjEuMTcwNDcyMzU1Mi41My4wLjA."
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-10T14:30:32.226Z",
+        "description": "[Silence](https://attack.mitre.org/groups/G0091) has leveraged the Windows API, including using CreateProcess() or ShellExecute(), to perform a variety of tasks.(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+        "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    }
+]

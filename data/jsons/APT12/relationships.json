@@ -1,0 +1,246 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0c9b6c09-8fc9-42c7-bfd7-316e9bbfa271",
+        "type": "relationship",
+        "created": "2019-06-07T14:20:07.492Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2014/09/darwins-favorite-apt-group-2.html",
+                "description": "Moran, N., Oppenheim, M., Engle, S., & Wartell, R.. (2014, September 3). Darwin\u2019s Favorite APT Group &#91;Blog&#93;. Retrieved November 12, 2014.",
+                "source_name": "Moran 2014"
+            },
+            {
+                "source_name": "Trend Micro IXESHE 2012",
+                "url": "https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp_ixeshe.pdf",
+                "description": "Sancho, D., et al. (2012, May 22). IXESHE An APT Campaign. Retrieved June 7, 2019."
+            }
+        ],
+        "modified": "2020-03-12T00:27:29.517Z",
+        "description": "[APT12](https://attack.mitre.org/groups/G0005) has attempted to get victims to open malicious Microsoft Word and PDF attachment sent via spearphishing.(Citation: Moran 2014)(Citation: Trend Micro IXESHE 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5a49400c-2003-463c-8e6e-97b79f560675",
+        "type": "relationship",
+        "created": "2019-06-10T16:34:59.315Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Meyers Numbered Panda",
+                "description": "Meyers, A. (2013, March 29). Whois Numbered Panda. Retrieved January 14, 2016.",
+                "url": "http://www.crowdstrike.com/blog/whois-numbered-panda/"
+            }
+        ],
+        "modified": "2020-03-20T19:45:34.796Z",
+        "description": "[APT12](https://attack.mitre.org/groups/G0005) has used blogs and WordPress for C2 infrastructure.(Citation: Meyers Numbered Panda)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
+        "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--66647c20-2d76-4711-9eee-07d932e75851",
+        "type": "relationship",
+        "created": "2020-03-27T21:14:03.099Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "http://www.crowdstrike.com/blog/whois-numbered-panda/",
+                "description": "Meyers, A. (2013, March 29). Whois Numbered Panda. Retrieved January 14, 2016.",
+                "source_name": "Meyers Numbered Panda"
+            }
+        ],
+        "modified": "2020-03-27T21:14:03.099Z",
+        "description": "[APT12](https://attack.mitre.org/groups/G0005) has used multiple variants of [DNS Calculation](https://attack.mitre.org/techniques/T1568/003) including multiplying the first two octets of an IP address and adding the third octet to that value in order to get a resulting command and control port.(Citation: Meyers Numbered Panda)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
+        "target_ref": "attack-pattern--83a766f8-1501-4b3a-a2de-2e2849e8dfc1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--75b6869c-dd4e-44ec-8614-97fe792e9dd6",
+        "type": "relationship",
+        "created": "2019-06-07T14:20:07.509Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2014/09/darwins-favorite-apt-group-2.html",
+                "description": "Moran, N., Oppenheim, M., Engle, S., & Wartell, R.. (2014, September 3). Darwin\u2019s Favorite APT Group &#91;Blog&#93;. Retrieved November 12, 2014.",
+                "source_name": "Moran 2014"
+            },
+            {
+                "source_name": "Trend Micro IXESHE 2012",
+                "url": "https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp_ixeshe.pdf",
+                "description": "Sancho, D., et al. (2012, May 22). IXESHE An APT Campaign. Retrieved June 7, 2019."
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT12](https://attack.mitre.org/groups/G0005) has exploited multiple vulnerabilities for execution, including Microsoft Office vulnerabilities (CVE-2009-3129, CVE-2012-0158) and vulnerabilities in Adobe Reader and Flash (CVE-2009-4324, CVE-2009-0927, CVE-2011-0609, CVE-2011-0611).(Citation: Moran 2014)(Citation: Trend Micro IXESHE 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--762f85a3-0120-4b09-aafd-3f460764e85f",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.034Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2013/08/survival-of-the-fittest-new-york-times-attackers-evolve-quickly.html",
+                "description": "Moran, N., & Villeneuve, N. (2013, August 12). Survival of the Fittest: New York Times Attackers Evolve Quickly &#91;Blog&#93;. Retrieved November 12, 2014.",
+                "source_name": "Moran 2013"
+            },
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2014/09/darwins-favorite-apt-group-2.html",
+                "description": "Moran, N., Oppenheim, M., Engle, S., & Wartell, R.. (2014, September 3). Darwin\u2019s Favorite APT Group &#91;Blog&#93;. Retrieved November 12, 2014.",
+                "source_name": "Moran 2014"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Moran 2013)(Citation: Moran 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
+        "target_ref": "malware--8beac7c2-48d2-4cd9-9b15-6c452f38ac06",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8126e72d-1be0-4237-b9c9-33045be072c3",
+        "type": "relationship",
+        "created": "2019-06-07T14:20:07.519Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2014/09/darwins-favorite-apt-group-2.html",
+                "description": "Moran, N., Oppenheim, M., Engle, S., & Wartell, R.. (2014, September 3). Darwin\u2019s Favorite APT Group &#91;Blog&#93;. Retrieved November 12, 2014.",
+                "source_name": "Moran 2014"
+            },
+            {
+                "source_name": "Trend Micro IXESHE 2012",
+                "url": "https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp_ixeshe.pdf",
+                "description": "Sancho, D., et al. (2012, May 22). IXESHE An APT Campaign. Retrieved June 7, 2019."
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[APT12](https://attack.mitre.org/groups/G0005) has sent emails with malicious Microsoft Office documents and PDFs attached.(Citation: Moran 2014)(Citation: Trend Micro IXESHE 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d242dc5a-3969-498c-b7eb-5d850e7d384d",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.034Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.fireeye.com/blog/threat-research/2014/09/darwins-favorite-apt-group-2.html",
+                "description": "Moran, N., Oppenheim, M., Engle, S., & Wartell, R.. (2014, September 3). Darwin\u2019s Favorite APT Group &#91;Blog&#93;. Retrieved November 12, 2014.",
+                "source_name": "Moran 2014"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Moran 2014)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
+        "target_ref": "malware--ad4f146f-e3ec-444a-ba71-24bffd7f0f8e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f42a5342-c28d-46ad-bbd7-3123da43ff86",
+        "type": "relationship",
+        "created": "2019-06-07T14:30:26.074Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro IXESHE 2012",
+                "url": "https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp_ixeshe.pdf",
+                "description": "Sancho, D., et al. (2012, May 22). IXESHE An APT Campaign. Retrieved June 7, 2019."
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Trend Micro IXESHE 2012)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
+        "target_ref": "tool--d5e96a35-7b0b-4c6a-9533-d63ecbda563e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

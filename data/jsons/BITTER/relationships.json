@@ -1,0 +1,508 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--03c86a72-8298-4558-afc7-19cc09da4ff5",
+        "created": "2022-06-01T20:52:21.416Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Forcepoint BITTER Pakistan Oct 2016",
+                "url": "https://www.forcepoint.com/blog/x-labs/bitter-targeted-attack-against-pakistan",
+                "description": "Dela Paz, R. (2016, October 21). BITTER: a targeted attack against Pakistan. Retrieved June 1, 2022."
+            },
+            {
+                "source_name": "Cisco Talos Bitter Bangladesh May 2022",
+                "url": "https://blog.talosintelligence.com/2022/05/bitter-apt-adds-bangladesh-to-their.html",
+                "description": "Raghuprasad, C . (2022, May 11). Bitter APT adds Bangladesh to their targets. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has downloaded additional malware and tools onto a compromised host.(Citation: Cisco Talos Bitter Bangladesh May 2022)(Citation: Forcepoint BITTER Pakistan Oct 2016) ",
+        "modified": "2022-06-01T21:23:10.264Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--0aa994e4-f1a3-4c14-b5e0-f2f6247d6630",
+        "created": "2022-06-02T14:01:38.866Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Cisco Talos Bitter Bangladesh May 2022",
+                "url": "https://blog.talosintelligence.com/2022/05/bitter-apt-adds-bangladesh-to-their.html",
+                "description": "Raghuprasad, C . (2022, May 11). Bitter APT adds Bangladesh to their targets. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "(Citation: Cisco Talos Bitter Bangladesh May 2022)",
+        "modified": "2022-06-02T14:01:38.866Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "malware--97cfbdc6-504d-41e9-a46c-78a9f806ff0d",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--0fc4c1db-001c-4b17-82c9-c55319a26534",
+        "created": "2022-06-01T21:31:46.657Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Forcepoint BITTER Pakistan Oct 2016",
+                "url": "https://www.forcepoint.com/blog/x-labs/bitter-targeted-attack-against-pakistan",
+                "description": "Dela Paz, R. (2016, October 21). BITTER: a targeted attack against Pakistan. Retrieved June 1, 2022."
+            },
+            {
+                "source_name": "Cisco Talos Bitter Bangladesh May 2022",
+                "url": "https://blog.talosintelligence.com/2022/05/bitter-apt-adds-bangladesh-to-their.html",
+                "description": "Raghuprasad, C . (2022, May 11). Bitter APT adds Bangladesh to their targets. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has used HTTP POST requests for C2.(Citation: Cisco Talos Bitter Bangladesh May 2022)(Citation: Forcepoint BITTER Pakistan Oct 2016)",
+        "modified": "2022-07-15T21:14:14.712Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--13b6f054-5771-43ef-84df-b05ec9001f23",
+        "created": "2022-06-01T21:38:00.264Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Forcepoint BITTER Pakistan Oct 2016",
+                "url": "https://www.forcepoint.com/blog/x-labs/bitter-targeted-attack-against-pakistan",
+                "description": "Dela Paz, R. (2016, October 21). BITTER: a targeted attack against Pakistan. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has obtained tools such as PuTTY for use in their operations.(Citation: Forcepoint BITTER Pakistan Oct 2016)",
+        "modified": "2022-06-01T21:38:00.264Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--24fadb92-7a18-450b-b4ca-f5dd019ce54c",
+        "created": "2022-06-01T21:36:00.639Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Forcepoint BITTER Pakistan Oct 2016",
+                "url": "https://www.forcepoint.com/blog/x-labs/bitter-targeted-attack-against-pakistan",
+                "description": "Dela Paz, R. (2016, October 21). BITTER: a targeted attack against Pakistan. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has used DDNS for C2 communications.(Citation: Forcepoint BITTER Pakistan Oct 2016)",
+        "modified": "2022-06-01T21:36:00.639Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--7bd9c723-2f78-4309-82c5-47cad406572b",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--3efa9831-8d67-4bd1-92d4-ef252747b701",
+        "created": "2022-06-01T20:42:24.784Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Forcepoint BITTER Pakistan Oct 2016",
+                "url": "https://www.forcepoint.com/blog/x-labs/bitter-targeted-attack-against-pakistan",
+                "description": "Dela Paz, R. (2016, October 21). BITTER: a targeted attack against Pakistan. Retrieved June 1, 2022."
+            },
+            {
+                "source_name": "Cisco Talos Bitter Bangladesh May 2022",
+                "url": "https://blog.talosintelligence.com/2022/05/bitter-apt-adds-bangladesh-to-their.html",
+                "description": "Raghuprasad, C . (2022, May 11). Bitter APT adds Bangladesh to their targets. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has sent spearphishing emails with a malicious RTF document or Excel spreadsheet.(Citation: Cisco Talos Bitter Bangladesh May 2022)(Citation: Forcepoint BITTER Pakistan Oct 2016)",
+        "modified": "2022-06-01T21:21:52.224Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--445c926e-e0fb-4ac1-ba70-4ed45a68c592",
+        "created": "2022-06-01T20:44:30.777Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Forcepoint BITTER Pakistan Oct 2016",
+                "url": "https://www.forcepoint.com/blog/x-labs/bitter-targeted-attack-against-pakistan",
+                "description": "Dela Paz, R. (2016, October 21). BITTER: a targeted attack against Pakistan. Retrieved June 1, 2022."
+            },
+            {
+                "source_name": "Cisco Talos Bitter Bangladesh May 2022",
+                "url": "https://blog.talosintelligence.com/2022/05/bitter-apt-adds-bangladesh-to-their.html",
+                "description": "Raghuprasad, C . (2022, May 11). Bitter APT adds Bangladesh to their targets. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has attempted to lure victims into opening malicious attachments delivered via spearphishing.(Citation: Cisco Talos Bitter Bangladesh May 2022)(Citation: Forcepoint BITTER Pakistan Oct 2016)",
+        "modified": "2022-06-01T21:22:22.776Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4bb228b7-a456-426a-9be0-68a8a8a1b2d0",
+        "created": "2022-06-01T21:30:43.160Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Forcepoint BITTER Pakistan Oct 2016",
+                "description": "Dela Paz, R. (2016, October 21). BITTER: a targeted attack against Pakistan. Retrieved June 1, 2022.",
+                "url": "https://www.forcepoint.com/blog/x-labs/bitter-targeted-attack-against-pakistan"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-11T02:52:41.651Z",
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has used a RAR SFX dropper to deliver malware.(Citation: Forcepoint BITTER Pakistan Oct 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--79192884-411c-490d-a28e-f923be7070e3",
+        "created": "2022-06-01T21:34:53.167Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Forcepoint BITTER Pakistan Oct 2016",
+                "url": "https://www.forcepoint.com/blog/x-labs/bitter-targeted-attack-against-pakistan",
+                "description": "Dela Paz, R. (2016, October 21). BITTER: a targeted attack against Pakistan. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has encrypted their C2 communications.(Citation: Forcepoint BITTER Pakistan Oct 2016)",
+        "modified": "2022-06-01T21:34:53.167Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--b8902400-e6c5-4ba2-95aa-2d35b442b118",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--81399eeb-a9f0-4e55-baed-2be3829962fe",
+        "created": "2022-06-01T21:43:32.302Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "DBAPPSecurity BITTER zero-day Feb 2021",
+                "url": "https://ti.dbappsecurity.com.cn/blog/articles/2021/02/10/windows-kernel-zero-day-exploit-is-used-by-bitter-apt-in-targeted-attack/",
+                "description": "JinQuan, MaDongZe, TuXiaoYi, and LiHao. (2021, February 10). Windows kernel zero-day exploit (CVE-2021-1732) is used by BITTER APT in targeted attack. Retrieved June 1, 2022."
+            },
+            {
+                "source_name": "Microsoft CVE-2021-1732 Feb 2021",
+                "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1732",
+                "description": "Microsoft. (2018, February 9). Windows Win32k Elevation of Privilege Vulnerability CVE-2021-1732. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has exploited CVE-2021-1732 for privilege escalation.(Citation: DBAPPSecurity BITTER zero-day Feb 2021)(Citation: Microsoft CVE-2021-1732 Feb 2021)",
+        "modified": "2022-06-01T21:46:01.078Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--842c8968-1dab-46f9-838d-cb29d748fe5a",
+        "created": "2022-06-01T20:58:14.525Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Cisco Talos Bitter Bangladesh May 2022",
+                "url": "https://blog.talosintelligence.com/2022/05/bitter-apt-adds-bangladesh-to-their.html",
+                "description": "Raghuprasad, C . (2022, May 11). Bitter APT adds Bangladesh to their targets. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has disguised malware as a Windows Security update service.(Citation: Cisco Talos Bitter Bangladesh May 2022)",
+        "modified": "2022-06-01T20:58:14.525Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--85c85045-a030-435c-a353-6d89a1feacc0",
+        "created": "2022-07-15T21:24:56.155Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Forcepoint BITTER Pakistan Oct 2016",
+                "url": "https://www.forcepoint.com/blog/x-labs/bitter-targeted-attack-against-pakistan",
+                "description": "Dela Paz, R. (2016, October 21). BITTER: a targeted attack against Pakistan. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has registered domains to stage payloads.(Citation: Forcepoint BITTER Pakistan Oct 2016)",
+        "modified": "2022-07-15T21:24:56.155Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--b0994eea-4c0c-42d3-8d68-0acb1b6bb592",
+        "created": "2022-06-01T21:07:14.657Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Cisco Talos Bitter Bangladesh May 2022",
+                "url": "https://blog.talosintelligence.com/2022/05/bitter-apt-adds-bangladesh-to-their.html",
+                "description": "Raghuprasad, C . (2022, May 11). Bitter APT adds Bangladesh to their targets. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has executed OLE objects using Microsoft Equation Editor to download and run malicious payloads.(Citation: Cisco Talos Bitter Bangladesh May 2022) ",
+        "modified": "2022-06-01T21:07:14.657Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--d497a340-9b38-4b98-8fb6-1288519dc541",
+        "created": "2022-06-01T20:49:07.906Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Forcepoint BITTER Pakistan Oct 2016",
+                "url": "https://www.forcepoint.com/blog/x-labs/bitter-targeted-attack-against-pakistan",
+                "description": "Dela Paz, R. (2016, October 21). BITTER: a targeted attack against Pakistan. Retrieved June 1, 2022."
+            },
+            {
+                "source_name": "Cisco Talos Bitter Bangladesh May 2022",
+                "url": "https://blog.talosintelligence.com/2022/05/bitter-apt-adds-bangladesh-to-their.html",
+                "description": "Raghuprasad, C . (2022, May 11). Bitter APT adds Bangladesh to their targets. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has exploited Microsoft Office vulnerabilities CVE-2012-0158, CVE-2017-11882, CVE-2018-0798, and CVE-2018-0802.(Citation: Cisco Talos Bitter Bangladesh May 2022)(Citation: Forcepoint BITTER Pakistan Oct 2016)",
+        "modified": "2022-06-01T21:21:05.857Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--d5e5a57a-e8cd-43c8-bc69-fa8bd40d82c0",
+        "created": "2022-07-15T21:22:32.135Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Forcepoint BITTER Pakistan Oct 2016",
+                "url": "https://www.forcepoint.com/blog/x-labs/bitter-targeted-attack-against-pakistan",
+                "description": "Dela Paz, R. (2016, October 21). BITTER: a targeted attack against Pakistan. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has registered a variety of domains to host malicious payloads and for C2.(Citation: Forcepoint BITTER Pakistan Oct 2016)",
+        "modified": "2022-07-15T21:22:32.135Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--e6997505-11ce-4ac3-ba26-b14f943b8a99",
+        "created": "2022-06-01T21:13:39.136Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Cisco Talos Bitter Bangladesh May 2022",
+                "url": "https://blog.talosintelligence.com/2022/05/bitter-apt-adds-bangladesh-to-their.html",
+                "description": "Raghuprasad, C . (2022, May 11). Bitter APT adds Bangladesh to their targets. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has used scheduled tasks for persistence and execution.(Citation: Cisco Talos Bitter Bangladesh May 2022)",
+        "modified": "2022-06-01T21:13:39.136Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "type": "relationship",
+        "id": "relationship--e7f27ed5-a90a-49c0-bd81-a10a98f77574",
+        "created": "2022-06-01T21:33:25.768Z",
+        "x_mitre_version": "0.1",
+        "external_references": [
+            {
+                "source_name": "Forcepoint BITTER Pakistan Oct 2016",
+                "url": "https://www.forcepoint.com/blog/x-labs/bitter-targeted-attack-against-pakistan",
+                "description": "Dela Paz, R. (2016, October 21). BITTER: a targeted attack against Pakistan. Retrieved June 1, 2022."
+            }
+        ],
+        "x_mitre_deprecated": false,
+        "revoked": false,
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) has used TCP for C2 communications.(Citation: Forcepoint BITTER Pakistan Oct 2016)",
+        "modified": "2022-06-01T21:33:25.768Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    }
+]

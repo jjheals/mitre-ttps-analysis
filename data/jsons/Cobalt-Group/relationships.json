@@ -1,0 +1,1576 @@
+[
+    {
+        "type": "relationship",
+        "id": "relationship--029bdc73-5054-45eb-b9d0-e4281f69d85a",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro Cobalt Group Nov 2017",
+                "description": "Giagone, R., Bermejo, L., and Yarochkin, F. (2017, November 20). Cobalt Strikes Again: Spam Runs Use Macros and CVE-2017-8759 Exploit Against Russian Banks. Retrieved March 7, 2019.",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/cobalt-spam-runs-use-macros-cve-2017-8759-exploit/"
+            },
+            {
+                "source_name": "RiskIQ Cobalt Nov 2017",
+                "description": "Klijnsma, Y.. (2017, November 28). Gaffe Reveals Full List of Targets in Spear Phishing Attack Using Cobalt Strike Against Financial Institutions. Retrieved October 10, 2018.",
+                "url": "https://web.archive.org/web/20190508170630/https://www.riskiq.com/blog/labs/cobalt-strike/"
+            },
+            {
+                "source_name": "Group IB Cobalt Aug 2017",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "url": "https://www.group-ib.com/blog/cobalt"
+            },
+            {
+                "source_name": "Proofpoint Cobalt June 2017",
+                "description": "Mesa, M, et al. (2017, June 1). Microsoft Word Intruder Integrates CVE-2017-0199, Utilized by Cobalt Group to Target Financial Institutions. Retrieved October 10, 2018.",
+                "url": "https://www.proofpoint.com/us/threat-insight/post/microsoft-word-intruder-integrates-cve-2017-0199-utilized-cobalt-group-target"
+            },
+            {
+                "source_name": "PTSecurity Cobalt Dec 2016",
+                "description": "Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.",
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf"
+            },
+            {
+                "source_name": "PTSecurity Cobalt Group Aug 2017",
+                "description": "Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.",
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf"
+            },
+            {
+                "source_name": "Talos Cobalt Group July 2018",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html"
+            },
+            {
+                "source_name": "Unit 42 Cobalt Gang Oct 2018",
+                "description": "Unit 42. (2018, October 25). New Techniques to Uncover and Attribute Financial actors Commodity Builders and Infrastructure Revealed. Retrieved December 11, 2018.",
+                "url": "https://researchcenter.paloaltonetworks.com/2018/10/unit42-new-techniques-uncover-attribute-cobalt-gang-commodity-builders-infrastructure-revealed/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-12-23T14:06:11.744Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has sent spearphishing emails with various attachment types to corporate and personal email accounts of victim organizations. Attachment types have included .rtf, .doc, .xls, archives containing LNK files, and password protected archives containing .exe and .scr executables.(Citation: Talos Cobalt Group July 2018)(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: PTSecurity Cobalt Dec 2016)(Citation: Group IB Cobalt Aug 2017)(Citation: Proofpoint Cobalt June 2017)(Citation: RiskIQ Cobalt Nov 2017)(Citation: Unit 42 Cobalt Gang Oct 2018)(Citation: TrendMicro Cobalt Group Nov 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--07ab4fde-e1fd-4740-863e-c40cc8722d32",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf",
+                "description": "Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.",
+                "source_name": "PTSecurity Cobalt Group Aug 2017"
+            },
+            {
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf",
+                "description": "Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.",
+                "source_name": "PTSecurity Cobalt Dec 2016"
+            },
+            {
+                "source_name": "Morphisec Cobalt Gang Oct 2018",
+                "url": "https://blog.morphisec.com/cobalt-gang-2.0",
+                "description": "Gorelik, M. (2018, October 08). Cobalt Group 2.0. Retrieved November 5, 2018."
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used public sites such as github.com and sendspace.com to upload files and then download them to victim computers.(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: PTSecurity Cobalt Dec 2016) The group's JavaScript backdoor is also capable of downloading files.(Citation: Morphisec Cobalt Gang Oct 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--1010f466-818d-4387-9e43-9ae5e9bf9a40",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Morphisec Cobalt Gang Oct 2018",
+                "description": "Gorelik, M. (2018, October 08). Cobalt Group 2.0. Retrieved November 5, 2018.",
+                "url": "https://blog.morphisec.com/cobalt-gang-2.0"
+            },
+            {
+                "source_name": "Talos Cobalt Group July 2018",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2023-03-22T03:29:03.959Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) obfuscated several scriptlets and code used on the victim\u2019s machine, including through use of XOR and RC4.(Citation: Talos Cobalt Group July 2018)(Citation: Morphisec Cobalt Gang Oct 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1b1027ff-81d2-4ae9-85ac-0d886dea8a04",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            }
+        ],
+        "modified": "2020-03-28T21:25:27.362Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has created Windows tasks to establish persistence.(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1d10495f-64e6-43d9-85cd-4d74a8acdf7c",
+        "type": "relationship",
+        "created": "2019-03-07T20:39:58.649Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Giagone, R., Bermejo, L., and Yarochkin, F. (2017, November 20). Cobalt Strikes Again: Spam Runs Use Macros and CVE-2017-8759 Exploit Against Russian Banks. Retrieved March 7, 2019.",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/cobalt-spam-runs-use-macros-cve-2017-8759-exploit/",
+                "source_name": "TrendMicro Cobalt Group Nov 2017"
+            }
+        ],
+        "modified": "2020-03-17T14:37:59.225Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used <code>odbcconf</code> to proxy the execution of malicious DLL files.(Citation: TrendMicro Cobalt Group Nov 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--6e3bd510-6b33-41a4-af80-2d80f3ee0071",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--23fe4e74-9a8e-40e6-99c0-25eb00775a89",
+        "type": "relationship",
+        "created": "2020-12-11T16:00:14.836Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Crowdstrike GTR2020 Mar 2020",
+                "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+                "description": "Crowdstrike. (2020, March 2). 2020 Global Threat Report. Retrieved December 11, 2020."
+            }
+        ],
+        "modified": "2020-12-11T16:00:14.836Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has compromised legitimate web browser updates to deliver a backdoor. (Citation: Crowdstrike GTR2020 Mar 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--30ff291e-e546-4084-8b5b-22fd5a597449",
+        "type": "relationship",
+        "created": "2019-01-30T19:27:46.132Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Morphisec Cobalt Gang Oct 2018",
+                "url": "https://blog.morphisec.com/cobalt-gang-2.0",
+                "description": "Gorelik, M. (2018, October 08). Cobalt Group 2.0. Retrieved November 5, 2018."
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) used a JavaScript backdoor that is capable of collecting a list of the security solutions installed on the victim's machine.(Citation: Morphisec Cobalt Gang Oct 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4807dbdc-6bcb-4aed-96f4-a782551eaefe",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf",
+                "description": "Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.",
+                "source_name": "PTSecurity Cobalt Group Aug 2017"
+            },
+            {
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf",
+                "description": "Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.",
+                "source_name": "PTSecurity Cobalt Dec 2016"
+            },
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: PTSecurity Cobalt Dec 2016)(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4bfaaf99-6884-4df1-af72-0cc61ce50aa0",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "source_name": "Talos Cobalt Group July 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has sent malicious Word OLE compound documents to victims.(Citation: Talos Cobalt Group July 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5b078c2e-229d-4ef0-8e46-2164354caee9",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "source_name": "Talos Cobalt Group July 2018"
+            },
+            {
+                "source_name": "Unit 42 Cobalt Gang Oct 2018",
+                "url": "https://researchcenter.paloaltonetworks.com/2018/10/unit42-new-techniques-uncover-attribute-cobalt-gang-commodity-builders-infrastructure-revealed/",
+                "description": "Unit 42. (2018, October 25). New Techniques to Uncover and Attribute Financial actors Commodity Builders and Infrastructure Revealed. Retrieved December 11, 2018."
+            }
+        ],
+        "modified": "2020-03-17T13:53:21.720Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has sent emails containing malicious attachments that require users to execute a file or macro to infect the victim machine.(Citation: Talos Cobalt Group July 2018)(Citation: Unit 42 Cobalt Gang Oct 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5bd3526a-1ae2-4b09-8be7-0eef6ae33155",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used exploits to increase their levels of rights and privileges.(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5dbd040e-0433-42ca-8e03-b3741be31cb2",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "source_name": "Talos Cobalt Group July 2018"
+            },
+            {
+                "source_name": "Morphisec Cobalt Gang Oct 2018",
+                "url": "https://blog.morphisec.com/cobalt-gang-2.0",
+                "description": "Gorelik, M. (2018, October 08). Cobalt Group 2.0. Retrieved November 5, 2018."
+            },
+            {
+                "source_name": "Unit 42 Cobalt Gang Oct 2018",
+                "url": "https://researchcenter.paloaltonetworks.com/2018/10/unit42-new-techniques-uncover-attribute-cobalt-gang-commodity-builders-infrastructure-revealed/",
+                "description": "Unit 42. (2018, October 25). New Techniques to Uncover and Attribute Financial actors Commodity Builders and Infrastructure Revealed. Retrieved December 11, 2018."
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used the command <code>cmstp.exe /s /ns C:\\Users\\ADMINI~W\\AppData\\Local\\Temp\\XKNqbpzl.txt</code> to bypass AppLocker and launch a malicious script.(Citation: Talos Cobalt Group July 2018)(Citation: Morphisec Cobalt Gang Oct 2018)(Citation: Unit 42 Cobalt Gang Oct 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--4cbc6a62-9e34-4f94-8a19-5c1a11392a49",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--62c5050d-983c-44f7-ba23-f2820398eb67",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "source_name": "Talos Cobalt Group July 2018"
+            },
+            {
+                "source_name": "Morphisec Cobalt Gang Oct 2018",
+                "url": "https://blog.morphisec.com/cobalt-gang-2.0",
+                "description": "Gorelik, M. (2018, October 08). Cobalt Group 2.0. Retrieved November 5, 2018."
+            },
+            {
+                "description": "Giagone, R., Bermejo, L., and Yarochkin, F. (2017, November 20). Cobalt Strikes Again: Spam Runs Use Macros and CVE-2017-8759 Exploit Against Russian Banks. Retrieved March 7, 2019.",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/cobalt-spam-runs-use-macros-cve-2017-8759-exploit/",
+                "source_name": "TrendMicro Cobalt Group Nov 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used regsvr32.exe to execute scripts.(Citation: Talos Cobalt Group July 2018)(Citation: Morphisec Cobalt Gang Oct 2018)(Citation: TrendMicro Cobalt Group Nov 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6b083f3f-f8db-403d-b922-308b79d20cc7",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has injected code into trusted processes.(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--70d1a246-4ff2-452d-babf-ed47bccbf1c4",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "TrendMicro Cobalt Group Nov 2017",
+                "description": "Giagone, R., Bermejo, L., and Yarochkin, F. (2017, November 20). Cobalt Strikes Again: Spam Runs Use Macros and CVE-2017-8759 Exploit Against Russian Banks. Retrieved March 7, 2019.",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/cobalt-spam-runs-use-macros-cve-2017-8759-exploit/"
+            },
+            {
+                "source_name": "RiskIQ Cobalt Jan 2018",
+                "description": "Klijnsma, Y.. (2018, January 16). First Activities of Cobalt Group in 2018: Spear Phishing Russian Banks. Retrieved October 10, 2018.",
+                "url": "https://web.archive.org/web/20190508170147/https://www.riskiq.com/blog/labs/cobalt-group-spear-phishing-russian-banks/"
+            },
+            {
+                "source_name": "Group IB Cobalt Aug 2017",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "url": "https://www.group-ib.com/blog/cobalt"
+            },
+            {
+                "source_name": "PTSecurity Cobalt Dec 2016",
+                "description": "Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.",
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf"
+            },
+            {
+                "source_name": "PTSecurity Cobalt Group Aug 2017",
+                "description": "Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.",
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf"
+            },
+            {
+                "source_name": "Talos Cobalt Group July 2018",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-12-23T14:05:37.625Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used powershell.exe to download and execute scripts.(Citation: Talos Cobalt Group July 2018)(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: PTSecurity Cobalt Dec 2016)(Citation: Group IB Cobalt Aug 2017)(Citation: RiskIQ Cobalt Jan 2018)(Citation: TrendMicro Cobalt Group Nov 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7363ed1a-6f75-4ded-9179-2fdba17f6cf1",
+        "type": "relationship",
+        "created": "2021-10-12T20:20:46.610Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "PTSecurity Cobalt Dec 2016",
+                "description": "Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.",
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf"
+            }
+        ],
+        "modified": "2021-10-18T20:41:53.013Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has obtained and used a variety of tools including [Mimikatz](https://attack.mitre.org/software/S0002), [PsExec](https://attack.mitre.org/software/S0029), [Cobalt Strike](https://attack.mitre.org/software/S0154), and [SDelete](https://attack.mitre.org/software/S0195).(Citation: PTSecurity Cobalt Dec 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--78865095-f63e-461c-9e32-e202d514747d",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used Remote Desktop Protocol to conduct lateral movement.(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7d115073-c008-4394-867d-07c385d3db87",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "source_name": "Talos Cobalt Group July 2018"
+            },
+            {
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf",
+                "description": "Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.",
+                "source_name": "PTSecurity Cobalt Group Aug 2017"
+            },
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            },
+            {
+                "source_name": "Morphisec Cobalt Gang Oct 2018",
+                "url": "https://blog.morphisec.com/cobalt-gang-2.0",
+                "description": "Gorelik, M. (2018, October 08). Cobalt Group 2.0. Retrieved November 5, 2018."
+            },
+            {
+                "source_name": "Unit 42 Cobalt Gang Oct 2018",
+                "url": "https://researchcenter.paloaltonetworks.com/2018/10/unit42-new-techniques-uncover-attribute-cobalt-gang-commodity-builders-infrastructure-revealed/",
+                "description": "Unit 42. (2018, October 25). New Techniques to Uncover and Attribute Financial actors Commodity Builders and Infrastructure Revealed. Retrieved December 11, 2018."
+            },
+            {
+                "description": "Giagone, R., Bermejo, L., and Yarochkin, F. (2017, November 20). Cobalt Strikes Again: Spam Runs Use Macros and CVE-2017-8759 Exploit Against Russian Banks. Retrieved March 7, 2019.",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/cobalt-spam-runs-use-macros-cve-2017-8759-exploit/",
+                "source_name": "TrendMicro Cobalt Group Nov 2017"
+            }
+        ],
+        "modified": "2020-06-23T19:41:51.997Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has sent Word OLE compound documents with malicious obfuscated VBA macros that will run upon user execution.(Citation: Talos Cobalt Group July 2018)(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: Group IB Cobalt Aug 2017)(Citation: Morphisec Cobalt Gang Oct 2018)(Citation: Unit 42 Cobalt Gang Oct 2018)(Citation: TrendMicro Cobalt Group Nov 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7ec2b835-9c82-4a0a-9730-5f4b87e233f4",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Crowdstrike Global Threat Report Feb 2018",
+                "description": "CrowdStrike. (2018, February 26). CrowdStrike 2018 Global Threat Report. Retrieved October 10, 2018.",
+                "url": "https://crowdstrike.lookbookhq.com/global-threat-report-2018-web/cs-2018-global-threat-report"
+            },
+            {
+                "source_name": "TrendMicro Cobalt Group Nov 2017",
+                "description": "Giagone, R., Bermejo, L., and Yarochkin, F. (2017, November 20). Cobalt Strikes Again: Spam Runs Use Macros and CVE-2017-8759 Exploit Against Russian Banks. Retrieved March 7, 2019.",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/cobalt-spam-runs-use-macros-cve-2017-8759-exploit/"
+            },
+            {
+                "source_name": "RiskIQ Cobalt Nov 2017",
+                "description": "Klijnsma, Y.. (2017, November 28). Gaffe Reveals Full List of Targets in Spear Phishing Attack Using Cobalt Strike Against Financial Institutions. Retrieved October 10, 2018.",
+                "url": "https://web.archive.org/web/20190508170630/https://www.riskiq.com/blog/labs/cobalt-strike/"
+            },
+            {
+                "source_name": "RiskIQ Cobalt Jan 2018",
+                "description": "Klijnsma, Y.. (2018, January 16). First Activities of Cobalt Group in 2018: Spear Phishing Russian Banks. Retrieved October 10, 2018.",
+                "url": "https://web.archive.org/web/20190508170147/https://www.riskiq.com/blog/labs/cobalt-group-spear-phishing-russian-banks/"
+            },
+            {
+                "source_name": "Proofpoint Cobalt June 2017",
+                "description": "Mesa, M, et al. (2017, June 1). Microsoft Word Intruder Integrates CVE-2017-0199, Utilized by Cobalt Group to Target Financial Institutions. Retrieved October 10, 2018.",
+                "url": "https://www.proofpoint.com/us/threat-insight/post/microsoft-word-intruder-integrates-cve-2017-0199-utilized-cobalt-group-target"
+            },
+            {
+                "source_name": "PTSecurity Cobalt Dec 2016",
+                "description": "Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.",
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf"
+            },
+            {
+                "source_name": "PTSecurity Cobalt Group Aug 2017",
+                "description": "Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.",
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf"
+            },
+            {
+                "source_name": "Talos Cobalt Group July 2018",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-12-23T14:06:11.744Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) had exploited multiple vulnerabilities for execution, including Microsoft\u2019s Equation Editor (CVE-2017-11882), an Internet Explorer vulnerability (CVE-2018-8174), CVE-2017-8570, CVE-2017-0199, and CVE-2017-8759.(Citation: Talos Cobalt Group July 2018)(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: PTSecurity Cobalt Dec 2016)(Citation: Proofpoint Cobalt June 2017)(Citation: RiskIQ Cobalt Nov 2017)(Citation: RiskIQ Cobalt Jan 2018)(Citation: Crowdstrike Global Threat Report Feb 2018)(Citation: TrendMicro Cobalt Group Nov 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--88852c38-9aeb-47f4-be63-dc09b8583155",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "source_name": "Talos Cobalt Group July 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) deleted the DLL dropper from the victim\u2019s machine to cover their tracks.(Citation: Talos Cobalt Group July 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8b4fd69e-a3c6-4721-9aed-d8235a93672e",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has bypassed UAC.(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8c13ef6b-5274-4de0-9fad-531b9c87309e",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "source_name": "Talos Cobalt Group July 2018"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) used msxsl.exe to bypass AppLocker and to invoke Jscript code from an XSL file.(Citation: Talos Cobalt Group July 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--ebbe170d-aa74-4946-8511-9921243415a3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8de247e5-8d6b-4a07-bd65-ba3c3ca57923",
+        "type": "relationship",
+        "created": "2020-03-17T00:38:52.195Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Cobalt Group July 2018",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html"
+            },
+            {
+                "source_name": "PTSecurity Cobalt Dec 2016",
+                "description": "Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.",
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf"
+            },
+            {
+                "source_name": "Group IB Cobalt Aug 2017",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "url": "https://www.group-ib.com/blog/cobalt"
+            }
+        ],
+        "modified": "2020-03-17T00:38:52.195Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used DNS tunneling for C2.(Citation: Talos Cobalt Group July 2018)(Citation: PTSecurity Cobalt Dec 2016)(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8e8bebc7-14ff-4c84-a2a4-472446c5897a",
+        "type": "relationship",
+        "created": "2020-06-23T19:41:51.743Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Cobalt Group July 2018",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html"
+            },
+            {
+                "source_name": "PTSecurity Cobalt Group Aug 2017",
+                "description": "Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.",
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf"
+            },
+            {
+                "source_name": "Group IB Cobalt Aug 2017",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "url": "https://www.group-ib.com/blog/cobalt"
+            },
+            {
+                "description": "Gorelik, M. (2018, October 08). Cobalt Group 2.0. Retrieved November 5, 2018.",
+                "url": "https://blog.morphisec.com/cobalt-gang-2.0",
+                "source_name": "Morphisec Cobalt Gang Oct 2018"
+            },
+            {
+                "source_name": "Unit 42 Cobalt Gang Oct 2018",
+                "url": "https://researchcenter.paloaltonetworks.com/2018/10/unit42-new-techniques-uncover-attribute-cobalt-gang-commodity-builders-infrastructure-revealed/",
+                "description": "Unit 42. (2018, October 25). New Techniques to Uncover and Attribute Financial actors Commodity Builders and Infrastructure Revealed. Retrieved December 11, 2018."
+            },
+            {
+                "description": "Giagone, R., Bermejo, L., and Yarochkin, F. (2017, November 20). Cobalt Strikes Again: Spam Runs Use Macros and CVE-2017-8759 Exploit Against Russian Banks. Retrieved March 7, 2019.",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/cobalt-spam-runs-use-macros-cve-2017-8759-exploit/",
+                "source_name": "TrendMicro Cobalt Group Nov 2017"
+            }
+        ],
+        "modified": "2020-06-23T19:41:51.743Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has executed JavaScript scriptlets on the victim's machine.(Citation: Talos Cobalt Group July 2018)(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: Group IB Cobalt Aug 2017)(Citation: Morphisec Cobalt Gang Oct 2018)(Citation: Unit 42 Cobalt Gang Oct 2018)(Citation: TrendMicro Cobalt Group Nov 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--95618672-6f7f-4055-9c96-29f75e276d5b",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Cobalt Group July 2018",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html"
+            },
+            {
+                "source_name": "Secureworks GOLD KINGSWOOD September 2018",
+                "url": "https://www.secureworks.com/blog/cybercriminals-increasingly-trying-to-ensnare-the-big-financial-fish",
+                "description": "CTU. (2018, September 27). Cybercriminals Increasingly Trying to Ensnare the Big Financial Fish. Retrieved September 20, 2021."
+            }
+        ],
+        "modified": "2021-09-21T14:51:42.148Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has sent emails with URLs pointing to malicious documents.(Citation: Talos Cobalt Group July 2018)(Citation: Secureworks GOLD KINGSWOOD September 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9c8cf20d-b834-4460-a8a8-13d96c19d2ea",
+        "type": "relationship",
+        "created": "2020-03-17T13:53:21.450Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Cobalt Group July 2018",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html"
+            },
+            {
+                "source_name": "Unit 42 Cobalt Gang Oct 2018",
+                "url": "https://researchcenter.paloaltonetworks.com/2018/10/unit42-new-techniques-uncover-attribute-cobalt-gang-commodity-builders-infrastructure-revealed/",
+                "description": "Unit 42. (2018, October 25). New Techniques to Uncover and Attribute Financial actors Commodity Builders and Infrastructure Revealed. Retrieved December 11, 2018."
+            },
+            {
+                "source_name": "Secureworks GOLD KINGSWOOD September 2018",
+                "url": "https://www.secureworks.com/blog/cybercriminals-increasingly-trying-to-ensnare-the-big-financial-fish",
+                "description": "CTU. (2018, September 27). Cybercriminals Increasingly Trying to Ensnare the Big Financial Fish. Retrieved September 20, 2021."
+            }
+        ],
+        "modified": "2021-09-21T14:51:42.277Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has sent emails containing malicious links that require users to execute a file or macro to infect the victim machine.(Citation: Talos Cobalt Group July 2018)(Citation: Unit 42 Cobalt Gang Oct 2018)(Citation: Secureworks GOLD KINGSWOOD September 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a0493e99-06ba-4f40-9aae-6f7f9bad6caa",
+        "type": "relationship",
+        "created": "2020-03-17T19:14:38.092Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "description": "Gorelik, M. (2018, October 08). Cobalt Group 2.0. Retrieved November 5, 2018.",
+                "url": "https://blog.morphisec.com/cobalt-gang-2.0",
+                "source_name": "Morphisec Cobalt Gang Oct 2018"
+            },
+            {
+                "source_name": "Talos Cobalt Group July 2018",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html"
+            },
+            {
+                "source_name": "PTSecurity Cobalt Group Aug 2017",
+                "description": "Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.",
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf"
+            },
+            {
+                "source_name": "Group IB Cobalt Aug 2017",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "url": "https://www.group-ib.com/blog/cobalt"
+            },
+            {
+                "description": "Gorelik, M. (2018, October 08). Cobalt Group 2.0. Retrieved November 5, 2018.",
+                "url": "https://blog.morphisec.com/cobalt-gang-2.0",
+                "source_name": "Morphisec Cobalt Gang Oct 2018"
+            },
+            {
+                "description": "Unit 42. (2018, October 25). New Techniques to Uncover and Attribute Financial actors Commodity Builders and Infrastructure Revealed. Retrieved December 11, 2018.",
+                "url": "https://researchcenter.paloaltonetworks.com/2018/10/unit42-new-techniques-uncover-attribute-cobalt-gang-commodity-builders-infrastructure-revealed/",
+                "source_name": "Unit 42 Cobalt Gang Oct 2018"
+            },
+            {
+                "source_name": "TrendMicro Cobalt Group Nov 2017",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/cobalt-spam-runs-use-macros-cve-2017-8759-exploit/",
+                "description": "Giagone, R., Bermejo, L., and Yarochkin, F. (2017, November 20). Cobalt Strikes Again: Spam Runs Use Macros and CVE-2017-8759 Exploit Against Russian Banks. Retrieved March 7, 2019."
+            }
+        ],
+        "modified": "2020-03-20T15:40:43.374Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used a JavaScript backdoor that is capable of launching cmd.exe to execute shell commands.(Citation: Morphisec Cobalt Gang Oct 2018) The group has used an exploit toolkit known as Threadkit that launches .bat files.(Citation: Talos Cobalt Group July 2018)(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: Group IB Cobalt Aug 2017)(Citation: Morphisec Cobalt Gang Oct 2018)(Citation: Unit 42 Cobalt Gang Oct 2018)(Citation: TrendMicro Cobalt Group Nov 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a80751f1-8def-4415-a38b-35ceb703244c",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Cobalt Group July 2018",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html"
+            },
+            {
+                "source_name": "Crowdstrike GTR2020 Mar 2020",
+                "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+                "description": "Crowdstrike. (2020, March 2). 2020 Global Threat Report. Retrieved December 11, 2020."
+            }
+        ],
+        "modified": "2020-12-11T15:45:50.921Z",
+        "description": "(Citation: Talos Cobalt Group July 2018)(Citation: Crowdstrike GTR2020 Mar 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "malware--bfd2738c-8b43-43c3-bc9f-d523c8e88bf4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a9062522-1891-4405-b8e6-f6465834c18a",
+        "type": "relationship",
+        "created": "2021-10-15T20:03:19.605Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Secureworks GOLD KINGSWOOD September 2018",
+                "url": "https://www.secureworks.com/blog/cybercriminals-increasingly-trying-to-ensnare-the-big-financial-fish",
+                "description": "CTU. (2018, September 27). Cybercriminals Increasingly Trying to Ensnare the Big Financial Fish. Retrieved September 20, 2021."
+            }
+        ],
+        "modified": "2021-10-15T20:03:19.605Z",
+        "description": "(Citation: Secureworks GOLD KINGSWOOD September 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "malware--599cd7b5-37b5-4cdd-8174-2811531ce9d0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ae11039c-6711-4860-a1b6-c7a8e0bcbbfb",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf",
+                "description": "Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.",
+                "source_name": "PTSecurity Cobalt Dec 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: PTSecurity Cobalt Dec 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "tool--d8d19e33-94fd-4aa3-b94a-08ee801a2153",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b398ed8d-5801-4cf0-bea2-c8b62c568bcd",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "source_name": "Talos Cobalt Group July 2018"
+            },
+            {
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf",
+                "description": "Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.",
+                "source_name": "PTSecurity Cobalt Dec 2016"
+            },
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            }
+        ],
+        "modified": "2020-03-17T00:38:52.332Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used HTTPS for C2.(Citation: Talos Cobalt Group July 2018)(Citation: PTSecurity Cobalt Dec 2016)(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--bab233b8-640c-4a8b-90fa-d5b959adefbb",
+        "created": "2020-11-06T18:40:38.494Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Crowdstrike Global Threat Report Feb 2018",
+                "description": "CrowdStrike. (2018, February 26). CrowdStrike 2018 Global Threat Report. Retrieved October 10, 2018.",
+                "url": "https://crowdstrike.lookbookhq.com/global-threat-report-2018-web/cs-2018-global-threat-report"
+            },
+            {
+                "source_name": "TrendMicro Cobalt Group Nov 2017",
+                "description": "Giagone, R., Bermejo, L., and Yarochkin, F. (2017, November 20). Cobalt Strikes Again: Spam Runs Use Macros and CVE-2017-8759 Exploit Against Russian Banks. Retrieved March 7, 2019.",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/cobalt-spam-runs-use-macros-cve-2017-8759-exploit/"
+            },
+            {
+                "source_name": "RiskIQ Cobalt Nov 2017",
+                "description": "Klijnsma, Y.. (2017, November 28). Gaffe Reveals Full List of Targets in Spear Phishing Attack Using Cobalt Strike Against Financial Institutions. Retrieved October 10, 2018.",
+                "url": "https://web.archive.org/web/20190508170630/https://www.riskiq.com/blog/labs/cobalt-strike/"
+            },
+            {
+                "source_name": "RiskIQ Cobalt Jan 2018",
+                "description": "Klijnsma, Y.. (2018, January 16). First Activities of Cobalt Group in 2018: Spear Phishing Russian Banks. Retrieved October 10, 2018.",
+                "url": "https://web.archive.org/web/20190508170147/https://www.riskiq.com/blog/labs/cobalt-group-spear-phishing-russian-banks/"
+            },
+            {
+                "source_name": "Group IB Cobalt Aug 2017",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "url": "https://www.group-ib.com/blog/cobalt"
+            },
+            {
+                "source_name": "Proofpoint Cobalt June 2017",
+                "description": "Mesa, M, et al. (2017, June 1). Microsoft Word Intruder Integrates CVE-2017-0199, Utilized by Cobalt Group to Target Financial Institutions. Retrieved October 10, 2018.",
+                "url": "https://www.proofpoint.com/us/threat-insight/post/microsoft-word-intruder-integrates-cve-2017-0199-utilized-cobalt-group-target"
+            },
+            {
+                "source_name": "PTSecurity Cobalt Group Aug 2017",
+                "description": "Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.",
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf"
+            },
+            {
+                "source_name": "Talos Cobalt Group July 2018",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2022-12-23T14:06:11.745Z",
+        "description": "(Citation: Talos Cobalt Group July 2018)(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: Group IB Cobalt Aug 2017)(Citation: Proofpoint Cobalt June 2017) (Citation: RiskIQ Cobalt Nov 2017)(Citation: RiskIQ Cobalt Jan 2018)(Citation: Crowdstrike Global Threat Report Feb 2018)(Citation: TrendMicro Cobalt Group Nov 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bd5bc949-6b6b-4511-87f7-3a439a4681da",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used Registry Run keys for persistence. The group has also set a Startup path to launch the PowerShell shell command and download Cobalt Strike.(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c50f75fe-e7a9-4190-9ca8-a28187955669",
+        "type": "relationship",
+        "created": "2020-03-17T00:38:52.139Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Cobalt Group July 2018",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html"
+            },
+            {
+                "source_name": "PTSecurity Cobalt Dec 2016",
+                "description": "Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.",
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf"
+            },
+            {
+                "source_name": "Group IB Cobalt Aug 2017",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "url": "https://www.group-ib.com/blog/cobalt"
+            }
+        ],
+        "modified": "2020-03-17T00:38:52.139Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used the Plink utility to create SSH tunnels.(Citation: Talos Cobalt Group July 2018)(Citation: PTSecurity Cobalt Dec 2016)(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cfb7e335-e7a3-4dc3-91b8-70381a888222",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            }
+        ],
+        "modified": "2020-03-20T23:11:51.513Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used the Plink utility to create SSH tunnels.(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d54a98b2-8023-43ac-8577-53796b1efa55",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has created new services to establish persistence.(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e46dc495-5581-471c-84b5-b0dd825471f9",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf",
+                "description": "Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.",
+                "source_name": "PTSecurity Cobalt Group Aug 2017"
+            },
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e74cdd3d-4ac7-42c5-a7ac-e2f58371fc5b",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf",
+                "description": "Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.",
+                "source_name": "PTSecurity Cobalt Group Aug 2017"
+            },
+            {
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf",
+                "description": "Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.",
+                "source_name": "PTSecurity Cobalt Dec 2016"
+            },
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            }
+        ],
+        "modified": "2020-03-19T19:46:47.773Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) used the Ammyy Admin tool as well as TeamViewer for remote access, including to preserve remote access if a Cobalt Strike module was lost.(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: PTSecurity Cobalt Dec 2016)(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--edcd7a59-f8e0-41e5-b0f5-8d348fa13a10",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf",
+                "description": "Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.",
+                "source_name": "PTSecurity Cobalt Group Aug 2017"
+            },
+            {
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf",
+                "description": "Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.",
+                "source_name": "PTSecurity Cobalt Dec 2016"
+            },
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) leveraged an open-source tool called SoftPerfect Network Scanner to perform network scanning.(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: PTSecurity Cobalt Dec 2016)(Citation: Group IB Cobalt Aug 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f9283994-d216-4796-989d-a375eb4834a9",
+        "type": "relationship",
+        "created": "2019-01-30T19:27:46.126Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Morphisec Cobalt Gang Oct 2018",
+                "url": "https://blog.morphisec.com/cobalt-gang-2.0",
+                "description": "Gorelik, M. (2018, October 08). Cobalt Group 2.0. Retrieved November 5, 2018."
+            }
+        ],
+        "modified": "2020-01-17T22:28:55.233Z",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has added persistence by registering the file name for the next stage malware under <code>HKCU\\Environment\\UserInitMprLogonScript</code>.(Citation: Morphisec Cobalt Gang Oct 2018)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "target_ref": "attack-pattern--eb125d40-0b2d-41ac-a71a-3229241c2cd3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "id": "relationship--522c0d0b-74aa-457f-8c2c-43a6fd75f35d",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "url": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html",
+                "description": "Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.",
+                "source_name": "Talos Cobalt Group July 2018"
+            },
+            {
+                "url": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf",
+                "description": "Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.",
+                "source_name": "PTSecurity Cobalt Group Aug 2017"
+            },
+            {
+                "url": "https://www.group-ib.com/blog/cobalt",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "source_name": "Group IB Cobalt Aug 2017"
+            },
+            {
+                "url": "https://www.proofpoint.com/us/threat-insight/post/microsoft-word-intruder-integrates-cve-2017-0199-utilized-cobalt-group-target",
+                "description": "Mesa, M, et al. (2017, June 1). Microsoft Word Intruder Integrates CVE-2017-0199, Utilized by Cobalt Group to Target Financial Institutions. Retrieved October 10, 2018.",
+                "source_name": "Proofpoint Cobalt June 2017"
+            },
+            {
+                "url": "https://www.riskiq.com/blog/labs/cobalt-strike/",
+                "description": "Klijnsma, Y.. (2017, November 28). Gaffe Reveals Full List of Targets in Spear Phishing Attack Using Cobalt Strike Against Financial Institutions. Retrieved October 10, 2018.",
+                "source_name": "RiskIQ Cobalt Nov 2017"
+            },
+            {
+                "url": "https://www.riskiq.com/blog/labs/cobalt-group-spear-phishing-russian-banks/",
+                "description": "Klijnsma, Y.. (2018, January 16). First Activities of Cobalt Group in 2018: Spear Phishing Russian Banks. Retrieved October 10, 2018.",
+                "source_name": "RiskIQ Cobalt Jan 2018"
+            },
+            {
+                "url": "https://crowdstrike.lookbookhq.com/global-threat-report-2018-web/cs-2018-global-threat-report",
+                "description": "CrowdStrike. (2018, February 26). CrowdStrike 2018 Global Threat Report. Retrieved October 10, 2018.",
+                "source_name": "Crowdstrike Global Threat Report Feb 2018"
+            },
+            {
+                "description": "Giagone, R., Bermejo, L., and Yarochkin, F. (2017, November 20). Cobalt Strikes Again: Spam Runs Use Macros and CVE-2017-8759 Exploit Against Russian Banks. Retrieved March 7, 2019.",
+                "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/cobalt-spam-runs-use-macros-cve-2017-8759-exploit/",
+                "source_name": "TrendMicro Cobalt Group Nov 2017"
+            }
+        ],
+        "description": "(Citation: Talos Cobalt Group July 2018)(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: Group IB Cobalt Aug 2017)(Citation: Proofpoint Cobalt June 2017) (Citation: RiskIQ Cobalt Nov 2017)(Citation: RiskIQ Cobalt Jan 2018)(Citation: Crowdstrike Global Threat Report Feb 2018)(Citation: TrendMicro Cobalt Group Nov 2017)",
+        "type": "relationship",
+        "modified": "2021-04-29T14:49:39.188Z",
+        "created": "2018-10-17T00:14:20.652Z",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "relationship_type": "uses",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--6aabc5ec-eae6-422c-8311-38d45ee9838a",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used TeamViewer to preserve remote access in case control using the Cobalt Strike module was lost.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2018-10-17T00:14:20.652Z",
+        "id": "relationship--45226d14-dc97-4b6e-90ab-30ebf84efa2d",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Group IB Cobalt Aug 2017",
+                "description": "Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.",
+                "url": "https://www.group-ib.com/blog/cobalt"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+        "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used a JavaScript backdoor that is capable of launching cmd.exe to execute shell commands.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2019-01-30T19:27:46.204Z",
+        "id": "relationship--fd602e63-9851-4f1d-b728-7b0103d7732f",
+        "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "description": "Gorelik, M. (2018, October 08). Cobalt Group 2.0. Retrieved November 5, 2018.",
+                "source_name": "Morphisec Cobalt Gang Oct 2018",
+                "url": "https://blog.morphisec.com/cobalt-gang-2.0"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

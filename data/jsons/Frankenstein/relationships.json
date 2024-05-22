@@ -1,0 +1,758 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--004a3a47-56df-4bb0-a732-c88d4c271937",
+        "type": "relationship",
+        "created": "2020-05-11T21:30:27.787Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has uploaded and downloaded files to utilize additional plugins.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--00c0e096-f023-4ccc-8567-d1e8c8494cb5",
+        "type": "relationship",
+        "created": "2020-05-11T21:30:27.895Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has enumerated hosts via [Empire](https://attack.mitre.org/software/S0363), gathering various local system information.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--01e457f1-0fc5-473b-950c-82a2fd2a79a9",
+        "type": "relationship",
+        "created": "2020-05-11T19:28:49.002Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has used CVE-2017-11882 to execute code on the victim's machine.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1c8e6547-4754-427e-b8da-6b1560c68381",
+        "type": "relationship",
+        "created": "2020-05-11T19:44:35.038Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has used WMI queries to check if various security applications were running, as well as the operating system version.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--25892875-54af-463b-abd4-33ea4141982e",
+        "type": "relationship",
+        "created": "2020-05-11T19:28:48.998Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has used trojanized Microsoft Word documents sent via email, which prompted the victim to enable macros.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2e348f62-cc8c-48af-8a5f-d1e5a0fe870b",
+        "type": "relationship",
+        "created": "2020-05-11T21:30:27.792Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has collected information via [Empire](https://attack.mitre.org/software/S0363), which is automatically sent the data back to the adversary's C2.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--774a3188-6ba9-4dc4-879d-d54ee48a5ce9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--300c5a35-9f3a-4e0d-b04e-bad983ba7136",
+        "type": "relationship",
+        "created": "2020-05-11T21:30:27.906Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has deobfuscated base64-encoded commands following the execution of a malicious script, which revealed a small script designed to obtain an additional payload.(Citation: Talos Frankenstein June 2019)  ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--31bdbd30-4938-48d6-ba95-1b90af01041c",
+        "type": "relationship",
+        "created": "2020-05-11T19:44:35.090Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has used WMI queries to check if various security applications were running, including VMWare and Virtualbox.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--29be378d-262d-4e99-b00d-852d573628e6",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--39ebd556-6b3a-4129-bc43-406e07a5206d",
+        "type": "relationship",
+        "created": "2020-05-11T21:30:27.754Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has harvested credentials from the victim's machine using [Empire](https://attack.mitre.org/software/S0363).(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--42c0ba63-03d8-414d-8f42-2aa4c585ea03",
+        "type": "relationship",
+        "created": "2020-05-11T15:21:09.608Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "(Citation: Talos Frankenstein June 2019) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--44f65d7f-6f3d-4abe-a3e0-c8209fedbf37",
+        "type": "relationship",
+        "created": "2020-05-11T21:30:27.790Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has collected information via [Empire](https://attack.mitre.org/software/S0363), which is automatically sent the data back to the adversary's C2.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--45fc2c32-6a20-4219-af45-e1d001724c45",
+        "type": "relationship",
+        "created": "2020-05-11T21:30:27.882Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has enumerated hosts, gathering username, machine name, and administrative permissions information.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4e8e5997-1af2-4d33-b9d0-e193acbd691f",
+        "type": "relationship",
+        "created": "2020-05-11T19:28:48.985Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has used PowerShell to run a series of base64-encoded commands, that acted as a stager and enumerated hosts.(Citation: Talos Frankenstein June 2019)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--658fac5c-df6e-4586-9850-5a7512e0d164",
+        "type": "relationship",
+        "created": "2020-05-11T19:28:48.989Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has used trojanized documents that retrieve remote templates from an adversary-controlled website.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--dc31fe1e-d722-49da-8f5f-92c7b5aff534",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--75f107f3-cc95-449c-883b-590089f23913",
+        "type": "relationship",
+        "created": "2020-05-11T19:44:34.960Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has run encoded commands from the command line.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7638d7f9-ad02-4ca5-9212-d85b1f33b5f4",
+        "type": "relationship",
+        "created": "2020-05-11T19:28:49.277Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has used Word documents that prompts the victim to enable macros and run a Visual Basic script.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7b9a6646-26d6-44ae-8f79-5d31f7c28059",
+        "type": "relationship",
+        "created": "2020-05-11T21:30:27.879Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has communicated with a C2 via an encrypted RC4 byte stream and AES-CBC.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8d4e36fc-65d8-4367-98ed-7e467b9e1f1b",
+        "type": "relationship",
+        "created": "2020-05-11T21:30:27.899Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has enumerated hosts via [Empire](https://attack.mitre.org/software/S0363), gathering the username, domain name, machine name, and other system information.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--910ed1c2-bba1-422d-b64a-0188e8c57577",
+        "type": "relationship",
+        "created": "2020-05-11T21:30:27.795Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has enumerated hosts, looking to obtain a list of all currently running processes.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--996847c0-9e6f-44e5-bed7-ee78af9cf17d",
+        "type": "relationship",
+        "created": "2020-05-11T15:21:09.597Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has used spearphishing emails to send trojanized Microsoft Word documents.(Citation: Talos Frankenstein June 2019)  ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a0a54af7-b2b2-4914-a987-b8646f94db58",
+        "type": "relationship",
+        "created": "2020-05-11T19:28:48.995Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has run a command script to set up persistence as a scheduled task named \"WinUpdate\", as well as other encoded commands from the command-line.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--baa3063b-13b9-4a32-adac-7c0cc40704c5",
+        "type": "relationship",
+        "created": "2020-05-11T21:30:27.775Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has enumerated hosts, looking for the public IP address of the system.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cd469152-553f-4219-985c-b0689e27cc7e",
+        "type": "relationship",
+        "created": "2020-05-11T19:44:35.028Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has used MSbuild to execute an actor-created file.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--c92e3d68-2349-49e4-a341-7edca2deff96",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d098d14a-b09b-4e11-820e-4d6e15080e96",
+        "type": "relationship",
+        "created": "2021-05-26T19:57:42.305Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has obtained and used [Empire](https://attack.mitre.org/software/S0363) to deploy agents.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--eb9ccd35-7ddc-4340-acb7-788e109d0e59",
+        "type": "relationship",
+        "created": "2020-05-11T19:28:48.976Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has established persistence through a scheduled task using the command: <code> /Create /F /SC DAILY /ST 09:00 /TN WinUpdate /TR </code>, named \"WinUpdate\".(Citation: Talos Frankenstein June 2019)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f5410e8d-a440-41a6-abcc-d7b1c4c097db",
+        "type": "relationship",
+        "created": "2020-05-11T19:44:35.156Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has used WMI queries to detect if virtualization environments or analysis tools were running on the system.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f92333e5-9897-4a79-8e1f-4770867325a9",
+        "type": "relationship",
+        "created": "2020-05-11T21:30:27.876Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Talos Frankenstein June 2019",
+                "url": "https://blog.talosintelligence.com/2019/06/frankenstein-campaign.html",
+                "description": "Adamitis, D. et al. (2019, June 4). It's alive: Threat actors cobble together open-source pieces into monstrous Frankenstein campaign. Retrieved May 11, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) has enumerated hosts, looking for the system's machine name.(Citation: Talos Frankenstein June 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

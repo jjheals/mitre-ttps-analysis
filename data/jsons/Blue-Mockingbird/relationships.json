@@ -1,0 +1,646 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--06de29d8-365b-4072-a4bb-9d436763ea1e",
+        "type": "relationship",
+        "created": "2020-05-27T15:31:09.498Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.716Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used PowerShell reverse TCP shells to issue interactive commands over a network connection.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0e7ce20c-1a4f-4361-a954-1d7a164baca1",
+        "type": "relationship",
+        "created": "2020-06-24T23:51:51.525Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:10.215Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used wmic.exe and Windows Registry modifications to set the COR_PROFILER environment variable to execute a malicious DLL whenever a process loads the .NET CLR.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--ffeb0780-356e-4261-b036-cfb6bd234335",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1a666dc1-d0b9-49ac-b05b-350cfca7fa61",
+        "type": "relationship",
+        "created": "2020-05-27T15:31:09.473Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.704Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used mofcomp.exe to establish WMI Event Subscription persistence mechanisms configured from a *.mof file.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--910906dd-8c0a-475a-9cc1-5e029e2fad58",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1b9b84cc-f9c7-48c5-8e23-ac00a7a4691a",
+        "type": "relationship",
+        "created": "2020-05-27T18:25:52.409Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.814Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has collected hardware details for the victim's system, including CPU and memory information.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--328e9746-4bb6-47e1-8e71-6418ca04c5fa",
+        "type": "relationship",
+        "created": "2020-05-27T15:31:09.539Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.943Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has made their XMRIG payloads persistent as a Windows Service.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3f221ccc-1be7-4959-b239-6a3e027da1ae",
+        "type": "relationship",
+        "created": "2020-05-27T15:31:09.458Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.706Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used Windows Scheduled Tasks to establish persistence on local and remote hosts.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--47e9267e-e84d-43b6-992a-5f42d39c45bb",
+        "type": "relationship",
+        "created": "2020-05-27T18:25:52.535Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.949Z",
+        "description": "(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4c26e6e8-8303-44ad-9e5d-452dff52858f",
+        "type": "relationship",
+        "created": "2020-05-27T15:31:09.497Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.806Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used frp, ssf, and Venom to establish SOCKS proxy connections.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--51548d6c-0aa9-4813-8493-3d9bbcd0617a",
+        "type": "relationship",
+        "created": "2020-06-08T19:45:34.998Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.923Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used wmic.exe to set environment variables.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--552215a4-9761-4dce-8a59-83cd81ca43a8",
+        "type": "relationship",
+        "created": "2020-05-27T15:31:09.471Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.803Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used batch script files to automate execution and deployment of payloads.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--56af2eea-6c9d-4917-b7d9-275877cb552a",
+        "type": "relationship",
+        "created": "2020-05-27T15:31:09.532Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.936Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used Mimikatz to retrieve credentials from LSASS memory.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--66513679-0866-4091-a346-2679db5e3cca",
+        "type": "relationship",
+        "created": "2020-05-26T20:09:39.246Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.792Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has executed custom-compiled XMRIG miner DLLs using rundll32.exe.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6d3d48ff-ea37-4626-8148-4111163e95e3",
+        "type": "relationship",
+        "created": "2020-05-27T15:31:09.535Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.926Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used JuicyPotato to abuse the <code>SeImpersonate</code> token privilege to escalate from web application pool accounts to NT Authority\\SYSTEM.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--dcaa092b-7de9-4a21-977f-7fcb77e89c48",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8042dc21-37e4-4a60-aef1-457179f346e5",
+        "type": "relationship",
+        "created": "2020-05-27T15:31:09.486Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.709Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used XMRIG to mine cryptocurrency on victim systems.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--85aecc08-dda1-4203-9dec-376f1d9d3cad",
+        "created": "2020-06-08T19:55:47.563Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020.",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-11T02:51:14.065Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has obfuscated the wallet address in the payload binary.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8b3f4fd5-9acd-49e5-bae5-6996ae46aa0f",
+        "type": "relationship",
+        "created": "2020-06-08T19:45:34.975Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.809Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used Windows Registry modifications to specify a DLL payload.(Citation: RedCanary Mockingbird May 2020)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8dc7e200-3c90-4611-9bbe-aa90056f423e",
+        "type": "relationship",
+        "created": "2020-05-26T20:09:39.224Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.612Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has executed custom-compiled XMRIG miner DLLs by configuring them to execute via the \"wercplsupport\" service.(Citation: RedCanary Mockingbird May 2020)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a4bb6f26-b659-4d1d-b0fc-f4f4efe32db6",
+        "type": "relationship",
+        "created": "2020-05-26T20:09:39.255Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.795Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has gained initial access by exploiting CVE-2019-18935, a vulnerability within Telerik UI for ASP.NET AJAX.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--abd46534-2632-4c12-a9c2-06a2a4116f2c",
+        "type": "relationship",
+        "created": "2020-05-27T15:31:09.530Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.933Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used Remote Desktop to log on to servers interactively and manually copy files to remote hosts.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b04c89b2-f790-4961-a012-7ccd18d1436e",
+        "type": "relationship",
+        "created": "2020-05-26T20:09:39.243Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.699Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has executed custom-compiled XMRIG miner DLLs using regsvr32.exe.(Citation: RedCanary Mockingbird May 2020)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bf4d368e-202d-4bd2-9ffe-013ca6104e05",
+        "type": "relationship",
+        "created": "2020-05-27T15:31:09.501Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.812Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used Windows Explorer to manually copy malicious files to remote hosts over SMB.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cc42a6c0-ce7c-442b-8ccc-cb5a9fba3462",
+        "type": "relationship",
+        "created": "2020-05-27T15:31:09.537Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-06-25T13:59:09.915Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has masqueraded their XMRIG payload name by naming it wercplsupporte.dll after the legitimate wercplsupport.dll file.(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f06ee9db-1a29-412f-9584-5175eff85f28",
+        "type": "relationship",
+        "created": "2021-10-12T21:46:13.229Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "RedCanary Mockingbird May 2020",
+                "url": "https://redcanary.com/blog/blue-mockingbird-cryptominer/",
+                "description": "Lambert, T. (2020, May 7). Introducing Blue Mockingbird. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2021-10-12T21:46:13.229Z",
+        "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has obtained and used tools such as [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: RedCanary Mockingbird May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

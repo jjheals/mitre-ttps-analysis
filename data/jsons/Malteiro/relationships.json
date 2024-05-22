@@ -1,0 +1,366 @@
+[
+    {
+        "type": "relationship",
+        "id": "relationship--01653d7c-2616-4ccc-9bab-225e897b01f2",
+        "created": "2024-03-13T20:38:49.462Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SCILabs Malteiro 2021",
+                "description": "SCILabs. (2021, December 23). Cyber Threat Profile Malteiro. Retrieved March 13, 2024.",
+                "url": "https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-03-25T13:39:33.223Z",
+        "description": "[Malteiro](https://attack.mitre.org/groups/G1026) has relied on users to execute .zip file attachments containing malicious URLs.(Citation: SCILabs Malteiro 2021) ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--2bc01152-d964-4d53-86bd-a35e56200379",
+        "created": "2024-03-13T20:31:32.547Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SCILabs Malteiro 2021",
+                "description": "SCILabs. (2021, December 23). Cyber Threat Profile Malteiro. Retrieved March 13, 2024.",
+                "url": "https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-03-13T21:04:10.416Z",
+        "description": "[Malteiro](https://attack.mitre.org/groups/G1026) has stolen credentials stored in the victim\u2019s browsers via software tool NirSoft WebBrowserPassView.(Citation: SCILabs Malteiro 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+        "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--43f6b172-34cf-4663-836a-df1ad978e7df",
+        "created": "2024-03-13T20:35:29.988Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SCILabs Malteiro 2021",
+                "description": "SCILabs. (2021, December 23). Cyber Threat Profile Malteiro. Retrieved March 13, 2024.",
+                "url": "https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-03-15T20:11:51.949Z",
+        "description": "[Malteiro](https://attack.mitre.org/groups/G1026) has injected [Mispadu](https://attack.mitre.org/software/S1122)\u2019s DLL into a process.(Citation: SCILabs Malteiro 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+        "target_ref": "attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5576c61b-2564-407d-9c25-7d155fc8e7b8",
+        "created": "2024-03-13T21:00:33.003Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SCILabs Malteiro 2021",
+                "description": "SCILabs. (2021, December 23). Cyber Threat Profile Malteiro. Retrieved March 13, 2024.",
+                "url": "https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-03-25T13:19:32.130Z",
+        "description": "(Citation: SCILabs Malteiro 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+        "target_ref": "malware--4e6464d2-69df-4e56-8d4c-1973f84d7b80",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5b920225-ef1a-49f1-be65-1baa948d7139",
+        "created": "2024-04-18T14:14:59.504Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SCILabs Malteiro 2021",
+                "description": "SCILabs. (2021, December 23). Cyber Threat Profile Malteiro. Retrieved March 13, 2024.",
+                "url": "https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-18T14:14:59.504Z",
+        "description": "[Malteiro](https://attack.mitre.org/groups/G1026) targets organizations in a wide variety of sectors via the use of [Mispadu](https://attack.mitre.org/software/S1122) banking trojan with the goal of financial theft.(Citation: SCILabs Malteiro 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+        "target_ref": "attack-pattern--851e071f-208d-4c79-adc6-5974c85c78f3",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--6d279a48-f529-4f5d-be3a-a53529055323",
+        "created": "2024-03-13T20:36:47.005Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SCILabs Malteiro 2021",
+                "description": "SCILabs. (2021, December 23). Cyber Threat Profile Malteiro. Retrieved March 13, 2024.",
+                "url": "https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-17T18:25:59.958Z",
+        "description": "[Malteiro](https://attack.mitre.org/groups/G1026) collects the machine information, system architecture, the OS version, computer name, and Windows product name.(Citation: SCILabs Malteiro 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--785b597e-cd9b-4598-80d9-51f060b27f0a",
+        "created": "2024-03-13T20:25:31.759Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SCILabs Malteiro 2021",
+                "description": "SCILabs. (2021, December 23). Cyber Threat Profile Malteiro. Retrieved March 13, 2024.",
+                "url": "https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-03-13T21:04:51.630Z",
+        "description": "[Malteiro](https://attack.mitre.org/groups/G1026) has utilized a dropper containing malicious VBS scripts.(Citation: SCILabs Malteiro 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7c79a6d4-b1ef-4b43-bf34-c79fd9805d97",
+        "created": "2024-03-13T20:32:38.789Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SCILabs Malteiro Threat Overlap 2023",
+                "description": "SCILabs. (2023, October 8). URSA/Mispadu: Overlap analysis with other threats. Retrieved March 13, 2024.",
+                "url": "https://blog.scilabs.mx/en/ursa-mispadu-overlap-analysis-with-other-threats/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-02T18:00:57.266Z",
+        "description": "[Malteiro](https://attack.mitre.org/groups/G1026) has used scripts encoded in Base64 certificates to distribute malware to victims.(Citation: SCILabs Malteiro Threat Overlap 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+        "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--8f18a511-65e3-4019-b617-ef0134597722",
+        "created": "2024-04-17T18:25:39.899Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SCILabs Malteiro 2021",
+                "description": "SCILabs. (2021, December 23). Cyber Threat Profile Malteiro. Retrieved March 13, 2024.",
+                "url": "https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-17T18:25:39.899Z",
+        "description": "[Malteiro](https://attack.mitre.org/groups/G1026) collects the installed antivirus on the victim machine.(Citation: SCILabs Malteiro 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+        "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--92c83d10-7e4f-4d4a-9766-b2162ee72cb1",
+        "created": "2024-03-13T20:36:08.673Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SCILabs Malteiro 2021",
+                "description": "SCILabs. (2021, December 23). Cyber Threat Profile Malteiro. Retrieved March 13, 2024.",
+                "url": "https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-03-25T14:06:30.582Z",
+        "description": "[Malteiro](https://attack.mitre.org/groups/G1026) has sent spearphishing emails containing malicious .zip files.(Citation: SCILabs Malteiro 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d4c0fc27-4234-43bb-9f11-eb018e21c359",
+        "created": "2024-03-13T20:38:16.777Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SCILabs Malteiro 2021",
+                "description": "SCILabs. (2021, December 23). Cyber Threat Profile Malteiro. Retrieved March 13, 2024.",
+                "url": "https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-03-25T14:03:07.361Z",
+        "description": "[Malteiro](https://attack.mitre.org/groups/G1026) has obtained credentials from mail clients via NirSoft MailPassView.(Citation: SCILabs Malteiro 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+        "target_ref": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e3d05599-2a5f-4357-b452-49309690eab1",
+        "created": "2024-03-13T20:33:20.042Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SCILabs Malteiro 2021",
+                "description": "SCILabs. (2021, December 23). Cyber Threat Profile Malteiro. Retrieved March 13, 2024.",
+                "url": "https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-03-15T20:12:38.304Z",
+        "description": "[Malteiro](https://attack.mitre.org/groups/G1026) has the ability to deobfuscate downloaded files prior to execution.(Citation: SCILabs Malteiro 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+        "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--f70697d6-11d6-4f1d-81ab-65bbe0d4e80c",
+        "created": "2024-04-18T15:11:02.249Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "SCILabs Malteiro 2021",
+                "description": "SCILabs. (2021, December 23). Cyber Threat Profile Malteiro. Retrieved March 13, 2024.",
+                "url": "https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-18T18:48:56.566Z",
+        "description": "[Malteiro](https://attack.mitre.org/groups/G1026) will terminate [Mispadu](https://attack.mitre.org/software/S1122)'s infection process if the language of the victim machine is not Spanish or Portuguese.(Citation: SCILabs Malteiro 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--bf668120-e9a6-4017-a014-bfc0f5232656",
+        "target_ref": "attack-pattern--c1b68a96-3c48-49ea-a6c0-9b27359f9c19",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    }
+]

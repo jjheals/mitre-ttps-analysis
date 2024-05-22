@@ -1,0 +1,954 @@
+[
+    {
+        "type": "relationship",
+        "id": "relationship--2095d4fa-73b6-4a67-ac25-394f64d122d5",
+        "created": "2024-01-23T20:34:40.441Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T20:34:40.441Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has run scripts to collect documents from targeted hosts.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--333f527e-15e1-4760-a03b-c1ca4edc351b",
+        "created": "2024-01-23T19:15:41.602Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T19:15:41.602Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has executed `net group \"domain admins\" /dom` for discovery on compromised machines.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--3ec64efd-1ee8-4bfd-8ff1-3316806d7979",
+        "created": "2024-01-23T19:33:25.606Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-04T21:16:21.732Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has used scheduled tasks to execute discovery commands and scripts for collection.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--56f08580-ffab-4c02-8702-adbe4de12a6a",
+        "created": "2024-01-22T21:45:42.132Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-22T21:45:42.132Z",
+        "description": "(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--586d0572-cf64-4cc3-93a3-4ee11b49e9cd",
+        "created": "2024-01-10T20:54:31.509Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat June 2022",
+                "description": "Dedola, G. (2022, June 21). APT ToddyCat. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat/106799/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-02-14T20:49:26.606Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has sent loaders configured to run [Ninja](https://attack.mitre.org/software/S1100) as zip archives via Telegram.(Citation: Kaspersky ToddyCat June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--f6ad61ee-65f3-4bd0-a3f5-2f0accb36317",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5beb3695-1e17-401d-84d3-7f007ac50bff",
+        "created": "2024-01-19T21:09:59.326Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-19T21:09:59.326Z",
+        "description": "(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "malware--452da2d9-706c-4185-ad6f-f5edaf4b9f48",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--63cda638-c359-470f-b509-446be108b607",
+        "created": "2024-01-23T19:19:14.997Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T19:19:14.997Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has run `net user %USER% /dom` for account discovery.(Citation: Kaspersky ToddyCat Check Logs October 2023)\n",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--6fabc88f-9582-4658-807c-7ec583edbd5e",
+        "created": "2024-01-22T21:36:38.195Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-22T21:36:38.195Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has used a passive backdoor that receives commands with UDP packets.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--6fb67c72-b963-415f-a0fc-dbd34c3442f2",
+        "created": "2024-01-23T19:30:25.874Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T19:30:25.874Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has used compromised domain admin credentials to mount local network shares.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7826256e-62c5-4580-80f0-3dae2916f4bd",
+        "created": "2024-01-22T21:44:44.684Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-05T21:34:28.441Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has used `WinExec` to execute commands received from C2 on compromised hosts.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--85932e53-5211-4998-a497-955254c1281c",
+        "created": "2024-01-03T21:36:17.939Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat June 2022",
+                "description": "Dedola, G. (2022, June 21). APT ToddyCat. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat/106799/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-03T21:36:17.939Z",
+        "description": "(Citation: Kaspersky ToddyCat June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--8b55c302-7e18-4727-a27d-6e4f0b3cecd6",
+        "created": "2024-01-23T19:54:54.960Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T19:54:54.960Z",
+        "description": "(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--8d5b3c01-b260-4212-a4f0-f061c3c701cf",
+        "created": "2024-01-23T19:51:31.022Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T20:13:51.858Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has run `cmd /c start /b tasklist` to enumerate processes.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--8e24b237-b2a1-4d48-ae32-fd0b2d345a74",
+        "created": "2024-01-23T19:24:42.988Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T19:24:42.988Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has used `ping %REMOTE_HOST%` for post exploit discovery.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9028e275-2e3b-48a7-a1b8-99bdbf524c12",
+        "created": "2024-01-22T21:41:03.564Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-22T21:41:03.564Z",
+        "description": "Prior to executing a backdoor [ToddyCat](https://attack.mitre.org/groups/G1022)  has run `cmd /c start /b netsh advfirewall firewall add rule name=\"SGAccessInboundRule\" dir=in protocol=udp action=allow localport=49683` to allow the targeted system to receive UDP packets on port 49683.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--5372c5fe-f424-4def-bcd5-d3a8e770f07b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9246e480-a0ee-4e5d-9d4b-a0f7adb34d85",
+        "created": "2024-01-23T20:12:31.465Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T20:12:31.465Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has used `netstat -anop tcp` to discover TCP connections to compromised hosts.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--96705ab7-dfd9-4360-a0bb-e434bd194697",
+        "created": "2024-01-23T19:26:30.146Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T19:26:30.146Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has used locally mounted network shares for lateral movement through targated environments.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a247d3fe-a150-4096-a6e1-1d150e3e407d",
+        "created": "2024-01-22T21:38:17.148Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T19:48:38.725Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has used .bat scripts and `cmd` for execution on compromised hosts.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a2a5e505-b957-430e-9bbd-75e6d9e34532",
+        "created": "2024-01-03T21:42:07.664Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat June 2022",
+                "description": "Dedola, G. (2022, June 21). APT ToddyCat. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat/106799/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-03T21:42:07.664Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has exploited the ProxyLogon vulnerability (CVE-2021-26855) to compromise Exchange Servers at multiple organizations.(Citation: Kaspersky ToddyCat June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--a7eecdbc-2e80-4c36-bbde-dbba10b60f70",
+        "created": "2024-01-22T19:13:38.347Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-22T19:13:38.347Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has used a DropBox uploader to exfiltrate stolen files.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--ac0fcc8b-d546-4882-bb25-f12a8b9381ee",
+        "created": "2024-01-23T19:21:44.176Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T19:21:44.176Z",
+        "description": "(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--b2ff2217-ef23-4348-b8de-04e9aa195714",
+        "created": "2024-01-23T20:17:55.665Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T20:17:55.665Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) can determine is Kaspersky software is running on an endpoint by running `cmd /c wmic process where name=\"avp.exe\"`.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--b41c3406-5ffb-4e92-ab0a-bc62da337eb9",
+        "created": "2024-01-23T19:45:30.722Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T19:45:30.722Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has used Powershell scripts to perform post exploit collection.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--b682bc04-73f7-4597-a772-264b28468fed",
+        "created": "2024-01-23T20:41:26.339Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T20:41:26.339Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has hidden malicious scripts using `powershell.exe -windowstyle hidden`. (Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--bad38b14-93b7-42a3-b0a3-6170aa895734",
+        "created": "2024-01-23T20:31:17.726Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T20:31:17.726Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has run scripts to enumerate recently modified documents having either a .pdf, .doc, .docx, .xls or .xlsx extension.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--bb843b05-b0fc-4165-83c6-5fefa98f6f7c",
+        "created": "2024-01-22T19:36:52.857Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-22T19:36:52.857Z",
+        "description": "(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "malware--e4feffc2-53d1-45c9-904e-adb9faca0d15",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--c614775b-cc8d-4e60-8415-68a10fe9579d",
+        "created": "2024-01-23T19:21:13.525Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T19:21:13.525Z",
+        "description": "(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--c710daae-cde1-4170-ae45-4910b3187cd8",
+        "created": "2024-01-23T20:56:18.003Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T20:56:18.003Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) manually transferred collected files to an exfiltration host using xcopy.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--359b00ad-9425-420b-bba5-6de8d600cbc0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d1c6f29d-56e0-4d46-a7ec-a6d0a868cde3",
+        "created": "2024-01-23T20:32:35.947Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T20:32:35.947Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has used WMI to execute scripts for post exploit document collection.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--d86f1575-e31e-49db-a66d-b0364b819873",
+        "created": "2024-01-04T20:43:10.717Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat June 2022",
+                "description": "Dedola, G. (2022, June 21). APT ToddyCat. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat/106799/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-04T20:43:10.717Z",
+        "description": "(Citation: Kaspersky ToddyCat June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "malware--ae91fb8f-5031-4f57-9839-e3be3ed503f0",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--da51fa84-a70c-4a1c-8c77-a063b200e8ab",
+        "created": "2024-01-11T20:50:46.185Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat June 2022",
+                "description": "Dedola, G. (2022, June 21). APT ToddyCat. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat/106799/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-11T20:50:46.185Z",
+        "description": "(Citation: Kaspersky ToddyCat June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "malware--023254de-caaf-4a05-b2c7-e4e2f283f7a5",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e8352090-00a3-4a0b-b8ba-c2308bdc9312",
+        "created": "2024-01-04T20:45:18.620Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat June 2022",
+                "description": "Dedola, G. (2022, June 21). APT ToddyCat. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat/106799/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-04-04T21:18:22.831Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has used the name `debug.exe` for malware components.(Citation: Kaspersky ToddyCat June 2022)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--efab47f3-cd77-41a5-bb8d-34ee3911d07d",
+        "created": "2024-01-23T19:53:37.510Z",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T19:53:37.510Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has collected information on bootable drives including model, vendor, and serial numbers.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--fff9a9cb-3032-4f18-a626-ce34a82e59ec",
+        "created": "2024-01-23T20:36:19.677Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "Kaspersky ToddyCat Check Logs October 2023",
+                "description": "Dedola, G. et al. (2023, October 12). ToddyCat: Keep calm and check logs. Retrieved January 3, 2024.",
+                "url": "https://securelist.com/toddycat-keep-calm-and-check-logs/110696/"
+            }
+        ],
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "modified": "2024-01-23T20:42:53.462Z",
+        "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) has leveraged  xcopy, 7zip, and RAR to stage and compress collected documents prior to exfiltration.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
+        "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "0.1",
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    }
+]

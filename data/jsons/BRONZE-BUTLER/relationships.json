@@ -1,0 +1,1663 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--03303147-db81-4cb3-9368-98ee4f963c1a",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) downloads encoded payloads and decodes them on the victim.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--05e9e12f-be5e-46f4-9f42-6f7fb7e9fb4a",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has exfiltrated files stolen from local systems.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--069d3677-2694-4385-b5c3-ea6e231d26d9",
+        "type": "relationship",
+        "created": "2020-06-11T19:27:54.275Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:32.640Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used TROJ_GETVERSION to discover system services.(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--089efdf8-b07a-4cda-aa5d-e60f9501ffd1",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "The [BRONZE BUTLER](https://attack.mitre.org/groups/G0060) uploader or malware the uploader uses <code>command</code> to delete the RAR archives after they have been exfiltrated.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--138fb337-c378-43a3-bacb-54f40696fb6b",
+        "type": "relationship",
+        "created": "2020-06-09T18:50:04.458Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:32.180Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has made use of Python-based remote access tools.(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1ad674bb-c8e1-4f19-b96e-f56bfa10797c",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Tick Apr 2016",
+                "description": "DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.",
+                "url": "https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan"
+            },
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:31.906Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) used spearphishing emails with malicious Microsoft Word attachments to infect victims.(Citation: Symantec Tick Apr 2016)(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2174c465-8855-4c92-a683-97eb0eba9f7c",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-17T23:33:15.703Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has given malware the same name as an existing file on the file share server to cause users to unwittingly launch and install the malware on additional systems.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--28471736-5b62-4132-b4ed-c22ae449b455",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            },
+            {
+                "source_name": "Symantec Tick Apr 2016",
+                "description": "DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.",
+                "url": "https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan"
+            },
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:31.917Z",
+        "description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Symantec Tick Apr 2016)(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2d840d1b-28d7-4387-86fd-6d3df8650171",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            },
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:31.923Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used a tool to capture screenshots.(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2f2432b0-d985-41d8-bc47-e4aa1dbf8372",
+        "type": "relationship",
+        "created": "2020-06-09T18:50:04.600Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:32.182Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has masked executables with document file icons including Word and Adobe PDF.(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--321a0d18-11a6-4504-add5-8ee515a43170",
+        "type": "relationship",
+        "created": "2021-10-12T19:42:17.109Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Tick Apr 2016",
+                "description": "DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.",
+                "url": "https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan"
+            }
+        ],
+        "modified": "2021-10-12T19:42:17.109Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has obtained and used open-source tools such as [Mimikatz](https://attack.mitre.org/software/S0002), [gsecdump](https://attack.mitre.org/software/S0008), and [Windows Credential Editor](https://attack.mitre.org/software/S0005).(Citation: Symantec Tick Apr 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3c3579df-fbd4-4a68-8ee8-e45861a3eda0",
+        "type": "relationship",
+        "created": "2020-06-10T20:30:38.930Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:32.428Z",
+        "description": "(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "malware--d2c7f8ad-3b50-4cfa-bbb1-799eff06fb40",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--42897880-fe55-4f54-a42c-f85ba19fb39a",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "tool--bba595da-b73a-4354-aa6c-224d4de7cb4e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4c6aea43-27ba-4e6a-8907-e5db364a145b",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            },
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:31.914Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used a Windows 10 specific tool and xxmm to bypass UAC for privilege escalation.(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--529360d5-172a-4326-b993-e3af75d3e7af",
+        "type": "relationship",
+        "created": "2020-03-17T18:23:51.085Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            },
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:32.169Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used VBS and VBE scripts for execution.(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--545a618f-9fe4-4573-a0a0-ecfcef0b407c",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-20T18:07:11.552Z",
+        "description": "Several [BRONZE BUTLER](https://attack.mitre.org/groups/G0060) tools encode data with base64 when posting it to a C2 server.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--54e0e380-aef8-4c63-9792-ebda05affee6",
+        "type": "relationship",
+        "created": "2020-06-09T20:34:21.093Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:32.166Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used tools to enumerate software installed on an infected host.(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--58fdc63b-05b4-4db9-90fe-c80f7956292f",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-17T00:28:36.293Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) malware has used HTTP for C2.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--595be2e7-9f2a-4d5a-b23d-8e4822ae6199",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has exfiltrated files stolen from file shares.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6c053469-7bd4-4b55-90b2-289a09aa53fa",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used <code>net time</code> to check the local time on a target system.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6e122559-0e6e-4514-aa60-652e99292077",
+        "type": "relationship",
+        "created": "2020-06-10T17:43:03.820Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:32.163Z",
+        "description": "(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "malware--a0ebedca-d558-4e48-8ff7-4bf76208d90c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--731d14c6-a141-4e71-ac61-c344636e13d5",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan",
+                "description": "DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.",
+                "source_name": "Symantec Tick Apr 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) compromised three Japanese websites using a Flash exploit to perform watering hole attacks.(Citation: Symantec Tick Apr 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--80fc5f0c-3dcb-45ab-807a-bfa3d64334c6",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "tool--0c8465c0-d0b4-4670-992e-4eee8d7ff952",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--881b3ad2-38dd-45b0-b75b-49acf6f7c6a3",
+        "type": "relationship",
+        "created": "2020-06-23T18:12:47.888Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:29:47.695Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used legitimate applications to side-load malicious DLLs.(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8cb3eda9-3829-4bc0-aa72-704df128d92e",
+        "type": "relationship",
+        "created": "2020-06-11T19:27:54.270Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:32.666Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has incorporated code into several tools that attempts to terminate anti-virus processes.(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8f897f1c-7bc6-4a85-8d3b-627f976af215",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-19T22:24:36.134Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used various tools (such as Mimikatz and WCE) to perform credential dumping.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--935f9bb6-d38d-42d1-a764-6b5110ad5364",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Tick Apr 2016",
+                "description": "DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.",
+                "url": "https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan"
+            },
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:31.912Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has exploited Microsoft Office vulnerabilities CVE-2014-4114, CVE-2018-0802, and CVE-2018-0798 for execution.(Citation: Symantec Tick Apr 2016)(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--95805281-96b1-49ea-95ee-9d654178c5c3",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) typically use <code>ping</code> and [Net](https://attack.mitre.org/software/S0039) to enumerate systems.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--99e9583f-433d-437d-bf37-7ea2b3f1b613",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            },
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:31.804Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has compressed data into password-protected RAR archives prior to exfiltration.(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9ef58dda-688d-4461-b5fc-25f2ba3a9c54",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-06T20:00:24.030Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used [at](https://attack.mitre.org/software/S0110) to register a scheduled task to execute malware during lateral movement.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--f3d95a1f-bba2-44ce-9af7-37866cd63fd0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a8b5c1b4-9ccf-46bc-9074-59e866efcc83",
+        "type": "relationship",
+        "created": "2020-06-10T20:30:38.936Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:32.417Z",
+        "description": "(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "malware--f0fc920e-57a3-4af5-89be-9ea594c8b1ea",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ab66ef8a-f496-48d2-a358-0e4f7b00d5c0",
+        "type": "relationship",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-20T21:06:38.269Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060)'s MSGET downloader uses a dead drop resolver to access malicious payloads.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--f7827069-0bf2-4764-af4f-23fae0d181b7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ba7f4c8e-860a-45fc-a9e7-bb7d0ec96a2c",
+        "type": "relationship",
+        "created": "2020-03-06T20:00:23.935Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-28T21:24:57.218Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used [schtasks](https://attack.mitre.org/software/S0111) to register a scheduled task to execute malware during lateral movement.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--bf160f02-ab07-4f2d-8625-5818833bb77f",
+        "type": "relationship",
+        "created": "2020-03-17T23:33:15.608Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-17T23:33:15.608Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has placed malware on file shares and given it the same name as legitimate documents on the share.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c87a8320-8705-4de3-93ee-2db5c00ea461",
+        "type": "relationship",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Symantec Tick Apr 2016",
+                "description": "DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.",
+                "url": "https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan"
+            },
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:31.920Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has attempted to get users to launch malicious Microsoft Word attachments delivered via spearphishing emails.(Citation: Symantec Tick Apr 2016)(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cc13f316-0f88-4ed1-8790-b13bc35be119",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            },
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:31.909Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) downloader code has included \"0\" characters at the end of the file to inflate the file size in a likely attempt to evade anti-virus detection.(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--5bfccc3f-2326-4112-86cc-c1ece9d8a2b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d20b659b-3595-4171-9beb-668ab26bf398",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used a batch script that adds a Registry Run key to establish malware persistence.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d36e83a0-5370-4d78-862d-4dbe8921709d",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used PowerShell for execution.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d57dd9d9-d075-48c4-ae54-ed0aeae575de",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-17T18:56:40.139Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used batch scripts and the command-line interface for execution.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d691e305-8ce5-40cd-a648-b0dcab329e69",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "tool--c9703cd3-141c-43a0-a926-380082be5d04",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d7c5e4f4-cede-4a81-b46f-035b9e702e61",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used various tools to download files, including DGet (a similar tool to wget).(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--eb91c7d8-2cfb-4d8b-905a-d146bc8178e2",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has created forged Kerberos Ticket Granting Ticket (TGT) and Ticket Granting Service (TGS) tickets to maintain administrative access.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--7b211ac6-c815-4189-93a9-ab415deca926",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ebab1ba1-e02b-41ab-8682-5a44d68fb155",
+        "type": "relationship",
+        "created": "2020-06-10T20:30:38.924Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:32.432Z",
+        "description": "(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "malware--8be7c69e-d8e3-4970-9668-61de08e508cc",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ec4d07a2-8c8b-4df8-bb9e-b8c3e23d8dc5",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-30T18:41:41.342Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used RC4 encryption (for Datper malware) and AES (for xxmm malware) to obfuscate HTTP traffic. [BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has also used a tool called RarStar that encodes data with a custom XOR algorithm when posting it to a C2 server.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f52f1b34-a96a-45a0-8cc0-2f138a3f1257",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/",
+                "description": "Chen, J. and Hsieh, M. (2017, November 7). REDBALDKNIGHT/BRONZE BUTLER\u2019s Daserf Backdoor Now Using Steganography. Retrieved December 27, 2017.",
+                "source_name": "Trend Micro Daserf Nov 2017"
+            },
+            {
+                "url": "https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan",
+                "description": "DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.",
+                "source_name": "Symantec Tick Apr 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Trend Micro Daserf Nov 2017)(Citation: Symantec Tick Apr 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f5777849-9cea-4e02-93ba-9065b27f0e58",
+        "type": "relationship",
+        "created": "2020-06-10T17:43:03.538Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:32.187Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used steganography in multiple operations to conceal malicious payloads.(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--c2e147a9-d1a8-4074-811a-d8789202d916",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f6d23c6b-01c8-4bea-9bc6-2c66fbbbd3ae",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f7a90a34-f9ad-45a9-abd2-22a4e27ebdfd",
+        "type": "relationship",
+        "created": "2021-03-23T20:59:37.299Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Recorded Future RedEcho Feb 2021",
+                "url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-0228.pdf",
+                "description": "Insikt Group. (2021, February 28). China-Linked Group RedEcho Targets the Indian Power Sector Amid Heightened Border Tensions. Retrieved March 22, 2021."
+            }
+        ],
+        "modified": "2021-03-23T20:59:37.299Z",
+        "description": "(Citation: Recorded Future RedEcho Feb 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fa155ccc-b9db-48f6-bb1a-a367596668ad",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-18T19:38:52.462Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used <code>net user /domain</code> to identify account information.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fc4dd2b6-63a0-46fe-bfc4-90e58e5d1422",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has collected a list of files from the victim and uploaded it to its C2 server, and then created a new list of specific files to steal.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fc79f30d-94c8-400e-ab10-21d2a2527788",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            },
+            {
+                "url": "https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan",
+                "description": "DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.",
+                "source_name": "Symantec Tick Apr 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Symantec Tick Apr 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "tool--242f3da3-4425-4d11-8f5c-b842886da966",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fda1acb3-8e87-4fff-ae19-7e6a2ff9d6c3",
+        "type": "relationship",
+        "created": "2018-01-16T16:13:52.465Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017"
+            },
+            {
+                "url": "https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan",
+                "description": "DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.",
+                "source_name": "Symantec Tick Apr 2016"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Symantec Tick Apr 2016)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "tool--b07c2c47-fefb-4d7c-a69e-6a3296171f54",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ff5d1433-de7a-4aba-95c4-5d92782589f9",
+        "type": "relationship",
+        "created": "2020-06-11T16:19:17.925Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:32.664Z",
+        "description": "(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "malware--36ede314-7db4-4d09-b53d-81bbfbe5f6f8",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ff6fd36b-bc49-4df7-86f0-62b9d1fc9754",
+        "type": "relationship",
+        "created": "2020-06-09T18:31:56.350Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Trend Micro Tick November 2019",
+                "url": "https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf",
+                "description": "Chen, J. et al. (2019, November). Operation ENDTRADE: TICK\u2019s Multi-Stage Backdoors for Attacking Industries and Stealing Classified Data. Retrieved June 9, 2020."
+            }
+        ],
+        "modified": "2020-06-24T01:27:32.161Z",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used Right-to-Left Override to deceive victims into executing several strains of malware.(Citation: Trend Micro Tick November 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "target_ref": "attack-pattern--77eae145-55db-4519-8ae5-77b0c7215d69",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) uses the command-line interface.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2018-01-16T16:13:52.465Z",
+        "id": "relationship--39791d22-fec7-4459-8321-c9aa824d5fc1",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used RC4 encryption (for Datper malware) and AES (for xxmm malware) to obfuscate HTTP traffic.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2018-01-16T16:13:52.465Z",
+        "id": "relationship--a1684fef-eca9-418a-ab48-b9aad4101c6c",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "type": "relationship",
+        "target_ref": "attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638",
+        "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has compressed and encrypted data into password-protected RAR archives prior to exfiltration.",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "created": "2018-01-16T16:13:52.465Z",
+        "id": "relationship--f4188b9b-c2fe-41b7-96e0-e28d99671b9d",
+        "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+        "modified": "2020-03-31T14:49:39.188Z",
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "external_references": [
+            {
+                "source_name": "Secureworks BRONZE BUTLER Oct 2017",
+                "description": "Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.",
+                "url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses"
+            }
+        ],
+        "relationship_type": "uses",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "x_mitre_version": "1.0",
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]

@@ -1,0 +1,844 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0ead6cee-20a4-46fb-a9c1-8686a776f455",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.054Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Baumgartner Naikon 2015)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "tool--cf23bf4a-e003-4116-bbae-1ea6c558d565",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0ef9bb79-c221-40a8-94b0-58bfc816565f",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.054Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            },
+            {
+                "source_name": "Bitdefender Naikon April 2021",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf",
+                "description": "Vrabie, V. (2021, April 23). NAIKON \u2013 Traces from a Military Cyber-Espionage Operation. Retrieved June 29, 2021."
+            }
+        ],
+        "modified": "2021-07-02T14:55:19.308Z",
+        "description": "(Citation: Baumgartner Naikon 2015)(Citation: Bitdefender Naikon April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--21298951-67d3-4904-97be-f7a57d120383",
+        "type": "relationship",
+        "created": "2021-06-29T14:40:05.801Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Bitdefender Naikon April 2021",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf",
+                "description": "Vrabie, V. (2021, April 23). NAIKON \u2013 Traces from a Military Cyber-Espionage Operation. Retrieved June 29, 2021."
+            }
+        ],
+        "modified": "2021-06-29T14:40:05.801Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) has used administrator credentials for lateral movement in compromised networks.(Citation: Bitdefender Naikon April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2794f341-b46f-482c-b5b7-2cc7c2dcadb5",
+        "type": "relationship",
+        "created": "2021-07-06T14:00:49.696Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Bitdefender Naikon April 2021",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf",
+                "description": "Vrabie, V. (2021, April 23). NAIKON \u2013 Traces from a Military Cyber-Espionage Operation. Retrieved June 29, 2021."
+            }
+        ],
+        "modified": "2021-07-06T14:00:49.696Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) has used a netbios scanner for remote machine identification.(Citation: Bitdefender Naikon April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2a220ca3-88f4-40eb-8041-184c412950d4",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.054Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            },
+            {
+                "source_name": "Bitdefender Naikon April 2021",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf",
+                "description": "Vrabie, V. (2021, April 23). NAIKON \u2013 Traces from a Military Cyber-Espionage Operation. Retrieved June 29, 2021."
+            }
+        ],
+        "modified": "2021-07-02T14:55:19.356Z",
+        "description": "(Citation: Baumgartner Naikon 2015)(Citation: Bitdefender Naikon April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2a896410-d7cd-4b58-a7d6-4878bc64113b",
+        "type": "relationship",
+        "created": "2021-08-19T16:54:59.595Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Bitdefender Naikon April 2021",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf",
+                "description": "Vrabie, V. (2021, April 23). NAIKON \u2013 Traces from a Military Cyber-Espionage Operation. Retrieved June 29, 2021."
+            }
+        ],
+        "modified": "2021-08-19T18:23:24.032Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) has modified a victim's Windows Run registry to establish persistence.(Citation: Bitdefender Naikon April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2e77d363-e38f-40ad-a6ef-9222dc12793d",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.053Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) uses commands such as <code>netsh advfirewall firewall</code> to discover local firewall settings.(Citation: Baumgartner Naikon 2015)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--437dd20a-234f-430b-b9ee-4524e1e12aa9",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.055Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Baumgartner Naikon 2015)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "tool--5a63f900-5e7e-4928-a746-dd4558e1df71",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--45966f4c-51d4-4940-854d-79d712f63ed5",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.054Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            },
+            {
+                "source_name": "CameraShy",
+                "description": "ThreatConnect Inc. and Defense Group Inc. (DGI). (2015, September 23). Project CameraShy: Closing the Aperture on China's Unit 78020. Retrieved December 17, 2015.",
+                "url": "http://cdn2.hubspot.net/hubfs/454298/Project_CAMERASHY_ThreatConnect_Copyright_2015.pdf"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Baumgartner Naikon 2015)(Citation: CameraShy)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "malware--22addc7b-b39f-483d-979a-1b35147da5de",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4b521c7b-c66b-4bbc-847e-d6a13e9ae62c",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.054Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Baumgartner Naikon 2015)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--592a2355-077e-4692-a28a-da998ed5f937",
+        "type": "relationship",
+        "created": "2021-07-06T14:15:00.532Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Bitdefender Naikon April 2021",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf",
+                "description": "Vrabie, V. (2021, April 23). NAIKON \u2013 Traces from a Military Cyber-Espionage Operation. Retrieved June 29, 2021."
+            }
+        ],
+        "modified": "2021-07-06T14:15:00.532Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) has used the LadonGo scanner to scan target networks.(Citation: Bitdefender Naikon April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--597ca258-3af4-4e51-abf9-b192e98939fd",
+        "type": "relationship",
+        "created": "2021-06-30T14:32:27.776Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Bitdefender Naikon April 2021",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf",
+                "description": "Vrabie, V. (2021, April 23). NAIKON \u2013 Traces from a Military Cyber-Espionage Operation. Retrieved June 29, 2021."
+            }
+        ],
+        "modified": "2021-06-30T14:32:27.776Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) has used WMIC.exe for lateral movement.(Citation: Bitdefender Naikon April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6e625aae-d7d7-47a3-ba1a-8deca6321cdc",
+        "type": "relationship",
+        "created": "2021-06-30T14:41:24.383Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Bitdefender Naikon April 2021",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf",
+                "description": "Vrabie, V. (2021, April 23). NAIKON \u2013 Traces from a Military Cyber-Espionage Operation. Retrieved June 29, 2021."
+            }
+        ],
+        "modified": "2021-06-30T14:41:24.383Z",
+        "description": "(Citation: Bitdefender Naikon April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "malware--29231689-5837-4a7a-aafc-1b65b3f50cc7",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--6f38eb77-da3f-4a35-b048-32a4fa6c6fbc",
+        "type": "relationship",
+        "created": "2020-05-26T19:31:59.257Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CheckPoint Naikon May 2020",
+                "url": "https://research.checkpoint.com/2020/naikon-apt-cyber-espionage-reloaded/",
+                "description": "CheckPoint. (2020, May 7). Naikon APT: Cyber Espionage Reloaded. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-05-26T19:31:59.257Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) has used the RoyalRoad exploit builder to drop a second stage loader, intel.wll, into the Word Startup folder on the compromised host.(Citation: CheckPoint Naikon May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--34f1d81d-fe88-4f97-bd3b-a3164536255d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7138c1e4-6791-424b-adc1-5b4c7d5e3cca",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.053Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) uses commands such as <code>netsh interface show</code> to discover network interface settings.(Citation: Baumgartner Naikon 2015)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7148e604-1e3a-4a37-be3e-cde2fe20f9b6",
+        "type": "relationship",
+        "created": "2021-08-19T16:54:59.579Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Bitdefender Naikon April 2021",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf",
+                "description": "Vrabie, V. (2021, April 23). NAIKON \u2013 Traces from a Military Cyber-Espionage Operation. Retrieved June 29, 2021."
+            }
+        ],
+        "modified": "2021-08-19T16:54:59.579Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) has disguised malicious programs as Google Chrome, Adobe, and VMware executables.(Citation: Bitdefender Naikon April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--789b89f3-0f5e-4e3d-92fd-76611e840947",
+        "type": "relationship",
+        "created": "2021-06-30T14:53:26.903Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Bitdefender Naikon April 2021",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf",
+                "description": "Vrabie, V. (2021, April 23). NAIKON \u2013 Traces from a Military Cyber-Espionage Operation. Retrieved June 29, 2021."
+            }
+        ],
+        "modified": "2021-06-30T14:53:26.903Z",
+        "description": "(Citation: Bitdefender Naikon April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "malware--22b17791-45bf-45c0-9322-ff1a0af5cf2b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7dba7706-128e-43a7-a240-6d456c9003a2",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.053Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            },
+            {
+                "source_name": "CameraShy",
+                "description": "ThreatConnect Inc. and Defense Group Inc. (DGI). (2015, September 23). Project CameraShy: Closing the Aperture on China's Unit 78020. Retrieved December 17, 2015.",
+                "url": "http://cdn2.hubspot.net/hubfs/454298/Project_CAMERASHY_ThreatConnect_Copyright_2015.pdf"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Baumgartner Naikon 2015)(Citation: CameraShy)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "malware--8c553311-0baa-4146-997a-f79acef3d831",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--80fb05e9-68b8-4e3f-bc9a-2a5f828c397c",
+        "type": "relationship",
+        "created": "2020-05-26T19:31:59.275Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CheckPoint Naikon May 2020",
+                "url": "https://research.checkpoint.com/2020/naikon-apt-cyber-espionage-reloaded/",
+                "description": "CheckPoint. (2020, May 7). Naikon APT: Cyber Espionage Reloaded. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-05-26T19:31:59.275Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) has used malicious e-mail attachments to deliver malware.(Citation: CheckPoint Naikon May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8119ee71-e017-4ba0-9aeb-a14c46f64f1a",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.054Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Baumgartner Naikon 2015)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "malware--007b44b6-e4c5-480b-b5b9-56f2081b1b7b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--887465a0-6818-4e79-b86d-b83d3a0f39eb",
+        "type": "relationship",
+        "created": "2021-08-19T17:41:58.938Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Bitdefender Naikon April 2021",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf",
+                "description": "Vrabie, V. (2021, April 23). NAIKON \u2013 Traces from a Military Cyber-Espionage Operation. Retrieved June 29, 2021."
+            }
+        ],
+        "modified": "2021-08-19T17:41:58.938Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) renamed a malicious service <code>taskmgr</code> to appear to be a legitimate version of Task Manager.(Citation: Bitdefender Naikon April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8cce3864-0c29-4c3c-a1cd-733f792b8565",
+        "type": "relationship",
+        "created": "2021-06-30T14:32:27.765Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "Bitdefender Naikon April 2021",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf",
+                "description": "Vrabie, V. (2021, April 23). NAIKON \u2013 Traces from a Military Cyber-Espionage Operation. Retrieved June 29, 2021."
+            }
+        ],
+        "modified": "2021-06-30T14:41:24.467Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) has used schtasks.exe for lateral movement in compromised networks.(Citation: Bitdefender Naikon April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--956303a4-558c-433d-bc2f-28a7e69192ae",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.054Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Baumgartner Naikon 2015)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "malware--7f8730af-f683-423f-9ee1-5f6875a80481",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--af0b0bfb-1a1e-4a06-b9e9-adeda7b6ad81",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.053Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            },
+            {
+                "source_name": "CameraShy",
+                "description": "ThreatConnect Inc. and Defense Group Inc. (DGI). (2015, September 23). Project CameraShy: Closing the Aperture on China's Unit 78020. Retrieved December 17, 2015.",
+                "url": "http://cdn2.hubspot.net/hubfs/454298/Project_CAMERASHY_ThreatConnect_Copyright_2015.pdf"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Baumgartner Naikon 2015)(Citation: CameraShy)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "malware--2fb26586-2b53-4b9a-ad4f-2b3bcb9a2421",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d159e441-b30b-464a-8838-b83864173e89",
+        "type": "relationship",
+        "created": "2020-05-26T19:31:59.263Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CheckPoint Naikon May 2020",
+                "url": "https://research.checkpoint.com/2020/naikon-apt-cyber-espionage-reloaded/",
+                "description": "CheckPoint. (2020, May 7). Naikon APT: Cyber Espionage Reloaded. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-05-26T19:31:59.263Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) has convinced victims to open malicious attachments to execute malware.(Citation: CheckPoint Naikon May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d4657411-8fa6-4bbc-9ed0-474eafd14375",
+        "type": "relationship",
+        "created": "2020-05-26T19:31:59.254Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CheckPoint Naikon May 2020",
+                "url": "https://research.checkpoint.com/2020/naikon-apt-cyber-espionage-reloaded/",
+                "description": "CheckPoint. (2020, May 7). Naikon APT: Cyber Espionage Reloaded. Retrieved May 26, 2020."
+            }
+        ],
+        "modified": "2020-05-26T19:31:59.254Z",
+        "description": "[Naikon](https://attack.mitre.org/groups/G0019) has used DLL side-loading to load malicious DLL's into legitimate executables.(Citation: CheckPoint Naikon May 2020)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f08c1f67-485b-4ebd-81dd-e886f63025e6",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.054Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Baumgartner Naikon 2015)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f2d601c9-8cc7-4425-b76f-fbc9997b55fd",
+        "type": "relationship",
+        "created": "2017-05-31T21:33:27.054Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+                "description": "Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.",
+                "source_name": "Baumgartner Naikon 2015"
+            }
+        ],
+        "modified": "2020-03-31T14:49:39.188Z",
+        "description": "(Citation: Baumgartner Naikon 2015)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fd8fa359-c13e-4641-9c3e-d03218daee0c",
+        "type": "relationship",
+        "created": "2020-05-26T20:37:19.548Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "CheckPoint Naikon May 2020",
+                "url": "https://research.checkpoint.com/2020/naikon-apt-cyber-espionage-reloaded/",
+                "description": "CheckPoint. (2020, May 7). Naikon APT: Cyber Espionage Reloaded. Retrieved May 26, 2020."
+            },
+            {
+                "source_name": "Bitdefender Naikon April 2021",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf",
+                "description": "Vrabie, V. (2021, April 23). NAIKON \u2013 Traces from a Military Cyber-Espionage Operation. Retrieved June 29, 2021."
+            }
+        ],
+        "modified": "2021-06-29T14:37:02.738Z",
+        "description": "(Citation: CheckPoint Naikon May 2020)(Citation: Bitdefender Naikon April 2021)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+        "target_ref": "malware--3161d76a-e2b2-4b97-9906-24909b735386",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": null,
+        "revoked": null
+    }
+]

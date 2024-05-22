@@ -1,0 +1,1850 @@
+[
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--03f7aae8-dc04-43e1-83f5-ec43e441479e",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.446Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has encrypted IP addresses used for \"Agent\" proxy hops with RC4.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0793b30c-fc88-4d5c-abf5-21bf350e2992",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.413Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used a custom proxy tool called \"Agent\" which has support for multiple hops.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--085ad895-3173-4a8e-b4fc-c36ba61b7d58",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:04.929Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has queried the registry to detect recent PuTTY sessions.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0b019a7d-99ac-4045-9556-27d5a3194635",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.596Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has edited variable names within the Impacket suite to avoid automated detection.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--b0533c6e-8fea-4788-874f-b799cacc4b92",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--0dbb7e8f-5cf5-4516-8e8e-892318772aa3",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.502Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has executed PowerShell commands which were encoded or compressed using Base64, zlib, and XOR.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--179cbd25-4aa2-4b5b-baa6-f72a65a6f6d8",
+        "type": "relationship",
+        "created": "2020-12-07T21:13:24.575Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used local account credentials found during the intrusion for lateral movement and privilege escalation.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--17fc7d53-793b-4a13-b0f1-efb60c2ce0d2",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:05.092Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) can use the <code>ping</code> command to discover remote systems.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--195ab078-f8a0-4816-8e87-ede994f278bb",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.267Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has exfiltrated files and directories of interest from the targeted system.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1c45ed9c-8304-4cc2-b2e2-c6bd837b721d",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.500Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used ProcDump to dump credentials from memory.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--1e8614ca-6e98-4824-a711-9bfa34d708cf",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:04.999Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used PowerShell on compromised systems.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2818d373-d923-4125-91d4-00d089757266",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.349Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has staged archived files in a temporary directory prior to exfiltration.(Citation: FoxIT Wocao December 2019)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2db0ce52-c36f-40b6-964a-18d364a052b0",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.448Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has scanned for open ports and used nbtscan to find NETBIOS nameservers.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2eec5830-7290-4c28-a712-9e1865668b6e",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.356Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used a VBScript to conduct reconnaissance on targeted systems.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--2ff5bbb9-c352-4945-a9a0-43ba3465ba8f",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:04.940Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used the <code>time</code> command to retrieve the current time of a compromised system.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--31ad6d06-5356-4ad8-b82d-80b10882873a",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.231Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has gathered a recursive directory listing to find files and directories of interest.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3701e702-586e-4b6f-93e9-e78f8febd69d",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:04.881Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used the command <code>net localgroup administrators</code> to list all administrators part of a local group.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--a01bf75f-00b2-4568-a58f-565ff9bf202b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3df6e7b2-229a-4975-aca9-0f51d312c64f",
+        "type": "relationship",
+        "created": "2020-11-17T20:33:44.594Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--3e364ac0-6e86-4e3e-a8e5-b0bd553a9b92",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.351Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has collected a list of running processes on the infected system.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--40013bde-47f8-4ca4-be7d-66af8055b632",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.589Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used PowerShell to add and delete rules in the Windows firewall.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--5372c5fe-f424-4def-bcd5-d3a8e770f07b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4212d42a-84bb-4295-a6c8-4c1d66a2bc7a",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:04.895Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used PowerSploit's Invoke-Kerberoast module to request encrypted service tickets and bruteforce the passwords of Windows service accounts offline.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--f2877f7f-9a4c-4251-879f-1224e3006bee",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--42a89f84-38fa-4a47-b87d-9d1ed56f37ac",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:05.011Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used Impacket's smbexec.py as well as accessing the C$ and IPC$ shares to move laterally.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--43978b74-497d-4862-883b-8f464e3736f5",
+        "type": "relationship",
+        "created": "2020-12-07T21:13:25.096Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "tool--38952eac-cb1b-4a71-bad2-ee8223a1c8fe",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--4915d29b-6ecf-4597-aa71-5ff07a99aaff",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:05.090Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) can download additional files to the infected system.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--49edcfb9-1517-401e-9b47-331e1ac31bff",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:04.995Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used a custom protocol for command and control.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5c78972e-58c6-435c-ab1c-be6488265795",
+        "type": "relationship",
+        "created": "2020-12-07T21:30:51.246Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used a custom collection method to intercept two-factor authentication soft tokens.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--dd43c543-bb85-4a6f-aa6e-160d90d06a49",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--5fd4cfeb-4dea-4dbd-bf4f-c608b50a2aa2",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:04.937Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used the <code>tasklist</code> command to search for one of its backdoors.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--60ac0202-f664-45ff-9f7f-f6702c1cc91b",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.203Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has gained initial access via vulnerable webservers.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--619bb7d1-6a74-4c31-9050-f906afcd6533",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.405Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has discovered the local disks attached to the system and their hardware information including manufacturer and model, as well as the OS versions of systems connected to a targeted network.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--61f064d5-497b-4942-b951-ef37609cc753",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.274Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has collected a list of open connections on the infected system using netstat and checks whether it has an internet connection.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--651fab10-d53c-47ca-bd1d-a40b47d0af41",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:05.077Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has executed commands through the installed web shell via Tor exit nodes.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--79cf94d7-1100-4f76-8fce-c1a9a7d53876",
+        "type": "relationship",
+        "created": "2020-12-07T21:13:25.082Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7ec9fb4c-0adb-477e-b8ef-3a7973d40e99",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.515Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has enabled Wdigest by changing the registry value from 0 to 1.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--7f0add23-90a9-4fd6-be45-de05539bd748",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.506Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has deleted logs and executable files used during an intrusion.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--8007f2ec-b9c0-4e01-a3d4-060ddfd93a52",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:04.886Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used Mimikatz to dump certificates and private keys from the Windows certificate store.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--60b508a1-6a5e-46b1-821a-9f7b78752abf",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--91a80337-b61e-4132-a96e-40c0e2708f83",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:05.002Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used SMB to copy files to and from target systems.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9464f469-ad1d-4dab-b66b-9aceff5fc015",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.411Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used WMI to execute commands.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--96919e6d-b496-4be4-b1f7-2956c8ce450e",
+        "type": "relationship",
+        "created": "2020-11-20T14:45:47.539Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "tool--066b057c-944e-4cfc-b654-e3dfba04b926",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--99b833ab-4c7d-4d22-9cb2-b01143204f76",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.504Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has injected code into a selected process, which in turn launches a command as a child process of the original.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9c354df4-9cbf-4de9-bbed-4d59ca7d4d24",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.519Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has obtained the password for the victim's password manager via a custom keylogger.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--9ed1ec04-312c-4053-bf2e-f48d3744702a",
+        "type": "relationship",
+        "created": "2020-12-07T21:13:24.605Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used domain credentials, including domain admin, for lateral movement and privilege escalation.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a354a81a-0277-45f2-913b-528558e6fd60",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.358Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has discovered the local network configuration with ipconfig.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--a646a9aa-0dde-4551-a07e-4034b271e215",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.313Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used their own web shells, as well as those previously placed on target systems by other threat actors, for reconnaissance and lateral movement.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--aacaa361-99f7-48ff-8754-59ed42ed2f76",
+        "type": "relationship",
+        "created": "2020-11-17T20:33:44.602Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ad104289-1dc0-4400-85f2-124cbffd7b0b",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.234Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has discovered removable disks attached to a system.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ad727996-2bbd-4980-aed7-806444cab9ee",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:05.014Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) can proxy traffic through multiple infected systems.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--b0f08d85-93e6-492e-b486-d6b31e6673bc",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.265Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has collected a list of installed software on the infected system.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c6f8e685-7ec5-4746-be38-cb02448ccec1",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.219Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used valid VPN credentials to gain initial access.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c8473a2e-9e00-4f4a-9ca7-5d26c212ea01",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.343Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used a script to collect information about the infected system.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--c963b119-ee20-4653-8895-c44434aba586",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:04.849Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used the <code>net</code> command to retrieve information about domain accounts.(Citation: FoxIT Wocao December 2019)\t ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cc2b10e6-8bf5-42b1-b91b-c179ab73bf3f",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.513Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used scheduled tasks to execute malicious PowerShell code on remote systems.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--cfab0322-40fe-4dc5-8e71-a479aa0c7aa3",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.600Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used the CreateProcessA and ShellExecute API function to launch commands after being injected into a selected process.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d0a7063b-139d-492b-8f40-caf0395180e5",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.276Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has archived collected files with WinRAR, prior to exfiltration.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d23b86f3-a362-46c3-a145-61834a04ccf0",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:04.931Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used scripts to detect security software.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d4a89635-b84f-4670-be46-a505623ede23",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.426Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has discovered network disks mounted to the system using netstat.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--d9fe41ad-66ef-4662-bcd8-e4d2a6e309d2",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.272Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has accessed and collected credentials from password managers.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--315f51f0-6b03-4c1e-bfb2-84740afb8e21",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--dad9279e-09e3-4154-baaf-dac78c6d5166",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:05.004Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used the Xserver backdoor to exfiltrate data.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e14404a9-ba60-439f-8ac1-6c721c54abd0",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.236Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used stolen credentials to connect to the victim's network via VPN.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e31c92c7-c774-4655-b76c-2d1b232005b7",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.361Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116)'s backdoors have been written in Python and compiled with py2exe.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e4153cab-6566-4a84-8d97-31afe694ccf3",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.494Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has deleted Windows Event Logs to hinder forensic investigation.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--e48e352c-5950-4177-bb57-25c27bbb50f6",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.603Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has created services on remote systems for execution purposes.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--ed500b87-7898-4564-9084-2d1fcd2f5450",
+        "type": "relationship",
+        "created": "2020-11-17T21:06:05.097Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has spawned a new <code>cmd.exe</code> process to execute commands.(Citation: FoxIT Wocao December 2019)\t ",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--eda08936-0900-4e1c-9d23-37ce38519bc6",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.347Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116)'s proxy implementation \"Agent\" can upgrade the socket in use to a TLS socket.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f0dd4b5b-11f6-49ef-9ccb-5c5ede67973d",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.442Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has collected clipboard data in plaintext.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f2de64b0-6a22-43a9-93ef-6b31f7afd1e1",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.497Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has enumerated sessions and users on a remote host, and identified privileged users logged into a targeted system.(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--f3fce5f1-7f76-4c0f-8673-6b8bb1868dfd",
+        "type": "relationship",
+        "created": "2020-11-18T17:17:06.354Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) has used Mimikatz's DCSync to dump credentials from the memory of the targeted system.(Citation: FoxIT Wocao December 2019)\t",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "attack-pattern--f303a39a-6255-4b89-aecc-18c4d8ca7163",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    },
+    {
+        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+        "id": "relationship--fe685b93-37e9-492b-80ac-becbc1336daf",
+        "type": "relationship",
+        "created": "2020-11-17T20:33:44.596Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020."
+            }
+        ],
+        "modified": "2022-10-25T14:00:00.188Z",
+        "description": "(Citation: FoxIT Wocao December 2019)",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "target_ref": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
+        "x_mitre_version": "1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "spec_version": "2.1",
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_deprecated": true,
+        "revoked": null
+    }
+]
