@@ -1,0 +1,44 @@
+[
+    {
+        "Tool Name": "NBTscan",
+        "Description": "(Citation: FireEye APT39 Jan 2019)",
+        "Relationship ID": "relationship--05509bce-dc88-4cc9-8c39-40549cbc8603",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "CrackMapExec",
+        "Description": "(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)",
+        "Relationship ID": "relationship--37fee9dc-701e-49be-8cec-b2fde4b533d8",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "pwdump",
+        "Description": "(Citation: Symantec Chafer February 2018)",
+        "Relationship ID": "relationship--3b1a912a-9854-428f-9dde-bd2100c554d8",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Mimikatz",
+        "Description": "(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)(Citation: Dark Reading APT39 JAN 2019)(Citation: Symantec Chafer February 2018)",
+        "Relationship ID": "relationship--47b76f42-e305-4aac-a1cc-d7cb84b1d8bf",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Windows Credential Editor",
+        "Description": "(Citation: FireEye APT39 Jan 2019)(Citation: Dark Reading APT39 JAN 2019)",
+        "Relationship ID": "relationship--4ecf2ecd-ae5a-417b-a6a7-9690fb83a282",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "PsExec",
+        "Description": "(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)(Citation: Symantec Chafer February 2018)",
+        "Relationship ID": "relationship--66e8d05b-6f51-461d-aec0-266970064939",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "ftp",
+        "Description": "(Citation: FBI FLASH APT39 September 2020)",
+        "Relationship ID": "relationship--d741a245-42ea-4bd4-bfb5-5687981e46b3",
+        "Relationship Type": "uses"
+    }
+]

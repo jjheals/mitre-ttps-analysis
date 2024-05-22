@@ -1,0 +1,80 @@
+[
+    {
+        "Tool Name": "Net",
+        "Description": "(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "Relationship ID": "relationship--1b255a88-0189-4afa-a69f-fa99127e693e",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Impacket",
+        "Description": "(Citation: DFIR Phosphorus November 2021)",
+        "Relationship ID": "relationship--205c5e6d-90c1-4369-98ee-9968f87d687c",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Ping",
+        "Description": "(Citation: DFIR Phosphorus November 2021)",
+        "Relationship ID": "relationship--27c6ffb3-836c-4a43-9862-b77c8e4a8256",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Mimikatz",
+        "Description": "(Citation: FireEye APT35 2018)",
+        "Relationship ID": "relationship--67f2ca97-5949-4503-a55c-1f0d3f3502ca",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Systeminfo",
+        "Description": "(Citation: DFIR Phosphorus November 2021)",
+        "Relationship ID": "relationship--703694f1-755e-4e3f-aff2-f623ec842693",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "ipconfig",
+        "Description": "(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "Relationship ID": "relationship--7f32b01c-ecf6-457e-8bca-6c74c02b439e",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "netsh",
+        "Description": "(Citation: DFIR Report APT35 ProxyShell March 2022)",
+        "Relationship ID": "relationship--9f5f1262-17a7-443e-a531-c9048a91ac8d",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Pupy",
+        "Description": "(Citation: Unit 42 Magic Hound Feb 2017)(Citation: FireEye APT35 2018)(Citation: Secureworks Cobalt Gypsy Feb 2017)",
+        "Relationship ID": "relationship--cde73e1c-da81-4673-a161-49693b45cd48",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "PsExec",
+        "Description": "(Citation: FireEye APT35 2018)",
+        "Relationship ID": "relationship--e1910051-019d-4594-ab9d-b588eb370ff2",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Havij",
+        "Description": "(Citation: Check Point Rocket Kitten)",
+        "Relationship ID": "relationship--44a71143-9a40-4307-8b8c-8b1ac0cf230d",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "sqlmap",
+        "Description": "(Citation: Check Point Rocket Kitten)",
+        "Relationship ID": "relationship--de3436a3-b33f-4b47-a3c7-8204a67b4123",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Havij",
+        "Description": null,
+        "Relationship ID": "relationship--9ffda909-3503-47d8-9403-849a66eb9245",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "sqlmap",
+        "Description": null,
+        "Relationship ID": "relationship--b3d63cea-ad1c-47a5-b9e5-09920bae0537",
+        "Relationship Type": "uses"
+    }
+]

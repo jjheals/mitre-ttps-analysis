@@ -1,0 +1,26 @@
+[
+    {
+        "Tool Name": "Windows Credential Editor",
+        "Description": "(Citation: DarkReading FireEye FIN5 Oct 2015)(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "Relationship ID": "relationship--432f40d2-5309-4cc1-9544-2943233c3c2c",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "PsExec",
+        "Description": "[FIN5](https://attack.mitre.org/groups/G0053) uses a customized version of PsExec.(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "Relationship ID": "relationship--7e46e7c8-e48a-4860-bbcd-224a2d12284a",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "pwdump",
+        "Description": "(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "Relationship ID": "relationship--ab83d817-57b8-4970-afc6-fbd70c6e3760",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "SDelete",
+        "Description": "(Citation: Mandiant FIN5 GrrCON Oct 2016)",
+        "Relationship ID": "relationship--c4e81078-28b4-4a68-a946-458f4d122e39",
+        "Relationship Type": "uses"
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "Tool Name": "Net",
+        "Description": "(Citation: SecureWorks BRONZE UNION June 2017)",
+        "Relationship ID": "relationship--2e45dc12-f493-42ea-829e-011ba786bef1",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Systeminfo",
+        "Description": "(Citation: Trend Micro DRBControl February 2020)",
+        "Relationship ID": "relationship--30ba627f-f567-444c-9c48-39db264ca78b",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "gsecdump",
+        "Description": "(Citation: Dell TG-3390)",
+        "Relationship ID": "relationship--3b6fc69c-9759-465a-b09c-a6161e4e2f56",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Mimikatz",
+        "Description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has used a modified version of Mimikatz called Wrapikatz.(Citation: SecureWorks BRONZE UNION June 2017)(Citation: Nccgroup Emissary Panda May 2018)(Citation: Trend Micro DRBControl February 2020)(Citation: Talent-Jump Clambling February 2020)(Citation: Profero APT27 December 2020)",
+        "Relationship ID": "relationship--4ce5e752-97d6-4803-a49c-0f905729a133",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Impacket",
+        "Description": "(Citation: Unit42 Emissary Panda May 2019)",
+        "Relationship ID": "relationship--565f6cdf-e29b-430d-8b42-e0b0b93fa994",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "certutil",
+        "Description": "(Citation: Trend Micro DRBControl February 2020)",
+        "Relationship ID": "relationship--614c18a5-2cee-48ac-898d-e1b85a91e44d",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Tasklist",
+        "Description": "(Citation: Trend Micro DRBControl February 2020)",
+        "Relationship ID": "relationship--88c2feed-474e-427c-a0ed-6a4e1576b145",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "netstat",
+        "Description": "(Citation: Trend Micro DRBControl February 2020)",
+        "Relationship ID": "relationship--8b38c61f-d128-4496-a15f-c91d121b39f6",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "ipconfig",
+        "Description": "(Citation: SecureWorks BRONZE UNION June 2017)",
+        "Relationship ID": "relationship--c354d751-4688-49c5-9f9a-0d2bc705f645",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "pwdump",
+        "Description": "(Citation: Unit42 Emissary Panda May 2019)",
+        "Relationship ID": "relationship--deb55b94-e38c-4941-9ebd-8cc3343c3eae",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "NBTscan",
+        "Description": "(Citation: Dell TG-3390)(Citation: Trend Micro DRBControl February 2020)",
+        "Relationship ID": "relationship--e7740e58-d87c-44c4-907c-f66b88851ffc",
+        "Relationship Type": "uses"
+    },
+    {
+        "Tool Name": "Windows Credential Editor",
+        "Description": "(Citation: Dell TG-3390)",
+        "Relationship ID": "relationship--fb6a8268-5a73-4ac0-8f61-439f472063d6",
+        "Relationship Type": "uses"
+    }
+]
