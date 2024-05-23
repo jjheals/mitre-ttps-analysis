@@ -1,12 +1,14 @@
 [
     {
         "Campaign Name": "Triton Safety Instrumented System Attack",
+        "id": "campaign--45a98f02-852f-49b2-94c0-c63207bebbbf",
         "Description": "[Triton Safety Instrumented System Attack](https://attack.mitre.org/campaigns/C0030) was a campaign employed by [TEMP.Veles](https://attack.mitre.org/groups/G0088) which leveraged the [Triton](https://attack.mitre.org/software/S1009) malware framework against a petrochemical organization.(Citation: Triton-EENews-2017) The malware and techniques used within this campaign targeted specific Triconex [Safety Controller](https://attack.mitre.org/assets/A0010)s within the environment.(Citation: FireEye TRITON 2018) The incident was eventually discovered due to a safety trip that occurred as a result of an issue in the malware.(Citation: FireEye TRITON 2017)\n",
         "Relationship ID": "relationship--538e5653-137a-4ce2-8b08-5ba69caa794a",
         "Relationship Type": "attributed-to"
     },
     {
         "Campaign Name": "C0032",
+        "id": "campaign--7ec2826c-0bf0-4b47-acae-fd683431a4ca",
         "Description": "[C0032](https://attack.mitre.org/campaigns/C0032) was an extended campaign suspected to involve the [Triton](https://attack.mitre.org/software/S1009) adversaries with related capabilities and techniques focused on gaining a foothold within IT environments. This campaign occurred in 2019 and was distinctly different from the [Triton Safety Instrumented System Attack](https://attack.mitre.org/campaigns/C0030).(Citation: FireEye TRITON 2019)",
         "Relationship ID": "relationship--dd10cc43-3f46-42f4-9230-69a0e2751ab2",
         "Relationship Type": "attributed-to"

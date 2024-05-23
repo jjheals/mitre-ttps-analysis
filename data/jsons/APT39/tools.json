@@ -1,42 +1,49 @@
 [
     {
         "Tool Name": "NBTscan",
+        "id": "tool--b63970b7-ddfb-4aee-97b1-80d335e033a8",
         "Description": "[NBTscan](https://attack.mitre.org/software/S0590) is an open source tool that has been used by state groups to conduct internal reconnaissance within a compromised network.(Citation: Debian nbtscan Nov 2019)(Citation: SecTools nbtscan June 2003)(Citation: Symantec Waterbug Jun 2019)(Citation: FireEye APT39 Jan 2019)",
         "Relationship ID": "relationship--05509bce-dc88-4cc9-8c39-40549cbc8603",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "CrackMapExec",
+        "id": "tool--c4810609-7da6-48ec-8057-1b70a7814db0",
         "Description": "[CrackMapExec](https://attack.mitre.org/software/S0488), or CME, is a post-exploitation tool developed in Python and designed for penetration testing against networks. [CrackMapExec](https://attack.mitre.org/software/S0488) collects Active Directory information to conduct lateral movement through targeted networks.(Citation: CME Github September 2018)",
         "Relationship ID": "relationship--37fee9dc-701e-49be-8cec-b2fde4b533d8",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "pwdump",
+        "id": "tool--9de2308e-7bed-43a3-8e58-f194b3586700",
         "Description": "[pwdump](https://attack.mitre.org/software/S0006) is a credential dumper. (Citation: Wikipedia pwdump)",
         "Relationship ID": "relationship--3b1a912a-9854-428f-9dde-bd2100c554d8",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
+        "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--47b76f42-e305-4aac-a1cc-d7cb84b1d8bf",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Windows Credential Editor",
+        "id": "tool--242f3da3-4425-4d11-8f5c-b842886da966",
         "Description": "[Windows Credential Editor](https://attack.mitre.org/software/S0005) is a password dumping tool. (Citation: Amplia WCE)",
         "Relationship ID": "relationship--4ecf2ecd-ae5a-417b-a6a7-9690fb83a282",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
+        "id": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
         "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--66e8d05b-6f51-461d-aec0-266970064939",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "ftp",
+        "id": "tool--cf23bf4a-e003-4116-bbae-1ea6c558d565",
         "Description": "[ftp](https://attack.mitre.org/software/S0095) is a utility commonly available with operating systems to transfer information over the File Transfer Protocol (FTP). Adversaries can use it to transfer other tools onto a system or to exfiltrate data.(Citation: Microsoft FTP)(Citation: Linux FTP)",
         "Relationship ID": "relationship--d741a245-42ea-4bd4-bfb5-5687981e46b3",
         "Relationship Type": "uses"

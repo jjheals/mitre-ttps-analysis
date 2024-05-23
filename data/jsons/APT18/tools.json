@@ -1,6 +1,7 @@
 [
     {
         "Tool Name": "cmd",
+        "id": "tool--bba595da-b73a-4354-aa6c-224d4de7cb4e",
         "Description": "[cmd](https://attack.mitre.org/software/S0106) is the Windows command-line interpreter that can be used to interact with systems and execute other processes and utilities. (Citation: TechNet Cmd)\n\nCmd.exe contains native functionality to perform many operations to interact with the system, including listing files in a directory (e.g., <code>dir</code> (Citation: TechNet Dir)), deleting files (e.g., <code>del</code> (Citation: TechNet Del)), and copying files (e.g., <code>copy</code> (Citation: TechNet Copy)).",
         "Relationship ID": "relationship--89c6bcd7-e330-4902-8296-0918923d6573",
         "Relationship Type": "uses"

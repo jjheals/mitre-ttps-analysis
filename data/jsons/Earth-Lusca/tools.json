@@ -1,36 +1,42 @@
 [
     {
         "Tool Name": "Mimikatz",
+        "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--09c54ed8-4b03-4e39-b364-bf2e751dbe06",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PowerSploit",
+        "id": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
         "Description": "[PowerSploit](https://attack.mitre.org/software/S0194) is an open source, offensive security framework comprised of [PowerShell](https://attack.mitre.org/techniques/T1059/001) modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)",
         "Relationship ID": "relationship--427f7417-6d8a-4b0b-8bcf-a6acdd28586e",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Tasklist",
+        "id": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
         "Description": "The [Tasklist](https://attack.mitre.org/software/S0057) utility displays a list of applications and services with their Process IDs (PID) for all tasks running on either a local or a remote computer. It is packaged with Windows operating systems and can be executed from the command-line interface. (Citation: Microsoft Tasklist)",
         "Relationship ID": "relationship--62a11eb5-d59b-49d3-b4b5-d88e3cb4e538",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "certutil",
+        "id": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
         "Description": "[certutil](https://attack.mitre.org/software/S0160) is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
         "Relationship ID": "relationship--8b18d3d9-154d-435a-a174-d84ef5961ec8",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Nltest",
+        "id": "tool--981acc4c-2ede-4b56-be6e-fa1a75f37acf",
         "Description": "[Nltest](https://attack.mitre.org/software/S0359) is a Windows command-line utility used to list domain controllers and enumerate domain trusts.(Citation: Nltest Manual)",
         "Relationship ID": "relationship--c336d7c6-0876-445c-8197-924eae28bc16",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "NBTscan",
+        "id": "tool--b63970b7-ddfb-4aee-97b1-80d335e033a8",
         "Description": "[NBTscan](https://attack.mitre.org/software/S0590) is an open source tool that has been used by state groups to conduct internal reconnaissance within a compromised network.(Citation: Debian nbtscan Nov 2019)(Citation: SecTools nbtscan June 2003)(Citation: Symantec Waterbug Jun 2019)(Citation: FireEye APT39 Jan 2019)",
         "Relationship ID": "relationship--e1130af1-b49f-4106-8846-7f3e65a65535",
         "Relationship Type": "uses"

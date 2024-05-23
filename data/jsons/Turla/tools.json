@@ -1,78 +1,91 @@
 [
     {
         "Tool Name": "PsExec",
+        "id": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
         "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--08fccacb-803c-4d00-baa7-ed6af83660ae",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "nbtstat",
+        "id": "tool--b35068ec-107a-4266-bda8-eb7036267aea",
         "Description": "[nbtstat](https://attack.mitre.org/software/S0102) is a utility used to troubleshoot NetBIOS name resolution. (Citation: TechNet Nbtstat)",
         "Relationship ID": "relationship--1ab3f63b-bd80-4e4c-8f62-79f26b9724ab",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "netstat",
+        "id": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
         "Description": "[netstat](https://attack.mitre.org/software/S0104) is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
         "Relationship ID": "relationship--3643f451-322d-4f38-91a4-00a55a42c7f5",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "certutil",
+        "id": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
         "Description": "[certutil](https://attack.mitre.org/software/S0160) is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
         "Relationship ID": "relationship--36f14542-1dd2-4b2e-b69f-d7f38ea9800e",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Empire",
+        "id": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
         "Description": "[Empire](https://attack.mitre.org/software/S0363) is an open source, cross-platform remote administration and post-exploitation framework that is publicly available on GitHub. While the tool itself is primarily written in Python, the post-exploitation agents are written in pure [PowerShell](https://attack.mitre.org/techniques/T1059/001) for Windows and Python for Linux/macOS. [Empire](https://attack.mitre.org/software/S0363) was one of five tools singled out by a joint report on public hacking tools being widely used by adversaries.(Citation: NCSC Joint Report Public Tools)(Citation: Github PowerShell Empire)(Citation: GitHub ATTACK Empire)",
         "Relationship ID": "relationship--40848159-b266-42df-9cf8-785b2f78bcfc",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "IronNetInjector",
+        "id": "tool--b1595ddd-a783-482a-90e1-8afc8d48467e",
         "Description": "[IronNetInjector](https://attack.mitre.org/software/S0581) is a [Turla](https://attack.mitre.org/groups/G0010) toolchain that utilizes scripts from the open-source IronPython implementation of Python with a .NET injector to drop one or more payloads including [ComRAT](https://attack.mitre.org/software/S0126).(Citation: Unit 42 IronNetInjector February 2021 )",
         "Relationship ID": "relationship--5543599a-779f-4955-8f3e-99cc92b1e2fc",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Arp",
+        "id": "tool--30489451-5886-4c46-90c9-0dff9adc5252",
         "Description": "[Arp](https://attack.mitre.org/software/S0099) displays and modifies information about a system's Address Resolution Protocol (ARP) cache. (Citation: TechNet Arp)",
         "Relationship ID": "relationship--5c0645e4-f0c7-4bb4-bedb-29a96a472fe0",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Systeminfo",
+        "id": "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1",
         "Description": "[Systeminfo](https://attack.mitre.org/software/S0096) is a Windows utility that can be used to gather detailed information about a computer. (Citation: TechNet Systeminfo)",
         "Relationship ID": "relationship--8cdfc8e4-b657-4ae9-b9ee-9b6107fae796",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
+        "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--b9c05069-a05f-4b74-9b4d-275c64f2e124",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Tasklist",
+        "id": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
         "Description": "The [Tasklist](https://attack.mitre.org/software/S0057) utility displays a list of applications and services with their Process IDs (PID) for all tasks running on either a local or a remote computer. It is packaged with Windows operating systems and can be executed from the command-line interface. (Citation: Microsoft Tasklist)",
         "Relationship ID": "relationship--bd2a23f7-88cd-47d2-b30e-9356d0204a8e",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
+        "id": "tool--03342581-f790-4f03-ba41-e82e67392e23",
         "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--cd79beea-20ee-4b4f-aad1-5cc34d27398c",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Reg",
+        "id": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
         "Description": "[Reg](https://attack.mitre.org/software/S0075) is a Windows utility used to interact with the Windows Registry. It can be used at the command-line interface to query, add, modify, and remove information. (Citation: Microsoft Reg)\n\nUtilities such as [Reg](https://attack.mitre.org/software/S0075) are known to be used by persistent threats. (Citation: Windows Commands JPCERT)",
         "Relationship ID": "relationship--d0ed3128-67f0-43dd-b1d9-01843eb71b77",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "NBTscan",
+        "id": "tool--b63970b7-ddfb-4aee-97b1-80d335e033a8",
         "Description": "[NBTscan](https://attack.mitre.org/software/S0590) is an open source tool that has been used by state groups to conduct internal reconnaissance within a compromised network.(Citation: Debian nbtscan Nov 2019)(Citation: SecTools nbtscan June 2003)(Citation: Symantec Waterbug Jun 2019)(Citation: FireEye APT39 Jan 2019)",
         "Relationship ID": "relationship--e515dc29-7a69-4d0f-8a2a-d27722f3bd6b",
         "Relationship Type": "uses"

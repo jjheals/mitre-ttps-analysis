@@ -1,30 +1,35 @@
 [
     {
         "Tool Name": "AdFind",
+        "id": "tool--f59508a6-3615-47c3-b493-6676e1a39a87",
         "Description": "[AdFind](https://attack.mitre.org/software/S0552) is a free command-line query tool that can be used for gathering information from Active Directory.(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: FireEye FIN6 Apr 2019)(Citation: FireEye Ryuk and Trickbot January 2019)",
         "Relationship ID": "relationship--01253fc1-ee00-438a-ba98-fc8db655b7d3",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
+        "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--1d0d0fe6-f16d-4c69-bbaf-1d5423b852fb",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "BloodHound",
+        "id": "tool--066b057c-944e-4cfc-b654-e3dfba04b926",
         "Description": "[BloodHound](https://attack.mitre.org/software/S0521) is an Active Directory (AD) reconnaissance tool that can reveal hidden relationships and identify attack paths within an AD environment.(Citation: GitHub Bloodhound)(Citation: CrowdStrike BloodHound April 2018)(Citation: FoxIT Wocao December 2019)",
         "Relationship ID": "relationship--77d30a4e-d267-4416-85f2-edebc0a6af29",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
+        "id": "tool--03342581-f790-4f03-ba41-e82e67392e23",
         "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--c5be8127-669e-49b9-b603-581e3498d203",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PowerSploit",
+        "id": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
         "Description": "[PowerSploit](https://attack.mitre.org/software/S0194) is an open source, offensive security framework comprised of [PowerShell](https://attack.mitre.org/techniques/T1059/001) modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)",
         "Relationship ID": "relationship--e3c860e4-c981-4a9a-8a8e-8ba0207f834b",
         "Relationship Type": "uses"

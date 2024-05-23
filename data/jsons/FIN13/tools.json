@@ -1,24 +1,28 @@
 [
     {
         "Tool Name": "Impacket",
+        "id": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
         "Description": "[Impacket](https://attack.mitre.org/software/S0357) is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. [Impacket](https://attack.mitre.org/software/S0357) contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)",
         "Relationship ID": "relationship--055b4a0f-99aa-4d61-9aa4-a48fff427eb3",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
+        "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--6736036b-1b05-4857-aded-75a7d42a8be2",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Empire",
+        "id": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
         "Description": "[Empire](https://attack.mitre.org/software/S0363) is an open source, cross-platform remote administration and post-exploitation framework that is publicly available on GitHub. While the tool itself is primarily written in Python, the post-exploitation agents are written in pure [PowerShell](https://attack.mitre.org/techniques/T1059/001) for Windows and Python for Linux/macOS. [Empire](https://attack.mitre.org/software/S0363) was one of five tools singled out by a joint report on public hacking tools being widely used by adversaries.(Citation: NCSC Joint Report Public Tools)(Citation: Github PowerShell Empire)(Citation: GitHub ATTACK Empire)",
         "Relationship ID": "relationship--830ebcfb-58a9-4a11-b319-ca49ce7bfe1b",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "certutil",
+        "id": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
         "Description": "[certutil](https://attack.mitre.org/software/S0160) is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
         "Relationship ID": "relationship--8a16836c-ad80-4c4f-8c4a-cfc639450a5a",
         "Relationship Type": "uses"

@@ -1,48 +1,56 @@
 [
     {
         "Tool Name": "Ping",
+        "id": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
         "Description": "[Ping](https://attack.mitre.org/software/S0097) is an operating system utility commonly used to troubleshoot and verify network connections. (Citation: TechNet Ping)",
         "Relationship ID": "relationship--0d51acf9-f8df-42e1-aef3-4c86cf5ab17a",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Systeminfo",
+        "id": "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1",
         "Description": "[Systeminfo](https://attack.mitre.org/software/S0096) is a Windows utility that can be used to gather detailed information about a computer. (Citation: TechNet Systeminfo)",
         "Relationship ID": "relationship--301de16e-3829-4fb0-b217-dcdfca7398c9",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "netstat",
+        "id": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
         "Description": "[netstat](https://attack.mitre.org/software/S0104) is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
         "Relationship ID": "relationship--325ccde0-2d5a-4306-9c4e-e1a554ee0d87",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "spwebmember",
+        "id": "tool--33b9e38f-103c-412d-bdcf-904a91fff1e4",
         "Description": "[spwebmember](https://attack.mitre.org/software/S0227) is a Microsoft SharePoint enumeration and data dumping tool written in .NET. (Citation: NCC Group APT15 Alive and Strong)",
         "Relationship ID": "relationship--47f580c1-77ea-48a6-a280-71bbcb4707d0",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
+        "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--4cf4df8f-9eb3-4136-a082-ea1b5d7b398f",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Tasklist",
+        "id": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
         "Description": "The [Tasklist](https://attack.mitre.org/software/S0057) utility displays a list of applications and services with their Process IDs (PID) for all tasks running on either a local or a remote computer. It is packaged with Windows operating systems and can be executed from the command-line interface. (Citation: Microsoft Tasklist)",
         "Relationship ID": "relationship--59223275-a57b-45ca-94b6-5c504165d8f9",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
+        "id": "tool--03342581-f790-4f03-ba41-e82e67392e23",
         "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--77f9936d-1ba7-42a8-879d-1a6e90156366",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "ipconfig",
+        "id": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
         "Description": "[ipconfig](https://attack.mitre.org/software/S0100) is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
         "Relationship ID": "relationship--f879eea1-2a05-484d-adbb-c3504813fc5d",
         "Relationship Type": "uses"

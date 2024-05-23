@@ -1,18 +1,21 @@
 [
     {
         "Tool Name": "PowerSploit",
+        "id": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
         "Description": "[PowerSploit](https://attack.mitre.org/software/S0194) is an open source, offensive security framework comprised of [PowerShell](https://attack.mitre.org/techniques/T1059/001) modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)",
         "Relationship ID": "relationship--07060e30-4a71-40d1-b724-52c07f06a49d",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Tor",
+        "id": "tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68",
         "Description": "[Tor](https://attack.mitre.org/software/S0183) is a software suite and network that provides increased anonymity on the Internet. It creates a multi-hop proxy network and utilizes multilayer encryption to protect both the message and routing information. [Tor](https://attack.mitre.org/software/S0183) utilizes \"Onion Routing,\" in which messages are encrypted with multiple layers of encryption; at each step in the proxy network, the topmost layer is decrypted and the contents forwarded on to the next node until it reaches its destination. (Citation: Dingledine Tor The Second-Generation Onion Router)",
         "Relationship ID": "relationship--37528901-3205-49e4-a5bc-5d3f7a6d7341",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
+        "id": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
         "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--a99d22fc-31e7-4b10-991a-63a3a663ca70",
         "Relationship Type": "uses"

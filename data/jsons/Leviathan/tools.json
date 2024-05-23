@@ -1,42 +1,49 @@
 [
     {
         "Tool Name": "Windows Credential Editor",
+        "id": "tool--242f3da3-4425-4d11-8f5c-b842886da966",
         "Description": "[Windows Credential Editor](https://attack.mitre.org/software/S0005) is a password dumping tool. (Citation: Amplia WCE)",
         "Relationship ID": "relationship--24879d15-1ec3-437c-bdc5-5b7ac46bb4f5",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "BITSAdmin",
+        "id": "tool--64764dc6-a032-495f-8250-1e4c06bdc163",
         "Description": "[BITSAdmin](https://attack.mitre.org/software/S0190) is a command line tool used to create and manage [BITS Jobs](https://attack.mitre.org/techniques/T1197). (Citation: Microsoft BITSAdmin)",
         "Relationship ID": "relationship--3964d326-01f2-4142-8f41-408f576b53b4",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "at",
+        "id": "tool--0c8465c0-d0b4-4670-992e-4eee8d7ff952",
         "Description": "[at](https://attack.mitre.org/software/S0110) is used to schedule tasks on a system to run at a specified date or time.(Citation: TechNet At)(Citation: Linux at)",
         "Relationship ID": "relationship--5bbeba86-0f26-4c02-9c66-8118ad6c0208",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Empire",
+        "id": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
         "Description": "[Empire](https://attack.mitre.org/software/S0363) is an open source, cross-platform remote administration and post-exploitation framework that is publicly available on GitHub. While the tool itself is primarily written in Python, the post-exploitation agents are written in pure [PowerShell](https://attack.mitre.org/techniques/T1059/001) for Windows and Python for Linux/macOS. [Empire](https://attack.mitre.org/software/S0363) was one of five tools singled out by a joint report on public hacking tools being widely used by adversaries.(Citation: NCSC Joint Report Public Tools)(Citation: Github PowerShell Empire)(Citation: GitHub ATTACK Empire)",
         "Relationship ID": "relationship--732d754a-b02d-4ec6-8ba2-364c3a8510de",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
+        "id": "tool--03342581-f790-4f03-ba41-e82e67392e23",
         "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--86f6e11c-759b-438d-9f32-004708c68f2c",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PowerSploit",
+        "id": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
         "Description": "[PowerSploit](https://attack.mitre.org/software/S0194) is an open source, offensive security framework comprised of [PowerShell](https://attack.mitre.org/techniques/T1059/001) modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)",
         "Relationship ID": "relationship--962f1bc9-89f8-4fbe-b981-b63cce196cbf",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Tor",
+        "id": "tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68",
         "Description": "[Tor](https://attack.mitre.org/software/S0183) is a software suite and network that provides increased anonymity on the Internet. It creates a multi-hop proxy network and utilizes multilayer encryption to protect both the message and routing information. [Tor](https://attack.mitre.org/software/S0183) utilizes \"Onion Routing,\" in which messages are encrypted with multiple layers of encryption; at each step in the proxy network, the topmost layer is decrypted and the contents forwarded on to the next node until it reaches its destination. (Citation: Dingledine Tor The Second-Generation Onion Router)",
         "Relationship ID": "relationship--ec9a7e1d-53f8-4a79-a5dd-a5890bf421ba",
         "Relationship Type": "uses"

@@ -1,30 +1,35 @@
 [
     {
         "Tool Name": "RawDisk",
+        "id": "tool--3ffbdc1f-d2bf-41ab-91a2-c7b857e98079",
         "Description": "[RawDisk](https://attack.mitre.org/software/S0364) is a legitimate commercial driver from the EldoS Corporation that is used for interacting with files, disks, and partitions. The driver allows for direct modification of data on a local computer's hard drive. In some cases, the tool can enact these raw disk modifications from user-mode processes, circumventing Windows operating system security features.(Citation: EldoS RawDisk ITpro)(Citation: Novetta Blockbuster Destructive Malware)",
         "Relationship ID": "relationship--00e9a38d-6dc5-4d67-b2fe-977b1c7d17dd",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "netsh",
+        "id": "tool--5a63f900-5e7e-4928-a746-dd4558e1df71",
         "Description": "[netsh](https://attack.mitre.org/software/S0108) is a scripting utility used to interact with networking components on local or remote systems. (Citation: TechNet Netsh)",
         "Relationship ID": "relationship--9f62c4e4-02d4-497b-8039-cc4e816386a5",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "route",
+        "id": "tool--c11ac61d-50f4-444f-85d8-6f006067f0de",
         "Description": "[route](https://attack.mitre.org/software/S0103) can be used to find or change information within the local system IP routing table. (Citation: TechNet Route)",
         "Relationship ID": "relationship--d1e1fefe-5e60-463e-9fd3-bc5ca6d559ed",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Responder",
+        "id": "tool--a1dd2dbd-1550-44bf-abcc-1a4c52e97719",
         "Description": "Responder is an open source tool used for LLMNR, NBT-NS and MDNS poisoning, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication. (Citation: GitHub Responder)",
         "Relationship ID": "relationship--ecfb4c82-5097-4273-8aeb-007922e92940",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
+        "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--9c203488-e4e0-4e41-8a92-e350eabf6e65",
         "Relationship Type": "uses"

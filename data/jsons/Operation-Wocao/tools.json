@@ -1,36 +1,42 @@
 [
     {
         "Tool Name": "netstat",
+        "id": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
         "Description": "[netstat](https://attack.mitre.org/software/S0104) is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
         "Relationship ID": "relationship--3df6e7b2-229a-4975-aca9-0f51d312c64f",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "dsquery",
+        "id": "tool--38952eac-cb1b-4a71-bad2-ee8223a1c8fe",
         "Description": "[dsquery](https://attack.mitre.org/software/S0105) is a command-line utility that can be used to query Active Directory for information from a system within a domain. (Citation: TechNet Dsquery) It is typically installed only on Windows Server versions but can be installed on non-server variants through the Microsoft-provided Remote Server Administration Tools bundle.",
         "Relationship ID": "relationship--43978b74-497d-4862-883b-8f464e3736f5",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
+        "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--79cf94d7-1100-4f76-8fce-c1a9a7d53876",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "BloodHound",
+        "id": "tool--066b057c-944e-4cfc-b654-e3dfba04b926",
         "Description": "[BloodHound](https://attack.mitre.org/software/S0521) is an Active Directory (AD) reconnaissance tool that can reveal hidden relationships and identify attack paths within an AD environment.(Citation: GitHub Bloodhound)(Citation: CrowdStrike BloodHound April 2018)(Citation: FoxIT Wocao December 2019)",
         "Relationship ID": "relationship--96919e6d-b496-4be4-b1f7-2956c8ce450e",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PowerSploit",
+        "id": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
         "Description": "[PowerSploit](https://attack.mitre.org/software/S0194) is an open source, offensive security framework comprised of [PowerShell](https://attack.mitre.org/techniques/T1059/001) modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)",
         "Relationship ID": "relationship--aacaa361-99f7-48ff-8754-59ed42ed2f76",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Impacket",
+        "id": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
         "Description": "[Impacket](https://attack.mitre.org/software/S0357) is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. [Impacket](https://attack.mitre.org/software/S0357) contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)",
         "Relationship ID": "relationship--fe685b93-37e9-492b-80ac-becbc1336daf",
         "Relationship Type": "uses"

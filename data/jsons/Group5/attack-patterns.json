@@ -1,36 +1,42 @@
 [
     {
         "Attack Patterns Name": "Keylogging",
+        "id": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
         "Description": "Adversaries may log user keystrokes to intercept credentials as the user types them. Keylogging is likely to be used to acquire credentials for new access opportunities when [OS Credential Dumping](https://attack.mitre.org/techniques/T1003) efforts are not effective, and may require an adversary to intercept keystrokes on a system for a substantial period of time before credentials can be successfully captured. In order to increase the likelihood of capturing credentials quickly, an adversary may also perform actions such as clearing browser cookies to force users to reauthenticate to systems.(Citation: Talos Kimsuky Nov 2021)\n\nKeylogging is the most prevalent type of input capture, with many different ways of intercepting keystrokes.(Citation: Adventures of a Keystroke) Some methods include:\n\n* Hooking API callbacks used for processing keystrokes. Unlike [Credential API Hooking](https://attack.mitre.org/techniques/T1056/004), this focuses solely on API functions intended for processing keystroke data.\n* Reading raw keystroke data from the hardware buffer.\n* Windows Registry modifications.\n* Custom drivers.\n* [Modify System Image](https://attack.mitre.org/techniques/T1601) may provide adversaries with hooks into the operating system of network devices to read raw keystrokes for login sessions.(Citation: Cisco Blog Legacy Device Attacks) ",
         "Relationship ID": "relationship--8447c89e-a743-430e-8ef5-41abfcde1a01",
         "Relationship Type": "uses"
     },
     {
         "Attack Patterns Name": "Screen Capture",
+        "id": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
         "Description": "Adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. Screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. Taking a screenshot is also typically possible through native utilities or API calls, such as <code>CopyFromScreen</code>, <code>xwd</code>, or <code>screencapture</code>.(Citation: CopyFromScreen .NET)(Citation: Antiquated Mac Malware)\n",
         "Relationship ID": "relationship--8e69c855-db70-4b5e-866b-f9ce0b786156",
         "Relationship Type": "uses"
     },
     {
         "Attack Patterns Name": "File Deletion",
+        "id": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
         "Description": "Adversaries may delete files left behind by the actions of their intrusion activity. Malware, tools, or other non-native files dropped or created on a system by an adversary (ex: [Ingress Tool Transfer](https://attack.mitre.org/techniques/T1105)) may leave traces to indicate to what was done within a network and how. Removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.\n\nThere are tools available from the host operating system to perform cleanup, but adversaries may use other tools as well.(Citation: Microsoft SDelete July 2016) Examples of built-in [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059) functions include <code>del</code> on Windows and <code>rm</code> or <code>unlink</code> on Linux and macOS.",
         "Relationship ID": "relationship--a9bc7666-f637-4093-a5bb-4edb61710e45",
         "Relationship Type": "uses"
     },
     {
         "Attack Patterns Name": "Encrypted/Encoded File",
+        "id": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
         "Description": "Adversaries may encrypt or encode files to obfuscate strings, bytes, and other specific patterns to impede detection. Encrypting and/or encoding file content aims to conceal malicious artifacts within a file used in an intrusion. Many other techniques, such as [Software Packing](https://attack.mitre.org/techniques/T1027/002), [Steganography](https://attack.mitre.org/techniques/T1027/003), and [Embedded Payloads](https://attack.mitre.org/techniques/T1027/009), share this same broad objective. Encrypting and/or encoding files could lead to a lapse in detection of static signatures, only for this malicious content to be revealed (i.e., [Deobfuscate/Decode Files or Information](https://attack.mitre.org/techniques/T1140)) at the time of execution/use.\n\nThis type of file obfuscation can be applied to many file artifacts present on victim hosts, such as malware log/configuration and payload files.(Citation: File obfuscation) Files can be encrypted with a hardcoded or user-supplied key, as well as otherwise obfuscated using standard encoding/compression schemes such as Base64.\n\nThe entire content of a file may be obfuscated, or just specific functions or values (such as C2 addresses). Encryption and encoding may also be applied in redundant layers for additional protection.\n\nFor example, adversaries may abuse password-protected Word documents or self-extracting (SFX) archives as a method of encrypting/encoding a file such as a [Phishing](https://attack.mitre.org/techniques/T1566) payload. These files typically function by attaching the intended archived content to a decompressor stub that is executed when the file is invoked (e.g., [User Execution](https://attack.mitre.org/techniques/T1204)).(Citation: SFX - Encrypted/Encoded File) \n\nAdversaries may also abuse file-specific as well as custom encoding schemes. For example, Byte Order Mark (BOM) headers in text files may be abused to manipulate and obfuscate file content until [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059) execution.",
         "Relationship ID": "relationship--c3a1969b-1edb-4a78-80ab-b122cc2822e4",
         "Relationship Type": "uses"
     },
     {
         "Attack Patterns Name": "Uncommonly Used Port",
+        "id": "attack-pattern--c848fcf7-6b62-4bde-8216-b6c157d48da0",
         "Description": "Adversaries may conduct C2 communications over a non-standard port to bypass proxies and firewalls that have been improperly configured.",
         "Relationship ID": "relationship--05604d66-735a-4369-bc31-c7915bb3f2e0",
         "Relationship Type": "uses"
     },
     {
         "Attack Patterns Name": "Software Packing",
+        "id": "attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88",
         "Description": "Software packing is a method of compressing or encrypting an executable. Packing an executable changes the file signature in an attempt to avoid signature-based detection. Most decompression techniques decompress the executable code in memory.\n\nUtilities used to perform software packing are called packers. Example packers are MPRESS and UPX. A more comprehensive list of known packers is available, (Citation: Wikipedia Exe Compression) but adversaries may create their own packing techniques that do not leave the same artifacts as well-known packers to evade defenses.\n\nAdversaries may use virtual machine software protection as a form of software packing to protect their code. Virtual machine software protection translates an executable's original code into a special format that only a special virtual machine can run. A virtual machine is then called to run this code.(Citation: ESET FinFisher Jan 2018)",
         "Relationship ID": "relationship--b9083516-7dd3-4ef2-808a-1df48894122b",
         "Relationship Type": "uses"

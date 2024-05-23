@@ -1,12 +1,14 @@
 [
     {
         "Tool Name": "Reg",
+        "id": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
         "Description": "[Reg](https://attack.mitre.org/software/S0075) is a Windows utility used to interact with the Windows Registry. It can be used at the command-line interface to query, add, modify, and remove information. (Citation: Microsoft Reg)\n\nUtilities such as [Reg](https://attack.mitre.org/software/S0075) are known to be used by persistent threats. (Citation: Windows Commands JPCERT)",
         "Relationship ID": "relationship--27a1b804-f54c-4e9f-ad89-fd565a66c180",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "certutil",
+        "id": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
         "Description": "[certutil](https://attack.mitre.org/software/S0160) is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
         "Relationship ID": "relationship--be7a1288-68fd-4125-969b-bd123865c6b1",
         "Relationship Type": "uses"

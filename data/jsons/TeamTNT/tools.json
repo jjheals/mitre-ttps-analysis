@@ -1,18 +1,21 @@
 [
     {
         "Tool Name": "Peirates",
+        "id": "tool--79dd477a-8226-4b3d-ad15-28623675f221",
         "Description": "[Peirates](https://attack.mitre.org/software/S0683) is a post-exploitation Kubernetes exploitation framework with a focus on gathering service account tokens for lateral movement and privilege escalation. The tool is written in GoLang and publicly available on GitHub.(Citation: Peirates GitHub)",
         "Relationship ID": "relationship--6d887394-6007-451e-beb9-0ce76b58ebc3",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "MimiPenguin",
+        "id": "tool--5a33468d-844d-4b1f-98c9-0e786c556b27",
         "Description": "[MimiPenguin](https://attack.mitre.org/software/S0179) is a credential dumper, similar to [Mimikatz](https://attack.mitre.org/software/S0002), designed specifically for Linux platforms. (Citation: MimiPenguin GitHub May 2017)",
         "Relationship ID": "relationship--9c68c07e-bb35-416b-83ec-c8c8530eccc9",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "LaZagne",
+        "id": "tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b",
         "Description": "[LaZagne](https://attack.mitre.org/software/S0349) is a post-exploitation, open-source tool used to recover stored passwords on a system. It has modules for Windows, Linux, and OSX, but is mainly focused on Windows systems. [LaZagne](https://attack.mitre.org/software/S0349) is publicly available on GitHub.(Citation: GitHub LaZagne Dec 2018)",
         "Relationship ID": "relationship--a38bce09-385d-44b0-91a4-307ee5d328c3",
         "Relationship Type": "uses"

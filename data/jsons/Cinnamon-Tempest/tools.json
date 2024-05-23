@@ -1,18 +1,21 @@
 [
     {
         "Tool Name": "Sliver",
+        "id": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",
         "Description": "[Sliver](https://attack.mitre.org/software/S0633) is an open source, cross-platform, red team command and control framework written in Golang.(Citation: Bishop Fox Sliver Framework August 2019)",
         "Relationship ID": "relationship--1a0bc35b-cc76-487b-a1a7-71cbfb110f24",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Impacket",
+        "id": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
         "Description": "[Impacket](https://attack.mitre.org/software/S0357) is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. [Impacket](https://attack.mitre.org/software/S0357) contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)",
         "Relationship ID": "relationship--ad9f56c2-efb9-421e-99f5-d82396f89440",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Rclone",
+        "id": "tool--59096109-a1dd-463b-87e7-a8d110fe3a79",
         "Description": "[Rclone](https://attack.mitre.org/software/S1040) is a command line program for syncing files with cloud storage services such as Dropbox, Google Drive, Amazon S3, and MEGA. [Rclone](https://attack.mitre.org/software/S1040) has been used in a number of ransomware campaigns, including those associated with the [Conti](https://attack.mitre.org/software/S0575) and DarkSide Ransomware-as-a-Service operations.(Citation: Rclone)(Citation: Rclone Wars)(Citation: Detecting Rclone)(Citation: DarkSide Ransomware Gang)(Citation: DFIR Conti Bazar Nov 2021)",
         "Relationship ID": "relationship--e5f53e43-5b6a-480c-b770-85ca47b17050",
         "Relationship Type": "uses"

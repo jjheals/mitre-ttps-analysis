@@ -1,78 +1,91 @@
 [
     {
         "Tool Name": "BITSAdmin",
+        "id": "tool--64764dc6-a032-495f-8250-1e4c06bdc163",
         "Description": "[BITSAdmin](https://attack.mitre.org/software/S0190) is a command line tool used to create and manage [BITS Jobs](https://attack.mitre.org/techniques/T1197). (Citation: Microsoft BITSAdmin)",
         "Relationship ID": "relationship--202e5e50-09e4-431b-a786-d846beb5e009",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "netstat",
+        "id": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
         "Description": "[netstat](https://attack.mitre.org/software/S0104) is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
         "Relationship ID": "relationship--3f27ef2a-48e8-4d37-8618-fe61dfcafd3e",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PowerSploit",
+        "id": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
         "Description": "[PowerSploit](https://attack.mitre.org/software/S0194) is an open source, offensive security framework comprised of [PowerShell](https://attack.mitre.org/techniques/T1059/001) modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)",
         "Relationship ID": "relationship--48c34dc3-0c3f-426d-b99a-b72e595da287",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Ping",
+        "id": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
         "Description": "[Ping](https://attack.mitre.org/software/S0097) is an operating system utility commonly used to troubleshoot and verify network connections. (Citation: TechNet Ping)",
         "Relationship ID": "relationship--5bfd02aa-acc6-47a0-8867-d7962ce775f6",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
+        "id": "tool--03342581-f790-4f03-ba41-e82e67392e23",
         "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--66d42126-d337-4a00-ae35-d8af7203a6eb",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "ipconfig",
+        "id": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
         "Description": "[ipconfig](https://attack.mitre.org/software/S0100) is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
         "Relationship ID": "relationship--694d94db-3297-4be1-ab01-7b574ee5f4e5",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "sqlmap",
+        "id": "tool--9a2640c2-9f43-46fe-b13f-bde881e55555",
         "Description": "[sqlmap](https://attack.mitre.org/software/S0225) is an open source penetration testing tool that can be used to automate the process of detecting and exploiting SQL injection flaws. (Citation: sqlmap Introduction)",
         "Relationship ID": "relationship--6ef0dcc3-19d3-42be-b842-942790e4a07f",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
+        "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--9be3defb-cc1d-4d8f-b0a8-bc153b0f1947",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "certutil",
+        "id": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
         "Description": "[certutil](https://attack.mitre.org/software/S0160) is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
         "Relationship ID": "relationship--9cdb5a1a-a68f-4ee2-a807-ba4c0ae8e436",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Empire",
+        "id": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
         "Description": "[Empire](https://attack.mitre.org/software/S0363) is an open source, cross-platform remote administration and post-exploitation framework that is publicly available on GitHub. While the tool itself is primarily written in Python, the post-exploitation agents are written in pure [PowerShell](https://attack.mitre.org/techniques/T1059/001) for Windows and Python for Linux/macOS. [Empire](https://attack.mitre.org/software/S0363) was one of five tools singled out by a joint report on public hacking tools being widely used by adversaries.(Citation: NCSC Joint Report Public Tools)(Citation: Github PowerShell Empire)(Citation: GitHub ATTACK Empire)",
         "Relationship ID": "relationship--b4e20afc-56a8-4a05-8f73-076b17e3794e",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "pwdump",
+        "id": "tool--9de2308e-7bed-43a3-8e58-f194b3586700",
         "Description": "[pwdump](https://attack.mitre.org/software/S0006) is a credential dumper. (Citation: Wikipedia pwdump)",
         "Relationship ID": "relationship--b98ed6ce-be41-4388-ac56-35b4e2a0bbe6",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "dsquery",
+        "id": "tool--38952eac-cb1b-4a71-bad2-ee8223a1c8fe",
         "Description": "[dsquery](https://attack.mitre.org/software/S0105) is a command-line utility that can be used to query Active Directory for information from a system within a domain. (Citation: TechNet Dsquery) It is typically installed only on Windows Server versions but can be installed on non-server variants through the Microsoft-provided Remote Server Administration Tools bundle.",
         "Relationship ID": "relationship--e1f948d0-7627-408c-a2c9-669e30e43782",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "ftp",
+        "id": "tool--cf23bf4a-e003-4116-bbae-1ea6c558d565",
         "Description": "[ftp](https://attack.mitre.org/software/S0095) is a utility commonly available with operating systems to transfer information over the File Transfer Protocol (FTP). Adversaries can use it to transfer other tools onto a system or to exfiltrate data.(Citation: Microsoft FTP)(Citation: Linux FTP)",
         "Relationship ID": "relationship--fc86f198-f9d7-4b95-b26a-9cb9b922f2f1",
         "Relationship Type": "uses"

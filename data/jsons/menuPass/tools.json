@@ -1,72 +1,84 @@
 [
     {
         "Tool Name": "certutil",
+        "id": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
         "Description": "[certutil](https://attack.mitre.org/software/S0160) is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
         "Relationship ID": "relationship--10af8211-36f6-4152-8221-c152407bd969",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "pwdump",
+        "id": "tool--9de2308e-7bed-43a3-8e58-f194b3586700",
         "Description": "[pwdump](https://attack.mitre.org/software/S0006) is a credential dumper. (Citation: Wikipedia pwdump)",
         "Relationship ID": "relationship--4aa62b6b-7441-4ece-9cb0-2a5bcb46f966",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
+        "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--51372934-2c81-4db7-aa38-cbb173698cc2",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
+        "id": "tool--03342581-f790-4f03-ba41-e82e67392e23",
         "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--7193ed4c-7169-46fa-9294-d74d912510d0",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PowerSploit",
+        "id": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
         "Description": "[PowerSploit](https://attack.mitre.org/software/S0194) is an open source, offensive security framework comprised of [PowerShell](https://attack.mitre.org/techniques/T1059/001) modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)",
         "Relationship ID": "relationship--80d72d09-c1a4-4735-b85a-28bfc19ef8b9",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "cmd",
+        "id": "tool--bba595da-b73a-4354-aa6c-224d4de7cb4e",
         "Description": "[cmd](https://attack.mitre.org/software/S0106) is the Windows command-line interpreter that can be used to interact with systems and execute other processes and utilities. (Citation: TechNet Cmd)\n\nCmd.exe contains native functionality to perform many operations to interact with the system, including listing files in a directory (e.g., <code>dir</code> (Citation: TechNet Dir)), deleting files (e.g., <code>del</code> (Citation: TechNet Del)), and copying files (e.g., <code>copy</code> (Citation: TechNet Copy)).",
         "Relationship ID": "relationship--99800503-d535-4fae-a318-dfa034dca663",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "QuasarRAT",
+        "id": "tool--da04ac30-27da-4959-a67d-450ce47d9470",
         "Description": "[QuasarRAT](https://attack.mitre.org/software/S0262) is an open-source, remote access tool that has been publicly available on GitHub since at least 2014. [QuasarRAT](https://attack.mitre.org/software/S0262) is developed in the C# language.(Citation: GitHub QuasarRAT)(Citation: Volexity Patchwork June 2018)",
         "Relationship ID": "relationship--a552bf3d-a438-406f-8f5b-8e263adad080",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "AdFind",
+        "id": "tool--f59508a6-3615-47c3-b493-6676e1a39a87",
         "Description": "[AdFind](https://attack.mitre.org/software/S0552) is a free command-line query tool that can be used for gathering information from Active Directory.(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: FireEye FIN6 Apr 2019)(Citation: FireEye Ryuk and Trickbot January 2019)",
         "Relationship ID": "relationship--b593a75c-245f-449c-861b-b283c47357f0",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "esentutl",
+        "id": "tool--c256da91-6dd5-40b2-beeb-ee3b22ab3d27",
         "Description": "[esentutl](https://attack.mitre.org/software/S0404) is a command-line tool that provides database utilities for the Windows Extensible Storage Engine.(Citation: Microsoft Esentutl)",
         "Relationship ID": "relationship--d608c524-ad0a-4595-8fe2-4a0ec0dbf501",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Impacket",
+        "id": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
         "Description": "[Impacket](https://attack.mitre.org/software/S0357) is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. [Impacket](https://attack.mitre.org/software/S0357) contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)",
         "Relationship ID": "relationship--d61f5cc3-e075-4a5b-ac7c-e77feac1d310",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Ping",
+        "id": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
         "Description": "[Ping](https://attack.mitre.org/software/S0097) is an operating system utility commonly used to troubleshoot and verify network connections. (Citation: TechNet Ping)",
         "Relationship ID": "relationship--e5f75ae0-45f5-48b8-938f-f0d9e17e53eb",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
+        "id": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
         "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--f9600732-9116-4325-8073-28d81721b37a",
         "Relationship Type": "uses"

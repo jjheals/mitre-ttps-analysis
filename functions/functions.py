@@ -131,8 +131,25 @@ def create_csvs(lod:list[dict], sources:list[dict], filepath1:str, sources_filep
     '''
     # Convert the list of dicts (lod) to a df
     df1:pd.DataFrame = pd.DataFrame(lod)
-    df1.drop('external_references', axis=1, inplace=True)
-
+    
+    # Drop unnecessary columns 
+    drop_cols:list[str] = [
+        'external_references',        # Not needed
+        'x_mitre_deprecated',         # Not relevant 
+        'x_mitre_version',            # Not relevant 
+        'x_mitre_modified_by_ref',    # Not relevant
+        'spec_version',               # Not relevant
+        'x_mitre_contributors',       # Not relevant
+        'created_by_ref',             # Not relevant 
+        'revoked',                    # Not relevant 
+        'modified',                   # Not relevant 
+        'created',                    # Not relevant 
+        'object_marking_refs',        # Not relevant 
+        'x_mitre_attack_spec_version' # Not relevant
+    ]
+    
+    df1.drop([c for c in drop_cols if c in df1.columns], axis=1, inplace=True)
+    
     # Convert the sources list (sources) to a df
     sources_df:pd.DataFrame = pd.DataFrame(sources)
 
@@ -263,8 +280,18 @@ def relationships_with_x(relationships:list[dict], target_str:str) -> list[dict]
 
 
 def get_entities_for_actor(entities_of_type:list[dict], target_entity_type:str, actor:dict, entity_name:str, print_debug:bool=False) -> list[dict]:
-    ''' NOTE: Assumes the actor's relationships exist in "data/jsons/[actor_name]/relationships.json 
-    
+    ''' Retrieves the entities (dicts) from [entities_of_type] that match the [target_entity_type]. 
+    NOTE: Assumes the actor's relationships exist in "data/jsons/[actor_name]/relationships.json 
+   
+        Args: 
+            entities_of_type (list[dict]): a list of the entities to search as dictionaries (e.g. campaigns, tools, etc.)
+            target_entity_type (str): the type of entity in entities_of_type. Needed to identify the ID properly. 
+            actor (dict): the actor as a dictionary (i.e. an "intrusion-set").
+            entity_name (str): a pretty string for the name of the entity that appears in the resulting dictionaries. 
+            print_debug (bool, optional): specify whether to print debug statements. Defaults to False.
+
+        Returns: 
+            list[dict]: a list of dictionaries that can be dumped to a JSON for this actor or analyzed separately.
     '''
     # DEBUG prints
     if(print_debug):
@@ -301,6 +328,7 @@ def get_entities_for_actor(entities_of_type:list[dict], target_entity_type:str, 
                 
                 actor_entity_matches.append({
                     f'{entity_name} Name': name_from_id(entities_of_type, this_entity_id),
+                    f'id': this_entity_id,
                     'Description': e['description'],
                     'Relationship ID': r['id'],
                     'Relationship Type': r['relationship_type']

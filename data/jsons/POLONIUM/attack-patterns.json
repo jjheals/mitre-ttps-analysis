@@ -1,42 +1,49 @@
 [
     {
         "Attack Patterns Name": "Exfiltration to Cloud Storage",
+        "id": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
         "Description": "Adversaries may exfiltrate data to a cloud storage service rather than over their primary command and control channel. Cloud storage services allow for the storage, edit, and retrieval of data from a remote cloud storage server over the Internet.\n\nExamples of cloud storage services include Dropbox and Google Docs. Exfiltration to these cloud storage services can provide a significant amount of cover to the adversary if hosts within the network are already communicating with the service. ",
         "Relationship ID": "relationship--3077e0e6-4540-4f0d-a2ec-c4db78a35a0e",
         "Relationship Type": "uses"
     },
     {
         "Attack Patterns Name": "Bidirectional Communication",
+        "id": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
         "Description": "Adversaries may use an existing, legitimate external Web service as a means for sending commands to and receiving output from a compromised system over the Web service channel. Compromised systems may leverage popular websites and social media to host command and control (C2) instructions. Those infected systems can then send the output from those commands back over that Web service channel. The return traffic may occur in a variety of ways, depending on the Web service being utilized. For example, the return traffic may take the form of the compromised system posting a comment on a forum, issuing a pull request to development project, updating a document hosted on a Web service, or by sending a Tweet. \n\nPopular websites and social media acting as a mechanism for C2 may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to a compromise. Using common services, such as those offered by Google or Twitter, makes it easier for adversaries to hide in expected noise. Web service providers commonly use SSL/TLS encryption, giving adversaries an added level of protection. ",
         "Relationship ID": "relationship--322fcce0-fe46-48f2-b57c-01b73b316339",
         "Relationship Type": "uses"
     },
     {
         "Attack Patterns Name": "Proxy",
+        "id": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
         "Description": "Adversaries may use a connection proxy to direct network traffic between systems or act as an intermediary for network communications to a command and control server to avoid direct connections to their infrastructure. Many tools exist that enable traffic redirection through proxies or port redirection, including [HTRAN](https://attack.mitre.org/software/S0040), ZXProxy, and ZXPortMap. (Citation: Trend Micro APT Attack Tools) Adversaries use these types of proxies to manage command and control communications, reduce the number of simultaneous outbound network connections, provide resiliency in the face of connection loss, or to ride over existing trusted communications paths between victims to avoid suspicion. Adversaries may chain together multiple proxies to further disguise the source of malicious traffic.\n\nAdversaries can also take advantage of routing schemes in Content Delivery Networks (CDNs) to proxy command and control traffic.",
         "Relationship ID": "relationship--81eaf78c-2282-4e86-baa9-820020a54031",
         "Relationship Type": "uses"
     },
     {
         "Attack Patterns Name": "Tool",
+        "id": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
         "Description": "Adversaries may buy, steal, or download software tools that can be used during targeting. Tools can be open or closed source, free or commercial. A tool can be used for malicious purposes by an adversary, but (unlike malware) were not intended to be used for those purposes (ex: [PsExec](https://attack.mitre.org/software/S0029)). Tool acquisition can involve the procurement of commercial software licenses, including for red teaming tools such as [Cobalt Strike](https://attack.mitre.org/software/S0154). Commercial software may be obtained through purchase, stealing licenses (or licensed copies of the software), or cracking trial versions.(Citation: Recorded Future Beacon 2019)\n\nAdversaries may obtain tools to support their operations, including to support execution of post-compromise behaviors. In addition to freely downloading or purchasing software, adversaries may steal software and/or software licenses from third-party entities (including other adversaries).",
         "Relationship ID": "relationship--84a7d204-857f-43dd-8876-215b7a946ed1",
         "Relationship Type": "uses"
     },
     {
         "Attack Patterns Name": "Trusted Relationship",
+        "id": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
         "Description": "Adversaries may breach or otherwise leverage organizations who have access to intended victims. Access through trusted third party relationship abuses an existing connection that may not be protected or receives less scrutiny than standard mechanisms of gaining access to a network.\n\nOrganizations often grant elevated access to second or third-party external providers in order to allow them to manage internal systems as well as cloud-based environments. Some examples of these relationships include IT services contractors, managed security providers, infrastructure contractors (e.g. HVAC, elevators, physical security). The third-party provider's access may be intended to be limited to the infrastructure being maintained, but may exist on the same network as the rest of the enterprise. As such, [Valid Accounts](https://attack.mitre.org/techniques/T1078) used by the other party for access to internal network systems may be compromised and used.(Citation: CISA IT Service Providers)\n\nIn Office 365 environments, organizations may grant Microsoft partners or resellers delegated administrator permissions. By compromising a partner or reseller account, an adversary may be able to leverage existing delegated administrator relationships or send new delegated administrator offers to clients in order to gain administrative control over the victim tenant.(Citation: Office 365 Delegated Administration)",
         "Relationship ID": "relationship--b0e3680e-6099-4f33-a45e-5e938a7e7085",
         "Relationship Type": "uses"
     },
     {
         "Attack Patterns Name": "Web Services",
+        "id": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
         "Description": "Adversaries may register for web services\u00a0that can be used during targeting. A variety of popular websites exist for adversaries to register for a web-based service that can be abused during later stages of the adversary lifecycle, such as during Command and Control ([Web Service](https://attack.mitre.org/techniques/T1102)), [Exfiltration Over Web Service](https://attack.mitre.org/techniques/T1567), or [Phishing](https://attack.mitre.org/techniques/T1566). Using common services, such as those offered by Google or Twitter, makes it easier for adversaries to hide in expected noise.(Citation: FireEye APT29) By utilizing a web service, adversaries can make it difficult to physically tie back operations to them.",
         "Relationship ID": "relationship--ba747d29-53c9-4841-bbbe-93527c789e63",
         "Relationship Type": "uses"
     },
     {
         "Attack Patterns Name": "Valid Accounts",
+        "id": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
         "Description": "Adversaries may obtain and abuse credentials of existing accounts as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion. Compromised credentials may be used to bypass access controls placed on various resources on systems within the network and may even be used for persistent access to remote systems and externally available services, such as VPNs, Outlook Web Access, network devices, and remote desktop.(Citation: volexity_0day_sophos_FW) Compromised credentials may also grant an adversary increased privilege to specific systems or access to restricted areas of the network. Adversaries may choose not to use malware or tools in conjunction with the legitimate access those credentials provide to make it harder to detect their presence.\n\nIn some cases, adversaries may abuse inactive accounts: for example, those belonging to individuals who are no longer part of an organization. Using these accounts may allow the adversary to evade detection, as the original account user will not be present to identify any anomalous activity taking place on their account.(Citation: CISA MFA PrintNightmare)\n\nThe overlap of permissions for local, domain, and cloud accounts across a network of systems is of concern because the adversary may be able to pivot across accounts and systems to reach a high level of access (i.e., domain or enterprise administrator) to bypass access controls set within the enterprise.(Citation: TechNet Credential Theft)",
         "Relationship ID": "relationship--e145eb03-1e0b-4062-ab24-20269e3e85d0",
         "Relationship Type": "uses"

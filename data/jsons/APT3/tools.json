@@ -1,12 +1,14 @@
 [
     {
         "Tool Name": "schtasks",
+        "id": "tool--c9703cd3-141c-43a0-a926-380082be5d04",
         "Description": "[schtasks](https://attack.mitre.org/software/S0111) is used to schedule execution of programs or scripts on a Windows system to run at a specific date and time. (Citation: TechNet Schtasks)",
         "Relationship ID": "relationship--1c812537-dfaf-40da-a71b-a49c18870b77",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "LaZagne",
+        "id": "tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b",
         "Description": "[LaZagne](https://attack.mitre.org/software/S0349) is a post-exploitation, open-source tool used to recover stored passwords on a system. It has modules for Windows, Linux, and OSX, but is mainly focused on Windows systems. [LaZagne](https://attack.mitre.org/software/S0349) is publicly available on GitHub.(Citation: GitHub LaZagne Dec 2018)",
         "Relationship ID": "relationship--5b50193e-6a97-432a-8839-6bb18e88271f",
         "Relationship Type": "uses"

@@ -1,54 +1,63 @@
 [
     {
         "Tool Name": "PowerSploit",
+        "id": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
         "Description": "[PowerSploit](https://attack.mitre.org/software/S0194) is an open source, offensive security framework comprised of [PowerShell](https://attack.mitre.org/techniques/T1059/001) modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)",
         "Relationship ID": "relationship--148d82d9-c55b-4ce4-adb2-79387dab01ab",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PoshC2",
+        "id": "tool--4b57c098-f043-4da2-83ef-7588a6d426bc",
         "Description": "[PoshC2](https://attack.mitre.org/software/S0378) is an open source remote administration and post-exploitation framework that is publicly available on GitHub. The server-side components of the tool are primarily written in Python, while the implants are written in [PowerShell](https://attack.mitre.org/techniques/T1059/001). Although [PoshC2](https://attack.mitre.org/software/S0378) is primarily focused on Windows implantation, it does contain a basic Python dropper for Linux/macOS.(Citation: GitHub PoshC2)",
         "Relationship ID": "relationship--27f3f0b2-4743-420d-a4dd-842de6cb9e70",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Ruler",
+        "id": "tool--90ac9266-68ce-46f2-b24f-5eb3b2a8ea38",
         "Description": "[Ruler](https://attack.mitre.org/software/S0358) is a tool to abuse Microsoft Exchange services. It is publicly available on GitHub and the tool is executed via the command line. The creators of [Ruler](https://attack.mitre.org/software/S0358) have also released a defensive tool, NotRuler, to detect its usage.(Citation: SensePost Ruler GitHub)(Citation: SensePost NotRuler)",
         "Relationship ID": "relationship--33f1d509-3bca-492a-a08b-9e0561433b5f",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
+        "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--3b056bef-e49e-4611-8c20-23cc14689b74",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "LaZagne",
+        "id": "tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b",
         "Description": "[LaZagne](https://attack.mitre.org/software/S0349) is a post-exploitation, open-source tool used to recover stored passwords on a system. It has modules for Windows, Linux, and OSX, but is mainly focused on Windows systems. [LaZagne](https://attack.mitre.org/software/S0349) is publicly available on GitHub.(Citation: GitHub LaZagne Dec 2018)",
         "Relationship ID": "relationship--9d4aa0d4-b460-4320-8c46-2d6ffbe675af",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
+        "id": "tool--03342581-f790-4f03-ba41-e82e67392e23",
         "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--d22af09f-5536-4416-827c-e401cfae3002",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Pupy",
+        "id": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
         "Description": "[Pupy](https://attack.mitre.org/software/S0192) is an open source, cross-platform (Windows, Linux, OSX, Android) remote administration and post-exploitation tool. (Citation: GitHub Pupy) It is written in Python and can be generated as a payload in several different ways (Windows exe, Python file, PowerShell oneliner/file, Linux elf, APK, Rubber Ducky, etc.). (Citation: GitHub Pupy) [Pupy](https://attack.mitre.org/software/S0192) is publicly available on GitHub. (Citation: GitHub Pupy)",
         "Relationship ID": "relationship--d2c3b075-5299-42e5-95de-8248dc0da551",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Empire",
+        "id": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
         "Description": "[Empire](https://attack.mitre.org/software/S0363) is an open source, cross-platform remote administration and post-exploitation framework that is publicly available on GitHub. While the tool itself is primarily written in Python, the post-exploitation agents are written in pure [PowerShell](https://attack.mitre.org/techniques/T1059/001) for Windows and Python for Linux/macOS. [Empire](https://attack.mitre.org/software/S0363) was one of five tools singled out by a joint report on public hacking tools being widely used by adversaries.(Citation: NCSC Joint Report Public Tools)(Citation: Github PowerShell Empire)(Citation: GitHub ATTACK Empire)",
         "Relationship ID": "relationship--d3b5af98-ac27-4135-9da6-8e917cc0769d",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "ftp",
+        "id": "tool--cf23bf4a-e003-4116-bbae-1ea6c558d565",
         "Description": "[ftp](https://attack.mitre.org/software/S0095) is a utility commonly available with operating systems to transfer information over the File Transfer Protocol (FTP). Adversaries can use it to transfer other tools onto a system or to exfiltrate data.(Citation: Microsoft FTP)(Citation: Linux FTP)",
         "Relationship ID": "relationship--fca4685f-76c5-4089-b318-8f2ebab802d0",
         "Relationship Type": "uses"

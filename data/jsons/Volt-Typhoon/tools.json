@@ -1,72 +1,84 @@
 [
     {
         "Tool Name": "netsh",
+        "id": "tool--5a63f900-5e7e-4928-a746-dd4558e1df71",
         "Description": "[netsh](https://attack.mitre.org/software/S0108) is a scripting utility used to interact with networking components on local or remote systems. (Citation: TechNet Netsh)",
         "Relationship ID": "relationship--02e4c994-181d-4aaf-801b-a56ab36a1aaa",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "ipconfig",
+        "id": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
         "Description": "[ipconfig](https://attack.mitre.org/software/S0100) is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
         "Relationship ID": "relationship--18a2df13-e78e-46ca-9074-17c97d19ad55",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Wevtutil",
+        "id": "tool--f91162cc-1686-4ff8-8115-bf3f61a4cc7a",
         "Description": "[Wevtutil](https://attack.mitre.org/software/S0645) is a Windows command-line utility that enables administrators to retrieve information about event logs and publishers.(Citation: Wevtutil Microsoft Documentation)",
         "Relationship ID": "relationship--30a53a55-718d-4108-9063-45dc9bfacc93",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Tasklist",
+        "id": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
         "Description": "The [Tasklist](https://attack.mitre.org/software/S0057) utility displays a list of applications and services with their Process IDs (PID) for all tasks running on either a local or a remote computer. It is packaged with Windows operating systems and can be executed from the command-line interface. (Citation: Microsoft Tasklist)",
         "Relationship ID": "relationship--6784ef17-912c-4319-87b4-4279c8b663b3",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
+        "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--8329b484-4c42-4c30-8565-a742bff07b0c",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Ping",
+        "id": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
         "Description": "[Ping](https://attack.mitre.org/software/S0097) is an operating system utility commonly used to troubleshoot and verify network connections. (Citation: TechNet Ping)",
         "Relationship ID": "relationship--ad6cad0b-d827-4182-baf9-826c6788cf4e",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Impacket",
+        "id": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
         "Description": "[Impacket](https://attack.mitre.org/software/S0357) is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. [Impacket](https://attack.mitre.org/software/S0357) contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)",
         "Relationship ID": "relationship--c93cacac-5ecf-49cb-8377-18e319545329",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Systeminfo",
+        "id": "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1",
         "Description": "[Systeminfo](https://attack.mitre.org/software/S0096) is a Windows utility that can be used to gather detailed information about a computer. (Citation: TechNet Systeminfo)",
         "Relationship ID": "relationship--d3269fe9-f90f-4714-bee5-836072e9ad6f",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "netstat",
+        "id": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
         "Description": "[netstat](https://attack.mitre.org/software/S0104) is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
         "Relationship ID": "relationship--e1a885f7-b364-4f39-a15c-37dd59b9be7e",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Nltest",
+        "id": "tool--981acc4c-2ede-4b56-be6e-fa1a75f37acf",
         "Description": "[Nltest](https://attack.mitre.org/software/S0359) is a Windows command-line utility used to list domain controllers and enumerate domain trusts.(Citation: Nltest Manual)",
         "Relationship ID": "relationship--e22619ba-a141-405c-92e2-4f157f953c14",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "certutil",
+        "id": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
         "Description": "[certutil](https://attack.mitre.org/software/S0160) is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
         "Relationship ID": "relationship--e433aa4c-acb3-4283-a746-9ef79ebb81bf",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
+        "id": "tool--03342581-f790-4f03-ba41-e82e67392e23",
         "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--ec0161c2-2e79-4166-b3e5-5a7026366865",
         "Relationship Type": "uses"

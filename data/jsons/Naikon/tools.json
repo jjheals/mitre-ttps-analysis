@@ -1,42 +1,49 @@
 [
     {
         "Tool Name": "ftp",
+        "id": "tool--cf23bf4a-e003-4116-bbae-1ea6c558d565",
         "Description": "[ftp](https://attack.mitre.org/software/S0095) is a utility commonly available with operating systems to transfer information over the File Transfer Protocol (FTP). Adversaries can use it to transfer other tools onto a system or to exfiltrate data.(Citation: Microsoft FTP)(Citation: Linux FTP)",
         "Relationship ID": "relationship--0ead6cee-20a4-46fb-a9c1-8686a776f455",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
+        "id": "tool--03342581-f790-4f03-ba41-e82e67392e23",
         "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--0ef9bb79-c221-40a8-94b0-58bfc816565f",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Ping",
+        "id": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
         "Description": "[Ping](https://attack.mitre.org/software/S0097) is an operating system utility commonly used to troubleshoot and verify network connections. (Citation: TechNet Ping)",
         "Relationship ID": "relationship--2a220ca3-88f4-40eb-8041-184c412950d4",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "netsh",
+        "id": "tool--5a63f900-5e7e-4928-a746-dd4558e1df71",
         "Description": "[netsh](https://attack.mitre.org/software/S0108) is a scripting utility used to interact with networking components on local or remote systems. (Citation: TechNet Netsh)",
         "Relationship ID": "relationship--437dd20a-234f-430b-b9ee-4524e1e12aa9",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Systeminfo",
+        "id": "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1",
         "Description": "[Systeminfo](https://attack.mitre.org/software/S0096) is a Windows utility that can be used to gather detailed information about a computer. (Citation: TechNet Systeminfo)",
         "Relationship ID": "relationship--4b521c7b-c66b-4bbc-847e-d6a13e9ae62c",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
+        "id": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
         "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--f08c1f67-485b-4ebd-81dd-e886f63025e6",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Tasklist",
+        "id": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
         "Description": "The [Tasklist](https://attack.mitre.org/software/S0057) utility displays a list of applications and services with their Process IDs (PID) for all tasks running on either a local or a remote computer. It is packaged with Windows operating systems and can be executed from the command-line interface. (Citation: Microsoft Tasklist)",
         "Relationship ID": "relationship--f2d601c9-8cc7-4425-b76f-fbc9997b55fd",
         "Relationship Type": "uses"
