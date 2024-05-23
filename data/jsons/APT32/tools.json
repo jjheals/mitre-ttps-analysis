@@ -1,31 +1,31 @@
 [
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: FireEye APT32 May 2017)(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--032fb34d-3434-4667-9d5e-6bb9fd6b7d00",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "ipconfig",
-        "Description": "(Citation: Cybereason Cobalt Kitty 2017)",
+        "Description": "[ipconfig](https://attack.mitre.org/software/S0100) is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
         "Relationship ID": "relationship--1c01c64c-8842-44be-bd66-8355eb5d543c",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "netsh",
-        "Description": "(Citation: Cybereason Cobalt Kitty 2017)",
+        "Description": "[netsh](https://attack.mitre.org/software/S0108) is a scripting utility used to interact with networking components on local or remote systems. (Citation: TechNet Netsh)",
         "Relationship ID": "relationship--9c97e0aa-61fd-4f42-881f-763a1b03c16b",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Arp",
-        "Description": "(Citation: Cybereason Cobalt Kitty 2017)",
+        "Description": "[Arp](https://attack.mitre.org/software/S0099) displays and modifies information about a system's Address Resolution Protocol (ARP) cache. (Citation: TechNet Arp)",
         "Relationship ID": "relationship--c9660ab0-33d4-434d-833f-cc1969b04f7a",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
-        "Description": "(Citation: Cybereason Cobalt Kitty 2017)",
+        "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--e725bb68-9fe3-4c43-8ef5-57d57b40b066",
         "Relationship Type": "uses"
     }

@@ -1,37 +1,37 @@
 [
     {
         "Tool Name": "Ping",
-        "Description": "(Citation: Bitdefender Sardonic Aug 2021)",
+        "Description": "[Ping](https://attack.mitre.org/software/S0097) is an operating system utility commonly used to troubleshoot and verify network connections. (Citation: TechNet Ping)",
         "Relationship ID": "relationship--201802a3-afae-4c10-a125-0fc4fd62f1d2",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "dsquery",
-        "Description": "(Citation: FireEye Know Your Enemy FIN8 Aug 2016)",
+        "Description": "[dsquery](https://attack.mitre.org/software/S0105) is a command-line utility that can be used to query Active Directory for information from a system within a domain. (Citation: TechNet Dsquery) It is typically installed only on Windows Server versions but can be installed on non-server variants through the Microsoft-provided Remote Server Administration Tools bundle.",
         "Relationship ID": "relationship--76bd87d6-517e-4294-b4c5-a5a01308bf35",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
-        "Description": "(Citation: FireEye Know Your Enemy FIN8 Aug 2016)",
+        "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--bc1c5d97-5e95-4ba3-bf61-ffe3de56d508",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Nltest",
-        "Description": "(Citation: Bitdefender FIN8 July 2021)",
+        "Description": "[Nltest](https://attack.mitre.org/software/S0359) is a Windows command-line utility used to list domain controllers and enumerate domain trusts.(Citation: Nltest Manual)",
         "Relationship ID": "relationship--bf26ba18-224d-421f-8fc7-3748dd2fe9bd",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
-        "Description": "(Citation: Symantec FIN8 Jul 2023)",
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--d7dd3cdf-f928-4ca3-8fba-0c948eb36c16",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Impacket",
-        "Description": "(Citation: Bitdefender FIN8 July 2021)(Citation: Bitdefender Sardonic Aug 2021)",
+        "Description": "[Impacket](https://attack.mitre.org/software/S0357) is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. [Impacket](https://attack.mitre.org/software/S0357) contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)",
         "Relationship ID": "relationship--febe1cf5-d8b5-4218-b32d-1e9ea10eab7f",
         "Relationship Type": "uses"
     }

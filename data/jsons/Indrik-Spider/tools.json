@@ -1,25 +1,25 @@
 [
     {
         "Tool Name": "Donut",
-        "Description": "(Citation: NCC Group WastedLocker June 2020)",
+        "Description": "[Donut](https://attack.mitre.org/software/S0695) is an open source framework used to generate position-independent shellcode.(Citation: Donut Github)(Citation: Introducing Donut) [Donut](https://attack.mitre.org/software/S0695) generated code has been used by multiple threat actors to inject and load malicious payloads into memory.(Citation: NCC Group WastedLocker June 2020)",
         "Relationship ID": "relationship--7e2dcce1-8fde-4f88-9e48-13a736c694e3",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Crowdstrike Indrik November 2018)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--8bdc51e7-d2fd-44fb-bfed-6767b6522405",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Empire",
-        "Description": "(Citation: Crowdstrike Indrik November 2018)",
+        "Description": "[Empire](https://attack.mitre.org/software/S0363) is an open source, cross-platform remote administration and post-exploitation framework that is publicly available on GitHub. While the tool itself is primarily written in Python, the post-exploitation agents are written in pure [PowerShell](https://attack.mitre.org/techniques/T1059/001) for Windows and Python for Linux/macOS. [Empire](https://attack.mitre.org/software/S0363) was one of five tools singled out by a joint report on public hacking tools being widely used by adversaries.(Citation: NCSC Joint Report Public Tools)(Citation: Github PowerShell Empire)(Citation: GitHub ATTACK Empire)",
         "Relationship ID": "relationship--8efc016b-af48-4cfd-a117-142a88b7c9d9",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
-        "Description": "(Citation: Symantec WastedLocker June 2020)",
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--a5b41632-a553-4abe-aa68-9ce6898e642d",
         "Relationship Type": "uses"
     }

@@ -1,19 +1,19 @@
 [
     {
         "Tool Name": "LaZagne",
-        "Description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) can obtain credential information using [LaZagne](https://attack.mitre.org/software/S0349).(Citation: MSTIC Octo Tempest Operations October 2023)",
+        "Description": "[LaZagne](https://attack.mitre.org/software/S0349) is a post-exploitation, open-source tool used to recover stored passwords on a system. It has modules for Windows, Linux, and OSX, but is mainly focused on Windows systems. [LaZagne](https://attack.mitre.org/software/S0349) is publicly available on GitHub.(Citation: GitHub LaZagne Dec 2018)",
         "Relationship ID": "relationship--64205021-48f8-4dbb-a731-e9c921bbf7f1",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has gathered credentials using [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: CISA Scattered Spider Advisory November 2023)(Citation: MSTIC Octo Tempest Operations October 2023)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--6eba9c1c-e0ee-4efe-9e8a-f1abb7c1e01a",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "ngrok",
-        "Description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has used [ngrok](https://attack.mitre.org/software/S0508) to create secure tunnels to remote web servers.(Citation: CISA Scattered Spider Advisory November 2023)",
+        "Description": "[ngrok](https://attack.mitre.org/software/S0508) is a legitimate reverse proxy tool that can create a secure tunnel to servers located behind firewalls or on local machines that do not have a public IP. [ngrok](https://attack.mitre.org/software/S0508) has been leveraged by threat actors in several campaigns including use for lateral movement and data exfiltration.(Citation: Zdnet Ngrok September 2018)(Citation: FireEye Maze May 2020)(Citation: Cyware Ngrok May 2019)(Citation: MalwareBytes LazyScripter Feb 2021)",
         "Relationship ID": "relationship--a24aad94-40e4-43a4-b2a4-ed8bfd412dcb",
         "Relationship Type": "uses"
     }

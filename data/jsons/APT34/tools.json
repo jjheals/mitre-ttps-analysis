@@ -1,67 +1,67 @@
 [
     {
         "Tool Name": "Systeminfo",
-        "Description": "(Citation: FireEye APT34 Dec 2017)",
+        "Description": "[Systeminfo](https://attack.mitre.org/software/S0096) is a Windows utility that can be used to gather detailed information about a computer. (Citation: TechNet Systeminfo)",
         "Relationship ID": "relationship--0e6d61e2-7b61-4b6c-85c7-7779125c1d14",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Tasklist",
-        "Description": "(Citation: Palo Alto OilRig May 2016)(Citation: FireEye APT34 Dec 2017)",
+        "Description": "The [Tasklist](https://attack.mitre.org/software/S0057) utility displays a list of applications and services with their Process IDs (PID) for all tasks running on either a local or a remote computer. It is packaged with Windows operating systems and can be executed from the command-line interface. (Citation: Microsoft Tasklist)",
         "Relationship ID": "relationship--3beb0c09-e584-4fd8-92bb-d7a1ae9192e6",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
-        "Description": "(Citation: Palo Alto OilRig May 2016)(Citation: FireEye APT34 Dec 2017)",
+        "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--3fb836b7-41cf-40d1-bd56-14e45e6bbd02",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "certutil",
-        "Description": "(Citation: FireEye APT34 Dec 2017)",
+        "Description": "[certutil](https://attack.mitre.org/software/S0160) is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
         "Relationship ID": "relationship--431ec495-5f92-40e9-9955-58ca334ea3c8",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Reg",
-        "Description": "(Citation: Palo Alto OilRig May 2016)(Citation: FireEye APT34 Dec 2017)",
+        "Description": "[Reg](https://attack.mitre.org/software/S0075) is a Windows utility used to interact with the Windows Registry. It can be used at the command-line interface to query, add, modify, and remove information. (Citation: Microsoft Reg)\n\nUtilities such as [Reg](https://attack.mitre.org/software/S0075) are known to be used by persistent threats. (Citation: Windows Commands JPCERT)",
         "Relationship ID": "relationship--49404706-aa42-4914-a273-2eeb217e6477",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "netstat",
-        "Description": "(Citation: Palo Alto OilRig May 2016)(Citation: FireEye APT34 Dec 2017)",
+        "Description": "[netstat](https://attack.mitre.org/software/S0104) is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
         "Relationship ID": "relationship--5744b31d-6633-44ca-8170-17489fec124c",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "ipconfig",
-        "Description": "(Citation: Palo Alto OilRig May 2016)",
+        "Description": "[ipconfig](https://attack.mitre.org/software/S0100) is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
         "Relationship ID": "relationship--72d6fe7e-ba33-4117-8153-64226f189ed2",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "LaZagne",
-        "Description": "(Citation: FireEye APT35 2018)",
+        "Description": "[LaZagne](https://attack.mitre.org/software/S0349) is a post-exploitation, open-source tool used to recover stored passwords on a system. It has modules for Windows, Linux, and OSX, but is mainly focused on Windows systems. [LaZagne](https://attack.mitre.org/software/S0349) is publicly available on GitHub.(Citation: GitHub LaZagne Dec 2018)",
         "Relationship ID": "relationship--8b42462a-0d66-4740-8f48-0857ab523370",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
-        "Description": "(Citation: FireEye APT34 Webinar Dec 2017)",
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--e1a3f5df-963d-4211-931e-02ed9c567168",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT35 2018)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--e94576ee-284c-4782-a6ef-b7dd8a780254",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "ftp",
-        "Description": "(Citation: Palo Alto OilRig Oct 2016)",
+        "Description": "[ftp](https://attack.mitre.org/software/S0095) is a utility commonly available with operating systems to transfer information over the File Transfer Protocol (FTP). Adversaries can use it to transfer other tools onto a system or to exfiltrate data.(Citation: Microsoft FTP)(Citation: Linux FTP)",
         "Relationship ID": "relationship--fd518b7a-b35d-4689-89f6-525efbeee18f",
         "Relationship Type": "uses"
     }

@@ -1,13 +1,13 @@
 [
     {
         "Tool Name": "ngrok",
-        "Description": "(Citation: CrowdStrike PIONEER KITTEN August 2020)",
+        "Description": "[ngrok](https://attack.mitre.org/software/S0508) is a legitimate reverse proxy tool that can create a secure tunnel to servers located behind firewalls or on local machines that do not have a public IP. [ngrok](https://attack.mitre.org/software/S0508) has been leveraged by threat actors in several campaigns including use for lateral movement and data exfiltration.(Citation: Zdnet Ngrok September 2018)(Citation: FireEye Maze May 2020)(Citation: Cyware Ngrok May 2019)(Citation: MalwareBytes LazyScripter Feb 2021)",
         "Relationship ID": "relationship--d18f30d7-deca-457c-b993-c87843ae3bab",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
-        "Description": "(Citation: CISA AA20-259A Iran-Based Actor September 2020)(Citation: Check Point Pay2Key November 2020)",
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--d9a97894-9a90-43cd-b9b9-9d13545aeb5a",
         "Relationship Type": "uses"
     }

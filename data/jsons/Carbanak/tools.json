@@ -1,19 +1,19 @@
 [
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Kaspersky Carbanak)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--c4bea2b7-e8a2-45d0-bac2-4d82576c1521",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
-        "Description": "(Citation: Kaspersky Carbanak)",
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--d0f797ce-9176-4b74-8d64-fad4e1bdef4f",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "netsh",
-        "Description": "(Citation: Group-IB Anunak)",
+        "Description": "[netsh](https://attack.mitre.org/software/S0108) is a scripting utility used to interact with networking components on local or remote systems. (Citation: TechNet Netsh)",
         "Relationship ID": "relationship--e2e2d332-f27b-46fb-b48f-4ee1872b321f",
         "Relationship Type": "uses"
     }

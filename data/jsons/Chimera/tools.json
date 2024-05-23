@@ -1,31 +1,31 @@
 [
     {
         "Tool Name": "PsExec",
-        "Description": "(Citation: NCC Group Chimera January 2021)",
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--0a3dbe33-465a-421e-82ca-573d2ca25691",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "BloodHound",
-        "Description": "(Citation: Cycraft Chimera April 2020)",
+        "Description": "[BloodHound](https://attack.mitre.org/software/S0521) is an Active Directory (AD) reconnaissance tool that can reveal hidden relationships and identify attack paths within an AD environment.(Citation: GitHub Bloodhound)(Citation: CrowdStrike BloodHound April 2018)(Citation: FoxIT Wocao December 2019)",
         "Relationship ID": "relationship--5db02c00-0d28-4831-bad9-66737bb62eca",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "esentutl",
-        "Description": "(Citation: NCC Group Chimera January 2021)",
+        "Description": "[esentutl](https://attack.mitre.org/software/S0404) is a command-line tool that provides database utilities for the Windows Extensible Storage Engine.(Citation: Microsoft Esentutl)",
         "Relationship ID": "relationship--93bc896f-d2c2-4d6b-b231-fdc084aeed69",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
-        "Description": "(Citation: NCC Group Chimera January 2021)",
+        "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--b626d35a-2ddd-425a-97bc-84c328b57726",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--be49ddce-5925-4fb2-8822-0b665d9aa812",
         "Relationship Type": "uses"
     }

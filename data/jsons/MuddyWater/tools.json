@@ -1,55 +1,55 @@
 [
     {
         "Tool Name": "Out1",
-        "Description": "(Citation: Trend Micro Muddy Water March 2021)",
+        "Description": "[Out1](https://attack.mitre.org/software/S0594) is a remote access tool written in python and used by [MuddyWater](https://attack.mitre.org/groups/G0069) since at least 2021.(Citation: Trend Micro Muddy Water March 2021)",
         "Relationship ID": "relationship--3574efdf-c9f0-4515-806e-a9a5437be02a",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PowerSploit",
-        "Description": "(Citation: TrendMicro POWERSTATS V3 June 2019)",
+        "Description": "[PowerSploit](https://attack.mitre.org/software/S0194) is an open source, offensive security framework comprised of [PowerShell](https://attack.mitre.org/techniques/T1059/001) modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)",
         "Relationship ID": "relationship--649748ff-e2d0-4369-8f5d-3c8b5b5010ed",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Unit 42 MuddyWater Nov 2017)(Citation: TrendMicro POWERSTATS V3 June 2019)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--93642a19-cc8f-4298-9398-8d5d029fe53d",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "LaZagne",
-        "Description": "(Citation: Symantec MuddyWater Dec 2018)(Citation: TrendMicro POWERSTATS V3 June 2019)",
+        "Description": "[LaZagne](https://attack.mitre.org/software/S0349) is a post-exploitation, open-source tool used to recover stored passwords on a system. It has modules for Windows, Linux, and OSX, but is mainly focused on Windows systems. [LaZagne](https://attack.mitre.org/software/S0349) is publicly available on GitHub.(Citation: GitHub LaZagne Dec 2018)",
         "Relationship ID": "relationship--97068a5a-faff-4212-a841-c06db163452e",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "CrackMapExec",
-        "Description": "(Citation: TrendMicro POWERSTATS V3 June 2019)(Citation: Symantec MuddyWater Dec 2018)",
+        "Description": "[CrackMapExec](https://attack.mitre.org/software/S0488), or CME, is a post-exploitation tool developed in Python and designed for penetration testing against networks. [CrackMapExec](https://attack.mitre.org/software/S0488) collects Active Directory information to conduct lateral movement through targeted networks.(Citation: CME Github September 2018)",
         "Relationship ID": "relationship--aa0e4bee-a9a4-4d32-bb62-f024058842c6",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "ConnectWise",
-        "Description": "(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)",
+        "Description": "[ConnectWise](https://attack.mitre.org/software/S0591) is a legitimate remote administration tool that has been used since at least 2016 by threat actors including [MuddyWater](https://attack.mitre.org/groups/G0069) and [GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) to connect to and conduct lateral movement in target environments.(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)",
         "Relationship ID": "relationship--abb544df-2ece-4007-b3c9-0708362875ed",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Empire",
-        "Description": "(Citation: TrendMicro POWERSTATS V3 June 2019)",
+        "Description": "[Empire](https://attack.mitre.org/software/S0363) is an open source, cross-platform remote administration and post-exploitation framework that is publicly available on GitHub. While the tool itself is primarily written in Python, the post-exploitation agents are written in pure [PowerShell](https://attack.mitre.org/techniques/T1059/001) for Windows and Python for Linux/macOS. [Empire](https://attack.mitre.org/software/S0363) was one of five tools singled out by a joint report on public hacking tools being widely used by adversaries.(Citation: NCSC Joint Report Public Tools)(Citation: Github PowerShell Empire)(Citation: GitHub ATTACK Empire)",
         "Relationship ID": "relationship--baec4c99-f8f9-4789-a73d-c6b652299048",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "RemoteUtilities",
-        "Description": "(Citation: Trend Micro Muddy Water March 2021)",
+        "Description": "[RemoteUtilities](https://attack.mitre.org/software/S0592) is a legitimate remote administration tool that has been used by [MuddyWater](https://attack.mitre.org/groups/G0069) since at least 2021 for execution on target machines.(Citation: Trend Micro Muddy Water March 2021)",
         "Relationship ID": "relationship--d9346357-5c7a-4df3-998f-3ca6866bf877",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Koadic",
-        "Description": "(Citation: Reaqta MuddyWater November 2017)(Citation: TrendMicro POWERSTATS V3 June 2019)",
+        "Description": "[Koadic](https://attack.mitre.org/software/S0250) is a Windows post-exploitation framework and penetration testing tool that is publicly available on GitHub. [Koadic](https://attack.mitre.org/software/S0250) has several options for staging payloads and creating implants, and performs most of its operations using Windows Script Host.(Citation: Github Koadic)(Citation: Palo Alto Sofacy 06-2018)(Citation: MalwareBytes LazyScripter Feb 2021)",
         "Relationship ID": "relationship--fd119308-f4b9-4d06-adf2-08a76baee7d9",
         "Relationship Type": "uses"
     }

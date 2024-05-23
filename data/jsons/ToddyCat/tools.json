@@ -1,19 +1,19 @@
 [
     {
         "Tool Name": "netstat",
-        "Description": "(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "Description": "[netstat](https://attack.mitre.org/software/S0104) is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
         "Relationship ID": "relationship--8b55c302-7e18-4727-a27d-6e4f0b3cecd6",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Ping",
-        "Description": "(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "Description": "[Ping](https://attack.mitre.org/software/S0097) is an operating system utility commonly used to troubleshoot and verify network connections. (Citation: TechNet Ping)",
         "Relationship ID": "relationship--ac0fcc8b-d546-4882-bb25-f12a8b9381ee",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
-        "Description": "(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+        "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--c614775b-cc8d-4e60-8415-68a10fe9579d",
         "Relationship Type": "uses"
     }

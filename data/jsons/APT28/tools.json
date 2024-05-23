@@ -1,55 +1,55 @@
 [
     {
         "Tool Name": "Wevtutil",
-        "Description": "(Citation: Crowdstrike DNC June 2016)",
+        "Description": "[Wevtutil](https://attack.mitre.org/software/S0645) is a Windows command-line utility that enables administrators to retrieve information about event logs and publishers.(Citation: Wevtutil Microsoft Documentation)",
         "Relationship ID": "relationship--0e8f455a-5773-483a-8636-045774732bef",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "certutil",
-        "Description": "(Citation: Unit 42 Sofacy Feb 2018)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
+        "Description": "[certutil](https://attack.mitre.org/software/S0160) is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
         "Relationship ID": "relationship--1c8634d8-21a1-46a5-a1fd-eaaff6eed7a6",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
-        "Description": "(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
+        "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--4a1336e8-9abb-4217-8a90-78ce55325aaa",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Forfiles",
-        "Description": "(Citation: \u00dcberwachung APT28 Forfiles June 2015)",
+        "Description": "[Forfiles](https://attack.mitre.org/software/S0193) is a Windows utility commonly used in batch jobs to execute commands on one or more selected files or directories (ex: list all directories in a drive, read the first line of all files created yesterday, etc.). Forfiles can be executed from either the command line, Run window, or batch files/scripts. (Citation: Microsoft Forfiles Aug 2016)",
         "Relationship ID": "relationship--50a57369-6d3e-44bf-814f-7c9242e56d75",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Kaspersky Sofacy)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--5cfcbf60-454a-4673-aa93-9020d04efab7",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Koadic",
-        "Description": "(Citation: Palo Alto Sofacy 06-2018)",
+        "Description": "[Koadic](https://attack.mitre.org/software/S0250) is a Windows post-exploitation framework and penetration testing tool that is publicly available on GitHub. [Koadic](https://attack.mitre.org/software/S0250) has several options for staging payloads and creating implants, and performs most of its operations using Windows Script Host.(Citation: Github Koadic)(Citation: Palo Alto Sofacy 06-2018)(Citation: MalwareBytes LazyScripter Feb 2021)",
         "Relationship ID": "relationship--7a3963b8-3ffd-41a9-bd03-57cba4f03882",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Winexe",
-        "Description": "(Citation: \u00dcberwachung APT28 Forfiles June 2015)(Citation: Secureworks IRON TWILIGHT Active Measures March 2017)",
+        "Description": "[Winexe](https://attack.mitre.org/software/S0191) is a lightweight, open source tool similar to [PsExec](https://attack.mitre.org/software/S0029) designed to allow system administrators to execute commands on remote servers. (Citation: Winexe Github Sept 2013) [Winexe](https://attack.mitre.org/software/S0191) is unique in that it is a GNU/Linux based client. (Citation: \u00dcberwachung APT28 Forfiles June 2015)",
         "Relationship ID": "relationship--80b30059-28a5-4eaa-9d7c-193875bbccd0",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Responder",
-        "Description": "(Citation: FireEye APT28 Hospitality Aug 2017)(Citation: US District Court Indictment GRU Oct 2018) ",
+        "Description": "Responder is an open source tool used for LLMNR, NBT-NS and MDNS poisoning, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication. (Citation: GitHub Responder)",
         "Relationship ID": "relationship--89363ca8-1cf3-4c40-972c-6e2787a05b43",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Tor",
-        "Description": "(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
+        "Description": "[Tor](https://attack.mitre.org/software/S0183) is a software suite and network that provides increased anonymity on the Internet. It creates a multi-hop proxy network and utilizes multilayer encryption to protect both the message and routing information. [Tor](https://attack.mitre.org/software/S0183) utilizes \"Onion Routing,\" in which messages are encrypted with multiple layers of encryption; at each step in the proxy network, the topmost layer is decrypted and the contents forwarded on to the next node until it reaches its destination. (Citation: Dingledine Tor The Second-Generation Onion Router)",
         "Relationship ID": "relationship--b997c08e-f005-432f-8030-1903d18eec51",
         "Relationship Type": "uses"
     }

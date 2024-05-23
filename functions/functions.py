@@ -1,7 +1,18 @@
 import pandas as pd 
-
+import json
+from tabulate import tabulate 
 
 def filter_dict(lod:list[dict], k:str, v:str) -> list[dict]: 
+    ''' Filters a given list of dictionaries for the given value [v] at the given key [k]. 
+    
+        Args: 
+            lod (list[dict]): a list of dictionaries to search.
+            k (str): the key to filter by.
+            v (str): the value to filter for.
+            
+        Returns: 
+            list[dict]: a list of dicts filtered by the given parameters. 
+    '''
     return [
         d for d in lod if d[k] == v
     ] 
@@ -59,7 +70,17 @@ def extract_external_references(d:dict) -> dict:
         
         
 def handle_list_of_dict(lod:list[dict]) -> dict[str, list[dict]]:
+    ''' Takes in a list of dictionaries and cleans it appropriately, including extracting 
+    the sources.
     
+        Args: 
+            lod (list[dict]): list of dictionaries to parse.
+            
+        Returns: 
+            dict[str, list[dict]]: a dictionary with two keys: "dicts", which is the cleaned
+            list of dictionaries, and "sources", which is a list of dicts with the sources
+            for each entry. 
+    '''
     # Get all the keys for all the dictionaries 
     all_dict_keys:list[list[str]] = [ list(d.keys()) for d in lod ]
 
@@ -95,8 +116,19 @@ def handle_list_of_dict(lod:list[dict]) -> dict[str, list[dict]]:
     }
     
     
-def create_csvs(lod:list[dict], sources:list[dict], filepath1:str, sources_filepath:str, print_debug:bool=False):
+def create_csvs(lod:list[dict], sources:list[dict], filepath1:str, sources_filepath:str, print_debug:bool=False) -> None:
+    ''' Create two CSVs, one for all the "dictionaries" (entities/items) and one for the sources. 
     
+        Args: 
+            lod (list[dict]): a list of all entities as dictionaries (for CSV1).
+            sources (list[dict]): a list of all the sources as dictionaries (for CSV2). 
+            filepath1 (str): filepath to save CSV1.
+            sources_filepath (str): filepath to save CSV2.
+            print_debug (bool, optional): specify to print debug statements or not. Defaults to False. 
+    
+        Returns: 
+            None: creates the CSVs at filepath1 and sources_filepath
+    '''
     # Convert the list of dicts (lod) to a df
     df1:pd.DataFrame = pd.DataFrame(lod)
     df1.drop('external_references', axis=1, inplace=True)
@@ -147,6 +179,16 @@ def get_relationship_entity_types(relationship_dict:dict) -> tuple[str, str]:
     
     
 def name_from_id(lod:list[dict], id:str) -> str: 
+    ''' Extracts the name of the entity from [lod] that has the given ID. NOTE: assumes [id] is a
+    unique identifier in [lod] with the key 'id'.
+    
+        Args: 
+            lod (list[dict]): list of dicts to search for the ID.
+            id (str): id to search for. 
+        
+        Returns: 
+            str: the name of the entity as a string.        
+    '''
     name_:str = None
     
     for d in lod: 
@@ -201,7 +243,15 @@ def get_all_relationships_for_actor(relationships:list[dict], actors:list[dict],
 
 
 def relationships_with_x(relationships:list[dict], target_str:str) -> list[dict]: 
+    ''' Get all the relationships containing the target_str in one of the entities. 
     
+        Args: 
+            relationships (list[dict]): a list of relationships (as dicts) to search through.
+            target_str (str): the target string to search for. E.g. "malware", "tool", "intrusion-set", etc. 
+            
+        Returns: 
+            list[dict]: a list of the matching relationships as dicts.         
+    '''
     return_relationships:list[dict] = []
     
     for r in relationships: 
@@ -211,3 +261,62 @@ def relationships_with_x(relationships:list[dict], target_str:str) -> list[dict]
         
     return return_relationships
 
+
+def get_entities_for_actor(entities_of_type:list[dict], target_entity_type:str, actor:dict, entity_name:str, print_debug:bool=False) -> list[dict]:
+    ''' NOTE: Assumes the actor's relationships exist in "data/jsons/[actor_name]/relationships.json 
+    
+    '''
+    # DEBUG prints
+    if(print_debug):
+        print(f'\nSearching for {target_entity_type} for actor name {actor["name"]} ({actor["id"]}) ')
+    
+    # Load all the relationships with for this actor from persistent storage
+    with open(f'data/jsons/{actor["name"].replace(" ", "-")}/relationships.json') as file: 
+        all_actor_relationships:list[dict] = json.load(file)
+    
+    # DEBUG prints
+    if(print_debug):
+        print(f"\tFound {len(all_actor_relationships)} relationships for this actor.")
+    
+    # From all the actor's relationships, extract those with tools
+    rels_with_entity_type:list[dict] = relationships_with_x(all_actor_relationships, target_entity_type)
+    
+    # DEBUG prints
+    if(print_debug):
+        print(f'\tFound {len(rels_with_entity_type)} relationships for {actor["name"]} containing "{target_entity_type}".')
+    
+    # Extract the entity matches for each relationship
+    actor_entity_matches:list[dict] = []
+    
+    for r in rels_with_entity_type: 
+        this_entity_id:str = r['target_ref'] if target_entity_type in r['target_ref'] else r['source_ref']
+        
+        for e in entities_of_type: 
+            if e['id'] == this_entity_id: 
+                
+                if(print_debug): 
+                    print(f'\tMatched "{this_entity_id}" with "{e["name"]}".')
+                    print(f'\tThis entity (e) KEYS:')
+                    for k in e.keys(): print(f'\t\t{k}')
+                
+                actor_entity_matches.append({
+                    f'{entity_name} Name': name_from_id(entities_of_type, this_entity_id),
+                    'Description': e['description'],
+                    'Relationship ID': r['id'],
+                    'Relationship Type': r['relationship_type']
+                    }
+                )
+                break
+    
+    # DEBUG prints
+    if(print_debug): 
+        print(
+            tabulate(
+                actor_entity_matches, 
+                headers={ k : k for k in actor_entity_matches[0].keys() } if actor_entity_matches else {}
+            )
+        )
+
+    return actor_entity_matches
+    
+    

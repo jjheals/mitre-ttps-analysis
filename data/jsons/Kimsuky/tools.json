@@ -1,25 +1,25 @@
 [
     {
         "Tool Name": "schtasks",
-        "Description": "(Citation: Cybereason Kimsuky November 2020)(Citation: KISA Operation Muzabi)",
+        "Description": "[schtasks](https://attack.mitre.org/software/S0111) is used to schedule execution of programs or scripts on a Windows system to run at a specific date and time. (Citation: TechNet Schtasks)",
         "Relationship ID": "relationship--23206fb2-51fb-4bdb-810d-4f719f7dead8",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "CSPY Downloader",
-        "Description": "(Citation: Cybereason Kimsuky November 2020)",
+        "Description": "[CSPY Downloader](https://attack.mitre.org/software/S0527) is a tool designed to evade analysis and download additional payloads used by [Kimsuky](https://attack.mitre.org/groups/G0094).(Citation: Cybereason Kimsuky November 2020)",
         "Relationship ID": "relationship--5a85a31a-f5dd-4058-87d3-bb0b6fcfffb3",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
-        "Description": "(Citation: Netscout Stolen Pencil Dec 2018)",
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--b20c6b3c-1314-419e-afa2-28ac8f54cf39",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Netscout Stolen Pencil Dec 2018)(Citation: KISA Operation Muzabi)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--ec6d7edc-f538-41ce-89b6-a2c424ddd58b",
         "Relationship Type": "uses"
     }

@@ -1,13 +1,13 @@
 [
     {
         "Tool Name": "Winexe",
-        "Description": "(Citation: Securelist DarkVishnya Dec 2018) ",
+        "Description": "[Winexe](https://attack.mitre.org/software/S0191) is a lightweight, open source tool similar to [PsExec](https://attack.mitre.org/software/S0029) designed to allow system administrators to execute commands on remote servers. (Citation: Winexe Github Sept 2013) [Winexe](https://attack.mitre.org/software/S0191) is unique in that it is a GNU/Linux based client. (Citation: \u00dcberwachung APT28 Forfiles June 2015)",
         "Relationship ID": "relationship--29b5ee68-0bb0-4264-a781-ece3014fb3dd",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
-        "Description": "(Citation: Securelist DarkVishnya Dec 2018) ",
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--475fef11-3344-4305-9710-cc41ba8acc0a",
         "Relationship Type": "uses"
     }

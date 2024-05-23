@@ -1,19 +1,19 @@
 [
     {
         "Tool Name": "Empire",
-        "Description": "(Citation: Group IB Silence Aug 2019)",
+        "Description": "[Empire](https://attack.mitre.org/software/S0363) is an open source, cross-platform remote administration and post-exploitation framework that is publicly available on GitHub. While the tool itself is primarily written in Python, the post-exploitation agents are written in pure [PowerShell](https://attack.mitre.org/techniques/T1059/001) for Windows and Python for Linux/macOS. [Empire](https://attack.mitre.org/software/S0363) was one of five tools singled out by a joint report on public hacking tools being widely used by adversaries.(Citation: NCSC Joint Report Public Tools)(Citation: Github PowerShell Empire)(Citation: GitHub ATTACK Empire)",
         "Relationship ID": "relationship--1567fbd3-5d2b-4040-a736-11f3d5e2139f",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Winexe",
-        "Description": "(Citation: SecureList Silence Nov 2017)",
+        "Description": "[Winexe](https://attack.mitre.org/software/S0191) is a lightweight, open source tool similar to [PsExec](https://attack.mitre.org/software/S0029) designed to allow system administrators to execute commands on remote servers. (Citation: Winexe Github Sept 2013) [Winexe](https://attack.mitre.org/software/S0191) is unique in that it is a GNU/Linux based client. (Citation: \u00dcberwachung APT28 Forfiles June 2015)",
         "Relationship ID": "relationship--465385c3-8659-4225-82b3-215dfc66ba83",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "SDelete",
-        "Description": "(Citation: Group IB Silence Sept 2018)",
+        "Description": "[SDelete](https://attack.mitre.org/software/S0195) is an application that securely deletes data in a way that makes it unrecoverable. It is part of the Microsoft Sysinternals suite of tools. (Citation: Microsoft SDelete July 2016)",
         "Relationship ID": "relationship--da331399-4c9f-4a16-92b1-97e635703c18",
         "Relationship Type": "uses"
     }

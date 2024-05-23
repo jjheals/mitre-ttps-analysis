@@ -1,79 +1,79 @@
 [
     {
         "Tool Name": "Net",
-        "Description": "(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--1b255a88-0189-4afa-a69f-fa99127e693e",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Impacket",
-        "Description": "(Citation: DFIR Phosphorus November 2021)",
+        "Description": "[Impacket](https://attack.mitre.org/software/S0357) is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. [Impacket](https://attack.mitre.org/software/S0357) contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)",
         "Relationship ID": "relationship--205c5e6d-90c1-4369-98ee-9968f87d687c",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Ping",
-        "Description": "(Citation: DFIR Phosphorus November 2021)",
+        "Description": "[Ping](https://attack.mitre.org/software/S0097) is an operating system utility commonly used to troubleshoot and verify network connections. (Citation: TechNet Ping)",
         "Relationship ID": "relationship--27c6ffb3-836c-4a43-9862-b77c8e4a8256",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: FireEye APT35 2018)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--67f2ca97-5949-4503-a55c-1f0d3f3502ca",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Systeminfo",
-        "Description": "(Citation: DFIR Phosphorus November 2021)",
+        "Description": "[Systeminfo](https://attack.mitre.org/software/S0096) is a Windows utility that can be used to gather detailed information about a computer. (Citation: TechNet Systeminfo)",
         "Relationship ID": "relationship--703694f1-755e-4e3f-aff2-f623ec842693",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "ipconfig",
-        "Description": "(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
+        "Description": "[ipconfig](https://attack.mitre.org/software/S0100) is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
         "Relationship ID": "relationship--7f32b01c-ecf6-457e-8bca-6c74c02b439e",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "netsh",
-        "Description": "(Citation: DFIR Report APT35 ProxyShell March 2022)",
+        "Description": "[netsh](https://attack.mitre.org/software/S0108) is a scripting utility used to interact with networking components on local or remote systems. (Citation: TechNet Netsh)",
         "Relationship ID": "relationship--9f5f1262-17a7-443e-a531-c9048a91ac8d",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Pupy",
-        "Description": "(Citation: Unit 42 Magic Hound Feb 2017)(Citation: FireEye APT35 2018)(Citation: Secureworks Cobalt Gypsy Feb 2017)",
+        "Description": "[Pupy](https://attack.mitre.org/software/S0192) is an open source, cross-platform (Windows, Linux, OSX, Android) remote administration and post-exploitation tool. (Citation: GitHub Pupy) It is written in Python and can be generated as a payload in several different ways (Windows exe, Python file, PowerShell oneliner/file, Linux elf, APK, Rubber Ducky, etc.). (Citation: GitHub Pupy) [Pupy](https://attack.mitre.org/software/S0192) is publicly available on GitHub. (Citation: GitHub Pupy)",
         "Relationship ID": "relationship--cde73e1c-da81-4673-a161-49693b45cd48",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
-        "Description": "(Citation: FireEye APT35 2018)",
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--e1910051-019d-4594-ab9d-b588eb370ff2",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Havij",
-        "Description": "(Citation: Check Point Rocket Kitten)",
+        "Description": "[Havij](https://attack.mitre.org/software/S0224) is an automatic SQL Injection tool distributed by the Iranian ITSecTeam security company. Havij has been used by penetration testers and adversaries. (Citation: Check Point Havij Analysis)",
         "Relationship ID": "relationship--44a71143-9a40-4307-8b8c-8b1ac0cf230d",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "sqlmap",
-        "Description": "(Citation: Check Point Rocket Kitten)",
+        "Description": "[sqlmap](https://attack.mitre.org/software/S0225) is an open source penetration testing tool that can be used to automate the process of detecting and exploiting SQL injection flaws. (Citation: sqlmap Introduction)",
         "Relationship ID": "relationship--de3436a3-b33f-4b47-a3c7-8204a67b4123",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Havij",
-        "Description": null,
+        "Description": "[Havij](https://attack.mitre.org/software/S0224) is an automatic SQL Injection tool distributed by the Iranian ITSecTeam security company. Havij has been used by penetration testers and adversaries. (Citation: Check Point Havij Analysis)",
         "Relationship ID": "relationship--9ffda909-3503-47d8-9403-849a66eb9245",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "sqlmap",
-        "Description": null,
+        "Description": "[sqlmap](https://attack.mitre.org/software/S0225) is an open source penetration testing tool that can be used to automate the process of detecting and exploiting SQL injection flaws. (Citation: sqlmap Introduction)",
         "Relationship ID": "relationship--b3d63cea-ad1c-47a5-b9e5-09920bae0537",
         "Relationship Type": "uses"
     }

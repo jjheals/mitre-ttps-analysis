@@ -1,31 +1,31 @@
 [
     {
         "Tool Name": "Tasklist",
-        "Description": "(Citation: Mandiant Pulse Secure Update May 2021)",
+        "Description": "The [Tasklist](https://attack.mitre.org/software/S0057) utility displays a list of applications and services with their Process IDs (PID) for all tasks running on either a local or a remote computer. It is packaged with Windows operating systems and can be executed from the command-line interface. (Citation: Microsoft Tasklist)",
         "Relationship ID": "relationship--0d9b3bc8-8aff-4556-9a5f-1d4f91eb93b9",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PcShare",
-        "Description": "(Citation: Secureworks BRONZE FLEETWOOD Profile)",
+        "Description": "[PcShare](https://attack.mitre.org/software/S1050) is an open source remote access tool that has been modified and used by Chinese threat actors, most notably during the FunnyDream campaign since late 2018.(Citation: Bitdefender FunnyDream Campaign November 2020)(Citation: GitHub PcShare 2014)",
         "Relationship ID": "relationship--44fd01db-6dc1-4d7c-92e3-52a0af9f54f8",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Mandiant Pulse Secure Update May 2021)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--51b09cc3-d54b-4b22-a354-0e2094851321",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
-        "Description": "(Citation: Mandiant Pulse Secure Update May 2021)",
+        "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--95416174-bdf3-4ffc-9174-6b89d4b72cd4",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "netstat",
-        "Description": "(Citation: Mandiant Pulse Secure Update May 2021)",
+        "Description": "[netstat](https://attack.mitre.org/software/S0104) is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
         "Relationship ID": "relationship--eef3ac92-4c31-4401-84fe-b6e298610ed9",
         "Relationship Type": "uses"
     }

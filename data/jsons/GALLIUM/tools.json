@@ -1,67 +1,67 @@
 [
     {
         "Tool Name": "ipconfig",
-        "Description": "(Citation: Cybereason Soft Cell June 2019)",
+        "Description": "[ipconfig](https://attack.mitre.org/software/S0100) is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
         "Relationship ID": "relationship--058ed2a0-4419-437e-9f3b-4df97f917e8f",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Ping",
-        "Description": "(Citation: Cybereason Soft Cell June 2019)",
+        "Description": "[Ping](https://attack.mitre.org/software/S0097) is an operating system utility commonly used to troubleshoot and verify network connections. (Citation: TechNet Ping)",
         "Relationship ID": "relationship--090c11ed-8235-4c05-b553-749ee6497b0a",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "cmd",
-        "Description": "(Citation: Cybereason Soft Cell June 2019)(Citation: Microsoft GALLIUM December 2019)",
+        "Description": "[cmd](https://attack.mitre.org/software/S0106) is the Windows command-line interpreter that can be used to interact with systems and execute other processes and utilities. (Citation: TechNet Cmd)\n\nCmd.exe contains native functionality to perform many operations to interact with the system, including listing files in a directory (e.g., <code>dir</code> (Citation: TechNet Dir)), deleting files (e.g., <code>del</code> (Citation: TechNet Del)), and copying files (e.g., <code>copy</code> (Citation: TechNet Copy)).",
         "Relationship ID": "relationship--0a20969e-c201-47cd-ac08-8e1a9c764512",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "at",
-        "Description": "(Citation: Cybereason Soft Cell June 2019)",
+        "Description": "[at](https://attack.mitre.org/software/S0110) is used to schedule tasks on a system to run at a specified date or time.(Citation: TechNet At)(Citation: Linux at)",
         "Relationship ID": "relationship--4e1a2f47-7aad-4402-884d-8921a6a88822",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Cybereason Soft Cell June 2019)(Citation: Microsoft GALLIUM December 2019)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--8f66e226-ecc4-408d-becb-4e9ad9c66b57",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
-        "Description": "(Citation: Cybereason Soft Cell June 2019)",
+        "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--96db4cd3-0493-4944-b47c-15b7db6f0010",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Reg",
-        "Description": "(Citation: Cybereason Soft Cell June 2019)",
+        "Description": "[Reg](https://attack.mitre.org/software/S0075) is a Windows utility used to interact with the Windows Registry. It can be used at the command-line interface to query, add, modify, and remove information. (Citation: Microsoft Reg)\n\nUtilities such as [Reg](https://attack.mitre.org/software/S0075) are known to be used by persistent threats. (Citation: Windows Commands JPCERT)",
         "Relationship ID": "relationship--b0a6e22f-adad-4625-b07d-996221cf3a50",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
-        "Description": "(Citation: Cybereason Soft Cell June 2019)(Citation: Microsoft GALLIUM December 2019)",
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--b3295bb6-356b-4f8e-b921-ec96d249c66b",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "HTRAN",
-        "Description": "(Citation: Cybereason Soft Cell June 2019)(Citation: Microsoft GALLIUM December 2019)",
+        "Description": "[HTRAN](https://attack.mitre.org/software/S0040) is a tool that proxies connections through intermediate hops and aids users in disguising their true geographical location. It can be used by adversaries to hide their location when interacting with the victim networks. (Citation: Operation Quantum Entanglement)(Citation: NCSC Joint Report Public Tools)",
         "Relationship ID": "relationship--b68c8dc2-e3da-4ce8-aef3-456b160e7fb5",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "NBTscan",
-        "Description": "(Citation: Cybereason Soft Cell June 2019)",
+        "Description": "[NBTscan](https://attack.mitre.org/software/S0590) is an open source tool that has been used by state groups to conduct internal reconnaissance within a compromised network.(Citation: Debian nbtscan Nov 2019)(Citation: SecTools nbtscan June 2003)(Citation: Symantec Waterbug Jun 2019)(Citation: FireEye APT39 Jan 2019)",
         "Relationship ID": "relationship--cc443415-7c35-49ab-92a9-3d0cfa68c7b2",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Windows Credential Editor",
-        "Description": "(Citation: Microsoft GALLIUM December 2019)",
+        "Description": "[Windows Credential Editor](https://attack.mitre.org/software/S0005) is a password dumping tool. (Citation: Amplia WCE)",
         "Relationship ID": "relationship--ee500581-0b91-42ab-bc1f-0a10a3af47c4",
         "Relationship Type": "uses"
     }

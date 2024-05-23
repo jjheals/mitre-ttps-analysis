@@ -1,55 +1,55 @@
 [
     {
         "Tool Name": "MCMD",
-        "Description": "(Citation: Secureworks MCMD July 2019)",
+        "Description": "[MCMD](https://attack.mitre.org/software/S0500) is a remote access tool that provides remote command shell capability used by [Dragonfly 2.0](https://attack.mitre.org/groups/G0074).(Citation: Secureworks MCMD July 2019)",
         "Relationship ID": "relationship--18210ad3-d5ed-414e-9b7d-04fc622dc2e9",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
-        "Description": "(Citation: US-CERT TA18-074A)",
+        "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--2c9e64fa-52a5-4233-a1b7-333e5d7b9d40",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Impacket",
-        "Description": "(Citation: US-CERT TA18-074A)(Citation: Core Security Impacket)",
+        "Description": "[Impacket](https://attack.mitre.org/software/S0357) is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. [Impacket](https://attack.mitre.org/software/S0357) contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)",
         "Relationship ID": "relationship--68ece5ad-73bd-4562-ac08-877bd1e18f79",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "CrackMapExec",
-        "Description": "(Citation: Secureworks IRON LIBERTY July 2019)(Citation: US-CERT TA18-074A)",
+        "Description": "[CrackMapExec](https://attack.mitre.org/software/S0488), or CME, is a post-exploitation tool developed in Python and designed for penetration testing against networks. [CrackMapExec](https://attack.mitre.org/software/S0488) collects Active Directory information to conduct lateral movement through targeted networks.(Citation: CME Github September 2018)",
         "Relationship ID": "relationship--a60d34fc-9c1e-4b36-a82b-56258445c7f0",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Reg",
-        "Description": "(Citation: US-CERT TA18-074A)",
+        "Description": "[Reg](https://attack.mitre.org/software/S0075) is a Windows utility used to interact with the Windows Registry. It can be used at the command-line interface to query, add, modify, and remove information. (Citation: Microsoft Reg)\n\nUtilities such as [Reg](https://attack.mitre.org/software/S0075) are known to be used by persistent threats. (Citation: Windows Commands JPCERT)",
         "Relationship ID": "relationship--b0198291-ac44-47c5-9730-c11acfb1999d",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Secureworks IRON LIBERTY July 2019)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--dfd6892f-82a4-4db4-a132-3d6f221e55f4",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
-        "Description": "(Citation: Secureworks IRON LIBERTY July 2019)(Citation: US-CERT TA18-074A)(Citation: Symantec Dragonfly Sept 2017)(Citation: Gigamon Berserk Bear October 2021)",
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--e068332d-0b1c-4aba-a60f-37c640e20d10",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "netsh",
-        "Description": "(Citation: US-CERT TA18-074A)",
+        "Description": "[netsh](https://attack.mitre.org/software/S0108) is a scripting utility used to interact with networking components on local or remote systems. (Citation: TechNet Netsh)",
         "Relationship ID": "relationship--fc6b1d58-05bf-41a0-a7fd-fcbbae894430",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
-        "Description": null,
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--397e4a59-23b1-47ef-9a57-9f401375b2cb",
         "Relationship Type": "uses"
     }

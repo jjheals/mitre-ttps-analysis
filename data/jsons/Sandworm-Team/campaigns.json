@@ -1,0 +1,20 @@
+[
+    {
+        "Campaign Name": "2015 Ukraine Electric Power Attack",
+        "Description": "[2015 Ukraine Electric Power Attack](https://attack.mitre.org/campaigns/C0028) was a [Sandworm Team](https://attack.mitre.org/groups/G0034) campaign during which they used [BlackEnergy](https://attack.mitre.org/software/S0089) (specifically BlackEnergy3) and [KillDisk](https://attack.mitre.org/software/S0607) to target and disrupt transmission and distribution substations within the Ukrainian power grid. This campaign was the first major public attack conducted against the Ukrainian power grid by Sandworm Team.",
+        "Relationship ID": "relationship--4d407dda-944a-4974-b1c2-0a04d2c9ee4c",
+        "Relationship Type": "attributed-to"
+    },
+    {
+        "Campaign Name": "2016 Ukraine Electric Power Attack",
+        "Description": "[2016 Ukraine Electric Power Attack](https://attack.mitre.org/campaigns/C0025) was a [Sandworm Team](https://attack.mitre.org/groups/G0034) campaign during which they used [Industroyer](https://attack.mitre.org/software/S0604) malware to target and disrupt distribution substations within the Ukrainian power grid. This campaign was the second major public attack conducted against Ukraine by [Sandworm Team](https://attack.mitre.org/groups/G0034).(Citation: ESET Industroyer)(Citation: Dragos Crashoverride 2018)",
+        "Relationship ID": "relationship--90647f03-38a4-4364-a3af-53640a81360e",
+        "Relationship Type": "attributed-to"
+    },
+    {
+        "Campaign Name": "2022 Ukraine Electric Power Attack",
+        "Description": "The [2022 Ukraine Electric Power Attack](https://attack.mitre.org/campaigns/C0034) was a [Sandworm Team](https://attack.mitre.org/groups/G0034) campaign that used a combination of GOGETTER, Neo-REGEORG, [CaddyWiper](https://attack.mitre.org/software/S0693), and living of the land (LotL) techniques to gain access to a Ukrainian electric utility to send unauthorized commands from their SCADA system.(Citation: Mandiant-Sandworm-Ukraine-2022)(Citation: Dragos-Sandworm-Ukraine-2022) ",
+        "Relationship ID": "relationship--d3717846-eaab-4fde-99f6-a972dec9323b",
+        "Relationship Type": "attributed-to"
+    }
+]

@@ -1,25 +1,25 @@
 [
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: CrowdStrike Carbon Spider August 2021)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--0ea53e8d-743e-4828-8c65-9b610593270a",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "AdFind",
-        "Description": "(Citation: CrowdStrike Carbon Spider August 2021)",
+        "Description": "[AdFind](https://attack.mitre.org/software/S0552) is a free command-line query tool that can be used for gathering information from Active Directory.(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: FireEye FIN6 Apr 2019)(Citation: FireEye Ryuk and Trickbot January 2019)",
         "Relationship ID": "relationship--210b5693-f039-4853-a0ea-70b4fa3abed9",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PowerSploit",
-        "Description": "(Citation: CrowdStrike Carbon Spider August 2021)(Citation: Mandiant FIN7 Apr 2022)",
+        "Description": "[PowerSploit](https://attack.mitre.org/software/S0194) is an open source, offensive security framework comprised of [PowerShell](https://attack.mitre.org/techniques/T1059/001) modules and scripts that perform a wide range of tasks related to penetration testing such as code execution, persistence, bypassing anti-virus, recon, and exfiltration. (Citation: GitHub PowerSploit May 2012) (Citation: PowerShellMagazine PowerSploit July 2014) (Citation: PowerSploit Documentation)",
         "Relationship ID": "relationship--6afed42c-6a42-402a-8964-7fcde5435336",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "CrackMapExec",
-        "Description": "\n(Citation: CrowdStrike Carbon Spider August 2021)",
+        "Description": "[CrackMapExec](https://attack.mitre.org/software/S0488), or CME, is a post-exploitation tool developed in Python and designed for penetration testing against networks. [CrackMapExec](https://attack.mitre.org/software/S0488) collects Active Directory information to conduct lateral movement through targeted networks.(Citation: CME Github September 2018)",
         "Relationship ID": "relationship--707474c8-890d-4be2-81d5-f6a4902b1309",
         "Relationship Type": "uses"
     }

@@ -1,13 +1,13 @@
 [
     {
         "Tool Name": "gsecdump",
-        "Description": "(Citation: Bizeul 2014)",
+        "Description": "[gsecdump](https://attack.mitre.org/software/S0008) is a publicly-available credential dumper used to obtain password hashes and LSA secrets from Windows operating systems. (Citation: TrueSec Gsecdump)",
         "Relationship ID": "relationship--7ed93170-2dba-4e59-b0f0-7c716c73bdc0",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Bizeul 2014)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--cc831c63-94af-4937-b8e6-668591ec7d04",
         "Relationship Type": "uses"
     }

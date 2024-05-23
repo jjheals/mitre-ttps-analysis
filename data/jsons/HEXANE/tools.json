@@ -1,43 +1,43 @@
 [
     {
         "Tool Name": "Ping",
-        "Description": "(Citation: ClearSky Siamesekitten August 2021)",
+        "Description": "[Ping](https://attack.mitre.org/software/S0097) is an operating system utility commonly used to troubleshoot and verify network connections. (Citation: TechNet Ping)",
         "Relationship ID": "relationship--0ce9c0f3-6da9-402c-adc4-a001877e40e6",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "netstat",
-        "Description": "(Citation: Kaspersky Lyceum October 2021)",
+        "Description": "[netstat](https://attack.mitre.org/software/S0104) is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
         "Relationship ID": "relationship--14080577-f5de-46fd-b363-e3f4b4e73495",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "BITSAdmin",
-        "Description": "(Citation: Kaspersky Lyceum October 2021)",
+        "Description": "[BITSAdmin](https://attack.mitre.org/software/S0190) is a command line tool used to create and manage [BITS Jobs](https://attack.mitre.org/techniques/T1197). (Citation: Microsoft BITSAdmin)",
         "Relationship ID": "relationship--2c9905cb-74f6-482e-b346-99be8105111c",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Empire",
-        "Description": "(Citation: SecureWorks August 2019)",
+        "Description": "[Empire](https://attack.mitre.org/software/S0363) is an open source, cross-platform remote administration and post-exploitation framework that is publicly available on GitHub. While the tool itself is primarily written in Python, the post-exploitation agents are written in pure [PowerShell](https://attack.mitre.org/techniques/T1059/001) for Windows and Python for Linux/macOS. [Empire](https://attack.mitre.org/software/S0363) was one of five tools singled out by a joint report on public hacking tools being widely used by adversaries.(Citation: NCSC Joint Report Public Tools)(Citation: Github PowerShell Empire)(Citation: GitHub ATTACK Empire)",
         "Relationship ID": "relationship--aa83b2a0-9941-461f-b9be-a758315f0c4d",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "ipconfig",
-        "Description": "(Citation: ClearSky Siamesekitten August 2021)(Citation: Zscaler Lyceum DnsSystem June 2022)",
+        "Description": "[ipconfig](https://attack.mitre.org/software/S0100) is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
         "Relationship ID": "relationship--bed01612-b213-44dc-aabc-19ea87ef28b8",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Kaspersky Lyceum October 2021)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--df6bb7e8-1971-4e8c-92cc-16727ac996dd",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PoshC2",
-        "Description": "(Citation: SecureWorks August 2019)",
+        "Description": "[PoshC2](https://attack.mitre.org/software/S0378) is an open source remote administration and post-exploitation framework that is publicly available on GitHub. The server-side components of the tool are primarily written in Python, while the implants are written in [PowerShell](https://attack.mitre.org/techniques/T1059/001). Although [PoshC2](https://attack.mitre.org/software/S0378) is primarily focused on Windows implantation, it does contain a basic Python dropper for Linux/macOS.(Citation: GitHub PoshC2)",
         "Relationship ID": "relationship--f612ed23-f9c3-4527-b23a-3361f90f5fe1",
         "Relationship Type": "uses"
     }

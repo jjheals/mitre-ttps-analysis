@@ -1,43 +1,43 @@
 [
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Symantec Tick Apr 2016)(Citation: Trend Micro Tick November 2019)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--28471736-5b62-4132-b4ed-c22ae449b455",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "cmd",
-        "Description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "Description": "[cmd](https://attack.mitre.org/software/S0106) is the Windows command-line interpreter that can be used to interact with systems and execute other processes and utilities. (Citation: TechNet Cmd)\n\nCmd.exe contains native functionality to perform many operations to interact with the system, including listing files in a directory (e.g., <code>dir</code> (Citation: TechNet Dir)), deleting files (e.g., <code>del</code> (Citation: TechNet Del)), and copying files (e.g., <code>copy</code> (Citation: TechNet Copy)).",
         "Relationship ID": "relationship--42897880-fe55-4f54-a42c-f85ba19fb39a",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "at",
-        "Description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "Description": "[at](https://attack.mitre.org/software/S0110) is used to schedule tasks on a system to run at a specified date or time.(Citation: TechNet At)(Citation: Linux at)",
         "Relationship ID": "relationship--80fc5f0c-3dcb-45ab-807a-bfa3d64334c6",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "schtasks",
-        "Description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "Description": "[schtasks](https://attack.mitre.org/software/S0111) is used to schedule execution of programs or scripts on a Windows system to run at a specific date and time. (Citation: TechNet Schtasks)",
         "Relationship ID": "relationship--d691e305-8ce5-40cd-a648-b0dcab329e69",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Net",
-        "Description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)",
+        "Description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as gathering system and network information for Discovery, moving laterally through [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) using <code>net use</code> commands, and interacting with services. The net1.exe utility is executed for certain functionality when net.exe is run and can be used directly in commands such as <code>net1 user</code>.",
         "Relationship ID": "relationship--f6d23c6b-01c8-4bea-9bc6-2c66fbbbd3ae",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Windows Credential Editor",
-        "Description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Symantec Tick Apr 2016)",
+        "Description": "[Windows Credential Editor](https://attack.mitre.org/software/S0005) is a password dumping tool. (Citation: Amplia WCE)",
         "Relationship ID": "relationship--fc79f30d-94c8-400e-ab10-21d2a2527788",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "gsecdump",
-        "Description": "(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Symantec Tick Apr 2016)",
+        "Description": "[gsecdump](https://attack.mitre.org/software/S0008) is a publicly-available credential dumper used to obtain password hashes and LSA secrets from Windows operating systems. (Citation: TrueSec Gsecdump)",
         "Relationship ID": "relationship--fda1acb3-8e87-4fff-ae19-7e6a2ff9d6c3",
         "Relationship Type": "uses"
     }

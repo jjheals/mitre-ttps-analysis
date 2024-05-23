@@ -1,25 +1,25 @@
 [
     {
         "Tool Name": "LaZagne",
-        "Description": "(Citation: Symantec Leafminer July 2018)",
+        "Description": "[LaZagne](https://attack.mitre.org/software/S0349) is a post-exploitation, open-source tool used to recover stored passwords on a system. It has modules for Windows, Linux, and OSX, but is mainly focused on Windows systems. [LaZagne](https://attack.mitre.org/software/S0349) is publicly available on GitHub.(Citation: GitHub LaZagne Dec 2018)",
         "Relationship ID": "relationship--022c1740-5adb-473e-a8b3-5b1646c959d8",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "Mimikatz",
-        "Description": "(Citation: Symantec Leafminer July 2018)",
+        "Description": "[Mimikatz](https://attack.mitre.org/software/S0002) is a credential dumper capable of obtaining plaintext Windows account logins and passwords, along with many other features that make it useful for testing the security of networks. (Citation: Deply Mimikatz) (Citation: Adsecurity Mimikatz Guide)",
         "Relationship ID": "relationship--984a0d7f-407f-4e3b-afd5-1dc107a980d5",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "MailSniper",
-        "Description": "(Citation: Symantec Leafminer July 2018)",
+        "Description": "MailSniper is a penetration testing tool for searching through email in a Microsoft Exchange environment for specific terms (passwords, insider intel, network architecture information, etc.). It can be used by a non-administrative user to search their own email, or by an Exchange administrator to search the mailboxes of every user in a domain.(Citation: GitHub MailSniper)",
         "Relationship ID": "relationship--a55d75ab-f5bb-4892-80de-c878be26a67d",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
-        "Description": "(Citation: Symantec Leafminer July 2018)",
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--d2a8729f-6271-46a0-8a40-a8567c9e5092",
         "Relationship Type": "uses"
     }

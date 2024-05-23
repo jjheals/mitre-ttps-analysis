@@ -1,19 +1,19 @@
 [
     {
         "Tool Name": "at",
-        "Description": "(Citation: McAfee Night Dragon)",
+        "Description": "[at](https://attack.mitre.org/software/S0110) is used to schedule tasks on a system to run at a specified date or time.(Citation: TechNet At)(Citation: Linux at)",
         "Relationship ID": "relationship--0608a4e2-575d-4a2b-9ab4-b85d6d12450b",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "gsecdump",
-        "Description": "(Citation: McAfee Night Dragon)",
+        "Description": "[gsecdump](https://attack.mitre.org/software/S0008) is a publicly-available credential dumper used to obtain password hashes and LSA secrets from Windows operating systems. (Citation: TrueSec Gsecdump)",
         "Relationship ID": "relationship--5228157f-e15e-4059-a400-503f75f019b6",
         "Relationship Type": "uses"
     },
     {
         "Tool Name": "PsExec",
-        "Description": "(Citation: McAfee Night Dragon)",
+        "Description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
         "Relationship ID": "relationship--a95a7989-ffe1-4aac-8831-5d4db61c2f8b",
         "Relationship Type": "uses"
     }
