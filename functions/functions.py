@@ -1,6 +1,8 @@
 import pandas as pd 
 import json
 from tabulate import tabulate 
+import numpy as np 
+
 
 def filter_dict(lod:list[dict], k:str, v:str) -> list[dict]: 
     ''' Filters a given list of dictionaries for the given value [v] at the given key [k]. 
@@ -347,4 +349,58 @@ def get_entities_for_actor(entities_of_type:list[dict], target_entity_type:str, 
 
     return actor_entity_matches
     
+
+def generate_similarity_table(similarity_matrix:np.matrix, row_labels:list, table_headers:list[str]=['Label 1', 'Label 2', 'Similarity Rating'], check_if_aliases:bool=False) -> tuple[list[list], str]:
+    ''' Generates a similarity table from the given similarity matrix 
     
+        Args: 
+            similarity_matrix (np.matrix): the similarity matrix 
+            row_labels (list): list containing the labels for the rows (in order as they appear in the matrix) 
+            table_headers (list[str], optional): list of strings to use as the headers for the table. Defaults to generic labels and assumes three columns.
+            check_if_aliases (bool, optional): boolean whether to compare label 1 and label 2 to see if they are aliases. Only applies to threat actor names. Defaults to false.
+            
+        Returns: 
+            tuple[list[list], str]: the table as a list of lists and a prettified string of the table created using tabulate. 
+    
+    '''
+    
+    # If we're checking actor aliases, then load the aliases json
+    if check_if_aliases: 
+        with open('data/jsons/actor-aliases.json', 'r') as file:
+            aliases:dict[str, list[str]] = json.load(file)
+    
+    # most_similar := list of the most similar entries as indexes to each entry
+    most_similar:list[int] = []
+    
+    for i in range(similarity_matrix.shape[0]):
+        similarity_matrix[i, i] = -1                                 # Exclude the self-similarity by setting it to a very low value
+        most_similar_row_index = np.argmax(similarity_matrix[i])     # Find the index of the most similar row
+        most_similar.append(most_similar_row_index)
+        
+    # Construct the table for most similar rows 
+    table_results:list[tuple] = []
+    for i, row in enumerate(most_similar):
+        
+        # Convert the row and cols to their labels
+        label1 = row_labels[i]
+        label2 = row_labels[row] 
+        rating:float = round(similarity_matrix[i][row], 2)
+        
+        # Construct the row of the table
+        this_row:list = [label1, label2, rating]
+        
+        # Check aliases if configured
+        if check_if_aliases: 
+            try: is_alias:bool = bool((label1 in aliases[label2]) or (label2 in aliases[label1]))
+            except KeyError: is_alias:bool = False
+            this_row.append(is_alias)
+        
+        # Append this row to the table 
+        table_results.append(this_row)
+
+    # Sort the table results by the first entry and tabulate the results into a table string
+    alphabetical_table_results:list[tuple] = sorted(table_results, key=lambda x: x[0])
+    most_similar_table_pretty = tabulate(alphabetical_table_results, headers=table_headers)
+    
+    # Return the alphabetized table and the pretty string of the table
+    return alphabetical_table_results, most_similar_table_pretty
