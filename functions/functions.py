@@ -245,7 +245,7 @@ def get_all_relationships_for_actor(relationships:list[dict], actors:list[dict],
             # Clause 1: name matches
             (a['name'] == actor_name) or                        
             # Clause 2: search aliases is True and the given name is an alias
-            (a['aliases'] and search_aliases and (actor_name in a['aliases']))     
+            ('aliases' in a and a['aliases'] and search_aliases and (actor_name in a['aliases']))     
         ): 
             actor_id = a['id']
             break 
@@ -300,7 +300,7 @@ def get_entities_for_actor(entities_of_type:list[dict], target_entity_type:str, 
         print(f'\nSearching for {target_entity_type} for actor name {actor["name"]} ({actor["id"]}) ')
     
     # Load all the relationships with for this actor from persistent storage
-    with open(f'data/jsons/{actor["name"].replace(" ", "-")}/relationships.json') as file: 
+    with open(f'data/jsons/threat-groups/{actor["name"].replace(" ", "-")}/relationships.json') as file: 
         all_actor_relationships:list[dict] = json.load(file)
     
     # DEBUG prints
