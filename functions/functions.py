@@ -386,6 +386,9 @@ def generate_similarity_table(similarity_matrix:np.matrix, row_labels:list, tabl
         label2 = row_labels[row] 
         rating:float = round(similarity_matrix[i][row], 2)
         
+        # Check if the rating is 0, i.e. there are no similarities with any other entity
+        if rating == 0: label2 = 'None'
+        
         # Construct the row of the table
         this_row:list = [label1, label2, rating]
         
