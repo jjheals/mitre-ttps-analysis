@@ -8,7 +8,7 @@ Performing data analysis on open source data regarding threat actor TTPs. This d
 
 ### Intrusion Sets (Actors) 
 
-Per MITRE's naming conventions, an "Intrusion set" is a Threat Actor (TA). The structure for a TA is based on MITRE's original STIX structure with the following added attributes: 
+Per MITRE's naming conventions, an "Intrusion set" is a Threat Actor (TA). The structure for a TA is based on MITRE's original STIX structure with some attributes removed and the following added attributes: 
 
 - "motivations": a list of motivations for previous attacks by this threat actor. Possible values are:
     - "Financial" 
@@ -20,7 +20,7 @@ The structure for a TA in JSON/dict format is as follows:
     { 
         "modified": "last time this obj was modified", 
         "name": "TA Primary Name", 
-        "description": "Description in MD format for this threat actor, most originally from MITRE.",
+        "description": "Description in MD format for this threat actor, most are originally from MITRE.",
         "aliases": [ 
             "A list",
             "of aliases",
@@ -34,13 +34,9 @@ The structure for a TA in JSON/dict format is as follows:
             "has had in at least one attack",
             "in the past"
         ],
-        "x_mitre_deprecated": "type = bool => flag by MITRE",
-        "x_mitre_version": "int/float => MITRE version",
         "type": "intrusion-set",
         "id": "intrusion-set--s0me-really-long-un1que-ID",
         "created": "date created by MITRE",
-        "created_by_ref": "identity--s0me-really-long-un1que-ID",
-        "revoked": "type = bool => flag by MITRE",
         "external_references": [
             {
                 "source_name": "name-of-source-or-attribute-source-is-for",
@@ -57,16 +53,13 @@ The structure for a TA in JSON/dict format is as follows:
                 "description": "(Citation: Crowdstrike or MS or Kapersky or something)"
             }
         ],
-        "object_marking_refs": [
-            "marking-definition--s0me-really-long-un1que-ID"
-        ],
         "x_mitre_domains": [
             "MITRE-domains",
             "targeted-by-TA",
             "example-is",
             "enterprise-attack"
-        ],
-        "x_mitre_attack_spec_version": "MITRE.version.num",
-
+        ]
     }
 ```
+
+To see which attributes were removed, see the method "handle_list_of_dict" in ["functions/functions.py"](./functions/functions.py). 
