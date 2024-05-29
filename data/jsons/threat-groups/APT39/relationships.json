@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--02caaeff-7429-444f-bac2-498fe3a73cfd",
         "created": "2019-02-21T21:17:37.975Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -17,27 +15,19 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.771Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has used [CrackMapExec](https://attack.mitre.org/software/S0488) and a custom port scanner known as BLUETORCH for network scanning.(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--05509bce-dc88-4cc9-8c39-40549cbc8603",
         "type": "relationship",
         "created": "2021-03-17T16:18:38.517Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -50,22 +40,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "tool--b63970b7-ddfb-4aee-97b1-80d335e033a8",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0574a456-6327-4f07-94b0-58be6ecbf8b8",
         "type": "relationship",
         "created": "2019-02-21T21:17:37.802Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -78,22 +60,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--073aff0c-1dd2-40f4-87da-d90809f3418a",
         "created": "2020-05-22T15:43:05.194Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "BitDefender Chafer May 2020",
@@ -101,27 +75,19 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.773Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has used various tools to proxy C2 communications.(Citation: BitDefender Chafer May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--089eeb46-323e-410b-a27b-dc5ff4467c40",
         "type": "relationship",
         "created": "2021-04-20T12:38:48.122Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -134,22 +100,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0ddcf163-015f-46a2-8de7-375712d92bae",
         "type": "relationship",
         "created": "2020-05-22T19:37:14.272Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Chafer February 2018",
@@ -167,22 +125,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0e4c55fc-a923-4c05-89ce-3102620a41d7",
         "type": "relationship",
         "created": "2020-05-22T19:37:14.268Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Chafer February 2018",
@@ -200,22 +150,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--0f50a4e4-6ceb-4ead-88ed-147592e0b398",
         "created": "2020-05-22T15:43:05.288Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "BitDefender Chafer May 2020",
@@ -228,27 +170,19 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.774Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has used PowerShell to execute malicious code.(Citation: BitDefender Chafer May 2020)(Citation: Symantec Chafer February 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0f81e969-dfc4-4d37-8664-59c31bd7116c",
         "type": "relationship",
         "created": "2020-05-22T19:37:14.265Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Chafer February 2018",
@@ -261,22 +195,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--0f93a49a-11c8-49d8-9b58-e7136e6bc850",
         "created": "2020-05-22T18:06:30.013Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "BitDefender Chafer May 2020",
@@ -284,27 +210,19 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.775Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has used different versions of Mimikatz to obtain credentials.(Citation: BitDefender Chafer May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--16ee08e8-a66a-4022-a322-148eeaf71771",
         "type": "relationship",
         "created": "2021-04-20T12:38:47.981Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -317,22 +235,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--565275d5-fcc3-4b66-b4e7-928e4cac6b8c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--19785182-3304-4954-9545-30560d159ae2",
         "type": "relationship",
         "created": "2021-04-20T12:38:48.145Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -345,22 +255,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--cc89ecbd-3d33-4a41-bcca-001e702d18fd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--21d94923-38bb-489d-bc6a-23e03fef7b91",
         "type": "relationship",
         "created": "2020-05-28T14:00:25.604Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 MechaFlounder March 2019",
@@ -373,22 +275,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "malware--dfa03c7d-79ed-4ce2-b9d1-ddc9dbf56ad2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--25557d9f-bfa0-4da7-8352-ab56b82b475b",
         "type": "relationship",
         "created": "2019-02-21T21:17:37.825Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -401,22 +295,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2a37ddb3-56ef-4c2d-bec7-d6060eb0215a",
         "type": "relationship",
         "created": "2019-04-29T15:54:23.241Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Symantec Security Response. (2015, December 7). Iran-based attackers use back door threats to spy on Middle Eastern targets. Retrieved April 17, 2019.",
@@ -439,22 +325,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "malware--ecc2f65a-b452-4eaf-9689-7e181f17f7a5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--307e732c-c407-4466-951b-38062bb5e32b",
         "created": "2020-05-22T15:43:05.281Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "BitDefender Chafer May 2020",
@@ -462,17 +340,11 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.775Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has used the post exploitation tool [CrackMapExec](https://attack.mitre.org/software/S0488) to enumerate network shares.(Citation: BitDefender Chafer May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -481,8 +353,6 @@
         "type": "relationship",
         "id": "relationship--364be248-6fa2-42a2-847b-35e6f43fd06d",
         "created": "2020-05-22T15:43:05.223Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "BitDefender Chafer May 2020",
@@ -495,17 +365,11 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.776Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has used post-exploitation tools including RemCom and the Non-sucking Service Manager (NSSM) to execute processes.(Citation: BitDefender Chafer May 2020)(Citation: Symantec Chafer February 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -514,8 +378,6 @@
         "type": "relationship",
         "id": "relationship--37fee9dc-701e-49be-8cec-b2fde4b533d8",
         "created": "2020-07-17T15:58:56.120Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -528,17 +390,11 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.777Z",
         "description": "(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "tool--c4810609-7da6-48ec-8057-1b70a7814db0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -547,8 +403,6 @@
         "type": "relationship",
         "id": "relationship--38cf696a-f98d-4b32-a9f1-0183bd78b6d2",
         "created": "2021-04-20T12:38:47.951Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -556,27 +410,19 @@
                 "url": "https://www.iranwatch.org/sites/default/files/public-intelligence-alert.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-11T03:00:11.053Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has used malware to drop encrypted CAB files.(Citation: FBI FLASH APT39 September 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3b1a912a-9854-428f-9dde-bd2100c554d8",
         "type": "relationship",
         "created": "2020-05-22T19:37:14.489Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Chafer February 2018",
@@ -589,22 +435,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "tool--9de2308e-7bed-43a3-8e58-f194b3586700",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--3e91f49c-5342-49d8-8105-7ab17c5ef9f4",
         "created": "2021-05-26T12:26:52.515Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "IBM ITG07 June 2019",
@@ -617,17 +455,11 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.778Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has modified and used customized versions of publicly-available tools like PLINK and [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: BitDefender Chafer May 2020)(Citation: IBM ITG07 June 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -636,8 +468,6 @@
         "type": "relationship",
         "id": "relationship--42ddce39-b653-4466-b7ff-a9554029f1c6",
         "created": "2019-02-21T21:17:37.811Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -650,27 +480,19 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.778Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has been seen using RDP for lateral movement and persistence, in some cases employing the rdpwinst tool for mangement of multiple sessions.(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--439344c5-67e0-4d38-9b91-866392e5e232",
         "type": "relationship",
         "created": "2019-04-29T15:53:48.468Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Symantec Security Response. (2015, December 7). Iran-based attackers use back door threats to spy on Middle Eastern targets. Retrieved April 17, 2019.",
@@ -683,22 +505,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--47b76f42-e305-4aac-a1cc-d7cb84b1d8bf",
         "created": "2019-02-21T21:12:55.710Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -721,17 +535,11 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.779Z",
         "description": "(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)(Citation: Dark Reading APT39 JAN 2019)(Citation: Symantec Chafer February 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -740,8 +548,6 @@
         "type": "relationship",
         "id": "relationship--4bc2e50e-0753-497f-9ec0-af270abe2af1",
         "created": "2019-04-23T18:08:46.205Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -754,27 +560,19 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.779Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has packed tools with UPX, and has repacked a modified version of [Mimikatz](https://attack.mitre.org/software/S0002) to thwart anti-virus detection.(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4c5f4c95-2eca-4f8d-8e7e-16f0bb323b07",
         "type": "relationship",
         "created": "2020-12-14T16:43:08.811Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -787,22 +585,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--4e50db0c-4e54-4266-b675-3b279ec45427",
         "created": "2019-02-22T20:59:17.640Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -825,27 +615,19 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.780Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has sent spearphishing emails in an attempt to lure users to click on a malicious attachment.(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)(Citation: Symantec Chafer February 2018)(Citation: FBI FLASH APT39 September 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4ecf2ecd-ae5a-417b-a6a7-9690fb83a282",
         "type": "relationship",
         "created": "2019-02-21T21:12:55.714Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -863,22 +645,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "tool--242f3da3-4425-4d11-8f5c-b842886da966",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--54d5380e-07a4-49b0-8ffd-c34428c90bbe",
         "created": "2019-02-21T21:17:37.821Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -896,27 +670,19 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.781Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has created scheduled tasks for persistence.(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)(Citation: FBI FLASH APT39 September 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--58a1976b-122d-41df-ae40-b66826ad8f4f",
         "type": "relationship",
         "created": "2021-04-20T12:38:47.958Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -929,22 +695,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--5b875be8-3849-46e2-80cb-dec502f78f52",
         "created": "2020-05-22T18:00:52.255Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "BitDefender Chafer May 2020",
@@ -952,27 +710,19 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.782Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has communicated with C2 through files uploaded to and downloaded from DropBox.(Citation: BitDefender Chafer May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5d4ba3fe-d782-47e4-ad82-0b81142a5e1a",
         "type": "relationship",
         "created": "2019-02-21T21:17:37.874Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -985,22 +735,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5e2b2df2-e54f-44b5-bd86-fefdae513bc2",
         "type": "relationship",
         "created": "2020-05-22T20:29:56.339Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Symantec Security Response. (2015, December 7). Iran-based attackers use back door threats to spy on Middle Eastern targets. Retrieved April 17, 2019.",
@@ -1013,22 +755,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "malware--a705b085-1eae-455e-8f4d-842483d814eb",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5fea62e7-67f8-4ff2-875d-a48393f99135",
         "type": "relationship",
         "created": "2019-02-21T21:17:38.004Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -1041,22 +775,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--60f1cf34-8c60-47b7-ba9a-88c2575006f9",
         "type": "relationship",
         "created": "2020-05-22T19:37:14.209Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Chafer February 2018",
@@ -1074,22 +800,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--66e8d05b-6f51-461d-aec0-266970064939",
         "created": "2019-02-21T21:12:55.702Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -1107,17 +825,11 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.782Z",
         "description": "(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)(Citation: Symantec Chafer February 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1126,7 +838,6 @@
         "type": "relationship",
         "id": "relationship--6b9c3bc4-8805-4074-9a0c-ef3d4c69656c",
         "created": "2024-03-29T18:12:36.717Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -1134,28 +845,19 @@
                 "url": "https://www.iranwatch.org/sites/default/files/public-intelligence-alert.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-29T18:12:36.717Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has utilized AutoIt malware scripts embedded in Microsoft Office documents or malicious links.(Citation: FBI FLASH APT39 September 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--3a32740a-11b0-4bcf-b0a9-3abd0f6d3cd5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--77e0980c-de43-48a8-8df3-b924f8d91b51",
         "type": "relationship",
         "created": "2020-03-17T13:51:08.173Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -1173,22 +875,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--8b2af30a-523f-41fe-88c3-ab2ee15bdec5",
         "created": "2020-05-22T15:43:05.190Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "BitDefender Chafer May 2020",
@@ -1196,27 +890,19 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.783Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has used the Smartftp Password Decryptor tool to decrypt FTP passwords.(Citation: BitDefender Chafer May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--932beba4-bb6a-4174-abe3-353d2e39337c",
         "type": "relationship",
         "created": "2020-05-22T19:37:14.274Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Chafer February 2018",
@@ -1234,22 +920,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--948eaafc-3440-43f3-b9e4-39eb77197d72",
         "type": "relationship",
         "created": "2019-02-21T21:17:37.932Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -1262,22 +940,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--964233cc-fa6c-4754-9684-6546eb6d5a4a",
         "created": "2019-02-21T21:17:37.831Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -1295,17 +965,11 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.784Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has used [NBTscan](https://attack.mitre.org/software/S0590) and custom tools to discover remote systems.(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)(Citation: Symantec Chafer February 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1314,8 +978,6 @@
         "type": "relationship",
         "id": "relationship--9a66e38c-ea79-4b7b-bf74-555da87d58c3",
         "created": "2020-05-22T18:00:52.264Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "BitDefender Chafer May 2020",
@@ -1323,27 +985,19 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.784Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has used remote access tools that leverage DNS in communications with C2.(Citation: BitDefender Chafer May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9cc2f27e-bf85-4471-8be5-0cf614cd5840",
         "type": "relationship",
         "created": "2019-02-21T21:12:55.716Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -1356,22 +1010,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "malware--56f46b17-8cfa-46c0-b501-dd52fef394e2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--a1c62ce5-2f11-415f-bca1-c9021530c090",
         "created": "2019-02-21T21:17:37.986Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -1384,27 +1030,19 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2019/01/apt39-iranian-cyber-espionage-group-focused-on-personal-information.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-29T18:09:58.122Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has utilized custom scripts to perform internal reconnaissance.(Citation: FireEye APT39 Jan 2019)(Citation: FBI FLASH APT39 September 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a538c673-e7f2-4fd0-923e-d874a3f3d363",
         "type": "relationship",
         "created": "2020-12-11T17:03:43.930Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -1417,22 +1055,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ba65edc3-e0ef-477f-92c8-ffa2e2a943c5",
         "type": "relationship",
         "created": "2020-12-11T17:03:43.696Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -1445,22 +1075,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c3cef083-71f7-46ed-85c1-0b44ac24b85e",
         "type": "relationship",
         "created": "2020-12-11T16:17:16.764Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -1473,22 +1095,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c4a566d6-69ce-4284-809d-433663e3e2fa",
         "type": "relationship",
         "created": "2020-03-19T22:19:04.578Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -1501,22 +1115,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c6b51e0c-d6a8-4815-b1fe-fb065ac0bcaa",
         "type": "relationship",
         "created": "2020-12-11T17:03:43.757Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -1529,22 +1135,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--c8e87b83-edbb-48d4-9295-4974897525b7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--c6f11dfe-dd59-4310-9619-ed42ee48d736",
         "created": "2020-05-22T15:43:05.196Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "BitDefender Chafer May 2020",
@@ -1552,17 +1150,11 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.785Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has created accounts on multiple compromised hosts to perform actions within the network.(Citation: BitDefender Chafer May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--635cbe30-392d-4e27-978e-66774357c762",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1571,8 +1163,6 @@
         "type": "relationship",
         "id": "relationship--c906ddd0-e3fb-42ad-84cb-84ca093ddbb2",
         "created": "2020-05-22T18:00:52.267Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -1585,27 +1175,19 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.785Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has used a command line utility and a network scanner written in python.(Citation: BitDefender Chafer May 2020)(Citation: FBI FLASH APT39 September 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d741a245-42ea-4bd4-bfb5-5687981e46b3",
         "type": "relationship",
         "created": "2020-12-14T16:43:09.083Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -1618,22 +1200,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "tool--cf23bf4a-e003-4116-bbae-1ea6c558d565",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--d7a244fa-f52c-4e54-9088-6f9ccda8b2b9",
         "created": "2020-05-29T14:02:52.170Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -1646,17 +1220,11 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.786Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has used malware disguised as Mozilla Firefox and a tool named mfevtpse.exe to proxy C2 communications, closely mimicking a legitimate McAfee file mfevtps.exe.(Citation: BitDefender Chafer May 2020)(Citation: FBI FLASH APT39 September 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1665,8 +1233,6 @@
         "type": "relationship",
         "id": "relationship--d9dce15d-68d8-46af-a7ec-354bf5093c49",
         "created": "2020-05-22T18:00:52.273Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -1679,17 +1245,11 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.787Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) has used HTTP in communications with C2.(Citation: BitDefender Chafer May 2020)(Citation: FBI FLASH APT39 September 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1698,8 +1258,6 @@
         "type": "relationship",
         "id": "relationship--e2ebd73f-9198-49c7-b446-00478a466e78",
         "created": "2019-02-21T21:17:37.928Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -1712,27 +1270,19 @@
                 "url": "https://www.bitdefender.com/blog/labs/iranian-chafer-apt-targeted-air-transportation-and-government-in-kuwait-and-saudi-arabia/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-18T16:19:53.788Z",
         "description": "[APT39](https://attack.mitre.org/groups/G0087) used custom tools to create SOCK5 and custom protocol proxies between infected hosts.(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ea230e17-d23a-4a11-b2f9-358eeeea4ea3",
         "type": "relationship",
         "created": "2019-02-21T21:17:37.991Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -1745,22 +1295,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f11ab582-8ea8-4ed7-9b1e-2b31dce390da",
         "type": "relationship",
         "created": "2020-12-11T16:17:16.696Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -1773,22 +1315,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f5cd03ce-93e0-4458-ba90-ca3926bb41b9",
         "type": "relationship",
         "created": "2019-02-21T21:12:55.696Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -1806,22 +1340,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f60a3a4e-ba53-47ba-8e31-e301f3983f6e",
         "type": "relationship",
         "created": "2019-02-21T21:11:08.102Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -1844,22 +1370,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fa82d7c2-bdc5-4945-9d59-5b40eb9a7454",
         "type": "relationship",
         "created": "2020-05-22T19:37:14.203Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Chafer February 2018",
@@ -1872,22 +1390,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fab9f76e-570c-4235-8045-dec89714d435",
         "type": "relationship",
         "created": "2020-05-22T20:04:15.481Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Chafer February 2018",
@@ -1900,22 +1410,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fd6bd6fd-4a75-4094-ac67-bc14cb6b44bb",
         "type": "relationship",
         "created": "2020-12-11T15:57:08.629Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FBI FLASH APT39 September 2020",
@@ -1928,22 +1430,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fe8bc44b-805d-440c-a447-96091033439d",
         "type": "relationship",
         "created": "2019-02-21T21:17:37.996Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT39 Jan 2019",
@@ -1956,14 +1450,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
         "target_ref": "attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     }
 ]

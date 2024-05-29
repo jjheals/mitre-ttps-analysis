@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--01e22d76-e2ee-407a-834f-e3428df142ba",
         "type": "relationship",
         "created": "2021-07-27T13:30:20.915Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -17,22 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--05f6442b-1ba8-4356-9e3a-17edc6236a10",
         "type": "relationship",
         "created": "2021-03-24T17:06:09.897Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Microsoft Targeting Elections September 2020",
@@ -45,22 +35,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--bc76d0a4-db11-4551-9ac4-01a469cfb161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--08fd666f-684f-4e78-876a-48cb92572c3a",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Seduploader Oct 2017",
@@ -78,21 +60,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--0b267d23-7c3c-41cd-878e-5466e0743340",
         "created": "2024-03-01T19:18:12.524Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Leonard TAG 2023",
@@ -100,18 +75,11 @@
                 "url": "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-01T19:18:12.524Z",
         "description": "[APT28](https://attack.mitre.org/groups/G0007) hosted phishing domains on free services for brief periods of time during campaigns.(Citation: Leonard TAG 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--79da0971-3147-4af6-a4f5-e8cd447cd795",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -120,8 +88,6 @@
         "type": "relationship",
         "id": "relationship--0d1605a9-9a62-401d-af07-84b481bddb66",
         "created": "2020-10-02T02:08:23.917Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "US District Court Indictment GRU Oct 2018",
@@ -139,27 +105,19 @@
                 "url": "https://blog.google/threat-analysis-group/update-threat-landscape-ukraine"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T17:51:20.404Z",
         "description": "[APT28](https://attack.mitre.org/groups/G0007) registered domains imitating NATO, OSCE security websites, Caucasus information resources, and other organizations.(Citation: FireEye APT28)(Citation: US District Court Indictment GRU Oct 2018)(Citation: Google TAG Ukraine Threat Landscape March 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0e8f455a-5773-483a-8636-045774732bef",
         "type": "relationship",
         "created": "2021-09-21T15:02:49.141Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike DNC June 2016",
@@ -172,22 +130,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "tool--f91162cc-1686-4ff8-8115-bf3f61a4cc7a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1036833a-1d4c-4d9e-b716-1e52606ab684",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.038Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike DNC June 2016",
@@ -200,22 +150,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--10cc3288-d06c-456c-bc0e-b10a8c5abeaa",
         "created": "2017-05-31T21:33:27.038Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Bitdefender APT28 Dec 2015",
@@ -233,27 +175,19 @@
                 "url": "https://www.justice.gov/file/1080281/download"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T17:51:20.404Z",
         "description": "[APT28](https://attack.mitre.org/groups/G0007) used other victims as proxies to relay command traffic, for instance using a compromised Georgian military email server as a hop point to NATO victims. The group has also used a tool that acts as a proxy to allow C2 even if the victim is behind a router. [APT28](https://attack.mitre.org/groups/G0007) has also used a machine to relay and obscure communications between [CHOPSTICK](https://attack.mitre.org/software/S0023) and their server.(Citation: FireEye APT28)(Citation: Bitdefender APT28 Dec 2015)(Citation: DOJ GRU Indictment Jul 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--15bbd8e5-60ad-4906-8231-f92c231bb1ec",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 Sofacy Feb 2018",
@@ -301,22 +235,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--16e90509-5ea2-48ff-8e09-686dcfddbb3b",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Palo Alto Sofacy 06-2018",
@@ -339,22 +265,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--16ec2171-a002-4838-8e20-af89b2eeafd0",
         "type": "relationship",
         "created": "2021-07-27T14:56:42.620Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -367,22 +285,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--8e350c1d-ac79-4b5c-bd4e-7476d7e84ec5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1829d419-0145-4a47-bb1e-ff00e647b5ff",
         "type": "relationship",
         "created": "2021-01-13T21:54:29.668Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Pawn Storm Dec 2020",
@@ -395,22 +305,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--1b143de7-af2d-4991-9e2e-aa85a8d7d330",
         "created": "2017-05-31T21:33:27.039Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Accenture SNAKEMACKEREL Nov 2018",
@@ -438,27 +340,19 @@
                 "url": "https://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-11T03:02:44.009Z",
         "description": "[APT28](https://attack.mitre.org/groups/G0007) encrypted a .dll payload using RTL and a custom encryption algorithm. [APT28](https://attack.mitre.org/groups/G0007) has also obfuscated payloads with base64, XOR, and RC4.(Citation: Bitdefender APT28 Dec 2015)(Citation: Unit 42 Sofacy Feb 2018)(Citation: Palo Alto Sofacy 06-2018)(Citation: Talos Seduploader Oct 2017)(Citation: Accenture SNAKEMACKEREL Nov 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1b3f3de6-364e-443f-8b34-62073c801a5b",
         "type": "relationship",
         "created": "2019-01-30T18:53:05.411Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist Sofacy Feb 2018",
@@ -471,22 +365,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--1b44ae9f-29b7-45e0-9396-a84899e73a3b",
         "created": "2022-03-16T18:08:15.460Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Google TAG Ukraine Threat Landscape March 2022",
@@ -494,27 +380,19 @@
                 "description": "Huntley, S. (2022, March 7). An update on the threat landscape. Retrieved March 16, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[APT28](https://attack.mitre.org/groups/G0007) has used compromised email accounts to send credential phishing emails.(Citation: Google TAG Ukraine Threat Landscape March 2022)",
         "modified": "2022-04-14T20:16:42.285Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1ba59a68-1883-492d-8cd8-f22656eb58a4",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "DOJ GRU Indictment Jul 2018",
@@ -532,22 +410,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1c8634d8-21a1-46a5-a1fd-eaaff6eed7a6",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 Sofacy Feb 2018",
@@ -565,22 +435,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1f6fe0b5-3696-4a76-82c7-b866b1a8269a",
         "type": "relationship",
         "created": "2021-07-26T17:53:02.201Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -593,22 +455,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--22708534-eb0e-4217-93a9-74615c537411",
         "created": "2024-03-01T19:19:30.558Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Leonard TAG 2023",
@@ -616,27 +470,19 @@
                 "url": "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-04T19:35:18.554Z",
         "description": "[APT28](https://attack.mitre.org/groups/G0007) compromised Ubiquiti network devices to act as collection devices for credentials compromised via phishing webpages.(Citation: Leonard TAG 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--149b477f-f364-4824-b1b5-aa1d56115869",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--22ccfcb8-cb4a-4b9e-bc2d-c0bd2701e2e9",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.040Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://download.microsoft.com/download/4/4/C/44CDEF0E-7924-4787-A56A-16261691ACE3/Microsoft_Security_Intelligence_Report_Volume_19_English.pdf",
@@ -649,22 +495,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--237d098d-f796-49a0-bdc8-61909cd74feb",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 Playbook Dec 2017",
@@ -677,22 +515,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--eb125d40-0b2d-41ac-a71a-3229241c2cd3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--24013fde-5ce7-4995-9d9f-d2ced31b9d9a",
         "created": "2017-05-31T21:33:27.040Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT28",
@@ -715,27 +545,19 @@
                 "url": "https://www.secureworks.com/research/iron-twilight-supports-active-measures"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T17:51:20.407Z",
         "description": "(Citation: FireEye APT28)(Citation: Kaspersky Sofacy)(Citation: Securelist Sofacy Feb 2018)(Citation: Secureworks IRON TWILIGHT Active Measures March 2017)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--ccd61dfc-b03f-4689-8c18-7c97eab08472",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--242de5f8-7944-4fdd-af87-a5da0050e7c3",
         "type": "relationship",
         "created": "2021-05-26T20:05:23.436Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Palo Alto Sofacy 06-2018",
@@ -758,22 +580,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--27e91ac8-9463-4a7a-8f1f-89abeba1b02d",
         "type": "relationship",
         "created": "2019-10-10T21:54:00.462Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Palo Alto Sofacy 06-2018",
@@ -791,22 +605,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2b6195a4-72f8-4d31-9824-a7c8a7018134",
         "type": "relationship",
         "created": "2021-01-13T21:54:29.675Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Pawn Storm Dec 2020",
@@ -819,22 +625,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2cbaf5dd-8b53-427f-ae00-9cda47125d5b",
         "type": "relationship",
         "created": "2021-01-14T20:28:31.227Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Pawn Storm Dec 2020",
@@ -847,22 +645,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--40597f16-0963-4249-bf4c-ac93b7fb9807",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2d450e2f-25c9-49af-b83f-6c91029ed28a",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.039Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://download.microsoft.com/download/4/4/C/44CDEF0E-7924-4787-A56A-16261691ACE3/Microsoft_Security_Intelligence_Report_Volume_19_English.pdf",
@@ -885,22 +675,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3094a14f-ccd2-4ba4-a3f6-c6d2721f02db",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/",
@@ -918,22 +700,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--329d115e-2a1d-443e-800c-d28f5f11d6b9",
         "type": "relationship",
         "created": "2020-10-01T18:55:37.399Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US District Court Indictment GRU Oct 2018",
@@ -951,22 +725,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--41fd6ebb-4262-40f8-842e-ff583ff01500",
         "type": "relationship",
         "created": "2021-07-27T14:18:49.917Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -979,22 +745,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--48f662fe-1ba2-4c19-b782-dd06d9fb67fa",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.039Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf",
@@ -1022,22 +780,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4a1336e8-9abb-4217-8a90-78ce55325aaa",
         "type": "relationship",
         "created": "2021-07-27T14:13:08.194Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -1050,22 +800,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4b8bdc58-cfb9-4841-94e9-421b9e08f44f",
         "type": "relationship",
         "created": "2020-09-18T21:44:21.368Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Microsoft STRONTIUM New Patterns Cred Harvesting Sept 2020",
@@ -1083,22 +825,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--09c4c11e-4fa1-4f8c-8dad-3cf8e69ad119",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4b8d211d-4969-4c0f-8b01-fd176c8172d1",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.038Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike DNC June 2016",
@@ -1116,22 +850,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--50a57369-6d3e-44bf-814f-7c9242e56d75",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/",
@@ -1144,22 +870,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "tool--90ec2b22-7061-4469-b539-0989ec4f96c2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--511e186f-2a71-4fb2-9a54-12fd80e2cd50",
         "created": "2022-04-14T20:22:40.317Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google TAG Ukraine Threat Landscape March 2022",
@@ -1167,27 +885,19 @@
                 "description": "Huntley, S. (2022, March 7). An update on the threat landscape. Retrieved March 16, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[APT28](https://attack.mitre.org/groups/G0007) has used newly-created Blogspot pages for credential harvesting operations.(Citation: Google TAG Ukraine Threat Landscape March 2022)",
         "modified": "2022-04-14T20:22:40.317Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--51d06864-d5de-4286-b2bb-561a8d2c4d49",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 Playbook Dec 2017",
@@ -1200,22 +910,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--51fcdcd6-9c5a-425a-ab87-92d4faeb2ea4",
         "created": "2022-02-28T16:22:29.851Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Leonard TAG 2023",
@@ -1228,27 +930,19 @@
                 "url": "https://www.secureworks.com/research/iron-twilight-supports-active-measures"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-01T19:17:07.734Z",
         "description": "[APT28](https://attack.mitre.org/groups/G0007) has compromised targets via strategic web compromise utilizing custom exploit kits.(Citation: Secureworks IRON TWILIGHT Active Measures March 2017) [APT28](https://attack.mitre.org/groups/G0007) used reflected cross-site scripting (XSS) against government websites to redirect users to phishing webpages.(Citation: Leonard TAG 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5377a247-28a9-4dc1-957f-78980504a5a3",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Sofacy DealersChoice",
@@ -1266,22 +960,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--8f460983-1bbb-4e7e-8094-f0b5e720f658",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--54b73912-002f-43ca-b8a2-7439aff45aab",
         "type": "relationship",
         "created": "2021-01-13T21:54:29.677Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Pawn Storm 2019",
@@ -1294,22 +980,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--54d3eadf-0363-47d1-b51d-a16d6a99c42e",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.039Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Sednit Part 1",
@@ -1327,22 +1005,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--bc0f5e80-91c0-4e04-9fbb-e4e332c85dae",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--565d2d07-0e2e-44e5-bc37-5a64e49394ee",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.justice.gov/file/1080281/download",
@@ -1355,22 +1025,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--56d023cf-4390-40d9-afc6-cb0d40b4cdd1",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.040Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://download.microsoft.com/download/4/4/C/44CDEF0E-7924-4787-A56A-16261691ACE3/Microsoft_Security_Intelligence_Report_Volume_19_English.pdf",
@@ -1383,22 +1045,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5799308b-e710-40b8-ad64-2b7916673560",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://pan-unit42.github.io/playbook_viewer/",
@@ -1431,22 +1085,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5cfcbf60-454a-4673-aa93-9020d04efab7",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.041Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
@@ -1459,22 +1105,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5e9256c1-5ad5-4fb2-9a75-0267a2daae89",
         "type": "relationship",
         "created": "2020-10-01T18:55:37.416Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US District Court Indictment GRU Oct 2018",
@@ -1487,22 +1125,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--d74c4a7e-ffbf-432f-9365-7ebf1f787cab",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5e9bee3d-ea86-4715-9fdc-199e10ef2161",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.040Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
@@ -1520,22 +1150,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--fb575479-14ef-41e9-bfab-0b7cf10bec73",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5ea36f9f-f5b6-4494-be0a-061058d6b1f1",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.justice.gov/file/1080281/download",
@@ -1548,22 +1170,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5f402d02-94f9-49de-b097-2d89c59de394",
         "type": "relationship",
         "created": "2019-01-30T19:06:33.901Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit42 Cannon Nov 2018",
@@ -1581,22 +1195,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--d20b397a-ea47-48a9-b503-2e2a3551e11d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--63841959-afe2-4cb0-a93e-d407eb1b8d66",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "XAgentOSX 2017",
@@ -1619,22 +1225,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--f108215f-3487-489d-be8b-80e346d32518",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--63ee7d80-372e-4841-87a4-825cb5dd7058",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.justice.gov/file/1080281/download",
@@ -1647,22 +1245,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--644b6c21-90f0-43b7-8da4-7f6f24ddabb6",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.038Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender APT28 Dec 2015",
@@ -1695,22 +1285,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--666e9638-d9d9-4480-a98c-dfa247e43bd2",
         "type": "relationship",
         "created": "2021-03-24T17:06:09.872Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Microsoft Targeting Elections September 2020",
@@ -1728,22 +1310,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--cca0ccb6-a068-4574-a722-b1556f86833a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--69f57458-bfb2-44a2-a8cf-0fce0e2b0a22",
         "type": "relationship",
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securingtomorrow.mcafee.com/mcafee-labs/apt28-threat-group-adopts-dde-technique-nyc-attack-theme-in-latest-campaign/",
@@ -1766,22 +1340,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6a1ddd06-a5bd-440b-aa19-285e7370477c",
         "type": "relationship",
         "created": "2021-10-01T15:46:18.780Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -1794,22 +1360,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--715d1910-181b-47a8-9b3c-86cba51b8ba4",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.justice.gov/file/1080281/download",
@@ -1822,22 +1380,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--720c211e-2219-496d-8a34-c3f37dfbe5bf",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.041Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part3.pdf",
@@ -1850,22 +1400,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--e669bb87-f773-4c7b-bfcc-a9ffebfdd8d4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--72f52cf0-dc68-4a4b-8025-724b2691c449",
         "type": "relationship",
         "created": "2021-07-26T17:53:02.254Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -1878,22 +1420,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--73321011-c231-402e-a6bb-b9fd6cf6b658",
         "type": "relationship",
         "created": "2019-04-19T13:58:34.860Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit42 Sofacy Dec 2018",
@@ -1906,22 +1440,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--dc31fe1e-d722-49da-8f5f-92c7b5aff534",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--73e0604a-2509-43a6-9318-a9494e570363",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "\u00dcberwachung APT28 Forfiles June 2015",
@@ -1949,22 +1475,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--743ed7c3-c0e3-4290-9410-f6bec9224c30",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.11.04_Evolving_Threats/cct-w08_evolving-threats-dissection-of-a-cyber-espionage-attack.pdf",
@@ -1977,22 +1495,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--0c4b4fda-9062-47da-98b9-ceae2dcf052a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--75d04175-c43d-46cd-be08-5f4c91f767ed",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.040Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT28 January 2017",
@@ -2025,22 +1535,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7606ad11-1322-4b97-83b9-aaafaee02c07",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/wp/wp-two-years-of-pawn-storm.pdf",
@@ -2068,22 +1570,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--78e8d9e6-48b7-473f-af94-43f626de7931",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.040Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://download.microsoft.com/download/4/4/C/44CDEF0E-7924-4787-A56A-16261691ACE3/Microsoft_Security_Intelligence_Report_Volume_19_English.pdf",
@@ -2096,22 +1590,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7a3963b8-3ffd-41a9-bd03-57cba4f03882",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Palo Alto Sofacy 06-2018",
@@ -2124,22 +1610,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "tool--c8655260-9f4b-44e3-85e1-6538a5f6e4f4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--80b30059-28a5-4eaa-9d7c-193875bbccd0",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "\u00dcberwachung APT28 Forfiles June 2015",
@@ -2157,22 +1635,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "tool--96fd6cc4-a693-4118-83ec-619e5352d07d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--87f45aac-1025-4a44-af9c-db139ea60f78",
         "created": "2020-03-17T00:07:27.461Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT28",
@@ -2185,27 +1655,19 @@
                 "url": "https://media.defense.gov/2021/Jul/01/2002753896/-1/-1/1/CSA_GRU_GLOBAL_BRUTE_FORCE_CAMPAIGN_UOO158036-21.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T17:51:20.412Z",
         "description": "Later implants used by [APT28](https://attack.mitre.org/groups/G0007), such as [CHOPSTICK](https://attack.mitre.org/software/S0023), use a blend of HTTP, HTTPS, and other legitimate channels for C2, depending on module configuration.(Citation: FireEye APT28)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--89363ca8-1cf3-4c40-972c-6e2787a05b43",
         "type": "relationship",
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.fireeye.com/blog/threat-research/2017/08/apt28-targets-hospitality-sector.html",
@@ -2223,22 +1685,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "tool--a1dd2dbd-1550-44bf-abcc-1a4c52e97719",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8d07ed87-6692-4010-8c94-c12cbf3885ca",
         "type": "relationship",
         "created": "2021-07-27T14:27:32.017Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -2251,22 +1705,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8f269f6c-9e8b-4296-ab47-2f60c9156b58",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.038Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike DNC June 2016",
@@ -2304,22 +1750,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--90bb9179-c20a-4223-a177-731f015052aa",
         "type": "relationship",
         "created": "2021-07-27T14:18:49.990Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -2332,22 +1770,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--921c2a85-eab7-4cfc-9ac5-98a463262c17",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://researchcenter.paloaltonetworks.com/2018/02/unit42-sofacy-attacks-multiple-government-entities/",
@@ -2365,22 +1795,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--92c68b65-18b8-44e9-a368-692048ba9611",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.041Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Sednit Part 3",
@@ -2408,22 +1830,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--949dba3e-e6c9-48a5-8bf6-a2a912c7c3e3",
         "type": "relationship",
         "created": "2020-08-25T18:10:52.451Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NSA/FBI Drovorub August 2020",
@@ -2436,22 +1850,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--99164b38-1775-40bc-b77b-a2373b14540a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9aa9b9f6-a22f-4763-a2ff-7635f5022727",
         "type": "relationship",
         "created": "2022-03-16T18:08:15.496Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Google TAG Ukraine Threat Landscape March 2022",
@@ -2464,22 +1870,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9e90e4a5-844c-4516-9044-6f35bbf27806",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.039Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part3.pdf",
@@ -2492,22 +1890,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--a1fe7df1-7c20-422e-8e86-042cd11b3501",
         "created": "2017-05-31T21:33:27.038Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT28",
@@ -2520,27 +1910,19 @@
                 "url": "https://media.defense.gov/2021/Jul/01/2002753896/-1/-1/1/CSA_GRU_GLOBAL_BRUTE_FORCE_CAMPAIGN_UOO158036-21.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T17:51:20.415Z",
         "description": "[APT28](https://attack.mitre.org/groups/G0007) has used IMAP, POP3, and SMTP for a communication channel in various implants, including using self-registered Google Mail accounts and later compromised email servers of its victims.(Citation: FireEye APT28)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--54b4c251-1f0e-4eba-ba6b-dbc7a6f6f06b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a292f2c5-a071-424e-b8b8-03d195c466ad",
         "type": "relationship",
         "created": "2021-10-01T15:26:28.691Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -2553,22 +1935,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--a358f0a9-b5b9-4a84-8c83-dc0a1325d63e",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT28",
@@ -2586,27 +1960,19 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2017/08/apt28-targets-hospitality-sector.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T17:51:20.416Z",
         "description": "[APT28](https://attack.mitre.org/groups/G0007) exploited a Windows SMB Remote Code Execution Vulnerability to conduct lateral movement.(Citation: FireEye APT28)(Citation: FireEye APT28 Hospitality Aug 2017)(Citation: MS17-010 March 2017)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a5022441-bc5e-4b19-a773-b96b2719d1bb",
         "type": "relationship",
         "created": "2019-01-30T18:53:05.399Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Symantec Security Response. (2018, October 04). APT28: New Espionage Operations Target Military and Government Organizations. Retrieved November 14, 2018.",
@@ -2624,22 +1990,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ac65e484-b59a-40e1-984e-02dc4b62b6f0",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 Sofacy Feb 2018",
@@ -2662,22 +2020,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ae0b56df-e692-4210-85e4-8ded095cdbc3",
         "type": "relationship",
         "created": "2019-10-04T18:43:57.650Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro Pawn Storm OAuth 2017",
@@ -2690,22 +2040,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--f005e783-57d4-4837-88ad-dbe7faee1c51",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b4c27a33-0669-4b10-a801-eb81e3563260",
         "type": "relationship",
         "created": "2021-07-27T15:01:00.790Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -2718,22 +2060,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--c3888c54-775d-4b2f-b759-75a2ececcbfd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b719d37b-8f0e-4704-b21d-8977a5c7cceb",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.fireeye.com/blog/threat-research/2015/04/probable_apt28_useo.html",
@@ -2746,22 +2080,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--86850eff-2729-40c3-b85e-c4af26da4a2d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b997c08e-f005-432f-8030-1903d18eec51",
         "type": "relationship",
         "created": "2021-08-31T17:00:18.537Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -2774,22 +2100,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--ba64e6d1-4deb-440a-a4eb-1c3476b6fb47",
         "created": "2017-05-31T21:33:27.041Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT28",
@@ -2802,17 +2120,11 @@
                 "url": "https://www.secureworks.com/research/iron-twilight-supports-active-measures"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T17:51:20.416Z",
         "description": "(Citation: FireEye APT28)(Citation: Secureworks IRON TWILIGHT Active Measures March 2017)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--60c18d06-7b91-4742-bae3-647845cd9d81",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2821,8 +2133,6 @@
         "type": "relationship",
         "id": "relationship--bceada36-e6ba-49b9-b9f8-99e37e6cbf9e",
         "created": "2017-05-31T21:33:27.041Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT28",
@@ -2830,27 +2140,19 @@
                 "url": "https://web.archive.org/web/20151022204649/https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T17:51:20.419Z",
         "description": "(Citation: FireEye APT28)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--2dd34b01-6110-4aac-835d-b5e7b936b0be",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--be571764-53d2-4f73-9567-8001e59925b8",
         "type": "relationship",
         "created": "2021-07-27T14:27:32.008Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -2863,22 +2165,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--359b00ad-9425-420b-bba5-6de8d600cbc0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c263ca38-f85d-42ab-b56d-8f6121c3aed6",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "DOJ GRU Indictment Jul 2018",
@@ -2906,22 +2200,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c569059f-8a7d-4777-a111-d3ab62d178ca",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.040Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://download.microsoft.com/download/4/4/C/44CDEF0E-7924-4787-A56A-16261691ACE3/Microsoft_Security_Intelligence_Report_Volume_19_English.pdf",
@@ -2934,22 +2220,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--64196062-5210-42c3-9a02-563a0d1797ef",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c75b8dfa-5980-4686-9d74-b0c92ce60274",
         "type": "relationship",
         "created": "2021-07-27T13:06:37.122Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -2962,22 +2240,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--e74de37c-a829-446c-937d-56a44f0e9306",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c7e8689c-25cf-4fac-926e-c55a2414f16c",
         "type": "relationship",
         "created": "2020-03-19T22:05:06.704Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf",
@@ -3000,22 +2270,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c84b3859-ba18-45bd-8f56-baa045ce8eab",
         "type": "relationship",
         "created": "2019-09-09T17:44:35.452Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Sednit Part 3",
@@ -3033,22 +2295,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--08d20cd2-f084-45ee-8558-fa6ef5a18519",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--cb69217e-f063-4093-bcf0-f051ecd42e25",
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "US District Court Indictment GRU Oct 2018",
@@ -3066,27 +2320,19 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2017/08/apt28-targets-hospitality-sector.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T17:51:20.420Z",
         "description": "[APT28](https://attack.mitre.org/groups/G0007) deployed the open source tool Responder to conduct NetBIOS Name Service poisoning, which captured usernames and hashed passwords that allowed access to legitimate credentials.(Citation: FireEye APT28)(Citation: FireEye APT28 Hospitality Aug 2017) [APT28](https://attack.mitre.org/groups/G0007) close-access teams have used Wi-Fi pineapples to intercept Wi-Fi signals and user credentials.(Citation: US District Court Indictment GRU Oct 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cce31baa-5862-4df5-806f-15aaa7410fa5",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.039Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender APT28 Dec 2015",
@@ -3109,22 +2355,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cfe2a359-bbab-4520-bdd7-b2d6abf742cc",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "XAgentOSX 2017",
@@ -3147,22 +2385,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--59a97b15-8189-4d51-9404-e1ce8ea4a069",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d0560e25-020d-4cd6-b61c-5fc82a757edc",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://researchcenter.paloaltonetworks.com/2016/07/unit42-technical-walkthrough-office-test-persistence-method-used-in-recent-sofacy-attacks/",
@@ -3175,22 +2405,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--ed7efd4d-ce28-4a19-a8e6-c58011eb2c7a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d26b3aeb-972f-471e-ab59-dc1ee2aa532e",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.041Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part3.pdf",
@@ -3203,22 +2425,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d2fa6899-2529-45b1-86bf-f2c5475a2ea6",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Palo Alto Sofacy 06-2018",
@@ -3251,22 +2465,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--a4f57468-fbd5-49e4-8476-52088220b92d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d348102c-89dc-452a-b86d-2460928defaa",
         "type": "relationship",
         "created": "2019-10-04T19:41:47.000Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro Pawn Storm OAuth 2017",
@@ -3279,22 +2485,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--890c9858-598c-401d-a4d5-c67ebcdd703a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d6958d59-7b54-407c-8bd9-00891c580acc",
         "type": "relationship",
         "created": "2020-09-11T19:53:58.241Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Microsoft STRONTIUM New Patterns Cred Harvesting Sept 2020",
@@ -3317,22 +2515,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d7af8f20-9581-4b41-a591-118842f8ba6e",
         "type": "relationship",
         "created": "2021-04-19T21:59:12.700Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US District Court Indictment GRU Oct 2018",
@@ -3350,22 +2540,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d811c17d-5ed4-4218-b1c9-280e332e30e2",
         "type": "relationship",
         "created": "2021-07-27T15:05:31.308Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -3378,22 +2560,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--da759124-8047-4b58-b7d4-fa9300cb4ce1",
         "type": "relationship",
         "created": "2021-01-13T21:54:29.651Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Pawn Storm Dec 2020",
@@ -3406,22 +2580,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--dc10e96f-1d3c-4ab9-8df6-acdc8238ec6c",
         "created": "2017-05-31T21:33:27.038Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT28",
@@ -3429,27 +2595,19 @@
                 "url": "https://web.archive.org/web/20151022204649/https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T17:51:20.422Z",
         "description": "[APT28](https://attack.mitre.org/groups/G0007) added \"junk data\" to each encoded string, preventing trivial decoding without knowledge of the junk removal algorithm. Each implant was given a \"junk length\" value when created, tracked by the controller software to allow seamless communication but prevent analysis of the command protocol on the wire.(Citation: FireEye APT28)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--f7c0689c-4dbd-489b-81be-7cb7c7079ade",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e5706e1a-33a9-4404-9ef8-c8aa428363ec",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender APT28 Dec 2015",
@@ -3467,22 +2625,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--fe926152-f431-4baf-956c-4ad3cb0bf23b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e71903c4-a7af-4317-adf0-10f76d3d4e15",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.039Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf",
@@ -3505,22 +2655,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ea2f41fe-0701-4607-aa70-d6531c7461c6",
         "type": "relationship",
         "created": "2019-06-20T16:11:36.504Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Zebrocy May 2019",
@@ -3533,22 +2675,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ec6a8fde-702a-4e38-a37b-428a8ca10b18",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.040Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://download.microsoft.com/download/4/4/C/44CDEF0E-7924-4787-A56A-16261691ACE3/Microsoft_Security_Intelligence_Report_Volume_19_English.pdf",
@@ -3561,22 +2695,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--edaf0203-4959-4e1e-9240-3d20cf0f3b6a",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.039Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://download.microsoft.com/download/4/4/C/44CDEF0E-7924-4787-A56A-16261691ACE3/Microsoft_Security_Intelligence_Report_Volume_19_English.pdf",
@@ -3589,22 +2715,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f755463c-28a6-4e47-8b13-1028806f5032",
         "type": "relationship",
         "created": "2019-09-18T15:14:13.125Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Fysbis Palo Alto Analysis",
@@ -3617,22 +2735,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--50d6688b-0985-4f3d-8cbe-0c796b30703b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fb28df7f-ccc1-469d-8a91-e82b9b6006c1",
         "type": "relationship",
         "created": "2019-07-02T13:01:52.206Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET LoJax Sept 2018",
@@ -3645,22 +2755,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "malware--b865dded-0553-4962-a44b-6fe7863effed",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fb719ee1-0be9-41c5-bb52-56c033091e99",
         "type": "relationship",
         "created": "2021-01-13T18:32:09.100Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Pawn Storm 2019",
@@ -3683,22 +2785,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fe028d0f-b02e-4856-8593-c71a07b9519b",
         "type": "relationship",
         "created": "2021-07-27T13:30:20.904Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -3711,22 +2805,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--14a18ad1-00a1-45aa-8b39-d1fe4925c669",
         "type": "relationship",
         "created": "2019-08-16T18:56:12.539Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "MSRC Team. (2019, August 5). Corporate IoT \u2013 a path to intrusion. Retrieved August 16, 2019.",
@@ -3739,26 +2825,18 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
         "description": "[APT28](https://attack.mitre.org/groups/G0007) uses cmd.exe to execute commands and custom backdoors.",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "created": "2018-10-17T00:14:20.652Z",
         "id": "relationship--a3ee84d8-139e-4703-97c9-53cdeea94f66",
         "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
         "modified": "2020-03-31T14:49:39.188Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "description": "Lee, B., Falcone, R. (2018, June 06). Sofacy Group\u2019s Parallel Attacks. Retrieved June 18, 2018.",
@@ -3772,20 +2850,12 @@
             }
         ],
         "relationship_type": "uses",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "APT28 has been known to specifically look for Firefox passwords on the file system ",
         "external_references": [
             {
@@ -3800,20 +2870,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--ba8e391f-14b5-496f-81f2-2d5ecd646c1c",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "APT28 has enumerated installed applications on macOS devices with built-in utilities such as <code>ls -al /Applications</code>.",
         "external_references": [
             {
@@ -3828,20 +2890,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "APT28 has queried information on machines to determine the current user or system owner .",
         "external_references": [
             {
@@ -3856,14 +2910,8 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

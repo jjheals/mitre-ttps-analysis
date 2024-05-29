@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--02fa0350-978f-4b61-b004-82380e70beee",
         "type": "relationship",
         "created": "2021-10-15T19:27:15.683Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf",
@@ -27,22 +25,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--074ed0d8-8a95-4090-a23b-6c3915587590",
         "type": "relationship",
         "created": "2021-09-09T15:38:06.867Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 ProjectM March 2016",
@@ -55,22 +45,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "malware--53ab35c2-d00e-491a-8753-41d35ae7e547",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--087c222c-4108-4fbf-ac8f-983cd71548fa",
         "type": "relationship",
         "created": "2021-09-07T13:27:47.515Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf",
@@ -93,22 +75,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--0e9e8c43-24f5-401f-8e50-5b4a476ea31d",
         "created": "2021-09-09T15:11:57.069Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Talos Oblique RAT March 2021",
@@ -121,27 +95,19 @@
                 "url": "https://blog.talosintelligence.com/2022/07/transparent-tribe-targets-education.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-06T16:12:40.032Z",
         "description": "(Citation: Talos Oblique RAT March 2021)(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "malware--5864e59f-eb4c-43ad-83b2-b5e4fae056c9",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--13189e47-4ae9-49ea-8c0f-605177626ada",
         "type": "relationship",
         "created": "2021-09-02T16:01:58.905Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf",
@@ -174,22 +140,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--17087e76-4d84-443e-8fb1-0ec6498681db",
         "created": "2021-09-02T16:01:58.867Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Proofpoint Operation Transparent Tribe March 2016",
@@ -197,27 +155,19 @@
                 "url": "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-10T22:31:12.518Z",
         "description": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has dropped encoded executables on compromised hosts.(Citation: Proofpoint Operation Transparent Tribe March 2016)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--23041edc-3136-49b7-8d08-311321455aa7",
         "type": "relationship",
         "created": "2021-09-07T13:50:36.969Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf",
@@ -230,22 +180,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--7bd9c723-2f78-4309-82c5-47cad406572b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2a27a98e-ee19-49f3-96e4-a5c9ee6e65ed",
         "type": "relationship",
         "created": "2021-09-07T13:43:36.245Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf",
@@ -258,22 +200,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--f9cc4d06-775f-4ee1-b401-4e2cc0da30ba",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2ca333e2-c94f-4cc1-af46-beae48ff3c43",
         "type": "relationship",
         "created": "2021-09-07T13:31:50.578Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf",
@@ -286,22 +220,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "malware--d906e6f7-434c-44c0-b51a-ed50af8f7945",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--312f53be-d610-4c7c-af9b-44148c07bf7e",
         "type": "relationship",
         "created": "2021-09-07T13:43:36.559Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf",
@@ -319,22 +245,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4364b7ab-fd25-4145-84e6-e9e74ac3c0dd",
         "type": "relationship",
         "created": "2021-10-06T18:50:00.865Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Oblique RAT March 2021",
@@ -352,22 +270,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4d1b4d28-84c8-4ae4-9e04-c437dc391eac",
         "type": "relationship",
         "created": "2021-09-08T14:35:24.878Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Kaspersky Transparent Tribe August 2020",
@@ -380,22 +290,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6c9abd4f-d439-40ff-94fa-dd397d473942",
         "type": "relationship",
         "created": "2021-09-07T13:43:36.461Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf",
@@ -413,21 +315,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--751e795e-7c1a-4ba1-bb20-636aed025df9",
         "created": "2022-09-22T17:12:46.793Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Transparent Tribe Education Campaign July 2022",
@@ -435,28 +330,19 @@
                 "url": "https://blog.talosintelligence.com/2022/07/transparent-tribe-targets-education.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-22T17:12:46.793Z",
         "description": "(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)",
         "relationship_type": "attributed-to",
         "source_ref": "campaign--b4e5a4a9-f3be-4631-ba8f-da6ebb067fac",
         "target_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--88f1dfcb-3b2a-494d-bab2-027602c4f78f",
         "type": "relationship",
         "created": "2021-09-08T14:35:24.911Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Kaspersky Transparent Tribe August 2020",
@@ -469,22 +355,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9553062d-2207-4990-b9d4-a29f75628bd5",
         "type": "relationship",
         "created": "2021-09-02T16:01:58.902Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf",
@@ -497,22 +375,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--9c3c62d3-d97c-4478-b822-e7019861121d",
         "created": "2021-09-02T16:01:58.923Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Proofpoint Operation Transparent Tribe March 2016",
@@ -525,27 +395,19 @@
                 "url": "https://blog.talosintelligence.com/2022/07/transparent-tribe-targets-education.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-06T16:12:53.897Z",
         "description": "(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "malware--326af1cd-78e7-45b7-a326-125d2f7ef8f2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b43dfc0c-beca-45c0-bb47-5b57a6acada9",
         "type": "relationship",
         "created": "2021-09-02T16:01:58.910Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf",
@@ -578,22 +440,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b4824825-f732-44d9-a088-3ce222c0f751",
         "type": "relationship",
         "created": "2021-09-09T13:37:43.456Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Oblique RAT March 2021",
@@ -611,22 +465,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c7429670-16be-43bb-b13d-35056c4c968e",
         "type": "relationship",
         "created": "2021-09-09T15:38:06.892Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 ProjectM March 2016",
@@ -639,14 +485,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
         "target_ref": "malware--6c2550d5-a01a-4bbb-a004-6ead348ba623",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     }
 ]

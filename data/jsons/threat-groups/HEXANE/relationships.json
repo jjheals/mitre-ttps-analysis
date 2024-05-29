@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--01f4b583-4bd0-47eb-a108-c0bd7fd4d571",
         "created": "2022-06-16T13:44:43.833Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -12,17 +10,11 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used [Ping](https://attack.mitre.org/software/S0097) and `tracert` for network discovery.(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-06-16T13:44:43.833Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -31,8 +23,6 @@
         "type": "relationship",
         "id": "relationship--0545e60c-080c-4930-a729-b3ce7dc51979",
         "created": "2022-06-15T14:49:50.815Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -40,17 +30,11 @@
                 "url": "https://vblocalhost.com/uploads/VB2021-Kayal-etal.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-14T18:44:51.589Z",
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has run `cmdkey` on victim machines to identify stored credentials.(Citation: Kaspersky Lyceum October 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -59,8 +43,6 @@
         "type": "relationship",
         "id": "relationship--06219288-2833-4a8e-b8bc-10a834e3af7f",
         "created": "2022-06-14T14:04:15.062Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -68,27 +50,19 @@
                 "url": "https://vblocalhost.com/uploads/VB2021-Kayal-etal.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-22T04:44:21.382Z",
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used Base64-encoded scripts.(Citation: Kaspersky Lyceum October 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--0b0b4079-f926-4d86-9943-3074b487800c",
         "created": "2022-06-15T13:56:38.366Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Accenture Lyceum Targets November 2021",
@@ -101,27 +75,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Kaspersky Lyceum October 2021)(Citation: Accenture Lyceum Targets November 2021)",
         "modified": "2022-06-16T14:06:32.029Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "malware--aea6d6b8-d832-4c90-a1bb-f52c6684db6c",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--0ce9c0f3-6da9-402c-adc4-a001877e40e6",
         "created": "2022-06-07T17:22:56.787Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "ClearSky Siamesekitten August 2021",
@@ -129,27 +95,19 @@
                 "description": "ClearSky Cyber Security . (2021, August). New Iranian Espionage Campaign By \u201cSiamesekitten\u201d - Lyceum. Retrieved June 6, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: ClearSky Siamesekitten August 2021)",
         "modified": "2022-06-07T17:22:56.787Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--14080577-f5de-46fd-b363-e3f4b4e73495",
         "created": "2022-06-16T13:29:13.367Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -157,27 +115,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-06-16T13:29:13.367Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--1503d568-e350-4021-ac47-a0913f6f4f1d",
         "created": "2022-06-06T18:01:11.955Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "ClearSky Siamesekitten August 2021",
@@ -185,27 +135,19 @@
                 "description": "ClearSky Cyber Security . (2021, August). New Iranian Espionage Campaign By \u201cSiamesekitten\u201d - Lyceum. Retrieved June 6, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has identified specific potential victims at targeted organizations.(Citation: ClearSky Siamesekitten August 2021)",
         "modified": "2022-06-06T18:01:11.955Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--5282dd9a-d26d-4e16-88b7-7c0f4553daf4",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--1f238bb1-62c0-409b-ac79-38b38f54497d",
         "created": "2022-08-31T16:29:47.088Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -213,27 +155,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has collected the hostname of a compromised machine.(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-08-31T16:29:47.088Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--25e10d85-b8de-45d9-9c3c-b02e53676f9c",
         "created": "2022-06-03T18:12:09.995Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "ClearSky Siamesekitten August 2021",
@@ -251,27 +185,19 @@
                 "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 "
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has registered and operated domains for campaigns, often using a security or web technology theme or impersonating the targeted organization.(Citation: SecureWorks August 2019)(Citation: Dragos Hexane)(Citation: ClearSky Siamesekitten August 2021)",
         "modified": "2022-08-31T15:59:09.178Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--2c9905cb-74f6-482e-b346-99be8105111c",
         "created": "2022-06-16T13:21:12.717Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -279,27 +205,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-06-16T13:21:12.717Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "tool--64764dc6-a032-495f-8250-1e4c06bdc163",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--2cc576f4-9d7d-47e4-a6c5-a6910f8b5b62",
         "created": "2022-06-02T14:55:26.645Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "SecureWorks August 2019",
@@ -307,27 +225,19 @@
                 "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 "
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used brute force attacks to compromise valid credentials.(Citation: SecureWorks August 2019)",
         "modified": "2022-06-02T14:55:26.645Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--2ed90af5-43e7-4c81-b03d-6d4b54988d75",
         "created": "2022-06-15T15:17:30.412Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -335,27 +245,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used a scheduled task to establish persistence for a keylogger.(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-06-15T15:17:30.412Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--36693ec3-9b3c-4129-af32-b8372c75211c",
         "created": "2022-06-02T15:56:41.265Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "ClearSky Siamesekitten August 2021",
@@ -378,27 +280,19 @@
                 "description": "Shivtarkar, N. and Kumar, A. (2022, June 9). Lyceum .NET DNS Backdoor. Retrieved June 23, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has relied on victim's executing malicious file attachments delivered via email or embedded within actor-controlled websites to deliver malware.(Citation: SecureWorks August 2019)(Citation: Dragos Hexane)(Citation: ClearSky Siamesekitten August 2021)(Citation: Zscaler Lyceum DnsSystem June 2022)",
         "modified": "2022-09-01T15:19:56.618Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--3b9f9fae-f68a-419b-9551-5485f8851500",
         "created": "2022-07-07T14:17:38.865Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Microsoft POLONIUM June 2022",
@@ -406,27 +300,19 @@
                 "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used cloud services, including OneDrive, for data exfiltration.(Citation: Microsoft POLONIUM June 2022)",
         "modified": "2022-07-25T16:20:45.113Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--40563725-bb7f-40a2-b2da-c4cfd7799c13",
         "created": "2022-06-15T13:57:11.610Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Accenture Lyceum Targets November 2021",
@@ -439,27 +325,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Kaspersky Lyceum October 2021)(Citation: Accenture Lyceum Targets November 2021)",
         "modified": "2022-06-16T14:06:09.430Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "malware--99854cc8-f202-4e03-aa0a-4f8a4af93229",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--428a1a44-f1bc-4589-94de-946233489905",
         "created": "2022-06-06T18:10:57.367Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "ClearSky Siamesekitten August 2021",
@@ -467,27 +345,19 @@
                 "description": "ClearSky Cyber Security . (2021, August). New Iranian Espionage Campaign By \u201cSiamesekitten\u201d - Lyceum. Retrieved June 6, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has established fraudulent LinkedIn accounts impersonating HR department employees to target potential victims with fake job offers.(Citation: ClearSky Siamesekitten August 2021)",
         "modified": "2022-09-01T16:00:17.490Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--b1ccd744-3f78-4a0e-9bb2-2002057f7928",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--486e3108-33ad-4506-8031-7215acd5ff69",
         "created": "2022-06-16T13:19:35.869Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -495,27 +365,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used tools including [BITSAdmin](https://attack.mitre.org/software/S0190) to test internet connectivity from compromised hosts.(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-06-16T13:22:35.469Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--132d5b37-aac5-4378-a8dc-3127b18a73dc",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--4b4ccf27-d9e2-4cd9-b783-e8cdf354e6dc",
         "created": "2022-08-31T16:21:29.106Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Zscaler Lyceum DnsSystem June 2022",
@@ -523,17 +385,11 @@
                 "description": "Shivtarkar, N. and Kumar, A. (2022, June 9). Lyceum .NET DNS Backdoor. Retrieved June 23, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Zscaler Lyceum DnsSystem June 2022)",
         "modified": "2022-08-31T16:21:29.106Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "malware--8a2867f9-e8fc-4bf1-a860-ef6e46311900",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -542,7 +398,6 @@
         "type": "relationship",
         "id": "relationship--4f7d0afb-471e-42e9-9a65-8d8aa8635ac5",
         "created": "2024-02-09T19:27:00.297Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -550,28 +405,19 @@
                 "url": "https://vblocalhost.com/uploads/VB2021-Kayal-etal.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-09T19:27:00.297Z",
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used WMI event subscriptions for persistence.(Citation: Kaspersky Lyceum October 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--910906dd-8c0a-475a-9cc1-5e029e2fad58",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--5c8e77a8-03f4-4581-a893-a07016bc155f",
         "created": "2022-06-15T14:55:03.199Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -579,27 +425,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has run `net localgroup` to enumerate local groups.(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-08-31T14:50:40.921Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--a01bf75f-00b2-4568-a58f-565ff9bf202b",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--5ffa504a-4458-49af-affd-f392bf5dd0ef",
         "created": "2022-06-03T15:53:26.486Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "SecureWorks August 2019",
@@ -607,27 +445,19 @@
                 "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 "
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: SecureWorks August 2019)",
         "modified": "2022-06-03T15:53:26.486Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "malware--b8d48deb-450c-44f6-a934-ac8765aa89cb",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--6679b9ed-d9ec-4ff3-9961-24f39814f6d0",
         "created": "2022-06-16T13:47:39.025Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -635,27 +465,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used `net view` to enumerate domain machines.(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-06-16T13:47:39.025Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--66d2bbd8-1a92-4a5a-80d1-4a11860c64f3",
         "created": "2022-06-03T16:22:16.863Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "SecureWorks August 2019",
@@ -663,27 +485,19 @@
                 "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 "
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used remote desktop sessions for lateral movement.(Citation: SecureWorks August 2019)",
         "modified": "2022-06-03T16:22:16.863Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--6eca6ae2-3f86-4b45-86c4-0ac01dfd13dd",
         "created": "2022-06-02T14:58:49.299Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "SecureWorks August 2019",
@@ -691,27 +505,19 @@
                 "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 "
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used compromised accounts to send spearphishing emails.(Citation: SecureWorks August 2019)",
         "modified": "2022-06-02T14:58:49.299Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--76ef2eb1-a94c-4dd8-be1e-ccb63d577d9e",
         "created": "2022-06-02T14:54:09.829Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "SecureWorks August 2019",
@@ -719,27 +525,19 @@
                 "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 "
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used password spraying attacks to obtain valid credentials.(Citation: SecureWorks August 2019)",
         "modified": "2022-06-02T14:54:09.829Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--82c32444-f9a1-4370-b72c-2db8c91e9ac3",
         "created": "2022-07-07T14:20:51.131Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Microsoft POLONIUM June 2022",
@@ -747,17 +545,11 @@
                 "description": "Microsoft. (2022, June 2). Exposing POLONIUM activity and infrastructure targeting Israeli organizations. Retrieved July 1, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used cloud services, including OneDrive, for C2.(Citation: Microsoft POLONIUM June 2022)",
         "modified": "2022-08-08T21:26:35.675Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -766,8 +558,6 @@
         "type": "relationship",
         "id": "relationship--86a7e0a4-4fbd-4355-9428-f0b79249d225",
         "created": "2022-09-01T15:28:06.628Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -785,27 +575,19 @@
                 "url": "https://www.zscaler.com/blogs/security-research/lyceum-net-dns-backdoor"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-17T16:52:33.799Z",
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has acquired, and sometimes customized, open source tools such as [Mimikatz](https://attack.mitre.org/software/S0002), [Empire](https://attack.mitre.org/software/S0363), VNC remote access software, and DIG.net.(Citation: Kaspersky Lyceum October 2021)(Citation: SecureWorks August 2019)(Citation: Zscaler Lyceum DnsSystem June 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--9d588be8-f13d-458d-9480-f39ef82197d6",
         "created": "2022-06-15T15:07:36.549Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -813,27 +595,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used a [Mimikatz](https://attack.mitre.org/software/S0002)-based tool and a PowerShell script to steal passwords from Google Chrome.(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-06-15T15:07:36.549Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--9e0a0a20-e78f-491b-b828-934525bf160b",
         "created": "2022-06-03T15:59:34.583Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky APT Trends Q1 April 2021",
@@ -851,27 +625,19 @@
                 "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 "
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used PowerShell-based tools and scripts for discovery and collection on compromised hosts.(Citation: SecureWorks August 2019)(Citation: Kaspersky APT Trends Q1 April 2021)(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-06-15T15:08:27.134Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--a3e07b45-b35d-4d02-a266-34366a57f557",
         "created": "2022-06-06T18:20:02.590Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "ClearSky Siamesekitten August 2021",
@@ -879,27 +645,19 @@
                 "description": "ClearSky Cyber Security . (2021, August). New Iranian Espionage Campaign By \u201cSiamesekitten\u201d - Lyceum. Retrieved June 6, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has staged malware on fraudulent websites set up to impersonate targeted organizations.(Citation: ClearSky Siamesekitten August 2021)",
         "modified": "2022-06-06T18:20:02.590Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--a57d19ce-7a9a-4be5-ae59-a0b331bcc03a",
         "created": "2022-06-03T18:07:18.347Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "ClearSky Siamesekitten August 2021",
@@ -912,27 +670,19 @@
                 "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 "
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has targeted executives, human resources staff, and IT personnel for spearphishing.(Citation: SecureWorks August 2019)(Citation: ClearSky Siamesekitten August 2021)\n",
         "modified": "2022-06-06T15:46:37.770Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--aa83b2a0-9941-461f-b9be-a758315f0c4d",
         "created": "2022-06-03T16:10:56.515Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "SecureWorks August 2019",
@@ -940,27 +690,19 @@
                 "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 "
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: SecureWorks August 2019)",
         "modified": "2022-06-03T16:10:56.515Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--ad5e568c-376c-4ab8-be50-e965feb0c160",
         "created": "2022-06-15T13:56:07.037Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -968,27 +710,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has established email accounts for use in domain registration including for ProtonMail addresses.(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-06-15T13:56:07.037Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--ba2c0c39-5b92-45d1-827f-5f2b454d3981",
         "created": "2022-06-15T14:38:27.229Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -996,27 +730,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has run `whoami` on compromised machines to identify the current user.(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-06-15T14:38:27.229Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--bc0c33f3-211b-4b39-ac75-9d8693897b7f",
         "created": "2022-08-31T16:25:33.286Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -1024,27 +750,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has downloaded additional payloads and malicious scripts onto a compromised host.(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-08-31T16:25:33.286Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--bed01612-b213-44dc-aabc-19ea87ef28b8",
         "created": "2022-06-07T17:15:22.106Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "ClearSky Siamesekitten August 2021",
@@ -1057,27 +775,19 @@
                 "description": "Shivtarkar, N. and Kumar, A. (2022, June 9). Lyceum .NET DNS Backdoor. Retrieved June 23, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: ClearSky Siamesekitten August 2021)(Citation: Zscaler Lyceum DnsSystem June 2022)",
         "modified": "2022-06-24T14:48:41.138Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--c8470c56-2c81-4826-804c-44e53d87333f",
         "created": "2022-06-16T13:32:04.610Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -1085,27 +795,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used [netstat](https://attack.mitre.org/software/S0104) to monitor connections to specific ports.(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-08-31T14:51:30.431Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--cca0aac6-bdc2-48da-9b95-c24e41f5a116",
         "created": "2022-06-15T14:57:55.564Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -1113,17 +815,11 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has enumerated processes on targeted systems.(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-06-15T14:57:55.564Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1132,8 +828,6 @@
         "type": "relationship",
         "id": "relationship--cecdfe74-68df-4008-8d83-226d0de77782",
         "created": "2022-06-03T16:02:46.380Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -1146,27 +840,19 @@
                 "url": "https://www.secureworks.com/blog/lyceum-takes-center-stage-in-middle-east-campaign"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-14T18:38:01.791Z",
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used a PowerShell-based keylogger named `kl.ps1`.(Citation: SecureWorks August 2019)(Citation: Kaspersky Lyceum October 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--d3971408-ef1b-4aae-9477-3319a1b97523",
         "created": "2022-08-31T17:56:43.859Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -1174,17 +860,11 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has enumerated programs installed on an infected machine.(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-08-31T17:56:43.859Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1193,8 +873,6 @@
         "type": "relationship",
         "id": "relationship--d5d91a04-cdc9-404b-9c8f-7e91a266185d",
         "created": "2022-06-15T15:12:32.741Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -1202,27 +880,19 @@
                 "url": "https://vblocalhost.com/uploads/VB2021-Kayal-etal.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-14T18:36:51.942Z",
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used a VisualBasic script named `MicrosoftUpdator.vbs` for execution of a PowerShell keylogger.(Citation: Kaspersky Lyceum October 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--df6bb7e8-1971-4e8c-92cc-16727ac996dd",
         "created": "2022-06-15T14:58:57.309Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -1230,27 +900,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-06-15T14:58:57.309Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--e8713274-bcbc-4c18-bf06-2c2a0c01d2ba",
         "created": "2022-06-03T16:08:45.331Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "SecureWorks August 2019",
@@ -1258,27 +920,19 @@
                 "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 "
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used a PowerShell-based keylogging tool to capture the window title.(Citation: SecureWorks August 2019)",
         "modified": "2022-06-03T16:08:45.331Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--4ae4f953-fe58-4cc8-a327-33257e30a830",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--e966a89a-eef3-4be4-9ea1-ded6da1315cd",
         "created": "2022-06-15T13:57:33.485Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky Lyceum October 2021",
@@ -1286,27 +940,19 @@
                 "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Kaspersky Lyceum October 2021)",
         "modified": "2022-06-15T13:57:33.485Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "malware--e7863f5d-cb6a-4f81-8804-0a635eec160a",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--ecce47d4-c937-4feb-8ebf-4e2eb496725d",
         "created": "2022-06-06T15:50:33.497Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "ClearSky Siamesekitten August 2021",
@@ -1319,27 +965,19 @@
                 "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 "
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has identified executives, HR, and IT staff at victim organizations for further targeting.(Citation: SecureWorks August 2019)(Citation: ClearSky Siamesekitten August 2021)",
         "modified": "2022-06-06T15:50:33.497Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--cc723aff-ec88-40e3-a224-5af9fd983cc4",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--f612ed23-f9c3-4527-b23a-3361f90f5fe1",
         "created": "2022-06-03T16:12:03.241Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "SecureWorks August 2019",
@@ -1347,27 +985,19 @@
                 "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 "
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: SecureWorks August 2019)",
         "modified": "2022-06-03T16:12:03.241Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "tool--4b57c098-f043-4da2-83ef-7588a6d426bc",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--f635daec-033b-4d91-afa6-4a6f44f9dddb",
         "created": "2022-06-24T13:52:25.664Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Zscaler Lyceum DnsSystem June 2022",
@@ -1375,27 +1005,19 @@
                 "description": "Shivtarkar, N. and Kumar, A. (2022, June 9). Lyceum .NET DNS Backdoor. Retrieved June 23, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has set up custom DNS servers to send commands to compromised hosts via TXT records.(Citation: Zscaler Lyceum DnsSystem June 2022)",
         "modified": "2022-06-24T13:52:25.664Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--197ef1b9-e764-46c3-b96c-23f77985dc81",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--f6a8aba6-d711-45bd-a99e-7a12b8c72ae0",
         "created": "2022-06-06T18:07:01.260Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "SecureWorks August 2019",
@@ -1403,17 +1025,11 @@
                 "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 "
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has conducted internal spearphishing attacks against executives, HR, and IT personnel to gain information and access.(Citation: SecureWorks August 2019)",
         "modified": "2022-06-06T18:07:01.260Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
         "target_ref": "attack-pattern--9e7452df-5144-4b6e-b04a-b66dd4016747",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

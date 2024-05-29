@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--0c393451-a750-4c8a-81be-4d0e9e84a6eb",
         "created": "2020-03-20T18:43:10.704Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Novetta-Axiom",
@@ -12,17 +10,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.672Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) has used steganography to hide its C2 communications.(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--eec23884-3fa1-4d8a-ac50-6f104d51e235",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -31,8 +23,6 @@
         "type": "relationship",
         "id": "relationship--161c58eb-29d7-4de3-aca8-3bda085f19a3",
         "created": "2022-04-15T15:46:02.250Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Novetta-Axiom",
@@ -40,27 +30,19 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.674Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) has collected data from a compromised network.(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1aee1049-89be-45b8-ae2f-83bf4e35d5a3",
         "type": "relationship",
         "created": "2019-09-24T13:32:51.555Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos ZxShell Oct 2014",
@@ -78,22 +60,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "malware--cfc75b0d-e579-40ae-ad07-a1ce00d49a6c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--2202d670-a6f3-42eb-ae1b-1ae615c3b620",
         "created": "2022-01-07T16:19:16.964Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Novetta-Axiom",
@@ -101,17 +75,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.674Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) has compressed and encrypted data prior to exfiltration.(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -120,8 +88,6 @@
         "type": "relationship",
         "id": "relationship--324a715b-5d89-41a1-957e-3214badee119",
         "created": "2022-01-07T15:57:14.853Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Novetta-Axiom",
@@ -129,27 +95,19 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.676Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) has used large groups of compromised machines for use as proxy nodes.(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--810d8072-afb6-4a56-9ee7-86379ac4a6f3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--37880f36-c47a-4d1f-aedf-bb7d9fb2fd9f",
         "type": "relationship",
         "created": "2022-01-05T16:06:56.732Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cisco Group 72",
@@ -162,22 +120,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--4f8411e1-71c2-46da-a789-9403c4b1f967",
         "created": "2022-01-05T16:16:01.347Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Group 72",
@@ -190,17 +140,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.676Z",
         "description": "(Citation: Cisco Group 72)(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -209,8 +153,6 @@
         "type": "relationship",
         "id": "relationship--5329433a-2e84-4f56-b933-01620892e333",
         "created": "2022-01-09T22:09:04.144Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Novetta-Axiom",
@@ -218,17 +160,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.677Z",
         "description": "(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "malware--fb28627c-d6ea-4c35-b138-ab5e96ae5445",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -237,8 +173,6 @@
         "type": "relationship",
         "id": "relationship--5ee26367-1517-4fda-9dbe-8f9e63cc01eb",
         "created": "2022-01-05T16:16:01.343Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Group 72",
@@ -251,17 +185,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.677Z",
         "description": "(Citation: Cisco Group 72)(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -270,8 +198,6 @@
         "type": "relationship",
         "id": "relationship--64aa92d9-abdb-494c-8646-8548aa7c25a5",
         "created": "2022-01-07T15:34:48.209Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Novetta-Axiom",
@@ -279,17 +205,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.678Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) has used digital certificates to deliver malware.(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--b83e166d-13d7-4b52-8677-dff90c548fd7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -298,8 +218,6 @@
         "type": "relationship",
         "id": "relationship--70f3eaca-179d-4412-ad32-c4e3cf60c27c",
         "created": "2017-05-31T21:33:27.031Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Novetta-Axiom",
@@ -307,17 +225,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.679Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) has used RDP during operations.(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -326,8 +238,6 @@
         "type": "relationship",
         "id": "relationship--7a51cf35-ac6e-4954-8864-8aa48a4bebbf",
         "created": "2022-01-07T16:33:31.692Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Novetta-Axiom",
@@ -335,27 +245,19 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.680Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) has acquired dynamic DNS services for use in the targeting of intended victims.(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--197ef1b9-e764-46c3-b96c-23f77985dc81",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7ab16f65-9be6-46ec-8c2c-96f58e089df0",
         "type": "relationship",
         "created": "2022-01-05T16:06:56.376Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cisco Group 72",
@@ -368,22 +270,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--8a83df94-30d3-4d4b-94c0-d988e3fcfc33",
         "created": "2022-01-07T16:08:48.563Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Novetta-Axiom",
@@ -391,17 +285,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.680Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) has used previously compromised administrative accounts to escalate privileges.(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -410,8 +298,6 @@
         "type": "relationship",
         "id": "relationship--a12a296d-3cdb-4a49-840a-4ecd073b5312",
         "created": "2022-01-07T16:31:01.445Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Novetta-Axiom",
@@ -419,17 +305,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.681Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) has used VPS hosting providers in targeting of intended victims.(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--79da0971-3147-4af6-a4f5-e8cd447cd795",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -438,8 +318,6 @@
         "type": "relationship",
         "id": "relationship--a78310c3-ee57-465a-9983-13c6a7cd1d4f",
         "created": "2022-01-07T16:19:16.847Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Novetta-Axiom",
@@ -447,17 +325,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.682Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) has targeted victims with remote administration tools including RDP.(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--e0033c16-a07e-48aa-8204-7c3ca669998c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -466,8 +338,6 @@
         "type": "relationship",
         "id": "relationship--a8122755-90fe-4b68-8fa1-55ed7be90931",
         "created": "2017-05-31T21:33:27.032Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Group 72",
@@ -480,17 +350,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.682Z",
         "description": "(Citation: Novetta-Axiom)(Citation: Cisco Group 72)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "malware--95047f03-4811-4300-922e-1ba937d53a61",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -499,8 +363,6 @@
         "type": "relationship",
         "id": "relationship--abe1a402-9ad5-43d0-9e5d-cabe4269fc06",
         "created": "2022-01-05T16:16:01.339Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Group 72",
@@ -513,17 +375,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.683Z",
         "description": "(Citation: Cisco Group 72)(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "malware--b42378e0-f147-496f-992a-26a49705395b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -532,8 +388,6 @@
         "type": "relationship",
         "id": "relationship--b9f4c6ef-d0bd-4651-9445-4705e1fd85f2",
         "created": "2017-05-31T21:33:27.031Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Novetta-Axiom",
@@ -541,17 +395,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.684Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) actors have been known to use the Sticky Keys replacement within RDP sessions to obtain persistence.(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--70e52b04-2a0c-4cea-9d18-7149f1df9dc5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -560,8 +408,6 @@
         "type": "relationship",
         "id": "relationship--d738cc0a-6d6f-41d9-88d0-9fe83bacad55",
         "created": "2022-01-05T16:06:56.725Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Group 72",
@@ -574,17 +420,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.686Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) has used spear phishing to initially compromise victims.(Citation: Cisco Group 72)(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--a62a8db3-f23a-4d8f-afd6-9dbc77e7813b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -593,8 +433,6 @@
         "type": "relationship",
         "id": "relationship--e11a3d87-d9cf-4dcf-b722-fef4b0a324b4",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Group 72",
@@ -607,17 +445,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.689Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) has been observed using SQL injection to gain access to systems.(Citation: Novetta-Axiom)(Citation: Cisco Group 72)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -626,8 +458,6 @@
         "type": "relationship",
         "id": "relationship--e4c7c4b7-fe19-4433-acd9-ec94f436f381",
         "created": "2017-05-31T21:33:27.032Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Group 72",
@@ -640,17 +470,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.689Z",
         "description": "(Citation: Novetta-Axiom)(Citation: Cisco Group 72)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -659,8 +483,6 @@
         "type": "relationship",
         "id": "relationship--f0094ba8-a513-49bf-a5d7-961aaab13380",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Group 72",
@@ -673,17 +495,11 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.690Z",
         "description": "(Citation: Novetta-Axiom)(Citation: Cisco Group 72)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -692,8 +508,6 @@
         "type": "relationship",
         "id": "relationship--fad2a504-6e00-4892-bf88-b49d6d18788c",
         "created": "2017-05-31T21:33:27.031Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Novetta-Axiom",
@@ -701,41 +515,27 @@
                 "url": "https://web.archive.org/web/20230115144216/http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-20T22:03:44.691Z",
         "description": "[Axiom](https://attack.mitre.org/groups/G0001) has been known to dump credentials.(Citation: Novetta-Axiom)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
         "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--f837cc68-8715-4301-ae15-bf89c8b1f7ee",
         "description": "The [Axiom](https://attack.mitre.org/groups/G0001) group has used other forms of obfuscation, include commingling legitimate traffic with communications traffic so that network streams appear legitimate.",
         "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
         "modified": "2022-04-25T14:00:00.188Z",
         "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "created": "2017-05-31T21:33:27.031Z",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "external_references": null,
-        "revoked": null
+        "external_references": null
     }
 ]

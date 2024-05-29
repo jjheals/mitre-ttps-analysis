@@ -3,7 +3,6 @@
         "type": "relationship",
         "id": "relationship--046310ee-386b-4ed6-a623-6436341b8b8c",
         "created": "2022-10-11T19:20:27.044Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -11,28 +10,19 @@
                 "url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-11T19:20:27.044Z",
         "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) has used batch scripts that can enable SMB on a compromised host.(Citation: Checkpoint MosesStaff Nov 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--0ff5be0c-a9f8-4c21-9100-4033878be61e",
         "created": "2022-08-11T22:56:44.570Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -40,17 +30,11 @@
                 "description": "Checkpoint Research. (2021, November 15). Uncovering MosesStaff techniques: Ideology over Money. Retrieved August 11, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Checkpoint MosesStaff Nov 2021)",
         "modified": "2022-08-11T22:56:44.570Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "malware--2ac41e8b-4865-4ced-839d-78e7852c47f3",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -59,8 +43,6 @@
         "type": "relationship",
         "id": "relationship--209d5669-2e7e-4621-905a-f22ba07f06d6",
         "created": "2022-08-11T22:54:46.410Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -68,17 +50,11 @@
                 "url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-11T19:23:40.115Z",
         "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) has collected the domain name of a compromised network.(Citation: Checkpoint MosesStaff Nov 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -87,7 +63,6 @@
         "type": "relationship",
         "id": "relationship--24892996-c220-4d25-92d8-7db597873090",
         "created": "2022-10-11T19:18:15.522Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -95,28 +70,19 @@
                 "url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-11T19:18:15.522Z",
         "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) has collected the administrator username from a compromised host.(Citation: Checkpoint MosesStaff Nov 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--335efe06-4f71-43cb-ab93-c812157d0078",
         "created": "2022-08-11T23:07:16.386Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -124,27 +90,19 @@
                 "description": "Checkpoint Research. (2021, November 15). Uncovering MosesStaff techniques: Ideology over Money. Retrieved August 11, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Checkpoint MosesStaff Nov 2021)",
         "modified": "2022-08-11T23:07:16.386Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--4d106c44-26fd-438b-99c4-6c2ce1bb1084",
         "created": "2022-08-11T22:56:31.941Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -152,17 +110,11 @@
                 "description": "Checkpoint Research. (2021, November 15). Uncovering MosesStaff techniques: Ideology over Money. Retrieved August 11, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Checkpoint MosesStaff Nov 2021)",
         "modified": "2022-08-11T22:56:31.942Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "malware--5633ffd3-81ef-4f98-8f93-4896b03998f0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -171,8 +123,6 @@
         "type": "relationship",
         "id": "relationship--536e8b4c-af1b-44da-aba7-e46068ced103",
         "created": "2022-08-11T22:56:11.528Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -180,27 +130,19 @@
                 "url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-11T19:24:38.306Z",
         "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) collected information about the infected host, including the machine names and OS architecture.(Citation: Checkpoint MosesStaff Nov 2021)\n",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--610421e6-aa2f-4756-817b-57458e4959ad",
         "created": "2022-08-15T17:08:57.478Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Cybereason StrifeWater Feb 2022",
@@ -208,17 +150,11 @@
                 "description": "Cybereason Nocturnus. (2022, February 1). StrifeWater RAT: Iranian APT Moses Staff Adds New Trojan to Ransomware Operations. Retrieved August 15, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Cybereason StrifeWater Feb 2022)",
         "modified": "2022-08-15T17:08:57.478Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "malware--fb78294a-7d7a-4d38-8ad0-92e67fddc9f0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -227,7 +163,6 @@
         "type": "relationship",
         "id": "relationship--6d8718c4-9abe-41fc-b048-472da9d70b5c",
         "created": "2022-10-11T19:23:11.311Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -235,18 +170,11 @@
                 "url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-11T19:23:11.311Z",
         "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) has used batch scripts that can disable the Windows firewall on specific remote machines.(Citation: Checkpoint MosesStaff Nov 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "attack-pattern--5372c5fe-f424-4def-bcd5-d3a8e770f07b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -255,8 +183,6 @@
         "type": "relationship",
         "id": "relationship--8019fbd7-b72e-42aa-8685-60e8138db932",
         "created": "2022-08-11T22:51:45.029Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -264,17 +190,11 @@
                 "url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-13T21:04:58.405Z",
         "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) has used the commercial tool DiskCryptor.(Citation: Checkpoint MosesStaff Nov 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -283,8 +203,6 @@
         "type": "relationship",
         "id": "relationship--880a83f9-a07a-436d-8aa4-1afbe8b66d57",
         "created": "2022-08-11T22:50:14.770Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -292,17 +210,11 @@
                 "url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-11T19:25:09.061Z",
         "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) has dropped a web shell onto a compromised system.(Citation: Checkpoint MosesStaff Nov 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -311,8 +223,6 @@
         "type": "relationship",
         "id": "relationship--8b9d30d9-7546-4fc0-87cb-1e432fe788e8",
         "created": "2022-08-11T22:52:42.978Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -320,17 +230,11 @@
                 "url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-13T21:03:29.292Z",
         "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) has built malware, such as [DCSrv](https://attack.mitre.org/software/S1033) and [PyDCrypt](https://attack.mitre.org/software/S1032), for targeting victims' machines.(Citation: Checkpoint MosesStaff Nov 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -339,7 +243,6 @@
         "type": "relationship",
         "id": "relationship--8e0d4a0f-efad-4ee8-bbda-f708dca5ebe6",
         "created": "2022-10-11T19:13:25.140Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -347,18 +250,11 @@
                 "url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-11T19:13:25.140Z",
         "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) has used signed drivers from an open source tool called DiskCryptor to evade detection.(Citation: Checkpoint MosesStaff Nov 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -367,8 +263,6 @@
         "type": "relationship",
         "id": "relationship--a56ece45-a76c-4b19-8999-6dde50b48409",
         "created": "2022-08-11T22:53:59.022Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -376,27 +270,19 @@
                 "url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-11T00:39:40.582Z",
         "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) has used obfuscated web shells in their operations.(Citation: Checkpoint MosesStaff Nov 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--cdef12f4-7353-4edc-90d7-f6f7f7a13e7d",
         "created": "2022-08-11T23:01:21.573Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -404,17 +290,11 @@
                 "description": "Checkpoint Research. (2021, November 15). Uncovering MosesStaff techniques: Ideology over Money. Retrieved August 11, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) has downloaded and installed web shells to following path <code>C:\\inetpub\\wwwroot\\aspnet_client\\system_web\\IISpool.aspx</code>.(Citation: Checkpoint MosesStaff Nov 2021)",
         "modified": "2022-08-11T23:01:21.573Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -423,8 +303,6 @@
         "type": "relationship",
         "id": "relationship--cf1d394d-a767-40a8-be7a-87c17531dfdb",
         "created": "2022-08-11T22:48:44.025Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -432,17 +310,11 @@
                 "url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-13T21:03:59.166Z",
         "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) has exploited known vulnerabilities in public-facing infrastructure such as Microsoft Exchange Servers.(Citation: Checkpoint MosesStaff Nov 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

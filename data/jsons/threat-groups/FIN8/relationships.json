@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--060e7485-d2a9-4aa2-a742-58f7e4e6086a",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -17,22 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1083404f-57df-48dc-a3b9-8c60fb5fd2f7",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -45,22 +35,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--177950ec-8f25-4243-8d9d-a15e24ff7c98",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -73,21 +55,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--17bace22-3930-4b7e-9fd1-1473da5496ff",
         "created": "2023-09-06T15:36:26.470Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Symantec FIN8 Jul 2023",
@@ -95,28 +70,19 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/syssphinx-fin8-backdoor"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-06T15:36:26.470Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has executed the command `quser` to display the session details of a compromised machine.(Citation: Symantec FIN8 Jul 2023) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1ce61b6a-b1fd-4e21-874a-774a1487fa12",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -129,22 +95,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--201802a3-afae-4c10-a125-0fc4fd62f1d2",
         "created": "2023-09-06T15:06:34.897Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Bitdefender Sardonic Aug 2021",
@@ -152,17 +110,11 @@
                 "url": "https://www.bitdefender.com/files/News/CaseStudies/study/401/Bitdefender-PR-Whitepaper-FIN8-creat5619-en-EN.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:34:13.634Z",
         "description": "(Citation: Bitdefender Sardonic Aug 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -171,8 +123,6 @@
         "type": "relationship",
         "id": "relationship--2275a778-0ba1-40a7-8421-1659dc2e38d4",
         "created": "2023-08-01T18:21:24.875Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "BitDefender BADHATCH Mar 2021",
@@ -180,27 +130,19 @@
                 "url": "https://www.bitdefender.com/files/News/CaseStudies/study/394/Bitdefender-PR-Whitepaper-BADHATCH-creat5237-en-EN.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:35:02.557Z",
         "description": "(Citation: BitDefender BADHATCH Mar 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "malware--3553b49d-d4ae-4fb6-ab17-0adbc520c888",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--31a6eec8-0281-4973-a2af-ebf30e317a9f",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -213,22 +155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--331e59e9-0d10-4c2d-ba92-e8eb0de1cc95",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -241,22 +175,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--3a20f6f1-0e1b-4d8e-8461-eb41e4c6b5da",
         "created": "2023-09-06T15:54:17.401Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Bitdefender Sardonic Aug 2021",
@@ -264,17 +190,11 @@
                 "url": "https://www.bitdefender.com/files/News/CaseStudies/study/401/Bitdefender-PR-Whitepaper-FIN8-creat5619-en-EN.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:34:13.637Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used open-source tools such as [Impacket](https://attack.mitre.org/software/S0357) for targeting efforts.(Citation: Bitdefender Sardonic Aug 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -283,8 +203,6 @@
         "type": "relationship",
         "id": "relationship--3aacea96-941f-4a1d-8981-36d2a0e62cf3",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Obfuscation June 2017",
@@ -302,17 +220,11 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2016/05/windows-zero-day-payment-cards.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:31:34.136Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used malicious e-mail attachments to lure victims into executing malware.(Citation: FireEye Obfuscation June 2017)(Citation: FireEye Fin8 May 2016)(Citation: FireEye Know Your Enemy FIN8 Aug 2016)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -321,8 +233,6 @@
         "type": "relationship",
         "id": "relationship--3b72eb79-c499-4f2a-b6aa-464bb3bbd42d",
         "created": "2023-09-06T15:57:28.499Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Bitdefender Sardonic Aug 2021",
@@ -330,17 +240,11 @@
                 "url": "https://www.bitdefender.com/files/News/CaseStudies/study/401/Bitdefender-PR-Whitepaper-FIN8-creat5619-en-EN.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:34:13.637Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used an expired open-source X.509 certificate for testing in the OpenSSL repository, to connect to actor-controlled C2 servers.(Citation: Bitdefender Sardonic Aug 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--e7cbc1de-1f79-48ee-abfd-da1241c65a15",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -349,8 +253,6 @@
         "type": "relationship",
         "id": "relationship--45626c7f-c401-427b-9589-c91a4b2a4f7f",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Know Your Enemy FIN8 Aug 2016",
@@ -363,27 +265,19 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2016/05/windows-zero-day-payment-cards.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:31:34.138Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has exploited the CVE-2016-0167 local vulnerability.(Citation: FireEye Fin8 May 2016)(Citation: FireEye Know Your Enemy FIN8 Aug 2016)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5014ed30-309e-4bed-af86-ec5603736342",
         "type": "relationship",
         "created": "2021-09-15T14:37:10.436Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender FIN8 July 2021",
@@ -396,22 +290,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--910906dd-8c0a-475a-9cc1-5e029e2fad58",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--52e319bc-d6ee-4ab5-a3ae-36f0477cac67",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -424,22 +310,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--55ea8954-9b81-45e4-89c9-a6b55f5b2541",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -452,22 +330,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--5a374aec-ae82-4c99-bbc2-34c4050a9932",
         "created": "2020-03-17T14:22:49.622Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Obfuscation June 2017",
@@ -485,17 +355,11 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2016/05/windows-zero-day-payment-cards.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:31:34.138Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used emails with malicious links to lure victims into installing malware.(Citation: FireEye Obfuscation June 2017)(Citation: FireEye Fin8 May 2016)(Citation: FireEye Know Your Enemy FIN8 Aug 2016)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -504,8 +368,6 @@
         "type": "relationship",
         "id": "relationship--5b5f2424-ff4e-43ab-a08f-fab2b284041d",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Fin8 May 2016",
@@ -513,27 +375,19 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2016/05/windows-zero-day-payment-cards.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:31:34.139Z",
         "description": "(Citation: FireEye Fin8 May 2016)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--68a9519f-c65a-451e-9126-5946ac6844c6",
         "type": "relationship",
         "created": "2021-09-08T17:56:27.018Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender FIN8 July 2021",
@@ -546,21 +400,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--692e5a04-1f20-4597-8f64-15749c9b90e9",
         "created": "2023-09-06T15:02:13.543Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Symantec FIN8 Jul 2023",
@@ -568,18 +415,11 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/syssphinx-fin8-backdoor"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-06T15:02:13.543Z",
         "description": "(Citation: Symantec FIN8 Jul 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "malware--54895630-efd2-4608-9c24-319de972a9eb",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -588,8 +428,6 @@
         "type": "relationship",
         "id": "relationship--6b651165-e444-4272-a218-32e728558208",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Fin8 May 2016",
@@ -597,27 +435,19 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2016/05/windows-zero-day-payment-cards.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:31:34.140Z",
         "description": "(Citation: FireEye Fin8 May 2016)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "malware--c4de7d83-e875-4c88-8b5d-06c41e5b7e79",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--76bd87d6-517e-4294-b4c5-a5a01308bf35",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -630,22 +460,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "tool--38952eac-cb1b-4a71-bad2-ee8223a1c8fe",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--82ce1bf6-b1a1-4a82-9c86-8ff372d6a873",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Obfuscation June 2017",
@@ -663,17 +485,11 @@
                 "url": "https://businessinsights.bitdefender.com/deep-dive-into-a-fin8-attack-a-forensic-investigation"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-22T03:52:43.817Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used environment variables and standard input (stdin) to obfuscate command-line arguments. [FIN8](https://attack.mitre.org/groups/G0061) also obfuscates malicious macros delivered as payloads.(Citation: FireEye Obfuscation June 2017)(Citation: FireEye Know Your Enemy FIN8 Aug 2016)(Citation: Bitdefender FIN8 July 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -682,8 +498,6 @@
         "type": "relationship",
         "id": "relationship--92bc1e7b-6700-4d11-b82e-24284f30c2d7",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Know Your Enemy FIN8 Aug 2016",
@@ -696,17 +510,11 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/syssphinx-fin8-backdoor"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T16:50:11.983Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has deleted tmp and prefetch files during post compromise cleanup activities. [FIN8](https://attack.mitre.org/groups/G0061) has also deleted PowerShell scripts to evade detection on compromised machines.(Citation: FireEye Know Your Enemy FIN8 Aug 2016)(Citation: Symantec FIN8 Jul 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -715,8 +523,6 @@
         "type": "relationship",
         "id": "relationship--9c1ec4da-96d9-4173-b944-77c341a19572",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Obfuscation June 2017",
@@ -734,27 +540,19 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2016/05/windows-zero-day-payment-cards.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:31:34.140Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has distributed targeted emails containing Word documents with embedded malicious macros.(Citation: FireEye Obfuscation June 2017)(Citation: FireEye Fin8 May 2016)(Citation: FireEye Know Your Enemy FIN8 Aug 2016)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a1c0db19-e187-480b-85d4-6e5672480d33",
         "type": "relationship",
         "created": "2021-09-15T14:37:10.659Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender FIN8 July 2021",
@@ -767,22 +565,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--a83e6a0f-fc31-472f-bffd-135dfc5ce683",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Bitdefender Sardonic Aug 2021",
@@ -795,27 +585,19 @@
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T14:40:50.929Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has attempted to map to C$ on enumerated hosts to test the scope of their current credentials/context. [FIN8](https://attack.mitre.org/groups/G0061) has also used smbexec from the [Impacket](https://attack.mitre.org/software/S0357) suite for lateral movement.(Citation: FireEye Know Your Enemy FIN8 Aug 2016)(Citation: Bitdefender Sardonic Aug 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b6e427c5-ae51-4240-b91e-3c417cc4e1f0",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -828,22 +610,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b8df1d2c-f014-4f51-a277-8050adafb865",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -856,22 +630,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--359b00ad-9425-420b-bba5-6de8d600cbc0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bc1c5d97-5e95-4ba3-bf61-ffe3de56d508",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -884,22 +650,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bf26ba18-224d-421f-8fc7-3748dd2fe9bd",
         "type": "relationship",
         "created": "2021-10-07T16:37:51.651Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender FIN8 July 2021",
@@ -912,22 +670,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "tool--981acc4c-2ede-4b56-be6e-fa1a75f37acf",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--c3dd754d-3e2b-4761-8d21-2e7a52fc6616",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Fin8 May 2016",
@@ -940,17 +690,11 @@
                 "url": "https://businessinsights.bitdefender.com/deep-dive-into-a-fin8-attack-a-forensic-investigation"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:31:34.141Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used remote code execution to download subsequent payloads.(Citation: FireEye Fin8 May 2016)(Citation: Bitdefender FIN8 July 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -959,8 +703,6 @@
         "type": "relationship",
         "id": "relationship--c8342b87-ceea-40e0-a9ad-11b72aa1378f",
         "created": "2023-09-06T15:44:23.245Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Symantec FIN8 Jul 2023",
@@ -968,17 +710,11 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/syssphinx-fin8-backdoor"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T16:29:31.627Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used PowerShell Scripts to check the architecture of a compromised machine before the selection of a 32-bit or 64-bit version of a malicious .NET loader.(Citation: Symantec FIN8 Jul 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -987,8 +723,6 @@
         "type": "relationship",
         "id": "relationship--cd001a55-ed41-4109-9090-41bebed9113a",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Obfuscation June 2017",
@@ -1011,17 +745,11 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/syssphinx-fin8-backdoor"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-06T15:38:23.088Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061)'s malicious spearphishing payloads are executed as [PowerShell](https://attack.mitre.org/techniques/T1059/001). [FIN8](https://attack.mitre.org/groups/G0061) has also used [PowerShell](https://attack.mitre.org/techniques/T1059/001) for lateral movement and credential access.(Citation: FireEye Obfuscation June 2017)(Citation: Bitdefender FIN8 July 2021)(Citation: FireEye Know Your Enemy FIN8 Aug 2016)(Citation: Symantec FIN8 Jul 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1030,8 +758,6 @@
         "type": "relationship",
         "id": "relationship--ce5e362a-3403-4d91-b362-cc5314b84a95",
         "created": "2023-09-05T17:43:57.593Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Bitdefender Sardonic Aug 2021",
@@ -1044,17 +770,11 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/syssphinx-fin8-backdoor"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:34:13.644Z",
         "description": "(Citation: Bitdefender Sardonic Aug 2021)(Citation: Symantec FIN8 Jul 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "malware--0c52f5bc-557d-4083-bd27-66d7cdb794bb",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1063,7 +783,6 @@
         "type": "relationship",
         "id": "relationship--d7dd3cdf-f928-4ca3-8fba-0c948eb36c16",
         "created": "2023-09-06T15:02:47.746Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Symantec FIN8 Jul 2023",
@@ -1071,18 +790,11 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/syssphinx-fin8-backdoor"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-06T15:02:47.746Z",
         "description": "(Citation: Symantec FIN8 Jul 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1091,8 +803,6 @@
         "type": "relationship",
         "id": "relationship--e090281c-4ab9-4b6f-ab63-f22606f7e620",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Obfuscation June 2017",
@@ -1115,27 +825,19 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/syssphinx-fin8-backdoor"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-06T15:42:22.918Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used a Batch file to automate frequently executed post compromise cleanup activities.(Citation: FireEye Know Your Enemy FIN8 Aug 2016) [FIN8](https://attack.mitre.org/groups/G0061) has also executed commands remotely via `cmd.exe`.(Citation: FireEye Obfuscation June 2017)(Citation: Bitdefender FIN8 July 2021)(Citation: Symantec FIN8 Jul 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e4c23aa3-edf1-4f6e-ae86-f709d7c306ee",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -1148,22 +850,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--eda4c39d-9615-4c5f-8086-64150137df7f",
         "type": "relationship",
         "created": "2021-10-07T16:37:51.341Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender FIN8 July 2021",
@@ -1176,22 +870,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--7c0f17c9-1af6-4628-9cbd-9e45482dd605",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ee46b157-d368-42e4-98f6-b76f6e65c9bd",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -1209,21 +895,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--f36a77f2-dfab-4636-a796-67e6416031ef",
         "created": "2023-09-06T15:35:41.465Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Symantec FIN8 Jul 2023",
@@ -1231,18 +910,11 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/syssphinx-fin8-backdoor"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-06T15:35:41.465Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has deployed ransomware such as [Ragnar Locker](https://attack.mitre.org/software/S0481), White Rabbit, and attempted to execute Noberus on compromised networks.(Citation: Symantec FIN8 Jul 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1251,8 +923,6 @@
         "type": "relationship",
         "id": "relationship--f5f833ab-9ee4-477b-854a-b7b4446761ba",
         "created": "2021-09-08T17:40:25.440Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Bitdefender FIN8 July 2021",
@@ -1260,27 +930,19 @@
                 "url": "https://businessinsights.bitdefender.com/deep-dive-into-a-fin8-attack-a-forensic-investigation"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T14:44:04.552Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has retrieved a list of trusted domains by using <code>nltest.exe /domain_trusts</code>.(Citation: Bitdefender FIN8 July 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--767dbf9e-df3f-45cb-8998-4903ab5f80c0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f8ff17c3-2921-40c2-b4a9-19ee7678397a",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -1293,22 +955,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--f950b817-9082-4299-a310-6b48fc347ebc",
         "created": "2021-09-08T17:56:27.072Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Bitdefender FIN8 July 2021",
@@ -1321,17 +975,11 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/syssphinx-fin8-backdoor"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-06T15:50:11.062Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used a malicious framework designed to impersonate the lsass.exe/vmtoolsd.exe token.(Citation: Bitdefender FIN8 July 2021)(Citation: Symantec FIN8 Jul 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--86850eff-2729-40c3-b85e-c4af26da4a2d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1340,8 +988,6 @@
         "type": "relationship",
         "id": "relationship--fd135724-b4b3-470a-95c6-43191f99dcb6",
         "created": "2023-09-06T15:55:04.737Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Bitdefender Sardonic Aug 2021",
@@ -1349,17 +995,11 @@
                 "url": "https://www.bitdefender.com/files/News/CaseStudies/study/401/Bitdefender-PR-Whitepaper-FIN8-creat5619-en-EN.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:34:13.647Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used the [Ping](https://attack.mitre.org/software/S0097) command to check connectivity to actor-controlled C2 servers.(Citation: Bitdefender Sardonic Aug 2021) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--132d5b37-aac5-4378-a8dc-3127b18a73dc",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1368,8 +1008,6 @@
         "type": "relationship",
         "id": "relationship--fd763f17-409d-428b-825c-f731b0ad88cc",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Obfuscation June 2017",
@@ -1392,17 +1030,11 @@
                 "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/syssphinx-fin8-backdoor"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-06T15:48:48.987Z",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061)'s malicious spearphishing payloads use WMI to launch malware and spawn `cmd.exe` execution. [FIN8](https://attack.mitre.org/groups/G0061) has also used WMIC and the [Impacket](https://attack.mitre.org/software/S0357) suite for lateral movement, as well as during and post compromise cleanup activities.(Citation: FireEye Obfuscation June 2017)(Citation: Bitdefender FIN8 July 2021)(Citation: FireEye Know Your Enemy FIN8 Aug 2016)(Citation: Symantec FIN8 Jul 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1411,8 +1043,6 @@
         "type": "relationship",
         "id": "relationship--febe1cf5-d8b5-4218-b32d-1e9ea10eab7f",
         "created": "2021-09-08T17:40:26.535Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Bitdefender Sardonic Aug 2021",
@@ -1425,27 +1055,19 @@
                 "url": "https://businessinsights.bitdefender.com/deep-dive-into-a-fin8-attack-a-forensic-investigation"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-19T13:34:13.649Z",
         "description": "(Citation: Bitdefender FIN8 July 2021)(Citation: Bitdefender Sardonic Aug 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9da92f82-172d-4375-9bcd-f148bfe13418",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
@@ -1458,26 +1080,18 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
         "description": "[FIN8](https://attack.mitre.org/groups/G0061) executes commands remotely via cmd.exe.",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "created": "2018-04-18T17:59:24.739Z",
         "id": "relationship--ac33e30a-5abb-4267-a220-2f844cce45e4",
         "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
         "modified": "2020-03-31T14:49:39.188Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "FireEye Obfuscation June 2017",
@@ -1486,14 +1100,8 @@
             }
         ],
         "relationship_type": "uses",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

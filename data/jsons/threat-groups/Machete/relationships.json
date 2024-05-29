@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0f880e99-efaa-4e85-91c3-cac3d81d6b9a",
         "type": "relationship",
         "created": "2019-10-15T22:28:40.394Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "The Cylance Threat Research Team. (2017, March 22). El Machete's Malware Attacks Cut Through LATAM. Retrieved September 13, 2019.",
@@ -32,22 +30,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2dde02b3-20b9-4709-96b4-02dbb9150577",
         "type": "relationship",
         "created": "2019-09-13T12:51:46.258Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cylance Machete Mar 2017",
@@ -65,22 +55,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3a01d374-1a49-4443-b7b5-453ebe5671ea",
         "type": "relationship",
         "created": "2020-11-23T22:19:46.853Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "360 Machete Sep 2020",
@@ -93,22 +75,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--472878d3-3a6a-4ad2-8fcf-e73a74fd48b6",
         "type": "relationship",
         "created": "2020-11-23T22:19:46.857Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "360 Machete Sep 2020",
@@ -121,22 +95,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--532feb00-b2ba-4cf6-81e8-57750d30b039",
         "type": "relationship",
         "created": "2019-09-13T12:51:46.273Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "The Cylance Threat Research Team. (2017, March 22). El Machete's Malware Attacks Cut Through LATAM. Retrieved September 13, 2019.",
@@ -159,22 +125,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--818dc2b8-bc95-4e1e-a25a-8c659b9a141d",
         "type": "relationship",
         "created": "2020-11-23T22:19:46.797Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "360 Machete Sep 2020",
@@ -187,22 +145,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b19ae2dc-9cbe-45b8-8b9c-ce0cd9add29a",
         "type": "relationship",
         "created": "2020-11-23T22:19:46.820Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "360 Machete Sep 2020",
@@ -215,22 +165,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ba84c2c2-e5bf-432e-9827-6d622490ba2d",
         "type": "relationship",
         "created": "2020-03-17T14:46:40.015Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "The Cylance Threat Research Team. (2017, March 22). El Machete's Malware Attacks Cut Through LATAM. Retrieved September 13, 2019.",
@@ -253,22 +195,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bb2be1f4-f2fc-4029-8ee6-e89f52210dfd",
         "type": "relationship",
         "created": "2021-03-04T19:51:08.302Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist Machete Aug 2014",
@@ -281,22 +215,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bd3926e9-9c91-43f2-913d-16a7e94cc0ae",
         "type": "relationship",
         "created": "2019-09-13T12:51:46.241Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist Machete Aug 2014",
@@ -319,22 +245,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d3e2ba96-28bb-48be-b46b-3c2349f4d0cd",
         "type": "relationship",
         "created": "2020-11-23T22:19:46.847Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "360 Machete Sep 2020",
@@ -347,22 +265,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "attack-pattern--365be77f-fc0e-42ee-bac8-4faf806d9336",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f33b1a88-1c1c-4ea4-a1b3-f1198012e728",
         "type": "relationship",
         "created": "2019-09-13T16:48:01.331Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Kaspersky Global Research and Analysis Team. (2014, August 20). El Machete. Retrieved September 13, 2019.",
@@ -380,22 +290,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bea19aee-f6c5-4ee8-bef9-5bd78e66a020",
         "type": "relationship",
         "created": "2019-09-13T12:53:11.518Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cylance Machete Mar 2017",
@@ -408,19 +310,11 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "Cylance Machete Mar 2017",
@@ -436,19 +330,11 @@
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "relationship_type": "uses",
         "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "Cylance Machete Mar 2017",
@@ -464,19 +350,11 @@
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "relationship_type": "uses",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "Cylance Machete Mar 2017",
@@ -492,19 +370,11 @@
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "relationship_type": "uses",
         "target_ref": "attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "Cylance Machete Mar 2017",
@@ -520,19 +390,11 @@
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "relationship_type": "uses",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "Cylance Machete Mar 2017",
@@ -548,19 +410,11 @@
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "relationship_type": "uses",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "Cylance Machete Mar 2017",
@@ -576,19 +430,11 @@
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "relationship_type": "uses",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "Cylance Machete Mar 2017",
@@ -604,19 +450,11 @@
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "relationship_type": "uses",
         "target_ref": "attack-pattern--9a60a291-8960-4387-8a4a-2ab5c18bb50b",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "description": "The Cylance Threat Research Team. (2017, March 22). El Machete's Malware Attacks Cut Through LATAM. Retrieved September 13, 2019.",
@@ -632,19 +470,11 @@
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "relationship_type": "uses",
         "target_ref": "attack-pattern--29ba5a15-3b7b-4732-b817-65ea8f6468e6",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "source_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
         "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
         "external_references": [
@@ -660,14 +490,8 @@
         "type": "relationship",
         "modified": "2020-10-27T14:49:39.188Z",
         "created": "2019-09-13T12:51:46.276Z",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

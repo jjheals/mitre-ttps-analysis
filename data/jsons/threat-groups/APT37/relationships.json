@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0500bac5-bc50-4529-ae5f-b4e1a85fa7d7",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -22,22 +20,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--09c8ec4f-c76b-4a36-994f-4ed4d87b7ad8",
         "type": "relationship",
         "created": "2019-06-04T14:12:42.088Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist ScarCruft May 2019",
@@ -50,22 +40,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0d4145da-e755-465f-a6fe-057ce43c627d",
         "type": "relationship",
         "created": "2021-10-01T18:34:01.251Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Volexity InkySquid RokRAT August 2021",
@@ -78,22 +60,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--18c39a72-26d4-4e43-ad59-d3dcdacc592f",
         "type": "relationship",
         "created": "2021-10-01T20:30:42.056Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Volexity InkySquid BLUELIGHT August 2021",
@@ -106,22 +80,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "malware--8bd47506-29ae-44ea-a5c1-c57e8a1ab6b0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--197a0e84-5361-49cc-8e14-24c331665862",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -149,22 +115,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1e27ff4a-fa86-46b1-8aea-748ec398b47e",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -177,22 +135,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "malware--8ab98e25-1672-4b5f-a2fb-e60f08a5ea9e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1e363612-b503-47b2-b697-daf75ef3740a",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
@@ -205,22 +155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1fedf226-02b4-4634-a7bf-4dac49bd97a3",
         "type": "relationship",
         "created": "2020-02-05T14:40:37.009Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Group123",
@@ -238,22 +180,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--c2e147a9-d1a8-4074-811a-d8789202d916",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--21c14374-e5a7-4a68-8ae8-12d5e47c1e63",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -266,22 +200,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "malware--3c02fb1f-cbdb-48f5-abaf-8c81d6e0c322",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--25e301f8-0bb7-4769-94be-ac96b2319c85",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -294,22 +220,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "malware--414dc555-c79e-4b24-a2da-9b607f7eaf16",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--32bb5463-c8b5-4ba1-bc13-b242548d5aba",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -327,22 +245,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3ee8862f-2595-462e-8df8-aab639314b65",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
@@ -355,22 +265,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--47415b89-a254-49a8-95c4-7efae85cac2c",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -383,22 +285,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--490cc52d-1f6d-45d2-aa0e-2221264c0de0",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/operation-daybreak/75100/",
@@ -411,22 +305,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--b4b7458f-81f2-4d38-84be-1c5ba0167a52",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4a8f7699-3bcd-4586-b029-f43756681805",
         "type": "relationship",
         "created": "2019-06-04T14:12:42.107Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist ScarCruft May 2019",
@@ -439,22 +325,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4b253464-5a8b-4129-ab1b-ab888314f900",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
@@ -467,22 +345,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5e596415-354e-4ccc-bc9d-3deb3fe5de1e",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -495,22 +365,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--63759ea4-5bf1-408d-a1cc-e7f52e3aca1b",
         "type": "relationship",
         "created": "2019-10-04T22:07:45.879Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Group123",
@@ -523,22 +385,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--ff73aa03-0090-4464-83ac-f89e233c02bc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--665d8625-e2d1-45d5-b5e3-d9bc0e242e7d",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -551,22 +405,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7aea964a-cd9b-471e-bc7b-2a270c974289",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
@@ -584,22 +430,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "malware--60a9c2f0-b7a5-4e8e-959c-e1a3ff314a5f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7fe2431d-30b9-45ef-8857-ecef17e428a9",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/operation-daybreak/75100/",
@@ -612,22 +450,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--82c9b9a1-5fbe-49e5-8685-12a03a66ef8d",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
@@ -640,22 +470,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--84eee49c-e49a-40d1-bdc1-89c613636ef9",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -668,22 +490,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "malware--4189a679-72ed-4a89-a57c-7f689712ecf8",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--857b5ce3-0eb0-4dae-a034-42cfa306a447",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/operation-daybreak/75100/",
@@ -711,22 +525,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--86f8bebc-a5fc-43d7-9af0-0024e07ca8d1",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
@@ -739,22 +545,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9d88636c-32f1-4ea4-b7d9-948e48055d37",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
@@ -777,22 +575,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a39bea46-92a8-49cf-ae3f-d78f4d3f23cf",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -805,22 +595,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "malware--53d47b09-09c2-4015-8d37-6633ecd53f79",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a6d35df2-0711-4b18-b733-6200467056ec",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/operation-daybreak/75100/",
@@ -843,22 +625,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a9b92f28-c273-48cf-8ee6-dfa6c240cda9",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
@@ -871,22 +645,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b906b0a1-12a3-4d6f-82ec-d72a4ef711b4",
         "type": "relationship",
         "created": "2021-10-01T18:34:01.264Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Volexity InkySquid RokRAT August 2021",
@@ -899,22 +665,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--baa9bb45-b4d2-4eea-803f-d2d1126330d4",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -927,22 +685,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "malware--211cfe9f-2676-4e1c-a5f5-2c8091da2a68",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cae6bbd0-d00e-4cc4-872a-d3ac9cc97684",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -960,22 +710,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d0061edc-becf-4ce9-ae91-5e1816d4a894",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -998,22 +740,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e18e5899-894b-4889-b008-77b44dbc0fce",
         "type": "relationship",
         "created": "2019-01-31T00:25:28.215Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 Nokki Oct 2018",
@@ -1026,22 +760,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "malware--a2282af0-f9dd-4373-9b92-eaf9e11e0c71",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e614a9ca-a922-4594-a929-30dd542d83ce",
         "type": "relationship",
         "created": "2021-10-01T14:57:41.842Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Volexity InkySquid BLUELIGHT August 2021",
@@ -1054,22 +780,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e66427b2-f353-446a-aedf-decccb926172",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -1082,22 +800,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--1035cdf2-3e5f-446f-a7a7-e8f6d7925967",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e6f81b9c-8fda-49f5-a944-265f5bad82ba",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://blog.talosintelligence.com/2018/05/navrat.html",
@@ -1110,22 +820,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "malware--53a42597-1974-4b8e-84fd-3675e8992053",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e7e7718a-b0e1-48cb-a9e8-bcbd0cf25cec",
         "type": "relationship",
         "created": "2020-03-17T18:52:24.021Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Group123",
@@ -1138,22 +840,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f540a7ab-541a-44a5-8b6a-96b42b044d5b",
         "type": "relationship",
         "created": "2021-10-01T17:44:49.039Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Volexity InkySquid RokRAT August 2021",
@@ -1166,22 +860,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fcb6fc55-8fa6-4ec7-a5a3-51de7dd90c1d",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -1199,22 +885,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fcdfad8a-73d5-4d8f-ab0d-24f847d675a0",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -1232,22 +910,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "malware--0852567d-7958-4f4b-8947-4f840ec8d57d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fdf161e2-46dc-41ee-bec4-9b18c8b1e6d9",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -1260,22 +930,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "malware--49abab73-3c5c-476e-afd5-69b5c732d845",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3ae56775-2a8a-45f1-a2c0-d37f61cfb3e9",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT37 Feb 2018",
@@ -1288,22 +950,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--f72eb8a8-cd4c-461d-a814-3f862befbf00",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d0ed6995-15c9-4221-9783-4b61281d1d02",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/operation-daybreak/75100/",
@@ -1316,26 +970,18 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
         "description": "[APT37](https://attack.mitre.org/groups/G0067) executes shellcode and a script to decode Base64 strings.",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "created": "2018-10-17T00:14:20.652Z",
         "id": "relationship--52e1eb9c-e1ef-4ede-bbe7-fb0a79617a9a",
         "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
         "modified": "2020-03-31T14:49:39.188Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "Talos Group123",
@@ -1344,14 +990,8 @@
             }
         ],
         "relationship_type": "uses",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

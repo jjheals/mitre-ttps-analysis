@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--04d1a31c-97c2-4cdd-8fb7-391c984e2fad",
         "type": "relationship",
         "created": "2020-05-15T13:17:57.692Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist DarkVishnya Dec 2018",
@@ -17,22 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
         "target_ref": "attack-pattern--d40239b3-05ff-46d8-9bdd-b46d13463ef9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0b3809c3-78a5-4121-9b51-64a9dfa60b11",
         "type": "relationship",
         "created": "2021-10-12T22:10:04.292Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist DarkVishnya Dec 2018",
@@ -45,22 +35,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--12dcf7c0-4f6b-4eb1-9317-3337822ecbe1",
         "type": "relationship",
         "created": "2020-05-15T13:43:22.771Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist DarkVishnya Dec 2018",
@@ -73,22 +55,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
         "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--29b5ee68-0bb0-4264-a781-ece3014fb3dd",
         "type": "relationship",
         "created": "2020-05-15T13:17:57.731Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist DarkVishnya Dec 2018",
@@ -101,22 +75,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
         "target_ref": "tool--96fd6cc4-a693-4118-83ec-619e5352d07d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3778dc3a-14b2-43e9-8e37-d1c3c731b390",
         "type": "relationship",
         "created": "2020-05-15T13:43:22.809Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist DarkVishnya Dec 2018",
@@ -129,22 +95,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
         "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3a31f8c0-36bf-40b5-90d2-d03c72b2c8d8",
         "type": "relationship",
         "created": "2020-05-15T13:17:57.719Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist DarkVishnya Dec 2018",
@@ -157,22 +115,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
         "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--475fef11-3344-4305-9710-cc41ba8acc0a",
         "type": "relationship",
         "created": "2020-05-15T13:17:57.723Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist DarkVishnya Dec 2018",
@@ -185,22 +135,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
         "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5a9197b3-c5fb-4288-9fdf-684fa289435b",
         "type": "relationship",
         "created": "2020-05-15T13:43:22.806Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist DarkVishnya Dec 2018",
@@ -213,22 +155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
         "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--96934e69-6d38-4ebd-970d-3d9bf88e03e3",
         "type": "relationship",
         "created": "2020-05-15T13:43:22.791Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist DarkVishnya Dec 2018",
@@ -241,22 +175,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
         "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bff00753-95ef-4a13-96fa-963365520573",
         "type": "relationship",
         "created": "2020-05-15T13:43:22.780Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist DarkVishnya Dec 2018",
@@ -269,22 +195,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c2ba1f7a-1951-47df-855b-3f42a60a9901",
         "type": "relationship",
         "created": "2020-05-15T13:43:22.793Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist DarkVishnya Dec 2018",
@@ -297,22 +215,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
         "target_ref": "attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ca38f31f-3551-49e3-835b-588693a8b512",
         "type": "relationship",
         "created": "2020-05-15T13:43:22.758Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist DarkVishnya Dec 2018",
@@ -325,14 +235,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
         "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     }
 ]

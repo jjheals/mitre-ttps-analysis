@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--0d116456-322a-470c-a219-6d313f801b89",
         "created": "2023-01-30T23:28:51.418Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SentinelLabs Metador Sept 2022",
@@ -12,17 +10,11 @@
                 "url": "https://assets.sentinelone.com/sentinellabs22/metador#page=1"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-04-03T17:27:08.788Z",
         "description": "[Metador](https://attack.mitre.org/groups/G1013) has used HTTP for C2.(Citation: SentinelLabs Metador Sept 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -31,7 +23,6 @@
         "type": "relationship",
         "id": "relationship--6025ae9c-80d1-4615-9556-174a9ccfef3c",
         "created": "2023-04-03T17:41:59.145Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SentinelLabs Metador Sept 2022",
@@ -39,18 +30,11 @@
                 "url": "https://assets.sentinelone.com/sentinellabs22/metador#page=1"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-04-03T17:41:59.145Z",
         "description": "[Metador](https://attack.mitre.org/groups/G1013) has used the Windows command line to execute commands.(Citation: SentinelLabs Metador Sept 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -59,7 +43,6 @@
         "type": "relationship",
         "id": "relationship--67c23a08-47ef-4c09-8500-b1d7305ed6b7",
         "created": "2023-04-03T17:35:11.089Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SentinelLabs Metador Sept 2022",
@@ -67,18 +50,11 @@
                 "url": "https://assets.sentinelone.com/sentinellabs22/metador#page=1"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-04-03T17:35:11.089Z",
         "description": "[Metador](https://attack.mitre.org/groups/G1013) has used unique malware in their operations, including [metaMain](https://attack.mitre.org/software/S1059) and [Mafalda](https://attack.mitre.org/software/S1060).(Citation: SentinelLabs Metador Sept 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",
         "target_ref": "attack-pattern--7807d3a4-a885-4639-a786-c1ed41484970",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -87,7 +63,6 @@
         "type": "relationship",
         "id": "relationship--944a0e0d-dfb4-4c78-a0bd-601b989365bd",
         "created": "2023-04-03T17:38:55.136Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SentinelLabs Metador Sept 2022",
@@ -95,18 +70,11 @@
                 "url": "https://assets.sentinelone.com/sentinellabs22/metador#page=1"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-04-03T17:38:55.136Z",
         "description": "[Metador](https://attack.mitre.org/groups/G1013) has established persistence through the use of a WMI event subscription combined with unusual living-off-the-land binaries such as `cdb.exe`.(Citation: SentinelLabs Metador Sept 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",
         "target_ref": "attack-pattern--910906dd-8c0a-475a-9cc1-5e029e2fad58",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -115,8 +83,6 @@
         "type": "relationship",
         "id": "relationship--b6e5a51c-f730-4514-8ffd-b540d5b4cf23",
         "created": "2023-04-03T20:01:14.602Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SentinelLabs Metador Sept 2022",
@@ -124,17 +90,11 @@
                 "url": "https://assets.sentinelone.com/sentinellabs22/metador#page=1"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-11T00:47:13.525Z",
         "description": "[Metador](https://attack.mitre.org/groups/G1013) has encrypted their payloads.(Citation: SentinelLabs Metador Sept 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",
         "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -143,7 +103,6 @@
         "type": "relationship",
         "id": "relationship--bb98709f-9fa6-473a-a5ad-e3bc533e28fa",
         "created": "2023-04-03T17:50:12.002Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SentinelLabs Metador Sept 2022",
@@ -151,18 +110,11 @@
                 "url": "https://assets.sentinelone.com/sentinellabs22/metador#page=1"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-04-03T17:50:12.002Z",
         "description": "[Metador](https://attack.mitre.org/groups/G1013) has quickly deleted `cbd.exe` from a compromised host following the successful deployment of their malware.(Citation: SentinelLabs Metador Sept 2022) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -171,8 +123,6 @@
         "type": "relationship",
         "id": "relationship--bcdf1f9a-536d-4f86-a265-66b55ba0b7c7",
         "created": "2023-01-26T00:02:20.496Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SentinelLabs Metador Sept 2022",
@@ -185,17 +135,11 @@
                 "url": "https://docs.google.com/document/d/1e9ZTW9b71YwFWS_18ZwDAxa-cYbV8q1wUefmKZLYVsA/edit#heading=h.lmnbtht1ikzm"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-04-05T16:08:18.901Z",
         "description": "(Citation: SentinelLabs Metador Sept 2022)(Citation: SentinelLabs Metador Technical Appendix Sept 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",
         "target_ref": "malware--df350889-4de9-44e5-8cb3-888b8343e97c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -204,7 +148,6 @@
         "type": "relationship",
         "id": "relationship--c65d4006-003c-4aff-a8c7-bd5834678b58",
         "created": "2023-04-03T17:31:01.013Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SentinelLabs Metador Sept 2022",
@@ -212,18 +155,11 @@
                 "url": "https://assets.sentinelone.com/sentinellabs22/metador#page=1"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-04-03T17:31:01.013Z",
         "description": "[Metador](https://attack.mitre.org/groups/G1013) has used TCP for C2.(Citation: SentinelLabs Metador Sept 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",
         "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -232,8 +168,6 @@
         "type": "relationship",
         "id": "relationship--cc604330-0936-4292-bb45-40c1d865c27b",
         "created": "2023-01-26T19:24:31.469Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SentinelLabs Metador Sept 2022",
@@ -246,17 +180,11 @@
                 "url": "https://docs.google.com/document/d/1e9ZTW9b71YwFWS_18ZwDAxa-cYbV8q1wUefmKZLYVsA/edit#heading=h.lmnbtht1ikzm"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-04-05T16:08:29.077Z",
         "description": "(Citation: SentinelLabs Metador Sept 2022)(Citation: SentinelLabs Metador Technical Appendix Sept 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",
         "target_ref": "malware--3be1fb7a-0f7e-415e-8e3a-74a80d596e68",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -265,7 +193,6 @@
         "type": "relationship",
         "id": "relationship--d13e6112-7edc-4355-b7a7-a29c04016168",
         "created": "2023-04-03T17:44:19.530Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SentinelLabs Metador Sept 2022",
@@ -273,18 +200,11 @@
                 "url": "https://assets.sentinelone.com/sentinellabs22/metador#page=1"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-04-03T17:44:19.530Z",
         "description": "[Metador](https://attack.mitre.org/groups/G1013) has used Microsoft's Console Debugger in some of their operations.(Citation: SentinelLabs Metador Sept 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -293,7 +213,6 @@
         "type": "relationship",
         "id": "relationship--e3b628b7-1513-4b68-87ab-809316836075",
         "created": "2023-04-03T17:42:55.683Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SentinelLabs Metador Sept 2022",
@@ -301,18 +220,11 @@
                 "url": "https://assets.sentinelone.com/sentinellabs22/metador#page=1"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-04-03T17:42:55.683Z",
         "description": "[Metador](https://attack.mitre.org/groups/G1013) has downloaded tools and malware onto a compromised system.(Citation: SentinelLabs Metador Sept 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

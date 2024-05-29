@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--22d01d2c-6c2e-4e59-98ac-393aef16ffe3",
         "type": "relationship",
         "created": "2021-11-24T20:17:35.747Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -17,22 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--2f146c3d-5dd4-42e2-a62b-04adcb36485c",
         "created": "2022-04-06T18:21:44.886Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -40,27 +30,19 @@
                 "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has relied upon users clicking on links to malicious files.(Citation: MalwareBytes LazyScripter Feb 2021)",
         "modified": "2022-04-06T18:21:44.886Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--3766cf55-568a-410f-8968-7a4adac96f77",
         "created": "2021-11-24T21:30:57.968Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -68,27 +50,19 @@
                 "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has used `mshta.exe` to execute [Koadic](https://attack.mitre.org/software/S0250) stagers.(Citation: MalwareBytes LazyScripter Feb 2021) ",
         "modified": "2022-04-06T18:16:04.141Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--424ae88f-7405-4cab-9065-4d1e024a25c8",
         "created": "2022-04-06T18:55:36.617Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -96,27 +70,19 @@
                 "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has hosted open-source remote access Trojans used in its operations in GitHub.(Citation: MalwareBytes LazyScripter Feb 2021)",
         "modified": "2022-04-06T18:55:36.617Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--4995fdc6-d705-48dc-a2e3-c6797ba2439f",
         "created": "2022-04-06T18:19:08.461Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -124,27 +90,19 @@
                 "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has lured users to open malicious email attachments.(Citation: MalwareBytes LazyScripter Feb 2021)",
         "modified": "2022-04-06T18:22:14.209Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4e348b41-b607-4227-8734-06ef01d40f27",
         "type": "relationship",
         "created": "2021-11-24T21:30:57.966Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -157,22 +115,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--67d072c0-3439-4a61-9a67-fb3f2b72d04e",
         "type": "relationship",
         "created": "2021-11-24T21:59:07.916Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -185,22 +135,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--691d0d23-9d20-470f-8483-73c7e10027a3",
         "created": "2022-04-06T19:02:14.896Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -208,27 +150,19 @@
                 "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has used dynamic DNS providers to create legitimate-looking subdomains for C2.(Citation: MalwareBytes LazyScripter Feb 2021)",
         "modified": "2022-04-15T19:11:01.628Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--6f1ea286-593c-4255-9ea8-708e04184987",
         "created": "2021-11-24T20:17:35.668Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -236,27 +170,19 @@
                 "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has used VBScript to execute malicious code.(Citation: MalwareBytes LazyScripter Feb 2021)",
         "modified": "2022-04-06T19:15:44.627Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--86e0245b-787c-4cf8-9399-531d64529d4d",
         "type": "relationship",
         "created": "2021-11-24T21:30:57.970Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -269,22 +195,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--878ff6f7-d372-4559-a114-8858eb2682d4",
         "type": "relationship",
         "created": "2021-11-24T20:17:35.754Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -297,50 +215,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "tool--da04ac30-27da-4959-a67d-450ce47d9470",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_domains": [
-            "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
-    },
-    {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
-        "type": "relationship",
-        "id": "relationship--89446c0a-0f1b-4d04-92fb-a04c6b16e474",
-        "created": "2022-04-06T18:53:33.988Z",
-        "x_mitre_version": "0.1",
-        "external_references": [
-            {
-                "source_name": "MalwareBytes LazyScripter Feb 2021",
-                "url": "https://www.malwarebytes.com/resources/files/2021/02/lazyscripter.pdf",
-                "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
-            }
-        ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
-        "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has used a variety of open-source remote access Trojans for its operations.(Citation: MalwareBytes LazyScripter Feb 2021)",
-        "modified": "2022-04-06T18:55:59.638Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "relationship_type": "uses",
-        "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
-        "target_ref": "attack-pattern--7807d3a4-a885-4639-a786-c1ed41484970",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
-        "id": "relationship--928f19e8-6174-47c9-b44a-87477d89bdc9",
-        "created": "2022-04-06T18:23:57.080Z",
-        "x_mitre_version": "0.1",
+        "id": "relationship--89446c0a-0f1b-4d04-92fb-a04c6b16e474",
+        "created": "2022-04-06T18:53:33.988Z",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -348,27 +230,39 @@
                 "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
+        "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has used a variety of open-source remote access Trojans for its operations.(Citation: MalwareBytes LazyScripter Feb 2021)",
+        "modified": "2022-04-06T18:55:59.638Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
+        "target_ref": "attack-pattern--7807d3a4-a885-4639-a786-c1ed41484970",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--928f19e8-6174-47c9-b44a-87477d89bdc9",
+        "created": "2022-04-06T18:23:57.080Z",
+        "external_references": [
+            {
+                "source_name": "MalwareBytes LazyScripter Feb 2021",
+                "url": "https://www.malwarebytes.com/resources/files/2021/02/lazyscripter.pdf",
+                "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
+            }
+        ],
         "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) had downloaded additional tools to a compromised host.(Citation: MalwareBytes LazyScripter Feb 2021)",
         "modified": "2022-04-06T18:23:57.080Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--99717cce-1987-4ca1-8df2-c6ec6ce17cf5",
         "created": "2021-11-24T21:30:58.027Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -376,27 +270,19 @@
                 "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has used several different security software icons to disguise executables.(Citation: MalwareBytes LazyScripter Feb 2021) ",
         "modified": "2022-04-06T19:09:56.507Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9cd8ce7f-7440-4ac4-b4cf-a758dd158672",
         "type": "relationship",
         "created": "2021-11-24T19:26:27.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -409,22 +295,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--9ee8a8fb-798e-4fa0-9ae0-ab96e75c9f4e",
         "created": "2021-11-24T20:17:35.504Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -432,27 +310,19 @@
                 "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has used PowerShell scripts to execute malicious code.(Citation: MalwareBytes LazyScripter Feb 2021)",
         "modified": "2022-04-06T19:13:54.278Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b036723f-a215-4c04-a625-e57faac4d6b9",
         "type": "relationship",
         "created": "2021-11-24T20:17:35.667Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -465,21 +335,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "malware--d906e6f7-434c-44c0-b51a-ed50af8f7945",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--b3a2df5e-af39-4129-a63c-7dee0e5986bb",
         "created": "2023-09-14T18:58:23.135Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -487,28 +350,19 @@
                 "url": "https://www.malwarebytes.com/resources/files/2021/02/lazyscripter.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-14T18:58:23.135Z",
         "description": "(Citation: MalwareBytes LazyScripter Feb 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "tool--2f7f03bb-f367-4a5a-ad9b-310a12a48906",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ba2b3c40-f9d2-4663-a5bd-3bb158553572",
         "type": "relationship",
         "created": "2021-11-24T21:30:58.058Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -521,22 +375,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bc0a285a-fcee-4a9a-9d74-9f723d6c20c2",
         "type": "relationship",
         "created": "2021-11-24T20:17:35.466Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -549,22 +395,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--c18296e4-93a2-4f75-8bcb-4a05692d9940",
         "created": "2021-11-24T20:17:35.499Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -572,27 +410,19 @@
                 "url": "https://www.malwarebytes.com/resources/files/2021/02/lazyscripter.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-22T04:50:18.980Z",
         "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has leveraged the BatchEncryption tool to perform advanced batch script obfuscation and encoding techniques.(Citation: MalwareBytes LazyScripter Feb 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c7972596-a87d-48fd-bd6f-f140e16f99a6",
         "type": "relationship",
         "created": "2021-11-24T20:17:35.716Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -605,22 +435,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "tool--c8655260-9f4b-44e3-85e1-6538a5f6e4f4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cb3117b7-3679-424d-bfb4-b28699cbba02",
         "type": "relationship",
         "created": "2021-11-24T20:17:35.503Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -633,22 +455,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--ced83af5-76c5-4319-8d30-9682f71fe84f",
         "created": "2021-11-24T21:30:57.969Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -656,27 +470,19 @@
                 "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has used `rundll32.exe` to execute [Koadic](https://attack.mitre.org/software/S0250) stagers.(Citation: MalwareBytes LazyScripter Feb 2021) ",
         "modified": "2022-04-06T18:15:39.899Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--e4946803-e448-4c85-902b-100e4d627ec3",
         "created": "2021-11-24T19:26:27.469Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -684,27 +490,19 @@
                 "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has used spam emails that contain a link that redirects the victim to download a malicious document.(Citation: MalwareBytes LazyScripter Feb 2021)",
         "modified": "2022-04-06T18:14:04.283Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e6289aac-7035-465c-acc3-ad6963509ad4",
         "type": "relationship",
         "created": "2021-12-06T23:27:09.994Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -717,22 +515,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "malware--df9b350b-d4f9-4e79-a826-75cc75fbc1eb",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--ff9932dc-6afa-4aa6-834b-4ff1ac6d96bb",
         "created": "2022-04-06T19:05:25.560Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -740,27 +530,19 @@
                 "description": "Jazi, H. (2021, February). LazyScripter: From Empire to double RAT. Retrieved November 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) has established GitHub accounts to host its toolsets.(Citation: MalwareBytes LazyScripter Feb 2021)",
         "modified": "2022-04-15T19:13:43.851Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7a485e64-1735-4d10-9e18-ca66f12c2e79",
         "type": "relationship",
         "created": "2021-11-24T20:17:35.764Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -773,14 +555,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
         "target_ref": "malware--911fe4c3-444d-4e92-83b8-cc761ac5fd3b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

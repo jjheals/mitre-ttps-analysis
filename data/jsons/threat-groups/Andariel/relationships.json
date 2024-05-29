@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--02aaa58a-483c-43ec-ad99-a56da68a6298",
         "created": "2021-09-29T15:41:18.395Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "AhnLab Andariel Subgroup of Lazarus June 2018",
@@ -12,27 +10,19 @@
                 "url": "http://download.ahnlab.com/global/brochure/%5BAnalysis%5DAndariel_Group.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-11-30T22:51:40.271Z",
         "description": "(Citation: AhnLab Andariel Subgroup of Lazarus June 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "malware--44c75271-0e4d-496f-ae0a-a6d883a42a65",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2bb829ce-e597-4033-af7c-ef44aaebadb4",
         "type": "relationship",
         "created": "2021-09-29T15:41:18.411Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Kaspersky Andariel Ransomware June 2021",
@@ -45,22 +35,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2f5d9a23-5360-479c-b6dc-f9827bb6b353",
         "type": "relationship",
         "created": "2021-09-29T15:41:18.385Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FSI Andariel Campaign Rifle July 2017",
@@ -83,22 +65,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--343e78cb-dbe9-4421-aca3-a8a973553c7a",
         "type": "relationship",
         "created": "2021-09-29T15:41:18.389Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FSI Andariel Campaign Rifle July 2017",
@@ -111,22 +85,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--4ee087c3-92d0-4886-bc90-167e7ab8926d",
         "created": "2021-09-29T15:56:23.634Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "AhnLab Andariel Subgroup of Lazarus June 2018",
@@ -134,17 +100,11 @@
                 "url": "http://download.ahnlab.com/global/brochure/%5BAnalysis%5DAndariel_Group.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-11-30T22:51:40.272Z",
         "description": "[Andariel](https://attack.mitre.org/groups/G0138) has limited its watering hole attacks to specific IP address ranges.(Citation: AhnLab Andariel Subgroup of Lazarus June 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "attack-pattern--0dda99f0-4701-48ca-9774-8504922e92d3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -153,8 +113,6 @@
         "type": "relationship",
         "id": "relationship--4fd205f2-656f-4211-b60b-510d53dfa8d3",
         "created": "2021-09-29T15:41:18.414Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "AhnLab Andariel Subgroup of Lazarus June 2018",
@@ -167,27 +125,19 @@
                 "url": "https://www.trendmicro.com/en_us/research/18/g/new-andariel-reconnaissance-tactics-hint-at-next-targets.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-11-30T22:51:40.272Z",
         "description": "[Andariel](https://attack.mitre.org/groups/G0138) has used watering hole attacks, often with zero-day exploits, to gain initial access to victims within a specific IP range.(Citation: AhnLab Andariel Subgroup of Lazarus June 2018)(Citation: TrendMicro New Andariel Tactics July 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--63f08c72-9be6-45d5-9c60-2a4794795760",
         "type": "relationship",
         "created": "2021-09-29T15:41:18.404Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Kaspersky Andariel Ransomware June 2021",
@@ -200,22 +150,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9fc2e926-e5a9-4c56-8d7c-cdef9dd7f7ab",
         "type": "relationship",
         "created": "2021-09-29T15:41:18.413Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro New Andariel Tactics July 2018",
@@ -228,22 +170,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "attack-pattern--baf60e1a-afe5-4d31-830f-1b1ba2351884",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--aaeef068-5853-45c9-922a-9ff779041cbe",
         "type": "relationship",
         "created": "2021-09-29T15:41:18.380Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FSI Andariel Campaign Rifle July 2017",
@@ -256,22 +190,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "attack-pattern--7807d3a4-a885-4639-a786-c1ed41484970",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--c4de34ea-99de-4850-817d-f9f2915bc7bd",
         "created": "2021-09-29T15:41:18.405Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "AhnLab Andariel Subgroup of Lazarus June 2018",
@@ -279,17 +205,11 @@
                 "url": "http://download.ahnlab.com/global/brochure/%5BAnalysis%5DAndariel_Group.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-11-30T22:51:40.273Z",
         "description": "[Andariel](https://attack.mitre.org/groups/G0138) has attempted to lure victims into enabling malicious macros within email attachments.(Citation: AhnLab Andariel Subgroup of Lazarus June 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -298,8 +218,6 @@
         "type": "relationship",
         "id": "relationship--c801e7ac-dce5-4349-bc07-446b5eec9744",
         "created": "2021-09-29T15:41:18.387Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "AhnLab Andariel Subgroup of Lazarus June 2018",
@@ -312,27 +230,19 @@
                 "url": "https://blog.malwarebytes.com/threat-intelligence/2021/04/lazarus-apt-conceals-malicious-code-within-bmp-file-to-drop-its-rat/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-11-30T22:51:40.274Z",
         "description": "[Andariel](https://attack.mitre.org/groups/G0138) has conducted spearphishing campaigns that included malicious Word or Excel attachments.(Citation: AhnLab Andariel Subgroup of Lazarus June 2018)(Citation: MalwareBytes Lazarus-Andariel Conceals Code April 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--da7dcfcb-7a36-43a8-8a0a-409d15b7e62e",
         "type": "relationship",
         "created": "2021-09-29T15:41:18.396Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "MalwareBytes Lazarus-Andariel Conceals Code April 2021",
@@ -350,22 +260,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "attack-pattern--c2e147a9-d1a8-4074-811a-d8789202d916",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--daabfd4e-f873-4afc-8f39-fc5daf7cd71a",
         "created": "2021-09-29T15:41:18.402Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "AhnLab Andariel Subgroup of Lazarus June 2018",
@@ -373,17 +275,11 @@
                 "url": "http://download.ahnlab.com/global/brochure/%5BAnalysis%5DAndariel_Group.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-11-30T22:51:40.275Z",
         "description": "(Citation: AhnLab Andariel Subgroup of Lazarus June 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -392,8 +288,6 @@
         "type": "relationship",
         "id": "relationship--ef8385b2-e62c-4854-9a0b-f23d6de334cd",
         "created": "2021-09-29T15:41:18.401Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "AhnLab Andariel Subgroup of Lazarus June 2018",
@@ -401,17 +295,11 @@
                 "url": "http://download.ahnlab.com/global/brochure/%5BAnalysis%5DAndariel_Group.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-11-30T22:51:40.275Z",
         "description": "[Andariel](https://attack.mitre.org/groups/G0138) has downloaded additional tools and malware onto compromised hosts.(Citation: AhnLab Andariel Subgroup of Lazarus June 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

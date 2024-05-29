@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0d432cda-9684-4daa-a66f-c65ad90ff2b7",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
@@ -17,22 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
         "target_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--63de6e73-7ec5-4cae-8d08-9c64428b52bf",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
@@ -45,22 +35,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
         "target_ref": "malware--cafd0bf8-2b9c-46c7-ae3c-3e0f42c5062e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6e763ef9-94cb-4244-bea8-86e6d19bfb71",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
@@ -73,22 +55,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
         "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--76021528-7cb6-461a-870a-f681cac19285",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
@@ -101,22 +75,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8a9d92e5-e9b5-40bd-8cc4-c4cc5ed9fdd4",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
@@ -129,22 +95,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--927d8495-e288-4c7f-8033-0d7e85d66b10",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
@@ -157,22 +115,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--993e37d1-b81c-47d7-9063-216446271e07",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
@@ -185,22 +135,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9a29dd75-31b1-4385-beb9-e093851849f6",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
@@ -213,22 +155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
         "target_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c08f55ca-366b-4554-879b-1b19042f9be8",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts",
@@ -241,14 +175,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     }
 ]

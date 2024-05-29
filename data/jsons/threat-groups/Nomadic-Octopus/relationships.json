@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0c9329e5-eb38-4887-b434-d6a3a69f2205",
         "type": "relationship",
         "created": "2021-08-24T17:04:27.218Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Security Affairs DustSquad Oct 2018",
@@ -27,22 +25,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fed4f0a2-4347-4530-b0f5-6dfd49b29172",
         "target_ref": "malware--e2031fd5-02c2-43d4-85e2-b64f474530c2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--35615dc6-1793-4d6a-b778-b3f0ab6e46dc",
         "type": "relationship",
         "created": "2021-10-13T21:52:28.486Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Nomadic Octopus 2018",
@@ -55,22 +45,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fed4f0a2-4347-4530-b0f5-6dfd49b29172",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3cc1b62f-5059-4fb1-be06-72bb13498002",
         "type": "relationship",
         "created": "2021-08-24T17:04:27.215Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Kaspersky Lab's Global Research & Analysis Team. (2018, October 15). Octopus-infested seas of Central Asia. Retrieved November 14, 2018.",
@@ -83,22 +65,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fed4f0a2-4347-4530-b0f5-6dfd49b29172",
         "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9c7679e8-2be6-4cbb-a7f4-8583162366b3",
         "type": "relationship",
         "created": "2021-08-24T17:04:27.186Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Security Affairs DustSquad Oct 2018",
@@ -116,22 +90,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fed4f0a2-4347-4530-b0f5-6dfd49b29172",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9ef511b5-ecdb-4f11-97f6-0046ec25af84",
         "type": "relationship",
         "created": "2021-10-14T14:28:27.119Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Kaspersky Lab's Global Research & Analysis Team. (2018, October 15). Octopus-infested seas of Central Asia. Retrieved November 14, 2018.",
@@ -149,22 +115,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fed4f0a2-4347-4530-b0f5-6dfd49b29172",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b5ba9aa4-f2dd-4433-994b-bfe4c7c972fe",
         "type": "relationship",
         "created": "2021-10-13T22:04:28.577Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Nomadic Octopus 2018",
@@ -177,22 +135,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fed4f0a2-4347-4530-b0f5-6dfd49b29172",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c9076ac7-11d9-44fc-91dc-0f927d62497f",
         "type": "relationship",
         "created": "2021-10-13T22:04:28.611Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Nomadic Octopus 2018",
@@ -205,22 +155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fed4f0a2-4347-4530-b0f5-6dfd49b29172",
         "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fc9d110c-be6f-4976-90f9-1efde4a668e5",
         "type": "relationship",
         "created": "2021-10-13T22:04:28.608Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Nomadic Octopus 2018",
@@ -233,14 +175,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fed4f0a2-4347-4530-b0f5-6dfd49b29172",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     }
 ]

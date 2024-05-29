@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--01bebfd2-6c8c-4671-8754-34ca03c44299",
         "created": "2021-10-01T01:57:31.880Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Unit 42 Hildegard Malware",
@@ -22,17 +20,11 @@
                 "url": "https://www.intezer.com/blog/cloud-security/attackers-abusing-legitimate-cloud-monitoring-tools-to-conduct-cyber-attacks/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.697Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has used open-source tools such as Weave Scope to target exposed Docker API ports and gain initial access to victim environments.(Citation: Intezer TeamTNT September 2020)(Citation: Cisco Talos Intelligence Group) [TeamTNT](https://attack.mitre.org/groups/G0139) has also targeted exposed kubelets for Kubernetes environments.(Citation: Unit 42 Hildegard Malware)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -41,8 +33,6 @@
         "type": "relationship",
         "id": "relationship--03527dc8-25a6-479d-b00f-90b543944da1",
         "created": "2021-10-01T01:57:31.863Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Unit 42 Hildegard Malware",
@@ -55,17 +45,11 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.697Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has established tmate sessions for C2 communications.(Citation: Unit 42 Hildegard Malware)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -74,8 +58,6 @@
         "type": "relationship",
         "id": "relationship--0559aa0e-31c2-478b-afce-00d0939066c3",
         "created": "2022-08-18T19:19:20.765Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -83,17 +65,11 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.698Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has created system services to execute cryptocurrency mining software.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--d157f9d2-d09a-4efa-bb2a-64963f94e253",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -102,8 +78,6 @@
         "type": "relationship",
         "id": "relationship--069f77c1-aafd-4883-aecd-707802442427",
         "created": "2022-08-10T20:28:07.443Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -111,17 +85,11 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.699Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has replaced .dockerd and .dockerenv with their own scripts and cryptocurrency mining software.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -130,8 +98,6 @@
         "type": "relationship",
         "id": "relationship--08c69567-a511-4a07-ab5d-a5bf77594129",
         "created": "2021-10-01T01:57:31.776Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -144,17 +110,11 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-tracking-the-activities-of-teamTNT.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.699Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has modified the permissions on binaries with <code>chattr</code>.(Citation: Trend Micro TeamTNT)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--09b130a2-a77e-4af0-a361-f46f9aad1345",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -163,8 +123,6 @@
         "type": "relationship",
         "id": "relationship--0b46eb26-ebc0-4fa7-8925-9b775571f793",
         "created": "2021-10-01T01:57:31.612Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ATT TeamTNT Chimaera September 2020",
@@ -177,27 +135,19 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.699Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has used a payload that removes itself after running. [TeamTNT](https://attack.mitre.org/groups/G0139) also has deleted locally staged files for collecting credentials or scan results for local IP addresses after exfiltrating them.(Citation: ATT TeamTNT Chimaera September 2020)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--12ea5ead-f19a-488e-8b47-ceb9d45593fd",
         "created": "2021-10-01T01:57:31.884Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Unit 42 Hildegard Malware",
@@ -205,17 +155,11 @@
                 "description": "Chen, J. et al. (2021, February 3). Hildegard: New TeamTNT Cryptojacking Malware Targeting Kubernetes. Retrieved April 5, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) executed [Hildegard](https://attack.mitre.org/software/S0601) through the kubelet API run command and by executing commands on running containers.(Citation: Unit 42 Hildegard Malware)",
         "modified": "2022-04-14T21:06:03.065Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--7b50a1d3-4ca7-45d1-989d-a6503f04bfe1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -224,8 +168,6 @@
         "type": "relationship",
         "id": "relationship--14ba8b29-133b-456d-b85d-139de4510bb1",
         "created": "2021-10-01T01:57:31.717Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -238,27 +180,19 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-tracking-the-activities-of-teamTNT.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.700Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has used shell scripts for execution.(Citation: Trend Micro TeamTNT)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--a9d4b653-6915-42af-98b2-5758c4ceee56",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--19bede58-549b-4e7d-b206-6045370b9995",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.664Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT TeamTNT Chimaera September 2020",
@@ -271,22 +205,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--1f75578e-22d5-4f91-9de5-3309ffe107d5",
         "created": "2021-10-01T01:57:31.782Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -299,27 +225,19 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-tracking-the-activities-of-teamTNT.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.701Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has established persistence through the creation of a cryptocurrency mining system service using <code>systemctl</code>.(Citation: Trend Micro TeamTNT)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--dfefe2ed-4389-4318-8762-f0272b350a1b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--25e9205c-3f27-4f93-81ea-b4bc1e3325ac",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.871Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Intezer TeamTNT September 2020",
@@ -332,22 +250,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--635cbe30-392d-4e27-978e-66774357c762",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--26d1ecff-471e-420d-a1f0-d7b6cf9a07e6",
         "created": "2022-08-10T20:30:51.173Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -355,17 +265,11 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.702Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has searched for services such as Alibaba Cloud Security's aliyun service and BMC Helix Cloud Security's bmc-agent service in order to disable them.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -374,8 +278,6 @@
         "type": "relationship",
         "id": "relationship--2a562acd-e85c-42ce-89fc-b10174863980",
         "created": "2021-10-01T01:57:31.788Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ATT TeamTNT Chimaera September 2020",
@@ -388,27 +290,19 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-tracking-the-activities-of-teamTNT.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-19T19:55:58.092Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has run <code>netstat -anp</code> to search for rival malware connections.(Citation: Trend Micro TeamTNT) [TeamTNT](https://attack.mitre.org/groups/G0139) has also used `libprocesshider` to modify <code>/etc/ld.so.preload</code>.(Citation: ATT TeamTNT Chimaera September 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--321e9302-b335-4f17-b03a-7782683d69f9",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.556Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Aqua TeamTNT August 2020",
@@ -421,22 +315,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--5372c5fe-f424-4def-bcd5-d3a8e770f07b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--331da7a8-d1ad-4feb-892a-c440aa5eb810",
         "created": "2021-10-01T01:57:31.713Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ATT TeamTNT Chimaera September 2020",
@@ -444,27 +330,19 @@
                 "url": "https://cybersecurity.att.com/blogs/labs-research/teamtnt-with-new-campaign-aka-chimaera"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-19T19:39:12.869Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has used malware that adds cryptocurrency miners as a service.(Citation: ATT TeamTNT Chimaera September 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--35ca3779-c632-4a7e-a931-7472128fb10d",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.872Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Lacework TeamTNT May 2021",
@@ -477,22 +355,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--36897d4a-1443-4061-b065-ae6d5d8c18b2",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.707Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT TeamTNT Chimaera September 2020",
@@ -505,22 +375,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--3e62e520-0104-4be7-b4e2-d68fa88d7067",
         "created": "2021-10-01T01:57:31.847Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -538,17 +400,11 @@
                 "url": "https://www.intezer.com/blog/cloud-security/attackers-abusing-legitimate-cloud-monitoring-tools-to-conduct-cyber-attacks/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.703Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has deployed different types of containers into victim environments to facilitate execution.(Citation: Intezer TeamTNT September 2020)(Citation: Trend Micro TeamTNT) [TeamTNT](https://attack.mitre.org/groups/G0139) has also transferred cryptocurrency mining software to Kubernetes clusters discovered within local IP address ranges.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--56e0d8b8-3e25-49dd-9050-3aa252f5aa92",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -557,8 +413,6 @@
         "type": "relationship",
         "id": "relationship--40383884-c607-48ac-9522-b5b1c8e256a9",
         "created": "2021-10-01T01:57:31.787Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -571,17 +425,11 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-tracking-the-activities-of-teamTNT.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.705Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has checked for running containers with <code>docker ps</code> and for specific container names with <code>docker inspect</code>.(Citation: Trend Micro TeamTNT) [TeamTNT](https://attack.mitre.org/groups/G0139) has also searched for Kubernetes pods running in a local network.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--0470e792-32f8-46b0-a351-652bc35e9336",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -590,8 +438,6 @@
         "type": "relationship",
         "id": "relationship--4e73a249-94d5-4a52-9da4-a89da10d1c30",
         "created": "2022-08-10T20:33:26.766Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -599,17 +445,11 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.706Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has sent locally staged files with collected credentials to C2 servers using cURL.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--a19e86f8-1c0a-4fea-8407-23b73d615776",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -618,8 +458,6 @@
         "type": "relationship",
         "id": "relationship--4f85e333-375b-4a5b-8a15-a3bd061678a4",
         "created": "2021-10-01T01:57:31.779Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -632,27 +470,19 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-tracking-the-activities-of-teamTNT.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.706Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has searched for rival malware and removes it if found.(Citation: Trend Micro TeamTNT) [TeamTNT](https://attack.mitre.org/groups/G0139) has also searched for running processes containing the strings aliyun or liyun to identify machines running Alibaba Cloud Security tools.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4fcdf0b6-23c7-406c-95ba-b335b05642e5",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.703Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT TeamTNT Chimaera September 2020",
@@ -665,22 +495,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--51551fb5-48df-4143-9163-9b7ffe35bf8f",
         "created": "2021-10-01T01:57:31.785Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -693,17 +515,11 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-tracking-the-activities-of-teamTNT.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.707Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has queried the AWS instance metadata service for credentials.(Citation: Trend Micro TeamTNT)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--19bf235b-8620-4997-b5b4-94e0659ed7c3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -712,8 +528,6 @@
         "type": "relationship",
         "id": "relationship--52068869-8ef9-4c84-913c-0c171ba9c30f",
         "created": "2021-10-01T01:57:31.790Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -726,17 +540,11 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-tracking-the-activities-of-teamTNT.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.707Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has cleared command history with <code>history -c</code>.(Citation: Trend Micro TeamTNT)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -745,8 +553,6 @@
         "type": "relationship",
         "id": "relationship--52ae918a-8afe-4e67-801f-d4fabbecef77",
         "created": "2022-08-10T20:32:26.147Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -754,27 +560,19 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.708Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has aggregated collected credentials in text files before exfiltrating.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--52c980ba-459b-4d3e-a0a8-f0ba3d2b6e3a",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.778Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro TeamTNT",
@@ -787,22 +585,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--60db2ece-4f5e-4c47-a7eb-fd8bcf7ddc49",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.770Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro TeamTNT",
@@ -815,22 +605,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--6674eb2b-8295-4af4-b4d2-0659c15d3c71",
         "created": "2021-10-01T01:57:31.866Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Lacework TeamTNT May 2021",
@@ -838,17 +620,11 @@
                 "url": "https://www.lacework.com/blog/taking-teamtnt-docker-images-offline/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-19T19:56:59.225Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has relied on users to download and execute malicious Docker images.(Citation: Lacework TeamTNT May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--b0c74ef9-c61e-4986-88cb-78da98a355ec",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -857,8 +633,6 @@
         "type": "relationship",
         "id": "relationship--6b8a8055-5b1c-4e06-a6ef-4a42e23e2e11",
         "created": "2021-10-01T01:57:31.772Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -871,27 +645,19 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-tracking-the-activities-of-teamTNT.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.709Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has used rootkits such as the open-source Diamorphine rootkit and their custom bots to hide cryptocurrency mining activities on the machine.(Citation: Trend Micro TeamTNT) (Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6bbd0299-4e8b-4d31-83c4-c690e43294c0",
         "type": "relationship",
         "created": "2021-10-15T18:47:18.472Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cado Security TeamTNT Worm August 2020",
@@ -909,22 +675,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--60b508a1-6a5e-46b1-821a-9f7b78752abf",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--6cc2d341-99a4-4d9a-895d-63f766fe79b9",
         "created": "2021-10-01T01:57:31.614Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ATT TeamTNT Chimaera September 2020",
@@ -937,27 +695,19 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.710Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has disabled and uninstalled security tools such as Alibaba, Tencent, and BMC cloud monitoring agents on cloud-based infrastructure.(Citation: ATT TeamTNT Chimaera September 2020)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6d887394-6007-451e-beb9-0ce76b58ebc3",
         "type": "relationship",
         "created": "2022-02-08T16:13:42.116Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TeamTNT Cloud Enumeration",
@@ -970,22 +720,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "tool--79dd477a-8226-4b3d-ad15-28623675f221",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6f5b07b1-6848-48ce-9a33-f5418e2195be",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.885Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Intezer TeamTNT September 2020",
@@ -1003,22 +745,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--4a5b7ade-8bb5-4853-84ed-23f262002665",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8453fdfe-a4b8-4f99-86e1-4110e8d24440",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.582Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Aqua TeamTNT August 2020",
@@ -1031,22 +765,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--2bce5b30-7014-4a5d-ade7-12913fe6ac36",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8b212643-e625-436c-943f-911be8e87c3a",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.786Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro TeamTNT",
@@ -1059,22 +785,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--db8f5003-3b20-48f0-9b76-123e44208120",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--8bb0a7b0-a032-4278-abae-5730f574ff00",
         "created": "2021-10-15T18:42:30.505Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -1087,17 +805,11 @@
                 "url": "https://www.intezer.com/blog/cloud-security/attackers-abusing-legitimate-cloud-monitoring-tools-to-conduct-cyber-attacks/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.710Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has the <code>curl</code> and <code>wget</code> commands as well as batch scripts to download new tools.(Citation: Intezer TeamTNT September 2020)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1106,8 +818,6 @@
         "type": "relationship",
         "id": "relationship--8e1a4560-f9da-4729-a364-dade6bb2cdc2",
         "created": "2021-10-01T01:57:31.661Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ATT TeamTNT Chimaera September 2020",
@@ -1120,17 +830,11 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.711Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has searched for security products on infected machines.(Citation: ATT TeamTNT Chimaera September 2020)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1139,8 +843,6 @@
         "type": "relationship",
         "id": "relationship--8f4e363a-ce2b-4a36-92fb-791d8ffc30d5",
         "created": "2021-10-01T01:57:31.877Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cado Security TeamTNT Worm August 2020",
@@ -1158,17 +860,11 @@
                 "url": "https://www.lacework.com/blog/taking-teamtnt-docker-images-offline/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.711Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has deployed XMRig Docker images to mine cryptocurrency.(Citation: Lacework TeamTNT May 2021)(Citation: Cado Security TeamTNT Worm August 2020) [TeamTNT](https://attack.mitre.org/groups/G0139) has also infected Docker containers and Kubernetes clusters with XMRig, and used RainbowMiner and lolMiner for mining cryptocurrency.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1177,8 +873,6 @@
         "type": "relationship",
         "id": "relationship--90cb412d-399d-4009-8aa0-63f411eb34ff",
         "created": "2022-08-10T20:34:52.588Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -1186,17 +880,11 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.712Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has used a script that checks `/proc/*/environ` for environment variables related to AWS.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1205,8 +893,6 @@
         "type": "relationship",
         "id": "relationship--9420a4b5-d246-4b9e-81d0-3f0551a73a15",
         "created": "2021-10-01T01:57:31.879Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -1219,17 +905,11 @@
                 "url": "https://www.intezer.com/blog/cloud-security/attackers-abusing-legitimate-cloud-monitoring-tools-to-conduct-cyber-attacks/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.712Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has used SSH to connect back to victim machines.(Citation: Intezer TeamTNT September 2020) [TeamTNT](https://attack.mitre.org/groups/G0139) has also used SSH to transfer tools and payloads onto victim hosts and execute them.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1238,8 +918,6 @@
         "type": "relationship",
         "id": "relationship--970e9eb2-51d7-4986-9480-d8a3b59c3006",
         "created": "2022-08-10T20:24:14.474Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -1247,17 +925,11 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.713Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has disguised their scripts with docker-related file names.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1266,8 +938,6 @@
         "type": "relationship",
         "id": "relationship--9a74aca4-4a5e-4a12-bd98-6a4d2df1b1a1",
         "created": "2022-08-10T20:35:26.215Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -1275,27 +945,19 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.713Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has used a script that decodes a Base64-encoded version of WeaveWorks Scope.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9c68c07e-bb35-416b-83ec-c8c8530eccc9",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.882Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Palo Alto Black-T October 2020",
@@ -1308,22 +970,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "tool--5a33468d-844d-4b1f-98c9-0e786c556b27",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a38bce09-385d-44b0-91a4-307ee5d328c3",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.876Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT TeamTNT Chimaera September 2020",
@@ -1336,22 +990,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--a641447f-995a-4f06-93d2-637e265c7638",
         "created": "2021-10-01T01:57:31.657Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ATT TeamTNT Chimaera September 2020",
@@ -1364,17 +1010,11 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.714Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has searched for system version, architecture, disk partition, logical volume, and hostname information.(Citation: ATT TeamTNT Chimaera September 2020)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1383,8 +1023,6 @@
         "type": "relationship",
         "id": "relationship--a68a4d37-e2dd-4981-893d-20c43d056539",
         "created": "2021-10-01T01:57:31.780Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Trend Micro TeamTNT",
@@ -1397,17 +1035,11 @@
                 "url": "https://blog.aquasec.com/container-security-tnt-container-attack"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-10T22:34:44.669Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has encrypted its binaries via AES and encoded files using Base64.(Citation: Trend Micro TeamTNT)(Citation: Aqua TeamTNT August 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1416,8 +1048,6 @@
         "type": "relationship",
         "id": "relationship--a7018df5-2a56-4731-ba57-5fe4ac73bac6",
         "created": "2021-10-01T01:57:31.775Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Trend Micro TeamTNT",
@@ -1425,27 +1055,19 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-tracking-the-activities-of-teamTNT.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-19T19:52:11.166Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has enumerated the host machine\u2019s IP address.(Citation: Trend Micro TeamTNT)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a822d946-b839-469a-90bf-fbe699faf160",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.867Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 Hildegard Malware",
@@ -1458,22 +1080,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "malware--40a1b8ec-7295-416c-a6b1-68181d86f120",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--b84414c0-18e9-4483-83db-555bd2880740",
         "created": "2021-10-01T01:57:31.869Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cado Security TeamTNT Worm August 2020",
@@ -1496,17 +1110,11 @@
                 "url": "https://unit42.paloaltonetworks.com/black-t-cryptojacking-variant/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.714Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has used masscan to search for open Docker API ports and Kubernetes clusters.(Citation: Cado Security TeamTNT Worm August 2020)(Citation: Unit 42 Hildegard Malware)(Citation: Cisco Talos Intelligence Group) [TeamTNT](https://attack.mitre.org/groups/G0139) has also used malware that utilizes zmap and zgrab to search for vulnerable services in cloud environments.(Citation: Palo Alto Black-T October 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1515,8 +1123,6 @@
         "type": "relationship",
         "id": "relationship--be8f7d93-1de8-4376-bec9-4db0a15f7542",
         "created": "2022-08-10T20:28:45.781Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -1524,27 +1130,19 @@
                 "url": "https://blog.talosintelligence.com/teamtnt-targeting-aws-alibaba-2/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.715Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has searched for attached VGA devices using lspci.(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d0e68e5d-66a1-4f7d-ace6-8ad5d028fa20",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.709Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro TeamTNT",
@@ -1557,22 +1155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--d6e1026a-a33e-46a3-832e-ff9b36d52c07",
         "created": "2021-10-01T01:57:31.609Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -1585,27 +1175,19 @@
                 "url": "https://blog.aquasec.com/container-security-tnt-container-attack"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.716Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has added RSA keys in <code>authorized_keys</code>.(Citation: Aqua TeamTNT August 2020)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--6b57dc31-b814-4a03-8706-28bc20d739c4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d9e61755-27f6-4a94-a6f7-22cb150546ca",
         "type": "relationship",
         "created": "2021-10-01T01:57:31.860Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Palo Alto Black-T October 2020",
@@ -1618,22 +1200,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--da4059ab-c858-4df1-94e0-25db2d6ea136",
         "created": "2023-03-13T21:10:40.799Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Talos TeamTNT",
@@ -1641,17 +1215,11 @@
                 "url": "https://blog.talosintelligence.com/2022/04/teamtnt-targeting-aws-alibaba.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-04-11T00:17:22.553Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has leveraged AWS CLI to enumerate cloud environments with compromised credentials.(Citation: Talos TeamTNT)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--55bb4471-ff1f-43b4-88c1-c9384ec47abf",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1660,8 +1228,6 @@
         "type": "relationship",
         "id": "relationship--e75ded50-50cc-46fe-b83b-2de8e5f7d7a6",
         "created": "2021-10-01T01:57:31.845Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cado Security TeamTNT Worm August 2020",
@@ -1684,17 +1250,11 @@
                 "url": "https://www.intezer.com/blog/cloud-security/attackers-abusing-legitimate-cloud-monitoring-tools-to-conduct-cyber-attacks/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.717Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has the `curl` command to send credentials over HTTP and the `curl` and `wget` commands to download new software.(Citation: Intezer TeamTNT September 2020)(Citation: Cado Security TeamTNT Worm August 2020)(Citation: Cisco Talos Intelligence Group) [TeamTNT](https://attack.mitre.org/groups/G0139) has also used a custom user agent HTTP header in shell scripts.(Citation: Trend Micro TeamTNT)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1703,8 +1263,6 @@
         "type": "relationship",
         "id": "relationship--e830611d-a7c5-446c-a5a7-ec1062bb3f53",
         "created": "2021-10-01T01:57:31.864Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cado Security TeamTNT Worm August 2020",
@@ -1722,27 +1280,19 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-tracking-the-activities-of-teamTNT.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.717Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has searched for unsecured AWS credentials and Docker API credentials.(Citation: Cado Security TeamTNT Worm August 2020)(Citation: Trend Micro TeamTNT)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--f2f8d56c-4a10-4be4-884d-7982931bd303",
         "created": "2021-10-01T01:57:31.887Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Unit 42 Hildegard Malware",
@@ -1750,17 +1300,11 @@
                 "description": "Chen, J. et al. (2021, February 3). Hildegard: New TeamTNT Cryptojacking Malware Targeting Kubernetes. Retrieved April 5, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has developed custom malware such as [Hildegard](https://attack.mitre.org/software/S0601).(Citation: Unit 42 Hildegard Malware)",
         "modified": "2022-04-14T21:05:11.831Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1769,8 +1313,6 @@
         "type": "relationship",
         "id": "relationship--ff500c79-fa27-4fe3-a3c2-8c5d20031824",
         "created": "2021-10-01T01:57:31.607Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cisco Talos Intelligence Group",
@@ -1783,17 +1325,11 @@
                 "url": "https://blog.aquasec.com/container-security-tnt-container-attack"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T17:31:07.718Z",
         "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has leveraged iplogger.org to send collected data back to C2.(Citation: Aqua TeamTNT August 2020)(Citation: Cisco Talos Intelligence Group)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
         "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

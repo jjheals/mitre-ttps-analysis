@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1646da26-9846-4a24-b9a6-59ebad8c9cb5",
         "type": "relationship",
         "created": "2021-01-27T21:26:53.128Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET EvilNum July 2020",
@@ -17,22 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "attack-pattern--29be378d-262d-4e99-b00d-852d573628e6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--17fc72c1-83be-4dce-a795-d2a36e6354ca",
         "type": "relationship",
         "created": "2021-01-27T19:37:49.593Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET EvilNum July 2020",
@@ -45,22 +35,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "malware--bfd2738c-8b43-43c3-bc9f-d523c8e88bf4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2a5341b9-e987-4687-b8f2-6c798f1ac0ae",
         "type": "relationship",
         "created": "2021-01-27T21:26:53.153Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET EvilNum July 2020",
@@ -73,22 +55,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3fd05c59-c28b-418a-be56-87ff52d4771c",
         "type": "relationship",
         "created": "2021-01-27T16:38:11.994Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET EvilNum July 2020",
@@ -101,22 +75,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "attack-pattern--10ffac09-e42d-4f56-ab20-db94c67d76ff",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--478e4f65-d03a-4f1b-aeeb-16dddc1bfead",
         "type": "relationship",
         "created": "2021-01-27T16:38:12.001Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET EvilNum July 2020",
@@ -129,22 +95,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--497c12c8-1cdf-4c1e-9624-83438ef770a2",
         "type": "relationship",
         "created": "2021-01-27T19:37:49.490Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET EvilNum July 2020",
@@ -157,22 +115,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--65ce8ea7-b997-4bb3-8fb4-9259567f492b",
         "type": "relationship",
         "created": "2021-01-27T16:57:46.761Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET EvilNum July 2020",
@@ -185,22 +135,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--67f7ebd0-effb-4169-a184-7d45c614a6ee",
         "type": "relationship",
         "created": "2021-01-27T21:26:53.151Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET EvilNum July 2020",
@@ -213,22 +155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6c0ae1dc-2429-42fd-899e-8aafb9adc50c",
         "type": "relationship",
         "created": "2021-01-27T16:38:12.013Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET EvilNum July 2020",
@@ -241,22 +175,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--81cf0260-877d-47ba-b98d-5d2cea453cdf",
         "type": "relationship",
         "created": "2021-02-03T19:12:30.480Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Prevailion EvilNum May 2020",
@@ -269,22 +195,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "malware--7cdfccda-2950-4167-981a-60872ff5d0db",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8b914660-657e-4f6e-a9be-ed51c840875e",
         "type": "relationship",
         "created": "2021-01-27T16:38:12.026Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET EvilNum July 2020",
@@ -297,22 +215,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--acdab071-f314-4671-a794-3c792b559c28",
         "type": "relationship",
         "created": "2021-01-28T17:08:52.211Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET EvilNum July 2020",
@@ -325,22 +235,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c0a10dc5-51e4-4ec3-a827-4999bde3ed58",
         "type": "relationship",
         "created": "2021-01-27T19:37:49.570Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET EvilNum July 2020",
@@ -353,22 +255,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ea3b16db-6b34-4171-9dec-7ce618f49dee",
         "type": "relationship",
         "created": "2021-01-27T16:57:46.748Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET EvilNum July 2020",
@@ -381,14 +275,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
         "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     }
 ]

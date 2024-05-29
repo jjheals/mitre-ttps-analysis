@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--058ed2a0-4419-437e-9f3b-4df97f917e8f",
         "type": "relationship",
         "created": "2019-07-19T17:14:24.241Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -17,22 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--090c11ed-8235-4c05-b553-749ee6497b0a",
         "type": "relationship",
         "created": "2019-07-19T16:49:44.829Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -45,22 +35,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0a20969e-c201-47cd-ac08-8e1a9c764512",
         "type": "relationship",
         "created": "2019-07-19T17:27:02.775Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -78,22 +60,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "tool--bba595da-b73a-4354-aa6c-224d4de7cb4e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--109c7cc7-fec6-4d86-ae27-087cddb2670c",
         "type": "relationship",
         "created": "2019-07-19T16:38:05.473Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -111,22 +85,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--15a8c4ba-f86d-4b2f-a0c7-9390d22dbd4e",
         "type": "relationship",
         "created": "2019-07-18T21:12:51.573Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -139,22 +105,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1a28a0a2-8e2f-4c42-b6b0-0ffe3d821528",
         "type": "relationship",
         "created": "2019-07-19T16:38:05.288Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -167,22 +125,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1a849525-ee44-4c28-86b2-fe883c45dc79",
         "type": "relationship",
         "created": "2019-07-18T21:12:51.535Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -195,22 +145,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--272c29eb-9f83-4a90-a9b2-e823182204a7",
         "type": "relationship",
         "created": "2019-07-19T16:49:44.677Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -223,22 +165,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2bff8dad-2ef1-485c-8c0b-62a5ba4c384b",
         "type": "relationship",
         "created": "2019-07-19T17:14:24.018Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -251,22 +185,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2fc6e8dc-5117-41ea-9b5f-154cff612f6f",
         "type": "relationship",
         "created": "2021-01-13T21:05:37.504Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Microsoft GALLIUM December 2019",
@@ -279,22 +205,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--380743e5-616c-4524-96e6-d545e5b653ea",
         "type": "relationship",
         "created": "2019-07-22T15:49:28.744Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -307,22 +225,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--38be247c-74b0-42f3-964e-5f23ef42a353",
         "type": "relationship",
         "created": "2019-07-22T15:35:24.351Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -335,22 +245,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3b523bd9-ffc2-4525-a08c-4500bfcb2fed",
         "type": "relationship",
         "created": "2019-07-18T21:12:51.526Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -363,22 +265,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3b86d8fe-5677-4516-bf77-898e4da6171f",
         "type": "relationship",
         "created": "2019-07-19T16:38:05.420Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -396,22 +290,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "malware--b42378e0-f147-496f-992a-26a49705395b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3faaf140-71cd-4cc2-91c9-f0980ca72079",
         "type": "relationship",
         "created": "2021-01-13T21:16:05.200Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Microsoft GALLIUM December 2019",
@@ -424,22 +310,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--402e9430-9d3a-4694-89ca-923dab3fba26",
         "type": "relationship",
         "created": "2019-07-18T21:12:51.570Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -452,22 +330,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--433ccc4b-5a1f-49e2-9517-f8f899646cab",
         "type": "relationship",
         "created": "2019-07-18T21:12:51.544Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -485,22 +355,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--7610cada-1499-41a4-b3dd-46467b68d177",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--45c9645b-05df-4ec0-9965-293587c3928e",
         "type": "relationship",
         "created": "2021-03-23T22:13:34.888Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Microsoft GALLIUM December 2019",
@@ -513,22 +375,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--60c4b628-4807-4b0b-bbf5-fdac8643c337",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4e1a2f47-7aad-4402-884d-8921a6a88822",
         "type": "relationship",
         "created": "2019-07-19T16:49:44.837Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -541,22 +395,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "tool--0c8465c0-d0b4-4670-992e-4eee8d7ff952",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--57b4f42b-02e2-4cee-98f0-d6935c1e2c7b",
         "type": "relationship",
         "created": "2019-07-19T17:27:02.518Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -574,22 +420,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5b271a21-d91f-489b-b6a1-b223a9094df5",
         "type": "relationship",
         "created": "2019-07-19T17:14:24.238Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -602,22 +440,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5d8315ce-3c76-4b78-8d6a-f0b7b101bcc0",
         "type": "relationship",
         "created": "2019-07-19T17:14:23.994Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -630,22 +460,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--5ee76354-a60b-4c20-b3d8-1adda813f792",
         "created": "2022-08-09T18:26:40.986Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Unit 42 PingPull Jun 2022",
@@ -653,27 +475,19 @@
                 "description": "Unit 42. (2022, June 13). GALLIUM Expands Targeting Across Telecommunications, Government and Finance Sectors With New PingPull Tool. Retrieved August 7, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Unit 42 PingPull Jun 2022)",
         "modified": "2022-08-09T19:47:10.474Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "malware--3a0f6128-0a01-421d-8eca-e57d8671b1f1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--626697e3-0d05-4081-aa11-61280a502249",
         "type": "relationship",
         "created": "2019-07-18T21:12:51.554Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -691,22 +505,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--73bcd300-467e-4473-9ba7-772ae1c58610",
         "type": "relationship",
         "created": "2021-01-14T20:19:39.292Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Microsoft GALLIUM December 2019",
@@ -719,22 +525,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "malware--63c4511b-2d6e-4bb2-b582-e2e99a8a467d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7adea746-109e-41c2-bf48-20e0282038a0",
         "type": "relationship",
         "created": "2019-07-19T16:38:05.304Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -752,22 +550,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--86246bef-ad4c-4c30-805a-d6f1928a7c20",
         "type": "relationship",
         "created": "2019-07-19T17:14:24.040Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -785,22 +575,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8698cc92-79ad-46c4-9cb8-30ef87a8d760",
         "type": "relationship",
         "created": "2019-07-18T21:12:51.556Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -813,22 +595,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--89697f9e-cfd2-4273-a5d6-04354f0c3e7c",
         "type": "relationship",
         "created": "2021-01-13T21:16:05.204Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Microsoft GALLIUM December 2019",
@@ -841,22 +615,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8f66e226-ecc4-408d-becb-4e9ad9c66b57",
         "type": "relationship",
         "created": "2019-07-19T16:38:05.452Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -874,22 +640,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--919f6143-eb8c-48cd-8741-118040c372ab",
         "type": "relationship",
         "created": "2019-07-22T15:35:24.376Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -902,22 +660,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--b0533c6e-8fea-4788-874f-b799cacc4b92",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--96db4cd3-0493-4944-b47c-15b7db6f0010",
         "type": "relationship",
         "created": "2019-07-19T17:14:24.248Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -930,22 +680,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a084527d-2858-4037-bc48-68c1eac85acb",
         "type": "relationship",
         "created": "2019-07-19T17:14:24.011Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -958,22 +700,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a29a37fc-86e2-4b93-8fa5-560b0a395fbc",
         "type": "relationship",
         "created": "2019-07-19T16:38:05.326Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -986,22 +720,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a68d8191-b374-4741-a249-1db3515d581b",
         "type": "relationship",
         "created": "2019-07-19T17:14:24.029Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -1014,22 +740,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--aa64ee12-ae96-40fe-ba37-a8893cd321ec",
         "type": "relationship",
         "created": "2019-07-19T16:38:05.330Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -1042,22 +760,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ad60e0be-02a4-4f79-a81d-afdde78492be",
         "type": "relationship",
         "created": "2019-07-18T20:47:50.147Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -1075,22 +785,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b0a6e22f-adad-4625-b07d-996221cf3a50",
         "type": "relationship",
         "created": "2019-07-19T16:38:05.446Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -1103,22 +805,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b10df154-0c2a-4159-ac0a-1bdaa78f56cb",
         "type": "relationship",
         "created": "2019-07-19T16:38:05.311Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -1131,22 +825,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b3295bb6-356b-4f8e-b921-ec96d249c66b",
         "type": "relationship",
         "created": "2019-07-19T16:38:05.448Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -1164,22 +850,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b68c8dc2-e3da-4ce8-aef3-456b160e7fb5",
         "type": "relationship",
         "created": "2019-07-19T16:49:44.835Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -1197,22 +875,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "tool--d5e96a35-7b0b-4c6a-9533-d63ecbda563e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cc443415-7c35-49ab-92a9-3d0cfa68c7b2",
         "type": "relationship",
         "created": "2021-03-17T16:14:44.323Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -1225,22 +895,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "tool--b63970b7-ddfb-4aee-97b1-80d335e033a8",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e1268feb-9326-40e1-b05b-fd8e0068488a",
         "type": "relationship",
         "created": "2019-07-19T16:49:44.657Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -1258,22 +920,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ea71022e-7f2a-4065-9cb1-304f85dbaf6d",
         "type": "relationship",
         "created": "2019-07-19T17:27:02.530Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -1286,22 +940,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ee4d1b24-603f-40df-8f21-3c053fba275f",
         "type": "relationship",
         "created": "2019-07-22T15:35:24.363Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -1314,22 +960,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ee500581-0b91-42ab-bc1f-0a10a3af47c4",
         "type": "relationship",
         "created": "2021-01-14T19:48:09.355Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Microsoft GALLIUM December 2019",
@@ -1342,22 +980,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "tool--242f3da3-4425-4d11-8f5c-b842886da966",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f8517b42-4d52-417a-a5dc-cbfb2a31930b",
         "type": "relationship",
         "created": "2019-07-19T16:49:44.670Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Soft Cell June 2019",
@@ -1370,26 +1000,18 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "target_ref": "attack-pattern--bd5b58a4-a52d-4a29-bc0d-3f1d3968eb6b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4",
         "description": "[Soft Cell](https://attack.mitre.org/groups/G0093) used winrar to compress and encrypt stolen data prior to exfiltration.",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "created": "2019-07-19T17:14:24.050Z",
         "id": "relationship--1a8cff11-b88e-439b-bcd4-bb5e74ed9d97",
         "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
         "modified": "2020-03-31T14:49:39.188Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "description": "Cybereason Nocturnus. (2019, June 25). Operation Soft Cell: A Worldwide Campaign Against Telecommunications Providers. Retrieved July 18, 2019.",
@@ -1398,14 +1020,8 @@
             }
         ],
         "relationship_type": "uses",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

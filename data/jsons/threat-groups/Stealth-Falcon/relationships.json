@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--04a6eba6-71d7-47d1-91f1-c728ada6b7b5",
         "type": "relationship",
         "created": "2020-11-23T17:46:57.365Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -17,22 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--d336b553-5da9-46ca-98a8-0b23f49fb447",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0d63f3cf-bace-4210-9b76-199c5cdb8764",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.074Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -45,22 +35,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--410e0c58-d96c-40ae-bf00-2d4b414daf50",
         "type": "relationship",
         "created": "2020-03-20T00:17:48.749Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://citizenlab.org/2016/05/stealth-falcon/",
@@ -73,22 +55,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4d3e4232-1330-45a9-9e90-9914eed276a5",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.074Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -101,22 +75,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4de2ac9b-4e51-4d73-8fe3-d7d1659778b8",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.074Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -129,22 +95,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--510c2f8c-4570-4c19-8c36-7004f8bbf561",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.073Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -157,22 +115,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--73da57b5-e64f-44ee-85f7-d294c21fb534",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.073Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -185,22 +135,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--746b0def-62c8-438d-b5ec-aa6b7dbfb860",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.073Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -213,22 +155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--782da600-bc3b-4dae-89d1-4a79522bed02",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.073Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -241,22 +175,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8ebab956-4440-4fd7-96ff-8da29e0f0b46",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.073Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -269,22 +195,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--94b4648a-4108-468c-be51-cca365fd97ac",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.073Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -297,22 +215,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cdf73653-b2d7-422f-b433-b6a428ff12d4",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.074Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -325,22 +235,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e1592867-e02f-4c1f-a9f2-1c60e25a1301",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.074Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -353,22 +255,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e2e33068-b08e-45fd-89e0-0cf79868f902",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.073Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -381,22 +275,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e362d1ad-5d36-4f6d-b2b0-63af2f5f08ff",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.073Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -409,22 +295,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--efbe5efa-6863-4334-90e5-d7caab9806a6",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.073Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Citizen Lab Stealth Falcon May 2016",
@@ -437,14 +315,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     }
 ]

@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--03e67769-31da-4a46-a5a6-1ccbdd0cf29f",
         "type": "relationship",
         "created": "2020-05-11T16:57:30.447Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
@@ -22,22 +20,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--09381138-b93b-4b0d-b82d-c21d452ff514",
         "type": "relationship",
         "created": "2020-05-11T17:51:01.565Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
@@ -55,22 +45,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--16dfd169-264f-410f-97bf-a1cdec20c50e",
         "type": "relationship",
         "created": "2020-05-11T18:14:38.240Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Group IB RTM August 2019",
@@ -83,22 +65,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f",
         "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1bf08293-5342-4736-b3a9-c1f160ad9c81",
         "type": "relationship",
         "created": "2020-05-11T18:36:05.417Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Group IB RTM August 2019",
@@ -111,22 +85,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5f1493e8-65d8-474a-b6b7-c1311fc24d98",
         "type": "relationship",
         "created": "2020-05-11T17:27:36.637Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Group IB RTM August 2019",
@@ -139,22 +105,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--685a8409-db59-4ef3-b4de-786b87be8839",
         "type": "relationship",
         "created": "2020-05-11T18:14:38.220Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Group IB RTM August 2019",
@@ -167,22 +125,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f",
         "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9755e169-0dd5-4bf5-a884-d50d31f33ad9",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.081Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
@@ -195,22 +145,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f",
         "target_ref": "malware--92ec0cbd-2c30-44a2-b270-73f4ec949841",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a58ad2d1-7200-4ba8-9c24-fc640306ea2f",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.081Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
@@ -223,14 +165,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f",
         "target_ref": "attack-pattern--f7827069-0bf2-4764-af4f-23fae0d181b7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     }
 ]

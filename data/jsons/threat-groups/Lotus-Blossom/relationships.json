@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--764b5d56-83a1-4c8d-824a-2021c7fe8052",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.064Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://researchcenter.paloaltonetworks.com/2015/12/attack-on-french-diplomat-linked-to-operation-lotus-blossom/",
@@ -22,22 +20,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--88b7dbc2-32d3-4e31-af2f-3fc24e1582d7",
         "target_ref": "malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8859897c-66f5-4754-8cb8-2c6e6b8b8e2e",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.064Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-spring-dragon-apt/70726/",
@@ -55,14 +45,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--88b7dbc2-32d3-4e31-af2f-3fc24e1582d7",
         "target_ref": "malware--7551188b-8f91-4d34-8350-0d0c57b2b913",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     }
 ]

@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0068ee65-0945-4f69-ba81-163ffbc05e53",
         "type": "relationship",
         "created": "2019-05-24T17:02:44.371Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Lab52 WIRTE Apr 2019",
@@ -17,22 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--0076c114-0e7a-45c3-a851-7a877a9eefd0",
         "created": "2022-04-15T20:07:57.641Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Kaspersky WIRTE November 2021",
@@ -40,27 +30,19 @@
                 "description": "Yamout, M. (2021, November 29). WIRTE\u2019s campaign in the Middle East \u2018living off the land\u2019 since at least 2019. Retrieved February 1, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has used HTTPS over ports 2083 and 2087 for C2.(Citation: Kaspersky WIRTE November 2021)",
         "modified": "2022-04-15T20:07:57.641Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--00fd8c87-da99-42b3-a792-0d224732c84a",
         "type": "relationship",
         "created": "2022-02-02T15:55:21.760Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Kaspersky WIRTE November 2021",
@@ -73,22 +55,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "malware--9020f5c7-efde-4125-a4f1-1b70f1274ddd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--0f7fd21f-9cba-411a-a8dc-f5689d294037",
         "created": "2019-05-24T17:02:44.369Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Lab52 WIRTE Apr 2019",
@@ -96,27 +70,19 @@
                 "description": "S2 Grupo. (2019, April 2). WIRTE Group attacking the Middle East. Retrieved May 24, 2019."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has used VBScript  in its operations.(Citation: Lab52 WIRTE Apr 2019)\t",
         "modified": "2022-04-15T16:59:19.704Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--178dda13-999c-481f-8a1b-8dc062d7b0ff",
         "type": "relationship",
         "created": "2022-02-01T15:37:38.932Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Kaspersky WIRTE November 2021",
@@ -129,22 +95,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--19f9e4af-3ad9-4d0d-b4af-db145f514be9",
         "created": "2019-05-24T17:02:44.395Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Lab52 WIRTE Apr 2019",
@@ -152,27 +110,19 @@
                 "description": "S2 Grupo. (2019, April 2). WIRTE Group attacking the Middle East. Retrieved May 24, 2019."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has used Base64 to decode malicious VBS script.(Citation: Lab52 WIRTE Apr 2019)",
         "modified": "2022-04-15T16:58:22.817Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--1aeb4dce-ac27-43ae-a0f4-1afcf84fc1a9",
         "created": "2022-02-01T15:29:14.004Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Kaspersky WIRTE November 2021",
@@ -180,27 +130,19 @@
                 "description": "Yamout, M. (2021, November 29). WIRTE\u2019s campaign in the Middle East \u2018living off the land\u2019 since at least 2019. Retrieved February 1, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has sent emails to intended victims with malicious MS Word and Excel attachments.(Citation: Kaspersky WIRTE November 2021)",
         "modified": "2022-04-15T17:03:36.171Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--22e9c279-0cb2-4ad1-85b2-37826f20db1f",
         "type": "relationship",
         "created": "2022-02-02T15:55:21.765Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Kaspersky WIRTE November 2021",
@@ -213,22 +155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "malware--73d08401-005f-4e1f-90b9-8f45d120879f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--4258f16d-4484-4b5f-8a2b-76366b2ee46c",
         "created": "2022-02-01T16:08:59.689Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Kaspersky WIRTE November 2021",
@@ -236,27 +170,19 @@
                 "description": "Yamout, M. (2021, November 29). WIRTE\u2019s campaign in the Middle East \u2018living off the land\u2019 since at least 2019. Retrieved February 1, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has named a first stage dropper `Kaspersky Update Agent` in order to appear legitimate.(Citation: Kaspersky WIRTE November 2021)",
         "modified": "2022-04-15T17:01:50.963Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--464c9ae2-09b1-499d-8477-c05926537e6b",
         "type": "relationship",
         "created": "2019-05-24T17:02:44.404Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Lab52 WIRTE Apr 2019",
@@ -269,22 +195,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6e20b61f-bf7e-40a3-b7b9-98d79e5a3ecd",
         "type": "relationship",
         "created": "2021-05-26T12:48:29.916Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "S2 Grupo. (2019, April 2). WIRTE Group attacking the Middle East. Retrieved May 24, 2019.",
@@ -297,22 +215,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7fd96b72-6402-4f0e-b1fa-bc7f081626de",
         "type": "relationship",
         "created": "2019-05-24T17:02:44.353Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Lab52 WIRTE Apr 2019",
@@ -325,22 +235,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--cca195e2-b748-4881-b2bf-e6b3b993b460",
         "created": "2019-05-24T17:02:44.393Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Lab52 WIRTE Apr 2019",
@@ -348,27 +250,19 @@
                 "description": "S2 Grupo. (2019, April 2). WIRTE Group attacking the Middle East. Retrieved May 24, 2019."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has used `regsvr32.exe` to trigger the execution of a malicious script.(Citation: Lab52 WIRTE Apr 2019)",
         "modified": "2022-04-15T17:04:28.702Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cecf4306-a80e-4e65-b701-7e934adc6c42",
         "type": "relationship",
         "created": "2019-05-24T17:02:44.385Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Lab52 WIRTE Apr 2019",
@@ -381,14 +275,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     }
 ]

@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--000aa4d0-315e-40d7-b2b6-76e91ecf0fe8",
         "type": "relationship",
         "created": "2021-09-15T18:02:37.631Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec WastedLocker June 2020",
@@ -17,21 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--0b5cb547-b027-4a30-84de-d9d1df2495d0",
         "created": "2023-08-03T21:05:05.908Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -39,28 +30,19 @@
                 "url": "https://www.crowdstrike.com/blog/big-game-hunting-the-evolution-of-indrik-spider-from-dridex-wire-fraud-to-bitpaymer-targeted-ransomware/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-03T21:05:05.908Z",
         "description": "[Indrik Spider](https://attack.mitre.org/groups/G0119) has developed malware for their operations, including ransomware such as [BitPaymer](https://attack.mitre.org/software/S0570) and [WastedLocker](https://attack.mitre.org/software/S0612).(Citation: Crowdstrike Indrik November 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--15033f82-efad-4db9-8d4c-015eeeeead64",
         "type": "relationship",
         "created": "2021-09-15T18:02:37.627Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec WastedLocker June 2020",
@@ -73,22 +55,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2f33e27a-6fdf-4121-9e25-a307910b118f",
         "type": "relationship",
         "created": "2021-02-08T22:05:36.561Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -101,22 +75,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--342a3da9-79e7-4fdc-8a08-bd7f54caa2ac",
         "type": "relationship",
         "created": "2021-09-15T18:02:37.541Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec WastedLocker June 2020",
@@ -129,22 +95,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4e45ac56-f9c8-4271-a3c8-1a618817945b",
         "type": "relationship",
         "created": "2021-10-13T22:50:48.724Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec WastedLocker June 2020",
@@ -157,22 +115,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4ebab62f-3e2f-49b9-881d-26d2141d3e0b",
         "type": "relationship",
         "created": "2021-09-15T18:02:37.587Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec WastedLocker June 2020",
@@ -185,22 +135,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5926c79d-b8a7-419a-b789-7e2ff1ee32b9",
         "type": "relationship",
         "created": "2021-10-13T22:50:48.785Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec WastedLocker June 2020",
@@ -213,22 +155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7005793f-b8da-49c5-8985-9d4476c3faaf",
         "type": "relationship",
         "created": "2021-03-05T18:09:35.002Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -246,22 +180,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--739217f2-c273-4005-8175-1261a81a1224",
         "type": "relationship",
         "created": "2021-02-08T22:05:36.567Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -274,22 +200,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7e2dcce1-8fde-4f88-9e48-13a736c694e3",
         "type": "relationship",
         "created": "2022-03-25T14:32:35.656Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group WastedLocker June 2020",
@@ -302,22 +220,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "tool--a7b5df47-73bb-4d47-b701-869f185633a6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8904d69b-a5ab-4e4c-b7c7-c437e7859b8a",
         "type": "relationship",
         "created": "2021-03-05T18:13:06.615Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -330,22 +240,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--89500cd9-c663-4b3e-bb20-b8fe1860891a",
         "type": "relationship",
         "created": "2021-01-29T18:17:07.821Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -358,22 +260,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--5d2be8b9-d24c-4e98-83bf-2f5f79477163",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--89fad9cc-d20b-43c4-a98d-105ff6642f2c",
         "type": "relationship",
         "created": "2021-09-15T18:02:37.564Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec WastedLocker June 2020",
@@ -386,22 +280,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8bdc51e7-d2fd-44fb-bfed-6767b6522405",
         "type": "relationship",
         "created": "2021-01-29T17:56:30.456Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -414,22 +300,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8efc016b-af48-4cfd-a117-142a88b7c9d9",
         "type": "relationship",
         "created": "2021-01-29T17:42:10.194Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -442,22 +320,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a5b41632-a553-4abe-aa68-9ce6898e642d",
         "type": "relationship",
         "created": "2021-10-13T22:50:48.900Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec WastedLocker June 2020",
@@ -470,22 +340,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a5ee5826-e742-4847-9816-d9124827262a",
         "type": "relationship",
         "created": "2021-02-08T21:58:15.830Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -498,22 +360,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--aa4ac94c-705e-4215-8d52-a97b583b62c5",
         "type": "relationship",
         "created": "2021-01-06T17:51:12.897Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -536,22 +390,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "malware--f01e2711-4b48-4192-a2e8-5f56c945ca19",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b2c02ae1-c62a-4811-a913-b0a26f605e38",
         "type": "relationship",
         "created": "2021-10-13T22:50:48.744Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec WastedLocker June 2020",
@@ -564,22 +410,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b8fbce12-deae-4655-ac96-e23ebbeef624",
         "type": "relationship",
         "created": "2021-09-15T18:02:37.635Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec WastedLocker June 2020",
@@ -592,21 +430,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--bc156b29-534a-4156-b188-8f4a426a0e6c",
         "created": "2023-08-03T21:08:01.115Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -614,18 +445,11 @@
                 "url": "https://www.crowdstrike.com/blog/big-game-hunting-the-evolution-of-indrik-spider-from-dridex-wire-fraud-to-bitpaymer-targeted-ransomware/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-03T21:08:01.115Z",
         "description": "[Indrik Spider](https://attack.mitre.org/groups/G0119) has created email accounts to communicate with their ransomware victims, to include providing payment and decryption details.(Citation: Crowdstrike Indrik November 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -634,8 +458,6 @@
         "type": "relationship",
         "id": "relationship--c0f58f34-8f30-4a21-9771-5656ad0f5900",
         "created": "2021-09-14T19:56:28.375Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NCC Group WastedLocker June 2020",
@@ -658,27 +480,19 @@
                 "url": "https://www.crowdstrike.com/blog/hades-ransomware-successor-to-indrik-spiders-wastedlocker/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T19:45:37.678Z",
         "description": "(Citation: NCC Group WastedLocker June 2020)(Citation: Crowdstrike EvilCorp March 2021)(Citation: Microsoft Ransomware as a Service)(Citation: SentinelOne SocGholish Infrastructure November 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "malware--46cbafbc-8907-42d3-9002-5327c26f8927",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d9360852-584e-4980-9f9b-f56193bd3fc0",
         "type": "relationship",
         "created": "2021-02-08T22:05:36.564Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -696,22 +510,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--dcafed44-9d31-4d75-915f-660f5fd62fed",
         "type": "relationship",
         "created": "2021-03-05T18:09:35.145Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -729,22 +535,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "malware--fa766a65-5136-4ff3-8429-36d08eaa0100",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e2763cbf-c068-47b5-a871-3b20a368497f",
         "type": "relationship",
         "created": "2021-10-13T22:50:48.686Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec WastedLocker June 2020",
@@ -757,22 +555,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--20fb2507-d71c-455d-9b6d-6104461cf26b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f30598a2-f1bd-41da-874c-9b883d54790d",
         "type": "relationship",
         "created": "2021-10-13T22:50:48.783Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec WastedLocker June 2020",
@@ -785,22 +575,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f7d3d7fc-e25f-4b1f-b7ea-7c19adb300bd",
         "type": "relationship",
         "created": "2021-01-29T17:42:10.181Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike Indrik November 2018",
@@ -813,22 +595,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "attack-pattern--e196b5c5-8118-4a1c-ab8a-936586ce3db5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--f9ca130a-1356-4a0a-9d38-ee7d2f9a51f6",
         "created": "2021-09-15T18:16:39.685Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -841,17 +615,11 @@
                 "url": "https://www.crowdstrike.com/blog/hades-ransomware-successor-to-indrik-spiders-wastedlocker/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-05T21:14:46.101Z",
         "description": "(Citation: Crowdstrike EvilCorp March 2021)(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
         "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

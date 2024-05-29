@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--01d1922c-6900-4ed3-8ddf-bae4d06296b3",
         "type": "relationship",
         "created": "2020-03-18T18:37:06.748Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Patchwork Dec 2017",
@@ -22,22 +20,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--03b18e87-f5f2-4d12-b5b3-2e1ba131b091",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
@@ -50,22 +40,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0e89ca75-b73e-476e-b56d-1cf815fa7868",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.077Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -83,22 +65,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1576ad32-c7cc-45af-b39e-410d96a6f908",
         "type": "relationship",
         "created": "2020-06-18T17:45:26.363Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 BackConfig May 2020",
@@ -111,22 +85,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--174698f8-9349-4e52-9887-18089038195c",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
@@ -139,22 +105,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1770cc28-c49c-4b70-b4d0-6976efaede16",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
@@ -167,22 +125,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--19cc1620-de41-4076-b5b8-9d64364a578a",
         "type": "relationship",
         "created": "2020-06-26T17:48:54.913Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 BackConfig May 2020",
@@ -195,22 +145,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--c8e87b83-edbb-48d4-9295-4974897525b7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1a273c5c-b362-4126-b684-7751b85cbf5c",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
@@ -223,22 +165,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--b0533c6e-8fea-4788-874f-b799cacc4b92",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1ccf8b65-7f3e-4db7-933c-0a9bfae9602e",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
@@ -251,22 +185,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "malware--d1183cb9-258e-4f2f-8415-50ac8252c49e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1df7df54-c4c1-49f0-a0c3-11102db44f2c",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.076Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -279,22 +205,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1e666715-f087-44ad-aaa5-d22fbda42fba",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
@@ -307,22 +225,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--21caad94-1568-4e40-8e38-c0f7e854aede",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.076Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -335,22 +245,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--28139c5b-be96-44d2-8e54-425311d108d6",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.077Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -363,22 +265,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--b200542e-e877-4395-875b-cf1a44537ca4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2816f512-1a04-4cf8-94e9-36720b949c76",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.076Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -391,44 +285,28 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3680408d-e56e-4d68-a74d-2678093ed53f",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "modified": "2022-04-25T14:00:00.188Z",
         "relationship_type": "revoked-by",
         "source_ref": "intrusion-set--9559ecaf-2e75-48a7-aee8-9974020bc772",
         "target_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
         ],
         "external_references": null,
-        "x_mitre_deprecated": null,
-        "revoked": null,
         "description": null
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3f954be4-205c-4cec-92f9-36715e204a49",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.076Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -446,22 +324,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--40082714-cb19-482f-9b6d-22031ef39926",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
@@ -474,22 +344,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--42d4ae64-75da-4dfd-b23f-d270252115ee",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.076Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -507,22 +369,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5b63f8fd-efc7-454f-b466-d5e0a525f64f",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -550,22 +404,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--5c75f4e0-27ab-45d0-b8bc-3991137bdb87",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "TrendMicro Patchwork Dec 2017",
@@ -573,27 +419,19 @@
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-22T05:08:53.458Z",
         "description": "[Patchwork](https://attack.mitre.org/groups/G0040) has obfuscated a script with Crypto Obfuscator.(Citation: TrendMicro Patchwork Dec 2017)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5d26097f-2d6a-4642-857b-109c0f600a73",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
@@ -611,22 +449,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "tool--da04ac30-27da-4959-a67d-450ce47d9470",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5eba2b01-da0d-4340-816b-16a4f3cc8ba6",
         "type": "relationship",
         "created": "2021-10-12T21:55:09.989Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.volexity.com/blog/2018/06/07/patchwork-apt-group-targets-us-think-tanks/",
@@ -639,22 +469,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--62fd473e-e045-4a47-828a-ab5ee7b4fcf0",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Patchwork",
@@ -672,22 +494,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--67154159-cd44-4d9c-ae84-c82a8cd5ee58",
         "type": "relationship",
         "created": "2020-07-03T22:15:24.515Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://www.symantec.com/connect/blogs/patchwork-cyberespionage-group-expands-targets-governments-wide-range-industries",
@@ -715,22 +529,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6a5bc2dd-2132-4af0-9b12-0e781971d96c",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.076Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -743,22 +549,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--74316a28-d1a6-40b8-8c49-836f06e90e02",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -801,22 +599,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--891a97f1-d3e2-45ff-a079-43dcad21a175",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.077Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-dropping-elephant-actor/75328/",
@@ -829,22 +619,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8b2625de-8de9-4216-8805-d1e75093b098",
         "type": "relationship",
         "created": "2020-06-18T17:29:43.758Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 BackConfig May 2020",
@@ -857,22 +639,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "malware--c13d9621-aca7-436b-ab3d-3a95badb3d00",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8bb44b86-379d-49ba-9b28-2451e69db30d",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.076Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -890,22 +664,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8e28cc53-3fd4-42ed-8516-71fd9ee57641",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.075Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -918,22 +684,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9015a88f-9442-41cb-8486-046b76cddc5d",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
@@ -951,22 +709,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9319fb2f-88df-4195-a42e-2a6a983a4840",
         "type": "relationship",
         "created": "2020-10-14T20:39:49.553Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 BackConfig May 2020",
@@ -979,22 +729,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--34b3f738-bd64-40e5-a112-29b0542bc8bf",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9a35b72d-f238-4214-8bd1-91b768ab277b",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
@@ -1007,22 +749,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "malware--85b39628-204a-48d2-b377-ec368cbcb7ca",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a58cbb63-024b-4b78-8dad-4661ee445212",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
@@ -1035,22 +769,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b0a0e3c7-e1b2-4b84-8e37-8989147785d0",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
@@ -1063,22 +789,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b3a9c32f-c6d0-46d4-8936-dd4fec61d305",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.077Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-dropping-elephant-actor/75328/",
@@ -1091,22 +809,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--f7827069-0bf2-4764-af4f-23fae0d181b7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c5da001c-2c17-4e83-8e5c-21863ead4bd9",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.075Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -1129,22 +839,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c6a4b8e6-eaf7-4b56-af0a-ba0fd070e97b",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
@@ -1157,22 +859,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--5bfccc3f-2326-4112-86cc-c1ece9d8a2b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d0cd5f13-7e44-4728-98df-6e832f5d54dc",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
@@ -1185,22 +879,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "malware--f5352566-1a64-49ac-8f7f-97e1d1a03300",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d16d59aa-f056-4cc7-9f67-0e80db9cdacb",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.075Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -1213,22 +899,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d6e43621-ca4a-475f-b81c-037a0878728b",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.075Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -1246,21 +924,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--d9b4a18a-955a-4ef8-93b2-61db23e59b75",
         "created": "2023-03-22T22:09:57.090Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Volexity Patchwork June 2018",
@@ -1268,28 +939,19 @@
                 "url": "https://www.volexity.com/blog/2018/06/07/patchwork-apt-group-targets-us-think-tanks/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-22T22:09:57.090Z",
         "description": "[Patchwork](https://attack.mitre.org/groups/G0040) has used embedded image tags (known as web bugs) with unique, per-recipient tracking links in their emails for the purpose of identifying which recipients opened messages.(Citation: Volexity Patchwork June 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--da734f6c-de0d-44f1-9521-6607b800ad43",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.077Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-dropping-elephant-actor/75328/",
@@ -1307,22 +969,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--e35a6a79-0ffc-4835-aaf8-e42dd20a7e45",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Symantec Patchwork",
@@ -1340,27 +994,19 @@
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-22T22:08:42.857Z",
         "description": "[Patchwork](https://attack.mitre.org/groups/G0040) has used spearphishing with links to deliver files with exploits to initial victims.(Citation: Symantec Patchwork)(Citation: TrendMicro Patchwork Dec 2017)(Citation: Unit 42 BackConfig May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e8068ad2-97b3-4693-a6ad-a8ee9a272890",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.076Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -1378,22 +1024,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f07267d5-f532-4a52-abd6-20d5f94a2bf8",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://web.archive.org/web/20180825085952/https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
@@ -1406,22 +1044,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f1456e13-5f3f-4dac-a002-2bd78c36348a",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
@@ -1439,22 +1069,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f367b2fc-ea76-4fd4-9b90-049d95b4bc08",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
@@ -1467,22 +1089,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "malware--ab3580c8-8435-4117-aace-3d9fbe46aa56",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f7a4bc28-8f50-4e9e-9986-b71f21528967",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
@@ -1495,26 +1109,18 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "target_ref": "attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
         "description": "[Patchwork](https://attack.mitre.org/groups/G0040) used Visual Basic Scripts (VBS), JavaScript code, batch files, and .SCT files on victim machines.",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "created": "2018-10-17T00:14:20.652Z",
         "id": "relationship--db222ecf-5923-478d-ba71-88de478ae51c",
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
         "modified": "2020-03-31T14:49:39.188Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "TrendMicro Patchwork Dec 2017",
@@ -1528,19 +1134,12 @@
             }
         ],
         "relationship_type": "uses",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c34b6e8e-4a6f-45f1-bddf-cd2eaa2c7ce2",
         "relationship_type": "uses",
         "target_ref": "malware--e494ad79-37ee-4cd0-866b-299c521d8b94",
@@ -1554,16 +1153,9 @@
         "created": "2018-10-17T00:14:20.652Z",
         "modified": "2019-07-19T17:44:53.176Z",
         "type": "relationship",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null,
         "description": null
     }
 ]

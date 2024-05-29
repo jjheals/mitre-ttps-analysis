@@ -3,7 +3,6 @@
         "type": "relationship",
         "id": "relationship--04200684-0886-4299-ac13-f2c59c3b47d9",
         "created": "2023-12-06T19:12:47.449Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -11,18 +10,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-06T19:12:47.449Z",
         "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has posted false advertisements including for software packages and browser updates in order to distribute malware.(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "attack-pattern--155207c0-7f53-4f13-a06b-0a9907ef5096",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -31,8 +23,6 @@
         "type": "relationship",
         "id": "relationship--27d95bad-b939-43eb-a683-c3c3367cf728",
         "created": "2024-04-03T21:09:16.461Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SentinelOne SocGholish Infrastructure November 2022",
@@ -40,17 +30,11 @@
                 "url": "https://www.sentinelone.com/labs/socgholish-diversifies-and-expands-its-malware-staging-infrastructure-to-counter-defenders/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-03T21:09:56.669Z",
         "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has hosted payloads on acquired second-stage servers for periods of either days, weeks, or months.(Citation: SentinelOne SocGholish Infrastructure November 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -59,8 +43,6 @@
         "type": "relationship",
         "id": "relationship--37ad67f8-5b5c-4513-8465-fa584103f25b",
         "created": "2024-03-22T20:13:55.770Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SocGholish-update",
@@ -73,17 +55,11 @@
                 "url": "https://redcanary.com/threat-detection-report/threats/socgholish/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-03T21:11:32.917Z",
         "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has used the filename `AutoUpdater.js` to mimic legitimate update files and has also used the Cyrillic homoglyph characters \u0421 `(0xd0a1)` and \u0430 `(0xd0b0)`, to produce the filename `\u0421hrome.Upd\u0430te.zip`.(Citation: Red Canary SocGholish March 2024)(Citation: SocGholish-update)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -92,7 +68,6 @@
         "type": "relationship",
         "id": "relationship--3fe304c6-4f26-42a9-b1f4-22635fd01245",
         "created": "2024-03-25T19:08:10.205Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SocGholish-update",
@@ -100,18 +75,11 @@
                 "url": "https://www.proofpoint.com/us/blog/threat-insight/part-1-socgholish-very-real-threat-very-fake-update"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T19:08:10.205Z",
         "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has sent victims emails containing links to compromised websites.(Citation: SocGholish-update)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -120,8 +88,6 @@
         "type": "relationship",
         "id": "relationship--63bce642-8e12-44c1-a805-e7390aef23e7",
         "created": "2024-03-25T19:14:01.957Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SocGholish-update",
@@ -144,17 +110,11 @@
                 "url": "https://www.secureworks.com/research/threat-profiles/gold-prelude"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-26T18:37:02.958Z",
         "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) operates a global network of compromised websites that redirect into a traffic distribution system (TDS) to select victims for a fake browser update page.(Citation: Secureworks Gold Prelude Profile)(Citation: SocGholish-update)(Citation: SentinelOne SocGholish Infrastructure November 2022)(Citation: Red Canary SocGholish March 2024)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "attack-pattern--f9cc4d06-775f-4ee1-b401-4e2cc0da30ba",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -163,8 +123,6 @@
         "type": "relationship",
         "id": "relationship--8ffd5c6a-da54-43ee-b384-7458499302ad",
         "created": "2023-12-06T19:14:53.425Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SocGholish-update",
@@ -177,17 +135,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T19:14:46.548Z",
         "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has poisoned search engine results to return fake software updates in order to distribute malware.(Citation: Microsoft Ransomware as a Service)(Citation: SocGholish-update)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "attack-pattern--e5d550f3-2202-4634-85f2-4a200a1d49b3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -196,8 +148,6 @@
         "type": "relationship",
         "id": "relationship--91d541d9-b396-4499-8ed6-f0c762e1d495",
         "created": "2024-03-25T18:59:26.049Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SocGholish-update",
@@ -220,17 +170,11 @@
                 "url": "https://www.secureworks.com/research/threat-profiles/gold-prelude"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-26T18:28:31.847Z",
         "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has injected malicious JavaScript into compromised websites to infect victims via drive-by download.(Citation: SocGholish-update)(Citation: SentinelOne SocGholish Infrastructure November 2022)(Citation: Red Canary SocGholish March 2024)(Citation: Secureworks Gold Prelude Profile)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -239,8 +183,6 @@
         "type": "relationship",
         "id": "relationship--944f957c-f44b-4635-9635-985aedbb5d17",
         "created": "2024-03-25T18:37:23.554Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SocGholish-update",
@@ -258,17 +200,11 @@
                 "url": "https://www.secureworks.com/research/threat-profiles/gold-prelude"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-26T19:37:02.072Z",
         "description": "(Citation: Microsoft Ransomware as a Service)(Citation: Secureworks Gold Prelude Profile)(Citation: SocGholish-update)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "malware--5911d2ca-64f6-49b3-b94f-29b5d185085c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -277,8 +213,6 @@
         "type": "relationship",
         "id": "relationship--9a255458-7c76-4705-98f1-e2602ebc7795",
         "created": "2024-03-25T19:04:05.604Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SocGholish-update",
@@ -301,17 +235,11 @@
                 "url": "https://www.secureworks.com/research/threat-profiles/gold-prelude"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-26T18:28:41.999Z",
         "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has used drive-by downloads for initial infection, often using fake browser updates as a lure.(Citation: SocGholish-update)(Citation: SentinelOne SocGholish Infrastructure November 2022)(Citation: Red Canary SocGholish March 2024)(Citation: Secureworks Gold Prelude Profile)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -320,7 +248,6 @@
         "type": "relationship",
         "id": "relationship--9d2fbb81-fd66-4d1b-b919-58d251a06dbe",
         "created": "2023-12-06T19:22:44.851Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -328,18 +255,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-06T19:22:44.851Z",
         "description": "(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -348,8 +268,6 @@
         "type": "relationship",
         "id": "relationship--c809e1ba-e97b-41bf-a704-26fe09b6235c",
         "created": "2023-12-06T19:18:59.514Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SocGholish-update",
@@ -362,17 +280,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T19:05:31.996Z",
         "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has lured users into downloading malware through malicious links in fake advertisements and spearphishing emails.(Citation: Microsoft Ransomware as a Service)(Citation: SocGholish-update)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -381,7 +293,6 @@
         "type": "relationship",
         "id": "relationship--e08f461a-7ebb-41e8-8e97-9ade8f52e4e2",
         "created": "2023-12-06T19:20:35.307Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -389,18 +300,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-06T19:20:35.307Z",
         "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has used implants to perform system reconnaissance on targeted systems.(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -409,7 +313,6 @@
         "type": "relationship",
         "id": "relationship--e7a7e9ac-e03a-4fd1-b8e1-bc9524abf051",
         "created": "2024-03-25T19:59:36.843Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SentinelOne SocGholish Infrastructure November 2022",
@@ -417,18 +320,11 @@
                 "url": "https://www.sentinelone.com/labs/socgholish-diversifies-and-expands-its-malware-staging-infrastructure-to-counter-defenders/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T19:59:36.843Z",
         "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has acquired servers to host second-stage payloads that remain active for a period of either days, weeks, or months.(Citation: SentinelOne SocGholish Infrastructure November 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "attack-pattern--60c4b628-4807-4b0b-bbf5-fdac8643c337",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -437,8 +333,6 @@
         "type": "relationship",
         "id": "relationship--eeebf544-5120-400b-9e79-d98aa070f905",
         "created": "2023-12-06T19:21:36.841Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -446,17 +340,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-06T19:22:18.987Z",
         "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has deployed secondary payloads and third stage implants to compromised hosts.(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

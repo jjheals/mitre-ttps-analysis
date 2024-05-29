@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--03fcc016-f9a2-491d-8d9f-92aa4b4c4d4a",
         "created": "2019-06-17T19:35:16.095Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "PWC KeyBoys Feb 2017",
@@ -12,27 +10,19 @@
                 "url": "https://web.archive.org/web/20211129064701/https://www.pwc.co.uk/issues/cyber-security-services/research/the-keyboys-are-back-in-town.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:22:36.381Z",
         "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) has installed a service pointing to a malicious DLL dropped to disk.(Citation: PWC KeyBoys Feb 2017)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--098a760a-66ce-46e0-938e-86518e450a27",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.332Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -45,22 +35,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--0be962d8-6281-4554-ad1f-4cba04c547de",
         "created": "2019-01-29T20:17:49.311Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CitizenLab Tropic Trooper Aug 2018",
@@ -88,27 +70,19 @@
                 "url": "https://researchcenter.paloaltonetworks.com/2016/11/unit42-tropic-trooper-targets-taiwanese-government-and-fossil-fuel-provider-with-poison-ivy/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:24:22.258Z",
         "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) sent spearphishing emails that contained malicious Microsoft Office and fake installer file attachments.(Citation: Unit 42 Tropic Trooper Nov 2016)(Citation: TrendMicro TropicTrooper 2015)(Citation: CitizenLab Tropic Trooper Aug 2018)(Citation: Anomali Pirate Panda April 2020)(Citation: TrendMicro Tropic Trooper May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0f47a6e7-af7e-4e23-a401-4dec08da4e64",
         "type": "relationship",
         "created": "2020-05-21T12:59:00.513Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -121,22 +95,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--17cafa26-57f1-4efb-9d23-1399cd2de4cd",
         "type": "relationship",
         "created": "2019-01-29T20:17:49.270Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Ray, V. (2016, November 22). Tropic Trooper Targets Taiwanese Government and Fossil Fuel Provider With Poison Ivy. Retrieved November 9, 2018.",
@@ -154,22 +120,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1b5dbd72-abeb-4d61-9a7f-917a17f272d1",
         "type": "relationship",
         "created": "2020-05-21T12:59:00.698Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -182,22 +140,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "malware--75bba379-4ba1-467e-8c60-ec2b269ee984",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--283ba7b1-cd3b-44e9-bfae-70023c53d446",
         "type": "relationship",
         "created": "2020-05-20T18:56:59.024Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Anomali Pirate Panda April 2020",
@@ -210,22 +160,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3089fe6b-36d6-4890-b70b-1a76f55c84ff",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.182Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -238,22 +180,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--b8902400-e6c5-4ba2-95aa-2d35b442b118",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--32bebd4b-6bbe-4a4e-86a1-0c49fda51259",
         "type": "relationship",
         "created": "2020-05-20T19:05:37.549Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Anomali Pirate Panda April 2020",
@@ -271,22 +205,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4269342d-fd7b-4fc6-882f-5099da627c85",
         "type": "relationship",
         "created": "2019-01-29T20:17:49.308Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Horejsi, J., et al. (2018, March 14). Tropic Trooper\u2019s New Strategy. Retrieved November 9, 2018.",
@@ -304,22 +230,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--56a866fd-1a37-4750-89e6-2e26ed69cb27",
         "type": "relationship",
         "created": "2019-01-29T20:17:49.304Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Ray, V. (2016, November 22). Tropic Trooper Targets Taiwanese Government and Fossil Fuel Provider With Poison Ivy. Retrieved November 9, 2018.",
@@ -332,22 +250,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--dc31fe1e-d722-49da-8f5f-92c7b5aff534",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--58a7f0d9-7c20-4808-b8be-bd6240267030",
         "created": "2019-06-17T18:43:35.472Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "TrendMicro TropicTrooper 2015",
@@ -355,17 +265,11 @@
                 "url": "https://documents.trendmicro.com/assets/wp/wp-operation-tropic-trooper.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:24:22.261Z",
         "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) used <code>letmein</code> to scan for saved usernames on the target system.(Citation: TrendMicro TropicTrooper 2015)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -374,8 +278,6 @@
         "type": "relationship",
         "id": "relationship--5929ef3e-3945-4ede-b3cd-94f47850a6bd",
         "created": "2019-06-17T18:43:35.392Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "TrendMicro TropicTrooper 2015",
@@ -388,27 +290,19 @@
                 "url": "https://documents.trendmicro.com/assets/Tech-Brief-Tropic-Trooper-s-Back-USBferry-Attack-Targets-Air-gapped-Environments.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:24:22.262Z",
         "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) used <code>pr</code> and an openly available tool to scan for open ports on target systems.(Citation: TrendMicro TropicTrooper 2015)(Citation: TrendMicro Tropic Trooper May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6512ebc3-cc9f-48e1-9a57-a5deb062f123",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.293Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -421,22 +315,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--696abb07-b706-469e-83c2-1e29984c9532",
         "type": "relationship",
         "created": "2021-03-23T20:56:56.455Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Recorded Future RedEcho Feb 2021",
@@ -449,22 +335,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6971d7f3-8161-4399-b587-acab5d8820f1",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.262Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -477,22 +355,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--a3e1e6c5-9c74-4fc0-a16c-a9d228c17829",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--69cc4413-80b4-45ed-a993-db34fe32fabe",
         "type": "relationship",
         "created": "2020-05-20T19:05:37.554Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Anomali Pirate Panda April 2020",
@@ -510,22 +380,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6a063d3a-cad2-4649-93a4-d1931ae6aaaf",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.172Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -538,22 +400,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6a8356c2-5a79-40b7-bb8e-b7d9dffbe523",
         "type": "relationship",
         "created": "2019-01-29T20:17:49.316Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Horejsi, J., et al. (2018, March 14). Tropic Trooper\u2019s New Strategy. Retrieved November 9, 2018.",
@@ -571,22 +425,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--702b125c-993e-468f-8ea9-6862048be772",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.295Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -599,22 +445,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--73499911-3b9f-443e-b522-f0d1434f2eb6",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.174Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -627,22 +465,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--77dbc1ae-556e-43cd-b776-c7670ab5c915",
         "type": "relationship",
         "created": "2019-06-17T18:43:35.376Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CitizenLab KeyBoy Nov 2016",
@@ -660,22 +490,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--78731c00-1f22-4dab-a3cd-d19fac57e82f",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.279Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -688,22 +510,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--831143c2-3477-49e4-8806-c1e07be0fa79",
         "type": "relationship",
         "created": "2019-01-29T20:17:49.379Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Ray, V. (2016, November 22). Tropic Trooper Targets Taiwanese Government and Fossil Fuel Provider With Poison Ivy. Retrieved November 9, 2018.",
@@ -716,22 +530,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "malware--b42378e0-f147-496f-992a-26a49705395b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--86333028-9eb1-44a3-9a5a-51fffe66f0e1",
         "created": "2019-01-29T20:17:49.354Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -744,27 +550,19 @@
                 "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-trooper-new-strategy/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-10T22:27:20.495Z",
         "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) has encrypted configuration files.(Citation: TrendMicro Tropic Trooper Mar 2018)(Citation: TrendMicro Tropic Trooper May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8a2a70a5-044d-4869-9d11-10499c8848bc",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.231Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -777,22 +575,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--91180074-16cd-448f-8955-628d06965e22",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.169Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -805,22 +595,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--95122d43-9de8-4eef-bc46-6fdc5cc276a9",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.233Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -833,22 +615,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ad3bca07-c2d2-411f-9bd8-bf4e1142d9ae",
         "type": "relationship",
         "created": "2019-01-29T20:17:49.278Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Ray, V. (2016, November 22). Tropic Trooper Targets Taiwanese Government and Fossil Fuel Provider With Poison Ivy. Retrieved November 9, 2018.",
@@ -866,22 +640,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--6836813e-8ec8-4375-b459-abb388cb1a35",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ad934b01-9c8c-42cd-8195-dc272c363208",
         "type": "relationship",
         "created": "2019-01-29T20:17:49.381Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Horejsi, J., et al. (2018, March 14). Tropic Trooper\u2019s New Strategy. Retrieved November 9, 2018.",
@@ -899,22 +665,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--af9e92df-d4d0-437a-9114-823b6a2a14a6",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.198Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -927,22 +685,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b3dd4e4e-0bb8-4487-8336-b5d9024045eb",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.281Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -955,22 +705,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b5344ae6-8083-4a09-98f3-01c1491356dc",
         "type": "relationship",
         "created": "2019-09-23T13:23:14.337Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper Mar 2018",
@@ -983,22 +725,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "tool--64764dc6-a032-495f-8250-1e4c06bdc163",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c31643e8-86a3-49e4-bd69-572d7e64c7c0",
         "type": "relationship",
         "created": "2019-01-29T20:17:49.374Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Horejsi, J., et al. (2018, March 14). Tropic Trooper\u2019s New Strategy. Retrieved November 9, 2018.",
@@ -1016,22 +750,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c4f1371c-8f23-49b7-9572-d226ee2dbade",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.235Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -1044,22 +770,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--774a3188-6ba9-4dc4-879d-d54ee48a5ce9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--c4f4fe39-af57-47d3-8428-fe5bce63bdbb",
         "created": "2019-06-17T18:43:35.447Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "TrendMicro TropicTrooper 2015",
@@ -1067,17 +785,11 @@
                 "url": "https://documents.trendmicro.com/assets/wp/wp-operation-tropic-trooper.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:24:22.268Z",
         "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) used <code>netview</code> to scan target systems for shared resources.(Citation: TrendMicro TropicTrooper 2015)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1086,8 +798,6 @@
         "type": "relationship",
         "id": "relationship--cd5799f3-8be5-4272-88db-626940136130",
         "created": "2020-05-21T14:55:00.290Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "TrendMicro TropicTrooper 2015",
@@ -1100,27 +810,19 @@
                 "url": "https://documents.trendmicro.com/assets/Tech-Brief-Tropic-Trooper-s-Back-USBferry-Attack-Targets-Air-gapped-Environments.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:24:22.274Z",
         "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) has detected a target system\u2019s OS version and system volume information.(Citation: TrendMicro TropicTrooper 2015)(Citation: TrendMicro Tropic Trooper May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cdefab78-5d90-4e89-8664-5bbd30ab1517",
         "type": "relationship",
         "created": "2019-01-29T20:17:49.232Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Ray, V. (2016, November 22). Tropic Trooper Targets Taiwanese Government and Fossil Fuel Provider With Poison Ivy. Retrieved November 9, 2018.",
@@ -1133,22 +835,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d68120b8-9ef8-4a40-ae4c-d2b597336140",
         "type": "relationship",
         "created": "2019-01-29T20:17:49.301Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Ray, V. (2016, November 22). Tropic Trooper Targets Taiwanese Government and Fossil Fuel Provider With Poison Ivy. Retrieved November 9, 2018.",
@@ -1166,22 +860,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--df7e5314-665b-44a3-8040-f6cb8fd28cbf",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.329Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -1194,22 +880,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e35f5636-2ae8-4ab7-9851-73410e6a58d0",
         "type": "relationship",
         "created": "2020-05-21T12:59:00.496Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -1222,22 +900,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--c2e147a9-d1a8-4074-811a-d8789202d916",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--e4ccb68f-5c52-4805-88d0-14d87268e562",
         "created": "2019-06-17T18:59:18.534Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "TrendMicro TropicTrooper 2015",
@@ -1245,27 +915,19 @@
                 "url": "https://documents.trendmicro.com/assets/wp/wp-operation-tropic-trooper.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:24:22.276Z",
         "description": "(Citation: TrendMicro TropicTrooper 2015)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "malware--cb444a16-3ea5-4a91-88c6-f329adcb8af3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ef2cc3f0-b44f-4f56-ba46-45e736ce0e90",
         "type": "relationship",
         "created": "2019-06-17T18:59:18.525Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Ray, V. (2016, November 22). Tropic Trooper Targets Taiwanese Government and Fossil Fuel Provider With Poison Ivy. Retrieved November 9, 2018.",
@@ -1283,22 +945,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "malware--5dd649c0-bca4-488b-bd85-b180474ec62e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f79c163a-25c0-4694-b1ca-50ab1eda8651",
         "type": "relationship",
         "created": "2020-05-21T14:55:00.229Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -1311,22 +965,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fded4f08-6cb0-4259-a6a9-f0d62537164f",
         "type": "relationship",
         "created": "2020-05-21T12:59:00.515Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -1339,26 +985,18 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "target_ref": "attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
         "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) has detected a target system\u2019s OS version.",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "created": "2019-06-17T18:43:35.470Z",
         "id": "relationship--eba2ecc5-b383-4cbb-93f9-9cef81cd016b",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "modified": "2020-03-31T14:49:39.188Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "TrendMicro TropicTrooper 2015",
@@ -1367,26 +1005,18 @@
             }
         ],
         "relationship_type": "uses",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
         "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) can use ports 443 and 53 for C2 communications via malware called TClient.",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "created": "2019-01-29T20:17:49.272Z",
         "id": "relationship--f3a6218e-35e3-4897-9b3b-0554a51dce43",
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "modified": "2020-03-31T14:49:39.188Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "TrendMicro Tropic Trooper Mar 2018",
@@ -1395,22 +1025,14 @@
             }
         ],
         "relationship_type": "uses",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) has leveraged the BITSadmin command-line tool to create a job and launch a malicious process.",
         "type": "relationship",
         "created": "2019-01-29T20:17:49.356Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d0b1714b-a9d5-4450-9200-337d164dc897",
         "external_references": [
             {
@@ -1423,14 +1045,8 @@
         "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
         "relationship_type": "uses",
         "target_ref": "attack-pattern--c8e87b83-edbb-48d4-9295-4974897525b7",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

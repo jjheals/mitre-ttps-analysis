@@ -6,13 +6,8 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "2.6",
-        "x_mitre_contributors": [
-            "David Ferguson, CyberSponse"
         ],
         "x_mitre_aliases": [
             "Net",
@@ -21,8 +16,6 @@
         "type": "tool",
         "id": "tool--03342581-f790-4f03-ba41-e82e67392e23",
         "created": "2017-05-31T21:32:31.601Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -39,13 +32,7 @@
                 "description": "Savill, J. (1999, March 4). Net.exe reference. Retrieved September 22, 2015.",
                 "url": "https://web.archive.org/web/20150511162820/http://windowsitpro.com/windows/netexe-reference"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_platforms": [
@@ -57,13 +44,9 @@
         "x_mitre_aliases": [
             "RemoteUtilities"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--03c6e0ea-96d3-4b23-9afb-05055663cf4b",
         "type": "tool",
         "created": "2021-03-18T14:57:34.628Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "external_id": "S0592",
@@ -78,11 +61,7 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "RemoteUtilities",
-        "description": "[RemoteUtilities](https://attack.mitre.org/software/S0592) is a legitimate remote administration tool that has been used by [MuddyWater](https://attack.mitre.org/groups/G0069) since at least 2021 for execution on target machines.(Citation: Trend Micro Muddy Water March 2021)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[RemoteUtilities](https://attack.mitre.org/software/S0592) is a legitimate remote administration tool that has been used by [MuddyWater](https://attack.mitre.org/groups/G0069) since at least 2021 for execution on target machines.(Citation: Trend Micro Muddy Water March 2021)"
     },
     {
         "modified": "2023-08-09T18:00:13.178Z",
@@ -91,19 +70,15 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.5",
         "x_mitre_aliases": [
             "BloodHound"
         ],
         "type": "tool",
         "id": "tool--066b057c-944e-4cfc-b654-e3dfba04b926",
         "created": "2020-10-28T12:51:29.358Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -125,13 +100,7 @@
                 "description": "Robbins, A., Vazarkar, R., and Schroeder, W. (2016, April 17). Bloodhound: Six Degrees of Domain Admin. Retrieved March 5, 2019.",
                 "url": "https://github.com/BloodHoundAD/BloodHound"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2023-07-27T15:28:27.482Z",
@@ -140,11 +109,9 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.4",
         "x_mitre_aliases": [
             "certutil",
             "certutil.exe"
@@ -152,8 +119,6 @@
         "type": "tool",
         "id": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -165,13 +130,7 @@
                 "description": "Microsoft. (2012, November 14). Certutil. Retrieved July 3, 2017.",
                 "url": "https://technet.microsoft.com/library/cc732443.aspx"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2022-09-22T20:56:56.049Z",
@@ -182,11 +141,9 @@
             "Windows",
             "macOS"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.3",
         "x_mitre_aliases": [
             "at",
             "at.exe"
@@ -194,8 +151,6 @@
         "type": "tool",
         "id": "tool--0c8465c0-d0b4-4670-992e-4eee8d7ff952",
         "created": "2017-05-31T21:33:06.824Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -212,25 +167,15 @@
                 "description": "Microsoft. (n.d.). At. Retrieved April 28, 2016.",
                 "url": "https://technet.microsoft.com/en-us/library/bb490866.aspx"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--102c3898-85e0-43ee-ae28-62a0a3ed9507",
         "type": "tool",
         "created": "2017-05-31T21:33:09.047Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -246,10 +191,8 @@
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "UACMe",
         "description": "[UACMe](https://attack.mitre.org/software/S0116) is an open source assessment tool that contains many methods for bypassing Windows User Account Control on multiple versions of the operating system. (Citation: Github UACMe)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null,
+        "x_mitre_aliases": null
     },
     {
         "x_mitre_platforms": [
@@ -261,13 +204,9 @@
         "x_mitre_aliases": [
             "ShimRatReporter"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--115f88dd-0618-4389-83cb-98d33ae81848",
         "type": "tool",
         "created": "2020-05-12T21:29:48.294Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "external_id": "S0445",
@@ -282,11 +221,7 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "ShimRatReporter",
-        "description": "[ShimRatReporter](https://attack.mitre.org/software/S0445) is a tool used by suspected Chinese adversary [Mofang](https://attack.mitre.org/groups/G0103) to automatically conduct initial discovery. The details from this discovery are used to customize follow-on payloads (such as [ShimRat](https://attack.mitre.org/software/S0444)) as well as set up faux infrastructure which mimics the adversary's targets. [ShimRatReporter](https://attack.mitre.org/software/S0445) has been used in campaigns targeting multiple countries and sectors including government, military, critical infrastructure, automobile, and weapons development.(Citation: FOX-IT May 2016 Mofang)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[ShimRatReporter](https://attack.mitre.org/software/S0445) is a tool used by suspected Chinese adversary [Mofang](https://attack.mitre.org/groups/G0103) to automatically conduct initial discovery. The details from this discovery are used to customize follow-on payloads (such as [ShimRat](https://attack.mitre.org/software/S0444)) as well as set up faux infrastructure which mimics the adversary's targets. [ShimRatReporter](https://attack.mitre.org/software/S0445) has been used in campaigns targeting multiple countries and sectors including government, military, critical infrastructure, automobile, and weapons development.(Citation: FOX-IT May 2016 Mofang)"
     },
     {
         "modified": "2024-04-11T00:06:01.264Z",
@@ -297,14 +232,8 @@
             "Linux",
             "macOS"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.2",
-        "x_mitre_contributors": [
-            "Achute Sharma, Keysight",
-            "Ayan Saha, Keysight"
         ],
         "x_mitre_aliases": [
             "Sliver"
@@ -312,8 +241,6 @@
         "type": "tool",
         "id": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",
         "created": "2021-07-30T15:43:17.770Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -325,13 +252,7 @@
                 "description": "Kervella, R. (2019, August 4). Cross-platform General Purpose Implant Framework Written in Golang. Retrieved July 30, 2021.",
                 "url": "https://labs.bishopfox.com/tech-blog/sliver"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2023-04-14T19:27:39.308Z",
@@ -340,13 +261,8 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.0",
-        "x_mitre_contributors": [
-            "Daniel Acevedo, @darmad0, ARMADO"
         ],
         "x_mitre_aliases": [
             "SILENTTRINITY"
@@ -354,8 +270,6 @@
         "type": "tool",
         "id": "tool--1244e058-fa10-48cb-b484-0bcf671107ae",
         "created": "2022-03-23T19:34:30.486Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -376,13 +290,7 @@
                 "description": "Salvati, M (2019, August 6). SILENTTRINITY. Retrieved March 23, 2022.",
                 "url": "https://github.com/byt3bl33d3r/SILENTTRINITY"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2023-08-17T19:50:17.832Z",
@@ -391,19 +299,15 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.6",
         "x_mitre_aliases": [
             "PowerSploit"
         ],
         "type": "tool",
         "id": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -425,13 +329,7 @@
                 "description": "PowerSploit. (n.d.). PowerSploit. Retrieved February 6, 2018.",
                 "url": "http://powersploit.readthedocs.io"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2023-10-19T12:18:43.123Z",
@@ -440,13 +338,8 @@
         "x_mitre_platforms": [
             "IaaS"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.0",
-        "x_mitre_contributors": [
-            "Thanabodi Phrakhun, @naikordian"
         ],
         "x_mitre_aliases": [
             "Pacu"
@@ -454,8 +347,6 @@
         "type": "tool",
         "id": "tool--1b3b8f96-43b1-4460-8e02-1f53d7802fb9",
         "created": "2023-09-28T13:21:49.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -467,13 +358,7 @@
                 "description": "Rhino Security Labs. (2019, August 22). Pacu. Retrieved October 17, 2019.",
                 "url": "https://github.com/RhinoSecurityLabs/pacu"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_platforms": [
@@ -486,13 +371,9 @@
             "Windows Credential Editor",
             "WCE"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--242f3da3-4425-4d11-8f5c-b842886da966",
         "type": "tool",
         "created": "2017-05-31T21:32:12.684Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -507,11 +388,7 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "Windows Credential Editor",
-        "description": "[Windows Credential Editor](https://attack.mitre.org/software/S0005) is a password dumping tool. (Citation: Amplia WCE)",
-        "x_mitre_version": "1.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[Windows Credential Editor](https://attack.mitre.org/software/S0005) is a password dumping tool. (Citation: Amplia WCE)"
     },
     {
         "modified": "2024-03-14T17:27:34.759Z",
@@ -522,13 +399,8 @@
             "macOS",
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.6",
-        "x_mitre_contributors": [
-            "Jacob Wilkin, Trustwave, SpiderLabs"
         ],
         "x_mitre_aliases": [
             "Impacket"
@@ -536,8 +408,6 @@
         "type": "tool",
         "id": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
         "created": "2019-01-31T01:39:56.283Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -549,31 +419,21 @@
                 "description": "SecureAuth. (n.d.).  Retrieved January 15, 2019.",
                 "url": "https://www.secureauth.com/labs/open-source-tools/impacket"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2022-10-12T21:28:49.335Z",
         "name": "ipconfig",
         "description": "[ipconfig](https://attack.mitre.org/software/S0100) is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.1",
         "x_mitre_aliases": [
             "ipconfig"
         ],
         "type": "tool",
         "id": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
         "created": "2017-05-31T21:33:02.863Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -586,12 +446,7 @@
                 "url": "https://technet.microsoft.com/en-us/library/bb490921.aspx"
             }
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null
     },
     {
         "modified": "2023-04-15T00:59:18.335Z",
@@ -602,19 +457,15 @@
             "Azure AD",
             "Office 365"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.2",
         "x_mitre_aliases": [
             "AADInternals"
         ],
         "type": "tool",
         "id": "tool--2c5281dd-b5fd-4531-8aea-c1bf8a0f8756",
         "created": "2022-02-01T15:08:45.007Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -636,31 +487,21 @@
                 "description": "Dr. Nestori Syynimaa. (2021, December 13). AADInternals. Retrieved February 1, 2022.",
                 "url": "https://github.com/Gerenios/AADInternals"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2024-02-12T19:14:37.984Z",
         "name": "Tasklist",
         "description": "The [Tasklist](https://attack.mitre.org/software/S0057) utility displays a list of applications and services with their Process IDs (PID) for all tasks running on either a local or a remote computer. It is packaged with Windows operating systems and can be executed from the command-line interface. (Citation: Microsoft Tasklist)",
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.2",
         "x_mitre_aliases": [
             "Tasklist"
         ],
         "type": "tool",
         "id": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
         "created": "2017-05-31T21:32:39.233Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -673,12 +514,7 @@
                 "url": "https://technet.microsoft.com/en-us/library/bb491010.aspx"
             }
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null
     },
     {
         "modified": "2023-09-25T18:54:49.773Z",
@@ -687,13 +523,8 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.2",
-        "x_mitre_contributors": [
-            "Janantha Marasinghe"
         ],
         "x_mitre_aliases": [
             "ngrok"
@@ -701,8 +532,6 @@
         "type": "tool",
         "id": "tool--2f7f03bb-f367-4a5a-ad9b-310a12a48906",
         "created": "2023-09-14T18:56:34.771Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -729,13 +558,7 @@
                 "description": "Kennelly, J., Goody, K., Shilko, J. (2020, May 7). Navigating the MAZE: Tactics, Techniques and Procedures Associated With MAZE Ransomware Incidents. Retrieved May 18, 2020.",
                 "url": "https://www.fireeye.com/blog/threat-research/2020/05/tactics-techniques-procedures-associated-with-maze-ransomware-incidents.html"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_platforms": [
@@ -747,13 +570,9 @@
         "x_mitre_aliases": [
             "Lslsass"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--2fab555f-7664-4623-b4e0-1675ae38190b",
         "type": "tool",
         "created": "2017-05-31T21:33:10.962Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -768,11 +587,7 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "Lslsass",
-        "description": "[Lslsass](https://attack.mitre.org/software/S0121) is a publicly-available tool that can dump active logon session password hashes from the lsass process. (Citation: Mandiant APT1)",
-        "x_mitre_version": "1.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[Lslsass](https://attack.mitre.org/software/S0121) is a publicly-available tool that can dump active logon session password hashes from the lsass process. (Citation: Mandiant APT1)"
     },
     {
         "modified": "2023-07-25T19:24:08.305Z",
@@ -783,11 +598,9 @@
             "Windows",
             "macOS"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.2",
         "x_mitre_aliases": [
             "Arp",
             "arp.exe"
@@ -795,8 +608,6 @@
         "type": "tool",
         "id": "tool--30489451-5886-4c46-90c9-0dff9adc5252",
         "created": "2017-05-31T21:33:02.428Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -808,13 +619,7 @@
                 "description": "Microsoft. (n.d.). Arp. Retrieved April 17, 2016.",
                 "url": "https://technet.microsoft.com/en-us/library/bb490864.aspx"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_platforms": [
@@ -826,13 +631,9 @@
         "x_mitre_aliases": [
             "spwebmember"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--33b9e38f-103c-412d-bdcf-904a91fff1e4",
         "type": "tool",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -851,11 +652,7 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "spwebmember",
-        "description": "[spwebmember](https://attack.mitre.org/software/S0227) is a Microsoft SharePoint enumeration and data dumping tool written in .NET. (Citation: NCC Group APT15 Alive and Strong)",
-        "x_mitre_version": "1.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[spwebmember](https://attack.mitre.org/software/S0227) is a Microsoft SharePoint enumeration and data dumping tool written in .NET. (Citation: NCC Group APT15 Alive and Strong)"
     },
     {
         "modified": "2023-07-27T15:44:31.364Z",
@@ -866,11 +663,9 @@
             "macOS",
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.7",
         "x_mitre_aliases": [
             "Empire",
             "EmPyre",
@@ -879,8 +674,6 @@
         "type": "tool",
         "id": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
         "created": "2019-03-11T14:13:40.648Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -910,25 +703,15 @@
                 "description": "The Australian Cyber Security Centre (ACSC), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NZ NCSC), CERT New Zealand, the UK National Cyber Security Centre (UK NCSC) and the US National Cybersecurity and Communications Integration Center (NCCIC). (2018, October 11). Joint report on publicly available hacking tools. Retrieved March 11, 2019.",
                 "url": "https://www.ncsc.gov.uk/report/joint-report-on-publicly-available-hacking-tools"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--362dc67f-4e85-4562-9dac-1b6b7f3ec4b5",
         "type": "tool",
         "created": "2017-05-31T21:33:03.377Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -944,10 +727,8 @@
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "ifconfig",
         "description": "[ifconfig](https://attack.mitre.org/software/S0101) is a Unix-based utility used to gather information about and interact with the TCP/IP settings on a system. (Citation: Wikipedia Ifconfig)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null,
+        "x_mitre_aliases": null
     },
     {
         "modified": "2023-01-04T18:56:27.812Z",
@@ -956,11 +737,9 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.4",
         "x_mitre_aliases": [
             "dsquery",
             "dsquery.exe"
@@ -968,8 +747,6 @@
         "type": "tool",
         "id": "tool--38952eac-cb1b-4a71-bad2-ee8223a1c8fe",
         "created": "2017-05-31T21:33:04.937Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -981,13 +758,7 @@
                 "description": "Microsoft. (n.d.). Dsquery. Retrieved April 18, 2016.",
                 "url": "https://technet.microsoft.com/en-us/library/cc732952.aspx"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2024-04-11T00:28:17.175Z",
@@ -996,19 +767,15 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.1",
         "x_mitre_aliases": [
             "PcShare"
         ],
         "type": "tool",
         "id": "tool--3a53b207-aba2-4a2b-9cdb-273d633669e7",
         "created": "2022-10-13T14:07:52.541Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1025,13 +792,7 @@
                 "description": "Vrabie, V. (2020, November). Dissecting a Chinese APT Targeting South Eastern Asian Government Institutions. Retrieved September 19, 2022.",
                 "url": "https://www.bitdefender.com/files/News/CaseStudies/study/379/Bitdefender-Whitepaper-Chinese-APT.pdf"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_platforms": [
@@ -1043,13 +804,9 @@
         "x_mitre_aliases": [
             "RawDisk"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "type": "tool",
         "id": "tool--3ffbdc1f-d2bf-41ab-91a2-c7b857e98079",
         "created": "2019-03-25T12:30:40.919Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1067,33 +824,23 @@
                 "description": "Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Destructive Malware Report. Retrieved March 2, 2016."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[RawDisk](https://attack.mitre.org/software/S0364) is a legitimate commercial driver from the EldoS Corporation that is used for interacting with files, disks, and partitions. The driver allows for direct modification of data on a local computer's hard drive. In some cases, the tool can enact these raw disk modifications from user-mode processes, circumventing Windows operating system security features.(Citation: EldoS RawDisk ITpro)(Citation: Novetta Blockbuster Destructive Malware)",
         "modified": "2022-07-28T18:55:35.991Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "name": "RawDisk",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "name": "RawDisk"
     },
     {
         "modified": "2024-01-23T19:57:39.135Z",
         "name": "netstat",
         "description": "[netstat](https://attack.mitre.org/software/S0104) is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.3",
         "x_mitre_aliases": [
             "netstat"
         ],
         "type": "tool",
         "id": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
         "created": "2017-05-31T21:33:04.545Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1106,12 +853,7 @@
                 "url": "https://technet.microsoft.com/en-us/library/bb490947.aspx"
             }
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null
     },
     {
         "x_mitre_platforms": [
@@ -1125,13 +867,9 @@
         "x_mitre_aliases": [
             "PoshC2"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "type": "tool",
         "id": "tool--4b57c098-f043-4da2-83ef-7588a6d426bc",
         "created": "2019-04-23T12:31:58.125Z",
-        "x_mitre_version": "1.3",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1144,15 +882,9 @@
                 "description": "Nettitude. (2018, July 23). Python Server for PoshC2. Retrieved April 23, 2019."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[PoshC2](https://attack.mitre.org/software/S0378) is an open source remote administration and post-exploitation framework that is publicly available on GitHub. The server-side components of the tool are primarily written in Python, while the implants are written in [PowerShell](https://attack.mitre.org/techniques/T1059/001). Although [PoshC2](https://attack.mitre.org/software/S0378) is primarily focused on Windows implantation, it does contain a basic Python dropper for Linux/macOS.(Citation: GitHub PoshC2)",
         "modified": "2022-06-03T17:45:36.186Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "name": "PoshC2",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "name": "PoshC2"
     },
     {
         "x_mitre_platforms": [
@@ -1164,13 +896,9 @@
         "x_mitre_aliases": [
             "Fgdump"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--4f45dfeb-fe51-4df0-8db3-edf7dd0513fe",
         "type": "tool",
         "created": "2017-05-31T21:33:10.569Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1185,23 +913,15 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "Fgdump",
-        "description": "[Fgdump](https://attack.mitre.org/software/S0120) is a Windows password hash dumper. (Citation: Mandiant APT1)",
-        "x_mitre_version": "1.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[Fgdump](https://attack.mitre.org/software/S0120) is a Windows password hash dumper. (Citation: Mandiant APT1)"
     },
     {
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--4fa49fc0-9162-4bdb-a37e-7aa3dcb6d38b",
         "type": "tool",
         "created": "2017-05-31T21:33:11.941Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1217,10 +937,8 @@
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "xCmd",
         "description": "[xCmd](https://attack.mitre.org/software/S0123) is an open source tool that is similar to [PsExec](https://attack.mitre.org/software/S0029) and allows the user to execute applications on remote systems. (Citation: xCmd)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null,
+        "x_mitre_aliases": null
     },
     {
         "modified": "2022-10-18T23:14:56.867Z",
@@ -1229,19 +947,15 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.0",
         "x_mitre_aliases": [
             "CSPY Downloader"
         ],
         "type": "tool",
         "id": "tool--5256c0f8-9108-4c92-8b09-482dfacdcd94",
         "created": "2020-11-09T14:30:35.202Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1253,13 +967,7 @@
                 "description": "Dahan, A. et al. (2020, November 2). Back to the Future: Inside the Kimsuky KGH Spyware Suite. Retrieved November 6, 2020.",
                 "url": "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2024-04-04T03:50:32.975Z",
@@ -1270,14 +978,8 @@
             "Windows",
             "macOS"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.1",
-        "x_mitre_contributors": [
-            "Edward Millington",
-            "Ian McKay"
         ],
         "x_mitre_aliases": [
             "Rclone"
@@ -1285,8 +987,6 @@
         "type": "tool",
         "id": "tool--59096109-a1dd-463b-87e7-a8d110fe3a79",
         "created": "2022-08-30T13:02:36.422Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1318,13 +1018,7 @@
                 "description": "Ramarcus Baylor. (2021, May 12). DarkSide Ransomware Gang: An Overview. Retrieved August 30, 2022.",
                 "url": "https://unit42.paloaltonetworks.com/darkside-ransomware/"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_platforms": [
@@ -1333,19 +1027,12 @@
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_contributors": [
-            "Vincent Le Toux"
-        ],
         "x_mitre_aliases": [
             "MimiPenguin"
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
         ],
         "id": "tool--5a33468d-844d-4b1f-98c9-0e786c556b27",
         "type": "tool",
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1360,11 +1047,7 @@
         ],
         "modified": "2021-10-15T16:57:34.776Z",
         "name": "MimiPenguin",
-        "description": "[MimiPenguin](https://attack.mitre.org/software/S0179) is a credential dumper, similar to [Mimikatz](https://attack.mitre.org/software/S0002), designed specifically for Linux platforms. (Citation: MimiPenguin GitHub May 2017)",
-        "x_mitre_version": "1.2",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[MimiPenguin](https://attack.mitre.org/software/S0179) is a credential dumper, similar to [Mimikatz](https://attack.mitre.org/software/S0002), designed specifically for Linux platforms. (Citation: MimiPenguin GitHub May 2017)"
     },
     {
         "modified": "2023-01-17T22:14:55.797Z",
@@ -1373,11 +1056,9 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.2",
         "x_mitre_aliases": [
             "netsh",
             "netsh.exe"
@@ -1385,8 +1066,6 @@
         "type": "tool",
         "id": "tool--5a63f900-5e7e-4928-a746-dd4558e1df71",
         "created": "2017-05-31T21:33:06.083Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1398,13 +1077,7 @@
                 "description": "Microsoft. (n.d.). Using Netsh. Retrieved February 13, 2017.",
                 "url": "https://technet.microsoft.com/library/bb490939.aspx"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_platforms": [
@@ -1416,13 +1089,9 @@
         "x_mitre_aliases": [
             "CARROTBALL"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--5fc81b43-62b5-41b1-9113-c79ae5f030c4",
         "type": "tool",
         "created": "2020-06-02T19:10:29.513Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "external_id": "S0465",
@@ -1437,11 +1106,7 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "CARROTBALL",
-        "description": "[CARROTBALL](https://attack.mitre.org/software/S0465) is an FTP downloader utility that has been in use since at least 2019. [CARROTBALL](https://attack.mitre.org/software/S0465) has been used as a downloader to install [SYSCON](https://attack.mitre.org/software/S0464).(Citation: Unit 42 CARROTBAT January 2020)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[CARROTBALL](https://attack.mitre.org/software/S0465) is an FTP downloader utility that has been in use since at least 2019. [CARROTBALL](https://attack.mitre.org/software/S0465) has been used as a downloader to install [SYSCON](https://attack.mitre.org/software/S0464).(Citation: Unit 42 CARROTBAT January 2020)"
     },
     {
         "modified": "2023-08-03T18:31:04.851Z",
@@ -1450,13 +1115,8 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.4",
-        "x_mitre_contributors": [
-            "Edward Millington"
         ],
         "x_mitre_aliases": [
             "BITSAdmin"
@@ -1464,8 +1124,6 @@
         "type": "tool",
         "id": "tool--64764dc6-a032-495f-8250-1e4c06bdc163",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1477,13 +1135,7 @@
                 "description": "Microsoft. (n.d.). BITSAdmin Tool. Retrieved January 12, 2018.",
                 "url": "https://msdn.microsoft.com/library/aa362813.aspx"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_platforms": [
@@ -1497,13 +1149,9 @@
         "x_mitre_aliases": [
             "meek"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--65370d0b-3bd4-4653-8cf9-daf56f6be830",
         "type": "tool",
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1513,11 +1161,7 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "meek",
-        "description": "[meek](https://attack.mitre.org/software/S0175) is an open-source Tor plugin that tunnels Tor traffic through HTTPS connections.",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[meek](https://attack.mitre.org/software/S0175) is an open-source Tor plugin that tunnels Tor traffic through HTTPS connections."
     },
     {
         "modified": "2023-10-10T17:19:12.868Z",
@@ -1526,13 +1170,8 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.0",
-        "x_mitre_contributors": [
-            "Aaron Jornet"
         ],
         "x_mitre_aliases": [
             "AsyncRAT"
@@ -1540,8 +1179,6 @@
         "type": "tool",
         "id": "tool--6a5947f3-1a36-4653-8734-526df3e1d28d",
         "created": "2023-09-20T17:32:59.932Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1563,13 +1200,7 @@
                 "description": "Ventura, V. (2021, September 16). Operation Layover: How we tracked an attack on the aviation industry to five years of compromise. Retrieved September 15, 2023.",
                 "url": "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_domains": [
@@ -1578,13 +1209,9 @@
         "x_mitre_aliases": [
             "ROADTools"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--6dbdc657-d8e0-4f2f-909b-7251b3e72c6d",
         "type": "tool",
         "created": "2022-02-18T13:29:23.577Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "external_id": "S0684",
@@ -1600,10 +1227,7 @@
         "modified": "2022-05-11T14:00:00.188Z",
         "name": "ROADTools",
         "description": "[ROADTools](https://attack.mitre.org/software/S0684) is a framework for enumerating Azure Active Directory environments. The tool is written in Python and publicly available on GitHub.(Citation: ROADtools Github)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null
     },
     {
         "modified": "2023-04-17T21:44:03.462Z",
@@ -1612,14 +1236,8 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.0",
-        "x_mitre_contributors": [
-            "Sittikorn Sangrattanapitak",
-            "Daniel Acevedo, @darmad0, ARMADO"
         ],
         "x_mitre_aliases": [
             "Brute Ratel C4",
@@ -1628,8 +1246,6 @@
         "type": "tool",
         "id": "tool--75d8b521-6b6a-42ff-8af3-d97e20ce12a5",
         "created": "2023-02-07T20:26:58.792Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1665,13 +1281,7 @@
                 "description": "Thomas, W. (2022, October 5). Cracked Brute Ratel C4 framework proliferates across the cybercriminal underground. Retrieved February 6, 2023.",
                 "url": "https://www.sans.org/blog/cracked-brute-ratel-c4-framework-proliferates-across-the-cybercriminal-underground/"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_platforms": [
@@ -1683,13 +1293,9 @@
         "x_mitre_aliases": [
             "Peirates"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "type": "tool",
         "id": "tool--79dd477a-8226-4b3d-ad15-28623675f221",
         "created": "2022-02-08T16:11:38.528Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1702,15 +1308,9 @@
                 "description": "InGuardians. (2022, January 5). Peirates GitHub. Retrieved February 8, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Peirates](https://attack.mitre.org/software/S0683) is a post-exploitation Kubernetes exploitation framework with a focus on gathering service account tokens for lateral movement and privilege escalation. The tool is written in GoLang and publicly available on GitHub.(Citation: Peirates GitHub)",
         "modified": "2022-05-11T14:00:00.188Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "name": "Peirates",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "name": "Peirates"
     },
     {
         "modified": "2022-12-23T14:07:20.658Z",
@@ -1719,19 +1319,15 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.3",
         "x_mitre_aliases": [
             "Remcos"
         ],
         "type": "tool",
         "id": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",
         "created": "2019-01-29T18:55:20.245Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1757,31 +1353,21 @@
                 "description": "Klijnsma, Y. (2018, January 23). Espionage Campaign Leverages Spear Phishing, RATs Against Turkish Defense Contractors. Retrieved November 6, 2018.",
                 "url": "https://web.archive.org/web/20180124082756/https://www.riskiq.com/blog/labs/spear-phishing-turkish-defense-contractors/"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2023-03-07T13:03:30.781Z",
         "name": "Systeminfo",
         "description": "[Systeminfo](https://attack.mitre.org/software/S0096) is a Windows utility that can be used to gather detailed information about a computer. (Citation: TechNet Systeminfo)",
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.2",
         "x_mitre_aliases": [
             "Systeminfo"
         ],
         "type": "tool",
         "id": "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1",
         "created": "2017-05-31T21:33:00.969Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1794,12 +1380,7 @@
                 "url": "https://technet.microsoft.com/en-us/library/bb491007.aspx"
             }
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null
     },
     {
         "x_mitre_platforms": [
@@ -1811,13 +1392,9 @@
         "x_mitre_aliases": [
             "Out1"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--80c815bb-b24a-4b9c-9d73-ff4c075a278d",
         "type": "tool",
         "created": "2021-03-19T13:11:50.666Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "external_id": "S0594",
@@ -1832,11 +1409,7 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "Out1",
-        "description": "[Out1](https://attack.mitre.org/software/S0594) is a remote access tool written in python and used by [MuddyWater](https://attack.mitre.org/groups/G0069) since at least 2021.(Citation: Trend Micro Muddy Water March 2021)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[Out1](https://attack.mitre.org/software/S0594) is a remote access tool written in python and used by [MuddyWater](https://attack.mitre.org/groups/G0069) since at least 2021.(Citation: Trend Micro Muddy Water March 2021)"
     },
     {
         "modified": "2023-04-13T13:09:38.786Z",
@@ -1845,11 +1418,9 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.0",
         "x_mitre_aliases": [
             "ConnectWise",
             "ScreenConnect"
@@ -1857,8 +1428,6 @@
         "type": "tool",
         "id": "tool--842976c7-f9c8-41b2-8371-41dc64fbe261",
         "created": "2021-03-18T13:39:27.676Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1879,13 +1448,7 @@
                 "description": "Peretz, A. and Theck, E. (2021, March 5). Earth Vetala \u2013 MuddyWater Continues to Target Organizations in the Middle East. Retrieved March 18, 2021.",
                 "url": "https://www.trendmicro.com/en_us/research/21/c/earth-vetala---muddywater-continues-to-target-organizations-in-t.html"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2023-10-03T19:35:03.646Z",
@@ -1894,13 +1457,8 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.1",
-        "x_mitre_contributors": [
-            "Jose Luis S\u00e1nchez Martinez"
         ],
         "x_mitre_aliases": [
             "Imminent Monitor"
@@ -1908,8 +1466,6 @@
         "type": "tool",
         "id": "tool--8f8cd191-902c-4e83-bf20-b57c8c4640e9",
         "created": "2020-05-05T18:45:36.358Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1921,13 +1477,7 @@
                 "description": "Unit 42. (2019, December 2). Imminent Monitor \u2013 a RAT Down Under. Retrieved May 5, 2020.",
                 "url": "https://unit42.paloaltonetworks.com/imminent-monitor-a-rat-down-under/"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_platforms": [
@@ -1940,13 +1490,9 @@
         "x_mitre_aliases": [
             "Ruler"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--90ac9266-68ce-46f2-b24f-5eb3b2a8ea38",
         "type": "tool",
         "created": "2019-02-04T18:27:00.501Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "external_id": "S0358",
@@ -1966,23 +1512,15 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "Ruler",
-        "description": "[Ruler](https://attack.mitre.org/software/S0358) is a tool to abuse Microsoft Exchange services. It is publicly available on GitHub and the tool is executed via the command line. The creators of [Ruler](https://attack.mitre.org/software/S0358) have also released a defensive tool, NotRuler, to detect its usage.(Citation: SensePost Ruler GitHub)(Citation: SensePost NotRuler)",
-        "x_mitre_version": "1.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[Ruler](https://attack.mitre.org/software/S0358) is a tool to abuse Microsoft Exchange services. It is publicly available on GitHub and the tool is executed via the command line. The creators of [Ruler](https://attack.mitre.org/software/S0358) have also released a defensive tool, NotRuler, to detect its usage.(Citation: SensePost Ruler GitHub)(Citation: SensePost NotRuler)"
     },
     {
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--90ec2b22-7061-4469-b539-0989ec4f96c2",
         "type": "tool",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -1998,22 +1536,16 @@
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "Forfiles",
         "description": "[Forfiles](https://attack.mitre.org/software/S0193) is a Windows utility commonly used in batch jobs to execute commands on one or more selected files or directories (ex: list all directories in a drive, read the first line of all files created yesterday, etc.). Forfiles can be executed from either the command line, Run window, or batch files/scripts. (Citation: Microsoft Forfiles Aug 2016)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null,
+        "x_mitre_aliases": null
     },
     {
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--96fd6cc4-a693-4118-83ec-619e5352d07d",
         "type": "tool",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2038,10 +1570,8 @@
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "Winexe",
         "description": "[Winexe](https://attack.mitre.org/software/S0191) is a lightweight, open source tool similar to [PsExec](https://attack.mitre.org/software/S0029) designed to allow system administrators to execute commands on remote servers. (Citation: Winexe Github Sept 2013) [Winexe](https://attack.mitre.org/software/S0191) is unique in that it is a GNU/Linux based client. (Citation: \u00dcberwachung APT28 Forfiles June 2015)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null,
+        "x_mitre_aliases": null
     },
     {
         "x_mitre_platforms": [
@@ -2053,13 +1583,9 @@
         "x_mitre_aliases": [
             "MCMD"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "type": "tool",
         "id": "tool--975737f1-b10d-476f-8bda-3ec26ea57172",
         "created": "2020-08-13T17:15:25.702Z",
-        "x_mitre_version": "1.1",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2072,15 +1598,9 @@
                 "description": "Secureworks. (2019, July 24). MCMD Malware Analysis. Retrieved August 13, 2020."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[MCMD](https://attack.mitre.org/software/S0500) is a remote access tool that provides remote command shell capability used by [Dragonfly 2.0](https://attack.mitre.org/groups/G0074).(Citation: Secureworks MCMD July 2019)",
         "modified": "2022-07-29T19:48:28.725Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "name": "MCMD",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "name": "MCMD"
     },
     {
         "modified": "2023-08-09T18:03:17.167Z",
@@ -2089,19 +1609,15 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.2",
         "x_mitre_aliases": [
             "Nltest"
         ],
         "type": "tool",
         "id": "tool--981acc4c-2ede-4b56-be6e-fa1a75f37acf",
         "created": "2019-02-14T17:08:55.176Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2113,13 +1629,7 @@
                 "description": "ss64. (n.d.). NLTEST.exe - Network Location Test. Retrieved February 14, 2019.",
                 "url": "https://ss64.com/nt/nltest.html"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_platforms": [
@@ -2133,13 +1643,9 @@
         "x_mitre_aliases": [
             "MailSniper"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--999c4e6e-b8dc-4b4f-8d6e-1b829f29997e",
         "type": "tool",
         "created": "2019-10-05T02:34:01.189Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "external_id": "S0413",
@@ -2154,23 +1660,15 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "MailSniper",
-        "description": "MailSniper is a penetration testing tool for searching through email in a Microsoft Exchange environment for specific terms (passwords, insider intel, network architecture information, etc.). It can be used by a non-administrative user to search their own email, or by an Exchange administrator to search the mailboxes of every user in a domain.(Citation: GitHub MailSniper)",
-        "x_mitre_version": "1.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "MailSniper is a penetration testing tool for searching through email in a Microsoft Exchange environment for specific terms (passwords, insider intel, network architecture information, etc.). It can be used by a non-administrative user to search their own email, or by an Exchange administrator to search the mailboxes of every user in a domain.(Citation: GitHub MailSniper)"
     },
     {
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--9a2640c2-9f43-46fe-b13f-bde881e55555",
         "type": "tool",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2186,10 +1684,8 @@
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "sqlmap",
         "description": "[sqlmap](https://attack.mitre.org/software/S0225) is an open source penetration testing tool that can be used to automate the process of detecting and exploiting SQL injection flaws. (Citation: sqlmap Introduction)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null,
+        "x_mitre_aliases": null
     },
     {
         "x_mitre_platforms": [
@@ -2201,13 +1697,9 @@
         "x_mitre_aliases": [
             "pwdump"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--9de2308e-7bed-43a3-8e58-f194b3586700",
         "type": "tool",
         "created": "2017-05-31T21:32:13.051Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2222,29 +1714,21 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "pwdump",
-        "description": "[pwdump](https://attack.mitre.org/software/S0006) is a credential dumper. (Citation: Wikipedia pwdump)",
-        "x_mitre_version": "1.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[pwdump](https://attack.mitre.org/software/S0006) is a credential dumper. (Citation: Wikipedia pwdump)"
     },
     {
         "modified": "2023-03-17T14:01:57.617Z",
         "name": "Responder",
         "description": "Responder is an open source tool used for LLMNR, NBT-NS and MDNS poisoning, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication. (Citation: GitHub Responder)",
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.2",
         "x_mitre_aliases": [
             "Responder"
         ],
         "type": "tool",
         "id": "tool--a1dd2dbd-1550-44bf-abcc-1a4c52e97719",
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2257,24 +1741,15 @@
                 "url": "https://github.com/SpiderLabs/Responder"
             }
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null
     },
     {
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--a52edc76-328d-4596-85e7-d56ef5a9eb69",
         "type": "tool",
         "created": "2017-05-31T21:33:11.426Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2290,10 +1765,8 @@
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "Pass-The-Hash Toolkit",
         "description": "[Pass-The-Hash Toolkit](https://attack.mitre.org/software/S0122) is a toolkit that allows an adversary to \"pass\" a password hash (without knowing the original password) to log in to systems. (Citation: Mandiant APT1)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null,
+        "x_mitre_aliases": null
     },
     {
         "x_mitre_platforms": [
@@ -2302,19 +1775,12 @@
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_contributors": [
-            "The Wover, @TheRealWover"
-        ],
         "x_mitre_aliases": [
             "Donut"
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
         ],
         "type": "tool",
         "id": "tool--a7b5df47-73bb-4d47-b701-869f185633a6",
         "created": "2022-03-25T13:35:46.781Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2337,15 +1803,9 @@
                 "description": "TheWover. (2019, May 9). donut. Retrieved March 25, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Donut](https://attack.mitre.org/software/S0695) is an open source framework used to generate position-independent shellcode.(Citation: Donut Github)(Citation: Introducing Donut) [Donut](https://attack.mitre.org/software/S0695) generated code has been used by multiple threat actors to inject and load malicious payloads into memory.(Citation: NCC Group WastedLocker June 2020)",
         "modified": "2022-04-18T15:31:34.662Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "name": "Donut",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "name": "Donut"
     },
     {
         "modified": "2024-02-09T21:31:30.227Z",
@@ -2354,13 +1814,8 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.9",
-        "x_mitre_contributors": [
-            "Vincent Le Toux"
         ],
         "x_mitre_aliases": [
             "Mimikatz"
@@ -2368,8 +1823,6 @@
         "type": "tool",
         "id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
         "created": "2017-05-31T21:32:11.544Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2386,13 +1839,7 @@
                 "description": "Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz & Command Reference. Retrieved December 23, 2015.",
                 "url": "https://adsecurity.org/?page_id=1821"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2022-09-22T20:55:32.937Z",
@@ -2401,19 +1848,15 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.2",
         "x_mitre_aliases": [
             "gsecdump"
         ],
         "type": "tool",
         "id": "tool--b07c2c47-fefb-4d7c-a69e-6a3296171f54",
         "created": "2017-05-31T21:32:13.755Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2425,13 +1868,7 @@
                 "description": "TrueSec. (n.d.). gsecdump v2.0b5. Retrieved September 29, 2015.",
                 "url": "https://www.truesec.se/sakerhet/verktyg/saakerhet/gsecdump_v2.0b5"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2024-04-11T02:14:36.791Z",
@@ -2440,19 +1877,15 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.1",
         "x_mitre_aliases": [
             "IronNetInjector"
         ],
         "type": "tool",
         "id": "tool--b1595ddd-a783-482a-90e1-8afc8d48467e",
         "created": "2021-02-24T21:28:44.175Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2464,25 +1897,15 @@
                 "description": "Reichel, D. (2021, February 19). IronNetInjector: Turla\u2019s New Malware Loading Tool. Retrieved February 24, 2021.",
                 "url": "https://unit42.paloaltonetworks.com/ironnetinjector/"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--b35068ec-107a-4266-bda8-eb7036267aea",
         "type": "tool",
         "created": "2017-05-31T21:33:03.773Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2498,28 +1921,22 @@
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "nbtstat",
         "description": "[nbtstat](https://attack.mitre.org/software/S0102) is a utility used to troubleshoot NetBIOS name resolution. (Citation: TechNet Nbtstat)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null,
+        "x_mitre_aliases": null
     },
     {
         "modified": "2022-10-18T22:02:48.228Z",
         "name": "Invoke-PSImage",
         "description": "[Invoke-PSImage](https://attack.mitre.org/software/S0231) takes a PowerShell script and embeds the bytes of the script into the pixels of a PNG image. It generates a one liner for executing either from a file of from the web. Example of usage is embedding the PowerShell code from the Invoke-Mimikatz module and embed it into an image file. By calling the image file from a macro for example, the macro will download the picture and execute the PowerShell code, which in this case will dump the passwords. (Citation: GitHub Invoke-PSImage)",
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.1",
         "x_mitre_aliases": [
             "Invoke-PSImage"
         ],
         "type": "tool",
         "id": "tool--b52d6583-14a2-4ddc-8527-87fd2142558f",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2532,12 +1949,7 @@
                 "url": "https://github.com/peewpw/Invoke-PSImage"
             }
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null
     },
     {
         "x_mitre_platforms": [
@@ -2548,19 +1960,12 @@
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_contributors": [
-            "Daniyal Naeem, BT Security"
-        ],
         "x_mitre_aliases": [
             "NBTscan"
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
         ],
         "id": "tool--b63970b7-ddfb-4aee-97b1-80d335e033a8",
         "type": "tool",
         "created": "2021-03-17T15:26:20.015Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "external_id": "S0590",
@@ -2590,11 +1995,7 @@
         ],
         "modified": "2021-04-24T20:45:08.323Z",
         "name": "NBTscan",
-        "description": "[NBTscan](https://attack.mitre.org/software/S0590) is an open source tool that has been used by state groups to conduct internal reconnaissance within a compromised network.(Citation: Debian nbtscan Nov 2019)(Citation: SecTools nbtscan June 2003)(Citation: Symantec Waterbug Jun 2019)(Citation: FireEye APT39 Jan 2019)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[NBTscan](https://attack.mitre.org/software/S0590) is an open source tool that has been used by state groups to conduct internal reconnaissance within a compromised network.(Citation: Debian nbtscan Nov 2019)(Citation: SecTools nbtscan June 2003)(Citation: Symantec Waterbug Jun 2019)(Citation: FireEye APT39 Jan 2019)"
     },
     {
         "modified": "2024-04-04T03:49:27.035Z",
@@ -2605,19 +2006,15 @@
             "macOS",
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.6",
         "x_mitre_aliases": [
             "LaZagne"
         ],
         "type": "tool",
         "id": "tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b",
         "created": "2019-01-30T16:44:59.887Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2638,31 +2035,21 @@
                 "description": "Zanni, A. (n.d.). The LaZagne Project !!!. Retrieved December 14, 2018.",
                 "url": "https://github.com/AlessandroZ/LaZagne"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2023-09-06T15:12:11.358Z",
         "name": "Ping",
         "description": "[Ping](https://attack.mitre.org/software/S0097) is an operating system utility commonly used to troubleshoot and verify network connections. (Citation: TechNet Ping)",
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.4",
         "x_mitre_aliases": [
             "Ping"
         ],
         "type": "tool",
         "id": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
         "created": "2017-05-31T21:33:01.483Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2675,12 +2062,7 @@
                 "url": "https://technet.microsoft.com/en-us/library/bb490968.aspx"
             }
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null
     },
     {
         "modified": "2022-10-13T20:24:11.194Z",
@@ -2689,11 +2071,9 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.2",
         "x_mitre_aliases": [
             "cmd",
             "cmd.exe"
@@ -2701,8 +2081,6 @@
         "type": "tool",
         "id": "tool--bba595da-b73a-4354-aa6c-224d4de7cb4e",
         "created": "2017-05-31T21:33:05.319Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2729,25 +2107,15 @@
                 "description": "Microsoft. (n.d.). Dir. Retrieved April 18, 2016.",
                 "url": "https://technet.microsoft.com/en-us/library/cc755121.aspx"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "type": "tool",
         "id": "tool--c11ac61d-50f4-444f-85d8-6f006067f0de",
         "created": "2017-05-31T21:33:04.151Z",
-        "x_mitre_version": "1.1",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2760,15 +2128,11 @@
                 "description": "Microsoft. (n.d.). Route. Retrieved April 17, 2016."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[route](https://attack.mitre.org/software/S0103) can be used to find or change information within the local system IP routing table. (Citation: TechNet Route)",
         "modified": "2022-05-11T14:00:00.188Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "name": "route",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null,
+        "x_mitre_aliases": null
     },
     {
         "modified": "2023-09-28T03:45:36.045Z",
@@ -2777,14 +2141,8 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.3",
-        "x_mitre_contributors": [
-            "Edward Millington",
-            "Matthew Demaske, Adaptforward"
         ],
         "x_mitre_aliases": [
             "esentutl",
@@ -2793,8 +2151,6 @@
         "type": "tool",
         "id": "tool--c256da91-6dd5-40b2-beeb-ee3b22ab3d27",
         "created": "2019-09-03T18:25:36.963Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2806,13 +2162,7 @@
                 "description": "Microsoft. (2016, August 30). Esentutl. Retrieved September 3, 2019.",
                 "url": "https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh875546(v=ws.11)"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2024-03-14T17:29:49.200Z",
@@ -2821,19 +2171,15 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.1",
         "x_mitre_aliases": [
             "CrackMapExec"
         ],
         "type": "tool",
         "id": "tool--c4810609-7da6-48ec-8057-1b70a7814db0",
         "created": "2020-07-17T14:23:05.958Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2845,13 +2191,7 @@
                 "description": "byt3bl33d3r. (2018, September 8). SMB: Command Reference. Retrieved July 17, 2020.",
                 "url": "https://github.com/byt3bl33d3r/CrackMapExec/wiki/SMB-Command-Reference"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_platforms": [
@@ -2863,13 +2203,9 @@
         "x_mitre_aliases": [
             "Koadic"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "type": "tool",
         "id": "tool--c8655260-9f4b-44e3-85e1-6538a5f6e4f4",
         "created": "2018-10-17T00:14:20.652Z",
-        "x_mitre_version": "2.0",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2896,15 +2232,9 @@
                 "description": "Magius, J., et al. (2017, July 19). Koadic. Retrieved June 18, 2018."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Koadic](https://attack.mitre.org/software/S0250) is a Windows post-exploitation framework and penetration testing tool that is publicly available on GitHub. [Koadic](https://attack.mitre.org/software/S0250) has several options for staging payloads and creating implants, and performs most of its operations using Windows Script Host.(Citation: Github Koadic)(Citation: Palo Alto Sofacy 06-2018)(Citation: MalwareBytes LazyScripter Feb 2021)",
         "modified": "2022-05-11T14:00:00.188Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "name": "Koadic",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "name": "Koadic"
     },
     {
         "x_mitre_platforms": [
@@ -2917,13 +2247,9 @@
             "schtasks",
             "schtasks.exe"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "type": "tool",
         "id": "tool--c9703cd3-141c-43a0-a926-380082be5d04",
         "created": "2017-05-31T21:33:07.218Z",
-        "x_mitre_version": "1.2",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2936,15 +2262,9 @@
                 "description": "Microsoft. (n.d.). Schtasks. Retrieved April 28, 2016."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[schtasks](https://attack.mitre.org/software/S0111) is used to schedule execution of programs or scripts on a Windows system to run at a specific date and time. (Citation: TechNet Schtasks)",
         "modified": "2022-05-11T14:00:00.188Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "name": "schtasks",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "name": "schtasks"
     },
     {
         "x_mitre_platforms": [
@@ -2956,13 +2276,9 @@
         "x_mitre_aliases": [
             "Cachedump"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--c9cd7ec9-40b7-49db-80be-1399eddd9c52",
         "type": "tool",
         "created": "2017-05-31T21:33:10.197Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -2977,11 +2293,7 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "Cachedump",
-        "description": "[Cachedump](https://attack.mitre.org/software/S0119) is a publicly-available tool that program extracts cached password hashes from a system\u2019s registry. (Citation: Mandiant APT1)",
-        "x_mitre_version": "1.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[Cachedump](https://attack.mitre.org/software/S0119) is a publicly-available tool that program extracts cached password hashes from a system\u2019s registry. (Citation: Mandiant APT1)"
     },
     {
         "x_mitre_platforms": [
@@ -2990,19 +2302,12 @@
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_contributors": [
-            "Matthew Demaske, Adaptforward"
-        ],
         "x_mitre_aliases": [
             "Expand"
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
         ],
         "id": "tool--ca656c25-44f1-471b-9d9f-e2a3bbb84973",
         "type": "tool",
         "created": "2019-02-19T19:17:14.971Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "external_id": "S0361",
@@ -3022,11 +2327,7 @@
         ],
         "modified": "2020-03-20T18:43:16.989Z",
         "name": "Expand",
-        "description": "[Expand](https://attack.mitre.org/software/S0361) is a Windows utility used to expand one or more compressed CAB files.(Citation: Microsoft Expand Utility) It has been used by [BBSRAT](https://attack.mitre.org/software/S0127) to decompress a CAB file into executable content.(Citation: Palo Alto Networks BBSRAT)",
-        "x_mitre_version": "1.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[Expand](https://attack.mitre.org/software/S0361) is a Windows utility used to expand one or more compressed CAB files.(Citation: Microsoft Expand Utility) It has been used by [BBSRAT](https://attack.mitre.org/software/S0127) to decompress a CAB file into executable content.(Citation: Palo Alto Networks BBSRAT)"
     },
     {
         "modified": "2023-09-28T21:08:47.128Z",
@@ -3038,19 +2339,15 @@
             "macOS",
             "Android"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.3",
         "x_mitre_aliases": [
             "Pupy"
         ],
         "type": "tool",
         "id": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -3062,13 +2359,7 @@
                 "description": "Nicolas Verdier. (n.d.). Retrieved January 29, 2018.",
                 "url": "https://github.com/n1nj4sec/pupy"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2022-10-13T20:23:35.333Z",
@@ -3077,11 +2368,9 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.1",
         "x_mitre_aliases": [
             "Reg",
             "reg.exe"
@@ -3089,8 +2378,6 @@
         "type": "tool",
         "id": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
         "created": "2017-05-31T21:32:49.000Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -3107,13 +2394,7 @@
                 "description": "Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.",
                 "url": "https://blogs.jpcert.or.jp/en/2016/01/windows-commands-abused-by-attackers.html"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_platforms": [
@@ -3128,13 +2409,9 @@
             "ftp",
             "ftp.exe"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--cf23bf4a-e003-4116-bbae-1ea6c558d565",
         "type": "tool",
         "created": "2017-05-31T21:33:00.565Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -3154,11 +2431,7 @@
         ],
         "modified": "2022-05-11T14:00:00.188Z",
         "name": "ftp",
-        "description": "[ftp](https://attack.mitre.org/software/S0095) is a utility commonly available with operating systems to transfer information over the File Transfer Protocol (FTP). Adversaries can use it to transfer other tools onto a system or to exfiltrate data.(Citation: Microsoft FTP)(Citation: Linux FTP)",
-        "x_mitre_version": "2.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[ftp](https://attack.mitre.org/software/S0095) is a utility commonly available with operating systems to transfer information over the File Transfer Protocol (FTP). Adversaries can use it to transfer other tools onto a system or to exfiltrate data.(Citation: Microsoft FTP)(Citation: Linux FTP)"
     },
     {
         "x_mitre_platforms": [
@@ -3169,19 +2442,12 @@
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_contributors": [
-            "Cody Thomas, SpecterOps"
-        ],
         "x_mitre_aliases": [
             "Mythic"
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
         ],
         "type": "tool",
         "id": "tool--d505fc8b-2e64-46eb-96d6-9ef7ffca5b66",
         "created": "2022-03-26T01:38:12.966Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -3209,15 +2475,9 @@
                 "description": "Thomas, C. (n.d.). Mythc Documentation. Retrieved March 25, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Mythic](https://attack.mitre.org/software/S0699) is an open source, cross-platform post-exploitation/command and control platform. [Mythic](https://attack.mitre.org/software/S0699) is designed to \"plug-n-play\" with various agents and communication channels.(Citation: Mythic Github)(Citation: Mythic SpecterOps)(Citation: Mythc Documentation) Deployed [Mythic](https://attack.mitre.org/software/S0699) C2 servers have been observed as part of potentially malicious infrastructure.(Citation: RecordedFuture 2021 Ad Infra)",
         "modified": "2022-04-18T15:41:53.146Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "name": "Mythic",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "name": "Mythic"
     },
     {
         "x_mitre_platforms": [
@@ -3231,13 +2491,9 @@
             "HTRAN",
             "HUC Packet Transmit Tool"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--d5e96a35-7b0b-4c6a-9533-d63ecbda563e",
         "type": "tool",
         "created": "2017-05-31T21:32:32.011Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -3261,11 +2517,7 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "HTRAN",
-        "description": "[HTRAN](https://attack.mitre.org/software/S0040) is a tool that proxies connections through intermediate hops and aids users in disguising their true geographical location. It can be used by adversaries to hide their location when interacting with the victim networks. (Citation: Operation Quantum Entanglement)(Citation: NCSC Joint Report Public Tools)",
-        "x_mitre_version": "1.2",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[HTRAN](https://attack.mitre.org/software/S0040) is a tool that proxies connections through intermediate hops and aids users in disguising their true geographical location. It can be used by adversaries to hide their location when interacting with the victim networks. (Citation: Operation Quantum Entanglement)(Citation: NCSC Joint Report Public Tools)"
     },
     {
         "x_mitre_platforms": [
@@ -3277,13 +2529,9 @@
         "x_mitre_aliases": [
             "SDelete"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--d8d19e33-94fd-4aa3-b94a-08ee801a2153",
         "type": "tool",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -3302,11 +2550,7 @@
         ],
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "SDelete",
-        "description": "[SDelete](https://attack.mitre.org/software/S0195) is an application that securely deletes data in a way that makes it unrecoverable. It is part of the Microsoft Sysinternals suite of tools. (Citation: Microsoft SDelete July 2016)",
-        "x_mitre_version": "1.2",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "description": "[SDelete](https://attack.mitre.org/software/S0195) is an application that securely deletes data in a way that makes it unrecoverable. It is part of the Microsoft Sysinternals suite of tools. (Citation: Microsoft SDelete July 2016)"
     },
     {
         "x_mitre_platforms": [
@@ -3315,20 +2559,13 @@
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_contributors": [
-            "Kyaw Pyiyt Htet, @KyawPyiytHtet"
-        ],
         "x_mitre_aliases": [
             "QuasarRAT",
             "xRAT"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "type": "tool",
         "id": "tool--da04ac30-27da-4959-a67d-450ce47d9470",
         "created": "2018-10-17T00:14:20.652Z",
-        "x_mitre_version": "2.0",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -3364,15 +2601,9 @@
                 "description": "Meltzer, M, et al. (2018, June 07). Patchwork APT Group Targets US Think Tanks. Retrieved July 16, 2018."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[QuasarRAT](https://attack.mitre.org/software/S0262) is an open-source, remote access tool that has been publicly available on GitHub since at least 2014. [QuasarRAT](https://attack.mitre.org/software/S0262) is developed in the C# language.(Citation: GitHub QuasarRAT)(Citation: Volexity Patchwork June 2018)",
         "modified": "2022-08-02T15:36:30.238Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "name": "QuasarRAT",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "name": "QuasarRAT"
     },
     {
         "modified": "2023-08-03T18:30:05.885Z",
@@ -3381,14 +2612,8 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.1",
-        "x_mitre_contributors": [
-            "Mayuresh Dani, Qualys",
-            "Akshat Pradhan, Qualys"
         ],
         "x_mitre_aliases": [
             "Rubeus"
@@ -3396,8 +2621,6 @@
         "type": "tool",
         "id": "tool--e33267fe-099f-4af2-8730-63d49f8813b2",
         "created": "2023-03-29T20:19:26.940Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -3424,13 +2647,7 @@
                 "description": "The DFIR Report. (2020, October 8). Ryuk\u2019s Return. Retrieved October 9, 2020.",
                 "url": "https://thedfirreport.com/2020/10/08/ryuks-return/"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2022-10-05T16:37:49.999Z",
@@ -3441,19 +2658,15 @@
             "Windows",
             "macOS"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.2",
         "x_mitre_aliases": [
             "Tor"
         ],
         "type": "tool",
         "id": "tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68",
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -3469,13 +2682,7 @@
                 "description": "Roger Dingledine, Nick Mathewson and Paul Syverson. (2004). Tor: The Second-Generation Onion Router. Retrieved December 21, 2017.",
                 "url": "http://www.dtic.mil/dtic/tr/fulltext/u2/a465464.pdf"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2024-04-04T03:49:04.493Z",
@@ -3484,19 +2691,15 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_version": "1.4",
         "x_mitre_aliases": [
             "AdFind"
         ],
         "type": "tool",
         "id": "tool--f59508a6-3615-47c3-b493-6676e1a39a87",
         "created": "2020-12-28T18:35:50.244Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -3518,13 +2721,7 @@
                 "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
                 "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "modified": "2022-10-13T17:45:16.377Z",
@@ -3533,14 +2730,8 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.1",
-        "x_mitre_contributors": [
-            "Viren Chaudhari, Qualys",
-            "Harshal Tupsamudre, Qualys"
         ],
         "x_mitre_aliases": [
             "Wevtutil"
@@ -3548,8 +2739,6 @@
         "type": "tool",
         "id": "tool--f91162cc-1686-4ff8-8115-bf3f61a4cc7a",
         "created": "2021-09-14T21:45:30.280Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -3561,25 +2750,15 @@
                 "description": "Microsoft. (n.d.). wevtutil. Retrieved September 14, 2021.",
                 "url": "https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/wevtutil"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "id": "tool--fbd727ea-c0dc-42a9-8448-9e12962d1ab5",
         "type": "tool",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -3595,10 +2774,8 @@
         "modified": "2022-04-25T14:00:00.188Z",
         "name": "Havij",
         "description": "[Havij](https://attack.mitre.org/software/S0224) is an automatic SQL Injection tool distributed by the Iranian ITSecTeam security company. Havij has been used by penetration testers and adversaries. (Citation: Check Point Havij Analysis)",
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        "x_mitre_platforms": null,
+        "x_mitre_aliases": null
     },
     {
         "modified": "2024-04-04T03:50:11.000Z",
@@ -3607,13 +2784,8 @@
         "x_mitre_platforms": [
             "Windows"
         ],
-        "x_mitre_deprecated": false,
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_version": "1.6",
-        "x_mitre_contributors": [
-            "Janantha Marasinghe"
         ],
         "x_mitre_aliases": [
             "PsExec"
@@ -3621,8 +2793,6 @@
         "type": "tool",
         "id": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
         "created": "2017-05-31T21:32:21.771Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "mitre-attack",
@@ -3639,13 +2809,7 @@
                 "description": "Russinovich, M. (2014, May 2). Windows Sysinternals PsExec v2.11. Retrieved May 13, 2015.",
                 "url": "https://technet.microsoft.com/en-us/sysinternals/bb897553.aspx"
             }
-        ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1"
+        ]
     },
     {
         "external_references": [
@@ -3660,32 +2824,20 @@
                 "source_name": "cobaltstrike manual"
             }
         ],
-        "object_marking_refs": [
-            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-        ],
         "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) is a commercial, full-featured, penetration testing tool which bills itself as \u201cadversary simulation software designed to execute targeted attacks and emulate the post-exploitation actions of advanced threat actors\u201d. Cobalt Strike\u2019s interactive post-exploit capabilities cover the full range of ATT&CK tactics, all executed within a single, integrated system. (Citation: cobaltstrike manual)\n\nIn addition to its own capabilities, [Cobalt Strike](https://attack.mitre.org/software/S0154) leverages the capabilities of other well-known tools such as Metasploit and [Mimikatz](https://attack.mitre.org/software/S0002). (Citation: cobaltstrike manual)",
         "name": "Cobalt Strike",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "id": "tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39",
         "type": "tool",
         "modified": "2020-11-12T14:49:39.188Z",
         "created": "2017-12-14T16:46:06.044Z",
-        "x_mitre_version": "1.4",
         "x_mitre_aliases": [
             "Cobalt Strike"
-        ],
-        "x_mitre_contributors": [
-            "Josh Abraham"
         ],
         "x_mitre_platforms": [
             "Windows"
         ],
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_deprecated": true
+        ]
     }
 ]

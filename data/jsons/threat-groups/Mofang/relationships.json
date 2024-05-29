@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0f29f072-1eb1-4711-8679-19580f16b351",
         "type": "relationship",
         "created": "2020-05-12T22:05:50.811Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FOX-IT May 2016 Mofang",
@@ -17,66 +15,42 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--88489675-d216-4884-a98f-49a89fcc1643",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--69aa300b-3e31-438c-99bf-4822141046c5",
         "type": "relationship",
         "created": "2020-05-12T22:05:50.826Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "modified": "2022-04-25T14:00:00.188Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--88489675-d216-4884-a98f-49a89fcc1643",
         "target_ref": "tool--115f88dd-0618-4389-83cb-98d33ae81848",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
         ],
         "external_references": null,
-        "x_mitre_deprecated": null,
-        "revoked": null,
         "description": null
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6f82d8a7-d168-4e19-97d2-3950f0c649ce",
         "type": "relationship",
         "created": "2020-05-12T22:05:50.828Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "modified": "2022-04-25T14:00:00.188Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--88489675-d216-4884-a98f-49a89fcc1643",
         "target_ref": "malware--5763217a-05b6-4edd-9bca-057e47b5e403",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
         ],
         "external_references": null,
-        "x_mitre_deprecated": null,
-        "revoked": null,
         "description": null
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--78a49769-fec0-4961-a25d-fc5eab623e93",
         "type": "relationship",
         "created": "2020-05-12T22:05:50.747Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FOX-IT May 2016 Mofang",
@@ -89,22 +63,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--88489675-d216-4884-a98f-49a89fcc1643",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7b4af425-27a6-4330-85e2-d8d03911d923",
         "type": "relationship",
         "created": "2020-05-12T22:05:50.745Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FOX-IT May 2016 Mofang",
@@ -117,22 +83,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--88489675-d216-4884-a98f-49a89fcc1643",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--8ba71919-c776-4e1b-ad71-160649060d3e",
         "created": "2020-05-12T22:05:50.738Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FOX-IT May 2016 Mofang",
@@ -140,27 +98,19 @@
                 "url": "https://foxitsecurity.files.wordpress.com/2016/06/fox-it_mofang_threatreport_tlp-white.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-11T00:41:49.542Z",
         "description": "[Mofang](https://attack.mitre.org/groups/G0103) has compressed the [ShimRat](https://attack.mitre.org/software/S0444) executable within malicious email attachments. [Mofang](https://attack.mitre.org/groups/G0103) has also encrypted payloads before they are downloaded to victims.(Citation: FOX-IT May 2016 Mofang)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--88489675-d216-4884-a98f-49a89fcc1643",
         "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b91c4f2d-8f21-46e9-a012-967436018eea",
         "type": "relationship",
         "created": "2020-05-12T22:05:50.740Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FOX-IT May 2016 Mofang",
@@ -173,14 +123,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--88489675-d216-4884-a98f-49a89fcc1643",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     }
 ]

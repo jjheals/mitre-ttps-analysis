@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--02e4c994-181d-4aaf-801b-a56ab36a1aaa",
         "created": "2023-07-31T19:52:49.608Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Volt Typhoon May 2023",
@@ -17,17 +15,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.810Z",
         "description": "(Citation: Microsoft Volt Typhoon May 2023)(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "tool--5a63f900-5e7e-4928-a746-dd4558e1df71",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -36,8 +28,6 @@
         "type": "relationship",
         "id": "relationship--0ffa13fd-ca80-4541-a166-9c297145180d",
         "created": "2023-07-31T18:20:02.487Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -50,17 +40,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-03T20:24:09.964Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has enumerated running processes on targeted systems.(Citation: Microsoft Volt Typhoon May 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -69,8 +53,6 @@
         "type": "relationship",
         "id": "relationship--12948e09-2774-4b91-b9d1-018b41f7f923",
         "created": "2023-08-04T18:33:26.857Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -78,17 +60,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:18:43.585Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used compromised PRTG servers from other organizations for C2.(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--e196b5c5-8118-4a1c-ab8a-936586ce3db5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -97,8 +73,6 @@
         "type": "relationship",
         "id": "relationship--1542332b-788b-4c1e-b5e5-69d032cb7814",
         "created": "2023-07-31T17:44:00.619Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Volt Typhoon May 2023",
@@ -111,17 +85,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.810Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used compromised devices and customized versions of open source tools  such as Fast Reverse Proxy (FRP), Earthworm, and [Impacket](https://attack.mitre.org/software/S0357) to proxy network traffic.(Citation: Microsoft Volt Typhoon May 2023)(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -130,8 +98,6 @@
         "type": "relationship",
         "id": "relationship--16ccf88b-5f28-41d3-bc34-6580be0dbe3f",
         "created": "2023-08-01T20:50:45.859Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Joint Cybersecurity Advisory Volt Typhoon June 2023",
@@ -139,17 +105,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.811Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has queried the Registry on compromised systems for information on installed software.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -158,8 +118,6 @@
         "type": "relationship",
         "id": "relationship--18a2df13-e78e-46ca-9074-17c97d19ad55",
         "created": "2023-08-02T18:17:32.154Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Joint Cybersecurity Advisory Volt Typhoon June 2023",
@@ -167,17 +125,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.813Z",
         "description": "(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -186,8 +138,6 @@
         "type": "relationship",
         "id": "relationship--1e81cdcc-e258-479f-9588-3649509bfcd1",
         "created": "2023-07-31T17:28:10.208Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Volt Typhoon May 2023",
@@ -200,17 +150,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-28T04:17:56.801Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has compromised small office and home office (SOHO) network edge devices, many of which were located in the same geographic area as the victim, to proxy network traffic.(Citation: Microsoft Volt Typhoon May 2023)(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--149b477f-f364-4824-b1b5-aa1d56115869",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -219,8 +163,6 @@
         "type": "relationship",
         "id": "relationship--20384b7e-e720-44ed-9aea-7f6857ce18c1",
         "created": "2023-08-01T18:40:48.579Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -233,17 +175,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.816Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used legitimate looking filenames for compressed copies of the ntds.dit database and used names including cisco_up.exe, cl64.exe, vm3dservice.exe, watchdogd.exe, Win.exe, WmiPreSV.exe, and WmiPrvSE.exe for the Earthworm and Fast Reverse Proxy tools.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -252,7 +188,6 @@
         "type": "relationship",
         "id": "relationship--21b87986-57d0-45a7-9a42-f3e7803cf337",
         "created": "2023-08-03T20:49:32.431Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -260,18 +195,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-03T20:49:32.431Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has appended copies of the ntds.dit database with a .gif file extension.(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--208884f1-7b83-4473-ac22-4e1cf6c41471",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -280,8 +208,6 @@
         "type": "relationship",
         "id": "relationship--261d9569-d779-4f76-a7e3-6f704afc8185",
         "created": "2023-07-31T17:57:23.586Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -299,17 +225,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.817Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used the Windows command line to perform hands-on-keyboard activities in targeted environments including for discovery.(Citation: Microsoft Volt Typhoon May 2023)(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -318,7 +238,6 @@
         "type": "relationship",
         "id": "relationship--284eb222-c310-480c-aaaa-82c1d5c64e62",
         "created": "2023-08-04T17:58:11.846Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -326,18 +245,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-04T17:58:11.846Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) gained initial access through exploitation of CVE-2021-40539 in internet-facing ManageEngine ADSelfService Plus servers.(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -346,8 +258,6 @@
         "type": "relationship",
         "id": "relationship--29f40ca0-8255-44f3-afea-8facfd150314",
         "created": "2023-08-02T18:41:01.306Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Joint Cybersecurity Advisory Volt Typhoon June 2023",
@@ -355,17 +265,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-03T16:09:38.927Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has attempted to obtain credentials from OpenSSH, realvnc, and PuTTY.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -374,7 +278,6 @@
         "type": "relationship",
         "id": "relationship--2f9e7f23-979c-4d7f-a19c-907dc94504aa",
         "created": "2023-07-31T19:51:28.592Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Volt Typhoon May 2023",
@@ -382,18 +285,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-31T19:51:28.592Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has staged collected data in password-protected archives.(Citation: Microsoft Volt Typhoon May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -402,8 +298,6 @@
         "type": "relationship",
         "id": "relationship--30a53a55-718d-4108-9063-45dc9bfacc93",
         "created": "2023-08-02T18:19:13.123Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Joint Cybersecurity Advisory Volt Typhoon June 2023",
@@ -411,17 +305,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.820Z",
         "description": "(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "tool--f91162cc-1686-4ff8-8115-bf3f61a4cc7a",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -430,7 +318,6 @@
         "type": "relationship",
         "id": "relationship--3d6d5bc0-2160-4152-9a4b-b2f19a8768b4",
         "created": "2023-08-03T20:34:10.710Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -438,18 +325,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-03T20:34:10.710Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has archived the ntds.dit database as a multi-volume password-protected archive with 7-Zip.(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -458,8 +338,6 @@
         "type": "relationship",
         "id": "relationship--3e17459a-edb2-471c-87b0-1315f3500ab6",
         "created": "2023-08-03T20:18:46.541Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -467,17 +345,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:52:46.448Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has run `net group` in compromised environments to discover domain groups.(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -486,8 +358,6 @@
         "type": "relationship",
         "id": "relationship--3ee66a23-0783-4292-b4be-cc227932800c",
         "created": "2023-08-01T20:16:58.991Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Joint Cybersecurity Advisory Volt Typhoon June 2023",
@@ -495,17 +365,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.822Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has executed multiple commands to enumerate network topology and settings including  `ipconfig`, `netsh interface firewall show all`, and `netsh interface portproxy show all`.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -514,8 +378,6 @@
         "type": "relationship",
         "id": "relationship--40356b61-2279-47ef-b7bd-4b355e2fb98a",
         "created": "2023-07-31T18:41:12.452Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -528,17 +390,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-03T20:19:25.596Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used multiple methods, including [Ping](https://attack.mitre.org/software/S0097), to enumerate systems on compromised networks.(Citation: Microsoft Volt Typhoon May 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -547,8 +403,6 @@
         "type": "relationship",
         "id": "relationship--40b2270c-1549-44dc-87b2-d263941eb951",
         "created": "2023-07-31T19:27:49.902Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -566,17 +420,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T18:01:49.486Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has leveraged WMIC including for execution and remote system discovery.(Citation: Microsoft Volt Typhoon May 2023)(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -585,7 +433,6 @@
         "type": "relationship",
         "id": "relationship--4893fd0f-c256-4b74-a3d8-aef48794550a",
         "created": "2023-08-03T20:26:27.707Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -593,18 +440,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-03T20:26:27.707Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has copied web shells between servers in targeted environments.(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -613,8 +453,6 @@
         "type": "relationship",
         "id": "relationship--514a384a-2b09-4b4f-9def-8e4007b49734",
         "created": "2023-07-31T18:18:33.737Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -632,17 +470,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.825Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has discovered file system types, drive names, size, and free space on compromised systems.(Citation: Microsoft Volt Typhoon May 2023)(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -651,8 +483,6 @@
         "type": "relationship",
         "id": "relationship--56889f30-eb6c-4286-b25a-39d35f93a1c0",
         "created": "2023-07-31T19:39:47.808Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Volt Typhoon May 2023",
@@ -660,17 +490,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T08:49:18.213Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has run system checks to determine if they were operating in a virtualized environment.(Citation: Microsoft Volt Typhoon May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--29be378d-262d-4e99-b00d-852d573628e6",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -679,8 +503,6 @@
         "type": "relationship",
         "id": "relationship--582f4641-f68d-4dad-96e0-eb4da4128bbf",
         "created": "2023-07-31T18:15:33.417Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -698,17 +520,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.826Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used ntds.util to create domain controller installation media containing usernames and password hashes.(Citation: Microsoft Volt Typhoon May 2023)(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -717,7 +533,6 @@
         "type": "relationship",
         "id": "relationship--5a347320-15ce-40b9-8b9f-05f7c0c3ff9c",
         "created": "2023-08-04T18:30:24.671Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -725,18 +540,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-04T18:30:24.671Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used a version of the Awen web shell that employed AES encryption and decryption for C2 communications.(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -745,7 +553,6 @@
         "type": "relationship",
         "id": "relationship--5c96f40f-8cbc-4561-9a1f-ce9dad5808d5",
         "created": "2023-07-31T18:11:24.566Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Volt Typhoon May 2023",
@@ -753,18 +560,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-31T18:11:24.566Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has attempted to access hashed credentials from the LSASS process memory space.(Citation: Microsoft Volt Typhoon May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -773,8 +573,6 @@
         "type": "relationship",
         "id": "relationship--643a223a-76fa-4a34-9197-3acbc5aff205",
         "created": "2023-08-01T20:44:51.356Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -787,17 +585,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.828Z",
         "description": "\n[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used `netstat -ano` on compromised hosts to enumerate network connections.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)                                                   ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -806,8 +598,6 @@
         "type": "relationship",
         "id": "relationship--6784ef17-912c-4319-87b4-4279c8b663b3",
         "created": "2023-08-02T18:15:06.491Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -820,17 +610,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.829Z",
         "description": "(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -839,8 +623,6 @@
         "type": "relationship",
         "id": "relationship--68019421-95db-4416-879d-bb68c063dd78",
         "created": "2023-07-31T19:29:07.472Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Volt Typhoon May 2023",
@@ -853,17 +635,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.830Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used PowerShell including for remote system discovery.(Citation: Microsoft Volt Typhoon May 2023)(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -872,8 +648,6 @@
         "type": "relationship",
         "id": "relationship--6848a6be-5571-4e88-b95d-45d9a11d4758",
         "created": "2023-09-08T17:34:40.205Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Joint Cybersecurity Advisory Volt Typhoon June 2023",
@@ -881,17 +655,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-20T14:59:58.411Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used `wevtutil.exe` and the PowerShell command `Get-EventLog security` to enumerate Windows logs to search for successful logons.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--866d0d6d-02c6-42bd-aa2f-02907fdc0969",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -900,7 +668,6 @@
         "type": "relationship",
         "id": "relationship--828d0030-009d-4612-ae30-9dfa3d139e26",
         "created": "2023-07-31T20:00:27.448Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Volt Typhoon May 2023",
@@ -908,18 +675,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-31T20:00:27.448Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used the built-in [netsh](https://attack.mitre.org/software/S0108) `port proxy` command to create proxies on compromised systems to facilitate access.(Citation: Microsoft Volt Typhoon May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -928,8 +688,6 @@
         "type": "relationship",
         "id": "relationship--8329b484-4c42-4c30-8565-a742bff07b0c",
         "created": "2023-08-02T18:27:14.195Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Joint Cybersecurity Advisory Volt Typhoon June 2023",
@@ -937,17 +695,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.832Z",
         "description": "(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -956,8 +708,6 @@
         "type": "relationship",
         "id": "relationship--93965fb7-e50d-45c8-a0db-354ce8ee05b8",
         "created": "2023-08-01T19:43:46.997Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -970,17 +720,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.833Z",
         "description": "\n[Volt Typhoon](https://attack.mitre.org/groups/G1017) has executed the PowerShell command `Get-EventLog security -instanceid 4624` to identify associated user and computer account names.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -989,8 +733,6 @@
         "type": "relationship",
         "id": "relationship--9ca80e08-f365-48c6-bb40-24657614b217",
         "created": "2023-08-03T20:03:22.885Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -998,17 +740,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-03T20:22:52.987Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used webshells, including ones named AuditReport.jspx and iisstart.aspx, in compromised environments.(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1017,7 +753,6 @@
         "type": "relationship",
         "id": "relationship--ad6cad0b-d827-4182-baf9-826c6788cf4e",
         "created": "2023-07-31T19:35:50.201Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Volt Typhoon May 2023",
@@ -1025,18 +760,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-31T19:35:50.201Z",
         "description": "(Citation: Microsoft Volt Typhoon May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1045,8 +773,6 @@
         "type": "relationship",
         "id": "relationship--c08d8f49-5cca-4463-81db-bb80cc9a7af6",
         "created": "2023-08-01T20:36:56.976Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Joint Cybersecurity Advisory Volt Typhoon June 2023",
@@ -1054,17 +780,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.834Z",
         "description": "\n[Volt Typhoon](https://attack.mitre.org/groups/G1017) has run `net localgroup administrators` in compromised environments to enumerate accounts.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)\n",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--a01bf75f-00b2-4568-a58f-565ff9bf202b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1073,8 +793,6 @@
         "type": "relationship",
         "id": "relationship--c4d3d8d6-95a9-4d1d-bd51-ad736c0a4b41",
         "created": "2023-08-03T20:52:34.710Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -1082,17 +800,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-03T20:53:17.746Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has run `rd /S` to delete their working directories and files.(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1101,8 +813,6 @@
         "type": "relationship",
         "id": "relationship--c93cacac-5ecf-49cb-8377-18e319545329",
         "created": "2023-07-31T20:05:23.056Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Volt Typhoon May 2023",
@@ -1115,17 +825,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.836Z",
         "description": "(Citation: Microsoft Volt Typhoon May 2023)(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1134,8 +838,6 @@
         "type": "relationship",
         "id": "relationship--d3269fe9-f90f-4714-bee5-836072e9ad6f",
         "created": "2023-08-02T18:12:47.253Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -1148,17 +850,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.836Z",
         "description": "(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1167,8 +863,6 @@
         "type": "relationship",
         "id": "relationship--d51a3ee4-4542-4334-9989-249aa107c261",
         "created": "2023-07-31T17:54:41.072Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -1181,17 +875,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-03T20:00:53.005Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used compromised domain accounts to authenticate to devices on compromised networks.(Citation: Microsoft Volt Typhoon May 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1200,8 +888,6 @@
         "type": "relationship",
         "id": "relationship--d5f428f5-4c16-495e-bc79-882a92ce75e0",
         "created": "2023-08-02T18:21:42.603Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -1214,17 +900,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.837Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has stolen the Active Directory database from targeted environments and used [Wevtutil](https://attack.mitre.org/software/S0645) to extract event log information.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1233,8 +913,6 @@
         "type": "relationship",
         "id": "relationship--de4a0c7c-2a21-4038-8466-7f933be35d95",
         "created": "2023-08-01T20:50:14.123Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Joint Cybersecurity Advisory Volt Typhoon June 2023",
@@ -1242,17 +920,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.839Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has queried the Registry on compromised systems, `reg query hklm\\software\\`, for information on installed software.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1261,7 +933,6 @@
         "type": "relationship",
         "id": "relationship--e1a885f7-b364-4f39-a15c-37dd59b9be7e",
         "created": "2023-08-04T18:06:05.323Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -1269,18 +940,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-04T18:06:05.323Z",
         "description": "(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1289,7 +953,6 @@
         "type": "relationship",
         "id": "relationship--e22619ba-a141-405c-92e2-4f157f953c14",
         "created": "2023-08-04T18:07:20.225Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -1297,18 +960,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-04T18:07:20.225Z",
         "description": "(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "tool--981acc4c-2ede-4b56-be6e-fa1a75f37acf",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1317,8 +973,6 @@
         "type": "relationship",
         "id": "relationship--e2ced722-52bf-40ae-9627-99b5bf72b680",
         "created": "2023-07-31T17:46:24.769Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Volt Typhoon May 2023",
@@ -1326,17 +980,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:39:23.263Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used customized versions of open-source tools for C2.(Citation: Microsoft Volt Typhoon May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1345,8 +993,6 @@
         "type": "relationship",
         "id": "relationship--e433aa4c-acb3-4283-a746-9ef79ebb81bf",
         "created": "2023-08-03T20:08:05.525Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -1354,17 +1000,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-03T20:19:50.507Z",
         "description": "(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1373,8 +1013,6 @@
         "type": "relationship",
         "id": "relationship--e52c1bab-01f3-47c0-a5c9-361ba56d7e6a",
         "created": "2023-08-01T20:40:42.371Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -1387,17 +1025,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.840Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has run `net group /dom` and `net group \"Domain Admins\" /dom` in compromised environments for account discovery.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1406,8 +1038,6 @@
         "type": "relationship",
         "id": "relationship--e961cbae-92dc-48bf-9284-440173292c44",
         "created": "2023-08-04T18:44:22.332Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -1415,17 +1045,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:36:20.392Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) have inspected server logs to remove their IPs.(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--3975dbb5-0e1e-4f5b-bae1-cf2ab84b46dc",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1434,7 +1058,6 @@
         "type": "relationship",
         "id": "relationship--ec0161c2-2e79-4166-b3e5-5a7026366865",
         "created": "2023-08-03T20:15:07.460Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -1442,18 +1065,11 @@
                 "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-03T20:15:07.460Z",
         "description": "(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1462,8 +1078,6 @@
         "type": "relationship",
         "id": "relationship--fbeb5e6c-5574-4d41-add3-01efec419ae7",
         "created": "2023-08-01T19:05:49.468Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -1476,17 +1090,11 @@
                 "url": "https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-08T17:13:44.842Z",
         "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has saved stolen files including the ntds.dit database and the `SYSTEM` and `SECURITY` Registry hives locally to the `C:\\Windows\\Temp\\` directory.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

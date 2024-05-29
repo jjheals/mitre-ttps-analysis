@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--02e23a00-846a-4b86-9146-4a7354c23667",
         "type": "relationship",
         "created": "2019-04-12T15:55:48.135Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -17,22 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--064cfeb5-9ddb-4dd2-ada4-cf9e65601dc5",
         "type": "relationship",
         "created": "2021-09-29T22:24:15.758Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -45,22 +35,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0ccca05d-955c-40fa-9fd4-c10480abcf3d",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.282Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -73,22 +55,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--10a5f6e2-9527-419a-b2f4-29087e05cf2d",
         "type": "relationship",
         "created": "2021-09-29T19:00:31.577Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -101,22 +75,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "malware--e928333f-f3df-4039-9b8b-556c2add0e42",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--11ab80ae-29e7-45a4-8d92-53493e2971c3",
         "type": "relationship",
         "created": "2019-09-09T17:51:47.352Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -129,22 +95,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--161225df-de21-4715-b4f3-c324c05ff590",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.235Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -162,22 +120,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1a49c7e5-32b0-4393-a464-1491b1ebc279",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.292Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -190,22 +140,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1c327eb2-e0af-45c2-a9ea-784252ad34b0",
         "type": "relationship",
         "created": "2021-09-29T22:24:15.747Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -218,22 +160,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1f0832ca-30f2-4f5a-8e92-1d15222fc087",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.335Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -246,22 +180,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2012985d-6529-4944-a2d2-892d56751b94",
         "type": "relationship",
         "created": "2021-09-29T22:24:15.753Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -274,22 +200,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2d27c0d9-7e8e-4713-b3e1-0d82db27ac9a",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.332Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -307,22 +225,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2f19f736-a547-47c3-ae26-40a0d13cdf41",
         "type": "relationship",
         "created": "2021-09-29T22:24:15.696Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -335,22 +245,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3ab4c52a-aa3d-4c65-bd68-6614a0fb7bfe",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.289Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -363,22 +265,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--41bdaca0-cda7-49ee-a879-bb0dfb0ba6d4",
         "type": "relationship",
         "created": "2021-09-29T19:00:31.581Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -391,22 +285,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "malware--454fe82d-6fd2-4ac6-91ab-28a33fe01369",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--457cc54b-4fd9-490f-bb2f-d7d559624388",
         "type": "relationship",
         "created": "2021-09-29T20:46:38.435Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -419,22 +305,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--53c8e757-8043-4d08-8bd6-8d02d2b973cb",
         "type": "relationship",
         "created": "2019-10-04T22:16:08.175Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "FireEye. (2018, October 03). APT38: Un-usual Suspects. Retrieved November 6, 2018.",
@@ -447,22 +325,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--ff73aa03-0090-4464-83ac-f89e233c02bc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5577d7ff-58ee-4513-bf01-3be1a60ac2c9",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.242Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -475,22 +345,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--559dfd54-de33-4cfc-aeec-617cd545e870",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.298Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -503,22 +365,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5c7716d2-cf4b-43cd-a544-0c94ebf69e23",
         "type": "relationship",
         "created": "2021-09-29T22:24:15.706Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -531,22 +385,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--8f504411-cb96-4dac-a537-8d2bb7679c59",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--61986499-5358-4edc-aab1-6a13ae0f7c06",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.177Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -559,22 +405,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--658f822e-f11c-4c36-8097-8dd21f45b42e",
         "type": "relationship",
         "created": "2021-09-29T22:24:15.643Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -587,22 +425,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--5e4a2073-9643-44cb-a0b5-e7f4048446c7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--69b349cf-c086-497b-8339-514d4a448bfe",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.239Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -615,22 +445,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6fa3a8bd-3a66-4f48-9439-97e5ae3dcac9",
         "type": "relationship",
         "created": "2021-09-29T22:24:15.766Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -643,22 +465,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--77cd972c-459f-4cac-ae21-3cc1a96df09e",
         "type": "relationship",
         "created": "2019-04-12T15:55:48.141Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -671,22 +485,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--d45a3d09-b3cf-48f4-9f0f-f521ee5cb05c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7efb7077-5119-4508-b467-f7da76cc6df6",
         "type": "relationship",
         "created": "2021-09-29T22:24:15.759Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -699,22 +505,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--82660969-2c24-46a6-a451-1b41240b9ed7",
         "type": "relationship",
         "created": "2021-09-29T22:24:15.765Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -727,22 +525,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--870cebf9-bf09-451c-a894-cad79936bb67",
         "type": "relationship",
         "created": "2021-09-29T22:24:15.751Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -755,22 +545,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8d94276b-c902-4d7c-ae10-d13e127e5149",
         "type": "relationship",
         "created": "2019-04-12T15:20:35.931Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -783,22 +565,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--d0613359-5781-4fd2-b5be-c269270be1f6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--95f54d2e-cfa0-4afc-a5f4-9da7da55242a",
         "type": "relationship",
         "created": "2019-04-12T15:55:48.091Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -811,22 +585,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a3157c50-410e-4218-8707-326ab0146c94",
         "type": "relationship",
         "created": "2021-09-29T20:46:38.432Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -839,22 +605,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a7213656-7166-4b88-8d32-f388a2ef1671",
         "type": "relationship",
         "created": "2021-10-12T19:44:57.908Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Lazarus KillDisk April 2018",
@@ -867,22 +625,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ae7727c7-6b4a-48fb-8ecb-b07cbe819cad",
         "type": "relationship",
         "created": "2021-09-29T22:24:15.698Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -895,22 +645,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b2a83e1d-f6e8-4cdc-a96e-7bca9a48dfb2",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.287Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -923,22 +665,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b56a1198-e23a-48f4-9744-7a6f087b79a3",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.294Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -951,22 +685,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c0a373f1-a0bb-4896-8b9e-ee8d642127a9",
         "type": "relationship",
         "created": "2021-09-29T22:24:15.632Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -979,22 +705,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--5372c5fe-f424-4def-bcd5-d3a8e770f07b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c27c2970-ae12-46a0-99f8-2aa9137a8de3",
         "type": "relationship",
         "created": "2021-09-29T20:46:38.426Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -1007,22 +725,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c51741a8-7c08-4d6e-9d6a-02da7cc8cc83",
         "type": "relationship",
         "created": "2019-04-12T15:20:35.915Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -1035,22 +745,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--32ad5c86-2bcf-47d8-8fdc-d7f3d79a7490",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cad2a13a-eb81-4c1c-8d16-beac4bf79625",
         "type": "relationship",
         "created": "2021-09-29T20:46:38.437Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -1063,22 +765,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cb1037c1-4b83-4a79-ba12-00558bb6b42b",
         "type": "relationship",
         "created": "2021-10-04T20:52:20.304Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Lazarus KillDisk April 2018",
@@ -1091,22 +785,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "malware--e221eb77-1502-4129-af1d-fe1ad55e7ec6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cbd7249a-918d-436b-805a-0199eed6567a",
         "type": "relationship",
         "created": "2022-01-18T17:13:15.057Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Kaspersky Lazarus Under The Hood APR 2017",
@@ -1119,22 +805,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--a6937325-9321-4e2e-bb2b-3ed2d40b2a9d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cd2842e8-13e8-4946-9f16-f0473c6ac205",
         "type": "relationship",
         "created": "2021-09-29T20:46:38.422Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -1147,22 +825,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d032ba7f-4dee-4a98-b400-86e2eb0ee918",
         "type": "relationship",
         "created": "2019-04-12T15:20:35.934Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -1175,22 +845,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--1cfcb312-b8d7-47a4-b560-4b16cc677292",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d20f3c5a-5987-4223-a97d-64ca0f1231ac",
         "type": "relationship",
         "created": "2021-09-29T22:24:15.608Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -1203,22 +865,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d9cd7a48-0728-4e56-9c74-45baf45cf0ff",
         "type": "relationship",
         "created": "2021-09-29T20:46:38.429Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -1231,22 +885,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--dedf19b5-f91d-4555-93fe-c551f9ca6302",
         "type": "relationship",
         "created": "2021-09-29T20:46:38.420Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -1259,22 +905,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--2acf44aa-542f-4366-b4eb-55ef5747759c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--dfb8dd3b-3700-4708-a9ea-ddcc6b750705",
         "type": "relationship",
         "created": "2021-09-29T20:46:38.415Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -1287,22 +925,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e9e35351-d53c-4ea3-a439-d43bd636ae32",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.336Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -1315,22 +945,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "malware--53ab35c2-d00e-491a-8753-41d35ae7e547",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--efaecf33-d565-40fa-baf5-976138f6c883",
         "type": "relationship",
         "created": "2021-09-29T20:46:38.439Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -1343,22 +965,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f4d825cd-08d4-47ad-975c-37b886192e7c",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.205Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT38 Oct 2018",
@@ -1371,22 +985,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "description": "[APT38](https://attack.mitre.org/groups/G0082) installed a port monitoring tool, MAPMAKER, to print the active TCP connections on the local system.",
         "type": "relationship",
         "created": "2019-01-29T21:27:25.244Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a32248e6-ab16-43fb-a094-7231ca926aa9",
         "external_references": [
             {
@@ -1399,14 +1005,8 @@
         "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
         "relationship_type": "uses",
         "target_ref": "attack-pattern--1f47e2fd-fa77-4f2f-88ee-e85df308f125",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

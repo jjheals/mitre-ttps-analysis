@@ -83,6 +83,22 @@ def handle_list_of_dict(lod:list[dict]) -> dict[str, list[dict]]:
             list of dictionaries, and "sources", which is a list of dicts with the sources
             for each entry. 
     '''
+    
+    # REMOVE_KEYS := list of all keys that we don't care about in any of the dictionaries
+    REMOVE_KEYS:list[str] = [
+        "x_mitre_contributors",
+        "object_marking_refs",
+        "created_by_ref",
+        "x_mitre_modified_by_ref",
+        "x_mitre_modified_by_ref",
+        "x_mitre_version",
+        "spec_version",
+        "x_mitre_spec_version",
+        "x_mitre_deprecated",
+        "revoked",
+        "x_mitre_attack_spec_version"
+    ]
+    
     # Get all the keys for all the dictionaries 
     all_dict_keys:list[list[str]] = [ list(d.keys()) for d in lod ]
 
@@ -101,10 +117,11 @@ def handle_list_of_dict(lod:list[dict]) -> dict[str, list[dict]]:
         # For this dict, iterate over the fill keys and add any missing keys with None values
         for k in fill_keys: 
             if k not in d: d[k] = None
-        
-        # Since the object_marking_refs column is given as a list with only one str, extract that to be a column of strs instead
-        try: d['object_marking_refs'] = d['object_marking_refs'][0]
-        except TypeError: d['object_marking_refs'] = None
+            
+        # Remove the keys from REMOVE_KEYS 
+        for k in REMOVE_KEYS: 
+            try: d.pop(k)
+            except KeyError: pass
         
         # Extract the external_references 
         this_source_dict:dict = extract_external_references(d)

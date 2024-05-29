@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--02d478b7-c728-4b43-b599-84bd75c3546e",
         "created": "2021-03-18T14:20:00.545Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Anomali Static Kitten February 2021",
@@ -22,27 +20,19 @@
                 "url": "https://www.trendmicro.com/en_us/research/21/c/earth-vetala---muddywater-continues-to-target-organizations-in-t.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-27T19:41:11.434Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has sent targeted spearphishing e-mails with malicious links.(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)(Citation: Proofpoint TA450 Phishing March 2024)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--07af222c-dbd5-4ea4-b94b-a0fe8bdefcee",
         "type": "relationship",
         "created": "2020-05-18T19:04:37.688Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Reaqta MuddyWater November 2017",
@@ -55,22 +45,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--79a47ad0-fc3b-4821-9f01-a026b1ddba21",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--0839d954-ce47-4972-bea2-f4d9a76141af",
         "created": "2022-10-12T14:33:52.820Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "DHS CISA AA22-055A MuddyWater February 2022",
@@ -78,17 +60,11 @@
                 "url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-055a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-12T14:46:52.534Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) maintains persistence on victim networks through side-loading dlls to trick legitimate programs into running malware.(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -97,8 +73,6 @@
         "type": "relationship",
         "id": "relationship--124c87a2-d58e-4d46-910c-afa352d384c5",
         "created": "2022-08-18T15:03:41.604Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "DHS CISA AA22-055A MuddyWater February 2022",
@@ -106,17 +80,11 @@
                 "url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-055a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-12T16:26:46.002Z",
         "description": "(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "malware--e355fc84-6f3c-4888-8e0a-d7fa9c378532",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -125,8 +93,6 @@
         "type": "relationship",
         "id": "relationship--17c0d0d3-b57d-434d-9404-1e67414a4da5",
         "created": "2021-03-17T20:30:08.950Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Anomali Static Kitten February 2021",
@@ -134,27 +100,19 @@
                 "url": "https://www.anomali.com/blog/probable-iranian-cyber-actors-static-kitten-conducting-cyberespionage-campaign-targeting-uae-and-kuwait-government-agencies"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-27T20:22:44.099Z",
         "description": "MuddyWater has made use of legitimate tools ConnectWise and Remote Utilities to gain access to target environment.(Citation: Anomali Static Kitten February 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1923bc58-a830-457d-810f-27091e032f46",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye MuddyWater Mar 2018",
@@ -172,22 +130,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--1b6f869f-951c-4323-816f-dbedbe3aac0a",
         "created": "2019-01-30T17:33:40.937Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Talos MuddyWater May 2019",
@@ -210,27 +160,19 @@
                 "url": "https://securelist.com/muddywater/88059/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-27T19:41:53.184Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used malware that leveraged WMI for execution and querying host information.(Citation: Securelist MuddyWater Oct 2018)(Citation: ClearSky MuddyWater Nov 2018)(Citation: Talos MuddyWater May 2019)(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1eb79c3a-2cee-48ff-80b1-a5c3f571a3e8",
         "type": "relationship",
         "created": "2020-03-19T23:45:03.141Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 MuddyWater Nov 2017",
@@ -248,22 +190,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--1ecfdab8-7d59-4c98-95d4-dc41970f57fc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--2305a634-b226-4da2-a766-bec5458f9447",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ClearSky MuddyWater June 2019",
@@ -306,27 +240,19 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-27T19:41:57.125Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has compromised third parties and used compromised accounts to send spearphishing emails with targeted attachments to recipients.(Citation: Unit 42 MuddyWater Nov 2017)(Citation: FireEye MuddyWater Mar 2018)(Citation: Securelist MuddyWater Oct 2018)(Citation: ClearSky MuddyWater June 2019)(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)\t(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: Proofpoint TA450 Phishing March 2024)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--31433bb4-aa47-444a-b7d7-49208401e974",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
@@ -359,22 +285,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--319dbc0e-5026-4796-bfd9-43ef3d30eb8d",
         "created": "2019-01-30T17:33:40.954Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ClearSky MuddyWater June 2019",
@@ -392,27 +310,19 @@
                 "url": "https://securelist.com/muddywater/88059/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-27T20:05:35.973Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used malware that has the capability to execute malicious code via COM, DCOM, and Outlook.(Citation: Securelist MuddyWater Oct 2018)(Citation: ClearSky MuddyWater June 2019)(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--2f6b4ed7-fef1-44ba-bcb8-1b4beb610b64",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3574efdf-c9f0-4515-806e-a9a5437be02a",
         "type": "relationship",
         "created": "2021-03-19T13:27:52.117Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro Muddy Water March 2021",
@@ -425,22 +335,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "tool--80c815bb-b24a-4b9c-9d73-ff4c075a278d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3ab6b7bc-bb49-4fcd-83fc-abbec5912d41",
         "type": "relationship",
         "created": "2019-01-30T17:33:40.960Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Symantec DeepSight Adversary Intelligence Team. (2018, December 10). Seedworm: Group Compromises Government Agencies, Oil & Gas, NGOs, Telecoms, and IT Firms. Retrieved December 14, 2018.",
@@ -453,22 +355,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3dad318f-b446-49c6-a62b-f0596b63a9c5",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye MuddyWater Mar 2018",
@@ -481,22 +375,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--4cbc6a62-9e34-4f94-8a19-5c1a11392a49",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3e82234f-db7b-4a0f-8c0a-979b01381a6a",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
@@ -519,22 +405,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3e93cca0-c97a-49b3-af3b-9598b00a27f5",
         "type": "relationship",
         "created": "2021-04-08T19:35:36.610Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro Muddy Water March 2021",
@@ -547,22 +425,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--40527571-0b01-4568-b72b-568ad8b419ae",
         "type": "relationship",
         "created": "2021-03-19T12:52:09.839Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro Muddy Water March 2021",
@@ -575,22 +445,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--435c288d-1e10-4610-bf41-531390e5a650",
         "created": "2021-04-25T23:26:10.590Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ClearSky MuddyWater Nov 2018",
@@ -608,17 +470,11 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-27T19:52:00.168Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used JavaScript files to execute its [POWERSTATS](https://attack.mitre.org/software/S0223) payload.(Citation: ClearSky MuddyWater Nov 2018)(Citation: FireEye MuddyWater Mar 2018)(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -627,8 +483,6 @@
         "type": "relationship",
         "id": "relationship--47987857-8c6b-40d2-a294-860b8a4dec58",
         "created": "2021-03-17T20:30:08.940Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Anomali Static Kitten February 2021",
@@ -646,17 +500,11 @@
                 "url": "https://www.trendmicro.com/en_us/research/21/c/earth-vetala---muddywater-continues-to-target-organizations-in-t.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-27T20:40:55.648Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used file sharing services including OneHub, Sync, and TeraBox to distribute tools.(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)(Citation: Proofpoint TA450 Phishing March 2024)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -665,8 +513,6 @@
         "type": "relationship",
         "id": "relationship--4a0ee05d-f020-4811-bba6-56d12c15e275",
         "created": "2020-03-18T18:01:36.710Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ClearSky MuddyWater Nov 2018",
@@ -714,27 +560,19 @@
                 "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/another-potential-muddywater-campaign-uses-powershell-based-prb-backdoor/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-28T19:34:31.102Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used VBScript files to execute its [POWERSTATS](https://attack.mitre.org/software/S0223) payload, as well as macros.(Citation: FireEye MuddyWater Mar 2018)(Citation: MuddyWater TrendMicro June 2018)(Citation: Securelist MuddyWater Oct 2018)(Citation: Symantec MuddyWater Dec 2018)(Citation: ClearSky MuddyWater Nov 2018)(Citation: ClearSky MuddyWater June 2019)(Citation: Reaqta MuddyWater November 2017)(Citation: Trend Micro Muddy Water March 2021)(Citation: Talos MuddyWater Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4ab6ada3-0129-4f34-ba29-b793c6d98fff",
         "type": "relationship",
         "created": "2019-01-30T17:33:41.156Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Kaspersky Lab's Global Research & Analysis Team. (2018, October 10). MuddyWater expands operations. Retrieved November 2, 2018.",
@@ -747,22 +585,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--55d44c4e-c864-4e6f-ac33-62f13cd08f0e",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Talos MuddyWater May 2019",
@@ -795,17 +625,11 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-28T19:38:25.385Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has added Registry Run key <code>KCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\SystemTextEncoding</code> to establish persistence.(Citation: FireEye MuddyWater Mar 2018)(Citation: Securelist MuddyWater Oct 2018)(Citation: Talos MuddyWater May 2019)(Citation: Reaqta MuddyWater November 2017)(Citation: Trend Micro Muddy Water March 2021)(Citation: Talos MuddyWater Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -814,8 +638,6 @@
         "type": "relationship",
         "id": "relationship--58545f9a-d2cf-4466-bc7f-9cdbdce25d70",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ClearSky MuddyWater Nov 2018",
@@ -838,27 +660,19 @@
                 "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/another-potential-muddywater-campaign-uses-powershell-based-prb-backdoor/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-29T17:36:40.483Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has decoded base64-encoded PowerShell, JavaScript, and VBScript.(Citation: FireEye MuddyWater Mar 2018)(Citation: MuddyWater TrendMicro June 2018)(Citation: ClearSky MuddyWater Nov 2018)(Citation: Talos MuddyWater Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5ac271fa-d3a7-40a6-8862-3eb73331ae99",
         "type": "relationship",
         "created": "2019-01-30T17:33:40.982Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Kaspersky Lab's Global Research & Analysis Team. (2018, October 10). MuddyWater expands operations. Retrieved November 2, 2018.",
@@ -871,22 +685,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--5c2cd95f-9c3a-4893-9a5f-960cfed62572",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Talos MuddyWater May 2019",
@@ -929,27 +735,19 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-22T05:02:26.436Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used Daniel Bohannon\u2019s Invoke-Obfuscation framework and obfuscated PowerShell scripts.(Citation: Unit 42 MuddyWater Nov 2017)(Citation: GitHub Invoke-Obfuscation) The group has also used other obfuscation methods, including Base64 obfuscation of VBScripts and PowerShell commands.(Citation: Unit 42 MuddyWater Nov 2017)(Citation: FireEye MuddyWater Mar 2018)(Citation: Securelist MuddyWater Oct 2018)(Citation: Talos MuddyWater May 2019)(Citation: ClearSky MuddyWater June 2019)(Citation: Trend Micro Muddy Water March 2021)(Citation: Talos MuddyWater Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--649748ff-e2d0-4369-8f5d-3c8b5b5010ed",
         "type": "relationship",
         "created": "2020-05-18T19:46:02.176Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro POWERSTATS V3 June 2019",
@@ -962,22 +760,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--663d6fdf-6c99-4ef6-9a4e-bbc8bbe8591f",
         "type": "relationship",
         "created": "2019-04-25T21:34:56.303Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ClearSky MuddyWater Nov 2018",
@@ -990,22 +780,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--c726e0a2-a57a-4b7b-a973-d0f013246617",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6bed87bb-2cb9-48a8-a23d-31ed8285c61f",
         "type": "relationship",
         "created": "2019-01-30T17:33:41.091Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Kaspersky Lab's Global Research & Analysis Team. (2018, October 10). MuddyWater expands operations. Retrieved November 2, 2018.",
@@ -1018,22 +800,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--6ecbd739-f0c0-4aff-858f-255e3afeee8f",
         "created": "2022-08-18T18:59:58.892Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Talos MuddyWater Jan 2022",
@@ -1041,27 +815,19 @@
                 "url": "https://blog.talosintelligence.com/2022/01/iranian-apt-muddywater-targets-turkey.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-14T15:19:22.936Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has stored a decoy PDF file within a victim's `%temp%` folder.(Citation: Talos MuddyWater Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6f6b8a04-916e-4f33-8837-ff48e00e771b",
         "type": "relationship",
         "created": "2019-01-30T17:33:41.151Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Kaspersky Lab's Global Research & Analysis Team. (2018, October 10). MuddyWater expands operations. Retrieved November 2, 2018.",
@@ -1074,22 +840,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7700e443-2a26-43ba-9557-4c6f11bfbde1",
         "type": "relationship",
         "created": "2020-05-18T17:29:30.916Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ClearSky MuddyWater June 2019",
@@ -1107,22 +865,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--77c3f6a1-f25c-4669-bdc1-0f358793dd34",
         "type": "relationship",
         "created": "2021-03-19T13:38:12.585Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro Muddy Water March 2021",
@@ -1135,22 +885,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7aab9015-1839-4672-9a9a-76f478c858a8",
         "type": "relationship",
         "created": "2019-01-30T17:33:40.973Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Kaspersky Lab's Global Research & Analysis Team. (2018, October 10). MuddyWater expands operations. Retrieved November 2, 2018.",
@@ -1163,22 +905,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--80d612e4-8d4a-45f7-8c29-d44a1aae794c",
         "type": "relationship",
         "created": "2019-01-30T17:33:40.871Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ClearSky MuddyWater Nov 2018",
@@ -1191,22 +925,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--82d8c106-c216-4d3f-9028-5f0b975e6330",
         "type": "relationship",
         "created": "2019-01-30T17:33:40.964Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Kaspersky Lab's Global Research & Analysis Team. (2018, October 10). MuddyWater expands operations. Retrieved November 2, 2018.",
@@ -1234,21 +960,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--846c52e8-41dc-4fe1-ab99-53d280d21748",
         "created": "2022-09-29T14:54:03.515Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Talos MuddyWater Jan 2022",
@@ -1256,28 +975,19 @@
                 "url": "https://blog.talosintelligence.com/2022/01/iranian-apt-muddywater-targets-turkey.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-29T14:54:03.515Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used AES to encrypt C2 responses.(Citation: Talos MuddyWater Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--885cab64-2589-4917-95ab-4ae5a2b75cd3",
         "type": "relationship",
         "created": "2019-06-24T18:55:39.462Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Symantec DeepSight Adversary Intelligence Team. (2018, December 10). Seedworm: Group Compromises Government Agencies, Oil & Gas, NGOs, Telecoms, and IT Firms. Retrieved December 14, 2018.",
@@ -1295,22 +1005,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--8911df73-17ac-430b-b1d5-3a021bc64998",
         "created": "2022-08-16T19:25:14.629Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "DHS CISA AA22-055A MuddyWater February 2022",
@@ -1323,27 +1025,19 @@
                 "url": "https://www.ncsc.gov.uk/files/NCSC-Malware-Analysis-Report-Small-Sieve.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-12T16:28:19.626Z",
         "description": "(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: NCSC GCHQ Small Sieve Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "malware--ff41b9b6-4c1d-407b-a7e2-835109c8dbc5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8cecace8-2820-4489-b3e8-baf4b9f33ff3",
         "type": "relationship",
         "created": "2019-01-30T17:33:40.941Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec MuddyWater Dec 2018",
@@ -1356,21 +1050,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--92d7859a-14cd-46dc-80c2-821883d6bee4",
         "created": "2022-09-30T15:35:12.714Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "DHS CISA AA22-055A MuddyWater February 2022",
@@ -1378,28 +1065,19 @@
                 "url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-055a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-30T15:35:12.714Z",
         "description": "(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "malware--7e100ca4-e639-48d9-9a9d-8ad84aa7b448",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--93642a19-cc8f-4298-9398-8d5d029fe53d",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
@@ -1417,22 +1095,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--95dce028-9046-4bcf-a949-2a0bc40d5038",
         "created": "2021-03-19T13:27:51.792Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Trend Micro Muddy Water March 2021",
@@ -1440,27 +1110,19 @@
                 "url": "https://www.trendmicro.com/en_us/research/21/c/earth-vetala---muddywater-continues-to-target-organizations-in-t.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-29T17:26:28.162Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has developed tools in Python including [Out1](https://attack.mitre.org/software/S0594).(Citation: Trend Micro Muddy Water March 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--97068a5a-faff-4212-a841-c06db163452e",
         "type": "relationship",
         "created": "2019-03-25T14:30:39.398Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Symantec DeepSight Adversary Intelligence Team. (2018, December 10). Seedworm: Group Compromises Government Agencies, Oil & Gas, NGOs, Telecoms, and IT Firms. Retrieved December 14, 2018.",
@@ -1478,22 +1140,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--99cfee83-7db8-44c1-8fd8-75bc1c67d17c",
         "type": "relationship",
         "created": "2021-03-19T13:38:12.533Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro Muddy Water March 2021",
@@ -1506,22 +1160,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--9c5c8dbe-ec34-46f9-b4af-0a6e73f00c89",
         "created": "2019-01-30T17:33:41.085Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Talos MuddyWater May 2019",
@@ -1549,27 +1195,19 @@
                 "url": "https://reaqta.com/2017/11/muddywater-apt-targeting-middle-east/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-29T14:17:24.686Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used malware that can collect the victim\u2019s OS version and machine name.(Citation: Securelist MuddyWater Oct 2018)(Citation: Talos MuddyWater May 2019)(Citation: Reaqta MuddyWater November 2017)(Citation: Trend Micro Muddy Water March 2021)(Citation: Talos MuddyWater Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9dfb0ad2-5456-492a-bb74-a288ce8f7f7c",
         "type": "relationship",
         "created": "2020-03-19T23:45:03.225Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
@@ -1592,22 +1230,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9f81120a-adde-47cc-95bc-cd8201eb0a11",
         "type": "relationship",
         "created": "2019-01-30T17:33:40.978Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Kaspersky Lab's Global Research & Analysis Team. (2018, October 10). MuddyWater expands operations. Retrieved November 2, 2018.",
@@ -1625,22 +1255,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a1fc4800-c670-4bc1-bc42-2b5fe66d0297",
         "type": "relationship",
         "created": "2020-05-18T17:43:36.737Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ClearSky MuddyWater June 2019",
@@ -1658,21 +1280,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--a24d8806-1c55-4ca7-bb83-1915655d914f",
         "created": "2022-09-29T17:43:46.450Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "DHS CISA AA22-055A MuddyWater February 2022",
@@ -1680,28 +1295,19 @@
                 "url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-055a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-29T17:43:46.450Z",
         "description": "(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "malware--c19d19ae-dd58-4584-8469-966bbeaa80e3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a3a7d091-49bb-4fd1-9442-d02e83a48ea1",
         "type": "relationship",
         "created": "2019-06-05T13:50:11.204Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos MuddyWater May 2019",
@@ -1714,22 +1320,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--84e02621-8fdf-470f-bd58-993bb6a89d91",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--aa0e4bee-a9a4-4d32-bb62-f024058842c6",
         "type": "relationship",
         "created": "2020-07-29T20:12:10.924Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro POWERSTATS V3 June 2019",
@@ -1747,22 +1345,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "tool--c4810609-7da6-48ec-8057-1b70a7814db0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--abb544df-2ece-4007-b3c9-0708362875ed",
         "type": "relationship",
         "created": "2021-03-18T13:47:11.977Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Anomali Static Kitten February 2021",
@@ -1780,22 +1370,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "tool--842976c7-f9c8-41b2-8371-41dc64fbe261",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--b6fa5f7f-1055-4a9a-8372-d281fd6ca4af",
         "created": "2021-03-18T13:17:47.661Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Anomali Static Kitten February 2021",
@@ -1813,27 +1395,19 @@
                 "url": "https://www.trendmicro.com/en_us/research/21/c/earth-vetala---muddywater-continues-to-target-organizations-in-t.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-27T19:42:39.884Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has distributed URLs in phishing e-mails that link to lure documents.(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)(Citation: Proofpoint TA450 Phishing March 2024)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b8e0c578-c249-4106-9568-3cbe0473b081",
         "type": "relationship",
         "created": "2020-03-18T15:14:10.898Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ClearSky MuddyWater Nov 2018",
@@ -1846,22 +1420,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--c2e147a9-d1a8-4074-811a-d8789202d916",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b9decd90-60fa-4edc-b428-70e94d6d8207",
         "type": "relationship",
         "created": "2020-05-20T20:39:29.132Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro POWERSTATS V3 June 2019",
@@ -1874,22 +1440,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "malware--73c4711b-407a-449d-b269-e3b1531fe7a9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--baec4c99-f8f9-4789-a73d-c6b652299048",
         "type": "relationship",
         "created": "2020-05-18T19:46:02.154Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "TrendMicro POWERSTATS V3 June 2019",
@@ -1902,22 +1460,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--beda360a-6477-48b9-b7d1-4643d02bc3c9",
         "type": "relationship",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
@@ -1940,22 +1490,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c8f3916d-e020-42a8-afe0-25fe8498245a",
         "type": "relationship",
         "created": "2020-05-18T19:04:37.692Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Reaqta MuddyWater November 2017",
@@ -1968,22 +1510,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cc78f0a1-7f4f-491e-a636-910f09d0c5a1",
         "type": "relationship",
         "created": "2019-01-30T17:33:40.928Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Symantec DeepSight Adversary Intelligence Team. (2018, December 10). Seedworm: Group Compromises Government Agencies, Oil & Gas, NGOs, Telecoms, and IT Firms. Retrieved December 14, 2018.",
@@ -2006,22 +1540,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--d06420fb-1c4d-4a4e-b18e-4c0750310606",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Talos MuddyWater May 2019",
@@ -2079,27 +1605,19 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-27T19:44:14.512Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has attempted to get users to open malicious PDF attachment and to enable macros and launch malicious Microsoft Word documents delivered via spearphishing emails.(Citation: Unit 42 MuddyWater Nov 2017)(Citation: FireEye MuddyWater Mar 2018)(Citation: Securelist MuddyWater Oct 2018)(Citation: Talos MuddyWater May 2019)(Citation: ClearSky MuddyWater June 2019)(Citation: Reaqta MuddyWater November 2017)(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: Talos MuddyWater Jan 2022)(Citation: Proofpoint TA450 Phishing March 2024)\t ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d1d496f1-fa91-404e-a93a-97670817717a",
         "type": "relationship",
         "created": "2019-01-30T17:33:41.163Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Kaspersky Lab's Global Research & Analysis Team. (2018, October 10). MuddyWater expands operations. Retrieved November 2, 2018.",
@@ -2117,22 +1635,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d9346357-5c7a-4df3-998f-3ca6866bf877",
         "type": "relationship",
         "created": "2021-03-18T15:57:10.041Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro Muddy Water March 2021",
@@ -2145,22 +1655,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "tool--03c6e0ea-96d3-4b23-9afb-05055663cf4b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--df1b67d2-8a37-4803-a05d-9bbdb0f30819",
         "created": "2021-04-08T15:41:46.444Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Anomali Static Kitten February 2021",
@@ -2178,27 +1680,19 @@
                 "url": "https://www.trendmicro.com/en_us/research/21/c/earth-vetala---muddywater-continues-to-target-organizations-in-t.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-27T20:42:49.334Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used legitimate applications ScreenConnect and AteraAgent to manage systems remotely and move laterally.(Citation: Trend Micro Muddy Water March 2021)(Citation: Anomali Static Kitten February 2021)(Citation: Proofpoint TA450 Phishing March 2024)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--dfb4c7e9-e1af-4716-b658-9cfbadd706dc",
         "type": "relationship",
         "created": "2020-05-18T19:04:37.694Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Reaqta MuddyWater November 2017",
@@ -2211,22 +1705,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--e8a77e9f-594d-429a-9eb0-51502af84c14",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Talos MuddyWater May 2019",
@@ -2279,27 +1765,19 @@
                 "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/another-potential-muddywater-campaign-uses-powershell-based-prb-backdoor/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-28T19:39:57.524Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used PowerShell for execution.(Citation: FireEye MuddyWater Mar 2018)(Citation: MuddyWater TrendMicro June 2018)(Citation: Securelist MuddyWater Oct 2018)(Citation: Symantec MuddyWater Dec 2018)(Citation: ClearSky MuddyWater Nov 2018)(Citation: Talos MuddyWater May 2019)(Citation: Reaqta MuddyWater November 2017)(Citation: Trend Micro Muddy Water March 2021)(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: Talos MuddyWater Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e8ea86ae-0cdc-4521-a9da-357e53514115",
         "type": "relationship",
         "created": "2021-03-18T13:12:15.518Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Anomali Static Kitten February 2021",
@@ -2312,22 +1790,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ea11624f-1025-46a9-820b-0b87866f534d",
         "type": "relationship",
         "created": "2019-01-30T17:33:40.878Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Kaspersky Lab's Global Research & Analysis Team. (2018, October 10). MuddyWater expands operations. Retrieved November 2, 2018.",
@@ -2340,22 +1810,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ee05131d-83bd-4eb5-b6c1-0f6925045b95",
         "type": "relationship",
         "created": "2019-01-30T17:33:40.945Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec MuddyWater Dec 2018",
@@ -2368,21 +1830,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--f439858f-020c-4476-b032-42b3abdc0e19",
         "created": "2022-09-27T20:02:08.052Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "DHS CISA AA22-055A MuddyWater February 2022",
@@ -2390,18 +1845,11 @@
                 "url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-055a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-27T20:02:08.052Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has exploited the Microsoft Exchange memory corruption vulnerability (CVE-2020-0688).(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2410,7 +1858,6 @@
         "type": "relationship",
         "id": "relationship--f53f17c6-b2ad-4201-8a26-ef53565a61af",
         "created": "2022-09-27T19:59:46.884Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "DHS CISA AA22-055A MuddyWater February 2022",
@@ -2418,28 +1865,19 @@
                 "url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-055a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-27T19:59:46.884Z",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has exploited the Microsoft Netlogon vulnerability (CVE-2020-1472).(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f5e6ce32-60e2-4a2c-8cc9-efb9d613a8e4",
         "type": "relationship",
         "created": "2020-05-18T17:29:30.919Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ClearSky MuddyWater June 2019",
@@ -2452,22 +1890,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fc857925-ff28-49f9-ba76-7ec2d29ba939",
         "type": "relationship",
         "created": "2020-03-19T23:45:03.148Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 MuddyWater Nov 2017",
@@ -2485,22 +1915,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--6add2ab5-2711-4e9d-87c8-7a0be8531530",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fd119308-f4b9-4d06-adf2-08a76baee7d9",
         "type": "relationship",
         "created": "2020-05-18T19:04:38.065Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Reaqta MuddyWater November 2017",
@@ -2518,22 +1940,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "tool--c8655260-9f4b-44e3-85e1-6538a5f6e4f4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2a292158-5cb0-4ae6-a2e4-5bb454e090b1",
         "type": "relationship",
         "created": "2021-03-18T13:17:47.657Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Anomali Static Kitten February 2021",
@@ -2546,26 +1960,18 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "target_ref": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
         "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used VBScript and JavaScript files to execute its [POWERSTATS](https://attack.mitre.org/software/S0223) payload. [MuddyWater](https://attack.mitre.org/groups/G0069) has also used Microsoft scriptlets, macros, and PowerShell scripts.[",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "created": "2018-04-18T17:59:24.739Z",
         "id": "relationship--0da404e8-5eb7-49a3-93db-85d334212a72",
         "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
         "modified": "2020-03-31T14:49:39.188Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "description": "Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018.",
@@ -2594,14 +2000,8 @@
             }
         ],
         "relationship_type": "uses",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

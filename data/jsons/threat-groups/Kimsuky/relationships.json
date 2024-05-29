@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--035525fc-4549-4282-b85b-c7c07359124c",
         "type": "relationship",
         "created": "2019-08-26T15:27:13.006Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist Kimsuky Sept 2013",
@@ -22,22 +20,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--062f7bee-8b54-4edd-aca9-11437b7cbc8b",
         "created": "2022-03-15T19:56:31.062Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -50,27 +40,19 @@
                 "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has developed its own unique malware such as MailFetch.py for use in operations.(Citation: KISA Operation Muzabi)(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-18T19:49:12.056Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0854ea2c-21b0-49b9-bb90-3653384f2de9",
         "type": "relationship",
         "created": "2021-09-29T13:02:30.914Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Netscout Stolen Pencil Dec 2018",
@@ -83,22 +65,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--09583053-9fab-47bb-b07c-76d75cbb5c30",
         "type": "relationship",
         "created": "2022-03-15T19:56:31.067Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -111,22 +85,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0e37d046-454c-4463-b27f-f348ef6f817e",
         "type": "relationship",
         "created": "2020-10-30T20:13:40.358Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ThreatConnect Kimsuky September 2020",
@@ -164,22 +130,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0f36ee85-8906-40c6-be53-87bc96499763",
         "type": "relationship",
         "created": "2020-11-06T18:02:10.532Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-301A Kimsuky",
@@ -197,22 +155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--0f7756fb-ea96-4d3a-9a23-a0f0a326de63",
         "created": "2019-08-27T13:11:10.528Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "EST Kimsuky April 2019",
@@ -230,27 +180,19 @@
                 "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has sent spearphishing emails containing a link to a document that contained malicious macros or took the victim to an actor-controlled domain.(Citation: EST Kimsuky April 2019)(Citation: Netscout Stolen Pencil Dec 2018)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T18:01:45.891Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--164bf82a-10bf-4a6d-b43c-70ff11f60229",
         "type": "relationship",
         "created": "2021-10-12T20:34:01.273Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Netscout Stolen Pencil Dec 2018",
@@ -268,22 +210,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--184bf796-4f6d-4d0e-921e-08eb3023b97e",
         "type": "relationship",
         "created": "2021-09-29T13:02:30.909Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Netscout Stolen Pencil Dec 2018",
@@ -296,22 +230,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--1c7681f4-4dc4-4722-9fcc-a79712fe502e",
         "created": "2022-02-09T14:32:47.575Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -319,27 +245,19 @@
                 "description": "An, J and Malhotra, A. (2021, November 10). North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets. Retrieved December 29, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has decoded malicious VBScripts using Base64.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T16:02:40.119Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--1ff37097-9ec1-42cd-bdd6-52d74ab8e3b5",
         "created": "2022-02-09T14:32:47.801Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -347,27 +265,19 @@
                 "description": "An, J and Malhotra, A. (2021, November 10). North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets. Retrieved December 29, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used Blogspot to host malicious content such as beacons, file exfiltrators, and implants.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T16:09:51.442Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--2011a4ee-6b40-45a1-8bcf-f19568d16d02",
         "created": "2020-12-22T17:59:54.205Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -380,27 +290,19 @@
                 "description": "Crowdstrike. (2020, March 2). 2020 Global Threat Report. Retrieved December 11, 2020."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has downloaded additional scripts, tools, and malware onto victim systems.(Citation: Crowdstrike GTR2020 Mar 2020)(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T14:38:47.746Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2098e2bc-2b20-463a-9862-20fe68268cfc",
         "type": "relationship",
         "created": "2020-11-02T19:03:11.902Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "VirusBulletin Kimsuky October 2019",
@@ -413,22 +315,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--edadea33-549c-4ed1-9783-8f5a5853cbdf",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--21511746-7782-42f2-ba77-b189777ef66c",
         "created": "2022-04-12T15:19:25.436Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -436,27 +330,19 @@
                 "description": "An, J and Malhotra, A. (2021, November 10). North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets. Retrieved December 29, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has exfiltrated stolen files and data to actor-controlled Blogspot accounts.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T15:19:25.437Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--23206fb2-51fb-4bdb-810d-4f719f7dead8",
         "type": "relationship",
         "created": "2020-11-09T14:54:54.414Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Kimsuky November 2020",
@@ -474,22 +360,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "tool--c9703cd3-141c-43a0-a926-380082be5d04",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--237b3167-feb7-4b28-990d-d810fe99a23b",
         "type": "relationship",
         "created": "2020-10-30T20:08:32.674Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ThreatConnect Kimsuky September 2020",
@@ -502,22 +380,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2447ac98-019d-40a9-8913-c97d6eb93d90",
         "type": "relationship",
         "created": "2020-11-05T14:39:22.872Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-301A Kimsuky",
@@ -530,22 +400,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--270a7179-63db-479d-95e5-84dccbe1aa3a",
         "created": "2022-04-12T15:09:05.420Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -553,27 +415,19 @@
                 "description": "An, J and Malhotra, A. (2021, November 10). North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets. Retrieved December 29, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used Blogspot pages for C2.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T15:09:05.420Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2ba344c1-aa24-4566-9df0-2556363fe8eb",
         "type": "relationship",
         "created": "2022-03-15T19:56:31.052Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -586,22 +440,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--31f9cd5d-bfb6-4764-a724-8e8f131099d1",
         "type": "relationship",
         "created": "2022-03-15T20:02:43.773Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -614,22 +460,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--9e7452df-5144-4b6e-b04a-b66dd4016747",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--33eb4a61-d966-4193-a8e5-237eb5a5129a",
         "type": "relationship",
         "created": "2022-03-15T19:56:31.036Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -642,22 +480,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3d78512d-1a97-4132-8d8f-cd9ceaf03246",
         "type": "relationship",
         "created": "2021-06-10T14:42:56.938Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Malwarebytes Kimsuky June 2021",
@@ -670,22 +500,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--bbe5b322-e2af-4a5e-9625-a4e62bf84ed3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--487ea754-d2dd-4e54-b16d-4e90d4e9bddb",
         "type": "relationship",
         "created": "2022-03-15T19:56:31.234Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -698,22 +520,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--76551c52-b111-4884-bc47-ff3e728f0156",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--49b4d1e6-1f0c-4e66-a9f1-51dc32615e69",
         "created": "2022-02-09T14:49:28.940Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -721,27 +535,19 @@
                 "description": "An, J and Malhotra, A. (2021, November 10). North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets. Retrieved December 29, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used `rundll32.exe` to execute malicious scripts and malware on a victim's network.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T15:01:21.418Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4b889a3a-289f-444f-946d-b8bc2dd16627",
         "type": "relationship",
         "created": "2022-03-15T20:02:43.839Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -754,22 +560,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--8c4aef43-48d5-49aa-b2af-c0cd58d30c3d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4c142924-33e7-4920-b1c7-9259d08fbb6e",
         "type": "relationship",
         "created": "2019-08-26T15:27:13.005Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Cimpanu, C.. (2018, December 5). Cyber-espionage group uses Chrome extension to infect victims. Retrieved August 26, 2019.",
@@ -787,22 +585,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--389735f1-f21c-4208-b8f0-f8031e7169b8",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--4cd705fd-5192-4248-9627-4f6cf2d4c459",
         "created": "2019-08-26T15:27:13.043Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -820,27 +610,19 @@
                 "description": "Tarakanov , D.. (2013, September 11). The \u201cKimsuky\u201d Operation: A North Korean APT?. Retrieved August 13, 2019."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has deleted the exfiltrated data on disk after transmission. [Kimsuky](https://attack.mitre.org/groups/G0094) has also used an instrumentor script to terminate browser processes running on an infected system and then delete the cookie files on disk.(Citation: Securelist Kimsuky Sept 2013)(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T18:31:16.966Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4fc9c0a5-952f-4726-8c53-39fbf40a67e3",
         "type": "relationship",
         "created": "2019-08-26T15:27:12.991Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist Kimsuky Sept 2013",
@@ -858,22 +640,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--546cf516-55b1-49cf-9807-5752c222f906",
         "type": "relationship",
         "created": "2022-03-15T19:56:31.064Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -886,22 +660,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--60c4b628-4807-4b0b-bbf5-fdac8643c337",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--56996982-a954-44d6-9d99-c23d4babccc1",
         "type": "relationship",
         "created": "2022-02-09T14:13:51.991Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -914,22 +680,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "malware--28b97733-ef07-4414-aaa5-df50b2d30cc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--58996a9f-ab17-4942-9afd-bb336af9a15b",
         "created": "2022-03-15T20:02:43.799Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -937,27 +695,19 @@
                 "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used a proprietary tool to intercept one time passwords required for two-factor authentication.(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T18:26:56.015Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--dd43c543-bb85-4a6f-aa6e-160d90d06a49",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5a85a31a-f5dd-4058-87d3-bb0b6fcfffb3",
         "type": "relationship",
         "created": "2021-04-22T13:50:46.735Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Kimsuky November 2020",
@@ -970,22 +720,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "tool--5256c0f8-9108-4c92-8b09-482dfacdcd94",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5d705563-a639-4ec1-a19d-f797c1c0c078",
         "type": "relationship",
         "created": "2022-03-15T19:56:31.108Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -998,22 +740,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--16cdd21f-da65-4e4f-bc04-dd7d198c7b26",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--5f285b2f-15d8-4f74-9a25-693c32635d43",
         "created": "2022-02-09T14:49:29.812Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -1026,27 +760,19 @@
                 "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has executed Windows commands by using `cmd` and running batch scripts.(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T18:19:08.822Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--5f601200-9fcd-44b7-96c2-5a2a1daea489",
         "created": "2020-10-30T20:07:37.959Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Zdnet Kimsuky Group September 2020",
@@ -1079,27 +805,19 @@
                 "description": "ThreatConnect. (2020, September 28). Kimsuky Phishing Operations Putting In Work. Retrieved October 30, 2020."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has registered domains to spoof targeted organizations and trusted third parties.(Citation: ThreatConnect Kimsuky September 2020)(Citation: Zdnet Kimsuky Group September 2020)(Citation: CISA AA20-301A Kimsuky)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T17:49:04.180Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--62784c03-0ee3-4a53-ba0e-876db5ede08a",
         "created": "2022-04-12T14:50:53.218Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -1107,27 +825,19 @@
                 "description": "An, J and Malhotra, A. (2021, November 10). North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets. Retrieved December 29, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has obtained specific Registry keys and values on a compromised host.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T14:50:53.218Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--63603405-b343-4e11-9ae0-3ece75611894",
         "type": "relationship",
         "created": "2022-03-15T19:56:31.111Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -1140,22 +850,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--937e4772-8441-4e4a-8bf0-8d447d667e23",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--6479de0b-2907-4346-95a4-063af662c689",
         "created": "2022-02-09T14:32:47.659Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -1163,27 +865,19 @@
                 "description": "An, J and Malhotra, A. (2021, November 10). North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets. Retrieved December 29, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094)  has used HTTP GET and POST requests for C2.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T15:57:01.694Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--6514cf17-0e40-4858-bd3e-58c8fb70796a",
         "created": "2022-03-15T19:56:31.049Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -1191,27 +885,19 @@
                 "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has created social media accounts to monitor news and security trends as well as potential targets.(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T17:56:16.679Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--b1ccd744-3f78-4a0e-9bb2-2002057f7928",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6852e4b7-b1de-417a-b8db-370d04d8c072",
         "type": "relationship",
         "created": "2022-03-15T20:02:43.864Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -1224,22 +910,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--635cbe30-392d-4e27-978e-66774357c762",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--73d7126b-3e7a-441c-93e0-9803aec12ca5",
         "type": "relationship",
         "created": "2022-02-09T14:32:47.562Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -1252,22 +930,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--78073196-9fea-4d84-a457-6b51afb71ed1",
         "type": "relationship",
         "created": "2020-11-02T19:03:11.924Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "VirusBulletin Kimsuky October 2019",
@@ -1285,22 +955,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--78f09c1a-8e37-4b2c-9296-d464be9b46c5",
         "type": "relationship",
         "created": "2019-08-26T15:27:13.047Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist Kimsuky Sept 2013",
@@ -1313,44 +975,28 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--143c0cbb-a297-4142-9624-87ffc778980b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--79cfdbac-3e7c-4d47-a85b-b735061b215a",
         "created": "2021-10-07T12:21:31.535Z",
-        "x_mitre_version": "0.1",
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "",
         "modified": "2022-05-24T14:00:00.188Z",
         "relationship_type": "revoked-by",
         "source_ref": "intrusion-set--7a0d4c09-dfe7-4fa2-965a-1a0e42fedd70",
         "target_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ],
         "external_references": null
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7bc61687-f105-403f-b83f-91168c8f41ad",
         "type": "relationship",
         "created": "2020-11-06T18:52:33.029Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Kimsuky November 2020",
@@ -1363,22 +1009,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--7d101f53-3b5a-467a-aeb8-172cd77e92ce",
         "created": "2020-11-02T19:03:11.933Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Malwarebytes Kimsuky June 2021",
@@ -1396,27 +1034,19 @@
                 "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used links in e-mail to steal account information.(Citation: VirusBulletin Kimsuky October 2019)(Citation: Malwarebytes Kimsuky June 2021)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T18:46:34.880Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7eb36f17-be21-4235-9a3b-736b17d089dc",
         "type": "relationship",
         "created": "2021-06-11T20:13:18.501Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Malwarebytes Kimsuky June 2021",
@@ -1434,22 +1064,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "malware--295721d2-ee20-4fa3-ade3-37f4146b4570",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--80e06d13-4c96-464c-9b9f-d0cb2b5fac18",
         "type": "relationship",
         "created": "2020-12-15T18:01:09.595Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-301A Kimsuky",
@@ -1462,22 +1084,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--81c1e9d6-f478-4adb-af70-cc92e8094e8a",
         "type": "relationship",
         "created": "2020-11-06T18:02:10.449Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-301A Kimsuky",
@@ -1490,22 +1104,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--035bb001-ab69-4a0b-9f6c-2de8b09e1b9d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8bfac9d6-8d6d-4a2f-9718-4015f231fdae",
         "type": "relationship",
         "created": "2022-03-15T20:02:43.828Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -1518,22 +1124,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--90f03f42-a2f1-4fab-8a10-ebbbbc4fba19",
         "created": "2019-08-26T15:27:12.985Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "EST Kimsuky April 2019",
@@ -1556,27 +1154,19 @@
                 "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used mshta.exe to run malicious scripts on the system.(Citation: EST Kimsuky April 2019)(Citation: CISA AA20-301A Kimsuky)(Citation: Crowdstrike GTR2020 Mar 2020)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T16:54:38.402Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--91f79ff4-3850-4e37-807a-fe303b312e23",
         "created": "2019-08-26T15:27:13.073Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -1589,27 +1179,19 @@
                 "description": "Tarakanov , D.. (2013, September 11). The \u201cKimsuky\u201d Operation: A North Korean APT?. Retrieved August 13, 2019."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has exfiltrated data over its C2 channel.(Citation: Securelist Kimsuky Sept 2013)(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T14:59:32.072Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--926523b2-beb0-46e0-a610-c2948ea7bc66",
         "type": "relationship",
         "created": "2020-12-21T19:08:35.357Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -1622,22 +1204,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "malware--071d5d65-83ec-4a55-acfa-be7d5f28ba9a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9655304e-7bdb-4375-8789-2bfecc5b0a64",
         "type": "relationship",
         "created": "2020-11-05T14:39:22.935Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-301A Kimsuky",
@@ -1650,22 +1224,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--96a9cf17-42b0-4317-82e6-55e42a2dab41",
         "created": "2019-08-26T15:27:13.069Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -1678,27 +1244,19 @@
                 "description": "Tarakanov , D.. (2013, September 11). The \u201cKimsuky\u201d Operation: A North Korean APT?. Retrieved August 13, 2019."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has enumerated drives, OS type, OS version, and other information using a script or the \"systeminfo\" command.(Citation: Securelist Kimsuky Sept 2013)(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T14:45:23.146Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--976a08e5-40b0-4b9f-a453-a1d0b33c3080",
         "type": "relationship",
         "created": "2022-03-15T19:56:31.060Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -1711,22 +1269,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--f9cc4d06-775f-4ee1-b401-4e2cc0da30ba",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9801b87a-29e0-4252-81e6-50bbc32d1940",
         "type": "relationship",
         "created": "2021-10-06T16:13:04.953Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Malwarebytes Kimsuky June 2021",
@@ -1739,22 +1289,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--98b90b49-f152-4eb5-8bb7-3b6c68bf9646",
         "type": "relationship",
         "created": "2020-11-02T19:33:14.206Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "VirusBulletin Kimsuky October 2019",
@@ -1772,22 +1314,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--a17d1fee-c44e-4e38-85be-68e7dff9d69c",
         "created": "2020-10-30T20:14:36.036Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -1805,27 +1339,19 @@
                 "description": "ThreatConnect. (2020, September 28). Kimsuky Phishing Operations Putting In Work. Retrieved October 30, 2020."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has obfuscated binary strings including the use of XOR encryption and Base64 encoding.(Citation: ThreatConnect Kimsuky September 2020)(Citation: VirusBulletin Kimsuky October 2019) [Kimsuky](https://attack.mitre.org/groups/G0094) has also modified the first byte of DLL implants targeting victims to prevent recognition of the executable file format.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-18T14:46:32.649Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a535c99e-66f2-47c9-aa25-352c90efd2ff",
         "type": "relationship",
         "created": "2020-12-15T18:24:57.265Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-301A Kimsuky",
@@ -1843,22 +1369,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a573685b-3135-44ae-9f9a-844dfc5bdaa2",
         "type": "relationship",
         "created": "2020-11-06T18:02:10.616Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-301A Kimsuky",
@@ -1871,22 +1389,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--54b4c251-1f0e-4eba-ba6b-dbc7a6f6f06b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a6d8c16f-7102-407c-ab9a-7d6b77f85413",
         "type": "relationship",
         "created": "2022-02-09T14:13:52.010Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -1899,22 +1409,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "malware--b9799466-9dd7-4098-b2d6-f999ce50b9a8",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--a70ec2cc-5eeb-41c3-8dd3-2816a9010104",
         "created": "2019-08-26T15:27:12.987Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "EST Kimsuky April 2019",
@@ -1947,27 +1449,19 @@
                 "description": "Tarakanov , D.. (2013, September 11). The \u201cKimsuky\u201d Operation: A North Korean APT?. Retrieved August 13, 2019."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used a PowerShell-based keylogger as well as a tool called MECHANICAL to log keystrokes.(Citation: EST Kimsuky April 2019)(Citation: Securelist Kimsuky Sept 2013)(Citation: CISA AA20-301A Kimsuky)(Citation: Netscout Stolen Pencil Dec 2018)(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T18:23:04.595Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a78cd480-758b-4fb5-a60a-ecb86d837012",
         "type": "relationship",
         "created": "2021-10-06T16:13:04.790Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Malwarebytes Kimsuky June 2021",
@@ -1980,22 +1474,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a89c60cc-5851-45bf-bcd6-f73f460351a5",
         "type": "relationship",
         "created": "2021-09-29T13:02:30.940Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Netscout Stolen Pencil Dec 2018",
@@ -2008,22 +1494,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--b005a049-ecf3-4378-bff6-983b16f92482",
         "created": "2022-02-09T14:32:47.571Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -2031,27 +1509,19 @@
                 "description": "An, J and Malhotra, A. (2021, November 10). North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets. Retrieved December 29, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used QuickZip to archive stolen files before exfiltration.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T14:58:48.842Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b20c6b3c-1314-419e-afa2-28ac8f54cf39",
         "type": "relationship",
         "created": "2021-10-14T22:35:21.504Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Netscout Stolen Pencil Dec 2018",
@@ -2064,22 +1534,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--b3c3bcb2-3b6a-472f-b0b5-edd93c311d91",
         "created": "2022-02-09T14:49:28.665Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -2087,27 +1549,19 @@
                 "description": "An, J and Malhotra, A. (2021, November 10). North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets. Retrieved December 29, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used `ipconfig/all` to gather network configuration information.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T16:12:10.063Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--b6d8f711-8b5f-4b5e-82c4-abf144223c55",
         "created": "2019-08-26T15:27:13.021Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -2130,27 +1584,19 @@
                 "description": "CISA, FBI, CNMF. (2020, October 27). https://us-cert.cisa.gov/ncas/alerts/aa20-301a. Retrieved November 4, 2020."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used browser extensions including Google Chrome to steal passwords and cookies from browsers. [Kimsuky](https://attack.mitre.org/groups/G0094) has also used Nirsoft's WebBrowserPassView tool to dump the passwords obtained from victims.(Citation: Zdnet Kimsuky Dec 2018)(Citation: CISA AA20-301A Kimsuky)(Citation: Netscout Stolen Pencil Dec 2018)(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T15:04:45.749Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b967963e-5dd4-42a3-a94e-8b3d17250aec",
         "type": "relationship",
         "created": "2019-08-26T15:27:12.971Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist Kimsuky Sept 2013",
@@ -2163,22 +1609,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--98034fef-d9fb-4667-8dc4-2eab6231724c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--b9f1dec0-f9b8-4cc3-a26c-5fc819f603a0",
         "created": "2019-08-26T15:27:12.951Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -2221,27 +1659,19 @@
                 "description": "ThreatConnect. (2020, September 28). Kimsuky Phishing Operations Putting In Work. Retrieved October 30, 2020."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used emails containing Word, Excel and/or HWP (Hangul Word Processor) documents in their spearphishing campaigns.(Citation: Zdnet Kimsuky Dec 2018)(Citation: Securelist Kimsuky Sept 2013)(Citation: ThreatConnect Kimsuky September 2020)(Citation: VirusBulletin Kimsuky October 2019)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T18:02:57.852Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--ba7a0a7d-3a54-480f-86ce-f92d29dbabe1",
         "created": "2022-02-09T14:32:47.557Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -2249,27 +1679,19 @@
                 "description": "An, J and Malhotra, A. (2021, November 10). North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets. Retrieved December 29, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) can gather a list of all processes running on a victim's machine.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T16:06:31.376Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bd648f03-7313-4e05-bd6e-b499f76a295c",
         "type": "relationship",
         "created": "2019-08-26T15:27:13.065Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist Kimsuky Sept 2013",
@@ -2282,22 +1704,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--c1566ee0-3ddb-4482-94dc-eb05e35e7afa",
         "created": "2020-11-05T15:01:15.628Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -2320,27 +1734,19 @@
                 "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has modified Registry settings for default file associations to enable all macros and for persistence.(Citation: CISA AA20-301A Kimsuky)(Citation: Crowdstrike GTR2020 Mar 2020)(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T18:06:12.524Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--c2379d5f-4d8d-4eaa-b966-bf31b227f5e3",
         "created": "2019-08-26T15:27:13.040Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "EST Kimsuky April 2019",
@@ -2363,27 +1769,19 @@
                 "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has executed a variety of PowerShell scripts.(Citation: EST Kimsuky April 2019)(Citation: CISA AA20-301A Kimsuky)(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T18:09:45.065Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c2480447-a55d-446e-8d62-88c6a4f08afb",
         "type": "relationship",
         "created": "2020-03-28T00:26:28.307Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Tarakanov , D.. (2013, September 11). The \u201cKimsuky\u201d Operation: A North Korean APT?. Retrieved August 13, 2019.",
@@ -2396,22 +1794,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--5372c5fe-f424-4def-bcd5-d3a8e770f07b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c257d040-c058-42db-ad75-1abb7b06e616",
         "type": "relationship",
         "created": "2020-11-06T19:01:02.254Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Cybereason Kimsuky November 2020",
@@ -2424,22 +1814,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "malware--8bdfe255-e658-4ddd-a11c-b854762e451d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c26aa411-a68f-4093-b681-c899694cfa19",
         "type": "relationship",
         "created": "2022-03-15T19:56:31.054Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -2452,22 +1834,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--f4b843c1-7e92-4701-8fed-ce82f8be2636",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--c3688800-5bf2-4e2f-93ed-27f66d3be8bd",
         "created": "2022-03-15T20:02:43.822Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -2475,27 +1849,19 @@
                 "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has executed malware with <code>regsvr32s</code>.(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-15T16:26:24.887Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--c5ae9551-e756-4b8b-9b78-515eba60acf5",
         "created": "2019-08-26T15:27:13.046Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -2523,27 +1889,19 @@
                 "description": "Tarakanov , D.. (2013, September 11). The \u201cKimsuky\u201d Operation: A North Korean APT?. Retrieved August 13, 2019."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has placed scripts in the startup folder for persistence and modified the `HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce` Registry key.(Citation: Securelist Kimsuky Sept 2013)(Citation: CISA AA20-301A Kimsuky)(Citation: Crowdstrike GTR2020 Mar 2020)(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T18:17:48.401Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--c84d253b-b26f-48e8-81ca-cc961f0b2360",
         "created": "2019-08-26T15:27:13.067Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -2556,27 +1914,19 @@
                 "description": "Tarakanov , D.. (2013, September 11). The \u201cKimsuky\u201d Operation: A North Korean APT?. Retrieved August 13, 2019."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has been observed turning off Windows Security Center and can hide the AV software window from the view of the infected user.(Citation: Securelist Kimsuky Sept 2013)(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-18T19:44:35.584Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c899111b-c3ae-4760-b87f-fce9f21af1f2",
         "type": "relationship",
         "created": "2019-08-26T15:27:13.071Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Securelist Kimsuky Sept 2013",
@@ -2594,22 +1944,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--ccc79ae5-de3c-4955-8179-2c4aa652613d",
         "created": "2022-02-09T14:32:47.787Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -2617,27 +1959,19 @@
                 "description": "An, J and Malhotra, A. (2021, November 10). North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets. Retrieved December 29, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has hosted content used for targeting efforts via web services such as Blogspot.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-19T01:11:09.117Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--cdd92791-3bc2-4a1f-89b4-3eced4aa667f",
         "created": "2019-08-26T15:27:13.041Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -2655,27 +1989,19 @@
                 "description": "Tarakanov , D.. (2013, September 11). The \u201cKimsuky\u201d Operation: A North Korean APT?. Retrieved August 13, 2019."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has the ability to enumerate all files and directories on an infected system.(Citation: Securelist Kimsuky Sept 2013)(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T18:13:43.790Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--ce0e4e49-3c40-4bce-96bd-460df4cb2124",
         "created": "2022-02-09T14:49:28.633Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -2683,27 +2009,19 @@
                 "description": "An, J and Malhotra, A. (2021, November 10). North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets. Retrieved December 29, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used an information gathering module that will hide an AV software window from the victim.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-12T16:04:54.836Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--db2be919-e747-430b-a7ee-d619a11abd93",
         "type": "relationship",
         "created": "2022-03-15T20:02:43.814Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -2716,22 +2034,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--dbbef446-8cc0-43cc-bfae-6fc6d7310e67",
         "created": "2022-03-15T20:02:43.786Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Kimsuky Malwarebytes",
@@ -2739,27 +2049,19 @@
                 "url": "https://www.malwarebytes.com/blog/threat-intelligence/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-01-10T14:42:22.196Z",
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has renamed malware to legitimate names such as <code>ESTCommon.dll</code> or <code>patch.dll</code>.(Citation: Kimsuky Malwarebytes)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--df5d8477-81dd-482b-a435-749a68727c49",
         "type": "relationship",
         "created": "2022-03-15T19:56:31.115Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -2772,22 +2074,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--6e561441-8431-4773-a9b8-ccf28ef6a968",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e5bfb355-b834-48db-8d79-9067127ed82b",
         "type": "relationship",
         "created": "2022-02-09T14:49:28.936Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -2800,22 +2094,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--b200542e-e877-4395-875b-cf1a44537ca4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e8523d2e-2552-4d14-8980-dde0923c803d",
         "type": "relationship",
         "created": "2020-11-06T18:17:30.524Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-301A Kimsuky",
@@ -2828,22 +2114,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--7d77a07d-02fe-4e88-8bd9-e9c008c01bf0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--eabe052b-cecc-4d80-92c9-150e8c8dbcdd",
         "type": "relationship",
         "created": "2020-11-02T19:33:14.167Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "VirusBulletin Kimsuky October 2019",
@@ -2856,22 +2134,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--9a60a291-8960-4387-8a4a-2ab5c18bb50b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--eb67e50e-84ac-495d-8374-547ef1f34f4f",
         "created": "2020-11-05T15:54:26.041Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Netscout Stolen Pencil Dec 2018",
@@ -2889,27 +2159,19 @@
                 "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has gathered credentials using [Mimikatz](https://attack.mitre.org/software/S0002) and ProcDump.(Citation: CISA AA20-301A Kimsuky)(Citation: Netscout Stolen Pencil Dec 2018)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-12T18:21:23.235Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ec6d7edc-f538-41ce-89b6-a2c424ddd58b",
         "type": "relationship",
         "created": "2021-09-29T14:09:57.693Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Netscout Stolen Pencil Dec 2018",
@@ -2927,22 +2189,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--ee4701f6-e4a5-41c8-ab72-118aead20a76",
         "created": "2020-10-30T20:09:23.032Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Talos Kimsuky Nov 2021",
@@ -2965,27 +2219,19 @@
                 "description": "ThreatConnect. (2020, September 28). Kimsuky Phishing Operations Putting In Work. Retrieved October 30, 2020."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used Visual Basic to download malicious payloads.(Citation: ThreatConnect Kimsuky September 2020)(Citation: VirusBulletin Kimsuky October 2019)(Citation: Crowdstrike GTR2020 Mar 2020)(Citation: Talos Kimsuky Nov 2021) [Kimsuky](https://attack.mitre.org/groups/G0094) has also used malicious VBA macros within maldocs disguised as forms that trigger when a victim types any content into the lure.(Citation: Talos Kimsuky Nov 2021)",
         "modified": "2022-04-19T01:21:34.581Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f5361de6-c729-4fe3-a37d-2d5ff95b31e2",
         "type": "relationship",
         "created": "2022-03-15T20:02:43.855Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -2998,22 +2244,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--f8372a2e-6db4-4353-9635-b1fcac9f90ed",
         "created": "2020-11-06T18:02:10.602Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "CISA AA20-301A Kimsuky",
@@ -3026,27 +2264,19 @@
                 "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used a macOS Python implant to gather data as well as MailFetcher.py code to automatically collect email data.(Citation: CISA AA20-301A Kimsuky)(Citation: KISA Operation Muzabi)",
         "modified": "2022-04-19T01:03:03.593Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f873875b-5be1-4a6d-81aa-d61a922df087",
         "type": "relationship",
         "created": "2020-11-05T15:54:26.066Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-301A Kimsuky",
@@ -3059,22 +2289,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fba9610f-dbaa-4ded-b233-9229b80809ab",
         "type": "relationship",
         "created": "2020-11-04T15:14:21.190Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-301A Kimsuky",
@@ -3097,50 +2319,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "malware--d1b7830a-fced-4be3-a99c-f495af9d9e1b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_domains": [
-            "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
-    },
-    {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
-        "type": "relationship",
-        "id": "relationship--fc0baea6-7e98-4cc3-9462-7eee9564cad0",
-        "created": "2022-04-12T17:58:20.508Z",
-        "x_mitre_version": "0.1",
-        "external_references": [
-            {
-                "source_name": "KISA Operation Muzabi",
-                "url": "https://www.boho.or.kr/krcert/publicationView.do?bulletin_writing_sequence=35936",
-                "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
-            }
-        ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
-        "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used tools such as the MailFetch mail crawler to collect victim emails (excluding spam) from online services via IMAP.(Citation: KISA Operation Muzabi)",
-        "modified": "2022-04-19T01:07:15.969Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "relationship_type": "uses",
-        "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
-        "target_ref": "attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
-        "id": "relationship--9488374f-6b53-4b54-a37a-a379089d7023",
-        "created": "2022-02-09T14:49:28.667Z",
-        "x_mitre_version": "1.0",
+        "id": "relationship--fc0baea6-7e98-4cc3-9462-7eee9564cad0",
+        "created": "2022-04-12T17:58:20.508Z",
         "external_references": [
             {
                 "source_name": "KISA Operation Muzabi",
@@ -3148,17 +2334,31 @@
                 "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
             }
         ],
-        "x_mitre_deprecated": true,
-        "revoked": false,
+        "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used tools such as the MailFetch mail crawler to collect victim emails (excluding spam) from online services via IMAP.(Citation: KISA Operation Muzabi)",
+        "modified": "2022-04-19T01:07:15.969Z",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
+        "target_ref": "attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a",
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9488374f-6b53-4b54-a37a-a379089d7023",
+        "created": "2022-02-09T14:49:28.667Z",
+        "external_references": [
+            {
+                "source_name": "KISA Operation Muzabi",
+                "url": "https://www.boho.or.kr/krcert/publicationView.do?bulletin_writing_sequence=35936",
+                "description": "KISA. (n.d.). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 7, 2022."
+            }
+        ],
         "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has disguised its C2 addresses as the websites of shopping malls, governments, universities, and others.(Citation: KISA Operation Muzabi)",
         "modified": "2024-04-23T14:00:00.188Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
         "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

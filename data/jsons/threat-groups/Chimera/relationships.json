@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0390ebec-176f-421a-9823-cce48756aef1",
         "type": "relationship",
         "created": "2021-01-22T16:51:10.393Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -17,22 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0a3dbe33-465a-421e-82ca-573d2ca25691",
         "type": "relationship",
         "created": "2021-01-22T16:19:53.855Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -45,22 +35,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--15ec2486-936e-4bb0-8265-84ba20491c05",
         "type": "relationship",
         "created": "2021-01-20T20:32:20.105Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -73,22 +55,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--359b00ad-9425-420b-bba5-6de8d600cbc0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--1ddc8822-55de-4671-8a73-c95d6383016f",
         "created": "2020-09-22T19:21:20.247Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -101,27 +75,19 @@
                 "url": "https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.969Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has used scheduled tasks to invoke Cobalt Strike including through batch script <code>schtasks /create /ru \"SYSTEM\" /tn \"update\" /tr \"cmd /c c:\\windows\\temp\\update.bat\" /sc once /f /st</code> and to maintain persistence.(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--23f36f2f-9bc4-4c95-a75b-65e5c74aed88",
         "type": "relationship",
         "created": "2021-01-22T18:38:21.012Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -134,22 +100,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2ad83456-5794-44d5-bfd1-3c51b2925c01",
         "type": "relationship",
         "created": "2021-01-20T18:48:26.482Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -162,22 +120,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--2fff97fc-650c-4db5-97d4-c36db70077dd",
         "created": "2020-08-27T17:29:05.220Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -185,27 +135,19 @@
                 "url": "https://cycraft.com/download/CyCraft-Whitepaper-Chimera_V4.1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.970Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has used a valid account to maintain persistence via scheduled task.(Citation: Cycraft Chimera April 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--34cb1bf0-c738-4637-84cc-c0472b105669",
         "type": "relationship",
         "created": "2021-01-22T18:59:40.068Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -218,22 +160,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--39da4f4e-e382-4db0-8184-cff27532173f",
         "type": "relationship",
         "created": "2021-01-22T18:38:21.118Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -246,22 +180,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--3cf6afbd-a010-4982-8121-22e67ace6046",
         "created": "2020-09-22T19:30:17.612Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -269,17 +195,11 @@
                 "url": "https://cycraft.com/download/CyCraft-Whitepaper-Chimera_V4.1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.970Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has used direct Windows system calls by leveraging Dumpert.(Citation: Cycraft Chimera April 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -288,8 +208,6 @@
         "type": "relationship",
         "id": "relationship--42edbbf4-8779-47d8-bc9b-452073939a1a",
         "created": "2020-08-27T21:22:39.718Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -297,27 +215,19 @@
                 "url": "https://cycraft.com/download/CyCraft-Whitepaper-Chimera_V4.1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.970Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114)'s malware has altered the NTLM authentication program on domain controllers to allow [Chimera](https://attack.mitre.org/groups/G0114) to login without a valid credential.(Citation: Cycraft Chimera April 2020)\t",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--d4b96d2c-1032-4b22-9235-2b5b649d0605",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4684788a-b196-4a91-b4ad-18e93beb9ffb",
         "type": "relationship",
         "created": "2021-01-22T13:48:21.208Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -330,22 +240,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--46d350be-fcde-4c7a-ac75-d86c8f5ccd5f",
         "type": "relationship",
         "created": "2021-01-22T18:25:52.924Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -358,22 +260,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--47d7a2ff-104a-49f9-a28f-6b1a79eca559",
         "type": "relationship",
         "created": "2021-01-20T18:39:29.140Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -386,22 +280,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--767dbf9e-df3f-45cb-8998-4903ab5f80c0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--49fb7af8-50cf-4af5-9195-40b2351fa6dc",
         "created": "2020-08-27T17:29:04.925Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -414,27 +300,19 @@
                 "url": "https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.971Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has used gzip for Linux OS and a modified RAR software to archive data on Windows hosts.(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--571c83a5-0a53-4f57-93bc-52356b6cc741",
         "type": "relationship",
         "created": "2021-01-22T16:22:09.309Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -447,22 +325,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--60d0c01d-e2bf-49dd-a453-f8a9c9fa6f65",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--577a7635-c4e3-42ab-8f16-d59330fdd535",
         "type": "relationship",
         "created": "2021-01-20T18:39:29.145Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -475,22 +345,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--57da83d5-2698-41b0-92b8-a92da8a4599c",
         "created": "2020-08-27T17:29:05.229Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -503,27 +365,19 @@
                 "url": "https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.971Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has has used <code>net user /dom</code> and <code>net user Administrator</code> to enumerate domain accounts including administrator accounts.(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--58207744-6e31-457e-b36e-b73d60bacd39",
         "type": "relationship",
         "created": "2021-01-22T21:09:58.872Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -536,22 +390,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--5db02c00-0d28-4831-bad9-66737bb62eca",
         "created": "2020-10-28T13:37:51.917Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -559,17 +405,11 @@
                 "url": "https://cycraft.com/download/CyCraft-Whitepaper-Chimera_V4.1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.971Z",
         "description": "(Citation: Cycraft Chimera April 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "tool--066b057c-944e-4cfc-b654-e3dfba04b926",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -578,8 +418,6 @@
         "type": "relationship",
         "id": "relationship--62a2b674-1eb3-4a9f-ac4f-2766c077eb58",
         "created": "2020-10-02T17:04:58.162Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -592,17 +430,11 @@
                 "url": "https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.972Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has used Windows admin shares to move laterally.(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -611,8 +443,6 @@
         "type": "relationship",
         "id": "relationship--6337cf38-4b52-4e3d-a63e-670e077ec52f",
         "created": "2020-08-27T21:22:39.805Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -625,17 +455,11 @@
                 "url": "https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.973Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has used PowerShell scripts to execute malicious payloads and the DSInternals PowerShell module to make use of Active Directory features.(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)\t",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -644,8 +468,6 @@
         "type": "relationship",
         "id": "relationship--64abef3c-d453-4782-b084-25f684b3f7ae",
         "created": "2020-08-27T17:29:05.237Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -658,27 +480,19 @@
                 "url": "https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.974Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has gathered the SYSTEM registry and ntds.dit files from target systems.(Citation: Cycraft Chimera April 2020) [Chimera](https://attack.mitre.org/groups/G0114) specifically has used the NtdsAudit tool to dump the password hashes of domain users via <code>msadcs.exe \"NTDS.dit\" -s \"SYSTEM\" -p RecordedTV_pdmp.txt --users-csv RecordedTV_users.csv</code> and used ntdsutil to copy the Active Directory database.(Citation: NCC Group Chimera January 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--68953f34-79e2-482a-bc9a-dbe11c2839ae",
         "type": "relationship",
         "created": "2021-01-22T16:51:10.389Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -691,22 +505,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7080d506-ac77-4519-93aa-92bc490a2756",
         "type": "relationship",
         "created": "2021-01-22T16:30:39.442Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -719,22 +525,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--0c4b4fda-9062-47da-98b9-ceae2dcf052a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--71cac5bb-2d68-44b8-ae8a-4d159c06ec61",
         "type": "relationship",
         "created": "2021-01-20T18:30:30.617Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -747,22 +545,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--74cc85f8-594d-428b-a44a-5ede87df0ad9",
         "created": "2020-08-27T17:46:41.092Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -770,27 +560,19 @@
                 "url": "https://cycraft.com/download/CyCraft-Whitepaper-Chimera_V4.1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.975Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has renamed malware to GoogleUpdate.exe and WinRAR to jucheck.exe, RecordedTV.ms, teredo.tmp, update.exe, and msadcs1.exe.(Citation: Cycraft Chimera April 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--778297c2-55a2-4f80-8216-daa25bd148a9",
         "type": "relationship",
         "created": "2021-01-22T16:26:31.470Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -803,22 +585,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7944bf15-8e56-4624-8776-bc9fc5aee249",
         "type": "relationship",
         "created": "2021-01-22T21:28:55.390Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -831,22 +605,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--79633fcf-d22a-40f0-a9be-52fc0608825f",
         "created": "2020-08-27T21:22:39.755Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -854,27 +620,19 @@
                 "url": "https://cycraft.com/download/CyCraft-Whitepaper-Chimera_V4.1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-22T03:26:38.209Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has encoded PowerShell commands.(Citation: Cycraft Chimera April 2020)\t",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--817b9a3f-dec4-4269-ab36-4788c6e11c7b",
         "type": "relationship",
         "created": "2021-01-22T21:20:21.217Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -887,22 +645,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--82c8372e-9b69-4720-a351-d6f0bda110d5",
         "type": "relationship",
         "created": "2021-01-22T16:05:32.902Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -915,22 +665,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--85278437-ae97-477e-b7cf-d2bad3fd1c6e",
         "type": "relationship",
         "created": "2021-01-22T21:22:24.980Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -943,22 +685,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--85327654-1ce1-43f6-bc8b-eb6c1c83d483",
         "type": "relationship",
         "created": "2021-01-22T20:02:03.125Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -971,22 +705,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8b769a4e-8898-4995-adc1-4334dc0ec0f7",
         "type": "relationship",
         "created": "2021-01-25T16:16:36.266Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -999,22 +725,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--90c8ecca-41d2-4a28-84fe-b76c1d969363",
         "type": "relationship",
         "created": "2021-01-20T18:23:31.638Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1027,22 +745,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--93bc896f-d2c2-4d6b-b231-fdc084aeed69",
         "type": "relationship",
         "created": "2021-01-22T14:43:59.235Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1055,22 +765,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "tool--c256da91-6dd5-40b2-beeb-ee3b22ab3d27",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--95747003-2c4a-4e4a-ad9d-fde75f04f406",
         "type": "relationship",
         "created": "2021-01-22T13:48:21.146Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1083,22 +785,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--a01bf75f-00b2-4568-a58f-565ff9bf202b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9736ff6e-3b76-47be-a523-3be6076ce5eb",
         "type": "relationship",
         "created": "2021-01-22T21:28:55.385Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1111,22 +805,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--97833e2b-ae08-49c9-bc1f-b1ab03f982d2",
         "type": "relationship",
         "created": "2021-01-22T15:52:10.629Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1139,22 +825,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--b6075259-dba3-44e9-87c7-e954f37ec0d5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--98c1c7ad-db36-459a-ae63-1b92dcb209a5",
         "type": "relationship",
         "created": "2021-01-22T14:38:35.702Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1167,22 +845,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9bbc997d-9ca8-45b9-930a-5bf7e7ec00f8",
         "type": "relationship",
         "created": "2021-01-22T18:38:21.049Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1195,22 +865,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--a33d759f-6106-4e67-9452-72b684ab209a",
         "created": "2021-03-04T22:05:10.085Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -1218,27 +880,19 @@
                 "url": "https://cycraft.com/download/CyCraft-Whitepaper-Chimera_V4.1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.976Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has performed file deletion to evade detection.(Citation: Cycraft Chimera April 2020) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a8519c68-ab22-4254-bd22-c76b71de1b9e",
         "type": "relationship",
         "created": "2021-01-20T18:13:37.568Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1251,22 +905,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a8730dc5-9f3b-449d-8b17-f5a6638aaac4",
         "type": "relationship",
         "created": "2021-01-22T16:47:23.281Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1279,22 +925,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--acb0fd33-201c-481f-857d-429c3ef67015",
         "type": "relationship",
         "created": "2021-01-25T16:05:34.220Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1307,22 +945,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b61e25f5-89cd-4c64-90e6-15b8b21a3a10",
         "type": "relationship",
         "created": "2021-01-22T20:35:21.925Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1335,22 +965,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b626d35a-2ddd-425a-97bc-84c328b57726",
         "type": "relationship",
         "created": "2021-01-22T13:48:21.308Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1363,22 +985,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--bd8a36f5-1da5-49de-b292-ac0e4a58340c",
         "created": "2020-09-22T19:21:20.276Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -1391,17 +1005,11 @@
                 "url": "https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.976Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has used legitimate credentials to login to an external VPN, Citrix, SSH, and other remote services.(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1410,8 +1018,6 @@
         "type": "relationship",
         "id": "relationship--be49ddce-5925-4fb2-8822-0b665d9aa812",
         "created": "2020-09-22T19:30:17.684Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -1424,27 +1030,19 @@
                 "url": "https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.977Z",
         "description": "(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bfc3568d-1304-43ce-be97-5fc4209d8a79",
         "type": "relationship",
         "created": "2021-01-20T18:08:15.439Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1457,22 +1055,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--b2d03cea-aec1-45ca-9744-9ee583c1e1cc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c3556085-d0ed-41dc-9ed4-a0a0c65ee104",
         "type": "relationship",
         "created": "2021-01-22T21:14:28.221Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1485,22 +1075,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c43ac3ee-be59-419e-8ea2-43c04923102f",
         "type": "relationship",
         "created": "2021-01-22T16:47:23.263Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1513,22 +1095,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c495478b-6bae-4d1e-a43e-be07fe7cdb48",
         "type": "relationship",
         "created": "2021-01-22T21:09:58.863Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1541,22 +1115,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--cb909b8f-59ba-4edd-ac04-7d9fafdcfe89",
         "created": "2021-10-12T21:53:01.112Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -1569,27 +1135,19 @@
                 "url": "https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.977Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has obtained and used tools such as [BloodHound](https://attack.mitre.org/software/S0521), [Cobalt Strike](https://attack.mitre.org/software/S0154), [Mimikatz](https://attack.mitre.org/software/S0002), and [PsExec](https://attack.mitre.org/software/S0029).(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d17fcc24-a9ae-4841-b35b-f694b3991fba",
         "type": "relationship",
         "created": "2021-01-22T13:35:37.195Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1602,22 +1160,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d275fe0c-3769-4fb1-80ee-2f8477019123",
         "type": "relationship",
         "created": "2021-01-22T13:48:21.205Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1630,22 +1180,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d45cd2ee-f0f6-417a-98c2-9a7e9f6dc480",
         "type": "relationship",
         "created": "2021-01-20T18:30:30.662Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1658,22 +1200,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ddc692ea-33e8-493d-a5e3-ce0de48da15c",
         "type": "relationship",
         "created": "2021-01-20T18:13:37.509Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1686,22 +1220,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--bc76d0a4-db11-4551-9ac4-01a469cfb161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--e40a416e-ca15-4c15-b469-20549b81e6bd",
         "created": "2020-08-27T17:29:05.225Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -1714,17 +1240,11 @@
                 "url": "https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.981Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has used WMIC to execute remote commands.(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1733,8 +1253,6 @@
         "type": "relationship",
         "id": "relationship--e87cff7f-dc75-4dfc-9c45-ec697ff4644a",
         "created": "2020-08-27T17:21:11.959Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -1742,27 +1260,19 @@
                 "url": "https://cycraft.com/download/CyCraft-Whitepaper-Chimera_V4.1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.982Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has used RDP to access targeted systems.(Citation: Cycraft Chimera April 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e925337d-e878-48ad-a53c-3a3f4656849e",
         "type": "relationship",
         "created": "2021-01-22T19:53:33.345Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1775,22 +1285,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--dd43c543-bb85-4a6f-aa6e-160d90d06a49",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f01bad7e-e96c-43fe-8ac9-63c4863e8c76",
         "type": "relationship",
         "created": "2021-01-22T20:57:02.294Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NCC Group Chimera January 2021",
@@ -1803,22 +1305,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--5e4a2073-9643-44cb-a0b5-e7f4048446c7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--f7120568-70db-4111-985c-9970775206c1",
         "created": "2020-11-06T18:40:38.498Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -1831,17 +1325,11 @@
                 "url": "https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.982Z",
         "description": "(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1850,8 +1338,6 @@
         "type": "relationship",
         "id": "relationship--f94c1c97-ec5d-4703-93c1-91de05761d2a",
         "created": "2020-08-27T17:29:05.205Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -1859,24 +1345,16 @@
                 "url": "https://cycraft.com/download/CyCraft-Whitepaper-Chimera_V4.1.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T18:11:56.983Z",
         "description": "[Chimera](https://attack.mitre.org/groups/G0114) has remotely copied tools and malware onto targeted systems.(Citation: Cycraft Chimera April 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -1892,19 +1370,11 @@
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "relationship_type": "uses",
         "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "Cycraft Chimera April 2020",
@@ -1920,14 +1390,8 @@
         "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
         "relationship_type": "uses",
         "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

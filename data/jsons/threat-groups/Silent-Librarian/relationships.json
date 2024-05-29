@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1a2119a2-6a39-4062-b90c-bffd15b259ec",
         "type": "relationship",
         "created": "2021-02-04T14:12:26.131Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Phish Labs Silent Librarian",
@@ -22,22 +20,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
         "target_ref": "attack-pattern--19401639-28d0-4c3c-adcc-bc2ba22f6421",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--33201f98-6367-4f36-a581-98fd4d1203fa",
         "type": "relationship",
         "created": "2021-02-03T16:59:34.743Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "DOJ Iran Indictments March 2018",
@@ -60,22 +50,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
         "target_ref": "attack-pattern--16cdd21f-da65-4e4f-bc04-dd7d198c7b26",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--406fbbc1-408a-4f59-8f0c-0f670eb60879",
         "type": "relationship",
         "created": "2021-02-03T18:34:46.539Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "DOJ Iran Indictments March 2018",
@@ -88,22 +70,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
         "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--44866cfd-7d8f-45f6-906b-5b4992aa69e0",
         "type": "relationship",
         "created": "2021-02-03T16:59:34.737Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "DOJ Iran Indictments March 2018",
@@ -141,22 +115,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
         "target_ref": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--53608455-3b90-45b1-9006-da343efa52d4",
         "type": "relationship",
         "created": "2021-02-03T18:26:21.896Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "DOJ Iran Indictments March 2018",
@@ -169,22 +135,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
         "target_ref": "attack-pattern--76551c52-b111-4884-bc47-ff3e728f0156",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--67f029d5-c44b-446b-9efe-0e0e0d85192a",
         "type": "relationship",
         "created": "2021-02-03T18:34:46.363Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "DOJ Iran Indictments March 2018",
@@ -197,22 +155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
         "target_ref": "attack-pattern--7d77a07d-02fe-4e88-8bd9-e9c008c01bf0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--83219112-6e5b-43ea-a7a7-78213f28397f",
         "type": "relationship",
         "created": "2021-02-03T18:40:49.321Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "DOJ Iran Indictments March 2018",
@@ -225,22 +175,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
         "target_ref": "attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--87661f05-f448-49be-afa8-d8198a1c0092",
         "type": "relationship",
         "created": "2021-02-03T18:26:21.905Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "DOJ Iran Indictments March 2018",
@@ -253,22 +195,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
         "target_ref": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9038cd4b-182b-469f-ac45-83dedf5110c9",
         "type": "relationship",
         "created": "2021-04-20T03:06:40.236Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Secureworks COBALT DICKENS September 2019",
@@ -291,22 +225,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
         "target_ref": "attack-pattern--84ae8255-b4f4-4237-b5c5-e717405a9701",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--93edbfc7-c1be-4c2c-aa2c-9b15f53f6528",
         "type": "relationship",
         "created": "2021-02-03T18:19:48.693Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "DOJ Iran Indictments March 2018",
@@ -319,22 +245,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
         "target_ref": "attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b85fdb75-ec29-4bc9-921d-b11ebd8528dc",
         "type": "relationship",
         "created": "2021-02-03T18:13:28.308Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "DOJ Iran Indictments March 2018",
@@ -372,22 +290,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
         "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d970ba14-4c96-4f98-a1e1-4417f52b76f3",
         "type": "relationship",
         "created": "2021-02-04T14:30:37.973Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Proofpoint TA407 September 2019",
@@ -405,22 +315,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e85549b5-77c8-426a-b7ea-fec30b05973f",
         "type": "relationship",
         "created": "2021-02-03T18:13:28.321Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "DOJ Iran Indictments March 2018",
@@ -433,14 +335,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     }
 ]

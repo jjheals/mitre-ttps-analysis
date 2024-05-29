@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--0942dc11-0fcd-480a-ae4d-d571ba96331b",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SecureWorks BRONZE UNION June 2017",
@@ -17,27 +15,19 @@
                 "url": "https://web.archive.org/web/20210104144857/https://shared-public-reports.s3-eu-west-1.amazonaws.com/APT27+turns+to+ransomware.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T20:05:38.076Z",
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has used CVE-2014-6324 and CVE-2017-0213 to escalate privileges.(Citation: SecureWorks BRONZE UNION June 2017)(Citation: Profero APT27 December 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0b36c1d0-d016-4c12-bf61-6dc14b29c7e0",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.062Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -50,22 +40,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--c3888c54-775d-4b2f-b759-75a2ececcbfd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--11e07a59-502c-44e9-9a70-03eff1433c33",
         "created": "2022-04-15T14:02:03.777Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Trend Micro Iron Tiger April 2021",
@@ -73,27 +55,19 @@
                 "description": "Lunghi, D. and Lu, K. (2021, April 9). Iron Tiger APT Updates Toolkit With Evolved SysUpdate Malware. Retrieved November 12, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has exploited the Microsoft SharePoint vulnerability CVE-2019-0604 and CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, and CVE-2021-27065 in Exchange Server.(Citation: Trend Micro Iron Tiger April 2021)",
         "modified": "2022-04-15T14:02:03.777Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--13d8aec7-3e49-41f8-b57c-475cdc0d9632",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.061Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -111,22 +85,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--17594ffb-af22-4cdc-8849-ca31d2019a9e",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.061Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -139,22 +105,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--f3d95a1f-bba2-44ce-9af7-37866cd63fd0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--17af5c1a-7912-40af-b7b9-f68f0a15977d",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Securelist LuckyMouse June 2018",
@@ -167,27 +125,19 @@
                 "url": "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-29T15:37:40.828Z",
         "description": "A [Threat Group-3390](https://attack.mitre.org/groups/G0027) tool can spawn `svchost.exe` and inject the payload into that process.(Citation: Nccgroup Emissary Panda May 2018)(Citation: Securelist LuckyMouse June 2018)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--b200542e-e877-4395-875b-cf1a44537ca4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1b45f3b5-b7a4-4424-a8ff-1b1f1c1a55d9",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.062Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/bronze-union",
@@ -200,22 +150,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--1b9b061b-5ead-45f3-b4cc-30d8427b0649",
         "created": "2019-07-09T17:54:21.051Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Trend Micro Iron Tiger April 2021",
@@ -223,27 +165,19 @@
                 "description": "Lunghi, D. and Lu, K. (2021, April 9). Iron Tiger APT Updates Toolkit With Evolved SysUpdate Malware. Retrieved November 12, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has exploited CVE-2018-0798 in Equation Editor.(Citation: Trend Micro Iron Tiger April 2021)",
         "modified": "2022-04-15T13:58:15.944Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--21ef7a27-1019-4ced-8a09-63351bbbc150",
         "created": "2022-04-11T16:08:28.243Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Trend Micro DRBControl February 2020",
@@ -251,27 +185,19 @@
                 "description": "Lunghi, D. et al. (2020, February). Uncovering DRBControl. Retrieved November 12, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has exfiltrated stolen data to Dropbox.(Citation: Trend Micro DRBControl February 2020)",
         "modified": "2022-04-11T16:08:28.243Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--21f2fd40-073c-4c25-bf4e-19339ac1f99d",
         "type": "relationship",
         "created": "2020-03-20T00:22:39.377Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -289,22 +215,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--26eafe5d-0ffc-48cf-ba1d-3681bdcbfaa3",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/bronze-union",
@@ -322,22 +240,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--2a93ea80-d0f6-4b81-887d-8911f7573245",
         "created": "2017-05-31T21:33:27.061Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SecureWorks BRONZE UNION June 2017",
@@ -365,27 +275,19 @@
                 "url": "https://securelist.com/luckymouse-hits-national-data-center/86083/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-29T14:39:17.535Z",
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has used DLL side-loading, including by using legitimate Kaspersky antivirus variants as well as `rc.exe`, a legitimate Microsoft Resource Compiler.(Citation: Dell TG-3390)(Citation: SecureWorks BRONZE UNION June 2017)(Citation: Securelist LuckyMouse June 2018)(Citation: Unit42 Emissary Panda May 2019)(Citation: Lunghi Iron Tiger Linux)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--2c036695-32e2-458f-a0f1-25cd2e8b9fbd",
         "created": "2022-04-11T16:32:10.058Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Trend Micro DRBControl February 2020",
@@ -393,27 +295,19 @@
                 "description": "Lunghi, D. et al. (2020, February). Uncovering DRBControl. Retrieved November 12, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) obtained a KeePass database from a compromised host.(Citation: Trend Micro DRBControl February 2020)",
         "modified": "2022-04-11T16:32:10.058Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--315f51f0-6b03-4c1e-bfb2-84740afb8e21",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2e45dc12-f493-42ea-829e-011ba786bef1",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/bronze-union",
@@ -426,22 +320,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--30b93042-d56e-4ecf-82d8-8b287bd9c00c",
         "type": "relationship",
         "created": "2021-11-12T20:43:06.067Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro DRBControl February 2020",
@@ -454,22 +340,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--30ba627f-f567-444c-9c48-39db264ca78b",
         "type": "relationship",
         "created": "2021-11-22T19:01:22.707Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro DRBControl February 2020",
@@ -482,22 +360,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3559da63-5706-4e5a-b130-89858c2c0f44",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
@@ -510,22 +380,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--36b9f594-9a27-4281-a18e-9a5e7df70ad9",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.061Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -543,22 +405,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--1ecfdab8-7d59-4c98-95d4-dc41970f57fc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3b6fc69c-9759-465a-b09c-a6161e4e2f56",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.063Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -571,22 +425,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "tool--b07c2c47-fefb-4d7c-a69e-6a3296171f54",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3d6e0a95-3265-4a0c-aee1-feff2807489b",
         "type": "relationship",
         "created": "2021-11-12T20:43:05.878Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro DRBControl February 2020",
@@ -599,22 +445,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--412b7fbf-bc21-4373-9f2c-5f0a26482536",
         "created": "2017-05-31T21:33:27.062Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SecureWorks BRONZE UNION June 2017",
@@ -642,17 +480,11 @@
                 "url": "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T20:05:38.079Z",
         "description": "(Citation: Dell TG-3390)(Citation: SecureWorks BRONZE UNION June 2017)(Citation: Nccgroup Emissary Panda May 2018)(Citation: Trend Micro DRBControl February 2020)(Citation: Profero APT27 December 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -661,8 +493,6 @@
         "type": "relationship",
         "id": "relationship--4a1bfb6c-f110-4785-9dff-4c8e433bf04d",
         "created": "2017-05-31T21:33:27.063Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -675,27 +505,19 @@
                 "url": "https://web.archive.org/web/20210104144857/https://shared-public-reports.s3-eu-west-1.amazonaws.com/APT27+turns+to+ransomware.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T20:05:38.080Z",
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has used a modified version of ASPXSpy called ASPXTool.(Citation: Dell TG-3390)(Citation: Profero APT27 December 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "malware--56f46b17-8cfa-46c0-b501-dd52fef394e2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4b32f8e0-ba08-45b5-bc9a-b394d99a5aba",
         "type": "relationship",
         "created": "2021-11-22T17:55:56.788Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro DRBControl February 2020",
@@ -708,22 +530,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--4ce5e752-97d6-4803-a49c-0f905729a133",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Talent-Jump Clambling February 2020",
@@ -751,27 +565,19 @@
                 "url": "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T20:05:38.081Z",
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has used a modified version of Mimikatz called Wrapikatz.(Citation: SecureWorks BRONZE UNION June 2017)(Citation: Nccgroup Emissary Panda May 2018)(Citation: Trend Micro DRBControl February 2020)(Citation: Talent-Jump Clambling February 2020)(Citation: Profero APT27 December 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--565f6cdf-e29b-430d-8b42-e0b0b93fa994",
         "type": "relationship",
         "created": "2019-07-09T17:54:21.445Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Falcone, R. and Lancaster, T. (2019, May 28). Emissary Panda Attacks Middle East Government Sharepoint Servers. Retrieved July 9, 2019.",
@@ -784,22 +590,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--590756ce-b948-4d62-9608-4fadf58681f4",
         "created": "2022-04-11T16:25:00.049Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Trend Micro DRBControl February 2020",
@@ -807,27 +605,19 @@
                 "description": "Lunghi, D. et al. (2020, February). Uncovering DRBControl. Retrieved November 12, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has used `whoami` to collect system user information.(Citation: Trend Micro DRBControl February 2020)",
         "modified": "2022-04-11T16:25:00.049Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--5beed1ca-321a-47b7-a16c-02905ad96364",
         "created": "2022-04-11T16:09:31.017Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Trend Micro DRBControl February 2020",
@@ -835,27 +625,19 @@
                 "description": "Lunghi, D. et al. (2020, February). Uncovering DRBControl. Retrieved November 12, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has hosted malicious payloads on Dropbox.(Citation: Trend Micro DRBControl February 2020)",
         "modified": "2022-04-11T16:09:31.017Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5d1d76e6-ecd8-44e7-bc90-7701788dc28e",
         "type": "relationship",
         "created": "2019-09-24T13:37:11.254Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Secureworks BRONZEUNION Feb 2019",
@@ -868,22 +650,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--614c18a5-2cee-48ac-898d-e1b85a91e44d",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.063Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro DRBControl February 2020",
@@ -896,22 +670,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6468546f-721e-4df8-90a3-67b39a7b2834",
         "type": "relationship",
         "created": "2019-07-09T17:54:21.010Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Falcone, R. and Lancaster, T. (2019, May 28). Emissary Panda Attacks Middle East Government Sharepoint Servers. Retrieved July 9, 2019.",
@@ -924,22 +690,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--64d59c09-1ecd-4711-b2b8-e46d4ffc7ede",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Lunghi Iron Tiger Linux",
@@ -952,17 +710,11 @@
                 "url": "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-29T14:47:41.051Z",
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027)'s malware can add a Registry key to `Software\\Microsoft\\Windows\\CurrentVersion\\Run` for persistence.(Citation: Nccgroup Emissary Panda May 2018)(Citation: Lunghi Iron Tiger Linux)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -971,8 +723,6 @@
         "type": "relationship",
         "id": "relationship--658fcd28-934d-4077-b93e-89af9512de5f",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Unit42 Emissary Panda May 2019",
@@ -990,17 +740,11 @@
                 "url": "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-10T22:33:37.243Z",
         "description": "A [Threat Group-3390](https://attack.mitre.org/groups/G0027) tool can encrypt payloads using XOR. [Threat Group-3390](https://attack.mitre.org/groups/G0027) malware is also obfuscated using Metasploit\u2019s shikata_ga_nai encoder as well as compressed with LZNT1 compression.(Citation: Nccgroup Emissary Panda May 2018)(Citation: Securelist LuckyMouse June 2018)(Citation: Unit42 Emissary Panda May 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1009,8 +753,6 @@
         "type": "relationship",
         "id": "relationship--68d41471-49c7-4210-8d9b-2958e95feb1a",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Lunghi Iron Tiger Linux",
@@ -1023,17 +765,11 @@
                 "url": "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-29T14:50:35.543Z",
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027)'s malware can create a new service, sometimes naming it after the config information, to gain persistence.(Citation: Nccgroup Emissary Panda May 2018)(Citation: Lunghi Iron Tiger Linux)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1042,8 +778,6 @@
         "type": "relationship",
         "id": "relationship--690c6d2a-3e02-4eb9-b835-079c50c64adf",
         "created": "2021-11-29T15:27:11.818Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Profero APT27 December 2020",
@@ -1051,27 +785,19 @@
                 "url": "https://web.archive.org/web/20210104144857/https://shared-public-reports.s3-eu-west-1.amazonaws.com/APT27+turns+to+ransomware.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T20:05:38.082Z",
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has compromised third party service providers to gain access to victim's environments.(Citation: Profero APT27 December 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--69682171-e717-4af7-a24a-06a39f381641",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -1084,22 +810,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--6a1693a7-1e85-48b6-9097-11339a987099",
         "created": "2017-05-31T21:33:27.062Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -1112,27 +830,19 @@
                 "description": "Lunghi, D. et al. (2020, February). Uncovering DRBControl. Retrieved November 12, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has downloaded additional malware and tools, including through the use of `certutil`, onto a compromised host .(Citation: Dell TG-3390)(Citation: Trend Micro DRBControl February 2020)",
         "modified": "2022-04-15T13:27:52.054Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6b5c6fc2-615a-46fc-80a4-9ab332159722",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.061Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
@@ -1155,22 +865,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--6e6828ca-7567-4302-8ed7-fa5821dc5bbc",
         "created": "2017-12-14T16:46:06.044Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "SecureWorks BRONZE UNION June 2017",
@@ -1183,27 +885,19 @@
                 "description": "Lunghi, D. et al. (2020, February). Uncovering DRBControl. Retrieved November 12, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has used PowerShell for execution.(Citation: SecureWorks BRONZE UNION June 2017)(Citation: Trend Micro DRBControl February 2020)",
         "modified": "2022-04-11T14:51:58.873Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6f884bda-0c39-4d3b-97e3-29ae9099fa45",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/bronze-union",
@@ -1216,22 +910,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--4eb28bed-d11a-4641-9863-c2ac017d910a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--71daf1fe-a979-4cbc-bb0d-4e2d6c79274a",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.063Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -1259,22 +945,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--75c3b5f6-a0ca-4afc-baad-ef19ed4317b3",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.063Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -1302,22 +980,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--78f237da-f58b-4849-b2ee-cf1f3f7a1a42",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.062Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -1330,22 +1000,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7acc1226-d784-448e-8aeb-7f58e343c4da",
         "type": "relationship",
         "created": "2021-04-20T02:37:12.377Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Gallagher 2015",
@@ -1358,22 +1020,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--7b050e9f-ab8e-4860-aae9-4a37e18efbe2",
         "created": "2021-10-12T19:19:57.932Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -1386,27 +1040,19 @@
                 "description": "Falcone, R. and Lancaster, T. (2019, May 28). Emissary Panda Attacks Middle East Government Sharepoint Servers. Retrieved July 9, 2019."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has obtained and used tools such as [Impacket](https://attack.mitre.org/software/S0357), [pwdump](https://attack.mitre.org/software/S0006), [Mimikatz](https://attack.mitre.org/software/S0002), [gsecdump](https://attack.mitre.org/software/S0008), [NBTscan](https://attack.mitre.org/software/S0590), and [Windows Credential Editor](https://attack.mitre.org/software/S0005).(Citation: Unit42 Emissary Panda May 2019)(Citation: Dell TG-3390)",
         "modified": "2022-04-11T14:10:31.857Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7b6eac00-8a13-42e3-b533-a40314eada68",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
@@ -1419,21 +1065,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--8074dd43-75b7-432f-9e33-af3136d90c00",
         "created": "2023-03-29T14:36:35.026Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Lunghi Iron Tiger Linux",
@@ -1441,28 +1080,19 @@
                 "url": "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-29T14:36:35.026Z",
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has registered domains for C2.(Citation: Lunghi Iron Tiger Linux)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--83075ee3-b372-48a4-a54c-ca54afdd8c0b",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -1480,22 +1110,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--88c2feed-474e-427c-a0ed-6a4e1576b145",
         "type": "relationship",
         "created": "2021-11-22T19:01:22.714Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro DRBControl February 2020",
@@ -1508,22 +1130,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8b38c61f-d128-4496-a15f-c91d121b39f6",
         "type": "relationship",
         "created": "2021-11-22T19:01:22.755Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro DRBControl February 2020",
@@ -1536,22 +1150,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9191026d-2410-4e6d-98fe-26786a5b8bf1",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/luckymouse-hits-national-data-center/86083/",
@@ -1564,22 +1170,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--a036174e-7bd3-4604-ba4c-c26cceb5fe67",
         "created": "2021-11-29T19:46:09.913Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Trend Micro Iron Tiger April 2021",
@@ -1587,27 +1185,19 @@
                 "description": "Lunghi, D. and Lu, K. (2021, April 9). Iron Tiger APT Updates Toolkit With Evolved SysUpdate Malware. Retrieved November 12, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Trend Micro Iron Tiger April 2021)",
         "modified": "2022-04-11T14:21:09.142Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "malware--c009560a-f097-45a3-8f9f-78ec1440a783",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a05c887d-9f4b-490c-843e-e6f98641fe77",
         "type": "relationship",
         "created": "2019-07-09T17:54:21.427Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Falcone, R. and Lancaster, T. (2019, May 28). Emissary Panda Attacks Middle East Government Sharepoint Servers. Retrieved July 9, 2019.",
@@ -1640,22 +1230,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "malware--5e814485-012d-423d-b769-026bfed0f451",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a7b07cff-8743-4fe9-9999-8ad32995fa95",
         "type": "relationship",
         "created": "2019-09-24T13:37:11.429Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Secureworks BRONZEUNION Feb 2019",
@@ -1668,22 +1250,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "malware--cfc75b0d-e579-40ae-ad07-a1ce00d49a6c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a829622f-60cf-4e24-afce-fb89270e95cb",
         "type": "relationship",
         "created": "2020-03-20T00:22:39.402Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -1701,22 +1275,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ab6a19e4-ce00-46cd-ae83-0798471e4a4a",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.062Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -1734,22 +1300,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--aec0a948-428f-4327-b466-a0472da12928",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.062Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/bronze-union",
@@ -1762,22 +1320,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--b143e00a-062e-424a-83c2-27559ff2cdf1",
         "created": "2021-11-23T15:39:25.227Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Profero APT27 December 2020",
@@ -1795,27 +1345,19 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T20:05:38.085Z",
         "description": "(Citation: Trend Micro Iron Tiger April 2021)(Citation: Trend Micro DRBControl February 2020)(Citation: Profero APT27 December 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "malware--03acae53-9b98-46f6-b204-16b930839055",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b2dbbb46-9659-4277-8753-c469c4bfe409",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/bronze-union",
@@ -1828,22 +1370,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b842af96-8422-4b23-bd17-35d123c5a9b5",
         "type": "relationship",
         "created": "2021-11-29T21:18:40.003Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro Iron Tiger April 2021",
@@ -1856,22 +1390,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b9165c4a-aac7-479d-8ad9-22c25e031a76",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
@@ -1884,22 +1410,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b990e235-dcf4-48c7-800d-b8a10a62eda4",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/bronze-union",
@@ -1912,22 +1430,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c354d751-4688-49c5-9f9a-0d2bc705f645",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/bronze-union",
@@ -1940,22 +1450,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c8c5b766-a719-43bd-988a-cb00beedbba3",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.062Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/bronze-union",
@@ -1968,22 +1470,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--41868330-6ee2-4d0f-b743-9f2294c3c9b6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--cbaf6578-b0f6-4d48-86c1-bfe5089b1b1f",
         "created": "2022-04-11T16:14:35.995Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Trend Micro Iron Tiger April 2021",
@@ -1996,17 +1490,11 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-29T16:18:17.581Z",
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has packed malware and tools, including using VMProtect.(Citation: Trend Micro DRBControl February 2020)(Citation: Trend Micro Iron Tiger April 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2015,7 +1503,6 @@
         "type": "relationship",
         "id": "relationship--d14513b4-9c60-49cd-88ee-0cb2ffde394a",
         "created": "2023-03-29T15:30:38.613Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Lunghi Iron Tiger Linux",
@@ -2023,18 +1510,11 @@
                 "url": "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-29T15:30:38.613Z",
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has obtained stolen valid certificates, including from VMProtect and the Chinese instant messaging application Youdu, for their operations.(Citation: Lunghi Iron Tiger Linux)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--e7cbc1de-1f79-48ee-abfd-da1241c65a15",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2043,8 +1523,6 @@
         "type": "relationship",
         "id": "relationship--d226d631-b611-450e-b904-aad115bbe77a",
         "created": "2021-11-23T15:36:29.744Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Profero APT27 December 2020",
@@ -2062,27 +1540,19 @@
                 "url": "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-26T20:05:38.087Z",
         "description": "(Citation: Trend Micro DRBControl February 2020)(Citation: Profero APT27 December 2020)(Citation: Trend Micro Iron Tiger April 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "malware--6e95feb1-78ee-48d3-b421-4d76663b5c49",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d4c4e420-4e1a-420d-9d6a-08fe6d322217",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
@@ -2095,22 +1565,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--db191b70-063d-433b-a462-9f7611a5a0e2",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/luckymouse-hits-national-data-center/86083/",
@@ -2123,22 +1585,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--dc7cb17d-c3d3-4c3c-b79e-499cede49baa",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/bronze-union",
@@ -2151,22 +1605,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--a750a9f6-0bde-4bb3-9aae-1e2786e9780c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--deb55b94-e38c-4941-9ebd-8cc3343c3eae",
         "type": "relationship",
         "created": "2019-07-09T17:54:21.414Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Falcone, R. and Lancaster, T. (2019, May 28). Emissary Panda Attacks Middle East Government Sharepoint Servers. Retrieved July 9, 2019.",
@@ -2179,22 +1625,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "tool--9de2308e-7bed-43a3-8e58-f194b3586700",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--df8350d6-a7a7-421d-a9e8-64d7e0cc0653",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/bronze-union",
@@ -2207,22 +1645,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--60d0c01d-e2bf-49dd-a453-f8a9c9fa6f65",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e4e2d35b-83fb-4515-b531-576acb02e1a5",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
@@ -2235,22 +1665,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--e7740e58-d87c-44c4-907c-f66b88851ffc",
         "created": "2021-03-17T16:21:47.087Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -2263,27 +1685,19 @@
                 "description": "Lunghi, D. et al. (2020, February). Uncovering DRBControl. Retrieved November 12, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Dell TG-3390)(Citation: Trend Micro DRBControl February 2020)",
         "modified": "2022-04-11T16:21:36.766Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "tool--b63970b7-ddfb-4aee-97b1-80d335e033a8",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e8193b28-b28a-4ab7-8390-8a5bd4d851b5",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/bronze-union",
@@ -2301,22 +1715,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ec9574b7-95ec-4d84-b468-164e918bbffd",
         "type": "relationship",
         "created": "2021-11-29T20:41:54.076Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trend Micro Iron Tiger April 2021",
@@ -2329,22 +1735,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "malware--a545456a-f9a7-47ad-9ea6-8b017def38d1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f2e028ed-49e0-41ec-8400-8f8dc1ae6435",
         "type": "relationship",
         "created": "2021-04-20T19:17:12.825Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -2357,22 +1755,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--506f6f49-7045-4156-9007-7474cb44ad6d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--f88fcb22-698b-4901-b894-a597192c2ba3",
         "created": "2018-10-17T00:14:20.652Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Trend Micro Iron Tiger April 2021",
@@ -2385,27 +1775,19 @@
                 "description": "Pantazopoulos, N., Henry T. (2018, May 18). Emissary Panda \u2013 A potential new malicious tool. Retrieved June 25, 2018."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "A [Threat Group-3390](https://attack.mitre.org/groups/G0027) tool has created new Registry keys under `HKEY_CURRENT_USER\\Software\\Classes\\` and `HKLM\\SYSTEM\\CurrentControlSet\\services`.(Citation: Nccgroup Emissary Panda May 2018)(Citation: Trend Micro Iron Tiger April 2021)",
         "modified": "2022-04-11T18:07:31.624Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f9ec1b10-f819-42d8-a4b4-ecf015999cb6",
         "type": "relationship",
         "created": "2019-07-09T17:54:21.025Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Falcone, R. and Lancaster, T. (2019, May 28). Emissary Panda Attacks Middle East Government Sharepoint Servers. Retrieved July 9, 2019.",
@@ -2418,22 +1800,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fa8d15db-498b-45f5-8cc1-bf4cf70e2e62",
         "type": "relationship",
         "created": "2020-03-17T15:07:32.378Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.secureworks.com/research/bronze-union",
@@ -2446,22 +1820,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--359b00ad-9425-420b-bba5-6de8d600cbc0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fb6a8268-5a73-4ac0-8f61-439f472063d6",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.063Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -2474,22 +1840,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "tool--242f3da3-4425-4d11-8f5c-b842886da966",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--fe8a320f-e5e5-4503-8c3a-5c21b628a61d",
         "created": "2017-12-14T16:46:06.044Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "SecureWorks BRONZE UNION June 2017",
@@ -2497,27 +1855,19 @@
                 "description": "Counter Threat Unit Research Team. (2017, June 27). BRONZE UNION Cyberespionage Persists Despite Disclosures. Retrieved July 13, 2017."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has used `net use` and `netstat` to conduct internal discovery of systems. The group has also used `quser.exe` to identify existing RDP sessions on a victim.(Citation: SecureWorks BRONZE UNION June 2017)",
         "modified": "2022-04-11T16:27:36.517Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b1e7f787-2d43-442b-8bd1-4fa064f089b2",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.061Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Dell TG-3390",
@@ -2530,26 +1880,18 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "target_ref": "attack-pattern--6aabc5ec-eae6-422c-8311-38d45ee9838a",
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has deployed backup web shells and obtained OWA account credentials during intrusions that it subsequently used to attempt to regain access when evicted from a victim network.",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "created": "2017-12-14T16:46:06.044Z",
         "id": "relationship--59a6700b-3ae5-4039-a07c-cbbf6eb7a78e",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "modified": "2020-03-31T14:49:39.188Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "SecureWorks BRONZE UNION June 2017",
@@ -2558,26 +1900,18 @@
             }
         ],
         "relationship_type": "uses",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "target_ref": "attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4",
         "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has used RAR to compress, encrypt, and password-protect files prior to exfiltration.",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "created": "2017-05-31T21:33:27.061Z",
         "id": "relationship--a73f9ed3-7f51-4709-a63f-f5ef59aa25cf",
         "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
         "modified": "2020-03-31T14:49:39.188Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "SecureWorks BRONZE UNION June 2017",
@@ -2586,14 +1920,8 @@
             }
         ],
         "relationship_type": "uses",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

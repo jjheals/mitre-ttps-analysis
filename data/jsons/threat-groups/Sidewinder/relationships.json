@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0841fe7b-657e-47e9-b4c9-ec812043a41c",
         "type": "relationship",
         "created": "2021-01-27T16:57:05.393Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -22,22 +20,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0cf2ae01-9d19-46d7-949e-e6d7a5639a95",
         "type": "relationship",
         "created": "2021-01-29T20:02:21.777Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Rewterz Sidewinder APT April 2020",
@@ -50,22 +40,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0ecbbfa3-6b81-4cf7-9033-373ebbc2832f",
         "type": "relationship",
         "created": "2021-01-29T19:16:42.231Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Rewterz Sidewinder APT April 2020",
@@ -83,22 +65,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--107dc621-6f5d-4b59-9873-54355e55312d",
         "type": "relationship",
         "created": "2021-01-27T16:43:48.377Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -111,22 +85,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--10cf6efc-6415-4a80-834a-565057e76474",
         "type": "relationship",
         "created": "2021-01-28T15:40:53.412Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -139,22 +105,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--118e5be5-a143-4e2f-b80f-20b580f14210",
         "type": "relationship",
         "created": "2021-01-27T16:43:48.402Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -172,22 +130,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1bf421b0-1faf-403d-a8c6-3f5eb90d7c9d",
         "type": "relationship",
         "created": "2021-01-28T15:47:55.487Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -200,22 +150,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1e9f6719-24c5-4c8b-a832-506f46bbadb6",
         "type": "relationship",
         "created": "2021-01-28T15:40:53.409Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -228,22 +170,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--326d0ed6-35a6-452e-a8a2-ab2a7e034faa",
         "type": "relationship",
         "created": "2021-01-27T20:35:33.518Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -261,22 +195,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--32e947a4-cbd3-45a8-ae74-7e51edf84d81",
         "created": "2021-01-27T20:56:45.177Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Cyble Sidewinder September 2020",
@@ -294,27 +220,19 @@
                 "url": "https://www.rewterz.com/threats/sidewinder-apt-group-campaign-analysis"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-11T00:07:47.684Z",
         "description": "[Sidewinder](https://attack.mitre.org/groups/G0121) has used base64 encoding and ECDH-P256 encryption for payloads.(Citation: ATT Sidewinder January 2021)(Citation: Rewterz Sidewinder APT April 2020)(Citation: Cyble Sidewinder September 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3d2736f6-5ce8-48ba-8be0-e8d8ab0a3a9c",
         "type": "relationship",
         "created": "2021-01-28T15:58:09.562Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -327,22 +245,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--774a3188-6ba9-4dc4-879d-d54ee48a5ce9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--400ed882-80e9-47f7-85a6-11996fbbb635",
         "type": "relationship",
         "created": "2021-01-27T16:57:05.361Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -360,22 +270,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5d43c968-d9d2-4687-949e-23888376f10c",
         "type": "relationship",
         "created": "2021-01-29T19:04:19.978Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Rewterz Sidewinder APT April 2020",
@@ -398,22 +300,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--60be159a-b083-48c2-bd38-4abb873d1f30",
         "type": "relationship",
         "created": "2021-01-28T15:58:09.536Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -436,22 +330,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--67583965-9e89-49cd-bdac-9fd69d7857ae",
         "type": "relationship",
         "created": "2021-01-29T19:58:04.356Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Rewterz Sidewinder APT April 2020",
@@ -469,22 +355,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6cce15df-4e0c-4eac-b597-5a301d450546",
         "type": "relationship",
         "created": "2021-01-28T15:47:55.496Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -497,22 +375,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9eb64003-16d8-4b2d-b5e5-206130e5dd17",
         "type": "relationship",
         "created": "2021-01-28T15:42:43.446Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -525,22 +395,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a28e6ec8-0519-40e7-b252-90205dfbe5d9",
         "type": "relationship",
         "created": "2021-01-27T16:43:48.380Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -563,21 +425,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--8982a661-d84c-48c0-b4ec-1db29c6cf3bc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--a4e89138-7df9-4be1-9d45-4089f1744ad0",
         "created": "2023-03-22T05:33:17.101Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -590,28 +445,19 @@
                 "url": "https://www.rewterz.com/threats/sidewinder-apt-group-campaign-analysis"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-22T05:33:17.101Z",
         "description": "[Sidewinder](https://attack.mitre.org/groups/G0121) has used base64 encoding for scripts.(Citation: ATT Sidewinder January 2021)(Citation: Rewterz Sidewinder APT April 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a55c163c-3eb8-47a2-8ad1-3a667b4ac129",
         "type": "relationship",
         "created": "2021-01-27T20:35:33.506Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -624,22 +470,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ab058a49-a8fc-403d-ae97-9137625c82d7",
         "type": "relationship",
         "created": "2021-01-28T15:55:35.335Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -657,22 +495,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--afbd6b8a-8636-401c-b04d-e0aa584fa6fa",
         "type": "relationship",
         "created": "2021-01-27T20:35:33.496Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -685,22 +515,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b30cc0be-74f0-42a6-85ef-594d6d184bae",
         "type": "relationship",
         "created": "2021-01-28T15:35:54.458Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -718,22 +540,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b5766b7d-0a7d-4bbc-8a44-211825de80db",
         "type": "relationship",
         "created": "2021-01-28T18:45:49.800Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -746,22 +560,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cbfb1a32-4582-4ecb-8a0e-4c76caaa5063",
         "type": "relationship",
         "created": "2021-01-27T16:43:48.406Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -774,22 +580,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ccb80607-a8bf-4e6b-a3e3-1755cd317552",
         "type": "relationship",
         "created": "2021-04-08T15:24:43.698Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Rewterz Sidewinder COVID-19 June 2020",
@@ -802,22 +600,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d2ea2645-1940-4776-a874-09309f75636a",
         "type": "relationship",
         "created": "2021-04-07T15:19:28.661Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -845,22 +635,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--eab4c1aa-d84d-4111-ab87-710345bdd31d",
         "type": "relationship",
         "created": "2021-01-27T20:39:52.200Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -873,22 +655,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "tool--c8655260-9f4b-44e3-85e1-6538a5f6e4f4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f1ef0014-9d3d-407a-aa86-8aab6c92edda",
         "type": "relationship",
         "created": "2021-01-29T19:04:19.989Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -916,22 +690,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fc43ba07-ffa2-4617-95ac-7ff6462eccd0",
         "type": "relationship",
         "created": "2021-01-28T15:35:54.447Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -944,22 +710,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ff49e4df-4693-4df5-adf8-15e765963155",
         "type": "relationship",
         "created": "2021-01-27T20:39:52.147Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ATT Sidewinder January 2021",
@@ -972,14 +730,8 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
         "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     }
 ]

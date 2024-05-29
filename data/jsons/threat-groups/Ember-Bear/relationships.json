@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--030638ac-8aee-4c3d-9f2a-c6037ab2f5b9",
         "created": "2022-06-09T15:14:03.255Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -12,27 +10,19 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has sent spearphishing emails containing malicious attachments in the form of PDFs, Word documents, JavaScript files, and Control Panel File (CPL) executables.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 ) ",
         "modified": "2022-06-09T15:14:03.255Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--176faf41-d8c0-4de5-a31e-010f3bad13f3",
         "created": "2022-06-09T18:44:31.299Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -40,27 +30,19 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-06-09T18:44:31.299Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "malware--c113230f-f044-423b-af63-9b63c802f5ae",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--2a7bd59d-7905-44ae-9134-1601e636f73f",
         "created": "2022-06-09T15:54:16.089Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -68,17 +50,11 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has obtained and used open source scripts from GitHub.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 ) ",
         "modified": "2022-06-09T15:54:16.089Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -87,8 +63,6 @@
         "type": "relationship",
         "id": "relationship--2d2849f2-b34a-455f-a5c7-b4b42920f36a",
         "created": "2022-10-14T16:13:05.003Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -96,27 +70,19 @@
                 "url": "https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-14T16:13:51.699Z",
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has stolen legitimate certificates to sign malicious payloads.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--e7cbc1de-1f79-48ee-abfd-da1241c65a15",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--3932fe52-ec80-4462-8598-a94a31918c43",
         "created": "2022-08-03T15:20:33.675Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -124,27 +90,19 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has used an open source batch script to modify Windows Defender registry keys.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-08-03T15:20:33.675Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--4ef40df7-c32f-41a7-94d8-1c06e8e6b21f",
         "created": "2022-06-09T15:52:30.382Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -152,27 +110,19 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has executed a batch script designed to disable Windows Defender on a compromised host.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-06-09T15:52:30.382Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--4f3efbf7-46f8-4e93-97cd-c5a497457e0f",
         "created": "2022-06-09T15:38:13.167Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -180,17 +130,11 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has used PowerShell to download and execute malicious code.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-06-09T15:38:13.167Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -199,7 +143,6 @@
         "type": "relationship",
         "id": "relationship--593e12bb-dcef-4773-a80d-274c10095d12",
         "created": "2022-10-14T15:26:14.746Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -207,28 +150,19 @@
                 "url": "https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-14T15:26:14.746Z",
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has used control panel files (CPL), delivered via e-mail, for execution.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--4ff5d6a8-c062-4c68-a778-36fc5edd564f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--5b5f3ef5-7295-4bc7-b35c-f629ecfc9c2e",
         "created": "2022-06-09T15:36:41.335Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -236,27 +170,19 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has exploited Microsoft Office vulnerability CVE-2017-11882.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-06-09T15:36:41.335Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--60988a82-9b9f-4e52-899b-f17dee1af53e",
         "created": "2022-06-09T18:55:51.529Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -264,17 +190,11 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-06-09T18:55:51.529Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "malware--7724581b-06ff-4d2b-b77c-80dc8d53070b",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -283,8 +203,6 @@
         "type": "relationship",
         "id": "relationship--612656af-ca71-420c-b013-d1f01c5091a1",
         "created": "2022-06-09T15:48:09.496Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -292,17 +210,11 @@
                 "url": "https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-22T03:41:11.080Z",
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has obfuscated malware to help avoid detection.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -311,8 +223,6 @@
         "type": "relationship",
         "id": "relationship--630e409c-c874-465c-bbb1-6b7778e2939b",
         "created": "2022-08-03T15:23:27.686Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -320,27 +230,19 @@
                 "url": "https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-14T16:10:37.172Z",
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has used stolen certificates from Electrum Technologies GmbH to sign payloads.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--79bc2141-efac-4b6e-b53b-bb364393f1d5",
         "created": "2022-06-09T15:45:47.077Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -348,17 +250,11 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has packed malware to help avoid detection.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-06-09T15:45:47.077Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -367,7 +263,6 @@
         "type": "relationship",
         "id": "relationship--9cf8e459-479b-423f-a54f-42ed6b37aaf2",
         "created": "2022-10-14T15:06:47.172Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -375,28 +270,19 @@
                 "url": "https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-14T15:06:47.172Z",
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has used tools to download malicious code.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--9e6ca313-671b-4157-89f5-377d81c1355d",
         "created": "2022-06-09T15:30:04.963Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -404,27 +290,19 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has used JavaScript to execute malicious code on a victim's machine.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-06-09T15:30:04.963Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--a02d2ae6-bdeb-4fa0-b1b9-5a0de2b03b6a",
         "created": "2022-06-09T15:43:10.603Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -432,27 +310,19 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has used Discord's content delivery network (CDN) to deliver malware and malicious scripts to a compromised host.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-06-09T15:43:10.603Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--a9200a4f-271b-4b13-864b-a3e21de3c9f2",
         "created": "2022-06-09T14:57:15.636Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "CrowdStrike Ember Bear Profile March 2022",
@@ -465,27 +335,19 @@
                 "description": "Sadowski, J; Hall, R. (2022, March 4). Responses to Russia's Invasion of Ukraine Likely to Spur Retaliation. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: CrowdStrike Ember Bear Profile March 2022)(Citation: Mandiant UNC2589 March 2022)",
         "modified": "2022-06-09T14:57:15.636Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "malware--49fee0b0-390e-4bde-97f8-97ed46bd19b7",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--cbf047ee-8c01-497b-9695-aaab0450f6dd",
         "created": "2022-06-09T15:57:25.486Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -493,27 +355,19 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has added extra spaces between JavaScript code characters to increase the overall file size.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-06-09T15:57:25.486Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--5bfccc3f-2326-4112-86cc-c1ece9d8a2b5",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--d3c37666-b2f7-43c3-b89b-7ce48184269e",
         "created": "2022-06-09T15:27:00.471Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -521,27 +375,19 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has sent spearphishing emails containing malicious links.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-06-09T15:27:00.471Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--d75dcb5a-4997-4d2f-b1ba-815ebae54478",
         "created": "2022-06-09T15:40:26.451Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -549,17 +395,11 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) had used `cmd.exe` and Windows Script Host (wscript) to execute malicious code.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-06-09T15:40:26.451Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -568,7 +408,6 @@
         "type": "relationship",
         "id": "relationship--e59cb442-495d-4687-a0e7-3255aa89ae66",
         "created": "2023-03-22T03:41:36.543Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -576,28 +415,19 @@
                 "url": "https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-22T03:41:36.543Z",
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has obfuscated malicious scripts to help avoid detection.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--f16f493f-d002-4013-80e6-c6ec96a7b913",
         "created": "2022-06-09T15:15:46.142Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -605,27 +435,19 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has attempted to lure victims into executing malicious files.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-06-09T15:15:46.142Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--f98aa77a-8a46-417d-b4dc-f7c635702cea",
         "created": "2022-06-09T15:25:39.256Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",
@@ -633,17 +455,11 @@
                 "description": "Unit 42. (2022, February 25). Spear Phishing Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader SaintBot. Retrieved June 9, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has attempted to lure users to click on a malicious link within a spearphishing email.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
         "modified": "2022-06-09T15:25:39.257Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

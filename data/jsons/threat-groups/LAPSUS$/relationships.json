@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--037e2e7e-5d23-48d6-90e6-796693a0caea",
         "created": "2022-06-10T16:45:13.245Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -12,17 +10,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-12T12:32:38.691Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has gathered detailed information of target employees to enhance their social engineering lures.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--5282dd9a-d26d-4e16-88b7-7c0f4553daf4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -31,8 +23,6 @@
         "type": "relationship",
         "id": "relationship--0b33093f-14c3-485e-8d82-f04ebcbe6d01",
         "created": "2022-06-10T16:24:47.495Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -40,27 +30,19 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-12T12:34:05.173Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) uploaded sensitive files, information, and credentials from a targeted organization for extortion or public release.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--0c472bde-ea1e-48b4-bd55-a32f276b0b13",
         "created": "2022-06-10T14:50:40.973Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -68,27 +50,19 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has used the AD Explorer tool to enumerate groups on a victim's network.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-06-10T14:50:40.973Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--0d9523d3-ab60-48df-b5c5-2778e1727439",
         "created": "2022-06-10T14:36:02.657Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -96,17 +70,11 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has searched a victim's network for collaboration platforms like Confluence and JIRA to discover further high-privilege account credentials.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-06-10T14:36:02.657Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--7ad38ef1-381a-406d-872a-38b136eb5ecc",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -115,8 +83,6 @@
         "type": "relationship",
         "id": "relationship--1aa34972-7bed-4e2d-bf72-b7352677de60",
         "created": "2022-06-09T19:27:50.082Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NCC Group LAPSUS Apr 2022",
@@ -129,17 +95,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-21T17:35:45.021Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has obtained tools such as RVTools and AD Explorer for their operations.(Citation: MSTIC DEV-0537 Mar 2022)(Citation: NCC Group LAPSUS Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -148,8 +108,6 @@
         "type": "relationship",
         "id": "relationship--1b996e11-03b7-48fc-9ce2-cd08fdf0d07d",
         "created": "2022-06-10T17:28:17.128Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NCC Group LAPSUS Apr 2022",
@@ -162,17 +120,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-21T17:45:54.142Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has deleted the target's systems and resources both on-premises and in the cloud.(Citation: MSTIC DEV-0537 Mar 2022)(Citation: NCC Group LAPSUS Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--d45a3d09-b3cf-48f4-9f0f-f521ee5cb05c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -181,8 +133,6 @@
         "type": "relationship",
         "id": "relationship--2b7d9c6e-8149-4b2f-91a2-e80ec673e42d",
         "created": "2022-06-10T14:40:16.074Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NCC Group LAPSUS Apr 2022",
@@ -195,17 +145,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-21T17:37:36.665Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has searched a victim's network for code repositories like GitLab and GitHub to discover further high-privilege account credentials.(Citation: MSTIC DEV-0537 Mar 2022)(Citation: NCC Group LAPSUS Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--cff94884-3b1c-4987-a70b-6d5643c621c3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -214,8 +158,6 @@
         "type": "relationship",
         "id": "relationship--370fb415-02d5-416c-bb69-d629600dc14b",
         "created": "2022-06-10T14:37:20.249Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NCC Group LAPSUS Apr 2022",
@@ -228,17 +170,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-21T17:31:32.487Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has searched a victim's network for collaboration platforms like SharePoint to discover further high-privilege account credentials.(Citation: MSTIC DEV-0537 Mar 2022)(Citation: NCC Group LAPSUS Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--0c4b4fda-9062-47da-98b9-ceae2dcf052a",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -247,8 +183,6 @@
         "type": "relationship",
         "id": "relationship--3e375d96-bc20-431e-ab35-f2e05fb88343",
         "created": "2022-06-10T17:06:35.107Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -256,17 +190,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-13T18:35:36.503Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has used VPS hosting providers for infrastructure.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--79da0971-3147-4af6-a4f5-e8cd447cd795",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -275,8 +203,6 @@
         "type": "relationship",
         "id": "relationship--3f152371-cef7-405b-b586-ec87e774ccb4",
         "created": "2022-10-12T12:43:28.035Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -284,17 +210,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-12T12:44:06.405Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has gathered detailed knowledge of team structures within a target organization.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--cc723aff-ec88-40e3-a224-5af9fd983cc4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -303,7 +223,6 @@
         "type": "relationship",
         "id": "relationship--4393f669-4e67-4cd6-a89b-52907138fca7",
         "created": "2022-10-13T18:42:26.459Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -311,18 +230,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-13T18:42:26.459Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has leverage NordVPN for its egress points when targeting intended victims.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -331,8 +243,6 @@
         "type": "relationship",
         "id": "relationship--5235ff3c-646a-4608-b90e-394bc2c54330",
         "created": "2022-06-10T14:48:53.062Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NCC Group LAPSUS Apr 2022",
@@ -345,17 +255,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-21T17:36:13.283Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has used the AD Explorer tool to enumerate users on a victim's network.(Citation: MSTIC DEV-0537 Mar 2022)(Citation: NCC Group LAPSUS Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -364,8 +268,6 @@
         "type": "relationship",
         "id": "relationship--55af723a-6ca6-449d-be8e-d61a067fbefd",
         "created": "2022-06-10T12:51:32.581Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NCC Group LAPSUS Apr 2022",
@@ -378,17 +280,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-21T17:44:25.478Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has gained access to internet-facing systems and applications, including virtual private network (VPN), remote desktop protocol (RDP), and virtual desktop infrastructure (VDI) including Citrix. (Citation: MSTIC DEV-0537 Mar 2022)(Citation: NCC Group LAPSUS Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -397,8 +293,6 @@
         "type": "relationship",
         "id": "relationship--565aa787-f255-45c6-9396-8a53bbb3950e",
         "created": "2022-06-10T12:53:56.023Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NCC Group LAPSUS Apr 2022",
@@ -411,17 +305,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-21T17:38:43.048Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has used compromised credentials and/or session tokens to gain access into a victim's VPN, VDI, RDP, and IAMs.(Citation: MSTIC DEV-0537 Mar 2022)(Citation: NCC Group LAPSUS Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -430,8 +318,6 @@
         "type": "relationship",
         "id": "relationship--570495a2-c010-4180-abb7-682e6e6528a3",
         "created": "2023-09-20T14:07:19.711Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -439,17 +325,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-28T22:12:44.488Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has called victims' help desk and impersonated legitimate users with previously gathered information in order to gain access to privileged accounts.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--c9e0c59e-162e-40a4-b8b1-78fab4329ada",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -458,7 +338,6 @@
         "type": "relationship",
         "id": "relationship--5a86948b-4058-453a-aa8d-47cdc4346f41",
         "created": "2022-10-12T12:53:57.269Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -466,18 +345,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-12T12:53:57.269Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) acquired and used the Redline password stealer in their operations.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--7807d3a4-a885-4639-a786-c1ed41484970",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -486,7 +358,6 @@
         "type": "relationship",
         "id": "relationship--60fc3c88-bff5-4a06-88f3-15715e4cafda",
         "created": "2023-09-30T14:02:58.167Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -494,18 +365,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-30T14:02:58.167Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has called victims' help desk to convince the support personnel to reset a privileged account\u2019s credentials.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--6a5d222a-a7e0-4656-b110-782c33098289",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -514,8 +378,6 @@
         "type": "relationship",
         "id": "relationship--64c83ccd-f074-4ff2-80c9-05d03f8fc9d3",
         "created": "2022-06-10T16:43:53.015Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -523,17 +385,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-12T13:03:14.255Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has recruited target organization employees or contractors who provide credentials and approve an associated MFA prompt, or install remote management software onto a corporate workstation, allowing [LAPSUS$](https://attack.mitre.org/groups/G1004) to take control of an authenticated system.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -542,8 +398,6 @@
         "type": "relationship",
         "id": "relationship--65ebc3e9-e5c1-402d-8d1e-873689b09396",
         "created": "2023-03-14T14:40:57.897Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -551,17 +405,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-04-11T00:04:21.132Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has targeted various collaboration tools like Slack, Teams, JIRA, Confluence, and others to hunt for exposed credentials to support privilege escalation and lateral movement.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--9664ad0e-789e-40ac-82e2-d7b17fbe8fb3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -570,7 +418,6 @@
         "type": "relationship",
         "id": "relationship--6e54e834-521f-4da8-b3ae-963185496a60",
         "created": "2023-09-21T17:45:05.597Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NCC Group LAPSUS Apr 2022",
@@ -578,28 +425,19 @@
                 "url": "https://research.nccgroup.com/2022/04/28/lapsus-recent-techniques-tactics-and-procedures/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-21T17:45:05.597Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has shut down virtual machines from within a victim's on-premise VMware ESXi infrastructure.(Citation: NCC Group LAPSUS Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--20fb2507-d71c-455d-9b6d-6104461cf26b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--72c044ec-4869-4273-aff9-10c14e3326ca",
         "created": "2022-06-10T12:43:51.145Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -607,27 +445,19 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has searched public code repositories for exposed credentials.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-08-09T13:04:57.816Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--70910fbd-58dc-4c1c-8c48-814d11fcd022",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--7344f9ce-b2ec-4754-b980-4d8d1464d35d",
         "created": "2022-06-10T17:17:53.737Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -635,27 +465,19 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has created global admin accounts in the targeted organization's cloud instances to gain persistence.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-06-10T17:17:53.737Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--a009cb25-4801-4116-9105-80a91cf15c1b",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--7647807e-71b6-41e4-b0aa-f23e68b411cd",
         "created": "2022-06-10T17:26:05.234Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -663,17 +485,11 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has set an Office 365 tenant level mail transport rule to send all mail in and out of the targeted organization to the newly created account.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-06-10T17:26:05.234Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--7d77a07d-02fe-4e88-8bd9-e9c008c01bf0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -682,7 +498,6 @@
         "type": "relationship",
         "id": "relationship--7e27f405-1e18-44d7-81d7-bbad57cba9b7",
         "created": "2022-10-12T12:45:14.108Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -690,18 +505,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-12T12:45:14.108Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has gathered detailed knowledge of an organization's supply chain relationships.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--6ee2dc99-91ad-4534-a7d8-a649358c331f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -710,7 +518,6 @@
         "type": "relationship",
         "id": "relationship--7e307ac4-f569-4606-a500-b5ead2d5967f",
         "created": "2022-10-12T13:07:46.694Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -718,28 +525,19 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-12T13:07:46.694Z",
         "description": "(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--816b2bbb-9d91-4cf9-86b2-ff68a9f82969",
         "created": "2022-06-10T17:09:18.107Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -747,27 +545,19 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has deleted the target's systems and resources in the cloud to trigger the organization's incident and crisis response process.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-06-10T17:09:18.107Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--70857657-bd0b-4695-ad3e-b13f92cac1b4",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--956078f0-e1b1-4be7-9bf3-f03630ec3f1b",
         "created": "2022-06-10T12:35:36.942Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -775,27 +565,19 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has obtained passwords and session tokens with the use of the Redline password stealer.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-06-10T12:35:36.942Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--a2798404-09a6-4882-8226-257fe55f788c",
         "created": "2022-06-10T17:24:04.236Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -803,17 +585,11 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has removed a targeted organization's global admin accounts to lock the organization out of all access.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-06-10T17:24:04.236Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--b24e2a20-3b3d-4bf0-823b-1ed765398fb0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -822,8 +598,6 @@
         "type": "relationship",
         "id": "relationship--a30f4d65-bb33-4c5f-b278-e8ec73de5bb1",
         "created": "2022-06-09T19:29:25.113Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NCC Group LAPSUS Apr 2022",
@@ -836,17 +610,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-21T17:43:46.096Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has gathered user identities and credentials to gain initial access to a victim's organization; the group has also called an organization's help desk to reset a target's credentials.(Citation: MSTIC DEV-0537 Mar 2022)(Citation: NCC Group LAPSUS Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--bc76d0a4-db11-4551-9ac4-01a469cfb161",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -855,8 +623,6 @@
         "type": "relationship",
         "id": "relationship--a360e9a6-541f-4026-9d50-70aa288e49ec",
         "created": "2022-06-10T14:34:01.607Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -864,17 +630,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-13T18:46:22.692Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has exploited unpatched vulnerabilities on internally accessible servers including JIRA, GitLab, and Confluence for privilege escalation.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -883,7 +643,6 @@
         "type": "relationship",
         "id": "relationship--a72a96fc-c76e-4c55-9ea6-4315246c15db",
         "created": "2022-10-13T18:53:11.225Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -891,18 +650,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-13T18:53:11.225Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has spammed target users with MFA prompts in the hope that the legitimate user will grant necessary approval.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--954a1639-f2d6-407d-aef3-4917622ca493",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -911,8 +663,6 @@
         "type": "relationship",
         "id": "relationship--bbd4f6df-b4e4-4e8e-8811-41212aef6264",
         "created": "2022-06-10T17:18:59.360Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -920,27 +670,19 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-13T18:34:08.130Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has added the global admin role to accounts they have created in the targeted organization's cloud instances.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--2dbbdcd5-92cf-44c0-aea2-fe24783a6bc3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--bd785740-2234-4bc8-90b9-1d8b1e7f557b",
         "created": "2022-06-10T16:30:12.609Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -948,17 +690,11 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has used DCSync attacks to gather credentials for privilege escalation routines.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-06-10T16:30:12.609Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--f303a39a-6255-4b89-aecc-18c4d8ca7163",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -967,8 +703,6 @@
         "type": "relationship",
         "id": "relationship--beaf6c2d-e416-4edc-8091-414eee53f604",
         "created": "2022-12-05T15:04:09.503Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NCC Group LAPSUS Apr 2022",
@@ -981,27 +715,19 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-21T17:41:52.801Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has payed employees, suppliers, and business partners of target organizations for credentials.(Citation: MSTIC DEV-0537 Mar 2022)(Citation: NCC Group LAPSUS Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--c0a23c9d-a972-46a9-9a86-a440bbfd5d1f",
         "created": "2022-06-10T14:44:08.470Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -1009,17 +735,11 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has searched a victim's network for organization collaboration channels like MS Teams or Slack to discover further high-privilege account credentials.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-06-10T14:44:08.470Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1028,8 +748,6 @@
         "type": "relationship",
         "id": "relationship--c2b48ab4-6a4f-4252-a40c-7f870276b5a7",
         "created": "2022-10-12T12:47:57.381Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -1037,17 +755,11 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-13T18:47:22.092Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has gathered employee email addresses, including personal accounts, for social engineering and initial access efforts.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1056,8 +768,6 @@
         "type": "relationship",
         "id": "relationship--c6a104db-515e-4878-93f1-edfc0c242af9",
         "created": "2023-09-21T17:41:06.152Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NCC Group LAPSUS Apr 2022",
@@ -1065,27 +775,19 @@
                 "url": "https://research.nccgroup.com/2022/04/28/lapsus-recent-techniques-tactics-and-procedures/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T19:46:30.914Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has reconfigured a victim's DNS records to actor-controlled domains and websites.(Citation: NCC Group LAPSUS Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--c2f59d25-87fe-44aa-8f83-e8e59d077bf5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--d17f93ce-f419-4297-a6dd-9d745df31b92",
         "created": "2022-06-10T16:38:33.157Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -1093,17 +795,11 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has used Windows built-in tool `ntdsutil` to extract the Active Directory (AD) database.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-06-10T16:38:33.157Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1112,7 +808,6 @@
         "type": "relationship",
         "id": "relationship--de075e77-f83e-4156-a40f-e7e475e15469",
         "created": "2023-09-21T17:34:10.537Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NCC Group LAPSUS Apr 2022",
@@ -1120,28 +815,19 @@
                 "url": "https://research.nccgroup.com/2022/04/28/lapsus-recent-techniques-tactics-and-procedures/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-21T17:34:10.537Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has accessed local password managers and databases to obtain further credentials from a compromised network.(Citation: NCC Group LAPSUS Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--315f51f0-6b03-4c1e-bfb2-84740afb8e21",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--e2e2fb8d-6b89-4d49-bea9-cca54ae3e56d",
         "created": "2022-06-10T12:08:17.602Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -1149,27 +835,19 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has accessed internet-facing identity providers such as Azure Active Directory and Okta to target specific organizations.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-06-10T12:08:17.602Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--e8183fad-e62c-47f0-8aeb-4f1d7fd36444",
         "created": "2022-06-10T12:40:59.877Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -1177,27 +855,19 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has purchased credentials and session tokens from criminal underground forums.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-06-10T12:40:59.877Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--0a241b6c-7bb2-48f9-98f7-128145b4d27f",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--ea60aa14-d556-4031-9d3f-bb673f2d6f68",
         "created": "2022-06-10T17:07:59.950Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -1205,17 +875,11 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has created new virtual machines within the target's cloud environment after leveraging credential access to cloud assets.(Citation: MSTIC DEV-0537 Mar 2022) ",
         "modified": "2022-06-10T17:07:59.950Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--cf1c2504-433f-4c4e-a1f8-91de45a0318c",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1224,8 +888,6 @@
         "type": "relationship",
         "id": "relationship--ec5caf8f-0fb8-4c3b-bd31-08804ff2214e",
         "created": "2022-06-10T17:10:42.165Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -1233,27 +895,19 @@
                 "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-12T12:57:31.067Z",
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has used compromised credentials to access cloud assets within a target organization.(Citation: MSTIC DEV-0537 Mar 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--fc5c0e5f-b730-4396-9922-7e2e91b4a106",
         "created": "2022-06-10T12:55:27.257Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -1261,17 +915,11 @@
                 "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has replayed stolen session token and passwords to trigger simple-approval MFA prompts in hope of the legitimate user will grant necessary approval.(Citation: MSTIC DEV-0537 Mar 2022)",
         "modified": "2022-06-10T12:55:27.257Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
         "target_ref": "attack-pattern--dd43c543-bb85-4a6f-aa6e-160d90d06a49",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

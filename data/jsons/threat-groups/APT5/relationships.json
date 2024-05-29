@@ -3,7 +3,6 @@
         "type": "relationship",
         "id": "relationship--0345ec62-657e-4673-89a1-d17e85f5dab0",
         "created": "2024-02-12T19:18:43.246Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -11,18 +10,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-12T19:18:43.246Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used PowerShell to accomplish tasks within targeted environments.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -31,7 +23,6 @@
         "type": "relationship",
         "id": "relationship--0782e7d8-3df6-4eb4-99a9-3d3a74c7752c",
         "created": "2024-02-09T21:28:31.982Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -39,18 +30,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-09T21:28:31.982Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has created Local Administrator accounts to maintain access to systems with short-cycle credential rotation.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--635cbe30-392d-4e27-978e-66774357c762",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -59,7 +43,6 @@
         "type": "relationship",
         "id": "relationship--0d9b3bc8-8aff-4556-9a5f-1d4f91eb93b9",
         "created": "2024-02-12T19:14:03.879Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -67,18 +50,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-12T19:14:03.879Z",
         "description": "(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -87,7 +63,6 @@
         "type": "relationship",
         "id": "relationship--172391d2-7207-42b0-987b-8760bc58e35a",
         "created": "2024-02-09T21:14:40.966Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -95,18 +70,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-09T21:14:40.966Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has modified file timestamps.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -115,8 +83,6 @@
         "type": "relationship",
         "id": "relationship--17efaef0-499d-4c09-a4c9-32a22edae6db",
         "created": "2024-02-12T18:31:40.657Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -124,17 +90,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-17T23:50:02.602Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has moved laterally throughout victim environments using RDP.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -143,7 +103,6 @@
         "type": "relationship",
         "id": "relationship--2f409bb6-2dc3-4e4b-901b-b177d4d03fd6",
         "created": "2024-02-14T19:01:13.319Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Advanced Persistent Threats",
@@ -151,18 +110,11 @@
                 "url": "https://www.mandiant.com/resources/insights/apt-groups"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-14T19:01:13.319Z",
         "description": "(Citation: Mandiant Advanced Persistent Threats)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "malware--b42378e0-f147-496f-992a-26a49705395b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -171,7 +123,6 @@
         "type": "relationship",
         "id": "relationship--35423c2b-7b57-423b-8573-6f6cf2cd22ec",
         "created": "2024-04-17T23:41:06.304Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -179,18 +130,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-17T23:41:06.304Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used the BLOODMINE utility to parse and extract information from Pulse Secure Connect logs.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--866d0d6d-02c6-42bd-aa2f-02907fdc0969",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -199,7 +143,6 @@
         "type": "relationship",
         "id": "relationship--3cca00d1-fe7a-4546-bc70-e0f3482cd986",
         "created": "2024-02-13T17:51:24.088Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -207,18 +150,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-13T17:51:24.088Z",
         "description": "(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "malware--880f7b3e-ad27-4158-8b03-d44c9357950b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -227,7 +163,6 @@
         "type": "relationship",
         "id": "relationship--44fd01db-6dc1-4d7c-92e3-52a0af9f54f8",
         "created": "2024-02-06T18:58:06.654Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE FLEETWOOD Profile",
@@ -235,18 +170,11 @@
                 "url": "https://www.secureworks.com/research/threat-profiles/bronze-fleetwood"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-06T18:58:06.654Z",
         "description": "(Citation: Secureworks BRONZE FLEETWOOD Profile)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "tool--3a53b207-aba2-4a2b-9cdb-273d633669e7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -255,7 +183,6 @@
         "type": "relationship",
         "id": "relationship--4856f334-eb24-479b-992d-2a64da3851d8",
         "created": "2024-04-17T23:46:46.382Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -263,18 +190,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-17T23:46:46.382Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used the CLEANPULSE utility to insert command line strings into a targeted process to prevent certain log events from occurring.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--74d2a63f-3c7b-4852-92da-02d8fbab16da",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -283,8 +203,6 @@
         "type": "relationship",
         "id": "relationship--4df03f98-3c25-4772-8be5-cc1aaeff1cc9",
         "created": "2024-02-09T21:23:57.948Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -292,17 +210,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-12T20:19:49.396Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has staged data on compromised systems prior to exfiltration often in `C:\\Users\\Public`.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -311,7 +223,6 @@
         "type": "relationship",
         "id": "relationship--51b09cc3-d54b-4b22-a354-0e2094851321",
         "created": "2024-02-09T21:31:10.106Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -319,18 +230,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-09T21:31:10.106Z",
         "description": "(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -339,8 +243,6 @@
         "type": "relationship",
         "id": "relationship--5f14394c-2b44-4187-a2a4-7ccb4109fdb1",
         "created": "2024-02-06T19:22:17.213Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Zero-Day April 2021",
@@ -353,17 +255,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-12T20:18:06.741Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has modified legitimate binaries and scripts for Pulse Secure VPNs including the legitimate DSUpgrade.pm file to install the ATRIUM webshell for persistence.(Citation: Mandiant Pulse Secure Zero-Day April 2021)(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--960c3c86-1480-4d72-b4e0-8c242e84a5c5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -372,8 +268,6 @@
         "type": "relationship",
         "id": "relationship--61c71926-6802-44e8-9918-d2b3a8b19f94",
         "created": "2024-02-06T18:56:19.367Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Southeast Asia Threat Landscape March 2015",
@@ -386,17 +280,11 @@
                 "url": "https://www.mandiant.com/resources/insights/apt-groups"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-14T19:08:03.309Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used malware with keylogging capabilities to monitor the communications of targeted entities.(Citation: FireEye Southeast Asia Threat Landscape March 2015)(Citation: Mandiant Advanced Persistent Threats)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -405,7 +293,6 @@
         "type": "relationship",
         "id": "relationship--6370e4b2-a26e-489f-a444-3d32991c0783",
         "created": "2024-02-12T19:26:34.498Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -413,18 +300,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-12T19:26:34.498Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has accessed Microsoft M365 cloud environments using stolen credentials. (Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -433,7 +313,6 @@
         "type": "relationship",
         "id": "relationship--63aca7d8-64dc-412b-a8ab-8af712fd4d82",
         "created": "2024-02-06T21:10:43.113Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Zero-Day April 2021",
@@ -441,18 +320,11 @@
                 "url": "https://www.mandiant.com/resources/blog/suspected-apt-actors-leverage-bypass-techniques-pulse-secure-zero-day"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-06T21:10:43.113Z",
         "description": "(Citation: Mandiant Pulse Secure Zero-Day April 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "malware--f8fc98ac-ad6d-44db-b6e2-f0c6eb4eace4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -461,8 +333,6 @@
         "type": "relationship",
         "id": "relationship--6d3e3456-40c8-4079-8a40-459d051e354e",
         "created": "2024-02-09T20:02:00.196Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Zero-Day April 2021",
@@ -475,17 +345,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-09T21:25:27.100Z",
         "description": "(Citation: Mandiant Pulse Secure Zero-Day April 2021)(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "malware--d1008b78-960c-4b36-bdc4-39a734e1e4e3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -494,7 +358,6 @@
         "type": "relationship",
         "id": "relationship--705fe2ec-dbe1-4811-baf5-798f5f874639",
         "created": "2024-02-12T20:33:27.795Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -502,18 +365,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-12T20:33:27.795Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used the JAR/ZIP file format for exfiltrated files.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -522,7 +378,6 @@
         "type": "relationship",
         "id": "relationship--7d752e82-6b47-4d98-a566-05631454a27f",
         "created": "2024-02-06T18:58:24.141Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE FLEETWOOD Profile",
@@ -530,18 +385,11 @@
                 "url": "https://www.secureworks.com/research/threat-profiles/bronze-fleetwood"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-06T18:58:24.141Z",
         "description": "(Citation: Secureworks BRONZE FLEETWOOD Profile)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "malware--89f63ae4-f229-4a5c-95ad-6f22ed2b5c49",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -550,8 +398,6 @@
         "type": "relationship",
         "id": "relationship--81ce1970-88fa-4820-8f08-9a2a8332df77",
         "created": "2024-02-12T18:54:43.356Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -559,17 +405,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-17T23:53:56.992Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used the Task Manager process to target LSASS process memory in order to obtain NTLM password hashes. [APT5](https://attack.mitre.org/groups/G1023) has also dumped clear text passwords and hashes from memory using [Mimikatz](https://attack.mitre.org/software/S0002) hosted through an RDP mapped drive.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -578,8 +418,6 @@
         "type": "relationship",
         "id": "relationship--8fdfcd23-4608-4a40-98fc-2e4baa8d6a41",
         "created": "2024-02-12T18:43:49.662Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -587,17 +425,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-12T18:45:35.381Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has copied and exfiltrated the SAM Registry hive from targeted systems.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -606,8 +438,6 @@
         "type": "relationship",
         "id": "relationship--945d45de-810c-42e9-b37c-ebfbc576dc01",
         "created": "2024-02-06T19:38:13.096Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Zero-Day April 2021",
@@ -620,17 +450,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-14T18:44:54.593Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has deleted scripts and web shells to evade detection.(Citation: Mandiant Pulse Secure Zero-Day April 2021)(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -639,7 +463,6 @@
         "type": "relationship",
         "id": "relationship--95416174-bdf3-4ffc-9174-6b89d4b72cd4",
         "created": "2024-02-12T19:02:56.396Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -647,18 +470,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-12T19:02:56.396Z",
         "description": "(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -667,7 +483,6 @@
         "type": "relationship",
         "id": "relationship--96d35fa9-9278-4582-80c9-9286ca57e9c9",
         "created": "2024-04-17T23:36:51.609Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -675,18 +490,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-17T23:36:51.609Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has created their own accounts with Local Administrator privileges to maintain access to systems with short-cycle credential rotation.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -695,7 +503,6 @@
         "type": "relationship",
         "id": "relationship--9b5abfd2-7c22-48df-bda3-62648c6cac8c",
         "created": "2024-02-14T18:46:22.579Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -703,18 +510,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-14T18:46:22.579Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used Windows-based utilities to carry out tasks including tasklist.exe. (Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -723,8 +523,6 @@
         "type": "relationship",
         "id": "relationship--a4d00569-50d8-4571-9ea8-3cafcfbfaacb",
         "created": "2024-02-06T19:44:54.459Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Zero-Day April 2021",
@@ -737,17 +535,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-09T21:15:30.310Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used the THINBLOOD utility to clear SSL VPN log files located at `/home/runtime/logs`.(Citation: Mandiant Pulse Secure Zero-Day April 2021)(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -756,7 +548,6 @@
         "type": "relationship",
         "id": "relationship--a8362ccc-cf32-4f36-a4a3-cfcf70dd4c54",
         "created": "2024-02-09T18:43:11.857Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Zero-Day April 2021",
@@ -764,18 +555,11 @@
                 "url": "https://www.mandiant.com/resources/blog/suspected-apt-actors-leverage-bypass-techniques-pulse-secure-zero-day"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-09T18:43:11.857Z",
         "description": "(Citation: Mandiant Pulse Secure Zero-Day April 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "malware--647215dd-29a6-4528-b354-ca8b5e08fca1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -784,8 +568,6 @@
         "type": "relationship",
         "id": "relationship--b6f9bc1d-bc66-4627-a1fd-56276a957320",
         "created": "2024-02-13T22:14:28.670Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "NSA APT5 Citrix Threat Hunting December 2022",
@@ -793,17 +575,11 @@
                 "url": "https://media.defense.gov/2022/Dec/13/2003131586/-1/-1/0/CSA-APT5-CITRIXADC-V1.PDF"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-14T18:53:21.578Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has made modifications to the crontab file including in `/var/cron/tabs/`.(Citation: NSA APT5 Citrix Threat Hunting December 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--2acf44aa-542f-4366-b4eb-55ef5747759c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -812,7 +588,6 @@
         "type": "relationship",
         "id": "relationship--bdafc5be-8887-4a16-993c-3e248373902b",
         "created": "2024-02-12T19:19:40.934Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -820,18 +595,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-12T19:19:40.934Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used cmd.exe for execution on compromised systems.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -840,8 +608,6 @@
         "type": "relationship",
         "id": "relationship--bec31996-2778-4e16-af9a-6a73f148a074",
         "created": "2024-02-12T19:21:48.710Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -849,17 +615,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-12T19:33:37.588Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used SSH for lateral movement in compromised environments including for enabling access to ESXi host servers.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -868,7 +628,6 @@
         "type": "relationship",
         "id": "relationship--c1341f02-e2be-4c70-8d14-28170bee2133",
         "created": "2024-02-13T16:50:22.595Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -876,18 +635,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-13T16:50:22.595Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used the CLEANPULSE utility to insert command line strings into a targeted process to alter its functionality.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -896,8 +648,6 @@
         "type": "relationship",
         "id": "relationship--c45d16b1-9e15-4047-a0c9-4cb31d38ac48",
         "created": "2024-02-06T19:35:59.611Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Zero-Day April 2021",
@@ -910,17 +660,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-09T21:29:12.566Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has installed multiple web shells on compromised servers including on Pulse Secure VPN appliances.(Citation: Mandiant Pulse Secure Zero-Day April 2021)(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -929,7 +673,6 @@
         "type": "relationship",
         "id": "relationship--ccd387c3-f818-468e-ac13-24b6aab2a061",
         "created": "2024-02-13T16:26:30.096Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -937,18 +680,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-13T16:26:30.096Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used the BLOODMINE utility to collect data on web requests from Pulse Secure Connect logs.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -957,7 +693,6 @@
         "type": "relationship",
         "id": "relationship--cdf6b439-62d6-4052-91ee-a154f674c68f",
         "created": "2024-02-06T19:16:12.334Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Zero-Day April 2021",
@@ -965,18 +700,11 @@
                 "url": "https://www.mandiant.com/resources/blog/suspected-apt-actors-leverage-bypass-techniques-pulse-secure-zero-day"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-06T19:16:12.334Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used legitimate account credentials to move laterally through compromised environments.(Citation: Mandiant Pulse Secure Zero-Day April 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -985,7 +713,6 @@
         "type": "relationship",
         "id": "relationship--ddb0965b-83ac-4746-bfaa-a7356691ef43",
         "created": "2024-02-12T20:29:38.667Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -993,18 +720,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-12T20:29:38.667Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has named exfiltration archives to mimic Windows Updates at times using filenames with a `KB<digits>.zip` pattern.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1013,7 +733,6 @@
         "type": "relationship",
         "id": "relationship--de0b8fd5-c974-41ab-965d-2bbd145e207f",
         "created": "2024-02-06T18:57:52.181Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Secureworks BRONZE FLEETWOOD Profile",
@@ -1021,18 +740,11 @@
                 "url": "https://www.secureworks.com/research/threat-profiles/bronze-fleetwood"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-06T18:57:52.181Z",
         "description": "(Citation: Secureworks BRONZE FLEETWOOD Profile)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1041,7 +753,6 @@
         "type": "relationship",
         "id": "relationship--e062ec0b-3be4-42c6-8dba-7a8a8270bbd9",
         "created": "2024-02-12T19:47:58.826Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -1049,18 +760,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-12T19:47:58.826Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has cleared the command history on targeted ESXi servers.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1069,7 +773,6 @@
         "type": "relationship",
         "id": "relationship--e6ff8ec4-51c4-47d2-83a8-777d8c2a7b8e",
         "created": "2024-02-09T19:16:51.220Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Zero-Day April 2021",
@@ -1077,18 +780,11 @@
                 "url": "https://www.mandiant.com/resources/blog/suspected-apt-actors-leverage-bypass-techniques-pulse-secure-zero-day"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-09T19:16:51.220Z",
         "description": "(Citation: Mandiant Pulse Secure Zero-Day April 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "malware--9a097d18-d15f-4635-a4f1-189df7efdc40",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1097,7 +793,6 @@
         "type": "relationship",
         "id": "relationship--edda676e-bd01-4983-b491-bf6c5d9a84db",
         "created": "2024-02-13T16:23:47.207Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -1105,18 +800,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-13T16:23:47.207Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has used the BLOODMINE utility to discover files with .css, .jpg, .png, .gif, .ico, .js, and .jsp extensions in Pulse Secure Connect logs.(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1125,7 +813,6 @@
         "type": "relationship",
         "id": "relationship--eef3ac92-4c31-4401-84fe-b6e298610ed9",
         "created": "2024-02-12T19:13:11.799Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Pulse Secure Update May 2021",
@@ -1133,18 +820,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-12T19:13:11.799Z",
         "description": "(Citation: Mandiant Pulse Secure Update May 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1153,8 +833,6 @@
         "type": "relationship",
         "id": "relationship--f147e87d-1ed7-4ab3-a414-0537a9bfb887",
         "created": "2024-02-06T19:12:19.866Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft East Asia Threats September 2023",
@@ -1177,17 +855,11 @@
                 "url": "https://www.mandiant.com/resources/blog/updates-on-chinese-apt-compromising-pulse-secure-vpn-devices"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-14T18:53:21.578Z",
         "description": "[APT5](https://attack.mitre.org/groups/G1023) has exploited vulnerabilities in externally facing software and devices including Pulse Secure VPNs and Citrix Application Delivery Controllers.(Citation: Mandiant Pulse Secure Zero-Day April 2021)(Citation: Mandiant Pulse Secure Update May 2021)(Citation: NSA APT5 Citrix Threat Hunting December 2022) (Citation: Microsoft East Asia Threats September 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--0697ae7e-2008-4674-a4ab-761fd5c15b4e",
         "created": "2023-07-13T19:16:18.111Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CrowdStrike Scattered Spider BYOVD January 2023",
@@ -12,17 +10,11 @@
                 "url": "https://www.crowdstrike.com/blog/scattered-spider-attempts-to-avoid-detection-with-bring-your-own-vulnerable-driver-tactic/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T20:27:43.165Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has used a combination of credential phishing and social engineering to capture one-time-password (OTP) codes.(Citation: CrowdStrike Scattered Spider BYOVD January 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--cca0ccb6-a068-4574-a722-b1556f86833a",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -31,8 +23,6 @@
         "type": "relationship",
         "id": "relationship--09ee94a2-db35-4932-9a77-b47364346186",
         "created": "2023-07-13T19:32:32.234Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CrowdStrike Scattered Spider BYOVD January 2023",
@@ -40,17 +30,11 @@
                 "url": "https://www.crowdstrike.com/blog/scattered-spider-attempts-to-avoid-detection-with-bring-your-own-vulnerable-driver-tactic/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-22T20:30:11.144Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has used self-signed and stolen certificates originally issued to NVIDIA and Global Software LLC.(Citation: CrowdStrike Scattered Spider BYOVD January 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -59,8 +43,6 @@
         "type": "relationship",
         "id": "relationship--0ab99fc3-ca4f-4117-930a-26365243108a",
         "created": "2024-03-28T15:36:14.284Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC Octo Tempest Operations October 2023",
@@ -68,17 +50,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-28T15:37:16.860Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has added additional trusted locations to Azure AD conditional access policies. (Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--ceaeb6d8-95ee-4da2-9d42-dc6aa6ca43ae",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -87,7 +63,6 @@
         "type": "relationship",
         "id": "relationship--105550a6-3e85-4286-a4de-f7d0d68380ed",
         "created": "2024-03-25T20:49:06.892Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC Octo Tempest Operations October 2023",
@@ -95,18 +70,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T20:49:06.892Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) enumerates cloud environments to identify server and backup management infrastructure, resource access, databases and storage containers.(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--57a3d31a-d04f-4663-b2da-7df8ec3f8c9d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -115,8 +83,6 @@
         "type": "relationship",
         "id": "relationship--1c4654e5-eac8-41e1-8da9-f88cadc6cc20",
         "created": "2024-03-25T21:16:07.144Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC Octo Tempest Operations October 2023",
@@ -124,17 +90,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-18T17:43:14.245Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has extracted the `NTDS.dit` file by creating volume shadow copies of virtual domain controller disks.(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -143,7 +103,6 @@
         "type": "relationship",
         "id": "relationship--225f57e8-5001-4f20-b610-b62faf650fc9",
         "created": "2024-03-25T21:22:26.803Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -156,18 +115,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:22:26.803Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) leverages legitimate domain accounts to gain access to the target environment.(Citation: CISA Scattered Spider Advisory November 2023)(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -176,7 +128,6 @@
         "type": "relationship",
         "id": "relationship--247e3bf6-21c9-444e-81f7-a0e0f9eed04b",
         "created": "2024-03-25T20:57:00.194Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -184,18 +135,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T20:57:00.194Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) adds a federated identity provider to the victim\u2019s SSO tenant and activates automatic account linking.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--24769ab5-14bd-4f4e-a752-cfb185da53ee",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -204,7 +148,6 @@
         "type": "relationship",
         "id": "relationship--29d7545b-e5da-43ec-a491-2f8645f2de97",
         "created": "2024-03-25T21:12:22.256Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC Octo Tempest Operations October 2023",
@@ -212,18 +155,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:12:22.256Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) creates inbound rules on the compromised email accounts of security personnel to automatically delete emails from vendor security products.(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--0cf55441-b176-4332-89e7-2c4c7799d0ff",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -232,7 +168,6 @@
         "type": "relationship",
         "id": "relationship--35b7c6d7-521c-41f6-81fc-af2f67d8ad82",
         "created": "2024-03-25T21:18:04.903Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -240,18 +175,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:18:04.903Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) retrieves browser cookies via Raccoon Stealer.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--10ffac09-e42d-4f56-ab20-db94c67d76ff",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -260,7 +188,6 @@
         "type": "relationship",
         "id": "relationship--3a05b5c4-3810-4f0e-925e-04f02a6da511",
         "created": "2024-03-25T21:20:01.799Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -268,18 +195,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:20:01.799Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) enumerate and exfiltrate code-signing certificates from a compromised host.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--60b508a1-6a5e-46b1-821a-9f7b78752abf",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -288,7 +208,6 @@
         "type": "relationship",
         "id": "relationship--450571d1-ce87-4017-bdc8-30fb2b6ae852",
         "created": "2024-03-25T20:50:30.279Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -296,18 +215,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T20:50:30.279Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) abused AWS Systems Manager Inventory to identify targets on the compromised network prior to lateral movement.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--e49920b0-6c54-40c1-9571-73723653205f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -316,7 +228,6 @@
         "type": "relationship",
         "id": "relationship--478544be-5304-423f-8065-0f11cd4cfade",
         "created": "2024-03-25T21:31:42.804Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -324,18 +235,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:31:42.804Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has utilized [WarzoneRAT](https://attack.mitre.org/software/S0670) to remotely access a compromised system.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "malware--fde19a18-e502-467f-be14-58c71b4e7f4b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -344,7 +248,6 @@
         "type": "relationship",
         "id": "relationship--47a9cbf2-d225-4cdd-ad8a-760e2c32f6cb",
         "created": "2024-03-25T20:51:40.895Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -357,18 +260,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T20:51:40.895Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has used BlackCat ransomware to encrypt files on VMWare ESXi servers.(Citation: CISA Scattered Spider Advisory November 2023)(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -377,7 +273,6 @@
         "type": "relationship",
         "id": "relationship--4f7a6812-5026-47ce-9424-e6658cec5e54",
         "created": "2023-07-13T19:21:30.304Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CrowdStrike Scattered Spider BYOVD January 2023",
@@ -385,18 +280,11 @@
                 "url": "https://www.crowdstrike.com/blog/scattered-spider-attempts-to-avoid-detection-with-bring-your-own-vulnerable-driver-tactic/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-13T19:21:30.304Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has leveraged legitimate remote management tools to maintain persistent access.(Citation: CrowdStrike Scattered Spider BYOVD January 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -405,7 +293,6 @@
         "type": "relationship",
         "id": "relationship--54de26f7-7981-49b8-a353-d342a89552c8",
         "created": "2024-03-25T21:20:52.431Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -413,18 +300,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:20:52.431Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has impersonated organization IT and helpdesk staff to instruct victims to execute commercial remote access tools to gain initial access.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -433,7 +313,6 @@
         "type": "relationship",
         "id": "relationship--55e1a1e9-689f-4242-8316-d59c309849d6",
         "created": "2024-03-25T21:15:11.206Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -441,18 +320,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:15:11.206Z",
         "description": "After compromising user accounts, [Scattered Spider](https://attack.mitre.org/groups/G1015) registers their own MFA tokens.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--b4409cd8-0da9-46e1-a401-a241afd4d1cc",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -461,7 +333,6 @@
         "type": "relationship",
         "id": "relationship--64205021-48f8-4dbb-a731-e9c921bbf7f1",
         "created": "2024-03-25T21:29:21.308Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC Octo Tempest Operations October 2023",
@@ -469,18 +340,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:29:21.308Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) can obtain credential information using [LaZagne](https://attack.mitre.org/software/S0349).(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -489,7 +353,6 @@
         "type": "relationship",
         "id": "relationship--6eba9c1c-e0ee-4efe-9e8a-f1abb7c1e01a",
         "created": "2024-03-25T21:27:41.430Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -502,18 +365,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:27:41.430Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has gathered credentials using [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: CISA Scattered Spider Advisory November 2023)(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -522,7 +378,6 @@
         "type": "relationship",
         "id": "relationship--75dcfc1b-016e-44ac-97c9-5a2eb3b76e50",
         "created": "2024-03-25T21:02:12.884Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -535,18 +390,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:02:12.884Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) Spider enumerates a target organization for files and directories of interest, including source code.(Citation: CISA Scattered Spider Advisory November 2023)(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -555,8 +403,6 @@
         "type": "relationship",
         "id": "relationship--87e0b924-d2a6-4e65-95ed-9500670bbe5c",
         "created": "2024-03-26T19:33:17.723Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -574,17 +420,11 @@
                 "url": "https://www.trellix.com/blogs/research/scattered-spider-the-modus-operandi/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-29T15:06:17.688Z",
         "description": "During [C0027](https://attack.mitre.org/campaigns/C0027), [Scattered Spider](https://attack.mitre.org/groups/G1015) directed victims to run remote monitoring and management (RMM) tools.(Citation: Crowdstrike TELCO BPO Campaign December 2022)\n\nIn addition to directing victims to run remote software, Scattered Spider members themselves also deploy RMM software including AnyDesk, LogMeIn, and ConnectWise Control to establish persistence on the compromised network.(Citation: CISA Scattered Spider Advisory November 2023)(Citation: Trellix Scattered Spider MO August 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -593,7 +433,6 @@
         "type": "relationship",
         "id": "relationship--886630f6-b61c-4ec1-9680-145c02542eb7",
         "created": "2024-03-25T21:03:37.331Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -606,18 +445,11 @@
                 "url": "https://www.trellix.com/blogs/research/scattered-spider-the-modus-operandi/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:03:37.331Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has deployed ransomware on compromised hosts for financial gain.(Citation: CISA Scattered Spider Advisory November 2023)(Citation: Trellix Scattered Spider MO August 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--851e071f-208d-4c79-adc6-5974c85c78f3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -626,7 +458,6 @@
         "type": "relationship",
         "id": "relationship--8e09a040-057f-4b15-80c3-e7e299b274df",
         "created": "2024-03-25T20:54:17.342Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -639,18 +470,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T20:54:17.342Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) enumerates data stored within victim code repositories, such as internal GitHub repositories.(Citation: CISA Scattered Spider Advisory November 2023)(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--cff94884-3b1c-4987-a70b-6d5643c621c3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -659,7 +483,6 @@
         "type": "relationship",
         "id": "relationship--93c5ae98-040a-453a-a90c-247972f8d0bc",
         "created": "2024-03-26T19:24:28.622Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC Octo Tempest Operations October 2023",
@@ -672,18 +495,11 @@
                 "url": "https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-26T19:24:28.622Z",
         "description": "During [C0027](https://attack.mitre.org/campaigns/C0027), [Scattered Spider](https://attack.mitre.org/groups/G1015) used IAM manipulation to gain persistence and to assume or elevate privileges.(Citation: Crowdstrike TELCO BPO Campaign December 2022)\n\n[Scattered Spider](https://attack.mitre.org/groups/G1015) has also assigned user access admin roles in order to gain Tenant Root Group management permissions in Azure.(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--2dbbdcd5-92cf-44c0-aea2-fe24783a6bc3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -692,7 +508,6 @@
         "type": "relationship",
         "id": "relationship--a24aad94-40e4-43a4-b2a4-ed8bfd412dcb",
         "created": "2024-03-25T21:30:35.991Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -700,18 +515,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:30:35.991Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has used [ngrok](https://attack.mitre.org/software/S0508) to create secure tunnels to remote web servers.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "tool--2f7f03bb-f367-4a5a-ad9b-310a12a48906",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -720,8 +528,6 @@
         "type": "relationship",
         "id": "relationship--a3fef23a-9f22-4d7c-b9f1-3f05372e9d87",
         "created": "2023-07-13T19:19:23.811Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CrowdStrike Scattered Spider BYOVD January 2023",
@@ -729,17 +535,11 @@
                 "url": "https://www.crowdstrike.com/blog/scattered-spider-attempts-to-avoid-detection-with-bring-your-own-vulnerable-driver-tactic/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-02T20:52:59.758Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has used multifactor authentication (MFA) fatigue by sending repeated MFA authentication requests to targets.(Citation: CrowdStrike Scattered Spider BYOVD January 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--954a1639-f2d6-407d-aef3-4917622ca493",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -748,7 +548,6 @@
         "type": "relationship",
         "id": "relationship--bfe6736d-9bda-4f6e-87f9-8e6f3364a915",
         "created": "2023-07-13T19:24:56.236Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CrowdStrike Scattered Spider BYOVD January 2023",
@@ -756,18 +555,11 @@
                 "url": "https://www.crowdstrike.com/blog/scattered-spider-attempts-to-avoid-detection-with-bring-your-own-vulnerable-driver-tactic/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-13T19:24:56.236Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has deployed a malicious kernel driver through exploitation of CVE-2015-2291 in the Intel Ethernet diagnostics driver for Windows (iqvw64.sys).(Citation: CrowdStrike Scattered Spider BYOVD January 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -776,7 +568,6 @@
         "type": "relationship",
         "id": "relationship--c021a96d-e4f2-4bd7-b1eb-315c518f16ca",
         "created": "2024-03-29T14:59:26.654Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -784,18 +575,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-29T14:59:26.654Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) enumerates data stored in cloud resources for collection and exfiltration purposes.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--3298ce88-1628-43b1-87d9-0b5336b193d7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -804,7 +588,6 @@
         "type": "relationship",
         "id": "relationship--c0f7db5b-a4cf-40b1-b581-2ae548ca6303",
         "created": "2024-03-25T20:43:21.001Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -812,18 +595,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T20:43:21.001Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) retrieves browser histories via infostealer malware such as Raccoon Stealer.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--5e4a2073-9643-44cb-a0b5-e7f4048446c7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -832,8 +608,6 @@
         "type": "relationship",
         "id": "relationship--c1d557cf-646d-4cac-bd2a-20889431372f",
         "created": "2024-04-18T13:59:55.669Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC Octo Tempest Operations October 2023",
@@ -841,17 +615,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-18T17:42:39.012Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has created volume shadow copies of virtual domain controller disks to extract the `NTDS.dit` file.(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--0c8ab3eb-df48-4b9c-ace7-beacaac81cc5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -860,7 +628,6 @@
         "type": "relationship",
         "id": "relationship--cb094cb6-145c-471b-beac-0895a632bb57",
         "created": "2024-03-29T14:57:30.076Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -868,18 +635,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-29T14:57:30.076Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) creates new user identities within the compromised organization.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -888,7 +648,6 @@
         "type": "relationship",
         "id": "relationship--cc49c969-b227-437b-9b63-4a464766ff04",
         "created": "2024-03-25T21:17:07.633Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -896,18 +655,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:17:07.633Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) can enumerate remote systems, such as VMware vCenter infrastructure.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -916,8 +668,6 @@
         "type": "relationship",
         "id": "relationship--d4c936f5-2221-4f6d-9d49-c6f499b07c9e",
         "created": "2024-03-25T20:59:16.196Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -930,17 +680,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-29T14:47:06.504Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has exfiltrated victim data to the MEGA file sharing site.(Citation: CISA Scattered Spider Advisory November 2023)(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -949,8 +693,6 @@
         "type": "relationship",
         "id": "relationship--dbec2814-4a92-4ab7-a007-123b40b16d0b",
         "created": "2024-04-18T15:25:34.867Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "MSTIC Octo Tempest Operations October 2023",
@@ -963,17 +705,11 @@
                 "url": "https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-18T15:31:12.348Z",
         "description": "During [C0027](https://attack.mitre.org/campaigns/C0027), [Scattered Spider](https://attack.mitre.org/groups/G1015) used phone calls to instruct victims to navigate to credential-harvesting websites.(Citation: Crowdstrike TELCO BPO Campaign December 2022)\n\n[Scattered Spider](https://attack.mitre.org/groups/G1015) has also called employees at target organizations and compelled them to navigate to fake login portals using adversary-in-the-middle toolkits.(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--6a5d222a-a7e0-4656-b110-782c33098289",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -982,7 +718,6 @@
         "type": "relationship",
         "id": "relationship--dc10559e-6a98-4a5f-abcd-adff67bfb1cd",
         "created": "2024-03-25T20:55:21.239Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -990,18 +725,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T20:55:21.239Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) stages data in a centralized database prior to exfiltration.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1010,7 +738,6 @@
         "type": "relationship",
         "id": "relationship--dd689e6a-443d-4465-b637-a7befde5e052",
         "created": "2024-03-25T21:26:00.339Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -1023,18 +750,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:26:00.339Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has deployed [BlackCat](https://attack.mitre.org/software/S1068) ransomware to victim environments for financial gain.(Citation: CISA Scattered Spider Advisory November 2023)(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "malware--50c44c34-3abb-48ae-9433-a2337de5b0bc",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1043,7 +763,6 @@
         "type": "relationship",
         "id": "relationship--e662ff77-e38c-4a8b-ac49-cfb98ad01b47",
         "created": "2023-07-05T17:56:17.033Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Crowdstrike TELCO BPO Campaign December 2022",
@@ -1051,18 +770,11 @@
                 "url": "https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-05T17:56:17.033Z",
         "description": "(Citation: Crowdstrike TELCO BPO Campaign December 2022)",
         "relationship_type": "attributed-to",
         "source_ref": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa",
         "target_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1071,8 +783,6 @@
         "type": "relationship",
         "id": "relationship--e8d5e9f3-ec32-4a07-bdc7-86a2cff8a975",
         "created": "2024-03-26T19:36:24.296Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -1085,17 +795,11 @@
                 "url": "https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-29T15:09:01.542Z",
         "description": "During [C0027](https://attack.mitre.org/campaigns/C0027), [Scattered Spider](https://attack.mitre.org/groups/G1015) used compromised Azure credentials for credential theft activity and lateral movement to on-premises systems.(Citation: Crowdstrike TELCO BPO Campaign December 2022)\n\nScattered Spider has also leveraged pre-existing AWS EC2 instances for lateral movement and data collection purposes.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--8861073d-d1b8-4941-82ce-dce621d398f0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1104,8 +808,6 @@
         "type": "relationship",
         "id": "relationship--f54ce1d1-519a-417a-b2f5-6132d9690631",
         "created": "2024-03-26T19:31:35.510Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -1118,17 +820,11 @@
                 "url": "https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-29T15:00:28.645Z",
         "description": "During [C0027](https://attack.mitre.org/campaigns/C0027), [Scattered Spider](https://attack.mitre.org/groups/G1015) used access to the victim's Azure tenant to create Azure VMs.(Citation: Crowdstrike TELCO BPO Campaign December 2022)\n\n[Scattered Spider](https://attack.mitre.org/groups/G1015) has also created Amazon EC2 instances within the victim's environment.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--cf1c2504-433f-4c4e-a1f8-91de45a0318c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1137,7 +833,6 @@
         "type": "relationship",
         "id": "relationship--f9234d49-433d-41b2-ac26-7e9c899e6076",
         "created": "2024-03-25T21:19:08.855Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -1145,18 +840,11 @@
                 "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-25T21:19:08.855Z",
         "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) Spider searches for credential storage documentation on a compromised host.(Citation: CISA Scattered Spider Advisory November 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1165,7 +853,6 @@
         "type": "relationship",
         "id": "relationship--fd6f5d49-889b-42df-b955-ddff0847f5bf",
         "created": "2024-03-26T19:29:34.700Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -1183,18 +870,11 @@
                 "url": "https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-26T19:29:34.700Z",
         "description": "During [C0027](https://attack.mitre.org/campaigns/C0027), [Scattered Spider](https://attack.mitre.org/groups/G1015) impersonated legitimate IT personnel in phone calls and text messages either to direct victims to a credential harvesting site or getting victims to run commercial remote monitoring and management (RMM) tools.(Citation: Crowdstrike TELCO BPO Campaign December 2022)\n\n[Scattered Spider](https://attack.mitre.org/groups/G1015) utilized social engineering to compel IT help desk personnel to reset passwords and MFA tokens.(Citation: CISA Scattered Spider Advisory November 2023)(Citation: MSTIC Octo Tempest Operations October 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
         "target_ref": "attack-pattern--c9e0c59e-162e-40a4-b8b1-78fab4329ada",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

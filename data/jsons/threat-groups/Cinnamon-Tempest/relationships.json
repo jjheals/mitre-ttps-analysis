@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--01eddb48-5116-494c-9d1c-2ace79b28530",
         "created": "2023-12-06T20:20:04.359Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -17,17 +15,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-22T18:42:14.656Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used [Impacket](https://attack.mitre.org/software/S0357) for lateral movement via WMI.(Citation: Microsoft Ransomware as a Service)(Citation: Sygnia Emperor Dragonfly October 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -36,8 +28,6 @@
         "type": "relationship",
         "id": "relationship--0577a90e-88f7-4b33-8dd2-f5e123f63be2",
         "created": "2023-12-06T20:24:36.108Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022",
@@ -50,17 +40,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-01-02T21:13:47.711Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used search order hijacking to launch [Cobalt Strike](https://attack.mitre.org/software/S0154) Beacons.(Citation: Microsoft Ransomware as a Service)(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022)\n",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -69,8 +53,6 @@
         "type": "relationship",
         "id": "relationship--0beeaf4e-f9cf-46af-9e2f-116fff614d5f",
         "created": "2023-12-21T21:14:46.067Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -78,17 +60,11 @@
                 "url": "https://blog.sygnia.co/revealing-emperor-dragonfly-a-chinese-ransomware-group"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-03T20:56:38.345Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has downloaded files, including [Cobalt Strike](https://attack.mitre.org/software/S0154), to compromised hosts.(Citation: Sygnia Emperor Dragonfly October 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -97,7 +73,6 @@
         "type": "relationship",
         "id": "relationship--1a0bc35b-cc76-487b-a1a7-71cbfb110f24",
         "created": "2023-12-07T19:55:06.169Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -105,18 +80,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-07T19:55:06.169Z",
         "description": " (Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -125,8 +93,6 @@
         "type": "relationship",
         "id": "relationship--24baf6e9-5d36-4503-a1c5-99b91220ed5b",
         "created": "2023-12-07T19:49:17.825Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -149,17 +115,11 @@
                 "url": "https://www.secureworks.com/research/threat-profiles/bronze-starlight"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-22T19:05:01.002Z",
         "description": " (Citation: Microsoft Ransomware as a Service)(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022)(Citation: Sygnia Emperor Dragonfly October 2022)(Citation: Dell SecureWorks BRONZE STARLIGHT Profile)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "malware--a545456a-f9a7-47ad-9ea6-8b017def38d1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -168,7 +128,6 @@
         "type": "relationship",
         "id": "relationship--3143fbc9-22cf-4278-a9cd-17be6389e375",
         "created": "2023-12-07T19:21:04.802Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -176,18 +135,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-07T19:21:04.802Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used Group Policy to deploy batch scripts for ransomware deployment.(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--5d2be8b9-d24c-4e98-83bf-2f5f79477163",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -196,8 +148,6 @@
         "type": "relationship",
         "id": "relationship--46bb2079-28aa-4f64-b2d8-fb111185e419",
         "created": "2023-12-21T21:31:21.790Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -205,17 +155,11 @@
                 "url": "https://blog.sygnia.co/revealing-emperor-dragonfly-a-chinese-ransomware-group"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-27T18:03:02.304Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has uploaded captured keystroke logs to the Alibaba Cloud Object Storage Service, Aliyun OSS.(Citation: Sygnia Emperor Dragonfly October 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -224,7 +168,6 @@
         "type": "relationship",
         "id": "relationship--4d2c6d2c-f2ae-4447-8ba7-53250207ace2",
         "created": "2023-12-22T19:05:51.777Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Dell SecureWorks BRONZE STARLIGHT Profile",
@@ -232,18 +175,11 @@
                 "url": "https://www.secureworks.com/research/threat-profiles/bronze-starlight"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-22T19:05:51.777Z",
         "description": "(Citation: Dell SecureWorks BRONZE STARLIGHT Profile)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -252,8 +188,6 @@
         "type": "relationship",
         "id": "relationship--508c012e-c578-472d-8225-51bc8c0dff87",
         "created": "2023-12-18T19:50:23.615Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -266,17 +200,11 @@
                 "url": "https://www.secureworks.com/research/bronze-starlight-ransomware-operations-use-hui-loader"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-01-02T21:11:12.056Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used open-source tools including customized versions of the Iox proxy tool, NPS tunneling tool, Meterpreter, and a keylogger that uploads data to Alibaba cloud storage.(Citation: Sygnia Emperor Dragonfly October 2022)(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -285,7 +213,6 @@
         "type": "relationship",
         "id": "relationship--525624eb-cb0e-48b4-aa53-725a33696c8c",
         "created": "2023-12-21T21:39:48.112Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -293,18 +220,11 @@
                 "url": "https://blog.sygnia.co/revealing-emperor-dragonfly-a-chinese-ransomware-group"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-21T21:39:48.112Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used compromised user accounts to deploy payloads and create system services.(Citation: Sygnia Emperor Dragonfly October 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -313,7 +233,6 @@
         "type": "relationship",
         "id": "relationship--5ab5888b-f8c0-4230-af14-990356437dd5",
         "created": "2023-12-07T19:58:44.633Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -321,18 +240,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-07T19:58:44.633Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has maintained leak sites for exfiltrated data in attempt to extort victims into paying a ransom.(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--851e071f-208d-4c79-adc6-5974c85c78f3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -341,7 +253,6 @@
         "type": "relationship",
         "id": "relationship--5b68c97c-8eb7-45eb-b2d2-a91bf0fff2a0",
         "created": "2024-04-03T21:00:51.393Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -349,18 +260,11 @@
                 "url": "https://blog.sygnia.co/revealing-emperor-dragonfly-a-chinese-ransomware-group"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-03T21:00:51.393Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used a customized version of the Iox port-forwarding and proxy tool.(Citation: Sygnia Emperor Dragonfly October 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -369,8 +273,6 @@
         "type": "relationship",
         "id": "relationship--6bbc5e8e-647a-41ba-bda2-e682d955d92c",
         "created": "2023-12-18T20:31:54.604Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -383,17 +285,11 @@
                 "url": "https://www.trendmicro.com/en_se/research/22/e/new-linux-based-ransomware-cheerscrypt-targets-exsi-devices.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-21T20:34:21.688Z",
         "description": "(Citation: Sygnia Emperor Dragonfly October 2022)(Citation: Trend Micro Cheerscrypt May 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "malware--5d3fa1db-5041-4560-b87b-8f61cc225c52",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -402,7 +298,6 @@
         "type": "relationship",
         "id": "relationship--6e478b50-57b3-418b-b866-8441be0036b6",
         "created": "2023-12-07T19:40:01.811Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -410,18 +305,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-07T19:40:01.811Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has obtained highly privileged credentials such as domain administrator in order to deploy malware.(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -430,8 +318,6 @@
         "type": "relationship",
         "id": "relationship--7bf7f711-823d-41b8-8e88-801f7fa98591",
         "created": "2023-12-06T20:11:27.545Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -454,17 +340,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-27T18:03:37.575Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has exploited multiple unpatched vulnerabilities for initial access including vulnerabilities in Microsoft Exchange, Manage Engine AdSelfService Plus, Confluence, and Log4j.(Citation: Microsoft Ransomware as a Service)(Citation: Microsoft Log4j Vulnerability Exploitation December 2021)(Citation: Sygnia Emperor Dragonfly October 2022)(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -473,7 +353,6 @@
         "type": "relationship",
         "id": "relationship--a0b1ab1f-9427-411a-9eba-649da629adaf",
         "created": "2023-12-06T20:27:39.758Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -481,18 +360,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-06T20:27:39.758Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used a customized version of the [Impacket](https://attack.mitre.org/software/S0357) wmiexec.py module to create renamed output files.(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -501,8 +373,6 @@
         "type": "relationship",
         "id": "relationship--ad9f56c2-efb9-421e-99f5-d82396f89440",
         "created": "2023-12-06T20:21:24.870Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -515,17 +385,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-21T21:44:00.419Z",
         "description": "(Citation: Microsoft Ransomware as a Service)(Citation: Sygnia Emperor Dragonfly October 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -534,7 +398,6 @@
         "type": "relationship",
         "id": "relationship--beee667c-c63d-48c9-86c1-54a50081199d",
         "created": "2023-12-21T21:18:28.732Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -542,18 +405,11 @@
                 "url": "https://blog.sygnia.co/revealing-emperor-dragonfly-a-chinese-ransomware-group"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-21T21:18:28.732Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used weaponized DLLs to load and decrypt payloads.(Citation: Sygnia Emperor Dragonfly October 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -562,7 +418,6 @@
         "type": "relationship",
         "id": "relationship--c6cf559e-1ead-4fba-9c61-72e33bae10e5",
         "created": "2023-12-22T18:38:01.889Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -570,18 +425,11 @@
                 "url": "https://blog.sygnia.co/revealing-emperor-dragonfly-a-chinese-ransomware-group"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-22T18:38:01.889Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used SMBexec for lateral movement.(Citation: Sygnia Emperor Dragonfly October 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -590,7 +438,6 @@
         "type": "relationship",
         "id": "relationship--c8cae681-d480-4b85-ba37-d3d3265c98c2",
         "created": "2023-12-21T21:35:36.488Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -598,18 +445,11 @@
                 "url": "https://blog.sygnia.co/revealing-emperor-dragonfly-a-chinese-ransomware-group"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-21T21:35:36.488Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used the Iox and NPS proxy and tunneling tools in combination  create multiple connections through a single tunnel.(Citation: Sygnia Emperor Dragonfly October 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -618,7 +458,6 @@
         "type": "relationship",
         "id": "relationship--d0952afb-ce2a-43ee-bb6d-8daf90ebbd36",
         "created": "2023-12-07T19:17:18.819Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -626,18 +465,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-07T19:17:18.819Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has deployed ransomware from a batch file in a network share.(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -646,8 +478,6 @@
         "type": "relationship",
         "id": "relationship--dc059a21-6a00-4b04-ac54-23f9a76f4f4b",
         "created": "2023-12-06T20:13:08.920Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -660,17 +490,11 @@
                 "url": "https://www.secureworks.com/research/threat-profiles/bronze-starlight"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-22T19:04:28.178Z",
         "description": "(Citation: Microsoft Ransomware as a Service)(Citation: Dell SecureWorks BRONZE STARLIGHT Profile)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -679,8 +503,6 @@
         "type": "relationship",
         "id": "relationship--e2f8a71a-a4ea-4976-b282-f2df342134e4",
         "created": "2024-01-02T19:08:35.096Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022",
@@ -693,17 +515,11 @@
                 "url": "https://www.secureworks.com/research/threat-profiles/bronze-starlight"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-01-03T19:29:01.310Z",
         "description": "(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022)(Citation: Dell SecureWorks BRONZE STARLIGHT Profile)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "malware--54089fba-8662-4f37-9a44-6ad25a5f630a",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -712,7 +528,6 @@
         "type": "relationship",
         "id": "relationship--e5f53e43-5b6a-480c-b770-85ca47b17050",
         "created": "2023-12-22T18:22:27.557Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -720,18 +535,11 @@
                 "url": "https://blog.sygnia.co/revealing-emperor-dragonfly-a-chinese-ransomware-group"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-22T18:22:27.557Z",
         "description": "(Citation: Sygnia Emperor Dragonfly October 2022)\n",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "tool--59096109-a1dd-463b-87e7-a8d110fe3a79",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -740,7 +548,6 @@
         "type": "relationship",
         "id": "relationship--e901a6ec-1cf6-4f13-aa2b-d2f997170a66",
         "created": "2023-12-21T21:43:01.857Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -748,18 +555,11 @@
                 "url": "https://blog.sygnia.co/revealing-emperor-dragonfly-a-chinese-ransomware-group"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-21T21:43:01.857Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has created system services to establish persistence for deployed tooling.(Citation: Sygnia Emperor Dragonfly October 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -768,7 +568,6 @@
         "type": "relationship",
         "id": "relationship--ea4025b3-fc68-4d6a-a1c7-a607d5759f44",
         "created": "2023-12-21T21:20:14.405Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -776,18 +575,11 @@
                 "url": "https://blog.sygnia.co/revealing-emperor-dragonfly-a-chinese-ransomware-group"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-21T21:20:14.405Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has abused legitimate executables to side-load weaponized DLLs.(Citation: Sygnia Emperor Dragonfly October 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -796,8 +588,6 @@
         "type": "relationship",
         "id": "relationship--ed25d74a-2536-4ffe-9dc4-b6ea8ae03b19",
         "created": "2023-12-21T21:12:29.644Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -805,17 +595,11 @@
                 "url": "https://blog.sygnia.co/revealing-emperor-dragonfly-a-chinese-ransomware-group"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-21T21:13:26.148Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used PowerShell to communicate with C2, download files, and execute reconnaissance commands.(Citation: Sygnia Emperor Dragonfly October 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -824,8 +608,6 @@
         "type": "relationship",
         "id": "relationship--f751a3d3-1fe5-4be9-8a01-511481458f7f",
         "created": "2024-04-03T20:55:29.732Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -833,17 +615,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-17T13:03:19.854Z",
         "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has executed ransomware using batch scripts deployed via GPO.(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

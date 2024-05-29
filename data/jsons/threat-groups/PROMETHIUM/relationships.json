@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--34ebfdf4-ef2c-4a6c-8bfa-69704d8f7694",
         "type": "relationship",
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://blogs.technet.microsoft.com/mmpc/2016/12/14/twin-zero-day-attacks-promethium-and-neodymium-target-individuals-in-europe/",
@@ -22,22 +20,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
         "target_ref": "malware--691c60e2-273d-4d56-9ce6-b67e0f8719ad",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--49be75c9-8484-492e-9ebc-f81d2e203e4e",
         "type": "relationship",
         "created": "2020-07-28T17:59:34.649Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Promethium June 2020",
@@ -55,22 +45,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4ac5b593-8f47-46cc-9af3-fcb0eb20f66e",
         "type": "relationship",
         "created": "2020-10-15T02:02:39.748Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender StrongPity June 2020",
@@ -83,22 +65,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
         "target_ref": "attack-pattern--34b3f738-bd64-40e5-a112-29b0542bc8bf",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--56e4bdb5-a57a-463a-a396-7bed2eb6893e",
         "type": "relationship",
         "created": "2020-07-28T18:16:41.740Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender StrongPity June 2020",
@@ -111,22 +85,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
         "target_ref": "attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--66e5238f-c1f7-4094-8c2e-e8e41a4c12f3",
         "type": "relationship",
         "created": "2020-10-15T01:57:09.092Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Promethium June 2020",
@@ -139,22 +105,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
         "target_ref": "attack-pattern--1cec9319-743b-4840-bb65-431547bce82a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--788d02cb-7a20-4115-9428-b55e598374ce",
         "type": "relationship",
         "created": "2020-07-28T17:59:34.602Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Promethium June 2020",
@@ -167,22 +125,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--875a622a-445e-46fe-8959-8d205c88c728",
         "type": "relationship",
         "created": "2020-07-30T18:52:23.886Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender StrongPity June 2020",
@@ -195,22 +145,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
         "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--92348457-3761-4298-aedc-14fa7fd4810c",
         "type": "relationship",
         "created": "2020-07-28T17:59:34.643Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Promethium June 2020",
@@ -228,22 +170,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a5b0b3ae-737a-4f2b-bbe9-23ca214eb733",
         "type": "relationship",
         "created": "2020-07-30T13:32:16.170Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos Promethium June 2020",
@@ -261,22 +195,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
         "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b2f7a2e7-5a72-4ace-b1de-121a8db809d8",
         "type": "relationship",
         "created": "2020-07-28T17:59:34.605Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender StrongPity June 2020",
@@ -289,22 +215,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
         "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b92d6b45-e211-4168-ac32-80427bf1b9d2",
         "type": "relationship",
         "created": "2020-07-28T18:16:41.733Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender StrongPity June 2020",
@@ -317,22 +235,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
         "target_ref": "attack-pattern--8868cb5b-d575-4a60-acb2-07d37389a2fd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bc4252e5-6a2a-443e-9a31-16d86f4f069b",
         "type": "relationship",
         "created": "2020-07-28T18:20:56.624Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender StrongPity June 2020",
@@ -350,22 +260,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
         "target_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e898946c-2c9d-4bf4-9253-67acfadc5b0a",
         "type": "relationship",
         "created": "2020-07-28T17:59:34.589Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Bitdefender StrongPity June 2020",
@@ -378,22 +280,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--f372697e-b661-4995-9920-4ec0a9060ebb",
         "created": "2024-03-28T18:01:08.468Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Talos Promethium June 2020",
@@ -406,17 +300,11 @@
                 "url": "https://www.bitdefender.com/files/News/CaseStudies/study/353/Bitdefender-Whitepaper-StrongPity-APT.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-03-28T18:35:45.577Z",
         "description": "(Citation: Talos Promethium June 2020)(Citation: Bitdefender StrongPity June 2020)",
         "relationship_type": "attributed-to",
         "source_ref": "campaign--a82bc5ad-5f95-4c6a-9f25-aaf6f476a3c4",
         "target_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

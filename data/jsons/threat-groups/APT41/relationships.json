@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--0528b64e-e719-44a9-94aa-0576bd9a87ec",
         "created": "2019-09-23T23:08:25.267Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -17,17 +15,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.501Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used compromised credentials to log on to other systems.(Citation: FireEye APT41 Aug 2019)(Citation: Crowdstrike GTR2020 Mar 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -36,8 +28,6 @@
         "type": "relationship",
         "id": "relationship--0f9f9bd3-ccea-4369-b8e7-371d1aad5ff8",
         "created": "2024-02-22T22:48:25.135Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -45,17 +35,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-03T19:42:07.771Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) uses multiple built-in commands such as <code>systeminfo</code> and `net config Workstation` to enumerate victim system basic configuration information.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -64,8 +48,6 @@
         "type": "relationship",
         "id": "relationship--10d118e8-c421-486f-a56a-bbe1ed621c62",
         "created": "2019-09-23T22:53:30.259Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -73,17 +55,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.502Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) gained access to production environments where they could inject malicious code into legitimate, signed files and widely distribute them to end users.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -92,8 +68,6 @@
         "type": "relationship",
         "id": "relationship--15d39425-c748-442e-a8d0-de8ab3668cdd",
         "created": "2019-09-23T23:18:23.721Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -101,17 +75,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.502Z",
         "description": "(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--56f46b17-8cfa-46c0-b501-dd52fef394e2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -120,7 +88,6 @@
         "type": "relationship",
         "id": "relationship--166836f7-8e31-4b80-bcab-61382bc79ad0",
         "created": "2024-02-22T22:49:23.986Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -128,18 +95,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-22T22:49:23.986Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used <code>net group</code> commands to enumerate various Windows user groups and permissions.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -148,8 +108,6 @@
         "type": "relationship",
         "id": "relationship--19552766-c41f-485a-9da2-52d42ba44d56",
         "created": "2024-02-22T22:30:26.755Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -157,17 +115,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-03T19:19:00.904Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) developed a custom injector that enables an Event Tracing for Windows (ETW) bypass, making malicious processes invisible to Windows logging.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--74d2a63f-3c7b-4852-92da-02d8fbab16da",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -176,8 +128,6 @@
         "type": "relationship",
         "id": "relationship--19617b2d-8f3d-4016-9253-ae78128d921b",
         "created": "2024-02-22T21:28:58.332Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -185,17 +135,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-03T19:10:47.193Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) leverages various tools and frameworks to brute-force directories on web servers.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--bed04f7d-e48a-4e76-bd0f-4c57fe31fc46",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -204,8 +148,6 @@
         "type": "relationship",
         "id": "relationship--1aaecef9-d21a-420c-a6c0-53cca7a5e5d8",
         "created": "2019-09-23T22:53:30.177Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -218,17 +160,11 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2020/03/apt41-initiates-global-intrusion-campaign-using-multiple-exploits.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.503Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) leveraged PowerShell to deploy malware families in victims\u2019 environments.(Citation: FireEye APT41 Aug 2019)(Citation: FireEye APT41 March 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -237,8 +173,6 @@
         "type": "relationship",
         "id": "relationship--1be07717-ad08-4364-9a58-b44a95a389a5",
         "created": "2019-09-23T22:40:08.966Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -251,27 +185,19 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.503Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) deployed rootkits on Linux systems.(Citation: FireEye APT41 Aug 2019)(Citation: Crowdstrike GTR2020 Mar 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--202e5e50-09e4-431b-a786-d846beb5e009",
         "type": "relationship",
         "created": "2020-04-28T14:51:08.671Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -284,21 +210,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "tool--64764dc6-a032-495f-8250-1e4c06bdc163",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--20710360-f3dd-4445-8a48-a2c905abdcdc",
         "created": "2024-02-22T22:47:02.148Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -306,18 +225,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-22T22:47:02.148Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used built-in <code>net</code> commands to enumerate domain administrator users.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -326,8 +238,6 @@
         "type": "relationship",
         "id": "relationship--22af1cbd-a7fd-4d9f-ba15-d640c217603e",
         "created": "2019-09-23T23:18:23.730Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -335,17 +245,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.504Z",
         "description": "(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -354,7 +258,6 @@
         "type": "relationship",
         "id": "relationship--23b9cf45-fbd6-49b9-892d-6f3b1de18f9f",
         "created": "2024-02-22T22:40:11.136Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -362,18 +265,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-22T22:40:11.136Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used BrowserGhost, a tool designed to obtain credentials from browsers, to retrieve information from password stores.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -382,8 +278,6 @@
         "type": "relationship",
         "id": "relationship--285baef5-e948-4e56-a078-5e7f5e7404fd",
         "created": "2019-09-23T22:53:30.182Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -396,17 +290,11 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.849Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) attempted to masquerade their files as popular anti-virus software.(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -415,8 +303,6 @@
         "type": "relationship",
         "id": "relationship--29cd1209-5e90-448f-83d3-42c3ecdd1f70",
         "created": "2019-09-23T23:08:25.450Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -434,17 +320,11 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.849Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) modified legitimate Windows services to install malware backdoors.(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021) [APT41](https://attack.mitre.org/groups/G0096) created the StorSyncSvc service to provide persistence for Cobalt Strike.(Citation: FireEye APT41 March 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -453,8 +333,6 @@
         "type": "relationship",
         "id": "relationship--2b7fec10-a19a-4003-840d-6bb597a36042",
         "created": "2024-02-22T21:38:14.655Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -462,27 +340,19 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-03T19:48:32.392Z",
         "description": "To support initial access, [APT41](https://attack.mitre.org/groups/G0096) gained access to databases with information about existing accounts as well as plaintext and hashed passwords.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--bc76d0a4-db11-4551-9ac4-01a469cfb161",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2cd69fd0-d5ad-41db-aaee-fd58e46bfaaa",
         "type": "relationship",
         "created": "2020-04-28T13:48:00.660Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -495,21 +365,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--9a60a291-8960-4387-8a4a-2ab5c18bb50b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--2ff57c5f-523f-41f0-a6d4-676b939b561a",
         "created": "2024-02-22T22:20:10.541Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -517,18 +380,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-22T22:20:10.541Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) uses packers such as Themida to obfuscate malicious files.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -537,8 +393,6 @@
         "type": "relationship",
         "id": "relationship--3213e4e5-c3e4-4d51-8dce-929248f2882b",
         "created": "2019-09-23T22:31:33.497Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -551,17 +405,11 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.850Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) leveraged code-signing certificates to sign malware when targeting both gaming and non-gaming organizations.(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -570,7 +418,6 @@
         "type": "relationship",
         "id": "relationship--3557761c-5583-48a8-b7a0-0587df3d01bd",
         "created": "2024-02-22T21:30:48.136Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -578,18 +425,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-22T21:30:48.136Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) uses the Chinese website fofa.su, similar to the Shodan scanning service, for passive scanning of victims.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--ec4be82f-940c-4dcb-87fe-2bbdd17c692f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -598,8 +438,6 @@
         "type": "relationship",
         "id": "relationship--35f5f7b9-8b86-4390-9f99-1d56aa1ae32a",
         "created": "2021-10-12T20:52:42.758Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -607,17 +445,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.508Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) has obtained and used tools such as [Mimikatz](https://attack.mitre.org/software/S0002), [pwdump](https://attack.mitre.org/software/S0006), [PowerSploit](https://attack.mitre.org/software/S0194), and [Windows Credential Editor](https://attack.mitre.org/software/S0005).(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -626,8 +458,6 @@
         "type": "relationship",
         "id": "relationship--373f6762-cda6-4ce7-894f-cac31a09a98b",
         "created": "2023-03-06T21:15:52.087Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -635,17 +465,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.509Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) has added user accounts to the User and Admin groups.(Citation: FireEye APT41 Aug 2019) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -654,8 +478,6 @@
         "type": "relationship",
         "id": "relationship--37e520de-fe38-450b-a30e-3372f7ff3a4f",
         "created": "2019-09-23T23:14:16.684Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -663,27 +485,19 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.510Z",
         "description": "(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--39808511-28ac-4cff-b6b4-49d996855e8a",
         "type": "relationship",
         "created": "2020-12-22T17:48:21.024Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -696,21 +510,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--3c85b200-47a1-49d6-af74-055699f355e5",
         "created": "2024-04-03T19:49:18.391Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -718,18 +525,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-03T19:49:18.391Z",
         "description": "To support initial access, [APT41](https://attack.mitre.org/groups/G0096) gained access to databases with information about existing accounts and lists of employees.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--76551c52-b111-4884-bc47-ff3e728f0156",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -738,8 +538,6 @@
         "type": "relationship",
         "id": "relationship--3f27ef2a-48e8-4d37-8618-fe61dfcafd3e",
         "created": "2019-09-23T23:14:16.750Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -747,17 +545,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.510Z",
         "description": "(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -766,8 +558,6 @@
         "type": "relationship",
         "id": "relationship--410d7922-e288-49ea-9607-27942505a416",
         "created": "2019-09-24T12:31:43.511Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -775,17 +565,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.511Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) has created user accounts.(Citation: FireEye APT41 Aug 2019) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--635cbe30-392d-4e27-978e-66774357c762",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -794,8 +578,6 @@
         "type": "relationship",
         "id": "relationship--48132286-7b7d-42cf-956b-95c75eeff1e3",
         "created": "2019-09-23T22:40:08.989Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -803,17 +585,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.512Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) deployed Master Boot Record bootkits on Windows systems to hide their malware and maintain persistence on victim systems.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -822,8 +598,6 @@
         "type": "relationship",
         "id": "relationship--48c34dc3-0c3f-426d-b99a-b72e595da287",
         "created": "2019-09-23T23:14:16.667Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -831,17 +605,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.514Z",
         "description": "(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -850,7 +618,6 @@
         "type": "relationship",
         "id": "relationship--49f2ec3b-a9bf-48c3-b3f0-a80a0d70a2ac",
         "created": "2024-02-22T22:46:20.423Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -858,28 +625,19 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-22T22:46:20.423Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used built-in <code>net</code> commands to enumerate local administrator groups.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4aa86179-d9e9-43dd-b2a2-75e77a832150",
         "type": "relationship",
         "created": "2020-05-01T13:57:23.349Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -892,22 +650,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--4cbd1250-5e79-46c0-b38f-83bd5942f44c",
         "created": "2019-09-23T23:08:25.342Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -915,17 +665,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.515Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) attempted to remove evidence of some of its activity by clearing Windows security and system events.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -934,8 +678,6 @@
         "type": "relationship",
         "id": "relationship--4d1d7045-4492-492c-9522-2885d6bd96f6",
         "created": "2019-09-24T13:01:20.471Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -943,17 +685,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.516Z",
         "description": "(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--cfc75b0d-e579-40ae-ad07-a1ce00d49a6c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -962,8 +698,6 @@
         "type": "relationship",
         "id": "relationship--4f6e677d-427b-4342-b35c-57f4f3ad4ff8",
         "created": "2019-09-24T12:53:12.511Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -976,27 +710,19 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.851Z",
         "description": " [APT41](https://attack.mitre.org/groups/G0096) used the <code>net share</code> command as part of network reconnaissance.(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5212a108-111b-4467-84c9-933d2b84aad2",
         "type": "relationship",
         "created": "2020-06-24T00:51:25.879Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Twitter ItsReallyNick APT41 EK",
@@ -1009,22 +735,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--f244b8dd-af6c-4391-a497-fc03627ce995",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--52964a10-308f-4661-9081-77f1d3af1f3e",
         "created": "2024-02-22T21:27:20.179Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -1032,17 +750,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-03T19:12:36.227Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used the Acunetix SQL injection vulnerability scanner in target reconnaissance operations, as well as the JexBoss tool to identify vulnerabilities in Java applications.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1051,8 +763,6 @@
         "type": "relationship",
         "id": "relationship--54f6c1c8-f3c7-44a6-9a00-2195e03cf0ae",
         "created": "2021-10-08T19:01:06.111Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Group IB APT 41 June 2021",
@@ -1060,17 +770,11 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.852Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) has uploaded files and data from a compromised host.(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1079,7 +783,6 @@
         "type": "relationship",
         "id": "relationship--555b9de4-84c6-44f1-a6e6-b04a7e4ed374",
         "created": "2022-12-12T15:55:58.323Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant APT41",
@@ -1087,18 +790,11 @@
                 "url": "https://www.mandiant.com/resources/apt41-us-state-governments"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-12T15:55:58.323Z",
         "description": "(Citation: Mandiant APT41)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--6c575670-d14c-4c7f-9b9d-fd1b363e255d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1107,8 +803,6 @@
         "type": "relationship",
         "id": "relationship--556f8dd8-50e0-4115-9815-c20bfc2b915a",
         "created": "2019-09-23T22:53:30.248Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1116,17 +810,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.518Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) compromised an online billing/payment service using VPN access between a third-party service provider and the targeted payment service.(Citation: FireEye APT41 Aug 2019)\n",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1135,8 +823,6 @@
         "type": "relationship",
         "id": "relationship--56b47ce2-9baa-421b-9187-c780615b97de",
         "created": "2019-09-24T12:42:37.500Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1149,17 +835,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-22T22:25:48.150Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) deleted files from the system.(Citation: FireEye APT41 Aug 2019)(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1168,8 +848,6 @@
         "type": "relationship",
         "id": "relationship--5bfd02aa-acc6-47a0-8867-d7962ce775f6",
         "created": "2019-09-24T12:31:43.884Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1182,17 +860,11 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.852Z",
         "description": "(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "tool--b77b563c-34bb-4fb8-86a3-3694338f7b47",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1201,8 +873,6 @@
         "type": "relationship",
         "id": "relationship--6160a359-35cc-4bbe-ac29-500f2751ed4b",
         "created": "2019-09-23T22:53:30.245Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1210,17 +880,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.521Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) sent spearphishing emails with attachments such as compiled HTML (.chm) files to initially compromise their victims.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1229,8 +893,6 @@
         "type": "relationship",
         "id": "relationship--66d42126-d337-4a00-ae35-d8af7203a6eb",
         "created": "2020-05-01T14:48:36.806Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1238,17 +900,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.524Z",
         "description": "(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1257,8 +913,6 @@
         "type": "relationship",
         "id": "relationship--694d94db-3297-4be1-ab01-7b574ee5f4e5",
         "created": "2021-08-26T13:58:41.692Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Group IB APT 41 June 2021",
@@ -1266,17 +920,11 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.853Z",
         "description": "(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1285,8 +933,6 @@
         "type": "relationship",
         "id": "relationship--6a653820-adc1-4068-ab78-9165f2a2c5c1",
         "created": "2019-09-23T23:08:25.455Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -1299,17 +945,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.525Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used a compromised account to create a scheduled task on a system.(Citation: FireEye APT41 Aug 2019)(Citation: Crowdstrike GTR2020 Mar 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1318,8 +958,6 @@
         "type": "relationship",
         "id": "relationship--6ad8e998-041f-491d-8691-4990022248e0",
         "created": "2019-09-23T23:08:25.339Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1337,17 +975,11 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.855Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) created and modified startup files for persistence.(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021) [APT41](https://attack.mitre.org/groups/G0096) added a registry key in <code>HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Svchost</code> to establish persistence for Cobalt Strike.(Citation: FireEye APT41 March 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1356,7 +988,6 @@
         "type": "relationship",
         "id": "relationship--6ef0dcc3-19d3-42be-b842-942790e4a07f",
         "created": "2024-02-22T21:39:00.691Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -1364,18 +995,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-22T21:39:00.691Z",
         "description": "(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "tool--9a2640c2-9f43-46fe-b13f-bde881e55555",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1384,8 +1008,6 @@
         "type": "relationship",
         "id": "relationship--728c2a84-ac7d-4b17-a287-4c692d717065",
         "created": "2019-09-23T22:53:30.175Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1393,17 +1015,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.527Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) leveraged sticky keys to establish persistence.(Citation: FireEye APT41 Aug 2019) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--70e52b04-2a0c-4cea-9d18-7149f1df9dc5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1412,8 +1028,6 @@
         "type": "relationship",
         "id": "relationship--734251a0-1a99-48f5-8b37-192a657a430e",
         "created": "2019-09-23T23:14:16.670Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1421,17 +1035,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.528Z",
         "description": "(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1440,8 +1048,6 @@
         "type": "relationship",
         "id": "relationship--79189147-fe44-4ce0-8afb-9b95f8ce16df",
         "created": "2021-03-23T20:54:38.951Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1454,17 +1060,11 @@
                 "url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-0228.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.529Z",
         "description": "(Citation: FireEye APT41 Aug 2019)(Citation: Recorded Future RedEcho Feb 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1473,8 +1073,6 @@
         "type": "relationship",
         "id": "relationship--79958036-a8bf-4808-af4f-f9f7a9cb6e7c",
         "created": "2019-09-23T22:53:30.129Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1482,17 +1080,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.530Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) performed password brute-force attacks on the local admin account.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--1d24cdee-9ea2-4189-b08e-af110bf2435d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1501,7 +1093,6 @@
         "type": "relationship",
         "id": "relationship--7aa9c0cc-ce50-4975-9023-258a42270d22",
         "created": "2024-02-23T20:43:04.987Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -1509,28 +1100,19 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-23T20:43:04.987Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) uses tools such as [Mimikatz](https://attack.mitre.org/software/S0002) to enable lateral movement via captured password hashes.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7f9fe6d5-79ba-44ca-bf19-c980e5c2fc11",
         "type": "relationship",
         "created": "2020-12-22T17:48:21.017Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -1543,22 +1125,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--633a100c-b2c9-41bf-9be5-905c1b16c825",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--81a15403-9bb3-408a-8da6-97c64209c829",
         "created": "2019-09-23T23:08:25.407Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1571,17 +1145,11 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2020/03/apt41-initiates-global-intrusion-campaign-using-multiple-exploits.html"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.532Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used <code>cmd.exe /c</code> to execute commands on remote machines.(Citation: FireEye APT41 Aug 2019)\n[APT41](https://attack.mitre.org/groups/G0096) used a batch file to install persistence for the [Cobalt Strike](https://attack.mitre.org/software/S0154) BEACON loader.(Citation: FireEye APT41 March 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1590,7 +1158,6 @@
         "type": "relationship",
         "id": "relationship--81a6f575-386c-4d8f-ac6c-fa293141eb60",
         "created": "2024-02-22T22:39:03.833Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -1598,18 +1165,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-22T22:39:03.833Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) extracted user account data from the Security Account Managerr (SAM), making a copy of this database from the registry using the <code>reg save</code> command or by exploiting volume shadow copies.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1618,8 +1178,6 @@
         "type": "relationship",
         "id": "relationship--8488f2ee-be97-458c-894b-830add635fa8",
         "created": "2019-09-23T22:53:30.257Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1627,17 +1185,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.533Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) has used DGAs to change their C2 servers monthly.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--118f61a5-eb3e-4fb6-931f-2096647f4ecd",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1646,8 +1198,6 @@
         "type": "relationship",
         "id": "relationship--84dc2fd1-a443-4ce6-866a-c58cffc1b0f3",
         "created": "2020-05-01T13:57:23.341Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -1660,17 +1210,11 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.858Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used  svchost.exe and [Net](https://attack.mitre.org/software/S0039) to execute a system service installed to launch a [Cobalt Strike](https://attack.mitre.org/software/S0154) BEACON loader.(Citation: FireEye APT41 March 2020)(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1679,8 +1223,6 @@
         "type": "relationship",
         "id": "relationship--873faf92-be75-47e5-bf3e-b389a5bdc020",
         "created": "2019-09-24T12:31:43.561Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1693,17 +1235,11 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.859Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used DNS for C2 communications.(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1712,8 +1248,6 @@
         "type": "relationship",
         "id": "relationship--883558d8-c445-45cf-a5cd-841fdf49f311",
         "created": "2019-09-23T22:53:30.163Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1721,17 +1255,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.534Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used a malware variant called WIDETONE to conduct port scans on specified subnets.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1740,8 +1268,6 @@
         "type": "relationship",
         "id": "relationship--89328749-11c5-416d-99b9-f3039afc487a",
         "created": "2019-09-23T23:08:25.350Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1749,27 +1275,19 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.534Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) created a RAR archive of targeted files for exfiltration.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--898211c4-915c-469f-be47-321d2d44af90",
         "type": "relationship",
         "created": "2020-12-22T17:48:21.059Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -1782,22 +1300,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--95a4d32c-7705-4527-abd8-9d2aca70dbc0",
         "type": "relationship",
         "created": "2020-05-12T14:07:23.123Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye MESSAGETAP October 2019",
@@ -1815,22 +1325,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--9b19d6b4-cfcb-492f-8ca8-8449e7331573",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--964a9222-6e88-4850-89cc-6fc0f10ee4c9",
         "created": "2019-09-23T23:08:25.400Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1838,17 +1340,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.534Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used legitimate websites for C2 through dead drop resolvers (DDR), including GitHub, Pastebin, and Microsoft TechNet.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--f7827069-0bf2-4764-af4f-23fae0d181b7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1857,8 +1353,6 @@
         "type": "relationship",
         "id": "relationship--97775c58-7cb1-46e0-9504-e60a459e44d0",
         "created": "2019-09-24T12:31:43.687Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1866,17 +1360,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.535Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used the Steam community page as a fallback mechanism for C2.(Citation: FireEye APT41 Aug 2019) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1885,7 +1373,6 @@
         "type": "relationship",
         "id": "relationship--990a03f8-5813-4fa8-b948-976730d4d285",
         "created": "2022-12-01T15:42:30.462Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant APT41",
@@ -1893,18 +1380,11 @@
                 "url": "https://www.mandiant.com/resources/apt41-us-state-governments"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-12-01T15:42:30.462Z",
         "description": "(Citation: Mandiant APT41)",
         "relationship_type": "attributed-to",
         "source_ref": "campaign--ba6dfa37-f401-4140-88b0-8938f2895e61",
         "target_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1913,8 +1393,6 @@
         "type": "relationship",
         "id": "relationship--9be3defb-cc1d-4d8f-b0a8-bc153b0f1947",
         "created": "2019-09-23T23:14:16.736Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1927,27 +1405,19 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.863Z",
         "description": "(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9cdb5a1a-a68f-4ee2-a807-ba4c0ae8e436",
         "type": "relationship",
         "created": "2020-04-28T13:48:00.947Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -1960,22 +1430,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--9ebc2d8a-a945-4b5d-805f-56e16bcc6676",
         "created": "2019-09-23T23:08:25.395Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -1983,17 +1445,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.535Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) deployed a Monero cryptocurrency mining tool in a victim\u2019s environment.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2002,7 +1458,6 @@
         "type": "relationship",
         "id": "relationship--a4b332b2-1cad-4403-a101-4203238ffdbf",
         "created": "2024-02-22T22:34:02.422Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -2010,18 +1465,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-22T22:34:02.422Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used ntdsutil to obtain a copy of the victim environment <code>ntds.dit</code> file.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2030,8 +1478,6 @@
         "type": "relationship",
         "id": "relationship--a70bd01d-1d79-44e7-afe4-3a83e5a8d70c",
         "created": "2019-09-24T12:53:12.486Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2044,27 +1490,19 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.865Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) has enumerated IP addresses of network resources and used the <code>netstat</code> command as part of network reconnaissance. The group has also used a malware variant, HIGHNOON, to enumerate active RDP sessions.(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a8b93875-6ad4-492e-afa1-0549ada7d7ca",
         "type": "relationship",
         "created": "2020-04-30T20:31:38.012Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -2077,22 +1515,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--a9d4b653-6915-42af-98b2-5758c4ceee56",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--ac612e35-03c6-4b14-9348-dea8119c593a",
         "created": "2019-09-23T23:14:16.675Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2100,17 +1530,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.536Z",
         "description": "(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--d906e6f7-434c-44c0-b51a-ed50af8f7945",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2119,8 +1543,6 @@
         "type": "relationship",
         "id": "relationship--acfaf7ec-7b92-40ec-a844-17089791a663",
         "created": "2019-09-23T23:08:25.404Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2128,17 +1550,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.537Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used a ransomware called Encryptor RaaS to encrypt files on the targeted systems and provide a ransom note to the user.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2147,8 +1563,6 @@
         "type": "relationship",
         "id": "relationship--ad3eae0f-becd-4ed8-94cf-40a4e1a06a9d",
         "created": "2019-09-24T12:42:37.642Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2156,17 +1570,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.537Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used legitimate executables to perform DLL side-loading of their malware.(Citation: FireEye APT41 Aug 2019) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2175,8 +1583,6 @@
         "type": "relationship",
         "id": "relationship--adc6b431-0722-4287-8f37-e09ddb5b25fe",
         "created": "2019-09-24T12:31:43.557Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2189,17 +1595,11 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.867Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) collected MAC addresses from victim machines.(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2208,8 +1608,6 @@
         "type": "relationship",
         "id": "relationship--ae12b657-a640-40c6-99b7-931ed10705de",
         "created": "2019-09-23T23:08:25.336Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2222,17 +1620,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-03T19:37:38.102Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) has executed <code>whoami</code> commands, including using the WMIEXEC utility to execute this on remote machines.(Citation: FireEye APT41 Aug 2019)(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2241,8 +1633,6 @@
         "type": "relationship",
         "id": "relationship--b42c23c9-99f4-4b1f-91e2-a945a119fe98",
         "created": "2020-04-28T13:48:00.518Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -2265,27 +1655,19 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-22T21:34:38.754Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used [certutil](https://attack.mitre.org/software/S0160) to download additional files.(Citation: FireEye APT41 March 2020)(Citation: Crowdstrike GTR2020 Mar 2020)(Citation: Group IB APT 41 June 2021) [APT41](https://attack.mitre.org/groups/G0096) downloaded post-exploitation tools such as [Cobalt Strike](https://attack.mitre.org/software/S0154) via command shell following initial access.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b4e20afc-56a8-4a05-8f73-076b17e3794e",
         "type": "relationship",
         "created": "2020-12-22T17:48:21.495Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -2298,22 +1680,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--b6f1f9f1-05d9-4ac6-b191-404443430b2b",
         "created": "2020-11-06T18:40:38.468Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -2326,17 +1700,11 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.868Z",
         "description": "(Citation: FireEye APT41 March 2020)(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2345,8 +1713,6 @@
         "type": "relationship",
         "id": "relationship--b98ed6ce-be41-4388-ac56-35b4e2a0bbe6",
         "created": "2019-09-23T23:14:16.692Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2354,17 +1720,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.540Z",
         "description": "(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "tool--9de2308e-7bed-43a3-8e58-f194b3586700",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2373,8 +1733,6 @@
         "type": "relationship",
         "id": "relationship--bcbc885e-c1ae-4e69-a72c-22900403bae3",
         "created": "2019-09-24T12:53:12.462Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2382,17 +1740,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.541Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) leveraged the follow exploits in their operations: CVE-2012-0158, CVE-2015-1641, CVE-2017-0199, CVE-2017-11882, and CVE-2019-3396.(Citation: FireEye APT41 Aug 2019) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2401,8 +1753,6 @@
         "type": "relationship",
         "id": "relationship--c4c08678-eee9-475c-9a67-67b15278ec54",
         "created": "2019-09-24T12:31:43.693Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2410,17 +1760,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.541Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used compiled HTML (.chm) files for targeting.(Citation: FireEye APT41 Aug 2019) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--a6937325-9321-4e2e-bb2b-3ed2d40b2a9d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2429,8 +1773,6 @@
         "type": "relationship",
         "id": "relationship--c616ad2c-cfa1-4629-8f84-f102c7bc8d09",
         "created": "2019-09-23T23:14:16.658Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2438,17 +1780,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.542Z",
         "description": "(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--d69c8146-ab35-4d50-8382-6fc80e641d43",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2457,8 +1793,6 @@
         "type": "relationship",
         "id": "relationship--c8475b1b-c98f-4fdc-89dd-c9b04e6fbd9c",
         "created": "2019-09-23T23:08:25.347Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2471,17 +1805,11 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.869Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used a malware variant called GOODLUCK to modify the registry in order to steal credentials.(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2490,8 +1818,6 @@
         "type": "relationship",
         "id": "relationship--cb0931f7-4d6c-4f21-95a8-fd9d74ba30e0",
         "created": "2019-09-23T22:53:30.251Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2499,17 +1825,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.543Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used a tool called CLASSFON to covertly proxy network communications.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2518,8 +1838,6 @@
         "type": "relationship",
         "id": "relationship--cbbbc655-e5a7-40e9-be62-7f29727b9f0c",
         "created": "2019-09-23T22:53:30.172Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2532,17 +1850,11 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.871Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) has used hashdump, [Mimikatz](https://attack.mitre.org/software/S0002), and the Windows Credential Editor to dump password hashes from memory and authenticate to other user accounts.(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2551,7 +1863,6 @@
         "type": "relationship",
         "id": "relationship--d0f0a908-c1d6-4783-8396-2137ced13603",
         "created": "2024-02-23T20:49:51.895Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -2559,18 +1870,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-23T20:49:51.895Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) cloned victim user Git repositories during intrusions.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--cff94884-3b1c-4987-a70b-6d5643c621c3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2579,8 +1883,6 @@
         "type": "relationship",
         "id": "relationship--d12978f9-a02b-4be1-9e21-f2050e28ddb8",
         "created": "2019-09-23T23:14:16.753Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2588,27 +1890,19 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.550Z",
         "description": "(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--cba78a1c-186f-4112-9e6a-be1839f030f7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d316289b-26fa-49d7-8ed0-3fa56cc858b7",
         "type": "relationship",
         "created": "2020-04-28T13:48:00.555Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -2626,21 +1920,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--c8e87b83-edbb-48d4-9295-4974897525b7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--d4e65cc4-3cd3-4d0e-b3b5-09fd12c659bf",
         "created": "2024-02-22T22:55:59.809Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -2648,28 +1935,19 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-22T22:55:59.809Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) queried registry values to determine items such as configured RDP ports and network configurations.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d9416afb-0aeb-4ee3-bd96-dc331f40f37d",
         "type": "relationship",
         "created": "2020-04-30T20:31:37.999Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -2682,22 +1960,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--e0c1c9b9-b36e-4157-8dc1-26cd9ae25193",
         "created": "2019-09-24T12:31:43.678Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2705,17 +1975,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.550Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) malware TIDYELF loaded the main WINTERLOVE component by injecting it into the iexplore.exe process.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2724,7 +1988,6 @@
         "type": "relationship",
         "id": "relationship--e1f948d0-7627-408c-a2c9-669e30e43782",
         "created": "2023-01-04T18:57:43.336Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant APT41",
@@ -2732,18 +1995,11 @@
                 "url": "https://www.mandiant.com/resources/apt41-us-state-governments"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-01-04T18:57:43.336Z",
         "description": "(Citation: Mandiant APT41)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "tool--38952eac-cb1b-4a71-bad2-ee8223a1c8fe",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2752,8 +2008,6 @@
         "type": "relationship",
         "id": "relationship--e7bcc9e7-d373-4b1e-a664-886c4fc04bc5",
         "created": "2019-09-23T22:53:30.167Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -2766,17 +2020,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.551Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used RDP for lateral movement.(Citation: FireEye APT41 Aug 2019)(Citation: Crowdstrike GTR2020 Mar 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2785,8 +2033,6 @@
         "type": "relationship",
         "id": "relationship--e7fc5a89-f5a7-432f-a885-6b9532153e7e",
         "created": "2020-04-28T13:48:00.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -2799,17 +2045,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-22T21:32:20.882Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) exploited CVE-2020-10189 against Zoho ManageEngine Desktop Central through unsafe deserialization, and CVE-2019-19781 to compromise Citrix Application Delivery Controllers (ADC) and gateway devices.(Citation: FireEye APT41 March 2020) [APT41](https://attack.mitre.org/groups/G0096) leveraged vulnerabilities such as ProxyLogon exploitation or SQL injection for initial access.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2818,7 +2058,6 @@
         "type": "relationship",
         "id": "relationship--f1598913-b99f-456a-84ae-17777091e2ef",
         "created": "2024-02-23T20:45:04.199Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -2826,28 +2065,19 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-23T20:45:04.199Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) uses remote shares to move and remotely execute payloads during lateral movemement.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f1a9d2b9-f5ec-4119-b3b5-8b46085c01b5",
         "type": "relationship",
         "created": "2020-04-28T13:48:00.513Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -2860,22 +2090,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f234930f-f7d1-458d-8c79-c73538990f97",
         "type": "relationship",
         "created": "2020-04-28T13:48:00.522Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -2888,22 +2110,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--84e02621-8fdf-470f-bd58-993bb6a89d91",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--f291084b-a84d-452f-bd1d-d89257c7e8c2",
         "created": "2024-02-22T21:58:47.950Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Rostovcev APT41 2021",
@@ -2911,17 +2125,11 @@
                 "url": "https://www.group-ib.com/blog/apt41-world-tour-2021/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-04-03T19:15:15.359Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) transfers post-exploitation files dividing the payload into fixed-size chunks to evade detection.(Citation: Rostovcev APT41 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--c3888c54-775d-4b2f-b759-75a2ececcbfd",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2930,8 +2138,6 @@
         "type": "relationship",
         "id": "relationship--f395cb28-5bc0-487e-b679-155ac785b7d9",
         "created": "2019-09-23T23:08:25.277Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -2944,27 +2150,19 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.871Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used WMI in several ways, including for execution of commands via WMIEXEC as well as for persistence via [PowerSploit](https://attack.mitre.org/software/S0194).(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f3f5301d-8861-4c8b-9e28-36aa8581c552",
         "type": "relationship",
         "created": "2020-12-22T17:48:21.493Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -2977,22 +2175,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--8787e86d-8475-4f13-acea-d33eb83b6105",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--f480c10c-6a40-4fc7-9380-c2690c70a599",
         "created": "2019-09-23T22:53:30.291Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -3000,17 +2190,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.552Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) used a keylogger called GEARSHIFT on a target system.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -3019,8 +2203,6 @@
         "type": "relationship",
         "id": "relationship--f8838a1f-3a62-40cc-98dd-55943091fcef",
         "created": "2019-09-23T23:08:25.411Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -3028,17 +2210,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.553Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) attempted to remove evidence of some of its activity by deleting Bash histories.(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -3047,8 +2223,6 @@
         "type": "relationship",
         "id": "relationship--fb1079fa-f399-48b3-aa34-ca096bed13c6",
         "created": "2019-09-23T23:16:55.324Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye APT41 Aug 2019",
@@ -3056,27 +2230,19 @@
                 "url": "https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:27:10.553Z",
         "description": "(Citation: FireEye APT41 Aug 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fc86f198-f9d7-4b95-b26a-9cb9b922f2f1",
         "type": "relationship",
         "created": "2020-04-28T13:48:00.924Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -3089,22 +2255,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "tool--cf23bf4a-e003-4116-bbae-1ea6c558d565",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--fce88056-31db-43be-be76-fb1aaf076ed1",
         "created": "2021-08-26T14:36:18.006Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Group IB APT 41 June 2021",
@@ -3112,27 +2270,19 @@
                 "url": "https://www.group-ib.com/blog/colunmtk-apt41/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-23T15:45:58.872Z",
         "description": "[APT41](https://attack.mitre.org/groups/G0096) has created services to appear as benign system tools.(Citation: Group IB APT 41 June 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ffacfdd1-702e-4bb9-b60c-8e5c4cdf2a06",
         "type": "relationship",
         "created": "2020-12-22T17:48:21.032Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -3145,19 +2295,11 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "FireEye APT41 March 2020",
@@ -3173,14 +2315,8 @@
         "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
         "relationship_type": "uses",
         "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

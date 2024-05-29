@@ -3,7 +3,6 @@
         "type": "relationship",
         "id": "relationship--055b4a0f-99aa-4d61-9aa4-a48fff427eb3",
         "created": "2023-07-27T15:31:10.575Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -11,18 +10,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-27T15:31:10.575Z",
         "description": "(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -31,8 +23,6 @@
         "type": "relationship",
         "id": "relationship--09e3c20a-eb8a-4731-9d9b-39f08cc2ecc7",
         "created": "2023-07-28T18:15:13.592Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -45,17 +35,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.939Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has utilized custom malware to maintain persistence in a compromised environment.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -64,7 +48,6 @@
         "type": "relationship",
         "id": "relationship--0afa86ee-1253-4f15-87a8-abb46422313b",
         "created": "2023-07-28T16:48:29.357Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -72,18 +55,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-28T16:48:29.357Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has leveraged default credentials for authenticating myWebMethods (WMS) and QLogic web management interface to gain initial access.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--6151cbea-819b-455a-9fa6-99a1cc58797d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -92,8 +68,6 @@
         "type": "relationship",
         "id": "relationship--0d357a8d-c053-44f0-8777-0e8f8f7bc9a8",
         "created": "2023-07-28T18:12:02.524Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -101,17 +75,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:49:05.992Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has utilized web shells and Java tools for tunneling capabilities to and from compromised assets.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -120,7 +88,6 @@
         "type": "relationship",
         "id": "relationship--0f9b73b7-734d-4ceb-8a93-776652626c73",
         "created": "2023-07-27T20:36:54.445Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -128,18 +95,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-27T20:36:54.445Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has leveraged `WMI` to move laterally within a compromised network via application servers and SQL servers.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--60d0c01d-e2bf-49dd-a453-f8a9c9fa6f65",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -148,8 +108,6 @@
         "type": "relationship",
         "id": "relationship--10c4c857-59e6-4168-b2af-96b6609bdc76",
         "created": "2023-07-28T17:39:30.259Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -157,17 +115,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-02T15:59:52.509Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has gained access to compromised environments via remote access services such as the corporate virtual private network (VPN).(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -176,8 +128,6 @@
         "type": "relationship",
         "id": "relationship--16510fcf-70a0-4da5-9b80-f4772abca436",
         "created": "2023-10-05T12:38:44.251Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -190,17 +140,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-06T12:53:47.751Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) can identify user accounts associated with a Service Principal Name and query Service Principal Names within the domain by utilizing the following scripts: `GetUserSPNs.vbs` and `querySpn.vbs`.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -209,8 +153,6 @@
         "type": "relationship",
         "id": "relationship--2a37062f-9174-47b3-8c1f-2e32db19db1e",
         "created": "2023-07-27T20:42:20.304Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -223,17 +165,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-03T13:48:58.588Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has utilized `nmap` for reconnaissance efforts. [FIN13](https://attack.mitre.org/groups/G1016) has also scanned for internal MS-SQL servers in a compromised network.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -242,8 +178,6 @@
         "type": "relationship",
         "id": "relationship--2ddb50ab-4c8e-41e6-ba3f-d7718c66f0d5",
         "created": "2023-07-28T17:51:43.218Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -251,17 +185,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-03T13:54:16.192Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has utilized obfuscated and open-source web shells such as JspSpy, reGeorg, MiniWebCmdShell, and Vonloesch Jsp File Browser 1.2 to enable remote code execution and to execute commands on compromised web server.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -270,8 +198,6 @@
         "type": "relationship",
         "id": "relationship--3114ebc8-7dc2-4ee7-8aad-5b764f27a6d8",
         "created": "2023-07-28T16:49:40.191Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -284,17 +210,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-05T13:42:38.427Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has collected local host information by utilizing Windows commands `systeminfo`, `fsutil`, and `fsinfo`. [FIN13](https://attack.mitre.org/groups/G1016) has also utilized a compromised Symantex Altiris console and LanDesk account to retrieve host information.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -303,8 +223,6 @@
         "type": "relationship",
         "id": "relationship--3438e84b-4e73-434a-a699-15289a09d64c",
         "created": "2023-07-27T20:31:57.608Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -317,17 +235,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-06T13:45:14.387Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used `nslookup` and `ipconfig` for network reconnaissance efforts. [FIN13](https://attack.mitre.org/groups/G1016) has also utilized a compromised Symantec Altiris console and LanDesk account to retrieve network information.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -336,7 +248,6 @@
         "type": "relationship",
         "id": "relationship--37e781a4-8ac2-49c9-956d-2c78a5cef3df",
         "created": "2023-07-28T17:37:26.272Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -344,18 +255,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-28T17:37:26.272Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has utilized a proxy tool to communicate between compromised assets.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -364,7 +268,6 @@
         "type": "relationship",
         "id": "relationship--3a75d307-2fde-412e-b01e-8cb0e157e762",
         "created": "2023-07-28T18:06:19.488Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -372,18 +275,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-28T18:06:19.488Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has injected fraudulent transactions into compromised networks that mimic legitimate behavior to siphon off incremental amounts of money.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--ac9e6b22-11bf-45d7-9181-c1cb08360931",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -392,8 +288,6 @@
         "type": "relationship",
         "id": "relationship--3b02e08d-f6fe-4d7b-907d-e8c6534f9a98",
         "created": "2023-07-27T20:50:01.946Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -401,17 +295,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.946Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used PowerShell commands to obtain DNS data from a compromised network.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -420,8 +308,6 @@
         "type": "relationship",
         "id": "relationship--3ca53c3c-ec7d-4453-a80f-2f3306358a2f",
         "created": "2023-07-27T20:47:04.358Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -429,17 +315,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.946Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has created scheduled tasks in the `C:\\Windows` directory of the compromised network.(Citation: Mandiant FIN13 Aug 2022) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -448,8 +328,6 @@
         "type": "relationship",
         "id": "relationship--4248d8aa-eec4-4fd3-9707-ca1ed85bf5c5",
         "created": "2023-07-28T17:42:46.849Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -457,17 +335,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-05T11:44:47.029Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has created MS-SQL local accounts in a compromised network.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--635cbe30-392d-4e27-978e-66774357c762",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -476,8 +348,6 @@
         "type": "relationship",
         "id": "relationship--427594ef-614a-4e8e-a6ac-abccc0645ada",
         "created": "2023-07-27T20:28:39.090Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -485,17 +355,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-03T15:25:57.522Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has extracted the SAM and SYSTEM registry hives using the `reg.exe` binary for obtaining password hashes from a compromised machine.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -504,7 +368,6 @@
         "type": "relationship",
         "id": "relationship--47f8da55-c38f-4cec-b1c6-241ecb3dd8b8",
         "created": "2023-07-27T20:30:12.281Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -512,18 +375,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-27T20:30:12.281Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has harvested the NTDS.DIT file and leveraged the [Impacket](https://attack.mitre.org/software/S0357) tool on the compromised domain controller to locally decrypt it.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -532,8 +388,6 @@
         "type": "relationship",
         "id": "relationship--4f5f1da9-9396-4b66-a67b-c08470924882",
         "created": "2023-07-28T17:49:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -546,17 +400,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.947Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has exploited known vulnerabilities such as CVE-2017-1000486 (Primefaces Application Expression Language Injection), CVE-2015-7450 (WebSphere Application Server SOAP Deserialization Exploit), CVE-2010-5326 (SAP NewWeaver Invoker Servlet Exploit), and EDB-ID-24963 (SAP NetWeaver ConfigServlet Remote Code Execution) to gain initial access.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -565,8 +413,6 @@
         "type": "relationship",
         "id": "relationship--56547ce9-04bc-4540-8865-69082bac4e63",
         "created": "2023-07-28T18:17:44.253Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -574,17 +420,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.948Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has researched employees to target for social engineering attacks.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--5282dd9a-d26d-4e16-88b7-7c0f4553daf4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -593,7 +433,6 @@
         "type": "relationship",
         "id": "relationship--5c6b16c7-9977-4d40-b0df-75eecf350298",
         "created": "2023-10-02T17:19:49.632Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -601,18 +440,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-02T17:19:49.632Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used scheduled tasks names such as `acrotyr` and `AppServicesr` to mimic the same names in a compromised network's `C:\\Windows` directory.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -621,7 +453,6 @@
         "type": "relationship",
         "id": "relationship--5d5bda78-ea1a-4e73-b663-6105b77728bb",
         "created": "2023-07-27T20:34:55.483Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -629,18 +460,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-27T20:34:55.483Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has leveraged SMB to move laterally within a compromised network via application servers and SQL servers.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -649,8 +473,6 @@
         "type": "relationship",
         "id": "relationship--60077740-36a0-4fd6-8c07-0694143b722e",
         "created": "2023-07-27T20:27:55.549Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -663,17 +485,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-02T19:27:26.955Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has obtained memory dumps with ProcDump to parse and extract credentials from a victim's LSASS process memory with [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -682,8 +498,6 @@
         "type": "relationship",
         "id": "relationship--6523c653-4f85-425c-a891-6df522e8c841",
         "created": "2023-07-28T18:05:43.117Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -696,17 +510,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.950Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has created hidden files and folders within a compromised Linux system `/tmp` directory. [FIN13](https://attack.mitre.org/groups/G1016) also has used `attrib.exe` to hide gathered local host information.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -715,8 +523,6 @@
         "type": "relationship",
         "id": "relationship--6736036b-1b05-4857-aded-75a7d42a8be2",
         "created": "2023-07-27T15:33:07.523Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -724,17 +530,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.951Z",
         "description": "(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -743,7 +543,6 @@
         "type": "relationship",
         "id": "relationship--68e9977d-a765-45ad-91e9-42db7af8f990",
         "created": "2023-07-28T17:53:53.437Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -751,18 +550,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-28T17:53:53.437Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has obtained administrative credentials by browsing through local files on a compromised machine.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -771,8 +563,6 @@
         "type": "relationship",
         "id": "relationship--6affc901-7028-46ea-8d85-0e7d05ca9467",
         "created": "2023-10-03T14:51:12.881Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -780,17 +570,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-03T18:36:43.162Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has observed the victim's software and infrastructure over several months to understand the technical process of legitimate financial transactions, prior to attempting to conduct fraudulent transactions.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--851e071f-208d-4c79-adc6-5974c85c78f3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -799,8 +583,6 @@
         "type": "relationship",
         "id": "relationship--72b81f9e-8760-4d46-9ed3-4b91b12f6299",
         "created": "2023-07-28T18:15:58.016Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -808,17 +590,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-02T19:08:32.061Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has utilized publicly available tools such as [Mimikatz](https://attack.mitre.org/software/S0002), [Impacket](https://attack.mitre.org/software/S0357), PWdump7, ProcDump, Nmap, and Incognito V2 for targeting efforts.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -827,7 +603,6 @@
         "type": "relationship",
         "id": "relationship--76b2e00d-78bb-4aea-a787-46289b8540ef",
         "created": "2023-07-28T17:40:16.091Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -835,18 +610,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-28T17:40:16.091Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has utilized tools such as Incognito V2 for token manipulation and impersonation.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--8cdeb020-e31e-4f88-a582-f53dcfbda819",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -855,7 +623,6 @@
         "type": "relationship",
         "id": "relationship--779b1ed2-5ff6-408d-837e-571bbc4ecc4a",
         "created": "2023-10-02T16:29:24.955Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -868,18 +635,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-02T16:29:24.955Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has downloaded additional tools and malware to compromised systems.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -888,8 +648,6 @@
         "type": "relationship",
         "id": "relationship--830ebcfb-58a9-4a11-b319-ca49ce7bfe1b",
         "created": "2023-07-27T15:44:31.289Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -897,17 +655,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-01T12:38:37.825Z",
         "description": "(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -916,8 +668,6 @@
         "type": "relationship",
         "id": "relationship--860147c4-3eb8-4909-8a02-081e67347ba7",
         "created": "2023-07-28T16:43:53.254Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -930,17 +680,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:48:20.526Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used HTTP requests to chain multiple web shells and to contact actor-controlled C2 servers prior to exfiltrating stolen data.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -949,7 +693,6 @@
         "type": "relationship",
         "id": "relationship--8a16836c-ad80-4c4f-8c4a-cfc639450a5a",
         "created": "2023-07-27T15:28:27.413Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -957,18 +700,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-27T15:28:27.413Z",
         "description": "(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -977,8 +713,6 @@
         "type": "relationship",
         "id": "relationship--8a86cd72-8386-4c75-8362-7b9020add12b",
         "created": "2023-07-28T17:52:58.109Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -986,17 +720,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-03T14:35:01.966Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used the PowerShell utility `Invoke-SMBExec` to execute the pass the hash method for lateral movement within an compromised environment.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1005,8 +733,6 @@
         "type": "relationship",
         "id": "relationship--8d24d635-bc2e-48a2-87a0-01d8e10c62f2",
         "created": "2023-07-27T20:51:22.941Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -1019,17 +745,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-06T13:41:54.250Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has leveraged `xp_cmdshell` and Windows Command Shell to execute commands on a compromised machine. [FIN13](https://attack.mitre.org/groups/G1016) has also attempted to leverage the \u2018xp_cmdshell\u2019 SQL procedure to execute remote commands on internal MS-SQL servers.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1038,8 +758,6 @@
         "type": "relationship",
         "id": "relationship--9992c76b-149d-4842-80b5-dbd37f0369be",
         "created": "2023-07-28T17:52:24.189Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -1047,17 +765,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.955Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used Windows Registry run keys such as, `HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Run\\hosts` to maintain persistence.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1066,8 +778,6 @@
         "type": "relationship",
         "id": "relationship--a4a03850-ad3e-4599-af58-5aa67c63fb93",
         "created": "2023-07-27T20:32:49.402Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -1075,17 +785,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.955Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used `Ping` and `tracert` for network reconnaissance efforts.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--132d5b37-aac5-4378-a8dc-3127b18a73dc",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1094,8 +798,6 @@
         "type": "relationship",
         "id": "relationship--a53879ca-2185-42ea-84de-823878fb871d",
         "created": "2023-10-02T16:45:20.417Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -1108,17 +810,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-06T13:34:46.584Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has masqueraded staged data by using the Windows [certutil](https://attack.mitre.org/software/S0160) utility to generate fake Base64 encoded certificates with the input file.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1127,7 +823,6 @@
         "type": "relationship",
         "id": "relationship--a759cca5-d8f2-4704-88c1-df76a1a1625e",
         "created": "2023-07-27T20:52:36.627Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -1135,18 +830,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-27T20:52:36.627Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used VBS scripts for code execution on comrpomised machines.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1155,8 +843,6 @@
         "type": "relationship",
         "id": "relationship--a94e85d8-62a1-43a2-8443-245bf61ec115",
         "created": "2023-10-05T11:45:54.847Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -1164,17 +850,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-05T13:54:00.482Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has assigned newly created accounts the sysadmin role to maintain persistence.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1183,8 +863,6 @@
         "type": "relationship",
         "id": "relationship--a9830f35-1ffa-46a3-b061-07148dd09753",
         "created": "2023-07-28T18:12:43.065Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -1192,17 +870,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-02T16:17:04.535Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used IISCrack.dll as a side-loading technique to load a malicious version of httpodbc.dll on old IIS Servers (CVE-2001-0507).(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1211,8 +883,6 @@
         "type": "relationship",
         "id": "relationship--aa2e1086-00f6-45f3-9159-72f2cfd50001",
         "created": "2023-07-27T20:37:58.616Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -1220,17 +890,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.956Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has remotely accessed compromised environments via Remote Desktop Services (RDS) for lateral movement.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1239,8 +903,6 @@
         "type": "relationship",
         "id": "relationship--b79256c4-9067-44ed-8e96-8b11a4c348e8",
         "created": "2023-07-28T18:22:56.873Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -1248,17 +910,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.956Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has searched for infrastructure that can provide remote access to an environment for targeting efforts.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--34ab90a3-05f6-4259-8f21-621081fdaba5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1267,8 +923,6 @@
         "type": "relationship",
         "id": "relationship--c31ccdbd-e501-41cb-98d9-46cdff9be1c0",
         "created": "2023-07-28T17:40:45.983Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -1281,17 +935,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.957Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has executed net view commands for enumeration of open shares on compromised machines.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1300,7 +948,6 @@
         "type": "relationship",
         "id": "relationship--cf401927-62cc-4b10-99c1-c48841054e1e",
         "created": "2023-07-28T17:58:55.757Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -1308,18 +955,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-28T17:58:55.757Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has compressed the dump output of compromised credentials with a 7zip binary.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1328,8 +968,6 @@
         "type": "relationship",
         "id": "relationship--d7702458-8b9d-49e8-a494-b5d87681f2c5",
         "created": "2023-07-28T17:45:09.085Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -1337,17 +975,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.958Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has utilized `certutil` to decode base64 encoded versions of custom malware.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1356,8 +988,6 @@
         "type": "relationship",
         "id": "relationship--df6b68c8-17b5-45b9-8ad1-908c89074531",
         "created": "2023-07-28T17:57:04.398Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -1365,17 +995,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-05T14:43:14.444Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has replaced legitimate KeePass binaries with trojanized versions to collect passwords from numerous applications.(Citation: Mandiant FIN13 Aug 2022)  ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--f4c1826f-a322-41cd-9557-562100848c84",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1384,8 +1008,6 @@
         "type": "relationship",
         "id": "relationship--e75c948b-7ce8-4872-a3c4-4a2b01828418",
         "created": "2023-07-27T20:43:29.738Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -1398,17 +1020,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.960Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has utilized `WMI` to execute commands and move laterally on compromised Windows machines.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1417,8 +1033,6 @@
         "type": "relationship",
         "id": "relationship--e76f8463-45ca-489b-86e8-ee854c2a0f71",
         "created": "2023-07-27T20:35:47.179Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -1426,17 +1040,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.961Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has remotely accessed compromised environments via secure shell (SSH) for lateral movement.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1445,8 +1053,6 @@
         "type": "relationship",
         "id": "relationship--eb63ea0a-1d2d-4d6a-9006-a60dacc035da",
         "created": "2023-07-27T20:45:18.342Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -1459,17 +1065,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.962Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has utilized the following temporary folders on compromised Windows and Linux systems for their operations prior to exfiltration: `C:\\Windows\\Temp` and `/tmp`.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1478,8 +1078,6 @@
         "type": "relationship",
         "id": "relationship--ee3648f7-1066-4a85-9652-2ce54fc7964a",
         "created": "2023-07-27T20:48:30.560Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -1487,17 +1085,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.963Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has logged the keystrokes of victims to escalate privileges.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1506,8 +1098,6 @@
         "type": "relationship",
         "id": "relationship--f5ce003c-c220-4c19-a45f-b2e2a6e924e2",
         "created": "2023-07-27T20:41:30.250Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -1515,17 +1105,11 @@
                 "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-02T17:18:39.848Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has masqueraded WAR files to look like legitimate packages such as, wsexample.war, wsexamples.com, examples.war, and exampl3s.war.(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1534,8 +1118,6 @@
         "type": "relationship",
         "id": "relationship--f6b88216-8142-4151-af2b-31257a3c2857",
         "created": "2023-07-27T20:46:04.835Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -1543,17 +1125,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-06T13:44:01.712Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used `netstat` and other net  commands for network reconnaissance efforts.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1562,8 +1138,6 @@
         "type": "relationship",
         "id": "relationship--f97798e2-ec1a-4cad-ab07-f61ef6cb8f78",
         "created": "2023-07-28T17:34:16.321Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -1571,17 +1145,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-03T18:33:17.917Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used the Windows `dir` command to enumerate files and directories in a victim's network.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1590,8 +1158,6 @@
         "type": "relationship",
         "id": "relationship--fc5cf1ea-f46f-4527-a8b5-7317c4e61dee",
         "created": "2023-07-27T20:30:52.427Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -1604,17 +1170,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.965Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has gathered stolen credentials, sensitive data such as point-of-sale (POS), and ATM data from a compromised network before exfiltration.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1623,8 +1183,6 @@
         "type": "relationship",
         "id": "relationship--fcddadbd-d32b-4cc6-afd4-de3c8629f260",
         "created": "2023-07-28T16:43:13.679Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -1632,17 +1190,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-09-29T18:38:18.966Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has enumerated all users and roles from a victim's main treasury system.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1651,7 +1203,6 @@
         "type": "relationship",
         "id": "relationship--ff16c592-9eae-4c27-97a5-444e148883cd",
         "created": "2023-10-06T12:58:36.828Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN13 Aug 2022",
@@ -1659,18 +1210,11 @@
                 "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-06T12:58:36.828Z",
         "description": "[FIN13](https://attack.mitre.org/groups/G1016) has enumerated all users and their roles from a victim's main treasury system.(Citation: Mandiant FIN13 Aug 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
         "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

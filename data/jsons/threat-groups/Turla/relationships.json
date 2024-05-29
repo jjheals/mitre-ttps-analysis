@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--01b5af07-512b-4b60-ba2d-5c185b80fb5f",
         "type": "relationship",
         "created": "2020-10-22T20:25:26.534Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Recorded Future Turla Infra 2020",
@@ -17,21 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--ae797531-3219-49a4-bccf-324ad7a4c7b2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--052be04b-5ff3-4757-a5c1-de012997accc",
         "created": "2023-03-24T21:33:50.660Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ESET Turla PowerShell May 2019",
@@ -44,28 +35,19 @@
                 "url": "https://www.symantec.com/blogs/threat-intelligence/waterbug-espionage-governments"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-24T21:33:50.660Z",
         "description": "[Turla](https://attack.mitre.org/groups/G0010) has modify Registry values to store payloads.(Citation: ESET Turla PowerShell May 2019)(Citation: Symantec Waterbug Jun 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--059cc1e2-9570-4760-8137-d3d71b66bb78",
         "type": "relationship",
         "created": "2020-06-29T02:52:31.565Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET ComRAT May 2020",
@@ -78,22 +60,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--a01bf75f-00b2-4568-a58f-565ff9bf202b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--07516f04-c7aa-46c7-9cca-0f81b84043e2",
         "type": "relationship",
         "created": "2019-06-20T01:02:00.303Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Faou, M. and Dumont R.. (2019, May 29). A dive into Turla PowerShell usage. Retrieved June 14, 2019.",
@@ -106,22 +80,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--08fccacb-803c-4d00-baa7-ed6af83660ae",
         "type": "relationship",
         "created": "2019-07-08T15:24:25.014Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Waterbug Jun 2019",
@@ -134,22 +100,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0b512662-8eb8-424d-99c5-4f76d1d70276",
         "type": "relationship",
         "created": "2021-05-26T12:46:28.310Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Waterbug Jun 2019",
@@ -162,22 +120,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0c4e4578-3bb1-4c9a-9dc8-af3b7368ada9",
         "type": "relationship",
         "created": "2021-04-25T15:37:07.362Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf",
@@ -190,22 +140,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0ebd9fb8-a6d0-4b91-bada-c5e5c79b0808",
         "type": "relationship",
         "created": "2019-06-20T20:53:17.552Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Faou, M. and Dumont R.. (2019, May 29). A dive into Turla PowerShell usage. Retrieved June 14, 2019.",
@@ -218,22 +160,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--677569f9-a8b0-459e-ab24-7f18091fa7bf",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--10987149-1b3f-4c89-a1e6-c285d740697f",
         "type": "relationship",
         "created": "2019-06-20T01:02:00.297Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Faou, M. and Dumont R.. (2019, May 29). A dive into Turla PowerShell usage. Retrieved June 14, 2019.",
@@ -246,22 +180,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--13ac3b6b-d008-44fa-88c3-53d0927961d2",
         "type": "relationship",
         "created": "2019-07-08T15:24:24.654Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Waterbug Jun 2019",
@@ -274,22 +200,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--18983529-5998-4f76-be90-f6e9cdd9f33d",
         "type": "relationship",
         "created": "2019-06-19T15:13:21.046Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Faou, M. and Dumont R.. (2019, May 29). A dive into Turla PowerShell usage. Retrieved June 14, 2019.",
@@ -302,22 +220,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--0f2c410d-d740-4ed9-abb1-b8f4a7faf6c3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1a51277b-0f14-4d8a-88cb-6616da7b4a98",
         "type": "relationship",
         "created": "2020-12-04T21:04:04.702Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Crutch December 2020",
@@ -330,22 +240,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1a978832-f04d-4853-8094-58fc99e30ed1",
         "type": "relationship",
         "created": "2020-03-20T15:43:40.759Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Turla Mosquito May 2018",
@@ -363,22 +265,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1ab3f63b-bd80-4e4c-8f62-79f26b9724ab",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.046Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -391,22 +285,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "tool--b35068ec-107a-4266-bda8-eb7036267aea",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--20b90b04-4ce1-4e9a-9dbb-9fc93569d3e1",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Turla Mosquito May 2018",
@@ -419,22 +305,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2188382d-d557-4a81-9713-7ef4cc675e76",
         "type": "relationship",
         "created": "2019-07-08T15:24:24.610Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Waterbug Jun 2019",
@@ -447,22 +325,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--d336b553-5da9-46ca-98a8-0b23f49fb447",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2e162cdf-e917-4bc5-a2d2-1623e05d0b61",
         "type": "relationship",
         "created": "2019-06-20T20:53:17.534Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Faou, M. and Dumont R.. (2019, May 29). A dive into Turla PowerShell usage. Retrieved June 14, 2019.",
@@ -475,22 +345,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3185e611-cec6-4910-aa64-efd8fafe1072",
         "type": "relationship",
         "created": "2021-03-16T22:50:13.912Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit42 AcidBox June 2020",
@@ -503,22 +365,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--33214d7f-0c78-4905-8ab0-8a6b6eb20eeb",
         "type": "relationship",
         "created": "2021-08-09T14:18:20.857Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET ComRAT May 2020",
@@ -531,22 +385,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--1b20efbf-8063-4fc3-a07d-b575318a301b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3325e625-d76b-42df-b952-749dabb57517",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.045Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -569,22 +415,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3465231b-93b2-47ea-8c4f-f1f7e9d9be1b",
         "type": "relationship",
         "created": "2019-06-20T01:02:00.281Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Faou, M. and Dumont R.. (2019, May 29). A dive into Turla PowerShell usage. Retrieved June 14, 2019.",
@@ -597,22 +435,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--35a9c64c-c305-46bf-a216-c8bb1b051614",
         "created": "2017-05-31T21:33:27.046Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Unit 42 IronNetInjector February 2021 ",
@@ -630,27 +460,19 @@
                 "description": "Symantec. (2015, January 26). The Waterbug attack group. Retrieved April 10, 2015."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Symantec Waterbug)(Citation: Unit 42 IronNetInjector February 2021 )(Citation: Secureworks IRON HUNTER Profile)",
         "modified": "2022-05-20T17:02:59.591Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--da5880b4-f7da-4869-85f2-e0aba84b8565",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3632ab1c-caa3-4d65-a665-7da325f4b7ac",
         "type": "relationship",
         "created": "2020-12-11T17:55:14.440Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -663,22 +485,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--54b4c251-1f0e-4eba-ba6b-dbc7a6f6f06b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3643f451-322d-4f38-91a4-00a55a42c7f5",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.046Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -691,22 +505,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--36f14542-1dd2-4b2e-b69f-d7f38ea9800e",
         "type": "relationship",
         "created": "2019-07-08T15:24:25.028Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Waterbug Jun 2019",
@@ -719,22 +525,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--40848159-b266-42df-9cf8-785b2f78bcfc",
         "type": "relationship",
         "created": "2019-03-12T16:20:54.316Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Turla August 2018",
@@ -752,22 +550,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--43e9c37e-9e57-4130-8510-05c65bfde6f8",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf",
@@ -790,22 +580,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--92b55426-109f-4d93-899f-1833ce91ff90",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4a6248d4-4fa1-404a-abed-84e9b7c32dbe",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.045Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -818,22 +600,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4f2450a7-d2d2-4063-9dd5-cac396a3215c",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf",
@@ -851,22 +625,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--500c4228-b676-4f47-a391-9e52abd5ea51",
         "type": "relationship",
         "created": "2019-06-20T20:53:17.574Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Faou, M. and Dumont R.. (2019, May 29). A dive into Turla PowerShell usage. Retrieved June 14, 2019.",
@@ -879,22 +645,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--519c4c7f-8495-4b8a-b58e-551a78e469cc",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.045Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -912,22 +670,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--52c18ed1-91a5-4394-a4d0-f700c75bf3d9",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -940,21 +690,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--54b38c51-b6b3-4d8a-9e6f-f257a3543939",
         "created": "2023-07-25T21:04:14.592Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant Suspected Turla Campaign February 2023",
@@ -962,28 +705,19 @@
                 "url": "https://www.mandiant.com/resources/blog/turla-galaxy-opportunity"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-07-25T21:04:14.592Z",
         "description": "(Citation: Mandiant Suspected Turla Campaign February 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--09fcc02f-f9d4-43fa-8609-5e5e186b7103",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--5543599a-779f-4955-8f3e-99cc92b1e2fc",
         "created": "2021-02-25T16:48:06.231Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Unit 42 IronNetInjector February 2021 ",
@@ -991,27 +725,19 @@
                 "description": "Reichel, D. (2021, February 19). IronNetInjector: Turla\u2019s New Malware Loading Tool. Retrieved February 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Unit 42 IronNetInjector February 2021 )",
         "modified": "2022-05-20T17:02:59.592Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "tool--b1595ddd-a783-482a-90e1-8afc8d48467e",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5682d524-80f0-4fd8-9960-6f54eeafce96",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.045Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -1024,22 +750,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--56ad8893-2933-4b3b-a84d-026d9afb7dcb",
         "type": "relationship",
         "created": "2020-03-20T19:12:22.367Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Turla PowerShell May 2019",
@@ -1057,22 +775,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5c0645e4-f0c7-4bb4-bedb-29a96a472fe0",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.046Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -1085,22 +795,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "tool--30489451-5886-4c46-90c9-0dff9adc5252",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5e8f23be-48b6-4236-9475-89f11e769ee6",
         "type": "relationship",
         "created": "2020-06-30T22:12:28.116Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET ComRAT May 2020",
@@ -1118,22 +820,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--65eac98e-82b8-4592-a121-bea99f80dc87",
         "type": "relationship",
         "created": "2020-10-22T20:25:26.573Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Recorded Future Turla Infra 2020",
@@ -1156,22 +850,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--e196b5c5-8118-4a1c-ab8a-936586ce3db5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--686d91dc-692b-48a0-829b-2556c6415f59",
         "type": "relationship",
         "created": "2020-12-06T23:49:08.052Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Crutch December 2020",
@@ -1189,22 +875,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--925a6c52-5cf0-4fec-99de-b0d6917d8593",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--689d5a99-cfcf-43d6-ae55-9bf920986f63",
         "type": "relationship",
         "created": "2020-06-29T02:52:31.569Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET ComRAT May 2020",
@@ -1217,22 +895,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--6a87ff58-10b1-4fbc-a633-d7d8a34d1b29",
         "created": "2017-05-31T21:33:27.045Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023",
@@ -1245,27 +915,19 @@
                 "url": "https://securelist.com/the-epic-turla-operation/65545/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-08-02T19:48:44.104Z",
         "description": "(Citation: Kaspersky Turla)(Citation: Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--80a014ba-3fef-4768-990b-37d8bd10d7f4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--76428147-d359-4568-a1a2-7cc3da632da4",
         "type": "relationship",
         "created": "2019-06-21T17:24:21.655Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Faou, M. and Dumont R.. (2019, May 29). A dive into Turla PowerShell usage. Retrieved June 14, 2019.",
@@ -1278,22 +940,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--dcac85c1-6485-4790-84f6-de5e6f6b91dd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--773e99eb-0739-42d3-afaa-aff65e86329d",
         "type": "relationship",
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Gazer Aug 2017",
@@ -1306,22 +960,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--775d3c82-5863-43fa-8dfd-2f62382d53f1",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit 42 Kazuar May 2017",
@@ -1339,22 +985,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--536be338-e2ef-4a6b-afb6-8d5568b91eb2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7dd2714d-aa8a-40ce-bae1-98634090ac01",
         "type": "relationship",
         "created": "2020-06-29T03:33:39.040Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET ComRAT May 2020",
@@ -1367,22 +1005,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7dda2468-0344-48c5-8843-6655084d8159",
         "type": "relationship",
         "created": "2019-07-08T15:24:24.657Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Waterbug Jun 2019",
@@ -1400,22 +1030,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--7fcd4b9b-87e3-4e8c-abde-84639c85467f",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf",
@@ -1433,22 +1055,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--825aded7-3c93-47ec-9ba5-5bd5af4e2e2b",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf",
@@ -1466,22 +1080,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--87b74ba7-99c4-464c-86d2-1dd8c8b578b1",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.045Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -1494,22 +1100,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8a47e81d-be1f-488c-8136-40e18c70d45f",
         "type": "relationship",
         "created": "2020-06-29T02:52:31.571Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET ComRAT May 2020",
@@ -1527,22 +1125,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8be8b96b-b69c-497a-8b38-308b8bd291ff",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf",
@@ -1555,22 +1145,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8cdfc8e4-b657-4ae9-b9ee-9b6107fae796",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.046Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -1583,22 +1165,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--8eafddf4-a5ae-43a0-8129-966de05fefb0",
         "type": "relationship",
         "created": "2021-12-02T15:43:11.510Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos TinyTurla September 2021",
@@ -1611,22 +1185,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9263ab45-f7d5-4bcf-af7e-d7be1913c3d6",
         "type": "relationship",
         "created": "2019-06-19T17:14:23.775Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Faou, M. and Dumont R.. (2019, May 29). A dive into Turla PowerShell usage. Retrieved June 14, 2019.",
@@ -1639,22 +1205,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--910906dd-8c0a-475a-9cc1-5e029e2fad58",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--931c0864-0b91-46b7-bdc0-0360777d95a6",
         "type": "relationship",
         "created": "2019-07-08T15:24:24.660Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Waterbug Jun 2019",
@@ -1667,22 +1225,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9850f990-17ed-40f5-8065-a455f1198404",
         "type": "relationship",
         "created": "2019-06-20T20:53:17.582Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Faou, M. and Dumont R.. (2019, May 29). A dive into Turla PowerShell usage. Retrieved June 14, 2019.",
@@ -1700,22 +1250,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9dfb7899-20af-4eea-bfca-f608d885cb00",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -1733,22 +1275,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9eefeafd-aca1-4e4c-8d29-ea6f9154808a",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -1776,22 +1310,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a4d6544d-0d01-4cdd-81e8-4b6382675f10",
         "type": "relationship",
         "created": "2019-06-28T16:11:16.748Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET LightNeuron May 2019",
@@ -1809,22 +1335,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--6ba1d7ae-d60b-43e6-9f08-a8b787e9d9cb",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a8cfb738-65ac-4d5a-8ef7-d3a21eab02ea",
         "type": "relationship",
         "created": "2020-10-22T20:25:26.594Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Recorded Future Turla Infra 2020",
@@ -1837,22 +1355,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ad2efb21-6884-422f-8e89-fc0b1d2dcbb0",
         "type": "relationship",
         "created": "2019-06-20T20:53:17.550Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Faou, M. and Dumont R.. (2019, May 29). A dive into Turla PowerShell usage. Retrieved June 14, 2019.",
@@ -1870,22 +1380,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ad8d3784-2eea-47b4-b13d-d16d0211acf3",
         "type": "relationship",
         "created": "2020-07-06T14:49:46.322Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET ComRAT May 2020",
@@ -1898,22 +1400,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ada9885f-276a-4f97-859d-1bb9f73b58c1",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/",
@@ -1936,22 +1430,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--ae6620d4-5320-4e5a-a61a-5bda4ac1c9e4",
         "created": "2019-06-19T17:14:23.764Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ESET Turla PowerShell May 2019",
@@ -1959,27 +1445,19 @@
                 "url": "https://www.welivesecurity.com/2019/05/29/turla-powershell-usage/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-22T05:41:57.241Z",
         "description": "[Turla](https://attack.mitre.org/groups/G0010) has used encryption (including salted 3DES via [PowerSploit](https://attack.mitre.org/software/S0194)'s <code>Out-EncryptedScript.ps1</code>), random variable names, and base64 encoding to obfuscate PowerShell commands and payloads.(Citation: ESET Turla PowerShell May 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--afea3455-9565-4e5d-b431-e845ec1722d2",
         "created": "2021-02-25T16:48:05.766Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Unit 42 IronNetInjector February 2021 ",
@@ -1987,27 +1465,19 @@
                 "description": "Reichel, D. (2021, February 19). IronNetInjector: Turla\u2019s New Malware Loading Tool. Retrieved February 24, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Turla](https://attack.mitre.org/groups/G0010) has used IronPython scripts as part of the [IronNetInjector](https://attack.mitre.org/software/S0581) toolchain to drop payloads.(Citation: Unit 42 IronNetInjector February 2021 )",
         "modified": "2022-05-20T17:02:59.595Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b2b885e0-3b49-4a38-80eb-30a1a3157ff0",
         "type": "relationship",
         "created": "2019-01-29T19:39:38.530Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "ESET. (2017, March 30). Carbon Paper: Peering into Turla\u2019s second stage backdoor. Retrieved November 7, 2018.",
@@ -2025,22 +1495,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--b7e9880a-7a7c-4162-bddb-e28e8ef2bf1f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b3e2abaa-f431-4791-95d0-d44f3a74a73f",
         "type": "relationship",
         "created": "2020-06-30T22:12:28.108Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET ComRAT May 2020",
@@ -2053,22 +1515,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b8a1739d-240b-46c1-a25a-b82d1c4e4765",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.045Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -2086,22 +1540,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b9c05069-a05f-4b74-9b4d-275c64f2e124",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/",
@@ -2119,22 +1565,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ba6536dd-2c36-4057-bae9-e71e1076e69b",
         "type": "relationship",
         "created": "2020-10-22T20:24:01.354Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NSA NCSC Turla OilRig",
@@ -2152,22 +1590,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--7807d3a4-a885-4639-a786-c1ed41484970",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bcd2cfa1-793c-40a7-9920-614539e651a7",
         "type": "relationship",
         "created": "2020-06-29T02:52:31.516Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET ComRAT May 2020",
@@ -2180,22 +1610,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bd2a23f7-88cd-47d2-b30e-9356d0204a8e",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.046Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -2208,22 +1630,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--bd437a82-65df-42d7-a73b-6ed63a4cdd63",
         "created": "2019-06-19T17:14:23.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "ESET Turla PowerShell May 2019",
@@ -2236,27 +1650,19 @@
                 "url": "https://www.symantec.com/blogs/threat-intelligence/waterbug-espionage-governments"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-24T21:33:06.046Z",
         "description": "[Turla](https://attack.mitre.org/groups/G0010) has used the Registry to store encrypted and encoded payloads.(Citation: ESET Turla PowerShell May 2019)(Citation: Symantec Waterbug Jun 2019)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--02c5abff-30bf-4703-ab92-1f6072fae939",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cd79beea-20ee-4b4f-aad1-5cc34d27398c",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.046Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -2269,22 +1675,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ce9c90e9-d408-485e-a380-52a87abcf3fc",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf",
@@ -2297,22 +1695,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--6836813e-8ec8-4375-b459-abb388cb1a35",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d0ed3128-67f0-43dd-b1d9-01843eb71b77",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.046Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -2325,22 +1715,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d3d8b77f-d830-4f61-aa2e-bec783fc84f4",
         "type": "relationship",
         "created": "2021-04-23T03:41:32.022Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Unit42 AcidBox June 2020",
@@ -2358,22 +1740,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--565275d5-fcc3-4b66-b4e7-928e4cac6b8c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d42b9304-293a-4b95-a946-dcda81be5c87",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf",
@@ -2386,22 +1760,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--dac527e7-fffb-46de-8585-57a112cb1eba",
         "type": "relationship",
         "created": "2020-12-02T21:13:54.437Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Accenture HyperStack October 2020",
@@ -2414,22 +1780,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--2cf7dec3-66fc-423f-b2c7-58f1de243b4e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e02d1cb4-1bb7-49b5-a918-5e0d194974aa",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.045Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -2447,22 +1805,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--6b62e336-176f-417b-856a-8552dd8c44e1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e0aaa143-5c5f-4c58-8ace-d05b037bf4b6",
         "type": "relationship",
         "created": "2021-03-19T13:23:53.228Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET ComRAT May 2020",
@@ -2475,22 +1825,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--132d5b37-aac5-4378-a8dc-3127b18a73dc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e0e492ef-c67d-4a02-be8d-2e9a650ea6f0",
         "type": "relationship",
         "created": "2020-12-03T20:47:09.694Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Accenture HyperStack October 2020",
@@ -2508,22 +1850,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e2675622-ec8e-4894-9f5e-3c82944e3019",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.045Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -2541,22 +1875,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e424b236-8c54-482b-b390-a15345f5c35c",
         "type": "relationship",
         "created": "2020-10-22T20:24:01.356Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "NSA NCSC Turla OilRig",
@@ -2569,22 +1895,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--39cc9f64-cf74-4a48-a4d8-fe98c54a02e0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e515dc29-7a69-4d0f-8a2a-d27722f3bd6b",
         "type": "relationship",
         "created": "2021-03-17T16:23:55.641Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Waterbug Jun 2019",
@@ -2597,22 +1915,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "tool--b63970b7-ddfb-4aee-97b1-80d335e033a8",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ec1a882a-b9d1-469f-b944-26d684b28a1e",
         "type": "relationship",
         "created": "2021-12-02T15:48:57.529Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Talos TinyTurla September 2021",
@@ -2625,22 +1935,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--2a7c1bb7-cd12-456e-810d-ab3bf8457bab",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--f2a29786-05d5-4566-bece-14d5c1a212c1",
         "created": "2021-03-11T15:29:16.495Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Leonardo Turla Penquin May 2020",
@@ -2648,27 +1950,19 @@
                 "url": "https://www.leonardo.com/documents/20142/10868623/Malware+Technical+Insight+_Turla+%E2%80%9CPenquin_x64%E2%80%9D.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-09-28T21:27:07.149Z",
         "description": "(Citation: Leonardo Turla Penquin May 2020)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "malware--d18cb958-f4ad-4fb3-bb4f-e8994d206550",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f3055d9f-986e-4202-bb13-c956069bb43f",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Faou, M. and Dumont R.. (2019, May 29). A dive into Turla PowerShell usage. Retrieved June 14, 2019.",
@@ -2681,22 +1975,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f4268a0d-0539-46de-bad8-ea72af455585",
         "type": "relationship",
         "created": "2020-12-09T20:58:06.163Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Crutch December 2020",
@@ -2709,22 +1995,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f946b4f9-a18e-4a1e-856c-2c215f78f8be",
         "type": "relationship",
         "created": "2020-06-29T02:56:20.597Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET ComRAT May 2020",
@@ -2737,22 +2015,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--b6075259-dba3-44e9-87c7-e954f37ec0d5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fa6292a2-c184-4bc9-a37f-0c1ac61e1135",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.045Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://securelist.com/the-epic-turla-operation/65545/",
@@ -2775,22 +2045,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fe9c9381-99d7-4798-ab41-3e5cdbda5e21",
         "type": "relationship",
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "ESET Gazer Aug 2017",
@@ -2803,19 +2065,11 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "target_ref": "attack-pattern--b0533c6e-8fea-4788-874f-b799cacc4b92",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "ESET Carbon Mar 2017",
@@ -2831,14 +2085,8 @@
         "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
         "relationship_type": "uses",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

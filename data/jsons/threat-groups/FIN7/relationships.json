@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--00561c3c-345e-4578-95c3-b7e0a95db7b1",
         "type": "relationship",
         "created": "2021-09-22T14:33:04.183Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -17,22 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--081c68ae-de26-4ab4-9108-5c7493f34f43",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html",
@@ -50,22 +40,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--08678e7f-c675-4f85-9593-f06cb90f6e44",
         "created": "2019-10-11T17:33:29.152Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -88,27 +70,19 @@
                 "url": "https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-04T20:48:02.685Z",
         "description": "(Citation: SecureList Griffon May 2019)(Citation: CrowdStrike Carbon Spider August 2021)(Citation: FBI Flash FIN7 USB)(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--04fc1842-f9e4-47cf-8cb8-5c61becad142",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--08e70a50-f4fe-4856-9bd1-a7098f802fca",
         "type": "relationship",
         "created": "2021-09-23T12:44:50.358Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -121,22 +95,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0ea53e8d-743e-4828-8c65-9b610593270a",
         "type": "relationship",
         "created": "2021-09-23T12:44:50.875Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -149,22 +115,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1332e859-38be-45ed-9ebc-09efd7117c17",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye FIN7 Aug 2018",
@@ -187,22 +145,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--15d87b47-837d-4f62-9d78-4ec092c111d2",
         "type": "relationship",
         "created": "2021-09-23T12:51:15.519Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -215,21 +165,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--198a9aa2-5d98-46c2-b43b-0191786049e7",
         "created": "2023-12-04T21:10:06.602Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -237,18 +180,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-04T21:10:06.602Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has compromised targeted organizations through exploitation of CVE-2021-31207 in Exchange.(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -257,8 +193,6 @@
         "type": "relationship",
         "id": "relationship--19ab4bf2-7498-4f53-afd7-fc1a99a96187",
         "created": "2023-08-17T18:39:49.148Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -266,17 +200,11 @@
                 "url": "https://www.mandiant.com/resources/evolution-of-fin7"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.055Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has used random junk code to obfuscate malware code.(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--5bfccc3f-2326-4112-86cc-c1ece9d8a2b5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -285,8 +213,6 @@
         "type": "relationship",
         "id": "relationship--1f548074-df9e-4029-842b-7d774e2f1093",
         "created": "2023-08-17T18:35:41.252Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -294,27 +220,19 @@
                 "url": "https://www.mandiant.com/resources/evolution-of-fin7"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.056Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has used the command `cmd.exe /C quser` to collect user session information.(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1f7b17e9-9ad3-42dd-ab92-e3afe752247b",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
@@ -342,22 +260,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--210b5693-f039-4853-a0ea-70b4fa3abed9",
         "type": "relationship",
         "created": "2021-10-15T19:52:14.506Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -370,22 +280,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "tool--f59508a6-3615-47c3-b493-6676e1a39a87",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2f1588c1-16b9-4cb2-b94c-1756829183ae",
         "type": "relationship",
         "created": "2021-09-23T13:09:35.868Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -398,22 +300,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--01327cde-66c4-4123-bf34-5f258d59457b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--306ab1b7-4926-43ae-8989-b0dde2a43111",
         "type": "relationship",
         "created": "2021-09-23T12:33:47.122Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -426,22 +320,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--34319090-f87a-431b-a6c1-38d8494495b6",
         "type": "relationship",
         "created": "2021-09-22T14:33:04.210Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -454,22 +340,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--37ba7858-8765-4445-a65e-d2765b673b34",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://blog.morphisec.com/fin7-attacks-restaurant-industry",
@@ -482,22 +360,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--3832d04e-41aa-456d-8104-b0a1fa2c12bb",
         "created": "2023-08-17T18:16:23.396Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -505,27 +375,19 @@
                 "url": "https://www.mandiant.com/resources/evolution-of-fin7"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.056Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has used `rundll32.exe` to execute malware on a compromised network.(Citation: Mandiant FIN7 Apr 2022) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3a30af61-b9b4-488e-aebc-dee4dfce52b6",
         "type": "relationship",
         "created": "2021-09-22T13:52:51.063Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "eSentire FIN7 July 2021",
@@ -538,22 +400,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3f0e6cfa-7edc-4eaa-bc03-754d0f46d605",
         "type": "relationship",
         "created": "2020-03-17T19:00:50.263Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
@@ -576,22 +430,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--3f4ff91e-a279-4777-b362-a57b0c4c098b",
         "created": "2021-09-22T15:14:41.127Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -604,17 +450,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-04T20:48:14.954Z",
         "description": "(Citation: CrowdStrike Carbon Spider August 2021)(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--f559f945-eb8b-48b1-904c-68568deebed3",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -623,8 +463,6 @@
         "type": "relationship",
         "id": "relationship--42684416-c3f0-4668-9c86-77482740179e",
         "created": "2023-10-05T17:38:00.017Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -632,17 +470,11 @@
                 "url": "https://www.mandiant.com/resources/evolution-of-fin7"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-10T17:36:41.030Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has utilized the remote management tool Atera to download malware to a compromised system.(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -651,8 +483,6 @@
         "type": "relationship",
         "id": "relationship--4856de0a-2635-4081-97a8-3f15593c2aa5",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -675,27 +505,19 @@
                 "url": "https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.057Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) used a PowerShell script to launch shellcode that retrieved an additional payload.(Citation: FireEye FIN7 April 2017)(Citation: Morphisec FIN7 June 2017)(Citation: FBI Flash FIN7 USB)(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--49d09bc3-cdc0-479b-8516-f64bff9b6757",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye FIN7 April 2017",
@@ -713,22 +535,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--0ced8926-914e-4c78-bc93-356fb90dbd1f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--506acc8a-e691-4f4e-b69f-bfab84cf2c73",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
@@ -741,22 +555,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--42fe883a-21ea-4cfb-b94a-78b6476dcc83",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--51afbe4e-c5cd-4acd-b4e1-ff7877b78b9e",
         "type": "relationship",
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.cyberscoop.com/fin7-dde-morphisec-fileless-malware/",
@@ -769,22 +575,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--51db2539-ad77-4fa1-8f54-2bb6ccf603df",
         "created": "2023-08-17T18:35:07.086Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -792,27 +590,19 @@
                 "url": "https://www.mandiant.com/resources/evolution-of-fin7"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.057Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has used the command `net group \"domain admins\" /domain` to enumerate domain groups.(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--58dd2402-7b8a-4ed0-8fd3-7b9656b543b8",
         "type": "relationship",
         "created": "2021-09-23T12:51:15.528Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -825,22 +615,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--5ed383c7-a4b7-441b-8f99-a9927689aea0",
         "created": "2021-09-23T13:09:35.866Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -853,17 +635,11 @@
                 "url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.058Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has encrypted virtual disk volumes on ESXi servers using a version of Darkside ransomware.(Citation: CrowdStrike Carbon Spider August 2021)(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -872,8 +648,6 @@
         "type": "relationship",
         "id": "relationship--5f0b2cd5-125e-4473-8623-5f5a7dc09caf",
         "created": "2023-08-17T18:34:14.383Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -881,17 +655,11 @@
                 "url": "https://www.mandiant.com/resources/evolution-of-fin7"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-05T14:54:03.534Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has utilized a variety of tools such as [Cobalt Strike](https://attack.mitre.org/software/S0154), [PowerSploit](https://attack.mitre.org/software/S0194), and the remote management tool, Atera for targeting efforts.(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -900,8 +668,6 @@
         "type": "relationship",
         "id": "relationship--64f76b74-cafc-4cf5-9c86-f7305fbaf61c",
         "created": "2023-08-17T18:46:27.039Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -909,17 +675,11 @@
                 "url": "https://www.mandiant.com/resources/evolution-of-fin7"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.059Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has set up Amazon S3 buckets to host trojanized digital products.(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -928,8 +688,6 @@
         "type": "relationship",
         "id": "relationship--65adbdda-7069-40ed-9825-b79ec87e4916",
         "created": "2021-09-21T15:47:37.522Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -952,27 +710,19 @@
                 "url": "https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-04T20:49:01.034Z",
         "description": "(Citation: IBM Ransomware Trends September 2020)(Citation: CrowdStrike Carbon Spider August 2021)(Citation: FBI Flash FIN7 USB)(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--ac61f1f9-7bb1-465e-9b8a-c2ce8e88baf5",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6aaf2c92-43a3-42f5-81ab-220c854607b0",
         "type": "relationship",
         "created": "2019-04-23T19:34:17.173Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye FIN7 April 2017",
@@ -985,22 +735,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--91541e7e-b969-40c6-bbd8-1b5352ec2938",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--6afed42c-6a42-402a-8964-7fcde5435336",
         "created": "2021-09-23T12:51:15.770Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -1013,27 +755,19 @@
                 "url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.059Z",
         "description": "(Citation: CrowdStrike Carbon Spider August 2021)(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--707474c8-890d-4be2-81d5-f6a4902b1309",
         "type": "relationship",
         "created": "2021-09-23T12:44:50.893Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -1046,22 +780,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "tool--c4810609-7da6-48ec-8057-1b70a7814db0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--72b1c4ab-81ca-47a4-a541-ceb44580c87b",
         "type": "relationship",
         "created": "2020-06-23T19:53:58.405Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
@@ -1084,22 +810,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--74859e2a-7a8f-4b87-b75c-7286b3de685c",
         "type": "relationship",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye FIN7 April 2017",
@@ -1117,22 +835,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--75270994-ea95-4744-a383-056eb96ab50d",
         "created": "2023-08-17T18:44:53.678Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -1140,17 +850,11 @@
                 "url": "https://www.mandiant.com/resources/evolution-of-fin7"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.060Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has compromised a digital product website and modified multiple download links to point to trojanized versions of offered digital products.(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1159,8 +863,6 @@
         "type": "relationship",
         "id": "relationship--7577e14c-ceba-4646-98ce-41e7fa9ae851",
         "created": "2017-05-31T21:33:27.080Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -1198,27 +900,19 @@
                 "url": "https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.060Z",
         "description": "(Citation: FireEye FIN7 March 2017)(Citation: FireEye FIN7 Aug 2018)(Citation: DOJ FIN7 Aug 2018)(Citation: IBM Ransomware Trends September 2020)(Citation: CrowdStrike Carbon Spider August 2021)(Citation: FBI Flash FIN7 USB)(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--72f54d66-675d-4587-9bd3-4ed09f9522e4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--91926031-c1b4-462b-8597-20b10e7211ef",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
@@ -1236,22 +930,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--6faf650d-bf31-4eb4-802d-1000cf38efaf",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--921b9a4d-091a-442b-981a-0b34daa2ed6a",
         "type": "relationship",
         "created": "2020-03-30T19:36:27.927Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye FIN7 Aug 2018",
@@ -1264,22 +950,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--95d8ef7d-47b2-438d-921c-902dbb3467bb",
         "type": "relationship",
         "created": "2020-10-07T15:35:14.636Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Trustwave Pillowmint June 2020",
@@ -1297,22 +975,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--bd7a9e13-69fa-4243-a5e5-04326a63f9f2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--95fc970d-98cd-4bc9-895a-9534ba89c795",
         "created": "2018-04-18T17:59:24.739Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Obfuscation June 2017",
@@ -1330,27 +1000,19 @@
                 "url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-03-22T03:51:36.200Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has used fragmented strings, environment variables, standard input (stdin), and native character-replacement functionalities to obfuscate commands.(Citation: FireEye Obfuscation June 2017)(Citation: FireEye FIN7 Aug 2018)(Citation: CrowdStrike Carbon Spider August 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9b9dad4a-c597-4979-9129-7753a7c3b3db",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
@@ -1373,22 +1035,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--9c61749d-ad78-476d-8cd6-ba4eafc8f74e",
         "created": "2021-09-23T12:35:23.324Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -1406,27 +1060,19 @@
                 "url": "https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.061Z",
         "description": "(Citation: CrowdStrike Carbon Spider August 2021)(Citation: FBI Flash FIN7 USB)(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9e77b81d-6298-4233-8baa-f419031a9d64",
         "type": "relationship",
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FireEye FIN7 April 2017",
@@ -1439,22 +1085,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ada291f4-524c-4400-9425-0936a03d4a41",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
@@ -1467,21 +1105,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--adfee22f-8471-4e82-b85c-21dcbb93ddde",
         "created": "2023-12-04T20:49:19.315Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -1489,18 +1120,11 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-04T20:49:19.315Z",
         "description": "(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--d9f7383c-95ec-4080-bbce-121c9384457b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1509,8 +1133,6 @@
         "type": "relationship",
         "id": "relationship--b077d81d-0449-493f-9b93-23dc0fb0b62d",
         "created": "2017-12-14T16:46:06.044Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -1528,17 +1150,11 @@
                 "url": "https://www.justice.gov/opa/press-release/file/1084361/download"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.062Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has downloaded additional malware to execute on the victim's machine, including by using a PowerShell script to launch shellcode that retrieves an additional payload.(Citation: FireEye FIN7 April 2017)(Citation: DOJ FIN7 Aug 2018)(Citation: Mandiant FIN7 Apr 2022) ",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1547,7 +1163,6 @@
         "type": "relationship",
         "id": "relationship--b1323523-7596-4cc2-bd31-34363e4e9b60",
         "created": "2023-12-04T21:29:37.187Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Microsoft Ransomware as a Service",
@@ -1555,28 +1170,19 @@
                 "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-12-04T21:29:37.187Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has used compromised credentials for access as SYSTEM on Exchange servers.(Citation: Microsoft Ransomware as a Service)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--b6eb09bc-fef4-4cf3-b337-dfe6bd87ca35",
         "created": "2017-05-31T21:33:27.079Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "FireEye FIN7 March 2017",
@@ -1584,27 +1190,19 @@
                 "description": "Miller, S., et al. (2017, March 7). FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings. Retrieved March 8, 2017."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: FireEye FIN7 March 2017)",
         "modified": "2022-07-20T20:06:44.716Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--17e919aa-4a49-445c-b103-dbb8df9e7351",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ba18e103-7479-4041-be39-4a78e0961d92",
         "type": "relationship",
         "created": "2021-09-22T13:52:51.039Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "eSentire FIN7 July 2021",
@@ -1617,22 +1215,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bc0ed7ce-f99f-4d88-a3cc-81af825f311a",
         "type": "relationship",
         "created": "2021-10-15T19:52:14.122Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -1645,22 +1235,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bde512f7-afbb-4fe5-8df7-53a00bdadc79",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
@@ -1673,22 +1255,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--c7697490-b9ad-45b9-9e69-ddc4a7a6d94c",
         "created": "2022-01-14T17:28:54.597Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "FBI Flash FIN7 USB",
@@ -1696,27 +1270,19 @@
                 "description": "The Record. (2022, January 7). FBI: FIN7 hackers target US companies with BadUSB devices to install ransomware. Retrieved January 14, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) actors have mailed USB drives to potential victims containing malware that downloads and installs various backdoors, including in some cases for ransomware operations.(Citation: FBI Flash FIN7 USB)",
         "modified": "2022-04-13T17:13:52.221Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ca2a22df-7f99-497a-8f51-cf0180308305",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
@@ -1729,22 +1295,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--cbf95438-c89f-451f-9895-eaeb3fb65104",
         "created": "2020-03-17T19:00:50.258Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -1762,27 +1320,19 @@
                 "url": "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.062Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) used the command prompt to launch commands on the victim\u2019s machine.(Citation: FireEye FIN7 Aug 2018)(Citation: Flashpoint FIN 7 March 2019)(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cc99be16-89cc-427a-b348-2236add3d816",
         "type": "relationship",
         "created": "2019-10-11T16:14:20.334Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Carr, N, et all. (2019, October 10). Mahalo FIN7: Responding to the Criminal Operators\u2019 New Tools and Techniques. Retrieved October 11, 2019.",
@@ -1795,22 +1345,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--065196de-d7e8-4888-acfb-b2134022ba1b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ceac12d5-3c40-42f6-a7df-0fa2e67bf1e8",
         "type": "relationship",
         "created": "2019-06-18T18:42:42.566Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Platt, J. and Reeves, J.. (2019, March). FIN7 Revisited: Inside Astra Panel and SQLRat Malware. Retrieved June 18, 2019.",
@@ -1823,22 +1365,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--8fc6c9e7-a162-4ca4-a488-f1819e9a7b06",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--cf9e7512-c510-4605-9035-f60335c351f4",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye FIN7 April 2017",
@@ -1866,27 +1400,19 @@
                 "url": "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-05T14:57:10.562Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) sent spearphishing emails with either malicious Microsoft Documents or RTF files attached.(Citation: FireEye FIN7 April 2017)(Citation: DOJ FIN7 Aug 2018)(Citation: Flashpoint FIN 7 March 2019)(Citation: eSentire FIN7 July 2021)(Citation: CrowdStrike Carbon Spider August 2021)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--d736ba76-c58b-4010-865e-68cd67fae4bf",
         "created": "2022-02-02T21:32:07.064Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Gemini FIN7 Oct 2021",
@@ -1899,17 +1425,11 @@
                 "description": "Seals, T. (2021, May 14). FIN7 Backdoor Masquerades as Ethical Hacking Tool. Retrieved February 2, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Threatpost Lizar May 2021)(Citation: Gemini FIN7 Oct 2021)",
         "modified": "2022-05-11T14:00:00.188Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--f74a5069-015d-4404-83ad-5ca01056c0dc",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -1918,8 +1438,6 @@
         "type": "relationship",
         "id": "relationship--d9a18216-bb4f-445a-92a9-abd99ba0609a",
         "created": "2023-10-05T17:03:07.069Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -1927,27 +1445,19 @@
                 "url": "https://www.mandiant.com/resources/evolution-of-fin7"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-10T17:34:58.495Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has staged legitimate software, that was trojanized to contain an Atera agent installer, on Amazon S3.(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--dd9f1283-ff4b-4314-b7ce-f326d6932bab",
         "type": "relationship",
         "created": "2021-09-21T14:39:55.535Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -1960,22 +1470,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--df3c2022-f649-45f5-a987-5ba7a766a058",
         "created": "2021-09-23T12:44:50.250Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -1988,27 +1490,19 @@
                 "url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.063Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has used Kerberoasting PowerShell commands such as, `Invoke-Kerberoast` for credential access and to enable lateral movement.(Citation: CrowdStrike Carbon Spider August 2021)(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--f2877f7f-9a4c-4251-879f-1224e3006bee",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--e232f720-ab39-43f4-b419-ae8de115c5e6",
         "created": "2017-05-31T21:33:27.079Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "FireEye FIN7 March 2017",
@@ -2016,17 +1510,11 @@
                 "description": "Miller, S., et al. (2017, March 7). FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings. Retrieved March 8, 2017."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: FireEye FIN7 March 2017)",
         "modified": "2022-07-20T20:06:44.727Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--4f6aa78c-c3d4-4883-9840-96ca2f5d6d47",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -2035,8 +1523,6 @@
         "type": "relationship",
         "id": "relationship--e814521c-211d-4db9-b637-dd13ccdfed92",
         "created": "2023-08-17T18:00:43.265Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Mandiant FIN7 Apr 2022",
@@ -2044,27 +1530,19 @@
                 "url": "https://www.mandiant.com/resources/evolution-of-fin7"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-04T18:10:49.064Z",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has gained initial access by compromising a victim's software supply chain.(Citation: Mandiant FIN7 Apr 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--ece11a34-960b-4ead-8258-02bee1bb0e41",
         "type": "relationship",
         "created": "2019-10-11T16:14:20.340Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "description": "Carr, N, et all. (2019, October 10). Mahalo FIN7: Responding to the Criminal Operators\u2019 New Tools and Techniques. Retrieved October 11, 2019.",
@@ -2077,22 +1555,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "malware--56d10a7f-bb42-4267-9b4c-63abb9c06010",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f443e72c-68a6-4d46-b2aa-96b1aafd5f6b",
         "type": "relationship",
         "created": "2018-10-17T00:14:20.652Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "https://www.justice.gov/opa/press-release/file/1084361/download",
@@ -2105,22 +1575,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f770ba6c-df62-4bd4-ab29-34a954c4f6ac",
         "type": "relationship",
         "created": "2021-10-15T19:52:14.116Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -2133,22 +1595,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fe3872cb-5e08-4a04-9162-a6868ef95952",
         "type": "relationship",
         "created": "2021-09-23T12:51:15.540Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -2161,22 +1615,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fe8004eb-df5b-43c5-bf5a-1cbe028e8663",
         "type": "relationship",
         "created": "2020-10-22T18:45:48.529Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "FBI Flash FIN7 USB",
@@ -2194,25 +1640,17 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "target_ref": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--b8530dbc-8ede-4b30-b0c1-f32bf2a081eb",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) has used ports 53, 80, 443, and 8080 for C2.(Citation: FireEye FIN7 Aug 2018)",
         "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
         "modified": "2022-04-25T14:00:00.188Z",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "created": "2018-10-17T00:14:20.652Z",
         "external_references": [
@@ -2222,26 +1660,18 @@
                 "url": "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html"
             }
         ],
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) used SQL, VBS and JavaScript scripts to help perform tasks on the victim's machine.",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "created": "2018-10-17T00:14:20.652Z",
         "id": "relationship--78ef53a6-d137-4251-b683-993f77b4061c",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "modified": "2020-03-31T14:49:39.188Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "FireEye FIN7 Aug 2018",
@@ -2255,26 +1685,18 @@
             }
         ],
         "relationship_type": "uses",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "target_ref": "attack-pattern--970cdb5c-02fb-4c38-b17e-d6327cf3c810",
         "description": "[FIN7](https://attack.mitre.org/groups/G0046) created several .LNK files on the victim's machine.",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "created": "2018-10-17T00:14:20.652Z",
         "id": "relationship--79d12bfb-6458-472f-85fc-4a8403956f9a",
         "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
         "modified": "2020-03-31T14:49:39.188Z",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "external_references": [
             {
                 "source_name": "FireEye FIN7 Aug 2018",
@@ -2283,14 +1705,8 @@
             }
         ],
         "relationship_type": "uses",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

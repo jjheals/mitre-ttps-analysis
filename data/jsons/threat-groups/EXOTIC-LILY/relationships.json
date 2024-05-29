@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--0277787b-6419-4371-aa5d-77b2d0cc025f",
         "created": "2022-08-18T15:44:40.846Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -12,27 +10,19 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-18T15:44:40.846Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "malware--99fdf3b4-96ef-4ab9-b191-fc683441cad0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--25527270-616e-4c53-a85a-03fc0b1e9a96",
         "created": "2022-08-19T19:49:03.537Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -40,27 +30,19 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has used the e-mail notification features of legitimate file sharing services for spearphishing.(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-19T19:49:03.537Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--f6ad61ee-65f3-4bd0-a3f5-2f0accb36317",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--4269e5cb-b2ad-4757-b0b0-bfd5e8b7dc38",
         "created": "2022-08-19T19:21:57.754Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -68,17 +50,11 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has established social media profiles to mimic employees of targeted companies.(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-19T19:21:57.754Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--b1ccd744-3f78-4a0e-9bb2-2002057f7928",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -87,7 +63,6 @@
         "type": "relationship",
         "id": "relationship--4ae86603-3199-4692-b37c-f26a7c7e3fc2",
         "created": "2022-10-13T17:49:03.523Z",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Proofpoint Bumblebee April 2022",
@@ -100,28 +75,19 @@
                 "url": "https://blog.google/threat-analysis-group/exposing-initial-access-broker-ties-conti/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-13T17:49:03.523Z",
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) conducted an e-mail thread-hijacking campaign with malicious ISO attachments.(Citation: Google EXOTIC LILY March 2022)(Citation: Proofpoint Bumblebee April 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--4f195e59-5f23-45d9-b48e-d0d0a0152b72",
         "created": "2022-08-18T15:40:12.487Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -129,17 +95,11 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has used malicious documents containing exploits for CVE-2021-40444 affecting Microsoft MSHTML.(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-18T15:40:12.487Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -148,8 +108,6 @@
         "type": "relationship",
         "id": "relationship--6f23e808-aa3b-4ad8-b932-e294c8921fdb",
         "created": "2022-08-18T17:10:42.968Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -157,17 +115,11 @@
                 "url": "https://blog.google/threat-analysis-group/exposing-initial-access-broker-ties-conti/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-17T14:58:53.994Z",
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has relied on victims to open malicious links in e-mails for execution.(Citation: Google EXOTIC LILY March 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -176,8 +128,6 @@
         "type": "relationship",
         "id": "relationship--736856d1-3ae3-4135-9dd4-7dfa6b55715b",
         "created": "2022-08-18T15:44:11.423Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Proofpoint Bumblebee April 2022",
@@ -190,27 +140,19 @@
                 "url": "https://blog.google/threat-analysis-group/exposing-initial-access-broker-ties-conti/"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2022-10-17T17:30:17.317Z",
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has gained execution through victims clicking on malicious LNK files contained within ISO files, which can execute hidden DLLs within the ISO.(Citation: Google EXOTIC LILY March 2022)(Citation: Proofpoint Bumblebee April 2022)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "0.1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--88d72a6e-091f-48ff-9ad4-fd05d748d956",
         "created": "2022-08-18T18:52:33.003Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -218,27 +160,19 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has created e-mail accounts to spoof targeted organizations.(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-18T18:52:33.003Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--9094f15c-c60c-4366-8c1b-22f21e1156b8",
         "created": "2022-08-18T18:41:10.279Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -246,27 +180,19 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has used file-sharing services including WeTransfer, TransferNow, and OneDrive to deliver payloads.(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-18T18:41:10.279Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--93450717-845e-4cd8-b1ac-3a842251a331",
         "created": "2022-08-18T19:10:14.042Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -274,27 +200,19 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has used contact forms on victim websites to generate phishing e-mails.(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-18T19:10:14.042Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--16cdd21f-da65-4e4f-bc04-dd7d198c7b26",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--988fda8d-8374-4ff7-b70c-f2a654442808",
         "created": "2022-08-19T19:51:28.985Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -302,27 +220,19 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has used malicious links to lure users into executing malicious payloads.(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-19T19:51:28.985Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--a42c4b1f-e145-4bf2-bd5e-fe65ff3e1a24",
         "created": "2022-08-19T19:32:31.915Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -330,27 +240,19 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has searched for information on targeted individuals on business databases including RocketReach and CrunchBase.(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-19T19:33:41.532Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--a51eb150-93b1-484b-a503-e51453b127a4",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--b2a03f9f-883b-4ced-b4a2-cd49d8e7a3aa",
         "created": "2022-08-22T15:55:19.477Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -358,27 +260,19 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-22T15:55:19.477Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "malware--04378e79-4387-468a-a8f7-f974b8254e44",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--b73144e0-3101-4631-9bdc-4e74a9a7d278",
         "created": "2022-08-18T18:46:56.877Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -386,27 +280,19 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has registered domains to spoof targeted organizations by changing the top-level domain (TLD) to \u201c.us\u201d, \u201c.co\u201d or \u201c.biz\u201d.(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-18T19:15:54.061Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--c854c48c-f9b0-4e41-904d-df7fe6700e7f",
         "created": "2022-08-19T19:25:14.395Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -414,27 +300,19 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has copied data from social media sites to impersonate targeted individuals.(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-19T19:25:14.395Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--bbe5b322-e2af-4a5e-9625-a4e62bf84ed3",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--cbf49a08-de8a-483a-9732-230f9cc93002",
         "created": "2022-08-18T18:59:11.143Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -442,27 +320,19 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has gathered targeted individuals' e-mail addresses through open source research and website contact forms.(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-18T18:59:11.143Z",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--db393f5e-8029-423c-bfbc-da48fc932cb0",
         "created": "2022-08-18T19:13:34.306Z",
-        "x_mitre_version": "0.1",
         "external_references": [
             {
                 "source_name": "Google EXOTIC LILY March 2022",
@@ -470,17 +340,11 @@
                 "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011)  has uploaded malicious payloads to file-sharing services including TransferNow, TransferXL, WeTransfer, and OneDrive.(Citation: Google EXOTIC LILY March 2022)",
         "modified": "2022-08-19T19:40:51.937Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
         "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

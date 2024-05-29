@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0082e86b-a7b7-496b-af03-88785b6c8fbb",
         "type": "relationship",
         "created": "2021-12-06T15:43:24.481Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -17,22 +15,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--08b30f76-ca12-4d2c-9345-ee51bfd54e9f",
         "type": "relationship",
         "created": "2021-12-07T14:46:10.689Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -55,22 +45,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--0ec90a7b-2ba7-4d7e-ac41-c5fdcf9e8046",
         "type": "relationship",
         "created": "2021-12-06T16:24:29.317Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -83,22 +65,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--8c4aef43-48d5-49aa-b2af-c0cd58d30c3d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--103489a6-af80-4d4d-8aa7-ca973713e8da",
         "type": "relationship",
         "created": "2021-12-07T14:46:10.667Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -111,22 +85,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--14dbc3a9-5e47-454a-805c-b8e22659362f",
         "type": "relationship",
         "created": "2021-12-07T18:17:41.829Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Gigamon Berserk Bear October 2021",
@@ -139,22 +105,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--16d72046-2569-4517-9a8f-c9f4377df7ab",
         "type": "relationship",
         "created": "2021-12-08T19:04:25.581Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Gigamon Berserk Bear October 2021",
@@ -167,22 +125,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--6ee2dc99-91ad-4534-a7d8-a649358c331f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--18210ad3-d5ed-414e-9b7d-04fc622dc2e9",
         "type": "relationship",
         "created": "2021-12-07T15:14:11.892Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Secureworks MCMD July 2019",
@@ -195,22 +145,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "tool--975737f1-b10d-476f-8bda-3ec26ea57172",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1896ca51-adf4-4a3b-be89-1aae18465741",
         "type": "relationship",
         "created": "2021-12-07T15:04:35.808Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -233,22 +175,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--1aa94645-05e8-40ce-b8b7-c83a4e03d4e2",
         "type": "relationship",
         "created": "2021-12-07T14:46:10.659Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -261,22 +195,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--20aaed95-65ce-4a0f-9e25-4a4156889a84",
         "created": "2021-12-08T19:04:25.603Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Gigamon Berserk Bear October 2021",
@@ -284,27 +210,19 @@
                 "description": "Slowik, J. (2021, October). THE BAFFLING BERSERK BEAR: A DECADE\u2019S ACTIVITY TARGETING CRITICAL INFRASTRUCTURE. Retrieved December 6, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has compromised legitimate websites to host C2 and malware modules.(Citation: Gigamon Berserk Bear October 2021)",
         "modified": "2022-04-18T17:50:58.605Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--e196b5c5-8118-4a1c-ab8a-936586ce3db5",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--21382ce2-a504-4adf-81d2-dc1306285553",
         "created": "2021-12-06T16:16:03.969Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "CISA AA20-296A Berserk Bear December 2020",
@@ -322,27 +240,19 @@
                 "description": "US-CERT. (2018, March 16). Alert (TA18-074A): Russian Government Cyber Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved June 6, 2018."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has used a batch script to gather folder and file names from victim hosts.(Citation: US-CERT TA18-074A)(Citation: Gigamon Berserk Bear October 2021)(Citation: CISA AA20-296A Berserk Bear December 2020)",
         "modified": "2022-04-06T12:33:48.916Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--23df34a9-9705-4efa-9f8f-90f4bcb1a310",
         "type": "relationship",
         "created": "2021-12-06T16:10:28.347Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -355,22 +265,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--635cbe30-392d-4e27-978e-66774357c762",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--26c62507-1a2b-4235-b80c-d5f7f52d1c95",
         "type": "relationship",
         "created": "2021-12-07T14:58:11.503Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -383,22 +285,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--dc31fe1e-d722-49da-8f5f-92c7b5aff534",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2c9e64fa-52a5-4233-a1b7-333e5d7b9d40",
         "type": "relationship",
         "created": "2021-12-07T15:14:11.846Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -411,22 +305,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--2ecdcdb3-6aa2-4888-921f-e9506ebbd00c",
         "type": "relationship",
         "created": "2021-12-07T18:39:06.274Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Gigamon Berserk Bear October 2021",
@@ -439,22 +325,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--3e4e4075-1731-47b5-b95f-7e0b916556d5",
         "type": "relationship",
         "created": "2021-12-06T15:53:35.343Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -472,22 +350,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--1d24cdee-9ea2-4189-b08e-af110bf2435d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--461ddc5d-889d-4879-ade3-27ff78d7e442",
         "type": "relationship",
         "created": "2021-12-07T18:39:06.206Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Gigamon Berserk Bear October 2021",
@@ -500,22 +370,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--478e9268-e91a-4777-a4ee-644be4cd9fd0",
         "type": "relationship",
         "created": "2021-12-06T16:24:29.236Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -528,22 +390,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--5372c5fe-f424-4def-bcd5-d3a8e770f07b",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--4d5240d1-508f-4cf0-bf38-9f9276894cbf",
         "type": "relationship",
         "created": "2021-12-06T20:36:44.157Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -556,22 +410,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--509eddb7-b86f-4831-953f-15017b5d987e",
         "type": "relationship",
         "created": "2021-12-07T18:17:41.838Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Gigamon Berserk Bear October 2021",
@@ -584,22 +430,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--5253d038-08a8-4d17-9549-bbcf67c37603",
         "type": "relationship",
         "created": "2020-08-12T17:52:48.622Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Secureworks IRON LIBERTY July 2019",
@@ -622,22 +460,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--62478274-7562-414a-9b03-f155f5a0d80b",
         "type": "relationship",
         "created": "2021-12-10T14:34:38.910Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-296A Berserk Bear December 2020",
@@ -650,22 +480,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--63759a0f-39e8-4d94-ab20-3bdba67ca502",
         "type": "relationship",
         "created": "2021-12-06T19:48:35.264Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -678,22 +500,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6385d0af-765c-44f9-afab-ed3852f6a22f",
         "type": "relationship",
         "created": "2021-12-06T20:36:44.008Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -706,22 +520,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--8982a661-d84c-48c0-b4ec-1db29c6cf3bc",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--68ece5ad-73bd-4562-ac08-877bd1e18f79",
         "created": "2021-12-07T15:14:11.873Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Core Security Impacket",
@@ -734,27 +540,19 @@
                 "url": "https://www.us-cert.gov/ncas/alerts/TA18-074A"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T22:09:34.691Z",
         "description": "(Citation: US-CERT TA18-074A)(Citation: Core Security Impacket)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6a8f9492-678f-42c7-8f61-a335c78ee85c",
         "type": "relationship",
         "created": "2021-12-06T16:30:49.253Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -767,22 +565,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--6f54be53-193e-49c0-aa8e-2b24caf436fd",
         "type": "relationship",
         "created": "2021-12-06T16:10:28.335Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -795,22 +585,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--71de7fd6-177c-4964-9f2b-eec22937fded",
         "type": "relationship",
         "created": "2021-12-06T16:30:49.190Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -823,22 +605,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--769a2214-5e04-4290-a172-b770f8bb223e",
         "type": "relationship",
         "created": "2021-12-06T15:55:33.706Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -851,22 +625,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--99c360a2-7395-46e4-88fc-dbd757bed5bf",
         "type": "relationship",
         "created": "2021-12-06T16:30:49.164Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -879,22 +645,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9b363538-86e1-446a-a4f8-b3045a7e8f68",
         "type": "relationship",
         "created": "2021-10-12T21:50:33.176Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Secureworks IRON LIBERTY July 2019",
@@ -907,22 +665,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--9c3ada08-1908-4458-a454-d91fda25ad04",
         "type": "relationship",
         "created": "2020-08-12T17:52:48.629Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Secureworks IRON LIBERTY July 2019",
@@ -940,22 +690,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a0d99ee4-f154-42a0-8984-8e76d3e155c9",
         "type": "relationship",
         "created": "2021-12-06T16:30:49.171Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -968,22 +710,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--a291d185-31c8-4458-a3fc-9af617af28d9",
         "created": "2021-12-06T19:48:35.203Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Core Security Impacket",
@@ -996,27 +730,19 @@
                 "url": "https://www.us-cert.gov/ncas/alerts/TA18-074A"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T22:09:34.693Z",
         "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has dropped and executed SecretsDump to dump password hashes. They also obtained ntds.dit from domain controllers.(Citation: US-CERT TA18-074A)(Citation: Core Security Impacket)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a60d34fc-9c1e-4b36-a82b-56258445c7f0",
         "type": "relationship",
         "created": "2021-10-12T22:07:18.481Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Secureworks IRON LIBERTY July 2019",
@@ -1034,22 +760,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "tool--c4810609-7da6-48ec-8057-1b70a7814db0",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a8ad10f7-be41-4fb7-805b-f3b227e56b26",
         "type": "relationship",
         "created": "2021-12-06T15:34:29.963Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1062,22 +780,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--ae28ef39-1e4f-41e5-9ffa-877030753852",
         "created": "2021-12-08T19:20:55.378Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Gigamon Berserk Bear October 2021",
@@ -1085,27 +795,19 @@
                 "description": "Slowik, J. (2021, October). THE BAFFLING BERSERK BEAR: A DECADE\u2019S ACTIVITY TARGETING CRITICAL INFRASTRUCTURE. Retrieved December 6, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has acquired VPS infrastructure for use in malicious campaigns.(Citation: Gigamon Berserk Bear October 2021)",
         "modified": "2022-04-18T15:17:15.837Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--79da0971-3147-4af6-a4f5-e8cd447cd795",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b0198291-ac44-47c5-9730-c11acfb1999d",
         "type": "relationship",
         "created": "2021-12-07T15:14:11.891Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1118,22 +820,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--b8b1f3a0-0202-4a2e-a234-f181d45d683a",
         "type": "relationship",
         "created": "2021-12-06T16:01:16.372Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1146,22 +840,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--bac1d1a4-14f7-4f68-8035-e322e94f92c9",
         "created": "2021-12-06T15:43:24.495Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1169,27 +855,19 @@
                 "url": "https://www.us-cert.gov/ncas/alerts/TA18-074A"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-10-01T02:46:24.205Z",
         "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has used SMB for C2.(Citation: US-CERT TA18-074A)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--9a60a291-8960-4387-8a4a-2ab5c18bb50b",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bd2f28c5-7687-4d74-b3ad-42d2d62e4548",
         "type": "relationship",
         "created": "2021-12-06T20:36:44.012Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1202,22 +880,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--bed23143-48a0-4883-ae33-416d60c27b5d",
         "type": "relationship",
         "created": "2021-12-07T14:38:12.907Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1230,22 +900,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c0a0d653-ff95-4c77-a129-c7f3398a56ca",
         "type": "relationship",
         "created": "2021-12-06T20:36:44.154Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1258,22 +920,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c4f902df-4b79-4bf7-b4b3-5873a316795b",
         "type": "relationship",
         "created": "2021-12-06T16:10:28.105Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1286,22 +940,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c5d4cfac-aa9a-4dfb-a991-e81f70a937e2",
         "type": "relationship",
         "created": "2021-12-10T14:34:38.896Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-296A Berserk Bear December 2020",
@@ -1314,22 +960,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--c6d4f484-bb75-4012-b756-f043e962aaa6",
         "type": "relationship",
         "created": "2021-12-06T15:43:24.365Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1342,22 +980,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cb54c094-5614-4d45-ab13-c00ab2cdb114",
         "type": "relationship",
         "created": "2021-12-06T16:30:49.186Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1370,22 +1000,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--cc6b3d5d-f77d-4c83-b484-1f2516133950",
         "type": "relationship",
         "created": "2021-12-06T16:10:28.067Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1403,22 +1025,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
         "type": "relationship",
         "id": "relationship--cd849a7c-f63a-4157-b4c9-9385115da08a",
         "created": "2021-12-06T19:48:35.193Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "Core Security Impacket",
@@ -1431,27 +1045,19 @@
                 "url": "https://www.us-cert.gov/ncas/alerts/TA18-074A"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-06T22:09:34.693Z",
         "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has dropped and executed SecretsDump to dump password hashes.(Citation: US-CERT TA18-074A)(Citation: Core Security Impacket)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--1ecfdab8-7d59-4c98-95d4-dc41970f57fc",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--d06cd799-f61b-460e-a287-e58e8ff39022",
         "created": "2021-12-10T14:18:11.098Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "CISA AA20-296A Berserk Bear December 2020",
@@ -1459,27 +1065,19 @@
                 "description": "CISA. (2020, December 1). Russian State-Sponsored Advanced Persistent Threat Actor Compromises U.S. Government Targets. Retrieved December 9, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has conducted SQL injection attacks, exploited vulnerabilities CVE-2019-19781 and CVE-2020-0688 for Citrix and MS Exchange, and CVE-2018-13379 for Fortinet VPNs.(Citation: CISA AA20-296A Berserk Bear December 2020)",
         "modified": "2022-04-18T15:40:58.202Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d2f19ee3-8e1c-46e4-b803-e8b3fa36f62e",
         "type": "relationship",
         "created": "2021-12-06T19:48:35.268Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1492,22 +1090,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d4968f45-d06b-4843-8f72-6e08beb94cab",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.070Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Dragonfly",
@@ -1525,22 +1115,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "malware--083bb47b-02c8-4423-81a2-f9ef58572974",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--d9bdae16-d3b3-4260-b1ef-2624cf4e836c",
         "type": "relationship",
         "created": "2021-12-10T14:23:03.570Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "CISA AA20-296A Berserk Bear December 2020",
@@ -1553,22 +1135,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--db5bc5e2-fb3d-42a7-8fbc-b0aff2be6f8f",
         "type": "relationship",
         "created": "2021-12-06T20:36:43.827Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1581,22 +1155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--db7707d7-5334-47b3-b203-0ee4fcbae5e9",
         "type": "relationship",
         "created": "2021-12-06T16:16:03.954Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1614,44 +1180,28 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--b77cf5f3-6060-475d-bd60-40ccbf28fdc2",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--dfd0dc6c-33ad-44a4-9def-1d8e23e278fb",
         "created": "2022-04-15T22:05:32.209Z",
-        "x_mitre_version": "0.1",
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "",
         "modified": "2022-05-24T14:00:00.188Z",
         "relationship_type": "revoked-by",
         "source_ref": "intrusion-set--76d59913-1d24-4992-a8ac-05a3eb093f71",
         "target_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ],
         "external_references": null
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--dfd6892f-82a4-4db4-a132-3d6f221e55f4",
         "type": "relationship",
         "created": "2020-08-12T17:52:48.627Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Secureworks IRON LIBERTY July 2019",
@@ -1664,22 +1214,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e068332d-0b1c-4aba-a60f-37c640e20d10",
         "type": "relationship",
         "created": "2020-08-12T17:52:48.619Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Secureworks IRON LIBERTY July 2019",
@@ -1707,22 +1249,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e13ba463-59c5-4e50-9aeb-420ab5e677db",
         "type": "relationship",
         "created": "2021-12-07T14:58:11.510Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1735,22 +1269,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--e15a2065-49a7-435f-b9ad-b45c4906aa74",
         "type": "relationship",
         "created": "2021-12-06T16:10:28.318Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1763,22 +1289,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f24cbdeb-cf7b-43d9-87b0-9ab10ba74b60",
         "type": "relationship",
         "created": "2021-12-06T15:58:36.388Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1796,22 +1314,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--f2aa88d9-852b-4932-9881-d9c6f5d89779",
         "created": "2021-12-10T14:57:31.872Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "CISA AA20-296A Berserk Bear December 2020",
@@ -1819,27 +1329,19 @@
                 "description": "CISA. (2020, December 1). Russian State-Sponsored Advanced Persistent Threat Actor Compromises U.S. Government Targets. Retrieved December 9, 2021."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has exploited a Windows Netlogon vulnerability (CVE-2020-1472) to obtain access to Windows Active Directory servers.(Citation: CISA AA20-296A Berserk Bear December 2020)",
         "modified": "2022-04-18T15:35:10.672Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f35c994e-80a6-414a-ab81-1a2eb5fd0829",
         "type": "relationship",
         "created": "2021-12-06T16:01:16.339Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1852,22 +1354,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--f5362c13-271a-486c-8665-996367599fd8",
         "type": "relationship",
         "created": "2021-12-07T14:38:12.909Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1880,22 +1374,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fa6f9dc7-e984-411a-9ce4-a822d4213bc6",
         "type": "relationship",
         "created": "2021-12-06T15:30:05.925Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1908,22 +1394,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fa9a8640-75e5-458c-99c0-e5e85aa32a77",
         "type": "relationship",
         "created": "2017-05-31T21:33:27.070Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "Symantec Dragonfly",
@@ -1946,22 +1424,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "malware--82cb34ba-02b5-432b-b2d2-07f55cbf674d",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--fc6b1d58-05bf-41a0-a7fd-fcbbae894430",
         "type": "relationship",
         "created": "2021-12-07T15:14:11.866Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -1974,22 +1444,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "tool--5a63f900-5e7e-4928-a746-dd4558e1df71",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--193cd4f3-bce7-4d30-9a12-d9a129575942",
         "type": "relationship",
         "created": "2021-12-06T15:43:24.316Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "source_name": "US-CERT TA18-074A",
@@ -2002,25 +1464,17 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "target_ref": "attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--8e2fcd7a-ea71-439b-ad2a-7cdd51c7cb28",
         "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has used spearphising campaigns to gain access to victims.(Citation: Secureworks IRON LIBERTY July 2019)",
         "target_ref": "attack-pattern--a62a8db3-f23a-4d8f-afd6-9dbc77e7813b",
         "modified": "2022-04-25T14:00:00.188Z",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "created": "2020-08-12T17:52:48.612Z",
         "external_references": [
@@ -2030,20 +1484,12 @@
                 "source_name": "Secureworks IRON LIBERTY July 2019"
             }
         ],
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly has used PowerShell.",
         "external_references": [
             {
@@ -2068,20 +1514,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly identified and browsed file servers on the victim network, viewing files pertaining to ICS or Supervisory Control and Data Acquisition (SCADA) systems.",
         "external_references": [
             {
@@ -2096,20 +1534,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly established encrypted connections over port 443.",
         "external_references": [
             {
@@ -2124,20 +1554,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly used Web shells to maintain access to a victim network and download additional malicious files.",
         "external_references": [
             {
@@ -2152,20 +1574,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--c16e5409-ee53-4d79-afdc-4099dc9292df",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly used various scripts for execution, and was observed installing Python 2.7 on a victim.",
         "external_references": [
             {
@@ -2180,42 +1594,26 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--397e4a59-23b1-47ef-9a57-9f401375b2cb",
         "modified": "2018-10-23T00:14:20.652Z",
         "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
         "relationship_type": "uses",
         "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
         ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
         "external_references": null,
-        "revoked": null,
         "description": null
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly used RDP to connect to additional victims.",
         "external_references": [
             {
@@ -2230,20 +1628,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--51dea151-0898-4a45-967c-3ebee0420484",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly created accounts that appeared to be tailored to each individual staging target.",
         "external_references": [
             {
@@ -2258,20 +1648,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly deleted system, security, terminal services, remote services, and audit logs from a victim.",
         "external_references": [
             {
@@ -2286,20 +1668,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly leveraged Outlook Web Access.",
         "external_references": [
             {
@@ -2314,20 +1688,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly used remote access services, including VPN and Outlook Web Access (OWA).",
         "external_references": [
             {
@@ -2342,20 +1708,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Accounts created by Dragonfly masqueraded as legitimate service accounts.",
         "external_references": [
             {
@@ -2370,20 +1728,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly has performed forced authentication to gather hashed user credentials over SMB using spearphishing attachments with external resource links and by modifying .LNK file icon resources to collect credentials from virtualized systems.",
         "external_references": [
             {
@@ -2398,20 +1748,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--b77cf5f3-6060-475d-bd60-40ccbf28fdc2",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly has performed screen captures of victims.",
         "external_references": [
             {
@@ -2431,20 +1773,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly dropped and executed SecretsDump, a tool that dumps password hashes.",
         "external_references": [
             {
@@ -2464,20 +1798,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly deleted a file immediately after executing it on a victim host.",
         "external_references": [
             {
@@ -2492,20 +1818,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly has used a scheduled task to execute a malicious file.",
         "external_references": [
             {
@@ -2520,20 +1838,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly disabled the host-based firewall on a victim and globally opened port 3389.",
         "external_references": [
             {
@@ -2548,20 +1858,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly dropped and executed Hydra, a password cracker.",
         "external_references": [
             {
@@ -2581,20 +1883,12 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     },
     {
         "created": "2018-01-16T16:13:52.465Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "description": "Dragonfly downloaded tools from a remote server after they were inside the victim network.",
         "external_references": [
             {
@@ -2609,14 +1903,8 @@
         "relationship_type": "uses",
         "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
         "type": "relationship",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "x_mitre_version": "1.0",
-        "x_mitre_deprecated": true,
-        "revoked": null
+        ]
     }
 ]

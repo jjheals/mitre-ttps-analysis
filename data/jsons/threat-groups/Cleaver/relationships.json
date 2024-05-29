@@ -1,10 +1,8 @@
 [
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--16fd44bf-405b-49c1-96d7-0cacb5d65e74",
         "created": "2017-05-31T21:33:27.032Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Cylance Cleaver",
@@ -12,27 +10,19 @@
                 "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Cylance Cleaver)",
         "modified": "2022-07-22T18:37:22.183Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
         "target_ref": "malware--fde50aaa-f5de-4cb8-989a-babb57d6a704",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--1c7b9a1b-e874-4881-884a-e3c3d1fd8aed",
         "created": "2017-05-31T21:33:27.032Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Cylance Cleaver",
@@ -40,27 +30,19 @@
                 "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Cleaver](https://attack.mitre.org/groups/G0003) has been known to dump credentials using Mimikatz and Windows Credential Editor.(Citation: Cylance Cleaver)",
         "modified": "2022-07-22T18:37:22.184Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
         "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--1e03e6e0-8b7b-4e93-a955-245561085aae",
         "created": "2020-10-15T13:56:46.934Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Cylance Cleaver",
@@ -68,27 +50,19 @@
                 "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Cleaver](https://attack.mitre.org/groups/G0003) has used custom tools to facilitate ARP cache poisoning.(Citation: Cylance Cleaver)",
         "modified": "2022-07-22T18:37:22.185Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
         "target_ref": "attack-pattern--cabe189c-a0e3-4965-a473-dcff00f17213",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--3cd8ef78-9d92-4e28-97ae-5bd6c698bfec",
         "created": "2017-05-31T21:33:27.032Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Cylance Cleaver",
@@ -96,27 +70,19 @@
                 "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Cylance Cleaver)",
         "modified": "2022-07-22T18:37:22.190Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
         "target_ref": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--406e78ba-fc34-4be9-9dcc-323aad40d709",
         "created": "2021-10-12T19:34:36.352Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Cylance Cleaver",
@@ -124,27 +90,19 @@
                 "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Cleaver](https://attack.mitre.org/groups/G0003) has obtained and used open-source tools such as [PsExec](https://attack.mitre.org/software/S0029), [Windows Credential Editor](https://attack.mitre.org/software/S0005), and [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: Cylance Cleaver)",
         "modified": "2022-07-22T18:37:22.191Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
         "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--49957d89-7449-476a-b542-d7811a86c230",
         "created": "2017-05-31T21:33:27.032Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Cylance Cleaver",
@@ -152,27 +110,19 @@
                 "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Cylance Cleaver)",
         "modified": "2022-07-22T18:37:22.192Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
         "target_ref": "malware--c0c45d38-fe57-4cd4-b2b2-9ecd0ddd4ca9",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--7dbfb31d-8ac7-44c5-ad9b-f22e07e95d7e",
         "created": "2020-10-15T00:52:01.922Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Cylance Cleaver",
@@ -180,27 +130,19 @@
                 "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "[Cleaver](https://attack.mitre.org/groups/G0003) has created customized tools and payloads for functions including ARP poisoning, encryption, credential dumping, ASP.NET shells, web backdoors, process enumeration, WMI querying, HTTP and SMB communications, network interface sniffing, and keystroke logging.(Citation: Cylance Cleaver)",
         "modified": "2022-07-22T18:37:22.195Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
         "target_ref": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "id": "relationship--a60c0123-95a3-4409-a60e-354e4237d6cb",
         "type": "relationship",
         "created": "2020-10-13T22:37:00.995Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "external_references": [
             {
                 "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/suspected-iran-based-hacker-group-creates-network-of-fake-linkedin-profiles/",
@@ -213,22 +155,14 @@
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
         "target_ref": "attack-pattern--b1ccd744-3f78-4a0e-9bb2-2002057f7928",
-        "x_mitre_version": "1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
-        "x_mitre_attack_spec_version": "2.1.0",
         "x_mitre_domains": [
             "enterprise-attack"
-        ],
-        "x_mitre_deprecated": null,
-        "revoked": null
+        ]
     },
     {
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "type": "relationship",
         "id": "relationship--b08e3c96-25a7-412f-bbfb-63e010ef3891",
         "created": "2017-05-31T21:33:27.032Z",
-        "x_mitre_version": "1.0",
         "external_references": [
             {
                 "source_name": "Cylance Cleaver",
@@ -236,17 +170,11 @@
                 "description": "Cylance. (2014, December). Operation Cleaver. Retrieved September 14, 2017."
             }
         ],
-        "x_mitre_deprecated": false,
-        "revoked": false,
         "description": "(Citation: Cylance Cleaver)",
         "modified": "2022-07-22T18:37:22.204Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063",
         "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
-        "x_mitre_attack_spec_version": "2.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]

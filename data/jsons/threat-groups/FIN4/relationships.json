@@ -3,8 +3,6 @@
         "type": "relationship",
         "id": "relationship--073fd81c-b49a-4800-b73a-c1b3aba3aa54",
         "created": "2019-01-31T02:01:45.564Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Hacking FIN4 Video Dec 2014",
@@ -17,17 +15,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-fin4.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-01T21:27:44.782Z",
         "description": "[FIN4](https://attack.mitre.org/groups/G0085) has used legitimate credentials to hijack email communications.(Citation: FireEye Hacking FIN4 Dec 2014)(Citation: FireEye Hacking FIN4 Video Dec 2014)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
         "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -36,8 +28,6 @@
         "type": "relationship",
         "id": "relationship--0ef0077e-ee87-4e67-a466-2085a9148fc9",
         "created": "2019-01-31T02:01:45.707Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Hacking FIN4 Video Dec 2014",
@@ -50,17 +40,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-fin4.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-01T21:27:44.785Z",
         "description": "[FIN4](https://attack.mitre.org/groups/G0085) has used VBA macros to display a dialog box and collect victim credentials.(Citation: FireEye Hacking FIN4 Dec 2014)(Citation: FireEye Hacking FIN4 Video Dec 2014)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
         "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -69,8 +53,6 @@
         "type": "relationship",
         "id": "relationship--50f68fb8-1e59-4b3a-b389-9c2797f4d347",
         "created": "2019-01-31T02:01:45.573Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Hacking FIN4 Dec 2014",
@@ -78,17 +60,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-fin4.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2024-02-08T15:46:45.344Z",
         "description": "[FIN4](https://attack.mitre.org/groups/G0085) has used [Tor](https://attack.mitre.org/software/S0183) to log in to victims' email accounts.(Citation: FireEye Hacking FIN4 Dec 2014)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
         "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.2.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -97,8 +73,6 @@
         "type": "relationship",
         "id": "relationship--59b6b000-c8c5-4b4a-8801-5102de111111",
         "created": "2019-01-31T02:01:45.715Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Hacking FIN4 Video Dec 2014",
@@ -111,17 +85,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-fin4.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-01T21:27:44.787Z",
         "description": "[FIN4](https://attack.mitre.org/groups/G0085) has lured victims to launch malicious attachments delivered via spearphishing emails (often sent from compromised accounts).(Citation: FireEye Hacking FIN4 Dec 2014)(Citation: FireEye Hacking FIN4 Video Dec 2014)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
         "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -130,8 +98,6 @@
         "type": "relationship",
         "id": "relationship--70a17629-6b01-4764-932b-8be576270329",
         "created": "2019-04-18T20:13:56.028Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Hacking FIN4 Dec 2014",
@@ -139,17 +105,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-fin4.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-01T21:27:44.788Z",
         "description": "[FIN4](https://attack.mitre.org/groups/G0085) has created rules in victims' Microsoft Outlook accounts to automatically delete emails containing words such as \u201chacked,\" \"phish,\" and \u201cmalware\" in a likely attempt to prevent organizations from communicating about their activities.(Citation: FireEye Hacking FIN4 Dec 2014)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
         "target_ref": "attack-pattern--0cf55441-b176-4332-89e7-2c4c7799d0ff",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -158,8 +118,6 @@
         "type": "relationship",
         "id": "relationship--822c5044-906d-4c4f-b350-49471beb03a8",
         "created": "2020-03-17T14:20:19.916Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Hacking FIN4 Video Dec 2014",
@@ -172,17 +130,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-fin4.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-01T21:27:44.789Z",
         "description": "[FIN4](https://attack.mitre.org/groups/G0085) has lured victims to click malicious links delivered via spearphishing emails (often sent from compromised accounts).(Citation: FireEye Hacking FIN4 Dec 2014)(Citation: FireEye Hacking FIN4 Video Dec 2014)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
         "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -191,8 +143,6 @@
         "type": "relationship",
         "id": "relationship--8cb59548-2e8d-4635-809b-b9ba22c94c31",
         "created": "2019-01-31T02:01:45.695Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Hacking FIN4 Video Dec 2014",
@@ -205,17 +155,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-fin4.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-01T21:27:44.790Z",
         "description": "[FIN4](https://attack.mitre.org/groups/G0085) has captured credentials via fake Outlook Web App (OWA) login pages and has also used a .NET based keylogger.(Citation: FireEye Hacking FIN4 Dec 2014)(Citation: FireEye Hacking FIN4 Video Dec 2014)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
         "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -224,8 +168,6 @@
         "type": "relationship",
         "id": "relationship--a568a6a5-860b-4fe1-9f00-ab6fbbb41a26",
         "created": "2019-01-31T02:01:45.685Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Hacking FIN4 Video Dec 2014",
@@ -238,17 +180,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-fin4.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-01T21:27:44.791Z",
         "description": "[FIN4](https://attack.mitre.org/groups/G0085) has presented victims with spoofed Windows Authentication prompts to collect their credentials.(Citation: FireEye Hacking FIN4 Dec 2014)(Citation: FireEye Hacking FIN4 Video Dec 2014)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
         "target_ref": "attack-pattern--a2029942-0a85-4947-b23c-ca434698171d",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -257,8 +193,6 @@
         "type": "relationship",
         "id": "relationship--a8e36e77-3899-4e7c-b27e-ab6ebf049066",
         "created": "2019-01-31T02:01:45.675Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Hacking FIN4 Video Dec 2014",
@@ -271,17 +205,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-fin4.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-01T21:27:44.792Z",
         "description": "[FIN4](https://attack.mitre.org/groups/G0085) has used spearphishing emails (often sent from compromised accounts) containing malicious links.(Citation: FireEye Hacking FIN4 Dec 2014)(Citation: FireEye Hacking FIN4 Video Dec 2014)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
         "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -290,8 +218,6 @@
         "type": "relationship",
         "id": "relationship--c35e3d28-f9f2-4547-9927-7b734ebec54c",
         "created": "2019-01-31T02:01:45.725Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Hacking FIN4 Video Dec 2014",
@@ -304,17 +230,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-fin4.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-01T21:27:44.793Z",
         "description": "[FIN4](https://attack.mitre.org/groups/G0085) has used spearphishing emails containing attachments (which are often stolen, legitimate documents sent from compromised accounts) with embedded malicious macros.(Citation: FireEye Hacking FIN4 Dec 2014)(Citation: FireEye Hacking FIN4 Video Dec 2014)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
         "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -323,8 +243,6 @@
         "type": "relationship",
         "id": "relationship--d26abf6d-069b-4b7b-b408-cf9065ebef92",
         "created": "2019-01-31T02:01:45.514Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Hacking FIN4 Video Dec 2014",
@@ -337,17 +255,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-fin4.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-01T21:27:44.794Z",
         "description": "[FIN4](https://attack.mitre.org/groups/G0085) has used HTTP POST requests to transmit data.(Citation: FireEye Hacking FIN4 Dec 2014)(Citation: FireEye Hacking FIN4 Video Dec 2014)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
         "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
@@ -356,8 +268,6 @@
         "type": "relationship",
         "id": "relationship--e9267a72-00d7-438b-8c41-af72021e89d0",
         "created": "2019-01-31T02:01:45.663Z",
-        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "revoked": false,
         "external_references": [
             {
                 "source_name": "FireEye Hacking FIN4 Video Dec 2014",
@@ -370,17 +280,11 @@
                 "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-fin4.pdf"
             }
         ],
-        "object_marking_refs": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
         "modified": "2023-02-01T21:27:44.797Z",
         "description": "[FIN4](https://attack.mitre.org/groups/G0085) has accessed and hijacked online email communications using stolen credentials.(Citation: FireEye Hacking FIN4 Dec 2014)(Citation: FireEye Hacking FIN4 Video Dec 2014)",
         "relationship_type": "uses",
         "source_ref": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
         "target_ref": "attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a",
-        "x_mitre_deprecated": false,
-        "x_mitre_version": "1.0",
-        "x_mitre_attack_spec_version": "3.1.0",
-        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-        "spec_version": "2.1",
         "x_mitre_domains": [
             "enterprise-attack"
         ]
